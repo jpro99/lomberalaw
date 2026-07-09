@@ -24,6 +24,9 @@
    consistently, not decorated further.
    ============================================================ */
 
+@tailwind base;
+   @tailwind components;
+   @tailwind utilities;
 :root {
   /* ---- Core neutrals ---- */
   --color-ink: #182437;         /* primary text, nav, authority */
