@@ -3,6 +3,92 @@
 Bilingual (EN/ES) personal injury + bankruptcy firm site. Next.js App
 Router + Payload CMS 3 (embedded, same repo/deploy) + Postgres.
 
+## Status: Phase 5 — FAQ hub, resources/blog, reviews
+
+What's real in this commit (on top of Phases 0-3):
+
+- **`/faq/`** — general FAQ hub, aggregates every FAQ marked
+  `showOnGeneralFAQPage`, full FAQPage schema.
+- **`/reviews/`** — all testimonials with AggregateRating schema
+  (computed from actual seeded ratings, not a hardcoded number).
+- **`/resources/`** + **`/resources/[slug]/`** — blog hub and post
+  template. Every post is required to link down to at least one
+  service page (`relatedServices` is a required field on the Posts
+  collection since Phase 0) -- enforced in code, not just policy.
+- One real starter post seeded: "What to Do in the First 24 Hours
+  After a Car Accident," bilingual, linking to Car Accidents.
+- 5 FAQs total now (3 service-specific from Phase 2 + 2 general),
+  all bilingual.
+
+Note: Phase 4 (Spanish mirror) in the original phased plan is
+already covered -- bilingual routing, field-level localization, and
+translated content have existed since Phase 0/1 rather than being
+bolted on separately.
+
+What's still open: Twilio/calendar/CRM integration (Phase 6),
+performance/SEO hardening pass (Phase 7). The memory architecture
+from Phase 1 (Contacts/Events/Episodes) is already positioned for
+Phase 6 to plug into.
+
+## Status: Phase 3 — Money pages + locations hub
+
+What's real in this commit (on top of Phases 0-2):
+
+- **18 tier-1 money pages** live: `/personal-injury/car-accidents/[city]/`
+  and `/bankruptcy/chapter-7/[city]/` + `/bankruptcy/chapter-13/[city]/`
+  for all 6 priority cities (Riverside, San Bernardino, Redlands, Palm
+  Springs, Palm Desert, Indio). Each pulls courthouse/highway/nearby-
+  city facts from the single City record -- edit a courthouse once,
+  every page for that city updates.
+- **`/locations/` hub** and **`/locations/[city]/`** hub pages for
+  all 12 cities -- every service listed, linking to the tier-1 money
+  page where one exists, or the general service page otherwise. This
+  is the fallback the IA promised: no thin auto-generated pages for
+  the 2nd/3rd-tier combinations.
+- Money-page URLs for non-tier-1 combinations **redirect to the city
+  hub** instead of 404ing -- e.g. visiting
+  `/personal-injury/slip-and-fall/redlands/` (not a tier-1 page)
+  sends you to `/locations/redlands/` instead of a dead end.
+- Nearby-city cross-linking on both money pages and city hubs, per
+  the internal linking strategy.
+
+What's still open:
+
+- Tier-1 set is deliberately narrow (18 pages) -- expanding to more
+  cities/services is a content decision for later, not a technical
+  blocker.
+- `/faq/` general hub page not built yet (Phase 5).
+- Resource/blog posts not built yet (Phase 5).
+
+## Status: Phase 2 — Service pages + full collection seeding
+
+What's real in this commit (on top of Phase 0 + Phase 1):
+
+- Individual service pages: `/personal-injury/[service]/` and
+  `/bankruptcy/[service]/` for all 11 services — breadcrumbs,
+  LegalService + FAQPage + BreadcrumbList schema, sibling-service
+  internal linking, FAQ accordion (native `<details>`, zero client JS).
+- `Cities` collection seeded with all 12 target cities, courthouse/
+  highway data, and nearby-city relationships wired for the internal
+  linking strategy. **Courthouse assignments are flagged in the seed
+  script for staff verification before these appear on public money
+  pages** — getting this wrong on a law firm site is a real problem.
+- `FAQs` collection seeded with a starter set, tied to services,
+  bilingual.
+- Fixed a real gap Jeff hit in testing: `scripts/seed.ts` and
+  `scripts/summarize.ts` now load `.env` via `dotenv/config` --
+  Payload's own CLI (`payload migrate`) auto-loads env vars, but
+  scripts run directly through `tsx` do not.
+
+What's still Phase 3+:
+
+- `ServiceCityPages` (the actual money pages: service × city, tier-1
+  only) -- not built yet. Service pages exist now; city-specific
+  variants are next.
+- `/locations/` hub and per-city hub pages.
+- Full internal link graph completion (service pages don't yet link
+  down to city pages, since those don't exist).
+
 ## Status: Phase 0 — Foundation
 
 What's real in this commit:

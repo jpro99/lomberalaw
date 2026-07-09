@@ -5,5 +5,3 @@ node_modules
 *.log
 .DS_Store
 src/payload-types.ts
-.env.txt
-.env*

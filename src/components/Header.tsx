@@ -14,6 +14,7 @@ export async function Header({ locale }: { locale: Locale }) {
   const links = [
     { href: '/personal-injury', label: copy.nav.personalInjury },
     { href: '/bankruptcy', label: copy.nav.bankruptcy },
+    { href: '/locations', label: copy.nav.locations },
     { href: '/attorney/edgar-lombera', label: copy.nav.attorney },
     { href: '/contact', label: copy.nav.contact },
   ]

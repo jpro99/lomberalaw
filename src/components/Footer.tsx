@@ -31,6 +31,7 @@ export async function Footer({ locale }: { locale: Locale }) {
             <ul className="mt-3 space-y-2 font-body text-sm text-ink-soft">
               <li><Link href={`${prefix}/personal-injury`}>{copy.nav.personalInjury}</Link></li>
               <li><Link href={`${prefix}/bankruptcy`}>{copy.nav.bankruptcy}</Link></li>
+              <li><Link href={`${prefix}/locations`}>{copy.nav.locations}</Link></li>
             </ul>
           </div>
 
@@ -57,6 +58,9 @@ export async function Footer({ locale }: { locale: Locale }) {
             <ul className="mt-3 space-y-2 font-body text-sm text-ink-soft">
               <li><Link href={`${prefix}/contact`}>{copy.nav.contact}</Link></li>
               <li><Link href={`${prefix}/attorney/edgar-lombera`}>{copy.nav.attorney}</Link></li>
+              <li><Link href={`${prefix}/faq`}>FAQ</Link></li>
+              <li><Link href={`${prefix}/resources`}>{locale === 'es' ? 'Recursos' : 'Resources'}</Link></li>
+              <li><Link href={`${prefix}/reviews`}>{locale === 'es' ? 'Reseñas' : 'Reviews'}</Link></li>
             </ul>
           </div>
         </div>
