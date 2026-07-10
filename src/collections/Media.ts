@@ -1,6 +1,8 @@
 import type { CollectionConfig } from 'payload'
+import { revalidateAfterChange, revalidateAfterDelete } from '../hooks/revalidate'
 
 export const Media: CollectionConfig = {
+  hooks: { afterChange: [revalidateAfterChange], afterDelete: [revalidateAfterDelete] },
   slug: 'media',
   admin: { useAsTitle: 'alt' },
   upload: {

@@ -1,8 +1,10 @@
 import type { CollectionConfig } from 'payload'
+import { revalidateAfterChange, revalidateAfterDelete } from '../hooks/revalidate'
 import { lexicalEditor } from '@payloadcms/richtext-lexical'
 import { seoField } from '../fields/seo'
 
 export const Posts: CollectionConfig = {
+  hooks: { afterChange: [revalidateAfterChange], afterDelete: [revalidateAfterDelete] },
   slug: 'posts',
   admin: { useAsTitle: 'title', defaultColumns: ['title', 'publishedAt'] },
   fields: [

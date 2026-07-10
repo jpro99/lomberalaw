@@ -1,6 +1,8 @@
 import type { CollectionConfig } from 'payload'
+import { revalidateAfterChange, revalidateAfterDelete } from '../hooks/revalidate'
 
 export const Testimonials: CollectionConfig = {
+  hooks: { afterChange: [revalidateAfterChange], afterDelete: [revalidateAfterDelete] },
   slug: 'testimonials',
   admin: { useAsTitle: 'author', defaultColumns: ['author', 'rating', 'practiceArea', 'city'] },
   fields: [

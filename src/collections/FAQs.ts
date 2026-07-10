@@ -1,7 +1,9 @@
 import type { CollectionConfig } from 'payload'
+import { revalidateAfterChange, revalidateAfterDelete } from '../hooks/revalidate'
 import { lexicalEditor } from '@payloadcms/richtext-lexical'
 
 export const FAQs: CollectionConfig = {
+  hooks: { afterChange: [revalidateAfterChange], afterDelete: [revalidateAfterDelete] },
   slug: 'faqs',
   admin: { useAsTitle: 'question' },
   fields: [

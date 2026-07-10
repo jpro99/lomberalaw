@@ -1,8 +1,10 @@
 import type { CollectionConfig } from 'payload'
+import { revalidateAfterChange, revalidateAfterDelete } from '../hooks/revalidate'
 import { lexicalEditor } from '@payloadcms/richtext-lexical'
 import { seoField } from '../fields/seo'
 
 export const PracticeAreas: CollectionConfig = {
+  hooks: { afterChange: [revalidateAfterChange], afterDelete: [revalidateAfterDelete] },
   slug: 'practice-areas',
   admin: { useAsTitle: 'name', defaultColumns: ['name', 'slug', 'updatedAt'] },
   fields: [

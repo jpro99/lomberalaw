@@ -3,6 +3,29 @@
 Bilingual (EN/ES) personal injury + bankruptcy firm site. Next.js App
 Router + Payload CMS 3 (embedded, same repo/deploy) + Postgres.
 
+## Status: On-demand content revalidation
+
+Fixes the gap you found: saving a change in `/admin` (like the
+attorney photo) wasn't showing up on the live site because several
+pages use static generation -- Next.js bakes the HTML at build time
+and serves that snapshot until told otherwise.
+
+**Fix:** `src/hooks/revalidate.ts` -- attached to every content
+collection (`PracticeAreas`, `Services`, `Cities`,
+`ServiceCityPages`, `Attorneys`, `Testimonials`, `FAQs`, `Posts`,
+`Offices`, `Media`, `CTAVariants`) and both globals (`SiteSettings`,
+`MainNavigation`). The moment you save anything in `/admin`, it
+calls `revalidatePath('/', 'layout')` directly -- Payload runs
+embedded in the same Next.js process, so no separate API route or
+webhook was needed. Every visitor's next page load gets fresh
+content within seconds, no redeploy required.
+
+This revalidates broadly (the whole site) rather than precisely
+tracking which pages depend on which piece of content -- a Service
+edit could touch its hub page, its own page, and money pages built
+from it, not worth hand-mapping at this scale. Revalidation is cheap
+(cache invalidation, not a rebuild).
+
 ## Status: Admin panel fix + favicon fix
 
 Two more real bugs found from actual Vercel runtime logs, not guesses:

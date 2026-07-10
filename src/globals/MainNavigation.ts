@@ -1,6 +1,8 @@
 import type { GlobalConfig } from 'payload'
+import { revalidateGlobalAfterChange } from '../hooks/revalidate'
 
 export const MainNavigation: GlobalConfig = {
+  hooks: { afterChange: [revalidateGlobalAfterChange] },
   slug: 'main-navigation',
   fields: [
     {

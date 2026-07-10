@@ -1,6 +1,8 @@
 import type { CollectionConfig } from 'payload'
+import { revalidateAfterChange, revalidateAfterDelete } from '../hooks/revalidate'
 
 export const Cities: CollectionConfig = {
+  hooks: { afterChange: [revalidateAfterChange], afterDelete: [revalidateAfterDelete] },
   slug: 'cities',
   admin: { useAsTitle: 'name', defaultColumns: ['name', 'county', 'slug'] },
   fields: [
