@@ -3,6 +3,60 @@
 Bilingual (EN/ES) personal injury + bankruptcy firm site. Next.js App
 Router + Payload CMS 3 (embedded, same repo/deploy) + Postgres.
 
+## Status: Real-color tree illustrations + split-office hero
+
+Direct response to feedback that the trees needed to actually look
+like orange/palm trees, and the two offices needed to be visually
+distinguishable on the homepage.
+
+**Illustrations rebuilt from monotone silhouettes to real, detailed,
+multi-color trees:**
+- `OrangeTree` -- layered green canopy (not one flat blob), a real
+  brown trunk with visible branch fork, 6 distinct orange fruit with
+  highlight dimension, not just tinted circles.
+- `PalmTree` -- tall segmented trunk, 7 fan-shaped fronds radiating
+  from the crown (Washingtonia/fan-palm style, the actual palm
+  associated with Palm Springs specifically), with a slight lean
+  variant for a second tree.
+
+**Homepage hero redesigned as a genuine split layout**: left-to-
+right gradient (citrus tone → pool tone), a large orange tree
+anchored bottom-left, two palm trees anchored bottom-right, and
+small location tag pills reading "Redlands, California" /
+"Palm Springs, California" -- makes the two-office identity
+explicit without literally saying "Welcome."
+
+**Deliberately not using stock photography**, and here's why: real
+photos of orange groves/palm trees would need to be licensed --
+using unlicensed images is real legal exposure for the firm's site,
+not just a style question. It would also add page weight against
+the "extremely fast" requirement. Illustration stays pure inline
+SVG: zero image downloads, zero licensing risk, zero performance
+cost, and can be refined indefinitely at no cost.
+
+City hub pages (which use the smaller `HorizonMotif` variant) get
+the same upgraded tree quality automatically -- same underlying
+illustrations, smaller scale.
+
+## Status: Slip & Fall removed, homepage attorney photo added
+
+**Slip & Fall removed from seed source.** It won't be recreated on
+future `npm run seed` runs. **One manual step needed**: since it may
+already exist in your live database from an earlier seed run,
+delete it yourself in `/admin` → Services → find "Slip & Fall" →
+delete. No code can reach into your live database to remove it for
+you.
+
+**Homepage attorney photo — real gap, now fixed.** The homepage
+never queried the Attorneys collection at all; the photo you
+uploaded only ever showed on the `/attorney/edgar-lombera` page.
+Added a "Meet Your Attorney" section on the homepage (between
+practice areas and testimonials) that pulls the same photo
+automatically -- no second upload needed. Falls back to a styled
+"EPL" monogram if no photo exists yet, same pattern as the bio page.
+Also pulls the first paragraph of the bio text and links through to
+the full bio page.
+
 ## Status: Fix — seed script crash from revalidation hooks
 
 Real bug, caught from your terminal output: `npm run seed` crashed

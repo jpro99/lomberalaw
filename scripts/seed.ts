@@ -181,7 +181,6 @@ async function main() {
     { slug: 'car-accidents', practiceArea: 'personal-injury', titleEn: 'Car Accidents', titleEs: 'Accidentes de Auto', order: 80 },
     { slug: 'motorcycle-accidents', practiceArea: 'personal-injury', titleEn: 'Motorcycle Accidents', titleEs: 'Accidentes de Motocicleta', order: 90 },
     { slug: 'pedestrian-accidents', practiceArea: 'personal-injury', titleEn: 'Pedestrian Accidents', titleEs: 'Accidentes de Peatones', order: 100 },
-    { slug: 'slip-and-fall', practiceArea: 'personal-injury', titleEn: 'Slip & Fall', titleEs: 'Resbalones y Caídas', order: 110 },
     // Bankruptcy
     { slug: 'chapter-7', practiceArea: 'bankruptcy', titleEn: 'Chapter 7 Bankruptcy', titleEs: 'Bancarrota Capítulo 7', order: 10 },
     { slug: 'chapter-13', practiceArea: 'bankruptcy', titleEn: 'Chapter 13 Bankruptcy', titleEs: 'Bancarrota Capítulo 13', order: 20 },
