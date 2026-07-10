@@ -1,30 +1,9 @@
 import type { Metadata } from 'next'
-import { Fraunces, Inter, IBM_Plex_Mono } from 'next/font/google'
 import { notFound } from 'next/navigation'
 import { Header } from '@/components/Header'
 import { Footer } from '@/components/Footer'
 import { EventBeacon } from '@/components/EventBeacon'
 import '../globals.css'
-
-const fraunces = Fraunces({
-  subsets: ['latin'],
-  variable: '--font-display',
-  weight: ['400', '500', '600', '700'],
-  display: 'swap',
-})
-
-const inter = Inter({
-  subsets: ['latin'],
-  variable: '--font-body',
-  display: 'swap',
-})
-
-const plexMono = IBM_Plex_Mono({
-  subsets: ['latin'],
-  variable: '--font-data',
-  weight: ['400', '500'],
-  display: 'swap',
-})
 
 const LOCALES = ['en', 'es'] as const
 type Locale = (typeof LOCALES)[number]
@@ -49,7 +28,15 @@ export default async function LocaleLayout({
   if (!LOCALES.includes(locale as Locale)) notFound()
 
   return (
-    <html lang={locale} className={`${fraunces.variable} ${inter.variable} ${plexMono.variable}`}>
+    <html lang={locale}>
+      <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap"
+          rel="stylesheet"
+        />
+      </head>
       <body>
         <EventBeacon />
         <Header locale={locale as Locale} />
