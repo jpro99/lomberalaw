@@ -3,6 +3,40 @@
 Bilingual (EN/ES) personal injury + bankruptcy firm site. Next.js App
 Router + Payload CMS 3 (embedded, same repo/deploy) + Postgres.
 
+## Status: Vintage regional signage — colorful, SEO-considered
+
+Direct response to "not a real photo, a colorful digital sign" +
+the SEO question about what text belongs where.
+
+**Two new sign illustrations** (`LocationSigns.tsx`), rooted in each
+town's actual historic design tradition rather than a generic
+"Welcome to" placard:
+- `RedlandsSign` -- vintage citrus-crate label style: sunburst,
+  ornamental dashed border, orange-grove illustration, bold color
+  blocks. This is literally the historic graphic tradition of the
+  Redlands citrus industry, not an invented aesthetic.
+- `PalmSpringsSign` -- mid-century Palm Springs travel-poster style:
+  gradient sky, mountain ridge, sun, three palms, flat bold color
+  fields -- the region's real 1950s-60s design identity.
+
+Both use real SVG `<text>` (crawlable, not a rasterized image), and
+deliberately keep practice-area keywords **off** the graphic --
+that's addressed below.
+
+**SEO decision, made explicit:** practice-area keyword phrases
+("Personal Injury & Bankruptcy Attorney") belong in the real H1/
+headline text, where Google actually weights them -- not baked into
+a decorative sign. Putting them on the sign itself would also read
+as billboard-style ad copy, conflicting with the "not hypey, not
+billboard-lawyer" brand tone from the positioning work earlier
+tonight. Signs stay about place identity; the headline carries the
+keywords. "Redlands" (not "Inland Empire") used specifically, since
+it matches the site's existing city-targeted page architecture.
+
+Signs are large-screen only (`lg:` breakpoint) to avoid clutter on
+mobile -- smaller screens keep the faint tree-strip background
+instead. Zero image downloads either way, pure inline SVG.
+
 ## Status: Real-color tree illustrations + split-office hero
 
 Direct response to feedback that the trees needed to actually look

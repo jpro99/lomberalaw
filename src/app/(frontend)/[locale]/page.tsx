@@ -10,6 +10,7 @@ import { TestimonialCard } from '@/components/TestimonialCard'
 import { JsonLd } from '@/components/JsonLd'
 import { localBusinessSchema } from '@/lib/schema'
 import { SplitHeroArt } from '@/components/HorizonMotif'
+import { RedlandsSign, PalmSpringsSign } from '@/components/LocationSigns'
 
 export default async function HomePage({
   params,
@@ -41,17 +42,13 @@ export default async function HomePage({
 
       {/* Hero */}
       <section className="relative overflow-hidden border-b border-line bg-gradient-to-r from-citrus-soft via-stone to-pool-soft">
-        <SplitHeroArt className="pointer-events-none absolute inset-x-0 bottom-0 h-40 w-full md:h-56" />
+        <SplitHeroArt className="pointer-events-none absolute inset-x-0 bottom-0 h-24 w-full opacity-40 md:h-32" />
 
-        {/* Location tags -- makes the two-office identity explicit */}
-        <div className="pointer-events-none absolute bottom-4 left-4 hidden items-center gap-1.5 rounded-full border border-line bg-panel/90 px-3 py-1 font-body text-[11px] font-bold uppercase tracking-wide text-citrus-deep backdrop-blur sm:flex md:bottom-6 md:left-6">
-          <span className="h-1.5 w-1.5 rounded-full bg-citrus" aria-hidden />
-          Redlands, California
-        </div>
-        <div className="pointer-events-none absolute bottom-4 right-4 hidden items-center gap-1.5 rounded-full border border-line bg-panel/90 px-3 py-1 font-body text-[11px] font-bold uppercase tracking-wide text-pool-deep backdrop-blur sm:flex md:bottom-6 md:right-6">
-          <span className="h-1.5 w-1.5 rounded-full bg-pool" aria-hidden />
-          Palm Springs, California
-        </div>
+        {/* Vintage regional signage -- real place identity, colorful,
+           rooted in each town's actual historic design tradition.
+           Practice-area keywords live in the H1 below, not here. */}
+        <RedlandsSign className="pointer-events-none absolute -left-6 bottom-4 hidden h-28 w-28 drop-shadow-lg lg:block xl:h-36 xl:w-36" />
+        <PalmSpringsSign className="pointer-events-none absolute -right-6 bottom-4 hidden h-28 w-28 drop-shadow-lg lg:block xl:h-36 xl:w-36" />
 
         <Container className="relative grid gap-10 py-16 md:grid-cols-[1.2fr_1fr] md:items-center md:py-24">
           <div>
