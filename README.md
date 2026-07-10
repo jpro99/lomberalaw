@@ -3,6 +3,30 @@
 Bilingual (EN/ES) personal injury + bankruptcy firm site. Next.js App
 Router + Payload CMS 3 (embedded, same repo/deploy) + Postgres.
 
+## Status: Admin panel fix + favicon fix
+
+Two more real bugs found from actual Vercel runtime logs, not guesses:
+
+- **Blank `/admin` page.** Root cause: `src/app/(payload)/admin/importMap.js`
+  was a placeholder empty object since Phase 0 (documented then as
+  needing regeneration once real admin components existed). Once
+  Vercel Blob storage was added, the admin UI needed
+  `VercelBlobClientUploadHandler` from that map and silently failed
+  to render when it wasn't there -- page returned 200, logged a
+  clear warning (`PayloadComponent not found in importMap`), but
+  rendered nothing. Fixed by actually running
+  `payload generate:importmap` and committing the real output.
+  **Run this again any time a new upload-capable field or admin
+  component is added** -- it's not a one-time fix, it's a build step
+  that was simply never run.
+- **`/favicon.ico` and `/favicon.png` returning 500** on every
+  request (visible in runtime logs all night, invisible to actual
+  visitors). Root cause: no favicon file existed anywhere, so the
+  request was falling through to the `[locale]` catch-all route and
+  crashing. Fixed with `src/app/icon.tsx`, Next.js's dynamic icon
+  convention -- generates a simple monogram favicon at build time,
+  which takes priority over route matching entirely.
+
 ## Status: Visual polish pass
 
 On top of Phases 0-5, plus two real production bugs found and fixed
