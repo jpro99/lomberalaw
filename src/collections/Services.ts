@@ -18,6 +18,12 @@ export const Services: CollectionConfig = {
       admin: { description: 'Determines the URL prefix: /personal-injury/[slug]/ or /bankruptcy/[slug]/.' },
     },
     { name: 'summary', type: 'textarea', localized: true, admin: { description: 'Used on hub cards and meta description fallback.' } },
+    {
+      name: 'displayOrder',
+      type: 'number',
+      defaultValue: 100,
+      admin: { description: 'Lower numbers show first on the practice hub. Used to feature priority case types without depending on creation order.' },
+    },
     { name: 'body', type: 'richText', editor: lexicalEditor(), localized: true },
     {
       name: 'faqs',

@@ -78,7 +78,7 @@ export async function getCityHub(citySlug: string, locale: Locale) {
   if (!city) return null
 
   const [allServices, moneyPages] = await Promise.all([
-    payload.find({ collection: 'services', locale, limit: 20, depth: 1 }),
+    payload.find({ collection: 'services', locale, limit: 20, depth: 1, sort: 'displayOrder' }),
     payload.find({
       collection: 'service-city-pages',
       where: { city: { equals: city.id } },

@@ -14,20 +14,20 @@ export const dictionary = {
     },
     home: {
       heroKicker: 'Redlands & Palm Springs · Hablamos Español',
-      heroHeadline: 'You talk to Edgar. Not a paralegal, not a call center.',
+      heroHeadline: 'On your injury case, you work with the attorney. Not a case manager.',
       heroSub:
-        "Every consultation, every case update, every settlement discussion — handled personally by attorney Edgar P. Lombera. Personal injury and bankruptcy, for families across the Inland Empire and Coachella Valley.",
+        "When an injury changes your life — a commercial truck crash, a rideshare collision, a preventable medical error — you need an attorney who prepares every case as if it's going to trial. At this firm, personal injury clients work directly with Edgar on their case, from the first consultation through settlement or trial.",
       heroCTA: 'Get a Free Consultation',
       trust: ['15+ years practicing', '2,500+ families helped', '4.9 on Google', 'No fee unless we win'],
       servicesKicker: 'How we help',
       piName: 'Personal Injury',
-      piDesc: 'Car, truck, motorcycle, rideshare, and pedestrian accidents. We work on contingency — you owe nothing unless we win.',
+      piDesc: 'Serious and catastrophic injury, trucking and commercial vehicle accidents, rideshare crashes, wrongful death, and medical malpractice. We work on contingency — you owe nothing unless we win.',
       bkName: 'Bankruptcy',
       bkDesc: 'Chapter 7 and Chapter 13, foreclosure defense, wage garnishment defense. Stop creditor calls and protect what matters.',
       learnMore: 'Learn more',
       whyKicker: 'Why families choose this firm',
       testimonialsKicker: 'What clients say',
-      finalCTAHeadline: 'The first conversation is free — and it\u2019s with Edgar.',
+      finalCTAHeadline: 'The consultation is free. On injury cases, you deal directly with Edgar.',
     },
     attorney: {
       kicker: 'Founding Attorney',
@@ -37,7 +37,9 @@ export const dictionary = {
     },
     contact: {
       kicker: 'Get in touch',
-      headline: 'Two offices. One attorney who picks up the phone.',
+      headline: 'Two offices. A small firm where your case isn\u2019t handed down the line.',
+      qualifier:
+        'We\u2019re a small office -- when you call, our team gets you to the right place, and on personal injury matters you\u2019ll be talking with Edgar himself about what happened and what your case may be worth. He\u2019ll walk you through your options honestly, including whether litigation is the right path.',
       hoursLabel: 'Hours',
       directionsLabel: 'Get directions',
       callLabel: 'Call this office',
@@ -61,20 +63,20 @@ export const dictionary = {
     },
     home: {
       heroKicker: 'Redlands y Palm Springs · Hablamos Español',
-      heroHeadline: 'Usted habla con Edgar. No con un paralegal, no con un centro de llamadas.',
+      heroHeadline: 'En su caso de lesiones, usted trabaja con el abogado. No con un administrador de casos.',
       heroSub:
-        'Cada consulta, cada actualización de su caso, cada conversación sobre un acuerdo — manejada personalmente por el abogado Edgar P. Lombera. Lesiones personales y bancarrota, para familias del Inland Empire y el Valle de Coachella.',
+        'Cuando una lesión cambia su vida — un choque con un camión comercial, una colisión de Uber o Lyft, un error médico prevenible — necesita un abogado que prepare cada caso como si fuera a juicio. En este despacho, los clientes de lesiones personales trabajan directamente con Edgar en su caso, desde la primera consulta hasta el acuerdo o el juicio.',
       heroCTA: 'Consulta Gratuita',
       trust: ['Más de 15 años de experiencia', 'Más de 2,500 familias ayudadas', '4.9 en Google', 'No paga a menos que ganemos'],
       servicesKicker: 'Cómo ayudamos',
       piName: 'Lesiones Personales',
-      piDesc: 'Accidentes de auto, camión, motocicleta, Uber/Lyft y peatones. Trabajamos por contingencia — no paga nada a menos que ganemos.',
+      piDesc: 'Lesiones graves y catastróficas, accidentes de camiones y vehículos comerciales, choques de Uber/Lyft, muerte injusta y negligencia médica. Trabajamos por contingencia — no paga nada a menos que ganemos.',
       bkName: 'Bancarrota',
       bkDesc: 'Capítulo 7 y Capítulo 13, defensa de ejecución hipotecaria, defensa de embargo de salario. Detenga las llamadas de acreedores.',
       learnMore: 'Más información',
       whyKicker: 'Por qué las familias eligen este despacho',
       testimonialsKicker: 'Lo que dicen nuestros clientes',
-      finalCTAHeadline: 'La primera conversación es gratis — y es con Edgar.',
+      finalCTAHeadline: 'La consulta es gratis. En casos de lesiones, usted trata directamente con Edgar.',
     },
     attorney: {
       kicker: 'Abogado Fundador',
@@ -84,7 +86,9 @@ export const dictionary = {
     },
     contact: {
       kicker: 'Contáctenos',
-      headline: 'Dos oficinas. Un abogado que contesta el teléfono.',
+      headline: 'Dos oficinas. Un despacho pequeño donde su caso no pasa de mano en mano.',
+      qualifier:
+        'Somos una oficina pequeña -- cuando llama, nuestro equipo lo dirige al lugar correcto, y en asuntos de lesiones personales hablará con Edgar mismo sobre lo que sucedió y lo que su caso puede valer. Él le explicará sus opciones honestamente, incluyendo si el litigio es el camino correcto.',
       hoursLabel: 'Horario',
       directionsLabel: 'Cómo llegar',
       callLabel: 'Llamar a esta oficina',

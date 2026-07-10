@@ -31,6 +31,7 @@ export async function getServiceBundle(
       collection: 'services',
       where: { practiceArea: { equals: practiceArea.id }, slug: { not_equals: serviceSlug } },
       locale,
+      sort: 'displayOrder',
       limit: 10,
     }),
     payload.find({

@@ -51,21 +51,21 @@ async function main() {
       en: {
         name: 'Personal Injury',
         intro:
-          'If someone else\u2019s carelessness left you hurt, you deserve a straight answer about what your case is worth \u2014 and an attorney who stays on the phone until you have it.',
+          'After a serious injury, the outcome often depends on how thoroughly the case is investigated and how prepared your attorney is to go to trial if the insurance company won\u2019t offer what it\u2019s truly worth.',
         body: lexicalParagraphs([
-          'Edgar P. Lombera has represented accident victims across the Inland Empire and Coachella Valley for more than 15 years \u2014 car, truck, motorcycle, rideshare, and pedestrian accidents among them.',
+          'Edgar P. Lombera has represented injury victims across the Inland Empire and Coachella Valley for more than 15 years, with a focus on cases involving serious and catastrophic injury \u2014 commercial trucking accidents, rideshare collisions, traumatic brain and spinal cord injury, wrongful death, and medical malpractice.',
           'The firm works on contingency: no fee unless we recover money for you, and case costs are advanced and reimbursed from the settlement or verdict.',
-          'Every consultation, case update, and settlement discussion happens directly with Edgar \u2014 not a paralegal, not a call center.',
+          'Every case is prepared with the same thoroughness, whether it resolves through negotiation or trial \u2014 because the strength of a settlement offer usually depends on how ready you are to walk away from it.',
         ]),
       },
       es: {
         name: 'Lesiones Personales',
         intro:
-          'Si la negligencia de alguien más lo dejó lesionado, usted merece una respuesta clara sobre el valor de su caso \u2014 y un abogado que no cuelgue el teléfono hasta dársela.',
+          'Después de una lesión grave, el resultado a menudo depende de qué tan a fondo se investigue el caso y qué tan preparado esté su abogado para ir a juicio si la compañía de seguros no ofrece lo que realmente vale.',
         body: lexicalParagraphs([
-          'Edgar P. Lombera ha representado a víctimas de accidentes en el Inland Empire y el Valle de Coachella durante más de 15 años \u2014 accidentes de auto, camión, motocicleta, Uber/Lyft y peatones, entre ellos.',
+          'Edgar P. Lombera ha representado a víctimas de lesiones en el Inland Empire y el Valle de Coachella durante más de 15 años, con un enfoque en casos de lesiones graves y catastróficas \u2014 accidentes de camiones comerciales, colisiones de Uber/Lyft, lesión cerebral traumática y de la médula espinal, muerte injusta y negligencia médica.',
           'El despacho trabaja por contingencia: no paga honorarios a menos que recuperemos dinero para usted, y los costos del caso se adelantan y se reembolsan del acuerdo o veredicto.',
-          'Cada consulta, actualización de caso y conversación sobre un acuerdo se maneja directamente con Edgar \u2014 no con un paralegal, no con un centro de llamadas.',
+          'Cada caso se prepara con el mismo nivel de minuciosidad, ya sea que se resuelva mediante negociación o juicio \u2014 porque la fuerza de una oferta de acuerdo generalmente depende de qué tan preparado esté usted para rechazarla.',
         ]),
       },
     },
@@ -109,18 +109,82 @@ async function main() {
   // ---------------------------------------------------------------
   // Services
   // ---------------------------------------------------------------
-  const serviceSeeds: { slug: string; practiceArea: string; titleEn: string; titleEs: string }[] = [
-    { slug: 'car-accidents', practiceArea: 'personal-injury', titleEn: 'Car Accidents', titleEs: 'Accidentes de Auto' },
-    { slug: 'truck-accidents', practiceArea: 'personal-injury', titleEn: 'Truck Accidents', titleEs: 'Accidentes de Camión' },
-    { slug: 'motorcycle-accidents', practiceArea: 'personal-injury', titleEn: 'Motorcycle Accidents', titleEs: 'Accidentes de Motocicleta' },
-    { slug: 'rideshare-accidents', practiceArea: 'personal-injury', titleEn: 'Rideshare Accidents', titleEs: 'Accidentes de Uber/Lyft' },
-    { slug: 'pedestrian-accidents', practiceArea: 'personal-injury', titleEn: 'Pedestrian Accidents', titleEs: 'Accidentes de Peatones' },
-    { slug: 'slip-and-fall', practiceArea: 'personal-injury', titleEn: 'Slip & Fall', titleEs: 'Resbalones y Caídas' },
-    { slug: 'wrongful-death', practiceArea: 'personal-injury', titleEn: 'Wrongful Death', titleEs: 'Muerte Injusta' },
-    { slug: 'chapter-7', practiceArea: 'bankruptcy', titleEn: 'Chapter 7 Bankruptcy', titleEs: 'Bancarrota Capítulo 7' },
-    { slug: 'chapter-13', practiceArea: 'bankruptcy', titleEn: 'Chapter 13 Bankruptcy', titleEs: 'Bancarrota Capítulo 13' },
-    { slug: 'foreclosure-defense', practiceArea: 'bankruptcy', titleEn: 'Foreclosure Defense', titleEs: 'Defensa de Ejecución Hipotecaria' },
-    { slug: 'wage-garnishment', practiceArea: 'bankruptcy', titleEn: 'Wage Garnishment Defense', titleEs: 'Defensa de Embargo de Salario' },
+  const serviceSeeds: { slug: string; practiceArea: string; titleEn: string; titleEs: string; order: number; summaryEn?: string; summaryEs?: string }[] = [
+    // Personal Injury -- ordered per the firm's positioning: serious/
+    // catastrophic/commercial-negligence cases lead, routine auto
+    // claims still exist for SEO capture but sit lower in the list.
+    {
+      slug: 'catastrophic-injury',
+      practiceArea: 'personal-injury',
+      titleEn: 'Catastrophic Injury',
+      titleEs: 'Lesiones Catastróficas',
+      order: 10,
+      summaryEn: 'Life-changing injuries deserve a case built for the full scope of loss -- medical costs, lost earning capacity, and long-term care, prepared with trial-level thoroughness.',
+      summaryEs: 'Las lesiones que cambian la vida merecen un caso construido para el alcance completo de la pérdida -- costos médicos, capacidad de ingresos perdida y cuidado a largo plazo, preparado con la minuciosidad de un juicio.',
+    },
+    {
+      slug: 'truck-accidents',
+      practiceArea: 'personal-injury',
+      titleEn: 'Trucking & Commercial Vehicle Accidents',
+      titleEs: 'Accidentes de Camiones y Vehículos Comerciales',
+      order: 20,
+      summaryEn: 'Commercial trucking cases involve larger insurance policies and more complex liability -- federal safety regulations, black box data, and corporate defendants.',
+      summaryEs: 'Los casos de camiones comerciales involucran pólizas de seguro más grandes y responsabilidad más compleja -- regulaciones federales de seguridad, datos de caja negra y demandados corporativos.',
+    },
+    {
+      slug: 'rideshare-accidents',
+      practiceArea: 'personal-injury',
+      titleEn: 'Rideshare Accidents',
+      titleEs: 'Accidentes de Uber/Lyft',
+      order: 30,
+      summaryEn: 'Uber and Lyft crashes involve layered commercial insurance coverage that most firms never fully investigate.',
+      summaryEs: 'Los choques de Uber y Lyft involucran cobertura de seguro comercial en capas que la mayoría de los despachos nunca investigan completamente.',
+    },
+    {
+      slug: 'traumatic-brain-injury',
+      practiceArea: 'personal-injury',
+      titleEn: 'Traumatic Brain Injury',
+      titleEs: 'Lesión Cerebral Traumática',
+      order: 40,
+      summaryEn: 'TBI cases require medical documentation and expert testimony most insurance adjusters hope you never gather.',
+      summaryEs: 'Los casos de lesión cerebral traumática requieren documentación médica y testimonio de expertos que la mayoría de los ajustadores de seguros esperan que usted nunca reúna.',
+    },
+    {
+      slug: 'spinal-cord-injury',
+      practiceArea: 'personal-injury',
+      titleEn: 'Spinal Cord Injury',
+      titleEs: 'Lesión de la Médula Espinal',
+      order: 50,
+      summaryEn: 'A spinal cord injury often means a lifetime of care -- your case should account for every year of it, not just the first.',
+      summaryEs: 'Una lesión de la médula espinal a menudo significa toda una vida de cuidados -- su caso debe tener en cuenta cada año de ella, no solo el primero.',
+    },
+    {
+      slug: 'wrongful-death',
+      practiceArea: 'personal-injury',
+      titleEn: 'Wrongful Death',
+      titleEs: 'Muerte Injusta',
+      order: 60,
+      summaryEn: 'No settlement can undo the loss. What it can do is hold the responsible party fully accountable.',
+      summaryEs: 'Ningún acuerdo puede deshacer la pérdida. Lo que sí puede hacer es responsabilizar completamente a la parte responsable.',
+    },
+    {
+      slug: 'medical-malpractice',
+      practiceArea: 'personal-injury',
+      titleEn: 'Medical Malpractice',
+      titleEs: 'Negligencia Médica',
+      order: 70,
+      summaryEn: 'Medical malpractice cases are handled selectively and require early expert review -- California\u2019s deadlines and certificate-of-merit requirements move fast.',
+      summaryEs: 'Los casos de negligencia médica se manejan de manera selectiva y requieren una revisión temprana de expertos -- los plazos de California y los requisitos de certificado de mérito avanzan rápido.',
+    },
+    { slug: 'car-accidents', practiceArea: 'personal-injury', titleEn: 'Car Accidents', titleEs: 'Accidentes de Auto', order: 80 },
+    { slug: 'motorcycle-accidents', practiceArea: 'personal-injury', titleEn: 'Motorcycle Accidents', titleEs: 'Accidentes de Motocicleta', order: 90 },
+    { slug: 'pedestrian-accidents', practiceArea: 'personal-injury', titleEn: 'Pedestrian Accidents', titleEs: 'Accidentes de Peatones', order: 100 },
+    { slug: 'slip-and-fall', practiceArea: 'personal-injury', titleEn: 'Slip & Fall', titleEs: 'Resbalones y Caídas', order: 110 },
+    // Bankruptcy
+    { slug: 'chapter-7', practiceArea: 'bankruptcy', titleEn: 'Chapter 7 Bankruptcy', titleEs: 'Bancarrota Capítulo 7', order: 10 },
+    { slug: 'chapter-13', practiceArea: 'bankruptcy', titleEn: 'Chapter 13 Bankruptcy', titleEs: 'Bancarrota Capítulo 13', order: 20 },
+    { slug: 'foreclosure-defense', practiceArea: 'bankruptcy', titleEn: 'Foreclosure Defense', titleEs: 'Defensa de Ejecución Hipotecaria', order: 30 },
+    { slug: 'wage-garnishment', practiceArea: 'bankruptcy', titleEn: 'Wage Garnishment Defense', titleEs: 'Defensa de Embargo de Salario', order: 40 },
   ]
 
   for (const s of serviceSeeds) {
@@ -129,11 +193,29 @@ async function main() {
       existing.docs[0] ||
       (await payload.create({
         collection: 'services',
-        data: { slug: s.slug, title: s.titleEn, practiceArea: practiceAreaIds[s.practiceArea] },
+        data: {
+          slug: s.slug,
+          title: s.titleEn,
+          practiceArea: practiceAreaIds[s.practiceArea],
+          displayOrder: s.order,
+          summary: s.summaryEn,
+        },
       }))
-    await payload.update({ collection: 'services', id: doc.id, locale: 'es', data: { title: s.titleEs } })
+    // Update title/order/summary even on existing docs so re-running
+    // the seed after a positioning change (like this one) applies it.
+    await payload.update({
+      collection: 'services',
+      id: doc.id,
+      data: { title: s.titleEn, displayOrder: s.order, ...(s.summaryEn ? { summary: s.summaryEn } : {}) },
+    })
+    if (s.summaryEs) {
+      await payload.update({ collection: 'services', id: doc.id, locale: 'es', data: { title: s.titleEs, summary: s.summaryEs } })
+    } else {
+      await payload.update({ collection: 'services', id: doc.id, locale: 'es', data: { title: s.titleEs } })
+    }
   }
   console.log(`  ✓ ${serviceSeeds.length} services`)
+
 
   // ---------------------------------------------------------------
   // Attorney: Edgar P. Lombera
@@ -153,7 +235,7 @@ async function main() {
         bio: lexicalParagraphs([
           'Edgar P. Lombera founded this practice on a simple idea: the people who need an attorney the most are often the people who feel most powerless walking into a law office.',
           'For more than 15 years, Edgar has represented working families across the Inland Empire and Coachella Valley \u2014 fighting insurance companies after accidents, defending homes against foreclosure, and helping clients eliminate debt that has followed them for years.',
-          'Every client at this firm talks directly to Edgar. Not a paralegal, not an intake screener \u2014 the attorney himself, in English or Spanish, from the first call to the final resolution.',
+          'This is a small firm by design. On personal injury cases, clients work directly with Edgar \u2014 in English or Spanish \u2014 from the first consultation through resolution, rather than being handed to a case manager.',
           'Edgar is a graduate of Western State College of Law and a member in good standing of the State Bar of California.',
         ]),
       },
@@ -166,7 +248,7 @@ async function main() {
       bio: lexicalParagraphs([
         'Edgar P. Lombera fundó este despacho sobre una idea simple: las personas que más necesitan un abogado son a menudo las que se sienten más impotentes al entrar a un despacho legal.',
         'Durante más de 15 años, Edgar ha representado a familias trabajadoras en el Inland Empire y el Valle de Coachella \u2014 luchando contra compañías de seguros después de accidentes, defendiendo hogares contra la ejecución hipotecaria y ayudando a clientes a eliminar deudas que los han seguido durante años.',
-        'Cada cliente de este despacho habla directamente con Edgar. No con un paralegal, no con un evaluador de admisión \u2014 el abogado mismo, en inglés o español, desde la primera llamada hasta la resolución final.',
+        'Este es un despacho pequeño por diseño. En los casos de lesiones personales, los clientes trabajan directamente con Edgar \u2014 en inglés o español \u2014 desde la primera consulta hasta la resolución, en lugar de ser transferidos a un administrador de casos.',
         'Edgar se graduó de Western State College of Law y es miembro en buen estado del Colegio de Abogados del Estado de California.',
       ]),
     },
@@ -232,6 +314,9 @@ async function main() {
     { slug: 'cathedral-city', name: 'Cathedral City', county: 'Riverside County' as const, office: 'Palm Springs Office', courthouse: 'Riverside County Superior Court — Larson Justice Center, Indio (verify current branch for your case type)', highways: ['I-10', 'SR-111'] },
     { slug: 'la-quinta', name: 'La Quinta', county: 'Riverside County' as const, office: 'Palm Springs Office', courthouse: 'Riverside County Superior Court — Larson Justice Center, Indio (verify current branch for your case type)', highways: ['I-10', 'SR-111'] },
     { slug: 'rancho-mirage', name: 'Rancho Mirage', county: 'Riverside County' as const, office: 'Palm Springs Office', courthouse: 'Riverside County Superior Court — Larson Justice Center, Indio (verify current branch for your case type)', highways: ['I-10', 'SR-111'] },
+    { slug: 'rialto', name: 'Rialto', county: 'San Bernardino County' as const, office: 'Redlands Office', courthouse: 'San Bernardino County Superior Court — San Bernardino District (verify current branch for your case type)', highways: ['I-10', 'I-215'] },
+    { slug: 'highland', name: 'Highland', county: 'San Bernardino County' as const, office: 'Redlands Office', courthouse: 'San Bernardino County Superior Court — San Bernardino District (verify current branch for your case type)', highways: ['SR-210', 'SR-330'] },
+    { slug: 'big-bear-lake', name: 'Big Bear Lake', county: 'San Bernardino County' as const, office: 'Redlands Office', courthouse: 'San Bernardino County Superior Court — mountain-area branch (verify current branch for your case type; confirm whether Big Bear cases route through San Bernardino District)', highways: ['SR-18', 'SR-330'] },
   ]
 
   const cityIds: Record<string, string | number> = {}
@@ -258,10 +343,10 @@ async function main() {
   // Nearby-city relationships, set after all cities exist
   const nearbyMap: Record<string, string[]> = {
     riverside: ['moreno-valley', 'san-bernardino', 'redlands'],
-    'san-bernardino': ['redlands', 'fontana', 'riverside'],
-    redlands: ['san-bernardino', 'riverside', 'fontana'],
+    'san-bernardino': ['redlands', 'fontana', 'highland', 'rialto', 'riverside'],
+    redlands: ['san-bernardino', 'highland', 'riverside', 'fontana'],
     'moreno-valley': ['riverside', 'redlands'],
-    fontana: ['ontario', 'san-bernardino'],
+    fontana: ['ontario', 'rialto', 'san-bernardino'],
     ontario: ['fontana', 'san-bernardino'],
     'palm-springs': ['cathedral-city', 'rancho-mirage', 'palm-desert'],
     'palm-desert': ['palm-springs', 'rancho-mirage', 'la-quinta'],
@@ -269,6 +354,9 @@ async function main() {
     'cathedral-city': ['palm-springs', 'rancho-mirage'],
     'la-quinta': ['indio', 'palm-desert'],
     'rancho-mirage': ['palm-springs', 'palm-desert'],
+    rialto: ['fontana', 'san-bernardino'],
+    highland: ['san-bernardino', 'redlands'],
+    'big-bear-lake': ['redlands', 'san-bernardino'],
   }
   for (const [slug, nearbySlugs] of Object.entries(nearbyMap)) {
     const id = cityIds[slug]
@@ -340,20 +428,50 @@ async function main() {
   // highway data). Treat as a strong starter draft -- expand with
   // more unique local color per page before a heavy SEO push.
   // ---------------------------------------------------------------
-  const tier1Services = ['car-accidents', 'chapter-7', 'chapter-13']
+  const tier1Services = ['truck-accidents', 'catastrophic-injury', 'car-accidents', 'chapter-7', 'chapter-13']
   const tier1Cities = ['riverside', 'san-bernardino', 'palm-springs', 'palm-desert', 'indio', 'redlands']
 
-  function piMoneyBody(cityName: string) {
+  function truckingMoneyBody(cityName: string) {
+    return {
+      en: lexicalParagraphs([
+        `A commercial truck crash in or around ${cityName} is not the same case as a routine fender-bender -- it usually means a larger insurance policy, a corporate defendant, and federal safety regulations that most firms never fully investigate.`,
+        `Edgar handles every ${cityName}-area trucking case personally, working to preserve black box data, driver logs, and maintenance records before they disappear. There is no fee unless we recover money for you.`,
+        `These cases are prepared as if they are going to trial from day one -- because that is what it takes to get a fair number from a company with every incentive to minimize what you're owed.`,
+      ]),
+      es: lexicalParagraphs([
+        `Un choque con un camión comercial en o cerca de ${cityName} no es el mismo caso que un choque de rutina -- generalmente significa una póliza de seguro más grande, un demandado corporativo y regulaciones federales de seguridad que la mayoría de los despachos nunca investigan completamente.`,
+        `Edgar maneja personalmente cada caso de camiones del área de ${cityName}, trabajando para preservar los datos de la caja negra, los registros del conductor y los registros de mantenimiento antes de que desaparezcan. No hay honorarios a menos que recuperemos dinero para usted.`,
+        `Estos casos se preparan como si fueran a juicio desde el primer día -- porque eso es lo que se necesita para obtener una cifra justa de una empresa con todo el incentivo para minimizar lo que se le debe.`,
+      ]),
+    }
+  }
+
+  function carAccidentMoneyBody(cityName: string) {
     return {
       en: lexicalParagraphs([
         `If you were hurt in a crash in or around ${cityName}, the first call should be to a lawyer who already knows the local roads, the local insurance adjusters, and the local court -- not a national call center.`,
-        `Edgar handles every ${cityName}-area case personally, from the first conversation through settlement or trial. There is no fee unless we recover money for you.`,
-        `We work with the medical providers, tow yards, and police departments in the area every day, which means less time chasing paperwork and more time focused on your recovery.`,
+        `On personal injury cases, you work directly with Edgar -- from the first conversation through settlement or trial. There is no fee unless we recover money for you.`,
+        `And if your crash involved a commercial vehicle, a rideshare driver, or serious injuries, those cases are handled differently -- with larger insurance policies and more complex liability at stake. That is exactly the kind of case this firm is built for.`,
       ]),
       es: lexicalParagraphs([
         `Si resultó herido en un accidente en o cerca de ${cityName}, la primera llamada debe ser a un abogado que ya conozca las carreteras locales, los ajustadores de seguros locales y la corte local -- no un centro de llamadas nacional.`,
-        `Edgar maneja personalmente cada caso del área de ${cityName}, desde la primera conversación hasta el acuerdo o el juicio. No hay honorarios a menos que recuperemos dinero para usted.`,
-        `Trabajamos todos los días con los proveedores médicos, los depósitos de remolque y los departamentos de policía de la zona, lo que significa menos tiempo persiguiendo papeleo y más tiempo enfocado en su recuperación.`,
+        `En los casos de lesiones personales, usted trabaja directamente con Edgar -- desde la primera conversación hasta el acuerdo o el juicio. No hay honorarios a menos que recuperemos dinero para usted.`,
+        `Y si su choque involucró un vehículo comercial, un conductor de Uber o Lyft, o lesiones graves, esos casos se manejan de manera diferente -- con pólizas de seguro más grandes y una responsabilidad más compleja en juego. Ese es exactamente el tipo de caso para el que este despacho está construido.`,
+      ]),
+    }
+  }
+
+  function catastrophicMoneyBody(cityName: string) {
+    return {
+      en: lexicalParagraphs([
+        `A catastrophic injury in ${cityName} changes the math on what a case is worth -- future medical care, lost earning capacity, and long-term support all have to be accounted for, not just the first round of bills.`,
+        `Edgar personally reviews every catastrophic injury case from the ${cityName} area in a free, confidential consultation, and prepares each one with the depth it takes to go to trial if the insurance company won't offer what it's truly worth.`,
+        `There is no fee unless we recover money for you, and every consultation and case update happens directly with Edgar -- in English or Spanish.`,
+      ]),
+      es: lexicalParagraphs([
+        `Una lesión catastrófica en ${cityName} cambia el cálculo de lo que vale un caso -- la atención médica futura, la capacidad de ingresos perdida y el apoyo a largo plazo deben tenerse en cuenta, no solo la primera ronda de facturas.`,
+        `Edgar revisa personalmente cada caso de lesión catastrófica del área de ${cityName} en una consulta gratuita y confidencial, y prepara cada uno con la profundidad que se necesita para ir a juicio si la compañía de seguros no ofrece lo que realmente vale.`,
+        `No hay honorarios a menos que recuperemos dinero para usted, y cada consulta y actualización de caso se maneja directamente con Edgar -- en inglés o español.`,
       ]),
     }
   }
@@ -394,14 +512,28 @@ async function main() {
       const isBankruptcy = serviceSlug === 'chapter-7' || serviceSlug === 'chapter-13'
       const chapterLabel = serviceSlug === 'chapter-7' ? 'Chapter 7' : 'Chapter 13'
       const chapterLabelEs = serviceSlug === 'chapter-7' ? 'Capítulo 7' : 'Capítulo 13'
-      const body = isBankruptcy ? bkMoneyBody(city.name as string, chapterLabel) : piMoneyBody(city.name as string)
 
-      const titleEn = isBankruptcy
-        ? `${city.name} ${chapterLabel} Bankruptcy Attorney`
-        : `${city.name} Car Accident Lawyer`
-      const titleEs = isBankruptcy
-        ? `Abogado de Bancarrota ${chapterLabelEs} en ${city.name}`
-        : `Abogado de Accidentes de Auto en ${city.name}`
+      let body: { en: ReturnType<typeof lexicalParagraphs>; es: ReturnType<typeof lexicalParagraphs> }
+      let titleEn: string
+      let titleEs: string
+
+      if (isBankruptcy) {
+        body = bkMoneyBody(city.name as string, chapterLabel)
+        titleEn = `${city.name} ${chapterLabel} Bankruptcy Attorney`
+        titleEs = `Abogado de Bancarrota ${chapterLabelEs} en ${city.name}`
+      } else if (serviceSlug === 'truck-accidents') {
+        body = truckingMoneyBody(city.name as string)
+        titleEn = `${city.name} Truck Accident Attorney`
+        titleEs = `Abogado de Accidentes de Camión en ${city.name}`
+      } else if (serviceSlug === 'car-accidents') {
+        body = carAccidentMoneyBody(city.name as string)
+        titleEn = `${city.name} Car Accident Lawyer`
+        titleEs = `Abogado de Accidentes de Auto en ${city.name}`
+      } else {
+        body = catastrophicMoneyBody(city.name as string)
+        titleEn = `${city.name} Catastrophic Injury Attorney`
+        titleEs = `Abogado de Lesiones Catastróficas en ${city.name}`
+      }
 
       const doc = await payload.create({
         collection: 'service-city-pages',

@@ -18,6 +18,7 @@ export async function getPracticeAreaBundle(slug: 'personal-injury' | 'bankruptc
       collection: 'services',
       where: { practiceArea: { equals: practiceArea.id } },
       locale,
+      sort: 'displayOrder',
       limit: 20,
     }),
     payload.find({

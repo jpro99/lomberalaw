@@ -37,7 +37,7 @@ export default async function HomePage({
 
       {/* Hero */}
       <section className="relative overflow-hidden border-b border-line bg-stone">
-        <HorizonMotif className="pointer-events-none absolute inset-x-0 bottom-0 h-24 w-full text-ink md:h-32" />
+        <HorizonMotif variant="blend" className="pointer-events-none absolute inset-x-0 bottom-0 h-24 w-full text-ink md:h-32" />
         <Container className="relative grid gap-10 py-16 md:grid-cols-[1.2fr_1fr] md:items-center md:py-24">
           <div>
             <p className="font-body text-xs font-semibold uppercase tracking-widest text-clay">

@@ -3,6 +3,82 @@
 Bilingual (EN/ES) personal injury + bankruptcy firm site. Next.js App
 Router + Payload CMS 3 (embedded, same repo/deploy) + Postgres.
 
+## Status: Target-all strategy + honest copy + location motifs
+
+Three changes in one pass, per your direction:
+
+**1. Car accidents restored to tier-1.** "Target all" means both
+layers: serious-injury positioning leads the brand, but car-accident
+searches are the highest-volume local queries and get full city
+pages again. Tier-1 is now 5 services × 6 cities = 30 money pages
+(truck, catastrophic, car accidents, Ch. 7, Ch. 13). The car-accident
+city pages include a deliberate upward bridge: "if your crash
+involved a commercial vehicle or serious injuries, those cases are
+handled differently -- and that's exactly what this firm is built
+for." Volume capture that feeds the bigger cases.
+
+**2. Honest attorney-access copy.** The old "you talk to Edgar, not
+a call center / every consultation with Edgar" framing overpromised
+-- the office uses AI phone answering, staff handle paperwork and
+billing questions. On a law firm site, overpromising attorney access
+is a professional-conduct risk, not just a tone issue. New framing
+throughout (hero, final CTA, contact page, attorney bio, money-page
+bodies): "On personal injury cases, you work directly with Edgar --
+not a case manager." Accurate, and still the real differentiator.
+
+**3. Location-aware motifs replace the generic mountains.** Fair
+critique that mountain silhouettes could be anywhere. Now three
+variants in `HorizonMotif.tsx`: `citrus` (orange branch --
+Redlands/IE citrus belt) on San Bernardino-cluster city pages,
+`desert` (palms + ridge) on Coachella Valley city pages, `blend`
+(both) on the homepage. Selector is the city's serving office, not
+county -- Riverside/Moreno Valley are Riverside County but citrus
+belt, not desert. Still pure inline SVG: zero image downloads, zero
+performance cost.
+
+**Deferred by agreement:** the AI phone system replacement (Twilio +
+voice AI + routing + message-taking) is Phase 6 -- a dedicated build
+starting with call-flow design, not something to staple onto a copy
+pass. The Contacts/Events/Episodes memory architecture is already in
+place waiting for it.
+
+## Status: Personal Injury repositioning — serious/catastrophic focus
+
+Strategic shift, reviewed and confirmed before building (per your
+instruction): the firm is positioned toward serious injury,
+commercial vehicle/trucking, rideshare, catastrophic injury, and
+medical malpractice rather than general auto-accident volume.
+
+**What changed:**
+- **New services added:** Catastrophic Injury, Traumatic Brain
+  Injury, Spinal Cord Injury, Medical Malpractice (confirmed as a
+  real practice area, not referral-only).
+- **`truck-accidents` retitled** to "Trucking & Commercial Vehicle
+  Accidents" — same slug/URL, broader framing.
+- **`displayOrder` field added to Services** so the PI hub can be
+  curated (serious-injury cases lead) independent of creation order.
+  All hub/hub-adjacent queries now sort by it.
+- **Tier-1 money page matrix changed**: swapped `car-accidents` for
+  `truck-accidents` + `catastrophic-injury` as the featured
+  service×city pages (alongside the existing Chapter 7/13
+  bankruptcy tier). Car accidents, motorcycle, pedestrian, and slip &
+  fall pages still exist for SEO capture -- they're just not what
+  the brand leads with.
+- **Homepage hero, PI hub intro/body, and contact-page intake
+  framing all rewritten** with softened serious-injury positioning
+  (first draft was flagged as too exclusive-sounding; this is the
+  toned-down version).
+- **Three new cities**: Rialto, Highland, Big Bear Lake — all in the
+  Redlands cluster. (Victorville considered and deliberately
+  excluded -- confirmed not part of the service area.)
+
+**Deliberately not written by me:** full body copy for the new
+service pages (Catastrophic Injury, TBI, Spinal Cord Injury, Med
+Mal) -- only short summaries. Case-type-specific legal marketing
+copy for a newly-emphasized med mal practice is something Edgar
+should write or directly review, not something I should generate
+unsupervised.
+
 ## Status: On-demand content revalidation
 
 Fixes the gap you found: saving a change in `/admin` (like the

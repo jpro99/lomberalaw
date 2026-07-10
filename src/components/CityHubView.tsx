@@ -8,6 +8,7 @@ import { Button } from '@/components/Button'
 import { Breadcrumbs } from '@/components/Breadcrumbs'
 import { CityFactsCard } from '@/components/CityFactsCard'
 import { JsonLd } from '@/components/JsonLd'
+import { HorizonMotif } from '@/components/HorizonMotif'
 import { breadcrumbSchema } from '@/lib/schema'
 
 export async function getCityHubMetadata(citySlug: string, locale: Locale) {
@@ -45,7 +46,11 @@ export async function CityHubView({ citySlug, locale }: { citySlug: string; loca
         ])}
       />
 
-      <section className="border-b border-line bg-stone py-14 md:py-20">
+      <section className="relative overflow-hidden border-b border-line bg-stone py-14 md:py-20">
+        <HorizonMotif
+          variant={(city.servingOffice as any)?.name?.includes('Palm Springs') ? 'desert' : 'citrus'}
+          className="pointer-events-none absolute inset-x-0 bottom-0 h-20 w-full text-ink md:h-28"
+        />
         <Container>
           <Breadcrumbs
             items={[

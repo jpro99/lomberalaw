@@ -50,6 +50,7 @@ export default async function ContactPage({ params }: { params: Promise<{ locale
           <h1 className="mt-2 max-w-2xl font-display text-4xl font-semibold text-ink md:text-5xl">
             {copy.headline}
           </h1>
+          <p className="mt-4 max-w-xl font-body text-base leading-relaxed text-ink-soft">{copy.qualifier}</p>
         </Container>
       </section>
 
