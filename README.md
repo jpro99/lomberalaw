@@ -3,6 +3,33 @@
 Bilingual (EN/ES) personal injury + bankruptcy firm site. Next.js App
 Router + Payload CMS 3 (embedded, same repo/deploy) + Postgres.
 
+## Status: Fix — seed script crash from revalidation hooks
+
+Real bug, caught from your terminal output: `npm run seed` crashed
+immediately on the very first database write with
+`Invariant: static generation store missing in revalidatePath`.
+
+Root cause: `revalidatePath()` (added earlier for on-demand content
+updates) only works inside an active Next.js request -- someone
+clicking Save in `/admin` from a real browser. The seed script is a
+standalone CLI process with no such request, so every write during
+seeding tried to revalidate, found no request context, and threw --
+killing the whole script partway through.
+
+**Practical consequence: your database is very likely mostly empty
+right now** -- the crash happened right after the first office was
+created, before practice areas, cities, services, attorney bio,
+testimonials, or any of the 30 money pages got written.
+
+**Fix:** `src/hooks/revalidate.ts` now wraps the call in try/catch --
+fails silently outside a real request (nothing needs revalidating
+during a seed run anyway, there's no live traffic yet), still works
+exactly as before for real `/admin` edits.
+
+**You must re-run `npm run seed` after this fix** -- it's safe to
+re-run (checks what exists before creating), but it needs to
+actually complete this time to populate everything.
+
 ## Status: Visual redesign v2 — richer palette + content density
 
 Direct response to feedback that the site felt flat and empty.

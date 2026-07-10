@@ -15,9 +15,25 @@ import type { CollectionAfterChangeHook, CollectionAfterDeleteHook, GlobalAfterC
 // page, and any money pages built from it, which isn't worth
 // hand-mapping at this scale. Revalidation itself is cheap; it
 // invalidates a cache, it does not trigger a rebuild.
+//
+// IMPORTANT: revalidatePath only works inside an active Next.js
+// request context (someone saving a change in /admin from a real
+// browser request). Writes that happen outside that -- the seed
+// script, the summarize script, any future CLI/cron job -- have no
+// request context, and revalidatePath throws
+// "Invariant: static generation store missing" if called there.
+// These hooks fire on every collection write regardless of how that
+// write happened, so this must fail silently outside a real
+// request rather than crash the caller (a seed run has no live
+// traffic to serve yet anyway -- there's nothing to revalidate).
 
 function revalidateSite() {
-  revalidatePath('/', 'layout')
+  try {
+    revalidatePath('/', 'layout')
+  } catch {
+    // No active request context (script/CLI write) -- nothing to
+    // revalidate yet, safe to ignore.
+  }
 }
 
 export const revalidateAfterChange: CollectionAfterChangeHook = ({ doc }) => {
