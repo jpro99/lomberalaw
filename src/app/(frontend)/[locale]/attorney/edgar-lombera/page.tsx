@@ -1,5 +1,6 @@
 import { RichText } from '@payloadcms/richtext-lexical/react'
 import { notFound } from 'next/navigation'
+import Image from 'next/image'
 import { getPayload } from '@/lib/payload'
 import type { Locale } from '@/lib/payload'
 import { t } from '@/lib/dictionary'
@@ -65,7 +66,24 @@ export default async function AttorneyBioPage({ params }: { params: Promise<{ lo
             ]}
           />
           <div className="mt-6 grid gap-10 md:grid-cols-[220px_1fr] md:items-start">
-            <div className="h-56 w-56 rounded-lg border border-line bg-panel md:h-[220px] md:w-[220px]" aria-hidden />
+            {attorney.photo && typeof attorney.photo === 'object' && (attorney.photo as any).url ? (
+              <div className="relative h-56 w-56 flex-none overflow-hidden rounded-lg border border-line md:h-[220px] md:w-[220px]">
+                <Image
+                  src={(attorney.photo as any).url}
+                  alt={(attorney.photo as any).alt || (attorney.name as string)}
+                  fill
+                  sizes="220px"
+                  className="object-cover"
+                />
+              </div>
+            ) : (
+              <div
+                className="flex h-56 w-56 flex-none items-center justify-center rounded-lg border border-line bg-gradient-to-br from-panel to-stone md:h-[220px] md:w-[220px]"
+                aria-hidden
+              >
+                <span className="font-display text-5xl font-semibold text-clay/40">EPL</span>
+              </div>
+            )}
             <div>
               <p className="font-body text-xs font-semibold uppercase tracking-widest text-clay">
                 {copy.attorney.kicker}

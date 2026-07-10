@@ -48,7 +48,7 @@ export default async function LocationsHub({ params }: { params: Promise<{ local
                   <li key={city.id}>
                     <Link
                       href={`${prefix}/locations/${city.slug}`}
-                      className="block rounded-md border border-line bg-panel px-5 py-4 font-body text-sm font-medium text-ink transition-colors hover:border-clay"
+                      className="interactive-card block rounded-md border border-line bg-panel px-5 py-4 font-body text-sm font-medium text-ink hover:border-clay"
                     >
                       {city.name as string}
                     </Link>

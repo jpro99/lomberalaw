@@ -8,7 +8,7 @@ export function TestimonialCard({
   rating: number
 }) {
   return (
-    <figure className="rounded-lg border border-line bg-panel p-7">
+    <figure className="interactive-card rounded-lg border border-line bg-panel p-7">
       <div className="font-data text-sm text-brass" aria-hidden>
         {'★'.repeat(rating)}
         {'☆'.repeat(5 - rating)}

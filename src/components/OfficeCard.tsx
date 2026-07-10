@@ -20,7 +20,7 @@ export function OfficeCard({
   hoursLabel: string
 }) {
   return (
-    <div className="overflow-hidden rounded-lg border border-line bg-panel">
+    <div className="interactive-card overflow-hidden rounded-lg border border-line bg-panel">
       {mapEmbedUrl ? (
         <iframe
           src={mapEmbedUrl}

@@ -7,6 +7,7 @@ import { PracticeCard } from '@/components/PracticeCard'
 import { TestimonialCard } from '@/components/TestimonialCard'
 import { JsonLd } from '@/components/JsonLd'
 import { localBusinessSchema } from '@/lib/schema'
+import { HorizonMotif } from '@/components/HorizonMotif'
 
 export default async function HomePage({
   params,
@@ -35,8 +36,9 @@ export default async function HomePage({
       ))}
 
       {/* Hero */}
-      <section className="border-b border-line bg-stone">
-        <Container className="grid gap-10 py-16 md:grid-cols-[1.2fr_1fr] md:items-center md:py-24">
+      <section className="relative overflow-hidden border-b border-line bg-stone">
+        <HorizonMotif className="pointer-events-none absolute inset-x-0 bottom-0 h-24 w-full text-ink md:h-32" />
+        <Container className="relative grid gap-10 py-16 md:grid-cols-[1.2fr_1fr] md:items-center md:py-24">
           <div>
             <p className="font-body text-xs font-semibold uppercase tracking-widest text-clay">
               {copy.heroKicker}

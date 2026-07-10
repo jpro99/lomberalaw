@@ -70,6 +70,10 @@ export async function CityHubView({ citySlug, locale }: { citySlug: string; loca
         </Container>
       </section>
 
+      <Container>
+        <hr className="horizon-rule" />
+      </Container>
+
       <section className="py-14 md:py-20">
         <Container className="grid gap-10 md:grid-cols-[1fr_320px]">
           <div className="space-y-10">
@@ -80,7 +84,7 @@ export async function CityHubView({ citySlug, locale }: { citySlug: string; loca
                   <li key={s.id}>
                     <Link
                       href={serviceLink(s)}
-                      className="block rounded-md border border-line bg-panel px-5 py-4 font-body text-sm font-medium text-ink transition-colors hover:border-clay"
+                      className="interactive-card block rounded-md border border-line bg-panel px-5 py-4 font-body text-sm font-medium text-ink hover:border-clay"
                     >
                       {s.title}
                     </Link>
@@ -95,7 +99,7 @@ export async function CityHubView({ citySlug, locale }: { citySlug: string; loca
                   <li key={s.id}>
                     <Link
                       href={serviceLink(s)}
-                      className="block rounded-md border border-line bg-panel px-5 py-4 font-body text-sm font-medium text-ink transition-colors hover:border-clay"
+                      className="interactive-card block rounded-md border border-line bg-panel px-5 py-4 font-body text-sm font-medium text-ink hover:border-clay"
                     >
                       {s.title}
                     </Link>

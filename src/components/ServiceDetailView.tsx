@@ -92,6 +92,10 @@ export async function ServiceDetailView({
         </Container>
       </section>
 
+      <Container>
+        <hr className="horizon-rule" />
+      </Container>
+
       {service.body && (
         <section className="py-14 md:py-20">
           <Container className="prose prose-headings:font-display prose-headings:text-ink prose-p:font-body prose-p:text-ink-soft prose-a:text-clay max-w-2xl">
@@ -142,7 +146,7 @@ export async function ServiceDetailView({
                 <li key={s.id}>
                   <Link
                     href={`${prefix}/${practiceSlug}/${s.slug}`}
-                    className="block rounded-md border border-line bg-panel px-5 py-4 font-body text-sm font-medium text-ink transition-colors hover:border-clay"
+                    className="interactive-card block rounded-md border border-line bg-panel px-5 py-4 font-body text-sm font-medium text-ink hover:border-clay"
                   >
                     {s.title as string}
                   </Link>

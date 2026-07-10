@@ -16,7 +16,7 @@ export function PracticeCard({
   return (
     <Link
       href={href}
-      className="group block rounded-lg border border-line bg-panel p-8 shadow-card transition-colors duration-fast ease-out hover:border-clay"
+      className="group block rounded-lg border border-line bg-panel p-8 shadow-card interactive-card hover:border-clay"
     >
       <p className="font-body text-xs font-semibold uppercase tracking-wide text-clay">{eyebrow}</p>
       <h3 className="mt-2 font-display text-2xl font-semibold text-ink">{name}</h3>

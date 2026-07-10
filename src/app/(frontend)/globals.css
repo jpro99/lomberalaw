@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 /* ============================================================
    LOMBERA LAW — DESIGN TOKENS
    ------------------------------------------------------------
@@ -24,9 +28,6 @@
    consistently, not decorated further.
    ============================================================ */
 
-@tailwind base;
-   @tailwind components;
-   @tailwind utilities;
 :root {
   /* ---- Core neutrals ---- */
   --color-ink: #182437;         /* primary text, nav, authority */
@@ -145,6 +146,18 @@ img, svg { display: block; max-width: 100%; }
 :focus-visible {
   outline: 2px solid var(--color-brass);
   outline-offset: 2px;
+}
+
+/* ---- Interactive card lift ----
+   Used on clickable cards throughout (practice tiles, service links,
+   testimonials, office cards). Subtle and fast per the brief -- no
+   slow animation, no dramatic scale, just a quiet shadow + lift. */
+.interactive-card {
+  transition: transform var(--duration-base) var(--ease-out), box-shadow var(--duration-base) var(--ease-out), border-color var(--duration-fast) var(--ease-out);
+}
+.interactive-card:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-card);
 }
 
 /* ---- Signature element: the Horizon Rule ----

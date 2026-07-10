@@ -97,6 +97,10 @@ export async function MoneyPageView({
         </Container>
       </section>
 
+      <Container>
+        <hr className="horizon-rule" />
+      </Container>
+
       <section className="py-14 md:py-20">
         <Container className="grid gap-10 md:grid-cols-[1fr_320px]">
           <div className="prose prose-headings:font-display prose-headings:text-ink prose-p:font-body prose-p:text-ink-soft prose-a:text-clay max-w-none">

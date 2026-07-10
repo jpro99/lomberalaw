@@ -3,6 +3,46 @@
 Bilingual (EN/ES) personal injury + bankruptcy firm site. Next.js App
 Router + Payload CMS 3 (embedded, same repo/deploy) + Postgres.
 
+## Status: Visual polish pass
+
+On top of Phases 0-5, plus two real production bugs found and fixed
+during first deployment:
+
+**Bugs fixed (both real, both confirmed against actual Vercel build
+logs, not guesses):**
+- `tailwind.config.cjs` was silently missing from the repo (a Notepad
+  save-as mishap), causing every Tailwind utility class sitewide to
+  generate zero CSS. Confirmed via the exact Vercel build warning
+  before the fix and its absence after.
+- `package.json`'s `engines` field (`">=20 <21 || >=22.12.0"`) was
+  loosely permissive enough that Vercel silently ran Node 24 despite
+  the dashboard being set to 20.x -- now hard-pinned to `"20.x"`.
+- Switched from `next/font/google` to a standard Google Fonts
+  `<link>` tag, since it was a live variable during debugging and
+  removing it costs nothing (slightly less optimal font loading,
+  fully acceptable tradeoff for a confirmed-working pipeline).
+
+**Visual polish:**
+- `HorizonMotif` component: a restrained line-art desert horizon
+  (the recurring signature illustration promised in the design
+  brief), placed in the homepage hero and nowhere else -- one idea,
+  used once, not sprinkled everywhere.
+- `.interactive-card` utility: subtle hover-lift + shadow on every
+  clickable card sitewide (practice tiles, service links,
+  testimonials, office cards) -- fast, no dramatic animation, respects
+  `prefers-reduced-motion`.
+- Horizon-rule dividers placed consistently after the hero on every
+  major page type (practice hubs, service pages, money pages, city
+  hubs) -- previously only existed on the homepage.
+- Attorney bio photo: was a blank gray box. Now renders the real
+  uploaded photo automatically once one exists in the Attorneys
+  collection; falls back to a designed "EPL" monogram placeholder
+  (not a blank box, not a fake photo) until then.
+
+**What still needs real assets from you:** attorney headshot, office
+photos. I won't fabricate a photo of a real person -- that's a hard
+line, not a corner cut for time.
+
 ## Status: Phase 5 — FAQ hub, resources/blog, reviews
 
 What's real in this commit (on top of Phases 0-3):
