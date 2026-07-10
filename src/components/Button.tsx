@@ -14,10 +14,10 @@ type ButtonProps = {
 }
 
 const base =
-  'inline-flex items-center justify-center gap-2 rounded-md font-body font-semibold transition-colors duration-fast ease-out'
+  'inline-flex items-center justify-center gap-2 rounded-md font-body font-semibold transition-all duration-fast ease-out'
 
 const variants = {
-  primary: 'bg-brass text-white hover:bg-brass-dark',
+  primary: 'bg-brass text-white shadow-[0_6px_20px_rgba(224,102,61,0.35)] hover:bg-brass-dark hover:shadow-[0_8px_24px_rgba(224,102,61,0.45)] hover:-translate-y-0.5',
   secondary: 'border border-ink text-ink hover:bg-ink hover:text-white',
   ghost: 'text-ink underline decoration-line underline-offset-4 hover:decoration-ink',
 }

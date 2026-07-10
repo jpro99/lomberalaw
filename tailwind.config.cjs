@@ -25,6 +25,21 @@ module.exports = {
           DEFAULT: 'var(--color-sage)',
           soft: 'var(--color-sage-soft)',
         },
+        pool: {
+          DEFAULT: 'var(--color-pool)',
+          deep: 'var(--color-pool-deep)',
+          soft: 'var(--color-pool-soft)',
+        },
+        citrus: {
+          DEFAULT: 'var(--color-citrus)',
+          deep: 'var(--color-citrus-deep)',
+          soft: 'var(--color-citrus-soft)',
+        },
+        sunset: {
+          DEFAULT: 'var(--color-sunset)',
+          deep: 'var(--color-sunset-deep)',
+          soft: 'var(--color-sunset-soft)',
+        },
         night: {
           DEFAULT: 'var(--color-night)',
           ink: 'var(--color-night-ink)',

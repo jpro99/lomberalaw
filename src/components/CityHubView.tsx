@@ -46,7 +46,7 @@ export async function CityHubView({ citySlug, locale }: { citySlug: string; loca
         ])}
       />
 
-      <section className="relative overflow-hidden border-b border-line bg-stone py-14 md:py-20">
+      <section className="relative overflow-hidden border-b border-line bg-gradient-to-br from-citrus-soft via-stone to-pool-soft py-14 md:py-20">
         <HorizonMotif
           variant={(city.servingOffice as any)?.name?.includes('Palm Springs') ? 'desert' : 'citrus'}
           className="pointer-events-none absolute inset-x-0 bottom-0 h-20 w-full text-ink md:h-28"

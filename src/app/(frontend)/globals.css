@@ -3,29 +3,31 @@
 @tailwind utilities;
 
 /* ============================================================
-   LOMBERA LAW — DESIGN TOKENS
+   LOMBERA LAW — DESIGN TOKENS (v2)
    ------------------------------------------------------------
-   Rationale (read before changing):
+   Rationale:
 
-   This is a bilingual PI/bankruptcy firm serving the Inland
-   Empire and Coachella Valley — Redlands citrus-belt warmth on
-   one side, Palm Springs desert modernism on the other. The
-   palette is drawn from that region, not from generic "law
-   firm navy + gold" or the current wave of AI-default looks
-   (warm-cream-and-terracotta, or stark-black-and-neon).
+   v1 used one muted accent (clay) sparingly across the whole
+   site. Real feedback: it read as flat, not "premium-restrained."
+   v2 keeps the restraint principle (a curated palette, not a
+   rainbow) but gives it two genuine regional identities instead
+   of one muted stand-in:
 
-   Ink navy carries authority and readability. Stone (not cream)
-   is the background — quieter, less "generated." Clay is the
-   ONE expressive color, used sparingly, referencing desert
-   earth. Brass is reserved for calls to action only, evoking
-   Palm Springs midcentury hardware — so it stays meaningful
-   instead of decorative.
+     CITRUS  -- Redlands' actual citrus-belt heritage. Warm,
+                grounded, used on Inland Empire-cluster pages
+                and as the default brand accent.
+     POOL    -- Palm Springs' desert-modernist identity --
+                literally the pool-turquoise that defines that
+                town's midcentury architecture and art scene.
+                Used on Coachella Valley-cluster pages and as
+                the "featured/serious case" marker sitewide.
+     SUNSET  -- A warmer, more saturated CTA color than the old
+                brass. Buttons should look pressable and alive,
+                not like a hardware finish.
 
-   Signature element: the "horizon rule" — a thin gradient line
-   (ink -> clay -> transparent) marks major section breaks. It's
-   a literal nod to where the valley floor meets the San
-   Jacinto / San Bernardino mountains. One idea, used
-   consistently, not decorated further.
+   Still flat CSS colors -- zero images, zero performance cost.
+   Ink navy still carries all body text and authority; these are
+   accents, not a repaint of the whole site.
    ============================================================ */
 
 :root {
@@ -33,32 +35,48 @@
   --color-ink: #182437;         /* primary text, nav, authority */
   --color-ink-soft: #3D4A5C;    /* secondary text */
   --color-ink-muted: #7A8494;   /* tertiary / captions */
-  --color-stone: #F7F4EE;       /* page background */
+  --color-stone: #FBF7F0;       /* page background */
   --color-panel: #FFFFFF;       /* cards, elevated surfaces */
-  --color-line: #E4DFD4;        /* hairline borders/dividers */
-  --color-line-strong: #D3CBBB;
+  --color-line: #E8E1D3;        /* hairline borders/dividers */
+  --color-line-strong: #D8CDB5;
 
-  /* ---- Signature accent (use sparingly — dividers, active
-     states, the horizon rule, tier-1 badges. Never a full
-     background, never body text.) ---- */
-  --color-clay: #A6432F;
-  --color-clay-soft: #F3E3DE;
+  /* ---- Citrus (Redlands / Inland Empire default accent) ---- */
+  --color-citrus: #D2691E;
+  --color-citrus-deep: #B0501A;
+  --color-citrus-soft: #FBEADB;
 
-  /* ---- Action accent (CTAs and interactive affordances
-     ONLY — buttons, links-as-buttons, phone CTAs) ---- */
-  --color-brass: #B08D57;
-  --color-brass-dark: #8F7040;
-  --color-brass-soft: #F1E9D8;
+  /* ---- Pool (Palm Springs / Coachella Valley + "featured/
+     serious case" marker sitewide) ---- */
+  --color-pool: #0E8A88;
+  --color-pool-deep: #0A6664;
+  --color-pool-soft: #DFF3F2;
+
+  /* ---- Sunset (CTA color -- buttons only) ---- */
+  --color-sunset: #E0663D;
+  --color-sunset-deep: #C14E29;
+  --color-sunset-soft: #FCE7DD;
+
+  /* ---- Legacy token names, now pointing at the richer v2
+     palette -- every existing component's text-clay/bg-brass
+     className keeps working unchanged. "clay" = citrus, "brass"
+     = sunset. Use --color-pool directly for new "featured /
+     serious case" markers. ---- */
+  --color-clay: var(--color-citrus);
+  --color-clay-soft: var(--color-citrus-soft);
+
+  --color-brass: var(--color-sunset);
+  --color-brass-dark: var(--color-sunset-deep);
+  --color-brass-soft: var(--color-sunset-soft);
 
   /* ---- Secondary accent (confirmation, success states,
      bilingual/availability indicators) ---- */
   --color-sage: #5C6B5A;
   --color-sage-soft: #E7EBE4;
 
-  /* ---- Reserved dark surface — footer only. Not a "dark
-     mode," a single deliberate desert-night section. ---- */
-  --color-night: #0E1520;
-  --color-night-ink: #C7CDD8;
+  /* ---- Reserved dark surface — footer + stat bands. A single
+     deliberate desert-night section, used with intent. ---- */
+  --color-night: #0F1B2E;
+  --color-night-ink: #CBD3DF;
 
   /* ---- Semantic mappings ---- */
   --color-bg: var(--color-stone);

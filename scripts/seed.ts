@@ -54,8 +54,9 @@ async function main() {
           'After a serious injury, the outcome often depends on how thoroughly the case is investigated and how prepared your attorney is to go to trial if the insurance company won\u2019t offer what it\u2019s truly worth.',
         body: lexicalParagraphs([
           'Edgar P. Lombera has represented injury victims across the Inland Empire and Coachella Valley for more than 15 years, with a focus on cases involving serious and catastrophic injury \u2014 commercial trucking accidents, rideshare collisions, traumatic brain and spinal cord injury, wrongful death, and medical malpractice.',
-          'The firm works on contingency: no fee unless we recover money for you, and case costs are advanced and reimbursed from the settlement or verdict.',
-          'Every case is prepared with the same thoroughness, whether it resolves through negotiation or trial \u2014 because the strength of a settlement offer usually depends on how ready you are to walk away from it.',
+          'After a serious crash, the at-fault driver\u2019s insurance company is not on your side. Adjusters are trained to call within hours asking for a recorded statement, looking for anything that can be used to minimize or deny the claim \u2014 and the fast, lowball settlement offer that follows is usually a fraction of what the case is actually worth before the full extent of an injury is even known.',
+          'California follows comparative negligence, meaning you can still recover compensation even if you share some fault for the crash \u2014 your recovery is reduced by your percentage of responsibility, not eliminated by it. Damages can include medical costs and future care, lost wages and earning capacity, pain and suffering, and in cases of extreme recklessness, punitive damages under California Civil Code \u00a73294.',
+          'The firm works on contingency: no fee unless we recover money for you, and case costs are advanced and reimbursed from the settlement or verdict. Every case is prepared with the same thoroughness, whether it resolves through negotiation or trial \u2014 because the strength of a settlement offer usually depends on how ready you are to walk away from it.',
         ]),
       },
       es: {
@@ -64,8 +65,9 @@ async function main() {
           'Después de una lesión grave, el resultado a menudo depende de qué tan a fondo se investigue el caso y qué tan preparado esté su abogado para ir a juicio si la compañía de seguros no ofrece lo que realmente vale.',
         body: lexicalParagraphs([
           'Edgar P. Lombera ha representado a víctimas de lesiones en el Inland Empire y el Valle de Coachella durante más de 15 años, con un enfoque en casos de lesiones graves y catastróficas \u2014 accidentes de camiones comerciales, colisiones de Uber/Lyft, lesión cerebral traumática y de la médula espinal, muerte injusta y negligencia médica.',
-          'El despacho trabaja por contingencia: no paga honorarios a menos que recuperemos dinero para usted, y los costos del caso se adelantan y se reembolsan del acuerdo o veredicto.',
-          'Cada caso se prepara con el mismo nivel de minuciosidad, ya sea que se resuelva mediante negociación o juicio \u2014 porque la fuerza de una oferta de acuerdo generalmente depende de qué tan preparado esté usted para rechazarla.',
+          'Después de un choque grave, la compañía de seguros del conductor responsable no está de su lado. Los ajustadores están entrenados para llamar dentro de horas pidiendo una declaración grabada, buscando cualquier cosa que pueda usarse para minimizar o negar el reclamo \u2014 y la oferta de acuerdo rápida y baja que sigue generalmente es una fracción de lo que el caso realmente vale antes de que se conozca el alcance completo de una lesión.',
+          'California sigue la negligencia comparativa, lo que significa que usted puede recuperar compensación incluso si comparte algo de culpa por el choque \u2014 su recuperación se reduce por su porcentaje de responsabilidad, no se elimina por ella. Los daños pueden incluir costos médicos y atención futura, salarios perdidos y capacidad de ingresos, dolor y sufrimiento, y en casos de negligencia extrema, daños punitivos bajo el Código Civil de California \u00a73294.',
+          'El despacho trabaja por contingencia: no paga honorarios a menos que recuperemos dinero para usted, y los costos del caso se adelantan y se reembolsan del acuerdo o veredicto. Cada caso se prepara con el mismo nivel de minuciosidad, ya sea que se resuelva mediante negociación o juicio \u2014 porque la fuerza de una oferta de acuerdo generalmente depende de qué tan preparado esté usted para rechazarla.',
         ]),
       },
     },

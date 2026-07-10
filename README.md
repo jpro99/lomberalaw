@@ -3,6 +3,50 @@
 Bilingual (EN/ES) personal injury + bankruptcy firm site. Next.js App
 Router + Payload CMS 3 (embedded, same repo/deploy) + Postgres.
 
+## Status: Visual redesign v2 — richer palette + content density
+
+Direct response to feedback that the site felt flat and empty.
+Confirmed with a mockup before building (see conversation) — this
+is the real implementation.
+
+**Palette expanded from one muted accent to a genuine dual
+identity:**
+- `citrus` (#D2691E) -- Redlands' actual citrus-belt heritage,
+  default brand accent.
+- `pool` (#0E8A88) -- Palm Springs' literal pool-turquoise,
+  desert-modernist identity, used as the "featured/serious case"
+  marker sitewide.
+- `sunset` (#E0663D) -- richer, more saturated CTA color, replaces
+  the old muted brass on every button.
+- Old `clay`/`brass` token *names* still work everywhere unchanged
+  (every existing `text-clay`/`bg-brass` className in the codebase
+  automatically picks up the new colors) -- only their values moved,
+  so this was a low-risk, high-impact change.
+
+**Content density fix** -- the actual "personal injury page has
+nothing" complaint: PI/Bankruptcy hubs now have a real stat band
+(FMCSA regulations, the actual $1M rideshare policy figure, CA's
+2-year statute of limitations with the real CCP §335.1 citation,
+Chapter 7/13 timelines) and case-type cards with icons and
+descriptions instead of a bare link list, visually split into
+Featured (pool-tinted) vs Common (citrus-tinted) tiers matching the
+serious-injury positioning.
+
+**PI hub body expanded** with real specifics pulled from the
+previous live site as a content brief (topics/facts only, rewritten
+in original language -- insurance adjuster tactics, comparative
+negligence, CA Civil Code §3294 punitive damages) -- this is both
+the visual fix and a legitimate SEO depth improvement, two
+independent benefits from one pass.
+
+**Buttons** get a real shadow/glow and lift on hover instead of a
+flat color swap. **Trust-indicator chips** on the homepage now carry
+color-coded left borders cycling through the palette instead of one
+uniform gray box.
+
+Zero performance cost throughout -- every color is flat CSS via
+custom properties, no images added.
+
 ## Status: Target-all strategy + honest copy + location motifs
 
 Three changes in one pass, per your direction:

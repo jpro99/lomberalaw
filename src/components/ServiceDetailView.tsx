@@ -67,7 +67,7 @@ export async function ServiceDetailView({
         />
       )}
 
-      <section className="border-b border-line bg-stone py-14 md:py-20">
+      <section className="border-b border-line bg-gradient-to-br from-citrus-soft via-stone to-pool-soft py-14 md:py-20">
         <Container>
           <Breadcrumbs
             items={[

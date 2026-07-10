@@ -36,14 +36,15 @@ export default async function HomePage({
       ))}
 
       {/* Hero */}
-      <section className="relative overflow-hidden border-b border-line bg-stone">
+      <section className="relative overflow-hidden border-b border-line bg-gradient-to-br from-citrus-soft via-stone to-pool-soft">
         <HorizonMotif variant="blend" className="pointer-events-none absolute inset-x-0 bottom-0 h-24 w-full text-ink md:h-32" />
         <Container className="relative grid gap-10 py-16 md:grid-cols-[1.2fr_1fr] md:items-center md:py-24">
           <div>
-            <p className="font-body text-xs font-semibold uppercase tracking-widest text-clay">
+            <span className="inline-flex items-center gap-2 rounded-full border border-line bg-panel px-4 py-1.5 font-body text-xs font-bold uppercase tracking-widest text-citrus-deep">
+              <span className="h-1.5 w-1.5 rounded-full bg-pool" aria-hidden />
               {copy.heroKicker}
-            </p>
-            <h1 className="mt-4 max-w-xl font-display text-4xl font-semibold leading-tight text-ink md:text-5xl">
+            </span>
+            <h1 className="mt-5 max-w-xl font-display text-4xl font-semibold leading-tight text-ink md:text-5xl">
               {copy.heroHeadline}
             </h1>
             <p className="mt-5 max-w-lg font-body text-base leading-relaxed text-ink-soft">
@@ -62,12 +63,15 @@ export default async function HomePage({
           </div>
 
           <dl className="grid grid-cols-2 gap-4">
-            {copy.trust.map((item) => (
-              <div key={item} className="rounded-md border border-line bg-panel p-5">
-                <dt className="sr-only">Trust indicator</dt>
-                <dd className="font-body text-sm font-semibold leading-snug text-ink">{item}</dd>
-              </div>
-            ))}
+            {copy.trust.map((item, i) => {
+              const borders = ['border-l-pool', 'border-l-citrus', 'border-l-sunset', 'border-l-brass']
+              return (
+                <div key={item} className={`rounded-md border border-line border-l-4 ${borders[i % borders.length]} bg-panel p-5`}>
+                  <dt className="sr-only">Trust indicator</dt>
+                  <dd className="font-body text-sm font-semibold leading-snug text-ink">{item}</dd>
+                </div>
+              )
+            })}
           </dl>
         </Container>
       </section>
