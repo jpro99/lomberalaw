@@ -9,7 +9,6 @@ import { PracticeCard } from '@/components/PracticeCard'
 import { TestimonialCard } from '@/components/TestimonialCard'
 import { JsonLd } from '@/components/JsonLd'
 import { localBusinessSchema } from '@/lib/schema'
-import { RedlandsSign, PalmSpringsSign } from '@/components/LocationSigns'
 import { EDGAR_PHOTO_FALLBACK, resolveMediaUrl } from '@/lib/mediaUrl'
 
 export default async function HomePage({
@@ -33,6 +32,12 @@ export default async function HomePage({
   const bkArea = practiceAreas.docs.find((p) => p.slug === 'bankruptcy')
   const primaryPhone = offices.docs[0]?.phone as string | undefined
   const attorney = attorneys.docs[0]
+  const photo =
+    attorney?.photo && typeof attorney.photo === 'object'
+      ? (attorney.photo as { url?: string; alt?: string })
+      : null
+  const photoSrc = resolveMediaUrl(photo, EDGAR_PHOTO_FALLBACK) || EDGAR_PHOTO_FALLBACK
+  const photoAlt = photo?.alt || (attorney?.name as string) || 'Edgar P. Lombera'
 
   return (
     <main>
@@ -40,108 +45,83 @@ export default async function HomePage({
         <JsonLd key={office.id} data={localBusinessSchema(office as any, 'https://lomberalaw.com')} />
       ))}
 
-      {/* Hero -- photo-forward. Edgar's real photo carries the trust
-         signal a name/illustration can't. Optimized via next/image
-         (priority + responsive sizes) so a large photo doesn't cost
-         speed -- unoptimized size is what's slow, not size itself. */}
-      <section className="relative overflow-hidden border-b border-line bg-gradient-to-r from-citrus-soft via-stone to-pool-soft">
-        <Container className="relative grid gap-10 py-14 md:grid-cols-[1.1fr_0.9fr] md:items-center md:py-20">
-          <div>
-            <span className="inline-flex items-center gap-2 rounded-full border border-line bg-panel px-4 py-1.5 font-body text-xs font-bold uppercase tracking-widest text-citrus-deep">
-              <span className="h-1.5 w-1.5 rounded-full bg-pool" aria-hidden />
-              {copy.heroKicker}
-            </span>
-            <h1 className="mt-5 max-w-xl font-display text-[2.75rem] font-bold leading-[1.05] tracking-tight text-ink md:text-6xl">
+      {/* Full-bleed photo hero — one composition: brand, headline,
+         one supporting line, one CTA, dominant attorney image. */}
+      <section className="relative min-h-[88vh] overflow-hidden bg-night text-white">
+        <div className="absolute inset-0">
+          <Image
+            src={photoSrc}
+            alt={photoAlt}
+            fill
+            priority
+            sizes="100vw"
+            className="animate-image object-cover object-[center_20%] md:object-[70%_20%]"
+          />
+          <div
+            className="absolute inset-0 bg-gradient-to-r from-night via-night/85 to-night/25 md:via-night/75 md:to-transparent"
+            aria-hidden
+          />
+          <div className="absolute inset-0 bg-gradient-to-t from-night/90 via-transparent to-night/40 md:to-night/20" aria-hidden />
+        </div>
+
+        <Container className="relative flex min-h-[88vh] flex-col justify-end pb-16 pt-28 md:justify-center md:pb-24 md:pt-24">
+          <div className="max-w-xl">
+            <p className="animate-rise font-display text-3xl tracking-tight text-white md:text-4xl">
+              Lombera Law
+            </p>
+            <p className="animate-rise-delay mt-3 font-body text-xs font-semibold uppercase tracking-[0.2em] text-gold">
+              {copy.officesLine}
+            </p>
+            <h1 className="animate-rise-delay mt-6 font-display text-[2.35rem] leading-[1.08] text-white md:text-5xl">
               {copy.heroHeadline}
             </h1>
-            <p className="mt-5 max-w-lg font-body text-base leading-relaxed text-ink-soft">
+            <p className="animate-rise-delay-2 mt-5 max-w-md font-body text-base leading-relaxed text-white/75 md:text-lg">
               {copy.heroSub}
             </p>
-            <div className="mt-8 flex flex-wrap gap-3">
+            <div className="animate-rise-delay-2 mt-8 flex flex-wrap gap-3">
               {primaryPhone && (
-                <Button href={`tel:${primaryPhone}`} size="lg" trackAs="call">
+                <Button href={`tel:${primaryPhone}`} variant="onDark" size="lg" trackAs="call">
                   {copy.heroCTA}
                 </Button>
               )}
-              <Button href={`${prefix}/contact`} variant="secondary" size="lg">
-                {t(locale).contact.headline.split('.')[0]}
-              </Button>
-            </div>
-
-            {/* Bold stat strip -- one prominent claim instead of four
-               small chips, closer weight to what actually reads as
-               "established firm" at a glance. */}
-            <div className="mt-9 flex flex-wrap items-center gap-x-8 gap-y-4">
-              <div className="flex items-baseline gap-2">
-                <span className="font-display text-4xl font-bold text-ink">4.9</span>
-                <div>
-                  <div className="text-sunset" aria-hidden>★★★★★</div>
-                  <p className="font-body text-xs text-ink-muted">Google Reviews</p>
-                </div>
-              </div>
-              <div className="h-10 w-px bg-line-strong" aria-hidden />
-              <div>
-                <span className="font-display text-2xl font-bold text-ink">2,500+</span>
-                <p className="font-body text-xs text-ink-muted">Families Helped</p>
-              </div>
-              <div className="h-10 w-px bg-line-strong" aria-hidden />
-              <div>
-                <span className="font-display text-2xl font-bold text-ink">15+</span>
-                <p className="font-body text-xs text-ink-muted">Years Practicing</p>
-              </div>
             </div>
           </div>
-
-          {/* Edgar's real photo -- large, framed with a bold color
-             block instead of a plain border. This is the actual
-             trust signal; nothing else in this hero should compete
-             with it for attention. */}
-          <div className="relative mx-auto w-full max-w-sm md:mx-0">
-            <div className="absolute -inset-3 -z-10 rounded-2xl bg-gradient-to-br from-citrus to-pool opacity-90" aria-hidden />
-            {(() => {
-              const photo = attorney?.photo && typeof attorney.photo === 'object' ? (attorney.photo as { url?: string; alt?: string }) : null
-              const photoSrc = resolveMediaUrl(photo, EDGAR_PHOTO_FALLBACK)
-              const photoAlt = photo?.alt || (attorney?.name as string) || 'Edgar P. Lombera'
-              return photoSrc ? (
-                <div className="relative aspect-[4/5] w-full overflow-hidden rounded-2xl border-4 border-panel shadow-xl">
-                  <Image
-                    src={photoSrc}
-                    alt={photoAlt}
-                    fill
-                    priority
-                    sizes="(min-width: 768px) 420px, 90vw"
-                    className="object-cover"
-                  />
-                  <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-ink/80 to-transparent px-5 pb-4 pt-10">
-                    <p className="font-display text-lg font-semibold text-white">{attorney?.name as string}</p>
-                    <p className="font-body text-xs text-white/80">Founding Attorney</p>
-                  </div>
-                </div>
-              ) : (
-                <div className="relative flex aspect-[4/5] w-full items-center justify-center rounded-2xl border-4 border-panel bg-panel shadow-xl">
-                  <span className="font-display text-6xl font-bold text-ink/20">EPL</span>
-                </div>
-              )
-            })()}
-          </div>
-        </Container>
-
-        {/* Vintage regional signage -- secondary touch, smaller and
-           quieter now that the photo carries the hero. Real place
-           identity, not the main visual statement. */}
-        <Container className="relative mt-8 hidden items-end justify-between pb-2 lg:flex">
-          <RedlandsSign className="h-16 w-16 opacity-90 drop-shadow-sm xl:h-20 xl:w-20" />
-          <PalmSpringsSign className="h-16 w-16 opacity-90 drop-shadow-sm xl:h-20 xl:w-20" />
         </Container>
       </section>
 
-      {/* Practice areas */}
-      <section className="py-16 md:py-24">
+      {/* Quiet proof strip — below the first viewport */}
+      <section className="border-b border-line bg-panel">
+        <Container className="flex flex-wrap items-center justify-between gap-6 py-8">
+          <div className="flex items-baseline gap-2">
+            <span className="font-display text-3xl text-ink">4.9</span>
+            <div>
+              <div className="text-gold" aria-hidden>
+                ★★★★★
+              </div>
+              <p className="font-body text-xs text-ink-muted">Google Reviews</p>
+            </div>
+          </div>
+          <div>
+            <span className="font-display text-2xl text-ink">2,500+</span>
+            <p className="font-body text-xs text-ink-muted">
+              {locale === 'es' ? 'Familias ayudadas' : 'Families Helped'}
+            </p>
+          </div>
+          <div>
+            <span className="font-display text-2xl text-ink">15+</span>
+            <p className="font-body text-xs text-ink-muted">
+              {locale === 'es' ? 'Años de práctica' : 'Years Practicing'}
+            </p>
+          </div>
+        </Container>
+      </section>
+
+      <section className="py-20 md:py-28">
         <Container>
-          <p className="font-body text-xs font-semibold uppercase tracking-widest text-clay">
+          <p className="font-body text-xs font-semibold uppercase tracking-[0.18em] text-gold">
             {copy.servicesKicker}
           </p>
-          <div className="mt-6 grid gap-5 md:grid-cols-2">
+          <div className="mt-8 grid gap-0 border-t border-line md:grid-cols-2">
             <PracticeCard
               href={`${prefix}/personal-injury`}
               eyebrow={copy.piName}
@@ -160,22 +140,17 @@ export default async function HomePage({
         </Container>
       </section>
 
-      <Container>
-        <hr className="horizon-rule" />
-      </Container>
-
-      {/* Meet Edgar -- text only; the hero already leads with his photo */}
       {attorney && (
-        <section className="py-16 md:py-24">
+        <section className="border-y border-line bg-panel py-20 md:py-28">
           <Container className="max-w-2xl">
-            <p className="font-body text-xs font-semibold uppercase tracking-widest text-citrus-deep">
+            <p className="font-body text-xs font-semibold uppercase tracking-[0.18em] text-gold">
               {copy.meetKicker}
             </p>
-            <h2 className="mt-2 font-display text-2xl font-semibold text-ink md:text-3xl">
+            <h2 className="mt-3 font-display text-3xl text-ink md:text-4xl">
               {attorney.name as string}
             </h2>
             {attorney.bio && (
-              <div className="prose prose-sm prose-p:font-body prose-p:text-ink-soft mt-3 max-w-xl">
+              <div className="prose prose-sm prose-p:font-body prose-p:text-ink-soft mt-4 max-w-xl">
                 {(() => {
                   const bioRoot: any = attorney.bio
                   const firstParaText = bioRoot?.root?.children?.[0]?.children?.[0]?.text
@@ -183,10 +158,10 @@ export default async function HomePage({
                 })()}
               </div>
             )}
-            <div className="mt-5">
+            <div className="mt-6">
               <Link
                 href={`${prefix}/attorney/edgar-lombera`}
-                className="font-body text-sm font-semibold text-pool-deep hover:text-pool"
+                className="font-body text-sm font-semibold text-ink underline decoration-gold underline-offset-4 hover:decoration-ink"
               >
                 {copy.meetCTA} →
               </Link>
@@ -195,14 +170,13 @@ export default async function HomePage({
         </section>
       )}
 
-      {/* Testimonials */}
       {testimonials.docs.length > 0 && (
-        <section className="py-16 md:py-24">
+        <section className="py-20 md:py-28">
           <Container>
-            <p className="font-body text-xs font-semibold uppercase tracking-widest text-clay">
+            <p className="font-body text-xs font-semibold uppercase tracking-[0.18em] text-gold">
               {copy.testimonialsKicker}
             </p>
-            <div className="mt-6 grid gap-5 md:grid-cols-3">
+            <div className="mt-8 grid gap-8 md:grid-cols-3">
               {testimonials.docs.map((tm) => (
                 <TestimonialCard
                   key={tm.id}
@@ -216,14 +190,13 @@ export default async function HomePage({
         </section>
       )}
 
-      {/* Final CTA */}
-      <section className="bg-night py-16 md:py-20">
-        <Container className="flex flex-col items-start gap-6 md:flex-row md:items-center md:justify-between">
-          <h2 className="max-w-xl font-display text-2xl font-semibold text-white md:text-3xl">
+      <section className="bg-night py-20 md:py-24">
+        <Container className="flex flex-col items-start gap-8 md:flex-row md:items-center md:justify-between">
+          <h2 className="max-w-xl font-display text-3xl text-white md:text-4xl">
             {copy.finalCTAHeadline}
           </h2>
           {primaryPhone && (
-            <Button href={`tel:${primaryPhone}`} size="lg" trackAs="call">
+            <Button href={`tel:${primaryPhone}`} variant="onDark" size="lg" trackAs="call">
               {copy.heroCTA}
             </Button>
           )}

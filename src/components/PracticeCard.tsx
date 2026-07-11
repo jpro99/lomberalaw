@@ -16,12 +16,12 @@ export function PracticeCard({
   return (
     <Link
       href={href}
-      className="group block rounded-lg border border-line bg-panel p-8 shadow-card interactive-card hover:border-clay"
+      className="group block border-b border-line px-0 py-8 transition-colors hover:bg-panel md:border-b-0 md:border-r md:px-8 md:first:pl-0 md:last:border-r-0 md:last:pr-0"
     >
-      <p className="font-body text-xs font-semibold uppercase tracking-wide text-clay">{eyebrow}</p>
-      <h3 className="mt-2 font-display text-2xl font-semibold text-ink">{name}</h3>
-      <p className="mt-3 font-body text-sm leading-relaxed text-ink-soft">{description}</p>
-      <span className="mt-5 inline-flex items-center gap-1 font-body text-sm font-semibold text-ink group-hover:text-clay">
+      <p className="font-body text-xs font-semibold uppercase tracking-[0.16em] text-gold">{eyebrow}</p>
+      <h3 className="mt-3 font-display text-3xl text-ink">{name}</h3>
+      <p className="mt-4 max-w-md font-body text-sm leading-relaxed text-ink-soft">{description}</p>
+      <span className="mt-6 inline-flex items-center gap-2 font-body text-sm font-semibold text-ink underline decoration-gold underline-offset-4 group-hover:decoration-ink">
         {learnMore} →
       </span>
     </Link>

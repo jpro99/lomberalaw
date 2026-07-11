@@ -16,7 +16,7 @@ export const dictionary = {
       heroKicker: 'Redlands & Palm Springs · Hablamos Español',
       heroHeadline: 'On your injury case, you work with the attorney. Not a case manager.',
       heroSub:
-        "When an injury changes your life — a commercial truck crash, a rideshare collision, a preventable medical error — you need an attorney who prepares every case as if it's going to trial. At this firm, personal injury clients work directly with Edgar on their case, from the first consultation through settlement or trial.",
+        'Serious injury and bankruptcy counsel for families across the Inland Empire and Coachella Valley — in English or Spanish.',
       heroCTA: 'Get a Free Consultation',
       trust: ['15+ years practicing', '2,500+ families helped', '4.9 on Google', 'No fee unless we win'],
       servicesKicker: 'How we help',
@@ -30,6 +30,7 @@ export const dictionary = {
       whyKicker: 'Why families choose this firm',
       testimonialsKicker: 'What clients say',
       finalCTAHeadline: 'The consultation is free. On injury cases, you deal directly with Edgar.',
+      officesLine: 'Redlands · Palm Springs · Hablamos Español',
     },
     attorney: {
       kicker: 'Founding Attorney',
@@ -97,7 +98,7 @@ export const dictionary = {
       heroKicker: 'Redlands y Palm Springs · Hablamos Español',
       heroHeadline: 'En su caso de lesiones, usted trabaja con el abogado. No con un administrador de casos.',
       heroSub:
-        'Cuando una lesión cambia su vida — un choque con un camión comercial, una colisión de Uber o Lyft, un error médico prevenible — necesita un abogado que prepare cada caso como si fuera a juicio. En este despacho, los clientes de lesiones personales trabajan directamente con Edgar en su caso, desde la primera consulta hasta el acuerdo o el juicio.',
+        'Lesiones graves y bancarrota para familias del Inland Empire y el Valle de Coachella — en inglés o español.',
       heroCTA: 'Consulta Gratuita',
       trust: ['Más de 15 años de experiencia', 'Más de 2,500 familias ayudadas', '4.9 en Google', 'No paga a menos que ganemos'],
       servicesKicker: 'Cómo ayudamos',
@@ -111,6 +112,7 @@ export const dictionary = {
       whyKicker: 'Por qué las familias eligen este despacho',
       testimonialsKicker: 'Lo que dicen nuestros clientes',
       finalCTAHeadline: 'La consulta es gratis. En casos de lesiones, usted trata directamente con Edgar.',
+      officesLine: 'Redlands · Palm Springs · Hablamos Español',
     },
     attorney: {
       kicker: 'Abogado Fundador',

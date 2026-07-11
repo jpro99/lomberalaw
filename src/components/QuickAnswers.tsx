@@ -8,7 +8,7 @@ export function QuickAnswers({
   if (items.length === 0) return null
   return (
     <div className="rounded-xl border border-line bg-panel p-6 md:p-8">
-      <p className="font-body text-xs font-semibold uppercase tracking-widest text-citrus-deep">{kicker}</p>
+      <p className="font-body text-xs font-semibold uppercase tracking-[0.18em] text-gold">{kicker}</p>
       <dl className="mt-4 space-y-5">
         {items.map((item) => (
           <div key={item.q}>

@@ -58,7 +58,7 @@ export default async function AttorneyBioPage({ params }: { params: Promise<{ lo
         })}
       />
 
-      <section className="border-b border-line bg-stone py-14 md:py-20">
+      <section className="border-b border-line bg-panel py-14 md:py-20">
         <Container>
           <Breadcrumbs
             items={[
@@ -71,7 +71,7 @@ export default async function AttorneyBioPage({ params }: { params: Promise<{ lo
               const photo = attorney.photo && typeof attorney.photo === 'object' ? (attorney.photo as { url?: string; alt?: string }) : null
               const photoSrc = resolveMediaUrl(photo, EDGAR_PHOTO_FALLBACK)
               return photoSrc ? (
-                <div className="relative h-56 w-56 flex-none overflow-hidden rounded-lg border border-line md:h-[220px] md:w-[220px]">
+                <div className="relative h-56 w-56 flex-none overflow-hidden border border-line md:h-[220px] md:w-[220px]">
                   <Image
                     src={photoSrc}
                     alt={photo?.alt || (attorney.name as string)}
@@ -82,18 +82,18 @@ export default async function AttorneyBioPage({ params }: { params: Promise<{ lo
                 </div>
               ) : (
                 <div
-                  className="flex h-56 w-56 flex-none items-center justify-center rounded-lg border border-line bg-gradient-to-br from-panel to-stone md:h-[220px] md:w-[220px]"
+                  className="flex h-56 w-56 flex-none items-center justify-center border border-line bg-stone md:h-[220px] md:w-[220px]"
                   aria-hidden
                 >
-                  <span className="font-display text-5xl font-semibold text-clay/40">EPL</span>
+                  <span className="font-display text-5xl text-ink/20">EPL</span>
                 </div>
               )
             })()}
             <div>
-              <p className="font-body text-xs font-semibold uppercase tracking-widest text-clay">
+              <p className="font-body text-xs font-semibold uppercase tracking-[0.18em] text-gold">
                 {copy.attorney.kicker}
               </p>
-              <h1 className="mt-2 font-display text-4xl font-semibold text-ink">{attorney.name as string}</h1>
+              <h1 className="mt-2 font-display text-4xl text-ink md:text-5xl">{attorney.name as string}</h1>
 
               {Array.isArray(attorney.credentials) && attorney.credentials.length > 0 && (
                 <div className="mt-4">
@@ -101,8 +101,8 @@ export default async function AttorneyBioPage({ params }: { params: Promise<{ lo
                     {copy.attorney.credKicker}
                   </p>
                   <ul className="mt-2 flex flex-wrap gap-2">
-                    {attorney.credentials.map((c: { item: string }, i: number) => (
-                      <li key={i} className="rounded-full border border-line bg-panel px-3 py-1 font-body text-xs text-ink-soft">
+                    {attorney.credentials.map((c, i) => (
+                      <li key={i} className="border border-line bg-stone px-3 py-1 font-body text-xs text-ink-soft">
                         {c.item}
                       </li>
                     ))}

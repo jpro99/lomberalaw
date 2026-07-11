@@ -8,15 +8,15 @@ export function TestimonialCard({
   rating: number
 }) {
   return (
-    <figure className="interactive-card rounded-lg border border-line bg-panel p-7">
-      <div className="font-data text-sm text-brass" aria-hidden>
+    <figure className="border-t border-gold/40 pt-6">
+      <div className="font-data text-xs tracking-widest text-gold" aria-hidden>
         {'★'.repeat(rating)}
         {'☆'.repeat(5 - rating)}
       </div>
-      <blockquote className="mt-4 font-body text-sm leading-relaxed text-ink-soft">
-        "{quote}"
+      <blockquote className="mt-4 font-display text-xl leading-snug text-ink">
+        “{quote}”
       </blockquote>
-      <figcaption className="mt-4 font-body text-sm font-semibold text-ink">{author}</figcaption>
+      <figcaption className="mt-5 font-body text-sm font-medium text-ink-muted">{author}</figcaption>
     </figure>
   )
 }

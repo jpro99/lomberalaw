@@ -23,24 +23,23 @@ export async function getPracticeHubMetadata(slug: Slug, locale: Locale) {
   }
 }
 
-// Presentation-only mapping -- no schema change needed. Icons are
-// plain characters (no icon library dependency, zero extra weight).
+// Typographic markers only — no emoji icons.
 const SERVICE_ICONS: Record<string, string> = {
-  'catastrophic-injury': '▲',
-  'truck-accidents': '🚛',
-  'rideshare-accidents': '🚗',
-  'traumatic-brain-injury': '◆',
-  'spinal-cord-injury': '◆',
-  'wrongful-death': '✦',
-  'medical-malpractice': '✚',
-  'car-accidents': '🚗',
-  'motorcycle-accidents': '🏍',
-  'pedestrian-accidents': '🚶',
-  'slip-and-fall': '⚠',
-  'chapter-7': '§',
-  'chapter-13': '§',
-  'foreclosure-defense': '⌂',
-  'wage-garnishment': '⛔',
+  'catastrophic-injury': 'I',
+  'truck-accidents': 'II',
+  'rideshare-accidents': 'III',
+  'traumatic-brain-injury': 'IV',
+  'spinal-cord-injury': 'V',
+  'wrongful-death': 'VI',
+  'medical-malpractice': 'VII',
+  'car-accidents': 'VIII',
+  'motorcycle-accidents': 'IX',
+  'pedestrian-accidents': 'X',
+  'slip-and-fall': 'XI',
+  'chapter-7': '7',
+  'chapter-13': '13',
+  'foreclosure-defense': 'F',
+  'wage-garnishment': 'W',
 }
 
 // Real, specific facts -- the kind of content depth the site was
@@ -166,7 +165,7 @@ export async function PracticeHubView({ slug, locale }: { slug: Slug; locale: Lo
         })}
       />
 
-      <section className="relative overflow-hidden border-b border-line bg-gradient-to-br from-citrus-soft via-stone to-pool-soft py-14 md:py-20">
+      <section className="relative overflow-hidden border-b border-line bg-panel py-14 md:py-20">
         <Container className="relative">
           <Breadcrumbs
             items={[
@@ -174,7 +173,7 @@ export async function PracticeHubView({ slug, locale }: { slug: Slug; locale: Lo
               { name: practiceArea.name as string, href: `${prefix}/${slug}` },
             ]}
           />
-          <h1 className="mt-4 max-w-2xl font-display text-4xl font-semibold text-ink md:text-5xl">
+          <h1 className="mt-4 max-w-2xl font-display text-4xl text-ink md:text-5xl">
             {practiceArea.name as string}
           </h1>
           {practiceArea.intro && (
@@ -192,7 +191,7 @@ export async function PracticeHubView({ slug, locale }: { slug: Slug; locale: Lo
 
       {practiceArea.body && (
         <section className="py-14 md:py-20">
-          <Container className="prose prose-headings:font-display prose-headings:text-ink prose-p:font-body prose-p:text-ink-soft prose-a:text-citrus max-w-2xl">
+          <Container className="prose prose-headings:font-display prose-headings:text-ink prose-p:font-body prose-p:text-ink-soft prose-a:text-gold max-w-2xl">
             <RichText data={practiceArea.body as any} />
           </Container>
         </section>
@@ -200,10 +199,10 @@ export async function PracticeHubView({ slug, locale }: { slug: Slug; locale: Lo
 
       {/* Stat band -- real specifics, not filler */}
       <Container>
-        <div className="grid grid-cols-2 gap-px overflow-hidden rounded-xl bg-night md:grid-cols-4">
+        <div className="grid grid-cols-2 gap-px overflow-hidden border border-white/10 bg-night md:grid-cols-4">
           {stats.map((stat) => (
             <div key={stat.label} className="bg-night p-6">
-              <p className="font-display text-2xl font-semibold text-brass md:text-3xl">{stat.value}</p>
+              <p className="font-display text-2xl text-gold md:text-3xl">{stat.value}</p>
               <p className="mt-1 font-body text-xs leading-snug text-night-ink">{stat.label}</p>
             </div>
           ))}
@@ -225,44 +224,29 @@ export async function PracticeHubView({ slug, locale }: { slug: Slug; locale: Lo
             <h2 className="font-display text-2xl font-semibold text-ink">
               {locale === 'es' ? 'Tipos de casos que manejamos' : 'Types of cases we handle'}
             </h2>
-            <div className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+            <div className="mt-6 grid gap-0 border-t border-line sm:grid-cols-2 lg:grid-cols-3">
               {services.map((service, i) => {
                 const featured = i < 2
-                const icon = SERVICE_ICONS[service.slug as string] || '•'
+                const icon = SERVICE_ICONS[service.slug as string] || '—'
                 return (
                   <Link
                     key={service.id}
                     href={`${prefix}/${slug}/${service.slug}`}
-                    className={`interactive-card block rounded-lg border p-5 ${
-                      featured
-                        ? 'border-pool bg-gradient-to-br from-pool-soft to-panel'
-                        : 'border-line bg-panel hover:border-citrus'
-                    }`}
+                    className="interactive-card block border-b border-line p-5 hover:bg-panel"
                   >
-                    <div
-                      className={`mb-3 flex h-9 w-9 items-center justify-center rounded-md text-base ${
-                        featured ? 'bg-pool text-white' : 'bg-citrus text-white'
-                      }`}
-                      aria-hidden
-                    >
-                      {icon}
+                    <div className="mb-3 flex items-center gap-3">
+                      <span className="font-data text-xs text-gold" aria-hidden>
+                        {icon}
+                      </span>
+                      {featured && (
+                        <span className="font-body text-[10px] font-bold uppercase tracking-wide text-ink-muted">
+                          {locale === 'es' ? 'Destacado' : 'Featured'}
+                        </span>
+                      )}
                     </div>
-                    <span
-                      className={`mb-2 inline-block rounded px-2 py-0.5 font-body text-[10px] font-bold uppercase tracking-wide ${
-                        featured ? 'bg-pool-soft text-pool-deep' : 'bg-citrus-soft text-citrus-deep'
-                      }`}
-                    >
-                      {featured
-                        ? locale === 'es'
-                          ? 'Destacado'
-                          : 'Featured'
-                        : locale === 'es'
-                          ? 'Común'
-                          : 'Common'}
-                    </span>
-                    <h3 className="font-display text-base font-semibold text-ink">{service.title as string}</h3>
+                    <h3 className="font-display text-xl text-ink">{service.title as string}</h3>
                     {service.summary && (
-                      <p className="mt-1.5 font-body text-xs leading-relaxed text-ink-soft">
+                      <p className="mt-2 font-body text-sm leading-relaxed text-ink-soft">
                         {service.summary as string}
                       </p>
                     )}

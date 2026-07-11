@@ -40,6 +40,11 @@ module.exports = {
           deep: 'var(--color-sunset-deep)',
           soft: 'var(--color-sunset-soft)',
         },
+        gold: {
+          DEFAULT: 'var(--color-gold)',
+          deep: 'var(--color-gold-deep)',
+          soft: 'var(--color-gold-soft)',
+        },
         night: {
           DEFAULT: 'var(--color-night)',
           ink: 'var(--color-night-ink)',

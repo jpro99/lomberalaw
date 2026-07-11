@@ -3,6 +3,24 @@
 Bilingual (EN/ES) personal injury + bankruptcy firm site. Next.js App
 Router + Payload CMS 3 (embedded, same repo/deploy) + Postgres.
 
+## Status: Authority redesign (v3)
+
+Replaces the cream / citrus / pool boutique look with a cooler
+system built for serious PI trust:
+
+- **Palette:** cool stone ground, near-black ink, muted gold accent,
+  dark navy CTAs (no orange glow)
+- **Type:** Instrument Serif + Source Sans 3 (not Fraunces/Inter)
+- **Homepage hero:** full-bleed attorney photo, brand-first
+  ("Lombera Law"), one headline, one short line, one CTA — stats
+  and regional SVG signs moved out of the first viewport
+- **Mobile nav:** hamburger menu added
+- **Inner pages:** citrus/pool gradients and emoji service icons
+  removed; quieter borders and night/gold stat bands
+
+Design is still iterable — this is the authority baseline, not a
+claim that photography/copy are final.
+
 ## Status: Hero photo fix + staff email on contact submit
 
 Two launch gaps closed in one pass:

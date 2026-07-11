@@ -23,7 +23,7 @@ type Copy = {
 const initialState: ContactFormState = { status: 'idle' }
 
 const inputClass =
-  'w-full rounded-md border border-line bg-panel px-4 py-2.5 font-body text-sm text-ink placeholder:text-ink-muted focus:border-pool focus:outline-none'
+  'w-full rounded-sm border border-line bg-panel px-4 py-2.5 font-body text-sm text-ink placeholder:text-ink-muted focus:border-ink focus:outline-none'
 const labelClass = 'mb-1.5 block font-body text-xs font-semibold uppercase tracking-wide text-ink-muted'
 
 export function ContactForm({ copy, locale }: { copy: Copy; locale: 'en' | 'es' }) {
@@ -31,14 +31,14 @@ export function ContactForm({ copy, locale }: { copy: Copy; locale: 'en' | 'es' 
 
   if (state.status === 'success') {
     return (
-      <div className="rounded-xl border border-pool bg-pool-soft p-8 text-center">
-        <p className="font-display text-lg font-semibold text-pool-deep">{state.message}</p>
+      <div className="rounded-sm border border-line bg-panel p-8 text-center">
+        <p className="font-display text-lg text-ink">{state.message}</p>
       </div>
     )
   }
 
   return (
-    <form action={formAction} className="space-y-5 rounded-xl border border-line bg-panel p-6 md:p-8">
+    <form action={formAction} className="space-y-5 border border-line bg-panel p-6 md:p-8">
       <div>
         <h2 className="font-display text-xl font-semibold text-ink">{copy.heading}</h2>
         <p className="mt-1 font-body text-sm text-ink-soft">{copy.subheading}</p>
@@ -47,7 +47,7 @@ export function ContactForm({ copy, locale }: { copy: Copy; locale: 'en' | 'es' 
       <input type="hidden" name="locale" value={locale} />
 
       {state.status === 'error' && state.message && (
-        <p className="rounded-md border border-sunset bg-sunset-soft px-4 py-2.5 font-body text-sm text-sunset-deep">
+        <p className="rounded-sm border border-ink/20 bg-stone px-4 py-2.5 font-body text-sm text-ink">
           {state.message}
         </p>
       )}
@@ -123,7 +123,7 @@ export function ContactForm({ copy, locale }: { copy: Copy; locale: 'en' | 'es' 
       <button
         type="submit"
         disabled={isPending}
-        className="inline-flex w-full items-center justify-center gap-2 rounded-md bg-brass px-7 py-3.5 font-body text-base font-semibold text-white shadow-[0_6px_20px_rgba(224,102,61,0.35)] transition-all duration-fast ease-out hover:bg-brass-dark hover:shadow-[0_8px_24px_rgba(224,102,61,0.45)] hover:-translate-y-0.5 disabled:cursor-not-allowed disabled:opacity-60 disabled:hover:translate-y-0"
+        className="inline-flex w-full items-center justify-center gap-2 rounded-sm bg-ink px-7 py-3.5 font-body text-base font-semibold text-white transition-colors duration-fast ease-out hover:bg-brass-dark disabled:cursor-not-allowed disabled:opacity-60"
       >
         {isPending ? copy.submitting : copy.submit}
       </button>
