@@ -39,15 +39,18 @@ export default async function HomePage({
         <JsonLd key={office.id} data={localBusinessSchema(office as any, 'https://lomberalaw.com')} />
       ))}
 
-      {/* Hero */}
+      {/* Hero -- photo-forward. Edgar's real photo carries the trust
+         signal a name/illustration can't. Optimized via next/image
+         (priority + responsive sizes) so a large photo doesn't cost
+         speed -- unoptimized size is what's slow, not size itself. */}
       <section className="relative overflow-hidden border-b border-line bg-gradient-to-r from-citrus-soft via-stone to-pool-soft">
-        <Container className="relative grid gap-10 py-16 md:grid-cols-[1.2fr_1fr] md:items-center md:py-24">
+        <Container className="relative grid gap-10 py-14 md:grid-cols-[1.1fr_0.9fr] md:items-center md:py-20">
           <div>
             <span className="inline-flex items-center gap-2 rounded-full border border-line bg-panel px-4 py-1.5 font-body text-xs font-bold uppercase tracking-widest text-citrus-deep">
               <span className="h-1.5 w-1.5 rounded-full bg-pool" aria-hidden />
               {copy.heroKicker}
             </span>
-            <h1 className="mt-5 max-w-xl font-display text-4xl font-semibold leading-tight text-ink md:text-5xl">
+            <h1 className="mt-5 max-w-xl font-display text-[2.75rem] font-bold leading-[1.05] tracking-tight text-ink md:text-6xl">
               {copy.heroHeadline}
             </h1>
             <p className="mt-5 max-w-lg font-body text-base leading-relaxed text-ink-soft">
@@ -63,30 +66,66 @@ export default async function HomePage({
                 {t(locale).contact.headline.split('.')[0]}
               </Button>
             </div>
+
+            {/* Bold stat strip -- one prominent claim instead of four
+               small chips, closer weight to what actually reads as
+               "established firm" at a glance. */}
+            <div className="mt-9 flex flex-wrap items-center gap-x-8 gap-y-4">
+              <div className="flex items-baseline gap-2">
+                <span className="font-display text-4xl font-bold text-ink">4.9</span>
+                <div>
+                  <div className="text-sunset" aria-hidden>★★★★★</div>
+                  <p className="font-body text-xs text-ink-muted">Google Reviews</p>
+                </div>
+              </div>
+              <div className="h-10 w-px bg-line-strong" aria-hidden />
+              <div>
+                <span className="font-display text-2xl font-bold text-ink">2,500+</span>
+                <p className="font-body text-xs text-ink-muted">Families Helped</p>
+              </div>
+              <div className="h-10 w-px bg-line-strong" aria-hidden />
+              <div>
+                <span className="font-display text-2xl font-bold text-ink">15+</span>
+                <p className="font-body text-xs text-ink-muted">Years Practicing</p>
+              </div>
+            </div>
           </div>
 
-          <dl className="grid grid-cols-2 gap-4">
-            {copy.trust.map((item, i) => {
-              const borders = ['border-l-pool', 'border-l-citrus', 'border-l-sunset', 'border-l-brass']
-              return (
-                <div key={item} className={`rounded-md border border-line border-l-4 ${borders[i % borders.length]} bg-panel/95 p-5 backdrop-blur`}>
-                  <dt className="sr-only">Trust indicator</dt>
-                  <dd className="font-body text-sm font-semibold leading-snug text-ink">{item}</dd>
+          {/* Edgar's real photo -- large, framed with a bold color
+             block instead of a plain border. This is the actual
+             trust signal; nothing else in this hero should compete
+             with it for attention. */}
+          <div className="relative mx-auto w-full max-w-sm md:mx-0">
+            <div className="absolute -inset-3 -z-10 rounded-2xl bg-gradient-to-br from-citrus to-pool opacity-90" aria-hidden />
+            {attorney?.photo && typeof attorney.photo === 'object' && (attorney.photo as any).url ? (
+              <div className="relative aspect-[4/5] w-full overflow-hidden rounded-2xl border-4 border-panel shadow-xl">
+                <Image
+                  src={(attorney.photo as any).url}
+                  alt={(attorney.photo as any).alt || (attorney?.name as string) || 'Edgar P. Lombera'}
+                  fill
+                  priority
+                  sizes="(min-width: 768px) 420px, 90vw"
+                  className="object-cover"
+                />
+                <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-ink/80 to-transparent px-5 pb-4 pt-10">
+                  <p className="font-display text-lg font-semibold text-white">{attorney?.name as string}</p>
+                  <p className="font-body text-xs text-white/80">Founding Attorney</p>
                 </div>
-              )
-            })}
-          </dl>
+              </div>
+            ) : (
+              <div className="relative flex aspect-[4/5] w-full items-center justify-center rounded-2xl border-4 border-panel bg-panel shadow-xl">
+                <span className="font-display text-6xl font-bold text-ink/20">EPL</span>
+              </div>
+            )}
+          </div>
         </Container>
 
-        {/* Vintage regional signage -- real place identity, colorful,
-           rooted in each town's actual historic design tradition.
-           Practice-area keywords live in the H1 above, not here.
-           Normal document flow (not absolute-positioned) so it can
-           never overlap the buttons above or get clipped by the
-           viewport edge. */}
-        <Container className="relative mt-10 hidden items-end justify-between pb-2 lg:flex">
-          <RedlandsSign className="h-28 w-28 drop-shadow-md xl:h-32 xl:w-32" />
-          <PalmSpringsSign className="h-28 w-28 drop-shadow-md xl:h-32 xl:w-32" />
+        {/* Vintage regional signage -- secondary touch, smaller and
+           quieter now that the photo carries the hero. Real place
+           identity, not the main visual statement. */}
+        <Container className="relative mt-8 hidden items-end justify-between pb-2 lg:flex">
+          <RedlandsSign className="h-16 w-16 opacity-90 drop-shadow-sm xl:h-20 xl:w-20" />
+          <PalmSpringsSign className="h-16 w-16 opacity-90 drop-shadow-sm xl:h-20 xl:w-20" />
         </Container>
       </section>
 
@@ -119,52 +158,32 @@ export default async function HomePage({
         <hr className="horizon-rule" />
       </Container>
 
-      {/* Meet Edgar */}
+      {/* Meet Edgar -- text only; the hero already leads with his photo */}
       {attorney && (
         <section className="py-16 md:py-24">
-          <Container className="grid gap-10 md:grid-cols-[220px_1fr] md:items-center">
-            {attorney.photo && typeof attorney.photo === 'object' && (attorney.photo as any).url ? (
-              <div className="relative mx-auto h-48 w-48 flex-none overflow-hidden rounded-lg border border-line md:mx-0 md:h-[200px] md:w-[200px]">
-                <Image
-                  src={(attorney.photo as any).url}
-                  alt={(attorney.photo as any).alt || (attorney.name as string)}
-                  fill
-                  sizes="200px"
-                  className="object-cover"
-                />
-              </div>
-            ) : (
-              <div
-                className="mx-auto flex h-48 w-48 flex-none items-center justify-center rounded-lg border border-line bg-gradient-to-br from-citrus-soft to-pool-soft md:mx-0 md:h-[200px] md:w-[200px]"
-                aria-hidden
-              >
-                <span className="font-display text-4xl font-semibold text-ink/30">EPL</span>
+          <Container className="max-w-2xl">
+            <p className="font-body text-xs font-semibold uppercase tracking-widest text-citrus-deep">
+              {copy.meetKicker}
+            </p>
+            <h2 className="mt-2 font-display text-2xl font-semibold text-ink md:text-3xl">
+              {attorney.name as string}
+            </h2>
+            {attorney.bio && (
+              <div className="prose prose-sm prose-p:font-body prose-p:text-ink-soft mt-3 max-w-xl">
+                {(() => {
+                  const bioRoot: any = attorney.bio
+                  const firstParaText = bioRoot?.root?.children?.[0]?.children?.[0]?.text
+                  return firstParaText ? <p>{firstParaText}</p> : null
+                })()}
               </div>
             )}
-            <div>
-              <p className="font-body text-xs font-semibold uppercase tracking-widest text-citrus-deep">
-                {copy.meetKicker}
-              </p>
-              <h2 className="mt-2 font-display text-2xl font-semibold text-ink md:text-3xl">
-                {attorney.name as string}
-              </h2>
-              {attorney.bio && (
-                <div className="prose prose-sm prose-p:font-body prose-p:text-ink-soft mt-3 max-w-xl">
-                  {(() => {
-                    const bioRoot: any = attorney.bio
-                    const firstParaText = bioRoot?.root?.children?.[0]?.children?.[0]?.text
-                    return firstParaText ? <p>{firstParaText}</p> : null
-                  })()}
-                </div>
-              )}
-              <div className="mt-5">
-                <Link
-                  href={`${prefix}/attorney/edgar-lombera`}
-                  className="font-body text-sm font-semibold text-pool-deep hover:text-pool"
-                >
-                  {copy.meetCTA} →
-                </Link>
-              </div>
+            <div className="mt-5">
+              <Link
+                href={`${prefix}/attorney/edgar-lombera`}
+                className="font-body text-sm font-semibold text-pool-deep hover:text-pool"
+              >
+                {copy.meetCTA} →
+              </Link>
             </div>
           </Container>
         </section>

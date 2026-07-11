@@ -3,6 +3,43 @@
 Bilingual (EN/ES) personal injury + bankruptcy firm site. Next.js App
 Router + Payload CMS 3 (embedded, same repo/deploy) + Postgres.
 
+## Status: Photo-forward hero redesign
+
+Direct response to a hard, fair challenge: compared against a
+national firm's site (Arnold & Itkin), the illustrated-signs
+approach read as decorative rather than as the trust signal a real
+photo of the attorney provides. Real critique, owned directly.
+
+**What changed:** Edgar's actual uploaded photo is now the hero's
+dominant visual -- large (4:5 portrait frame), a bold citrus→pool
+gradient color-block behind it (not a plain border), a dark
+gradient overlay at the bottom carrying his name/title directly on
+the image, matching the "premium legal brand" visual language
+without needing new photography. Headline typography bumped to
+bold/tighter-tracking at a genuinely larger size for more
+confidence. Trust indicators consolidated from four small chips
+into one bold stat strip (4.9★ / 2,500+ / 15+ years) closer to how
+established firms present credibility at a glance. The vintage
+signs stay, now as a quieter secondary touch rather than the main
+visual statement -- the photo carries the hero now.
+
+**On the speed question, explicitly:** a large photo is not
+inherently slow -- an *unoptimized* one is. This uses `next/image`
+with `priority` (so it's the prioritized LCP element, not competing
+with anything else for load order), responsive `sizes`, and
+automatic AVIF/WebP conversion (already configured in
+`next.config.mjs` from Phase 0). This is the actual "happy medium"
+between competitor-grade visual impact and the site's non-negotiable
+performance requirement -- both, done correctly, not a tradeoff
+between them.
+
+**Honest limit, stated plainly:** this uses the one photo already
+uploaded. No new photography was fabricated -- doing so would mean
+either an AI-generated image misrepresented as Edgar (a real ethical
+line) or an unlicensed stock photo (legal exposure). If a higher-
+resolution or environmental portrait becomes available later, this
+same treatment will look even stronger with it.
+
 ## Status: Fix — sign positioning and broken background trees
 
 Real layout bugs from the last screenshot, both fixed:
