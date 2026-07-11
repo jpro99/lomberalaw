@@ -71,6 +71,39 @@ export const Contacts: CollectionConfig = {
       admin: { description: 'Their own words, if given -- e.g. "my cousin Maria told me." Kept alongside the categorized referralSource above, not instead of it.' },
     },
 
+    // --- Case value & urgency (built for the phone system design,
+    // usable today from web-form text) ---
+    {
+      name: 'caseMatch',
+      type: 'select',
+      hasMany: true,
+      options: [
+        { label: 'Commercial vehicle involved', value: 'commercial_vehicle' },
+        { label: 'Rideshare (Uber/Lyft) involved', value: 'rideshare' },
+        { label: 'Catastrophic / long-term injury', value: 'catastrophic' },
+        { label: 'Wrongful death', value: 'wrongful_death' },
+        { label: 'Medical malpractice', value: 'medical_malpractice' },
+      ],
+      admin: {
+        description:
+          'Which of the firm\u2019s priority case types this lead touches on -- computed from a keyword scan of the submitted message today (see contact/actions.ts), and will be set more precisely once the phone system\u2019s structured intake questions exist. This is a scan aid for staff, not a filter -- the raw message/transcript is always the source of truth, review it directly rather than trusting this flag alone.',
+      },
+    },
+    {
+      name: 'urgencyTier',
+      type: 'select',
+      options: [
+        { label: 'Urgent -- recent serious injury signals', value: 'urgent' },
+        { label: 'Standard', value: 'standard' },
+        { label: 'Administrative', value: 'administrative' },
+      ],
+      defaultValue: 'standard',
+      admin: {
+        description:
+          'Matches the tiers in the phone-system design doc (\u00a76). For web-form leads this is a rough keyword-based signal, not a clinical assessment -- always read the actual message before treating something as urgent or not.',
+      },
+    },
+
     // --- Consent (TCPA / CA privacy) ---
     { name: 'smsConsent', type: 'checkbox', defaultValue: false },
     { name: 'smsConsentTimestamp', type: 'date', admin: { condition: (data) => Boolean(data.smsConsent) } },

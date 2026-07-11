@@ -2,6 +2,7 @@
 
 import { getPayload } from '@/lib/payload'
 import type { Locale } from '@/lib/payload'
+import { computeCaseMatch, computeUrgencyTier } from '@/lib/caseSignals'
 
 export type ContactFormState = {
   status: 'idle' | 'success' | 'error'
@@ -19,6 +20,8 @@ async function notifyStaffOfContact(args: {
   smsConsent: boolean
   locale: Locale
   contactId: string | number
+  caseMatch: string[]
+  urgencyTier: string
 }) {
   const notifyTo = process.env.CONTACT_NOTIFY_TO?.trim()
   if (!notifyTo) {
@@ -32,8 +35,14 @@ async function notifyStaffOfContact(args: {
 
   const payload = await getPayload()
   const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://lomberalaw.com'
-  const subject = `New website inquiry — ${args.fullName}`
+  const urgencyTag = args.urgencyTier === 'urgent' ? '[POSSIBLY URGENT] ' : ''
+  const subject = `${urgencyTag}New website inquiry — ${args.fullName}`
   const lines = [
+    args.urgencyTier === 'urgent'
+      ? 'The message below mentions words like "hospital," "today," or similar -- this is a rough keyword scan, not a real assessment. Read the actual message.'
+      : null,
+    args.caseMatch.length > 0 ? `Case match signals: ${args.caseMatch.join(', ')}` : null,
+    args.urgencyTier === 'urgent' || args.caseMatch.length > 0 ? '' : null,
     `New contact form submission`,
     ``,
     `Name: ${args.fullName}`,
@@ -102,6 +111,9 @@ export async function submitContactForm(
       ? await payload.find({ collection: 'practice-areas', where: { slug: { equals: practiceArea } }, limit: 1 })
       : null
 
+    const caseMatch = computeCaseMatch(message)
+    const urgencyTier = computeUrgencyTier(message)
+
     const contactData: Record<string, unknown> = {
       fullName,
       email: email || undefined,
@@ -113,6 +125,8 @@ export async function submitContactForm(
       ...(referralSourceDetail ? { referralSourceDetail } : {}),
       ...(smsConsent ? { smsConsent: true, smsConsentTimestamp: new Date().toISOString() } : {}),
       ...(practiceAreaRes?.docs[0] ? { practiceAreaInterest: [practiceAreaRes.docs[0].id] } : {}),
+      ...(caseMatch.length > 0 ? { caseMatch } : {}),
+      urgencyTier,
     }
 
     const contact = existing
@@ -144,6 +158,8 @@ export async function submitContactForm(
         smsConsent,
         locale,
         contactId: contact.id,
+        caseMatch,
+        urgencyTier,
       })
     } catch (notifyErr) {
       console.error('Contact form staff notification failed:', notifyErr)

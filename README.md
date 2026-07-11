@@ -46,6 +46,101 @@ the lead is already saved in `/admin`.
 `EMAIL_FROM` domain (Resend's `onboarding@resend.dev` works for
 testing only).
 
+## Status: XML sitemap + robots.txt
+
+Real, previously-missing SEO infrastructure -- for a site built
+around 30 money pages, 15 city pages, and 15 service pages, having
+no explicit sitemap meant search engines were relying purely on
+crawling internal links to discover everything.
+
+`src/app/sitemap.ts` -- Next.js native sitemap generation, served
+automatically at `/sitemap.xml`. Queries every Service, City,
+Service×City money page, and resource Post directly from Payload,
+generates both the English and Spanish URL for each. Money pages get
+the highest priority (0.9) after the homepage, matching what they're
+actually built to rank for.
+
+`src/app/robots.ts` -- native robots.txt at `/robots.txt`, allows all
+crawlers, blocks `/admin` and `/api`, points to the sitemap.
+
+## Status: Verified courthouse data, bankruptcy content depth
+
+Final piece of tonight's session, built while you sleep — same
+scoping discipline as the last one: nothing here needed you or
+Edgar, and I didn't touch anything that did.
+
+**Courthouse assignments actually verified**, not left flagged
+forever. Checked official Riverside and San Bernardino County
+Superior Court sources directly:
+- San Bernardino County's **civil** division (what personal injury
+  cases fall under) is centralized at one location — the San
+  Bernardino Justice Center — not spread across the district
+  branches (Fontana, Rancho Cucamonga) the seed data previously
+  listed. Those branches handle other case types, not civil.
+- Riverside city and Moreno Valley each have their own real,
+  confirmed civil-handling courthouse.
+- Palm Springs has its own courthouse that genuinely handles
+  personal injury cases locally (confirmed via actual case
+  filings) — not routed through Indio as the old data assumed.
+  Updated Palm Springs, and flagged Cathedral City/Rancho Mirage as
+  likely following it given proximity, while keeping the "verify"
+  note honest where district boundaries get genuinely granular
+  (Palm Desert, Indio, La Quinta) rather than presenting a guess as
+  settled fact.
+- Big Bear Lake: no separate mountain-area civil branch exists in
+  any official source found — corrected from a placeholder guess to
+  the most likely real answer (San Bernardino Justice Center),
+  still flagged for confirmation.
+
+**All four bankruptcy service pages deepened** (Chapter 7, Chapter
+13, Foreclosure Defense, Wage Garnishment) with full body content,
+same structural pattern as every other service page tonight.
+Deliberately stayed general on exact dollar exemption amounts and
+day-count deadlines rather than cite specific figures I couldn't
+verify with full confidence — getting a number wrong in a legal
+context is a real risk; describing the real mechanism accurately
+without a specific figure is the safer choice.
+
+## Status: Data layer for the phone system, daily digest, remaining service content
+
+Built while Edgar is unreachable for 2-3 weeks -- deliberately scoped
+to what doesn't need him or a live Twilio account. The actual phone
+system stays blocked on his sign-off and account setup, per Rule
+Zero -- writing "finished" call-flow code against infrastructure
+that doesn't exist yet would be the same mistake as the CSS/seed
+crash earlier, just with live client calls at stake instead.
+
+**Case Match + Urgency fields on Contacts** -- built for the phone
+system design doc (§6, §15), usable today: a keyword heuristic
+(`src/lib/caseSignals.ts`) scans web-form messages for the firm's
+priority case types (commercial vehicle, rideshare, catastrophic,
+wrongful death, med mal) and rough urgency signals. Explicitly
+documented as a scan aid, not a diagnosis -- staff should always
+read the actual message. Once the phone system exists, its
+structured intake answers set these same fields more precisely; no
+schema changes needed then.
+
+**Daily digest** (§13 of the design doc), live today: `src/lib/
+digest.ts` builds an evening summary from whatever Contacts/Events
+exist -- right now that's web leads only, since there's no phone
+data yet. Sent via the Resend adapter Cursor wired up. Runs on
+Vercel Cron (`vercel.json`, `/api/cron/daily-digest`) at 8:30pm
+Pacific -- **known limitation, stated plainly**: Vercel Cron always
+runs in UTC, so this drifts an hour during winter (PST) vs. summer
+(PDT). Worth revisiting once real usage shows whether that hour
+matters. Test manually with `npm run test-digest` without waiting
+for the schedule.
+
+**Five remaining service pages deepened** with full body content
+(Rideshare, TBI, Spinal Cord Injury, Wrongful Death, Medical
+Malpractice) -- same Stakes → Expertise → Credibility → CTA
+structure as Catastrophic Injury and Trucking from earlier. Medical
+malpractice content stays deliberately general on exact legal
+deadlines (mentions California's early-notice requirements exist,
+doesn't cite a specific day count) -- getting a specific number
+wrong in a legal-deadline context is a real risk, general-but-
+accurate is the safer choice here.
+
 ## Status: Real contact form + referral-source tracking
 
 Closes a real gap found while building this: the contact page had
