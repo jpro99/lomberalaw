@@ -22,5 +22,7 @@ export function resolveMediaUrl(
   return null
 }
 
-/** Clean static portrait shipped in /public — always works on Vercel. */
+/** Clean static portraits shipped in /public — always work on Vercel. */
 export const EDGAR_PHOTO_FALLBACK = '/edgar-lombera.jpg'
+/** Desk/office shot — better for full-bleed homepage hero. */
+export const EDGAR_HERO_PHOTO = '/edgar-lombera-hero.jpg'

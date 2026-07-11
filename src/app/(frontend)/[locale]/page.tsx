@@ -9,7 +9,7 @@ import { PracticeCard } from '@/components/PracticeCard'
 import { TestimonialCard } from '@/components/TestimonialCard'
 import { JsonLd } from '@/components/JsonLd'
 import { localBusinessSchema } from '@/lib/schema'
-import { EDGAR_PHOTO_FALLBACK, resolveMediaUrl } from '@/lib/mediaUrl'
+import { EDGAR_HERO_PHOTO } from '@/lib/mediaUrl'
 
 export default async function HomePage({
   params,
@@ -32,12 +32,8 @@ export default async function HomePage({
   const bkArea = practiceAreas.docs.find((p) => p.slug === 'bankruptcy')
   const primaryPhone = offices.docs[0]?.phone as string | undefined
   const attorney = attorneys.docs[0]
-  const photo =
-    attorney?.photo && typeof attorney.photo === 'object'
-      ? (attorney.photo as { url?: string; alt?: string })
-      : null
-  const photoSrc = resolveMediaUrl(photo, EDGAR_PHOTO_FALLBACK) || EDGAR_PHOTO_FALLBACK
-  const photoAlt = photo?.alt || (attorney?.name as string) || 'Edgar P. Lombera'
+  const photoSrc = EDGAR_HERO_PHOTO
+  const photoAlt = (attorney?.name as string) || 'Edgar P. Lombera'
 
   return (
     <main>
@@ -55,7 +51,7 @@ export default async function HomePage({
             fill
             priority
             sizes="100vw"
-            className="animate-image object-cover object-[center_20%] md:object-[70%_20%]"
+            className="animate-image object-cover object-[center_25%]"
           />
           <div
             className="absolute inset-0 bg-gradient-to-r from-night via-night/85 to-night/25 md:via-night/75 md:to-transparent"
