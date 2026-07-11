@@ -3,6 +3,43 @@
 Bilingual (EN/ES) personal injury + bankruptcy firm site. Next.js App
 Router + Payload CMS 3 (embedded, same repo/deploy) + Postgres.
 
+## Status: Fix — the actual root cause of the stale content mystery
+
+Found after a long debugging chase tonight (SSL, redeploys, database
+mismatches, caching -- all real things we checked and ruled out, but
+none were the actual cause). The real bug: **the seed script's
+"find or create" pattern only ever created or updated the Spanish
+locale for existing documents -- it never touched English content
+after the first time a document was created.**
+
+Concretely: `personal-injury`'s PracticeArea document was created on
+the very first seed run tonight, with the very first draft intro
+text. Every English rewrite made after that point -- including the
+"soften the tone" revision -- updated `seed.ts`'s source code, but
+never reached the database, because re-running the seed script only
+ever found the existing document and updated its Spanish fields,
+leaving English untouched. Same bug, separately, in Testimonials --
+new real reviews (Don C., Jodi D., etc.) got created fine since
+they're new documents with new author names, but the **old
+placeholder testimonials never got removed**, and since the
+homepage's featured-testimonials query has no explicit sort, it was
+showing whichever came first by creation order -- the old
+placeholders, seeded hours earlier.
+
+Services had already been fixed for this specific pattern (when
+body content was added earlier tonight) -- that's why service pages
+were showing current content while the homepage wasn't. Offices,
+PracticeAreas, and Testimonials all had the same latent bug;
+all three are fixed now with an explicit English-locale update
+for existing documents, not just Spanish. The stale placeholder
+testimonials are also explicitly deleted (not just unfeatured) as
+part of this fix, since they were never real client reviews.
+
+**Run `npm run seed` one more time after deploying this** -- this
+is the one that should actually show the fix, since the underlying
+data-update bug is what's fixed here, not a deployment or caching
+issue.
+
 ## Status: Authority redesign (v3)
 
 Replaces the cream / citrus / pool boutique look with a cooler

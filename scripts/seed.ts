@@ -37,6 +37,11 @@ async function main() {
         collection: 'offices',
         data: { name: seed.name, phone: seed.phone, address: seed.address, hours: seed.hoursEn },
       }))
+    await payload.update({
+      collection: 'offices',
+      id: doc.id,
+      data: { name: seed.name, phone: seed.phone, address: seed.address, hours: seed.hoursEn },
+    })
     await payload.update({ collection: 'offices', id: doc.id, locale: 'es', data: { hours: seed.hoursEs } })
     officeIds[seed.name] = doc.id
     console.log(`  ✓ Office: ${seed.name}`)
@@ -103,6 +108,7 @@ async function main() {
     const doc =
       existing.docs[0] ||
       (await payload.create({ collection: 'practice-areas', data: { slug: seed.slug, ...seed.en } }))
+    await payload.update({ collection: 'practice-areas', id: doc.id, data: seed.en })
     await payload.update({ collection: 'practice-areas', id: doc.id, locale: 'es', data: seed.es })
     practiceAreaIds[seed.slug] = doc.id
     console.log(`  ✓ Practice area: ${seed.slug}`)
@@ -537,9 +543,33 @@ async function main() {
           source: 'Google',
         },
       }))
+    await payload.update({
+      collection: 'testimonials',
+      id: doc.id,
+      data: { author: seed.author, quote: seed.ratingEn, rating: 5, featured: true, practiceArea: practiceAreaIds[seed.practiceArea] },
+    })
     await payload.update({ collection: 'testimonials', id: doc.id, locale: 'es', data: { quote: seed.ratingEs } })
   }
   console.log(`  ✓ ${testimonialSeeds.length} testimonials (real, bankruptcy only -- PI testimonials still needed from Google Business Profile)`)
+
+  // Clean up the original placeholder testimonials from the very
+  // first seed run tonight. The find-by-author-name pattern above
+  // only ever adds or updates -- it never removes stale records
+  // with a different author name, so these placeholders have been
+  // sitting in the database this whole time, un-replaced, right
+  // alongside the real ones. Since the homepage has no explicit
+  // sort on the featured-testimonials query, it was showing
+  // whichever came first by creation order -- these older
+  // placeholders, not the real reviews. Explicitly removing them
+  // (not just unfeaturing) since they were never real client
+  // testimonials and shouldn't exist in the collection at all.
+  for (const staleAuthor of ['Redlands client', 'Palm Springs client']) {
+    const stale = await payload.find({ collection: 'testimonials', where: { author: { equals: staleAuthor } }, limit: 5 })
+    for (const doc of stale.docs) {
+      await payload.delete({ collection: 'testimonials', id: doc.id })
+    }
+  }
+  console.log('  ✓ Removed placeholder testimonials from the original seed run')
 
   // ---------------------------------------------------------------
   // Cities
