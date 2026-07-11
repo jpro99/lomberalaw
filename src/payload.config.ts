@@ -3,6 +3,7 @@ import { fileURLToPath } from 'url'
 import { postgresAdapter } from '@payloadcms/db-postgres'
 import { lexicalEditor } from '@payloadcms/richtext-lexical'
 import { vercelBlobStorage } from '@payloadcms/storage-vercel-blob'
+import { resendAdapter } from '@payloadcms/email-resend'
 import { buildConfig } from 'payload'
 
 import { PracticeAreas } from './collections/PracticeAreas'
@@ -80,6 +81,15 @@ export default buildConfig({
   typescript: {
     outputFile: path.resolve(dirname, 'payload-types.ts'),
   },
+
+  // Resend is the lightweight adapter for Vercel serverless. Without
+  // RESEND_API_KEY the adapter still mounts (stops the "No email
+  // adapter" warning) but sendEmail calls fail until the key is set.
+  email: resendAdapter({
+    defaultFromAddress: process.env.EMAIL_FROM || 'onboarding@resend.dev',
+    defaultFromName: process.env.EMAIL_FROM_NAME || 'Lombera Law',
+    apiKey: process.env.RESEND_API_KEY || '',
+  }),
 
   db: postgresAdapter({
     pool: {

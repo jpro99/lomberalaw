@@ -8,6 +8,56 @@ export type ContactFormState = {
   message?: string
 }
 
+async function notifyStaffOfContact(args: {
+  fullName: string
+  email: string
+  phone: string
+  message: string
+  practiceArea: string
+  referralSource: string
+  referralSourceDetail: string
+  smsConsent: boolean
+  locale: Locale
+  contactId: string | number
+}) {
+  const notifyTo = process.env.CONTACT_NOTIFY_TO?.trim()
+  if (!notifyTo) {
+    console.warn('CONTACT_NOTIFY_TO is not set — skipping staff email notification.')
+    return
+  }
+  if (!process.env.RESEND_API_KEY) {
+    console.warn('RESEND_API_KEY is not set — skipping staff email notification.')
+    return
+  }
+
+  const payload = await getPayload()
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://lomberalaw.com'
+  const subject = `New website inquiry — ${args.fullName}`
+  const lines = [
+    `New contact form submission`,
+    ``,
+    `Name: ${args.fullName}`,
+    `Phone: ${args.phone || '(none)'}`,
+    `Email: ${args.email || '(none)'}`,
+    `Practice area: ${args.practiceArea || '(not selected)'}`,
+    `How they found us: ${args.referralSource || '(not selected)'}`,
+    args.referralSourceDetail ? `Referral detail: ${args.referralSourceDetail}` : null,
+    `Language: ${args.locale}`,
+    `SMS consent: ${args.smsConsent ? 'yes' : 'no'}`,
+    ``,
+    `Message:`,
+    args.message,
+    ``,
+    `Contact record: ${siteUrl}/admin/collections/contacts/${args.contactId}`,
+  ].filter((line) => line !== null)
+
+  await payload.sendEmail({
+    to: notifyTo,
+    subject,
+    text: lines.join('\n'),
+  })
+}
+
 export async function submitContactForm(
   _prev: ContactFormState,
   formData: FormData,
@@ -79,6 +129,25 @@ export async function submitContactForm(
         occurredAt: new Date().toISOString(),
       },
     })
+
+    // Staff email is best-effort: never fail the visitor's submission
+    // if Resend/env is misconfigured. Lead is already in Contacts.
+    try {
+      await notifyStaffOfContact({
+        fullName,
+        email,
+        phone,
+        message,
+        practiceArea,
+        referralSource,
+        referralSourceDetail,
+        smsConsent,
+        locale,
+        contactId: contact.id,
+      })
+    } catch (notifyErr) {
+      console.error('Contact form staff notification failed:', notifyErr)
+    }
 
     return {
       status: 'success',

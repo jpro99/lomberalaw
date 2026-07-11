@@ -3,6 +3,31 @@
 Bilingual (EN/ES) personal injury + bankruptcy firm site. Next.js App
 Router + Payload CMS 3 (embedded, same repo/deploy) + Postgres.
 
+## Status: Hero photo fix + staff email on contact submit
+
+Two launch gaps closed in one pass:
+
+**Broken hero photo.** Live site showed a blank frame with alt text
+because Payload was returning a relative `/api/media/file/...` URL
+with spaces/commas in the filename (`Edgar P. Lombera, attorney.jpg`).
+`next/image`'s optimizer double-encodes that path and 404s. Fix:
+ship a clean static portrait at `/public/edgar-lombera.jpg`, resolve
+CMS media through `src/lib/mediaUrl.ts` (prefer absolute https Blob
+URLs, fall back to the static asset), and pin the Blob store hostname
+in `next.config.mjs`. Homepage + attorney bio both use the helper.
+
+**Staff email on form submit.** `@payloadcms/email-resend@3.85.2`
+wired in `payload.config.ts`. After a successful Contacts/Events
+write, `contact/actions.ts` sends a best-effort notification to
+`CONTACT_NOTIFY_TO` via `payload.sendEmail`. Missing env vars or
+Resend failures are logged and never fail the visitor's submission —
+the lead is already saved in `/admin`.
+
+**Required Vercel env (or local `.env`) for email to actually send:**
+`RESEND_API_KEY`, `CONTACT_NOTIFY_TO`, and ideally a verified
+`EMAIL_FROM` domain (Resend's `onboarding@resend.dev` works for
+testing only).
+
 ## Status: Real contact form + referral-source tracking
 
 Closes a real gap found while building this: the contact page had
@@ -30,13 +55,8 @@ local API. Duplicate-safe: matches existing contacts by phone or
 email before creating a new record, same pattern used throughout
 the seed script.
 
-**Honest limitation:** no email/SMS notification fires on submission
-yet -- no email adapter is configured in this project (every build
-log tonight has shown "No email adapter provided" as a standing
-warning). The submission is fully captured and visible in `/admin`
-immediately; a staff notification on new submissions is a real,
-separate piece of infrastructure (an email service like Resend)
-worth setting up, not something to fake as already working.
+**Staff notification:** Resend adapter configured; set
+`RESEND_API_KEY` + `CONTACT_NOTIFY_TO` for live alerts.
 
 ## Status: Content deepened using competitor structural analysis
 

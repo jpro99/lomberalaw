@@ -9,6 +9,7 @@ import { Button } from '@/components/Button'
 import { Breadcrumbs } from '@/components/Breadcrumbs'
 import { JsonLd } from '@/components/JsonLd'
 import { attorneySchema, breadcrumbSchema } from '@/lib/schema'
+import { EDGAR_PHOTO_FALLBACK, resolveMediaUrl } from '@/lib/mediaUrl'
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: Locale }> }) {
   const { locale } = await params
@@ -66,24 +67,28 @@ export default async function AttorneyBioPage({ params }: { params: Promise<{ lo
             ]}
           />
           <div className="mt-6 grid gap-10 md:grid-cols-[220px_1fr] md:items-start">
-            {attorney.photo && typeof attorney.photo === 'object' && (attorney.photo as any).url ? (
-              <div className="relative h-56 w-56 flex-none overflow-hidden rounded-lg border border-line md:h-[220px] md:w-[220px]">
-                <Image
-                  src={(attorney.photo as any).url}
-                  alt={(attorney.photo as any).alt || (attorney.name as string)}
-                  fill
-                  sizes="220px"
-                  className="object-cover"
-                />
-              </div>
-            ) : (
-              <div
-                className="flex h-56 w-56 flex-none items-center justify-center rounded-lg border border-line bg-gradient-to-br from-panel to-stone md:h-[220px] md:w-[220px]"
-                aria-hidden
-              >
-                <span className="font-display text-5xl font-semibold text-clay/40">EPL</span>
-              </div>
-            )}
+            {(() => {
+              const photo = attorney.photo && typeof attorney.photo === 'object' ? (attorney.photo as { url?: string; alt?: string }) : null
+              const photoSrc = resolveMediaUrl(photo, EDGAR_PHOTO_FALLBACK)
+              return photoSrc ? (
+                <div className="relative h-56 w-56 flex-none overflow-hidden rounded-lg border border-line md:h-[220px] md:w-[220px]">
+                  <Image
+                    src={photoSrc}
+                    alt={photo?.alt || (attorney.name as string)}
+                    fill
+                    sizes="220px"
+                    className="object-cover"
+                  />
+                </div>
+              ) : (
+                <div
+                  className="flex h-56 w-56 flex-none items-center justify-center rounded-lg border border-line bg-gradient-to-br from-panel to-stone md:h-[220px] md:w-[220px]"
+                  aria-hidden
+                >
+                  <span className="font-display text-5xl font-semibold text-clay/40">EPL</span>
+                </div>
+              )
+            })()}
             <div>
               <p className="font-body text-xs font-semibold uppercase tracking-widest text-clay">
                 {copy.attorney.kicker}

@@ -10,6 +10,7 @@ import { TestimonialCard } from '@/components/TestimonialCard'
 import { JsonLd } from '@/components/JsonLd'
 import { localBusinessSchema } from '@/lib/schema'
 import { RedlandsSign, PalmSpringsSign } from '@/components/LocationSigns'
+import { EDGAR_PHOTO_FALLBACK, resolveMediaUrl } from '@/lib/mediaUrl'
 
 export default async function HomePage({
   params,
@@ -97,26 +98,31 @@ export default async function HomePage({
              with it for attention. */}
           <div className="relative mx-auto w-full max-w-sm md:mx-0">
             <div className="absolute -inset-3 -z-10 rounded-2xl bg-gradient-to-br from-citrus to-pool opacity-90" aria-hidden />
-            {attorney?.photo && typeof attorney.photo === 'object' && (attorney.photo as any).url ? (
-              <div className="relative aspect-[4/5] w-full overflow-hidden rounded-2xl border-4 border-panel shadow-xl">
-                <Image
-                  src={(attorney.photo as any).url}
-                  alt={(attorney.photo as any).alt || (attorney?.name as string) || 'Edgar P. Lombera'}
-                  fill
-                  priority
-                  sizes="(min-width: 768px) 420px, 90vw"
-                  className="object-cover"
-                />
-                <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-ink/80 to-transparent px-5 pb-4 pt-10">
-                  <p className="font-display text-lg font-semibold text-white">{attorney?.name as string}</p>
-                  <p className="font-body text-xs text-white/80">Founding Attorney</p>
+            {(() => {
+              const photo = attorney?.photo && typeof attorney.photo === 'object' ? (attorney.photo as { url?: string; alt?: string }) : null
+              const photoSrc = resolveMediaUrl(photo, EDGAR_PHOTO_FALLBACK)
+              const photoAlt = photo?.alt || (attorney?.name as string) || 'Edgar P. Lombera'
+              return photoSrc ? (
+                <div className="relative aspect-[4/5] w-full overflow-hidden rounded-2xl border-4 border-panel shadow-xl">
+                  <Image
+                    src={photoSrc}
+                    alt={photoAlt}
+                    fill
+                    priority
+                    sizes="(min-width: 768px) 420px, 90vw"
+                    className="object-cover"
+                  />
+                  <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-ink/80 to-transparent px-5 pb-4 pt-10">
+                    <p className="font-display text-lg font-semibold text-white">{attorney?.name as string}</p>
+                    <p className="font-body text-xs text-white/80">Founding Attorney</p>
+                  </div>
                 </div>
-              </div>
-            ) : (
-              <div className="relative flex aspect-[4/5] w-full items-center justify-center rounded-2xl border-4 border-panel bg-panel shadow-xl">
-                <span className="font-display text-6xl font-bold text-ink/20">EPL</span>
-              </div>
-            )}
+              ) : (
+                <div className="relative flex aspect-[4/5] w-full items-center justify-center rounded-2xl border-4 border-panel bg-panel shadow-xl">
+                  <span className="font-display text-6xl font-bold text-ink/20">EPL</span>
+                </div>
+              )
+            })()}
           </div>
         </Container>
 

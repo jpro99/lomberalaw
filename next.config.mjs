@@ -5,6 +5,9 @@ const nextConfig = {
   reactStrictMode: true,
   images: {
     remotePatterns: [
+      // Exact store hostname — wildcard patterns have been unreliable
+      // with next/image + Vercel Blob in production.
+      { protocol: 'https', hostname: 'b2mmyv6bmksqmvtb.public.blob.vercel-storage.com' },
       { protocol: 'https', hostname: '*.public.blob.vercel-storage.com' },
     ],
     formats: ['image/avif', 'image/webp'],
