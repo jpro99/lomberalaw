@@ -94,6 +94,15 @@ export default buildConfig({
   db: postgresAdapter({
     pool: {
       connectionString: process.env.DATABASE_URI || '',
+      // Neon requires SSL. Rather than depend entirely on the
+      // connection string including "?sslmode=require" correctly
+      // (a real, easy-to-miss detail when copying/pasting a
+      // connection string by hand), set it explicitly here too --
+      // belt and suspenders. rejectUnauthorized: false is standard
+      // for Neon's managed certificates from a serverless
+      // environment; it's still an encrypted connection, just not
+      // validating against a local CA bundle.
+      ssl: { rejectUnauthorized: false },
     },
   }),
 

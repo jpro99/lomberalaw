@@ -443,18 +443,82 @@ async function main() {
   // Testimonials (placeholders — replace with verified, permissioned
   // reviews before launch; do not publish scraped review text as-is)
   // ---------------------------------------------------------------
+  // Real testimonials, pulled directly from the current live site
+  // (lomberalaw.com homepage + dedicated testimonials page) at
+  // Jeff's request -- not fabricated. Scoped to bankruptcy only per
+  // his explicit instruction, since the new site doesn't represent
+  // immigration/family law/criminal defense. Light cleanup only
+  // (typos, trimming redundant phrases) -- no rewritten substance,
+  // matching the "real voice, not ghostwritten" standard agreed on.
+  // Attribution kept to first name + last initial, matching the
+  // privacy convention the live site's newer testimonials already
+  // use. PERSONAL INJURY TESTIMONIALS ARE STILL MISSING -- neither
+  // page checked had an unambiguous, clearly-attributed PI review;
+  // the firm's actual Google Business Profile (271 reviews, cited
+  // on the live homepage) is the real source for those and needs a
+  // human to pull 2-3 directly from Google.
   const testimonialSeeds = [
     {
-      author: 'Redlands client',
-      ratingEn: 'Edgar stopped a wage garnishment right away and called back personally every time I had a question.',
-      ratingEs: 'Edgar detuvo un embargo de salario de inmediato y me devolvió la llamada personalmente cada vez que tuve una pregunta.',
+      author: 'Don C.',
+      ratingEn:
+        'Edgar Lombera is the best bankruptcy lawyer. I sought help from many different lawyers, but many didn\u2019t know how to help me. Edgar gave me step-by-step guidance with great patience and achieved what many others couldn\u2019t. 100% recommended.',
+      ratingEs:
+        'Edgar Lombera es el mejor abogado de bancarrota. Busqu\u00e9 ayuda de muchos abogados diferentes, pero muchos no sab\u00edan c\u00f3mo ayudarme. Edgar me dio orientaci\u00f3n paso a paso con mucha paciencia y logr\u00f3 lo que muchos otros no pudieron. 100% recomendado.',
       practiceArea: 'bankruptcy',
     },
     {
-      author: 'Palm Springs client',
-      ratingEn: 'He explained every step of my case in Spanish and never made me feel rushed.',
-      ratingEs: 'Me explicó cada paso de mi caso en español y nunca me hizo sentir apurado.',
-      practiceArea: 'personal-injury',
+      author: 'Abraham D.',
+      ratingEn:
+        'Both Edgar and the staff were very kind and courteous. They helped every step of the way, were always accessible, and very professional. Their support was a big relief during a stressful time.',
+      ratingEs:
+        'Tanto Edgar como el personal fueron muy amables y corteses. Me ayudaron en cada paso del camino, siempre estuvieron disponibles y fueron muy profesionales. Su apoyo fue un gran alivio durante un momento estresante.',
+      practiceArea: 'bankruptcy',
+    },
+    {
+      author: 'Bill L.',
+      ratingEn:
+        'Mr. Lombera and team were very helpful and professional from start to finish. They worked with us to ensure our case went smoothly. They went above and beyond what was required or expected. We\u2019re very grateful for their services and assistance.',
+      ratingEs:
+        'El Sr. Lombera y su equipo fueron muy serviciales y profesionales de principio a fin. Trabajaron con nosotros para asegurarse de que nuestro caso avanzara sin problemas. Hicieron m\u00e1s de lo que se esperaba. Estamos muy agradecidos por sus servicios y asistencia.',
+      practiceArea: 'bankruptcy',
+    },
+    {
+      author: 'Jodi D.',
+      ratingEn:
+        'I cannot say enough positive things about Lombera Law. Edgar met with me and stopped a wage garnishment immediately. I had a million questions and concerns -- he called me back right away to answer all of them, and even worked with me on payments. Everyone in his office was kind, understanding, and available. I got a fresh start thanks to Edgar Lombera.',
+      ratingEs:
+        'No puedo decir suficientes cosas positivas sobre Lombera Law. Edgar se reuni\u00f3 conmigo y detuvo un embargo de salario de inmediato. Ten\u00eda un mill\u00f3n de preguntas e inquietudes -- y me devolvi\u00f3 la llamada de inmediato para responderlas todas, e incluso trabaj\u00f3 conmigo en los pagos. Todos en su oficina fueron amables, comprensivos y estuvieron disponibles. Tuve un nuevo comienzo gracias a Edgar Lombera.',
+      practiceArea: 'bankruptcy',
+    },
+    {
+      author: 'Miguel N.',
+      ratingEn:
+        'Mr. Lombera made my bankruptcy process very easy and stress-free. His staff were so caring and on top of everything. If you need an attorney, Lombera Law is who you need to contact.',
+      ratingEs:
+        'El Sr. Lombera hizo que mi proceso de bancarrota fuera muy f\u00e1cil y sin estr\u00e9s. Su personal fue muy atento y estuvo al tanto de todo. Si necesita un abogado, Lombera Law es a quien debe contactar.',
+      practiceArea: 'bankruptcy',
+    },
+    {
+      author: 'Stephen F.',
+      ratingEn: 'Edgar did my Chapter 7 a few years ago and was 100 percent helpful throughout the whole thing. I highly recommend this guy.',
+      ratingEs: 'Edgar hizo mi Cap\u00edtulo 7 hace unos a\u00f1os y fue 100 por ciento \u00fatil durante todo el proceso. Lo recomiendo ampliamente.',
+      practiceArea: 'bankruptcy',
+    },
+    {
+      author: 'Patricia T.',
+      ratingEn:
+        'Mr. Lombera helped me with a bankruptcy case. I am so grateful for his help. He is very knowledgeable, experienced, and a true gentleman. Thank you so much, Mr. Lombera.',
+      ratingEs:
+        'El Sr. Lombera me ayud\u00f3 con un caso de bancarrota. Estoy muy agradecida por su ayuda. Es muy conocedor, experimentado y todo un caballero. Muchas gracias, Sr. Lombera.',
+      practiceArea: 'bankruptcy',
+    },
+    {
+      author: 'Thanhya P.',
+      ratingEn:
+        'I was recommended by a friend to seek legal services from Edgar. It was a very stressful time for my husband and me. Edgar put us at ease, explained the process, and let us know he would take care of everything. He was there to answer questions and guide us through the bankruptcy process. Because of Edgar, we went through it without the fear and headaches that usually go along with it.',
+      ratingEs:
+        'Un amigo me recomend\u00f3 buscar los servicios legales de Edgar. Fue un momento muy estresante para mi esposo y para m\u00ed. Edgar nos tranquiliz\u00f3, nos explic\u00f3 el proceso, y nos hizo saber que \u00e9l se encargar\u00eda de todo. Estuvo disponible para responder preguntas y guiarnos a trav\u00e9s del proceso de bancarrota. Gracias a Edgar, pasamos por el proceso sin el miedo y los dolores de cabeza que normalmente lo acompa\u00f1an.',
+      practiceArea: 'bankruptcy',
     },
   ]
 
@@ -475,7 +539,7 @@ async function main() {
       }))
     await payload.update({ collection: 'testimonials', id: doc.id, locale: 'es', data: { quote: seed.ratingEs } })
   }
-  console.log(`  ✓ ${testimonialSeeds.length} testimonials (placeholder — swap for verified reviews before launch)`)
+  console.log(`  ✓ ${testimonialSeeds.length} testimonials (real, bankruptcy only -- PI testimonials still needed from Google Business Profile)`)
 
   // ---------------------------------------------------------------
   // Cities
@@ -814,6 +878,33 @@ async function main() {
     },
   })
   console.log('  ✓ Starter resource post')
+
+  // ---------------------------------------------------------------
+  // Redirects — populates the Payload collection purely for admin
+  // visibility. The list itself lives in src/lib/legacyRedirects.mjs
+  // and is what next.config.mjs actually uses to redirect visitors
+  // (build-time, zero per-request cost) -- editing an entry here in
+  // the database does NOT change live behavior. See that file's
+  // header comment for the full explanation, and why this exists:
+  // per Jeff, the original HTML site ranked #1 across most of the
+  // service area; the move to WordPress lost that ranking for years
+  // because redirects weren't handled carefully, and that's the
+  // direct reason the firm started paying for ads. This is the
+  // safeguard against that happening a second time.
+  // ---------------------------------------------------------------
+  // @ts-expect-error -- plain .mjs data file, no type declarations needed for a script
+  const redirectSeeds = (await import('../src/lib/legacyRedirects.mjs')).legacyRedirects
+
+  for (const r of redirectSeeds) {
+    const existing = await payload.find({ collection: 'redirects', where: { from: { equals: r.from } }, limit: 1 })
+    const existingDoc = existing.docs[0]
+    if (existingDoc) {
+      await payload.update({ collection: 'redirects', id: existingDoc.id, data: { to: r.to, type: '301' } })
+    } else {
+      await payload.create({ collection: 'redirects', data: { from: r.from, to: r.to, type: '301' } })
+    }
+  }
+  console.log(`  ✓ ${redirectSeeds.length} redirects from the live site's real URLs`)
 
   // ---------------------------------------------------------------
   // Site Settings

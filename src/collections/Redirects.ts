@@ -4,7 +4,8 @@ export const Redirects: CollectionConfig = {
   slug: 'redirects',
   admin: {
     useAsTitle: 'from',
-    description: 'Legacy URL -> canonical URL. Checked by middleware on every request that misses a real route. No redeploy needed to add one.',
+    description:
+      'Reference list for staff visibility only. The redirects that actually run live in src/lib/legacyRedirects.mjs and are applied by Next.js at build time (zero per-request cost) -- editing an entry here does NOT change site behavior. To add or change a real redirect, a developer needs to edit that file and redeploy.',
   },
   fields: [
     { name: 'from', type: 'text', required: true, unique: true, admin: { description: 'e.g. "/san-bernardino-personal-injury-attorney/"' } },
