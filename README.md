@@ -3,6 +3,34 @@
 Bilingual (EN/ES) personal injury + bankruptcy firm site. Next.js App
 Router + Payload CMS 3 (embedded, same repo/deploy) + Postgres.
 
+## Status: Content deepened using competitor structural analysis
+
+Studied Arnold & Itkin's actual live pages (a national mass-tort
+firm) for *structure and technique*, not wording -- standard,
+ethical competitive research. What was learned and applied, in
+original Lombera copy throughout:
+
+- **Stakes → specific expertise → hard credibility number → CTA**
+  as the skeleton for every practice-area page. Applied to expand
+  Catastrophic Injury and Trucking & Commercial Vehicle Accidents
+  from a one-line summary to full body content following this arc.
+- **Embedded, direct Q&A answering real objections in the page flow**
+  (not buried in a separate FAQ page) -- new `QuickAnswers`
+  component, seeded with 3 direct questions each for Personal Injury
+  ("Is there a fee upfront?", "Does a smaller crash still matter?")
+  and Bankruptcy ("Will I lose my house or car?"), rendered right on
+  both practice hubs.
+
+**Deliberately not adopted:** their combative "we outlawyer them,
+no matter what" tone. That register works backed by $25B in
+verdicts; borrowed by a solo two-office practice it reads as the
+"billboard-lawyer energy" the positioning work explicitly ruled
+out. What's original to Lombera stays as the actual differentiator:
+honest, personal-attention framing ("you work with the attorney,
+not a case manager") repeated as the site's own consistent
+throughline, same structural technique as their trademarked phrase,
+different and true content.
+
 ## Status: Photo-forward hero redesign
 
 Direct response to a hard, fair challenge: compared against a

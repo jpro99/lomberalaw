@@ -111,7 +111,17 @@ async function main() {
   // ---------------------------------------------------------------
   // Services
   // ---------------------------------------------------------------
-  const serviceSeeds: { slug: string; practiceArea: string; titleEn: string; titleEs: string; order: number; summaryEn?: string; summaryEs?: string }[] = [
+  const serviceSeeds: {
+    slug: string
+    practiceArea: string
+    titleEn: string
+    titleEs: string
+    order: number
+    summaryEn?: string
+    summaryEs?: string
+    bodyEn?: ReturnType<typeof lexicalParagraphs>
+    bodyEs?: ReturnType<typeof lexicalParagraphs>
+  }[] = [
     // Personal Injury -- ordered per the firm's positioning: serious/
     // catastrophic/commercial-negligence cases lead, routine auto
     // claims still exist for SEO capture but sit lower in the list.
@@ -123,6 +133,18 @@ async function main() {
       order: 10,
       summaryEn: 'Life-changing injuries deserve a case built for the full scope of loss -- medical costs, lost earning capacity, and long-term care, prepared with trial-level thoroughness.',
       summaryEs: 'Las lesiones que cambian la vida merecen un caso construido para el alcance completo de la pérdida -- costos médicos, capacidad de ingresos perdida y cuidado a largo plazo, preparado con la minuciosidad de un juicio.',
+      bodyEn: lexicalParagraphs([
+        'A catastrophic injury does not resolve when the hospital discharges you. It follows you into every year that comes after -- ongoing treatment, equipment, therapy, and often the loss of the work you built your life around. A case that only accounts for the bills you have today will fall short of what the next twenty years actually cost.',
+        'Edgar personally investigates every catastrophic injury case from the ground up: medical experts to project future care, economists to calculate lost earning capacity, and -- when the injury involved a commercial vehicle, a defective product, or medical negligence -- the corporate or institutional defendant\u2019s own safety and training records.',
+        'This firm has represented catastrophic injury victims across the Inland Empire and Coachella Valley for more than 15 years. Every case is prepared as if it is going to trial, because insurance companies pay closer attention to the firms that are actually ready to go there.',
+        'There is no fee unless we recover money for you. The first consultation is free and confidential, and you will be speaking with Edgar directly -- not a case manager.',
+      ]),
+      bodyEs: lexicalParagraphs([
+        'Una lesión catastrófica no termina cuando le dan de alta en el hospital. Lo sigue durante cada año que viene después -- tratamiento continuo, equipo, terapia y a menudo la pérdida del trabajo sobre el cual construyó su vida. Un caso que solo tenga en cuenta las facturas de hoy se quedará corto frente a lo que realmente costarán los próximos veinte años.',
+        'Edgar investiga personalmente cada caso de lesión catastrófica desde cero: expertos médicos para proyectar la atención futura, economistas para calcular la capacidad de ingresos perdida y -- cuando la lesión involucró un vehículo comercial, un producto defectuoso o negligencia médica -- los propios registros de seguridad y capacitación del demandado corporativo o institucional.',
+        'Este despacho ha representado a víctimas de lesiones catastróficas en el Inland Empire y el Valle de Coachella durante más de 15 años. Cada caso se prepara como si fuera a juicio, porque las compañías de seguros prestan más atención a los despachos que realmente están dispuestos a llegar ahí.',
+        'No hay honorarios a menos que recuperemos dinero para usted. La primera consulta es gratuita y confidencial, y usted hablará directamente con Edgar -- no con un administrador de casos.',
+      ]),
     },
     {
       slug: 'truck-accidents',
@@ -132,6 +154,18 @@ async function main() {
       order: 20,
       summaryEn: 'Commercial trucking cases involve larger insurance policies and more complex liability -- federal safety regulations, black box data, and corporate defendants.',
       summaryEs: 'Los casos de camiones comerciales involucran pólizas de seguro más grandes y responsabilidad más compleja -- regulaciones federales de seguridad, datos de caja negra y demandados corporativos.',
+      bodyEn: lexicalParagraphs([
+        'A fully loaded commercial truck can weigh 20 times more than a passenger car. When one causes a crash, the injuries are rarely minor -- and the case is never as simple as a routine collision. Trucking companies and their insurers know this, and they move fast to protect themselves before you\u2019ve even seen a doctor.',
+        'Federal Motor Carrier Safety Administration regulations govern driver hours, vehicle maintenance, and company hiring practices -- and violations of those regulations are often the reason the crash happened at all. Edgar works to preserve black box data, driver logs, and maintenance records before they can be lost or destroyed, and investigates whether the trucking company itself bears responsibility, not just the driver.',
+        'These cases typically involve a commercial insurance policy far larger than a standard auto policy -- which also means the company\u2019s legal team will fight harder to minimize what they pay. That is exactly why the case needs to be built for trial from day one, not for a quick settlement.',
+        'There is no fee unless we recover money for you, and every consultation and case decision happens directly with Edgar.',
+      ]),
+      bodyEs: lexicalParagraphs([
+        'Un camión comercial completamente cargado puede pesar 20 veces más que un automóvil de pasajeros. Cuando uno causa un choque, las lesiones rara vez son menores -- y el caso nunca es tan simple como una colisión de rutina. Las compañías de camiones y sus aseguradoras lo saben, y se mueven rápido para protegerse incluso antes de que usted haya visto a un médico.',
+        'Las regulaciones de la Administración Federal de Seguridad de Transportistas Motorizados (FMCSA) rigen las horas de los conductores, el mantenimiento de los vehículos y las prácticas de contratación de las empresas -- y las violaciones de esas regulaciones a menudo son la razón por la que ocurrió el choque. Edgar trabaja para preservar los datos de la caja negra, los registros del conductor y los registros de mantenimiento antes de que se puedan perder o destruir, e investiga si la propia empresa de camiones tiene responsabilidad, no solo el conductor.',
+        'Estos casos típicamente involucran una póliza de seguro comercial mucho más grande que una póliza de auto estándar -- lo que también significa que el equipo legal de la empresa luchará más para minimizar lo que paga. Por eso exactamente el caso debe construirse para un juicio desde el primer día, no para un acuerdo rápido.',
+        'No hay honorarios a menos que recuperemos dinero para usted, y cada consulta y decisión del caso se maneja directamente con Edgar.',
+      ]),
     },
     {
       slug: 'rideshare-accidents',
@@ -200,17 +234,28 @@ async function main() {
           practiceArea: practiceAreaIds[s.practiceArea],
           displayOrder: s.order,
           summary: s.summaryEn,
+          ...(s.bodyEn ? { body: s.bodyEn } : {}),
         },
       }))
-    // Update title/order/summary even on existing docs so re-running
-    // the seed after a positioning change (like this one) applies it.
+    // Update title/order/summary/body even on existing docs so
+    // re-running the seed after a content update applies it.
     await payload.update({
       collection: 'services',
       id: doc.id,
-      data: { title: s.titleEn, displayOrder: s.order, ...(s.summaryEn ? { summary: s.summaryEn } : {}) },
+      data: {
+        title: s.titleEn,
+        displayOrder: s.order,
+        ...(s.summaryEn ? { summary: s.summaryEn } : {}),
+        ...(s.bodyEn ? { body: s.bodyEn } : {}),
+      },
     })
     if (s.summaryEs) {
-      await payload.update({ collection: 'services', id: doc.id, locale: 'es', data: { title: s.titleEs, summary: s.summaryEs } })
+      await payload.update({
+        collection: 'services',
+        id: doc.id,
+        locale: 'es',
+        data: { title: s.titleEs, summary: s.summaryEs, ...(s.bodyEs ? { body: s.bodyEs } : {}) },
+      })
     } else {
       await payload.update({ collection: 'services', id: doc.id, locale: 'es', data: { title: s.titleEs } })
     }

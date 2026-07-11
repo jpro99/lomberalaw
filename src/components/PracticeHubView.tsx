@@ -8,6 +8,7 @@ import { Container } from '@/components/Container'
 import { Button } from '@/components/Button'
 import { Breadcrumbs } from '@/components/Breadcrumbs'
 import { TestimonialCard } from '@/components/TestimonialCard'
+import { QuickAnswers } from '@/components/QuickAnswers'
 import { JsonLd } from '@/components/JsonLd'
 import { breadcrumbSchema, legalServiceSchema } from '@/lib/schema'
 
@@ -45,6 +46,69 @@ const SERVICE_ICONS: Record<string, string> = {
 // Real, specific facts -- the kind of content depth the site was
 // missing. Not legal advice, general reference points only; each
 // stat should be verified/kept current by staff.
+const QUICK_ANSWERS: Record<Slug, { en: { q: string; a: string }[]; es: { q: string; a: string }[] }> = {
+  'personal-injury': {
+    en: [
+      {
+        q: 'Is there a fee upfront?',
+        a: 'No. Personal injury cases are handled on contingency \u2014 there is no cost to you unless we recover money.',
+      },
+      {
+        q: 'Does a smaller crash still matter?',
+        a: 'It can. If your accident involved a commercial vehicle, a rideshare driver, or a serious injury, the case is often worth far more than it first appears \u2014 that\u2019s exactly the kind of case worth a real conversation.',
+      },
+      {
+        q: 'How long does a serious injury case take?',
+        a: 'It depends on the medical recovery and whether the insurer will offer a fair number without a lawsuit. Cases prepared for trial from day one often settle faster \u2014 insurers know which firms will actually go to court.',
+      },
+    ],
+    es: [
+      {
+        q: '¿Hay algún costo por adelantado?',
+        a: 'No. Los casos de lesiones personales se manejan por contingencia \u2014 no hay costo para usted a menos que recuperemos dinero.',
+      },
+      {
+        q: '¿Importa un choque más pequeño?',
+        a: 'Puede importar. Si su accidente involucró un vehículo comercial, un conductor de Uber/Lyft o una lesión grave, el caso a menudo vale mucho más de lo que parece al principio \u2014 ese es exactamente el tipo de caso que merece una conversación real.',
+      },
+      {
+        q: '¿Cuánto tiempo toma un caso de lesión grave?',
+        a: 'Depende de la recuperación médica y de si la aseguradora ofrecerá una cifra justa sin una demanda. Los casos preparados para juicio desde el primer día a menudo se resuelven más rápido \u2014 las aseguradoras saben qué despachos realmente van a la corte.',
+      },
+    ],
+  },
+  bankruptcy: {
+    en: [
+      {
+        q: 'Will I lose my house or car?',
+        a: 'Usually not. California\u2019s exemptions protect most essential property in both Chapter 7 and Chapter 13 \u2014 Edgar reviews your specific situation before you decide anything.',
+      },
+      {
+        q: 'How fast does the wage garnishment stop?',
+        a: 'Filing triggers an automatic stay that halts garnishment and most collection calls immediately, though timing can depend on how quickly your employer processes the notice.',
+      },
+      {
+        q: 'Is the consultation really free?',
+        a: 'Yes, and confidential \u2014 by phone or in person at either office, with no obligation.',
+      },
+    ],
+    es: [
+      {
+        q: '¿Perderé mi casa o mi auto?',
+        a: 'Generalmente no. Las exenciones de California protegen la mayoría de las propiedades esenciales tanto en el Capítulo 7 como en el Capítulo 13 \u2014 Edgar revisa su situación específica antes de que usted decida algo.',
+      },
+      {
+        q: '¿Qué tan rápido se detiene el embargo de salario?',
+        a: 'Presentar la solicitud activa una suspensión automática que detiene el embargo y la mayoría de las llamadas de cobro de inmediato, aunque el momento puede depender de qué tan rápido su empleador procese el aviso.',
+      },
+      {
+        q: '¿La consulta es realmente gratis?',
+        a: 'Sí, y confidencial \u2014 por teléfono o en persona en cualquiera de las oficinas, sin obligación.',
+      },
+    ],
+  },
+}
+
 const STAT_BANDS: Record<Slug, { en: { value: string; label: string }[]; es: { value: string; label: string }[] }> = {
   'personal-injury': {
     en: [
@@ -83,6 +147,7 @@ export async function PracticeHubView({ slug, locale }: { slug: Slug; locale: Lo
   const copy = t(locale)
   const prefix = locale === 'en' ? '' : '/es'
   const stats = STAT_BANDS[slug][locale]
+  const quickAnswers = QUICK_ANSWERS[slug][locale]
 
   return (
     <main>
@@ -144,6 +209,15 @@ export async function PracticeHubView({ slug, locale }: { slug: Slug; locale: Lo
           ))}
         </div>
       </Container>
+
+      <section className="py-14 md:py-20">
+        <Container className="max-w-2xl">
+          <QuickAnswers
+            items={quickAnswers}
+            kicker={locale === 'es' ? 'Respuestas Rápidas' : 'Quick Answers'}
+          />
+        </Container>
+      </section>
 
       {services.length > 0 && (
         <section className="py-14 md:py-20">
