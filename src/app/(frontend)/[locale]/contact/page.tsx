@@ -4,6 +4,7 @@ import { t } from '@/lib/dictionary'
 import { Container } from '@/components/Container'
 import { Breadcrumbs } from '@/components/Breadcrumbs'
 import { OfficeCard } from '@/components/OfficeCard'
+import { ContactForm } from '@/components/ContactForm'
 import { JsonLd } from '@/components/JsonLd'
 import { breadcrumbSchema, localBusinessSchema } from '@/lib/schema'
 
@@ -71,6 +72,12 @@ export default async function ContactPage({ params }: { params: Promise<{ locale
               />
             ))}
           </div>
+        </Container>
+      </section>
+
+      <section className="pb-14 md:pb-20">
+        <Container className="max-w-2xl">
+          <ContactForm copy={copy.form} locale={locale} />
         </Container>
       </section>
     </main>

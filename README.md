@@ -3,6 +3,41 @@
 Bilingual (EN/ES) personal injury + bankruptcy firm site. Next.js App
 Router + Payload CMS 3 (embedded, same repo/deploy) + Postgres.
 
+## Status: Real contact form + referral-source tracking
+
+Closes a real gap found while building this: the contact page had
+office cards and click-to-call, but no actual form — someone who
+preferred typing over calling had no way to reach the firm through
+the site at all.
+
+**Schema:** `Contacts.referralSource` (categorized: search, personal
+referral, attorney referral, Google Maps, social, direct, other) +
+`referralSourceDetail` (their own words, kept alongside the
+category). Split out from the existing `source` field, which was
+being asked to do two different jobs -- `source` is *channel* (call
+vs. web form vs. chat), `referralSource` is *how they originally
+found the firm*. Same question will be asked on the phone system
+once that's built, so both data sources feed one consistent picture
+of where marketing dollars are actually working -- the whole point
+Jeff raised.
+
+**Real form**, not a mailto link: name, phone, email, practice-area
+interest, message, referral source, optional SMS consent checkbox
+(TCPA-aware from the start), built as a React 19 Server Action
+(`contact/actions.ts`) with no separate API round-trip -- submits
+straight into the `Contacts` and `Events` collections via Payload's
+local API. Duplicate-safe: matches existing contacts by phone or
+email before creating a new record, same pattern used throughout
+the seed script.
+
+**Honest limitation:** no email/SMS notification fires on submission
+yet -- no email adapter is configured in this project (every build
+log tonight has shown "No email adapter provided" as a standing
+warning). The submission is fully captured and visible in `/admin`
+immediately; a staff notification on new submissions is a real,
+separate piece of infrastructure (an email service like Resend)
+worth setting up, not something to fake as already working.
+
 ## Status: Content deepened using competitor structural analysis
 
 Studied Arnold & Itkin's actual live pages (a national mass-tort

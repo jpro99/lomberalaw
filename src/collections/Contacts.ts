@@ -49,6 +49,26 @@ export const Contacts: CollectionConfig = {
       name: 'source',
       type: 'select',
       options: ['website_form', 'call', 'chat', 'sms', 'referral'],
+      admin: { description: 'Which channel created this record (how they reached us just now) -- not the same as referralSource below (how they originally discovered the firm).' },
+    },
+    {
+      name: 'referralSource',
+      type: 'select',
+      options: [
+        { label: 'Google / online search', value: 'search' },
+        { label: 'Referral \u2014 friend or family', value: 'referral_personal' },
+        { label: 'Referral \u2014 another attorney', value: 'referral_attorney' },
+        { label: 'Google Maps / Business listing', value: 'maps' },
+        { label: 'Social media', value: 'social' },
+        { label: 'Saw the website directly', value: 'website' },
+        { label: 'Other', value: 'other' },
+      ],
+      admin: { description: 'How they originally discovered the firm -- the actual marketing-attribution question. Asked on both the phone system and this form so the two data sources build one consistent picture.' },
+    },
+    {
+      name: 'referralSourceDetail',
+      type: 'text',
+      admin: { description: 'Their own words, if given -- e.g. "my cousin Maria told me." Kept alongside the categorized referralSource above, not instead of it.' },
     },
 
     // --- Consent (TCPA / CA privacy) ---
