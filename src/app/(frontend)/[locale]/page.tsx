@@ -9,7 +9,6 @@ import { PracticeCard } from '@/components/PracticeCard'
 import { TestimonialCard } from '@/components/TestimonialCard'
 import { JsonLd } from '@/components/JsonLd'
 import { localBusinessSchema } from '@/lib/schema'
-import { SplitHeroArt } from '@/components/HorizonMotif'
 import { RedlandsSign, PalmSpringsSign } from '@/components/LocationSigns'
 
 export default async function HomePage({
@@ -42,14 +41,6 @@ export default async function HomePage({
 
       {/* Hero */}
       <section className="relative overflow-hidden border-b border-line bg-gradient-to-r from-citrus-soft via-stone to-pool-soft">
-        <SplitHeroArt className="pointer-events-none absolute inset-x-0 bottom-0 h-24 w-full opacity-40 md:h-32" />
-
-        {/* Vintage regional signage -- real place identity, colorful,
-           rooted in each town's actual historic design tradition.
-           Practice-area keywords live in the H1 below, not here. */}
-        <RedlandsSign className="pointer-events-none absolute -left-6 bottom-4 hidden h-28 w-28 drop-shadow-lg lg:block xl:h-36 xl:w-36" />
-        <PalmSpringsSign className="pointer-events-none absolute -right-6 bottom-4 hidden h-28 w-28 drop-shadow-lg lg:block xl:h-36 xl:w-36" />
-
         <Container className="relative grid gap-10 py-16 md:grid-cols-[1.2fr_1fr] md:items-center md:py-24">
           <div>
             <span className="inline-flex items-center gap-2 rounded-full border border-line bg-panel px-4 py-1.5 font-body text-xs font-bold uppercase tracking-widest text-citrus-deep">
@@ -85,6 +76,17 @@ export default async function HomePage({
               )
             })}
           </dl>
+        </Container>
+
+        {/* Vintage regional signage -- real place identity, colorful,
+           rooted in each town's actual historic design tradition.
+           Practice-area keywords live in the H1 above, not here.
+           Normal document flow (not absolute-positioned) so it can
+           never overlap the buttons above or get clipped by the
+           viewport edge. */}
+        <Container className="relative mt-10 hidden items-end justify-between pb-2 lg:flex">
+          <RedlandsSign className="h-28 w-28 drop-shadow-md xl:h-32 xl:w-32" />
+          <PalmSpringsSign className="h-28 w-28 drop-shadow-md xl:h-32 xl:w-32" />
         </Container>
       </section>
 

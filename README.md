@@ -3,6 +3,36 @@
 Bilingual (EN/ES) personal injury + bankruptcy firm site. Next.js App
 Router + Payload CMS 3 (embedded, same repo/deploy) + Postgres.
 
+## Status: Fix — sign positioning and broken background trees
+
+Real layout bugs from the last screenshot, both fixed:
+
+**Signs overlapping the CTA buttons.** They were absolutely
+positioned at the section's corners with no reserved space, landing
+right on top of "Get a Free Consultation" / "Two offices" at normal
+content heights. Fixed by moving them into normal document flow --
+a dedicated row *after* the hero content grid, inside the same
+Container, with `mt-10` spacing. This makes overlap structurally
+impossible (no more absolute-positioning math to get wrong) and
+also fixes the Palm Springs sign getting clipped at the viewport
+edge, since it's now safely within the Container's max-width and
+padding instead of bleeding past the section with a negative offset.
+
+**Floating disconnected tree fragments** (the squiggly marks near
+"Two offices" in the screenshot) were `SplitHeroArt`, a background
+tree-strip meant to span the full hero width at ~100px tall. Its
+`viewBox="0 0 1200 400"` with `preserveAspectRatio="xMidYMax meet"`
+assumed a roughly-square-ish container; at the hero's actual
+extreme-wide/short aspect ratio, "meet" scaling shrank the whole
+canvas down and centered it, so the corner-positioned trees ended up
+as tiny fragments near the middle instead of anchored at the edges.
+Removed entirely rather than patched -- the vintage signs are doing
+the real visual work now, and one clear idea beats two competing,
+half-broken ones.
+
+Signs still `lg:` and up only (hidden on mobile/tablet) to keep
+smaller screens clean and fast.
+
 ## Status: Vintage regional signage — colorful, SEO-considered
 
 Direct response to "not a real photo, a colorful digital sign" +

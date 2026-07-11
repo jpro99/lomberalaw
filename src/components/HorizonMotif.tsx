@@ -106,16 +106,3 @@ export function HorizonMotif({ className = '', variant = 'blend' }: { className?
     </svg>
   )
 }
-
-// Used directly on the homepage hero -- a real orange tree anchoring
-// the Redlands side, a real palm tree anchoring the Palm Springs
-// side, with location tags making the two-office identity explicit.
-export function SplitHeroArt({ className = '' }: { className?: string }) {
-  return (
-    <svg viewBox="0 0 1200 400" className={className} fill="none" preserveAspectRatio="xMidYMax meet" aria-hidden="true">
-      <OrangeTree x={-30} y={80} scale={1.35} />
-      <PalmTree x={1010} y={-140} scale={1.3} />
-      <PalmTree x={1110} y={-40} scale={0.85} lean={5} />
-    </svg>
-  )
-}
