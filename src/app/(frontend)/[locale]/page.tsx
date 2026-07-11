@@ -41,26 +41,16 @@ export default async function HomePage({
         <JsonLd key={office.id} data={localBusinessSchema(office as any, 'https://lomberalaw.com')} />
       ))}
 
-      {/* Full-bleed photo hero — one composition: brand, headline,
-         one supporting line, one CTA, dominant attorney image. */}
-      <section className="relative min-h-[88vh] overflow-hidden bg-night text-white">
-        <div className="absolute inset-0">
-          <Image
-            src={photoSrc}
-            alt={photoAlt}
-            fill
-            priority
-            sizes="100vw"
-            className="animate-image object-cover object-[center_25%]"
-          />
-          <div
-            className="absolute inset-0 bg-gradient-to-r from-night via-night/85 to-night/25 md:via-night/75 md:to-transparent"
-            aria-hidden
-          />
-          <div className="absolute inset-0 bg-gradient-to-t from-night/90 via-transparent to-night/40 md:to-night/20" aria-hidden />
-        </div>
-
-        <Container className="relative flex min-h-[88vh] flex-col justify-end pb-16 pt-28 md:justify-center md:pb-24 md:pt-24">
+      {/* Hero — photo is contained (not full-bleed) because both
+         available source files are ~440px wide. Stretching them
+         across the viewport is what made the desk shot look soft.
+         Swap in a 1600px+ original later to restore full-bleed. */}
+      <section className="relative overflow-hidden bg-night text-white">
+        <div
+          className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_70%_40%,rgba(154,123,79,0.12),transparent_55%)]"
+          aria-hidden
+        />
+        <Container className="relative grid min-h-[78vh] items-center gap-12 py-16 md:grid-cols-[1.05fr_0.95fr] md:gap-16 md:py-24">
           <div className="max-w-xl">
             <p className="animate-rise font-display text-3xl tracking-tight text-white md:text-4xl">
               Lombera Law
@@ -81,6 +71,25 @@ export default async function HomePage({
                 </Button>
               )}
             </div>
+          </div>
+
+          <div className="animate-fade justify-self-center md:justify-self-end">
+            <div className="relative border border-white/15 bg-night p-2 shadow-[0_24px_80px_rgba(0,0,0,0.45)]">
+              <Image
+                src={photoSrc}
+                alt={photoAlt}
+                width={878}
+                height={550}
+                priority
+                unoptimized
+                sizes="(min-width: 768px) 440px, 90vw"
+                className="h-auto w-full max-w-[440px]"
+              />
+            </div>
+            <p className="mt-3 font-body text-xs tracking-wide text-white/45">
+              {attorney?.name as string || 'Edgar P. Lombera'} ·{' '}
+              {locale === 'es' ? 'Abogado Fundador' : 'Founding Attorney'}
+            </p>
           </div>
         </Container>
       </section>
