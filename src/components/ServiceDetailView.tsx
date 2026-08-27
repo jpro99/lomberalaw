@@ -11,16 +11,26 @@ import { FAQAccordion } from '@/components/FAQAccordion'
 import { TestimonialCard } from '@/components/TestimonialCard'
 import { JsonLd } from '@/components/JsonLd'
 import { breadcrumbSchema, legalServiceSchema, faqPageSchema } from '@/lib/schema'
+import { lexicalToPlainText } from '@/lib/lexicalText'
+import { pageMetadata, CH7_SEO, CH13_SEO } from '@/lib/seo'
 
 type PracticeSlug = 'personal-injury' | 'bankruptcy'
 
 export async function getServiceMetadata(practiceSlug: PracticeSlug, serviceSlug: string, locale: Locale) {
+  if (practiceSlug === 'bankruptcy' && serviceSlug === 'chapter-7') {
+    return pageMetadata({ ...CH7_SEO, path: '/bankruptcy/chapter-7', locale })
+  }
+  if (practiceSlug === 'bankruptcy' && serviceSlug === 'chapter-13') {
+    return pageMetadata({ ...CH13_SEO, path: '/bankruptcy/chapter-13', locale })
+  }
   const bundle = await getServiceBundle(practiceSlug, serviceSlug, locale)
   if (!bundle) return {}
-  return {
-    title: bundle.service.seo?.metaTitle || `${bundle.service.title} | Lombera Law`,
-    description: bundle.service.seo?.metaDescription || bundle.service.summary,
-  }
+  return pageMetadata({
+    title: (bundle.service.seo?.metaTitle as string) || `${bundle.service.title} | Lombera Law`,
+    description: (bundle.service.seo?.metaDescription as string) || (bundle.service.summary as string),
+    path: `/${practiceSlug}/${serviceSlug}`,
+    locale,
+  })
 }
 
 export async function ServiceDetailView({
@@ -37,7 +47,13 @@ export async function ServiceDetailView({
   const { practiceArea, service, faqs, siblingServices, testimonials } = bundle
   const copy = t(locale)
   const prefix = locale === 'en' ? '' : '/es'
-  const canonicalUrl = `https://lomberalaw.com${prefix}/${practiceSlug}/${serviceSlug}`
+  const canonicalUrl = `https://lomberalaw.com${prefix}/${practiceSlug}/${serviceSlug}/`
+  const h1 =
+    practiceSlug === 'bankruptcy' && serviceSlug === 'chapter-7'
+      ? CH7_SEO.h1
+      : practiceSlug === 'bankruptcy' && serviceSlug === 'chapter-13'
+        ? CH13_SEO.h1
+        : (service.title as string)
 
   return (
     <main>
@@ -56,16 +72,15 @@ export async function ServiceDetailView({
           areaServed: ['Inland Empire', 'Coachella Valley', 'Riverside County', 'San Bernardino County'],
         })}
       />
-      {faqs.length > 0 && (
-        <JsonLd
-          data={faqPageSchema(
-            faqs.map((f) => ({
-              question: f.question,
-              answer: typeof f.answer === 'string' ? f.answer : (f.question as string),
-            })),
-          )}
-        />
-      )}
+      {faqs.length > 0 && (() => {
+        const schema = faqPageSchema(
+          faqs.map((f) => ({
+            question: f.question as string,
+            answer: lexicalToPlainText(f.answer) || '',
+          })),
+        )
+        return schema ? <JsonLd data={schema} /> : null
+      })()}
 
       <section className="border-b border-line bg-panel py-14 md:py-20">
         <Container>
@@ -76,9 +91,7 @@ export async function ServiceDetailView({
               { name: service.title as string, href: `${prefix}/${practiceSlug}/${serviceSlug}` },
             ]}
           />
-          <h1 className="mt-4 max-w-2xl font-display text-4xl font-semibold text-ink md:text-5xl">
-            {service.title as string}
-          </h1>
+          <h1 className="mt-4 max-w-2xl font-display text-[2.5rem] leading-tight text-ink">{h1}</h1>
           {service.summary && (
             <p className="mt-4 max-w-xl font-body text-base leading-relaxed text-ink-soft">
               {service.summary as string}

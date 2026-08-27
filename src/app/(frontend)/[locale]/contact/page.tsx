@@ -1,4 +1,4 @@
-import { getPayload } from '@/lib/payload'
+import { getOffices } from '@/lib/getOffices'
 import type { Locale } from '@/lib/payload'
 import { t } from '@/lib/dictionary'
 import { Container } from '@/components/Container'
@@ -7,49 +7,67 @@ import { OfficeCard } from '@/components/OfficeCard'
 import { ContactForm } from '@/components/ContactForm'
 import { JsonLd } from '@/components/JsonLd'
 import { breadcrumbSchema, localBusinessSchema } from '@/lib/schema'
+import { CONTACT_SEO, pageMetadata } from '@/lib/seo'
+import { OFFICES } from '@/lib/nap'
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: Locale }> }) {
   const { locale } = await params
-  return {
-    title: locale === 'es' ? 'Contacto | Lombera Law' : 'Contact | Lombera Law',
-    description:
-      locale === 'es'
-        ? 'Comuníquese con el despacho de abogados de Edgar P. Lombera en Redlands o Palm Springs.'
-        : 'Reach the Law Offices of Edgar P. Lombera in Redlands or Palm Springs.',
-  }
+  return pageMetadata({
+    title: CONTACT_SEO.title,
+    description: CONTACT_SEO.description,
+    path: '/contact',
+    locale,
+  })
 }
 
 export default async function ContactPage({ params }: { params: Promise<{ locale: Locale }> }) {
   const { locale } = await params
-  const payload = await getPayload()
-  const prefix = locale === 'en' ? '' : '/es'
   const copy = t(locale).contact
+  const homeHref = locale === 'en' ? '/' : '/es/inicio/'
+  const contactHref = locale === 'es' ? '/es/contacta-con-nosotros/' : '/contact/'
 
-  const offices = await payload.find({ collection: 'offices', locale, limit: 5, sort: 'name' })
+  const offices = await getOffices(locale)
+  const officeCards = offices.length > 0
+    ? offices.map((o) => ({
+        id: o.id,
+        name: o.name,
+        phone: o.phone,
+        address: o.address,
+        hours: o.hours,
+        mapEmbedUrl: undefined as string | undefined,
+      }))
+    : OFFICES.map((o) => ({
+        id: o.id,
+        name: o.name,
+        phone: o.phone,
+        address: `${o.streetAddress}, ${o.addressLocality}, ${o.addressRegion} ${o.postalCode}`,
+        hours: 'Mon–Fri: 8:30am–5:30pm\nFree consultations by appointment',
+        mapEmbedUrl: undefined as string | undefined,
+      }))
 
   return (
     <main>
       <JsonLd
         data={breadcrumbSchema([
-          { name: 'Home', url: 'https://lomberalaw.com' + (locale === 'es' ? '/es' : '') },
-          { name: copy.kicker, url: `https://lomberalaw.com${prefix}/contact` },
+          { name: 'Home', url: `https://lomberalaw.com${homeHref}` },
+          { name: CONTACT_SEO.h1, url: `https://lomberalaw.com${contactHref}` },
         ])}
       />
-      {offices.docs.map((office) => (
-        <JsonLd key={office.id} data={localBusinessSchema(office as any, `https://lomberalaw.com${prefix}/contact`)} />
+      {officeCards.map((office) => (
+        <JsonLd key={office.id} data={localBusinessSchema(office as any, `https://lomberalaw.com${contactHref}`)} />
       ))}
 
       <section className="border-b border-line bg-stone py-14 md:py-20">
         <Container>
           <Breadcrumbs
             items={[
-              { name: 'Home', href: locale === 'en' ? '/' : '/es' },
-              { name: copy.kicker, href: `${prefix}/contact` },
+              { name: 'Home', href: homeHref },
+              { name: copy.kicker, href: contactHref },
             ]}
           />
           <p className="mt-4 font-body text-xs font-semibold uppercase tracking-widest text-clay">{copy.kicker}</p>
           <h1 className="mt-2 max-w-2xl font-display text-4xl font-semibold text-ink md:text-5xl">
-            {copy.headline}
+            {CONTACT_SEO.h1}
           </h1>
           <p className="mt-4 max-w-xl font-body text-base leading-relaxed text-ink-soft">{copy.qualifier}</p>
         </Container>
@@ -58,14 +76,14 @@ export default async function ContactPage({ params }: { params: Promise<{ locale
       <section className="py-14 md:py-20">
         <Container>
           <div className="grid gap-6 md:grid-cols-2">
-            {offices.docs.map((office) => (
+            {officeCards.map((office) => (
               <OfficeCard
                 key={office.id}
-                name={office.name as string}
-                phone={office.phone as string}
-                address={office.address as string}
-                hours={office.hours as string}
-                mapEmbedUrl={office.mapEmbedUrl as string}
+                name={office.name}
+                phone={office.phone}
+                address={office.address}
+                hours={office.hours}
+                mapEmbedUrl={office.mapEmbedUrl}
                 callLabel={copy.callLabel}
                 directionsLabel={copy.directionsLabel}
                 hoursLabel={copy.hoursLabel}

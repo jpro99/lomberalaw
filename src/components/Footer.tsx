@@ -1,15 +1,27 @@
 import Link from 'next/link'
-import { getPayload } from '@/lib/payload'
 import { t } from '@/lib/dictionary'
 import type { Locale } from '@/lib/payload'
+import { getOffices } from '@/lib/getOffices'
+import { OFFICES } from '@/lib/nap'
 import { Container } from './Container'
 
 export async function Footer({ locale }: { locale: Locale }) {
-  const payload = await getPayload()
   const copy = t(locale)
-  const offices = await payload.find({ collection: 'offices', limit: 5, sort: 'name' })
+  const offices = await getOffices(locale)
+  const officeList = offices.length > 0 ? offices : OFFICES.map((o) => ({
+    id: o.id,
+    name: o.name,
+    phone: o.phone,
+  }))
 
   const prefix = locale === 'en' ? '' : '/es'
+  const piHref = locale === 'es' ? '/es/lesiones-personales/' : '/personal-injury/'
+  const bkHref = locale === 'es' ? '/es/bancarrota/' : '/bankruptcy/'
+  const aboutHref = locale === 'es' ? '/es/sobre-nosotros/' : '/about-us/'
+  const faqHref = locale === 'es' ? '/es/preguntas-frecuentes/' : '/frequently-asked-questions/'
+  const blogHref = locale === 'es' ? '/es/blog-espanol/' : '/blog/'
+  const testimonialsHref = locale === 'es' ? '/es/testimonios/' : '/testimonials/'
+  const contactHref = locale === 'es' ? '/es/contacta-con-nosotros/' : '/contact/'
 
   return (
     <footer className="border-t border-line bg-night text-night-ink">
@@ -29,9 +41,18 @@ export async function Footer({ locale }: { locale: Locale }) {
               {copy.nav.personalInjury}
             </p>
             <ul className="mt-4 space-y-2 font-body text-sm">
-              <li><Link href={`${prefix}/personal-injury`} className="hover:text-white">{copy.nav.personalInjury}</Link></li>
-              <li><Link href={`${prefix}/bankruptcy`} className="hover:text-white">{copy.nav.bankruptcy}</Link></li>
-              <li><Link href={`${prefix}/locations`} className="hover:text-white">{copy.nav.locations}</Link></li>
+              <li><Link href={piHref} className="hover:text-white">{copy.nav.personalInjury}</Link></li>
+              <li><Link href={bkHref} className="hover:text-white">{copy.nav.bankruptcy}</Link></li>
+              <li>
+                <Link href={`${prefix}/locations/redlands-ca/`} className="hover:text-white">
+                  {locale === 'es' ? 'Oficina Redlands' : 'Redlands Office'}
+                </Link>
+              </li>
+              <li>
+                <Link href={`${prefix}/locations/palm-springs/`} className="hover:text-white">
+                  {locale === 'es' ? 'Oficina Palm Springs' : 'Palm Springs Office'}
+                </Link>
+              </li>
             </ul>
           </div>
 
@@ -40,7 +61,7 @@ export async function Footer({ locale }: { locale: Locale }) {
               {copy.nav.offices}
             </p>
             <ul className="mt-4 space-y-3 font-body text-sm">
-              {offices.docs.map((office) => (
+              {officeList.map((office) => (
                 <li key={office.id}>
                   <p className="font-medium text-white">{office.name as string}</p>
                   <a href={`tel:${office.phone}`} className="font-data text-xs text-night-ink/70 hover:text-white">
@@ -56,11 +77,11 @@ export async function Footer({ locale }: { locale: Locale }) {
               {copy.nav.contact}
             </p>
             <ul className="mt-4 space-y-2 font-body text-sm">
-              <li><Link href={`${prefix}/contact`} className="hover:text-white">{copy.nav.contact}</Link></li>
-              <li><Link href={`${prefix}/attorney/edgar-lombera`} className="hover:text-white">{copy.nav.attorney}</Link></li>
-              <li><Link href={`${prefix}/faq`} className="hover:text-white">FAQ</Link></li>
-              <li><Link href={`${prefix}/resources`} className="hover:text-white">{locale === 'es' ? 'Recursos' : 'Resources'}</Link></li>
-              <li><Link href={`${prefix}/reviews`} className="hover:text-white">{locale === 'es' ? 'Reseñas' : 'Reviews'}</Link></li>
+              <li><Link href={contactHref} className="hover:text-white">{copy.nav.contact}</Link></li>
+              <li><Link href={aboutHref} className="hover:text-white">{copy.nav.attorney}</Link></li>
+              <li><Link href={faqHref} className="hover:text-white">FAQ</Link></li>
+              <li><Link href={blogHref} className="hover:text-white">{locale === 'es' ? 'Blog' : 'Blog'}</Link></li>
+              <li><Link href={testimonialsHref} className="hover:text-white">{locale === 'es' ? 'Testimonios' : 'Testimonials'}</Link></li>
             </ul>
           </div>
         </div>

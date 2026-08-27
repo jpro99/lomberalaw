@@ -1,76 +1,86 @@
-// Legacy URL -> new-site URL mapping, pulled from the actual live
-// site's real navigation and footer (not guessed). This exists
-// specifically because of what happened last time this firm changed
-// platforms: per Jeff, the original HTML site ranked #1 across most
-// of the service area; the move to WordPress lost that ranking for
-// years because redirects weren't handled carefully, and that's the
-// direct reason the firm started paying for ads. This list is the
-// safeguard against that happening a second time.
-//
-// Single source of truth, used two ways:
-//   1. next.config.mjs imports this to generate Next.js's built-in
-//      redirects() config -- evaluated once at build time, zero
-//      per-request cost. This is what actually redirects visitors
-//      and search engines.
-//   2. scripts/seed.ts imports this to populate the Redirects
-//      collection in Payload, purely for admin visibility -- so
-//      staff can see the full list in /admin without reading this
-//      file. Editing entries there does NOT change live behavior
-//      until this file is updated and the site is redeployed --
-//      see the note in src/collections/Redirects.ts.
+// Minimal redirects — never remap live paths to new IA.
+// Old internal/alternate paths → live canonical paths only.
+
+const CAR_ACCIDENT_CITY_TARGETS = [
+  ['palm-springs', '/personal-injury/palm-springs/'],
+  ['cathedral-city', '/personal-injury/cathedral-city/'],
+  ['redlands', '/personal-injury/car-accidents/'],
+  ['san-bernardino', '/personal-injury/car-accidents/'],
+  ['fontana', '/personal-injury/car-accidents/'],
+  ['riverside', '/personal-injury/car-accidents/'],
+  ['moreno-valley', '/personal-injury/car-accidents/'],
+  ['highland', '/personal-injury/car-accidents/'],
+  ['palm-desert', '/personal-injury/car-accidents/'],
+  ['indio', '/personal-injury/car-accidents/'],
+  ['beaumont', '/personal-injury/car-accidents/'],
+  ['hemet', '/personal-injury/car-accidents/'],
+  ['colton', '/personal-injury/car-accidents/'],
+  ['desert-hot-springs', '/personal-injury/car-accidents/'],
+  ['rancho-cucamonga', '/personal-injury/car-accidents/'],
+  ['yucaipa', '/personal-injury/car-accidents/'],
+  ['ontario', '/personal-injury/car-accidents/'],
+  ['la-quinta', '/personal-injury/car-accidents/'],
+  ['rancho-mirage', '/personal-injury/car-accidents/'],
+  ['indian-wells', '/personal-injury/car-accidents/'],
+  ['coachella', '/personal-injury/car-accidents/'],
+  ['barstow', '/personal-injury/car-accidents/'],
+  ['rialto', '/personal-injury/car-accidents/'],
+  ['big-bear-lake', '/personal-injury/car-accidents/'],
+]
+
+const carAccidentLawyerRedirects = CAR_ACCIDENT_CITY_TARGETS.map(([city, to]) => ({
+  from: `/car-accident-lawyer-${city}/`,
+  to,
+}))
 
 export const legacyRedirects = [
-  // Core pages
-  { from: '/testimonials/', to: '/reviews' },
-  { from: '/about-us/', to: '/attorney/edgar-lombera' },
-  { from: '/blog/', to: '/resources' },
-  { from: '/frequently-asked-questions/', to: '/faq' },
-  { from: '/es/inicio/', to: '/es' },
+  // Junk pages
+  { from: '/ethans-page/', to: '/' },
+  { from: '/header-2/', to: '/' },
+  { from: '/practice-areas/', to: '/' },
+  { from: '/contact-v2/', to: '/contact/' },
+  { from: '/why-choose-us/', to: '/about-us/' },
+  { from: '/frequently-asked-questions-2/', to: '/frequently-asked-questions/' },
 
-  // Personal injury services -- direct matches
-  { from: '/personal-injury/car-accidents/', to: '/personal-injury/car-accidents' },
-  { from: '/personal-injury/truck-accidents/', to: '/personal-injury/truck-accidents' },
-  { from: '/personal-injury/motorcycle-accidents/', to: '/personal-injury/motorcycle-accidents' },
-  { from: '/personal-injury/rideshare-accidents/', to: '/personal-injury/rideshare-accidents' },
-  { from: '/personal-injury/wrongful-death/', to: '/personal-injury/wrongful-death' },
-  { from: '/personal-injury/traumatic-brain-injury/', to: '/personal-injury/traumatic-brain-injury' },
+  // PI alternates
+  { from: '/personal-injury/car-accidents-2/', to: '/personal-injury/car-accidents/' },
+  { from: '/personal-injury/slip-and-fall/', to: '/personal-injury/' },
+  { from: '/personal-injury/premises-liability/', to: '/personal-injury/' },
 
-  // Personal injury services no longer offered on the new site --
-  // route to the practice hub rather than 404, without overstating
-  // what's still offered.
-  { from: '/personal-injury/slip-and-fall/', to: '/personal-injury' },
-  { from: '/personal-injury/premises-liability/', to: '/personal-injury' },
-  { from: '/personal-injury/dog-bites/', to: '/personal-injury' },
+  // BK alternates
+  { from: '/bankruptcy/stop-foreclosure/', to: '/bankruptcy/foreclosure-defense/' },
+  { from: '/bankruptcy/stop-wage-garnishment/', to: '/bankruptcy/wage-garnishment/' },
+  { from: '/bankruptcy/chapter-7-free-eval/', to: '/bankruptcy/chapter-7/' },
+  { from: '/bankruptcy/chapter-13-free-eval/', to: '/bankruptcy/chapter-13/' },
+  { from: '/bankruptcy/file-for-bankruptcy-2315/', to: '/bankruptcy/chapter-7/' },
+  { from: '/bankruptcy/file-for-bankruptcy-ps-2/', to: '/bankruptcy/chapter-7/' },
+  { from: '/bankruptcy/file-for-bankruptcy-ps-2315/', to: '/bankruptcy/chapter-7/' },
+  { from: '/bankruptcy/file-for-bankruptcy-rd-2/', to: '/bankruptcy/chapter-7/' },
+  { from: '/bankruptcy/lp-chapter-7-bankruptcy-1/', to: '/bankruptcy/chapter-7/' },
 
-  // Bankruptcy services
-  { from: '/bankruptcy/foreclosure-defense/', to: '/bankruptcy/foreclosure-defense' },
-  { from: '/bankruptcy/wage-garnishment/', to: '/bankruptcy/wage-garnishment' },
-  { from: '/bankruptcy/bankruptcy-process/', to: '/bankruptcy' },
-  { from: '/bankruptcy/bankruptcy-resources/', to: '/resources' },
+  // Old Next.js internal paths → live paths
+  { from: '/attorney/edgar-lombera/', to: '/about-us/' },
+  { from: '/reviews/', to: '/testimonials/' },
+  { from: '/resources/', to: '/blog/' },
+  { from: '/faq/', to: '/frequently-asked-questions/' },
 
-  // City pages that exist on both sites -- old site split PI/BK per
-  // city with no shared hub; new site has one city hub covering
-  // both, so both old paths converge there.
-  ...['redlands', 'san-bernardino', 'fontana', 'riverside', 'moreno-valley', 'highland', 'palm-springs', 'palm-desert', 'cathedral-city', 'indio'].flatMap(
-    (city) => [
-      { from: `/personal-injury/${city}/`, to: `/locations/${city}` },
-      { from: `/bankruptcy/${city}/`, to: `/locations/${city}` },
-    ],
-  ),
+  // Spanish — never serve /es/personal-injury
+  { from: '/es/personal-injury/', to: '/es/lesiones-personales/' },
+  { from: '/es/', to: '/es/inicio/' },
 
-  // City pages on the old site with no equivalent on the new one --
-  // send to the general locations hub instead of 404ing.
-  ...['rancho-cucamonga', 'hemet', 'beaumont', 'colton', 'desert-hot-springs'].flatMap((city) => [
-    { from: `/personal-injury/${city}/`, to: '/locations' },
-    { from: `/bankruptcy/${city}/`, to: '/locations' },
-  ]),
+  // Keyword landing pages → nearest live page
+  { from: '/truck-accident-lawyer/', to: '/personal-injury/truck-accidents/' },
+  { from: '/truck-accident-attorney-los-angeles/', to: '/personal-injury/truck-accidents/' },
+  { from: '/truck-accident-lawyer-san-bernardino-county/', to: '/personal-injury/truck-accidents/' },
+  { from: '/truck-accident-san-bernardino-county/', to: '/personal-injury/truck-accidents/' },
+  { from: '/uber-accident-lawyers/', to: '/personal-injury/rideshare-accidents/' },
+  { from: '/brain-injury-attorney-riverside/', to: '/personal-injury/traumatic-brain-injury/' },
+  { from: '/california-motorcycle-accident-lawyer/', to: '/personal-injury/motorcycle-accidents/' },
+  { from: '/riverside-motorcycle/', to: '/personal-injury/motorcycle-accidents/' },
+  { from: '/riverside-motorcycle-accident-lawyer/', to: '/personal-injury/motorcycle-accidents/' },
+  { from: '/traffic-attorney-barstow-ca/', to: '/' },
+  { from: '/san-bernardino-personal-injury-attorney/', to: '/personal-injury/' },
+  { from: '/termsofservice/', to: '/terms-of-service/' },
 
-  // Legacy keyword-first landing page URLs found in the footer --
-  // likely predate the current site structure.
-  { from: '/san-bernardino-personal-injury-attorney/', to: '/personal-injury' },
-  { from: '/car-accident-lawyer-san-bernardino/', to: '/personal-injury/car-accidents/san-bernardino' },
-  { from: '/california-motorcycle-accident-lawyer/', to: '/personal-injury/motorcycle-accidents' },
-  { from: '/truck-accident-attorney-los-angeles/', to: '/personal-injury/truck-accidents' },
-  { from: '/uber-accident-lawyers/', to: '/personal-injury/rideshare-accidents' },
-  { from: '/brain-injury-attorney-riverside/', to: '/personal-injury/traumatic-brain-injury' },
+  ...carAccidentLawyerRedirects,
 ]

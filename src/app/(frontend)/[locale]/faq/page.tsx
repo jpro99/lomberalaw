@@ -18,6 +18,13 @@ export default async function FAQPage({ params }: { params: Promise<{ locale: Lo
   const prefix = locale === 'en' ? '' : '/es'
   const faqs = await getGeneralFaqs(locale)
 
+  const faqSchema = faqPageSchema(
+    faqs.map((f: any) => ({
+      question: f.question,
+      answer: typeof f.answer === 'string' ? f.answer : f.question,
+    })),
+  )
+
   return (
     <main>
       <JsonLd
@@ -26,16 +33,7 @@ export default async function FAQPage({ params }: { params: Promise<{ locale: Lo
           { name: 'FAQ', url: `https://lomberalaw.com${prefix}/faq` },
         ])}
       />
-      {faqs.length > 0 && (
-        <JsonLd
-          data={faqPageSchema(
-            faqs.map((f: any) => ({
-              question: f.question,
-              answer: typeof f.answer === 'string' ? f.answer : f.question,
-            })),
-          )}
-        />
-      )}
+      {faqSchema && <JsonLd data={faqSchema} />}
 
       <section className="border-b border-line bg-stone py-14 md:py-20">
         <Container>
