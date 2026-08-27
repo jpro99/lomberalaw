@@ -320,30 +320,48 @@ const PI_EN: Record<CitySlug, CityPageCopy> = {
     ],
   },
   'cathedral-city': {
-    h1: 'Cathedral City injury lawyer for Highway 111 rideshare',
-    title: 'Cathedral City Injury Lawyer | Date Palm & Hwy 111 | Lombera',
+    h1: 'Cathedral City personal injury lawyer',
+    title: 'Cathedral City Personal Injury Lawyer | I-10/111 Truck, Uber, Wrongful Death | Lombera',
     description:
-      'Date Palm Drive, Ramon Road, and Highway 111 injury claims in Cathedral City. Rideshare and TBI. (760) 835-9353.',
+      'Truck, Uber, wrongful death, and catastrophic injury from I-10 / Highway 111 crashes in Cathedral City. Meet at 1276 N Palm Canyon Dr #107, Palm Springs — about 15 minutes west. (760) 835-9353.',
     lead: [
-      `Cathedral City sits between Palm Springs and Palm Desert on Date Palm Drive, Ramon Road, and Highway 111 — a short 111 drive west to ${PS_NAP}. Rideshare collisions, I-10 truck wrecks, wrongful death, brain injury, and spinal cord injury lead; car, motorcycle, pedestrian, and dog bites on contingency.`,
+      'There is no Lombera storefront in Cathedral City — no suite on Date Palm Drive, Ramon Road, or Highway 111. After a Cathedral City wreck, meet Edgar P. Lombera at 1276 N Palm Canyon Dr #107, Palm Springs, CA 92262 — about 9 miles and 15 minutes west via Cathedral Canyon Drive and Highway 111. Call (760) 835-9353. English or Spanish. Two practices only: personal injury and bankruptcy. You speak with him. Injury cases run on contingency: no fee unless we win.',
     ],
     sections: [
       {
-        h2: 'Rideshare, trucks, and life-changing injuries',
+        h2: 'Truck wrecks on I-10, Date Palm Drive, and Ramon Road',
         paragraphs: [
-          'Uber and Lyft crashes on 111, commercial truck collisions on the I-10, wrongful death, brain injury, and spinal cord injury are the lead matters. Car and motorcycle cases are part of the practice; dog bites when supported by facts. Slip-and-fall is referred elsewhere.',
+          'Commercial truck traffic on I-10, the Date Palm and Cathedral City Boulevard on-ramps, Date Palm Drive, and Ramon Road produces the freight collisions that lead this docket. Lombera does not appear on live Google truck organic for this city — the index hole is real, and these wrecks belong here. After a serious collision, preserve the ECM download, dashcam footage, and the driver qualification file before insurers scatter the evidence. The I-10 Date Palm and Cathedral City Boulevard on-ramps are a crash corridor on this page — not the route to the Palm Canyon office. This is Cathedral City’s I-10 / Date Palm / Ramon stack — not Palm Desert’s I-10 / 111 page, not the San Gorgonio Pass page for Palm Springs, and not Fontana, Colton, or Rancho freight copy. Wrongful death and traumatic brain injury claims from these wrecks stay on this URL.',
         ],
       },
       {
-        h2: 'Valley court filing',
+        h2: 'Uber, Lyft, and rideshare on Highway 111, Date Palm Drive, Ramon Road, and Cathedral Canyon Drive',
         paragraphs: [
-          'Claims are typically filed at Riverside County Superior Court, Indio Division, 46-200 Oasis St., Indio. Preserve app screenshots, 111 dashcam video, and witness contacts while the two-year clock under CCP §335.1 still runs.',
+          'Whether the driver had the app on changes which insurer must respond — we confirm coverage in the consult, not in marketing copy with dollar figures. Cathedral City rideshare claims stay on /personal-injury/cathedral-city/. We do not invent a /uber/ page.',
         ],
       },
       {
-        h2: 'Palm Springs office — (760) 835-9353',
+        h2: 'Wrongful death — standing under CCP §377.60 at 3255 E. Tahquitz Canyon Way',
         paragraphs: [
-          'Free consult in English or Spanish. No attorney fee on injury cases unless money is recovered. Bankruptcy petitions go to Riverside at 3420 Twelfth Street.',
+          'Who may bring the suit is confirmed in the consult under California Code of Civil Procedure §377.60 — we do not invent verdicts or settlement stories. Cathedral City civil files are filed at the Palm Springs Courthouse, 3255 E. Tahquitz Canyon Way — not Oasis Street, not the Indio Division, not 4050 Main Street, not 247 W. 3rd St., and not 8303 Haven Avenue. CCP §335.1 gives most victims two years; a public entity may require six-month written notice under Government Code §911.2.',
+        ],
+      },
+      {
+        h2: 'Catastrophic injury — TBI, spinal cord, lost limb',
+        paragraphs: [
+          'Traumatic brain injury, spinal cord injury, and amputation are damages outcomes handled on this URL only — not a separate /catastrophic-injury/ landing page. Future medical care and lost earning capacity drive the damages case. This is not medical advice.',
+        ],
+      },
+      {
+        h2: 'Car, motorcycle, and Civil Code §3342 dog bites',
+        paragraphs: [
+          'After the four primary claim types, car collisions, motorcycle crashes, and dog bites under California Civil Code §3342 round out the docket. Lane-splitting on a motorcycle is legal when done safely; wearing a helmet does not flip fault. We do not handle slip-and-fall claims.',
+        ],
+      },
+      {
+        h2: '(760) 835-9353 — 1276 N Palm Canyon Dr #107, west',
+        paragraphs: [
+          'Hours: Monday–Friday 9am–6pm, Saturday 10am–4pm, Sunday by appointment. Serious injuries can reach the office 24/7 for an emergency consult. If the same wreck sinks the household, the same (760) 835-9353 call files Chapter 7 or Chapter 13 at 3420 Twelfth Street, Riverside. Redlands is the other office — 2068 Orange Tree Lane, Suite 220, (909) 915-0181.',
         ],
       },
     ],
@@ -1360,16 +1378,50 @@ const PI_ES: Record<CitySlug, CityPageCopy> = {
     ],
   },
   'cathedral-city': {
-    h1: "Abogado de lesiones en Cathedral City por rideshare en la 111",
-    title: "Abogado de Lesiones Cathedral City | Rideshare 111 | Lombera",
-    description: "Accidentes de rideshare en la 111 en Cathedral City. (760) 835-9353. Consulta gratis.",
+    h1: 'Abogado de lesiones personales en Cathedral City',
+    title: 'Abogado de Lesiones Cathedral City | Camiones I-10/111, Uber, Muerte Injusta | Lombera',
+    description:
+      'Camiones, Uber, muerte injusta y lesiones catastróficas en choques de la I-10 / Carretera 111 en Cathedral City. Oficina en 1276 N Palm Canyon Dr #107, Palm Springs — unos 15 minutos al oeste. (760) 835-9353.',
     lead: [
-      "Cathedral City se encuentra en la Carretera 111 entre Palm Springs e Indio — Uber, Lyft, camiones y choques en arterias del valle. Reúnase con Edgar en 1276 N Palm Canyon Dr #107, Palm Springs, CA 92262 — (760) 835-9353. Rideshare, camiones, muerte injusta y lesiones cerebrales o de médula espinal lideran; auto, motocicleta y mordeduras de perro a contingencia.",
+      'No hay oficina de Lombera en Cathedral City — ninguna suite en Date Palm Drive, Ramon Road ni la Carretera 111. Después de un choque en Cathedral City, reúnase con Edgar P. Lombera en 1276 N Palm Canyon Dr #107, Palm Springs, CA 92262 — unos 9 millas y 15 minutos al oeste por Cathedral Canyon Drive y la Carretera 111. Llame al (760) 835-9353. Inglés o español. Solo dos prácticas: lesiones personales y bancarrota. Usted habla con él. Los casos de lesiones son a contingencia: sin honorarios a menos que ganemos.',
     ],
     sections: [
-{ h2: 'Rideshare, camiones y lesiones de por vida', paragraphs: ['Uber/Lyft en la 111, camiones I-10, muerte injusta, lesión cerebral y de médula espinal. Auto y motocicleta.'] },
-      { h2: 'Tribunal del valle', paragraphs: ['División Indio, 46-200 Oasis St., Indio. Preserve video y testigos pronto.'] },
-      { h2: `Palm Springs — (760) 835-9353`, paragraphs: ['Consulta gratis. Sin honorarios a menos que ganemos.'] },
+      {
+        h2: 'Choques de camiones en la I-10, Date Palm Drive y Ramon Road',
+        paragraphs: [
+          'El tráfico de camiones comerciales en la I-10, las rampas de Date Palm y Cathedral City Boulevard, Date Palm Drive y Ramon Road produce las colisiones de carga que lideran este expediente. Lombera no aparece en búsqueda orgánica de camiones en vivo para esta ciudad — el vacío del índice es real, y estos choques pertenecen aquí. Después de una colisión grave, preserve la descarga del ECM, las grabaciones de dashcam y el expediente de calificación del conductor antes de que las aseguradoras dispersen la evidencia. Las rampas de Date Palm y Cathedral City Boulevard en la I-10 son un corredor de choques en esta página — no la ruta a la oficina de Palm Canyon. Este es el conjunto I-10 / Date Palm / Ramon de Cathedral City — no la página I-10 / 111 de Palm Desert, no la del Paso de San Gorgonio para Palm Springs, ni copia de carga de Fontana, Colton o Rancho. Las demandas por muerte injusta y lesión cerebral traumática de estos choques permanecen en esta URL.',
+        ],
+      },
+      {
+        h2: 'Uber, Lyft y rideshare en la Carretera 111, Date Palm Drive, Ramon Road y Cathedral Canyon Drive',
+        paragraphs: [
+          'Si el conductor tenía la aplicación activada cambia qué aseguradora debe responder — confirmamos la cobertura en la consulta, no con cifras de marketing. Los reclamos de rideshare de Cathedral City permanecen en /es/lesiones-personales/cathedral-city/. No inventamos una página /uber/.',
+        ],
+      },
+      {
+        h2: 'Muerte injusta — legitimación bajo el CCP §377.60 en 3255 E. Tahquitz Canyon Way',
+        paragraphs: [
+          'Quién puede presentar la demanda se confirma en la consulta bajo el Código de Procedimiento Civil de California §377.60 — no inventamos veredictos ni historias de acuerdos. Los expedientes civiles de Cathedral City se presentan en el Tribunal de Palm Springs, 3255 E. Tahquitz Canyon Way — no en Oasis Street, no en la División Indio, no en 4050 Main Street, no en 247 W. 3rd St., y no en 8303 Haven Avenue. El CCP §335.1 da dos años a la mayoría de las víctimas; una entidad pública puede exigir aviso escrito de seis meses bajo el Código de Gobierno §911.2.',
+        ],
+      },
+      {
+        h2: 'Lesiones catastróficas — cerebral, médula, pérdida de miembro',
+        paragraphs: [
+          'La lesión cerebral traumática, la lesión de médula espinal y la amputación son resultados de daños manejados solo en esta URL — no una página separada de /lesiones-catastroficas/. La atención médica futura y la capacidad de ingreso perdida impulsan el caso de daños. Esto no es consejo médico.',
+        ],
+      },
+      {
+        h2: 'Auto, motocicleta y mordeduras — Código Civil §3342',
+        paragraphs: [
+          'Después de los cuatro tipos principales de reclamo, choques de auto, accidentes de motocicleta y mordeduras de perro bajo el Código Civil de California §3342 completan el expediente. Circular entre carriles en motocicleta es legal cuando se hace con seguridad; usar casco no invierte la culpa. No manejamos reclamos por resbalones y caídas.',
+        ],
+      },
+      {
+        h2: '(760) 835-9353 — 1276 N Palm Canyon Dr #107, al oeste',
+        paragraphs: [
+          'Horario: lunes a viernes 9am–6pm, sábado 10am–4pm, domingo con cita. Lesiones graves pueden contactar la oficina las 24 horas para consulta de emergencia. Si el mismo choque hunde el hogar, la misma llamada al (760) 835-9353 presenta el Capítulo 7 o 13 en 3420 Twelfth Street, Riverside. Redlands es la otra oficina — 2068 Orange Tree Lane, Suite 220, (909) 915-0181.',
+        ],
+      },
     ],
   },
   indio: {
