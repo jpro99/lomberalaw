@@ -667,30 +667,48 @@ const PI_EN: Record<CitySlug, CityPageCopy> = {
     ],
   },
   hemet: {
-    h1: 'Hemet personal injury lawyer for the SR-74 corridor',
-    title: 'Hemet Personal Injury Lawyer | SR-74 Corridor | Lombera',
+    h1: 'Hemet personal injury lawyer',
+    title: 'Hemet Personal Injury Lawyer | SR-74 Truck, Uber, Wrongful Death | Lombera',
     description:
-      'SR-74 and Florida Avenue injury lawyer in Hemet. Truck, TBI, wrongful death on contingency. (909) 915-0181.',
+      'Truck, Uber, wrongful death, and catastrophic injury from SR-74 / Florida Avenue crashes in Hemet. Meet at 2068 Orange Tree Lane #220, Redlands — about 43 minutes northwest. (909) 915-0181.',
     lead: [
-      `Hemet sits on Florida Avenue, SR-74, and SR-79 — the farther San Jacinto Valley satellite. There is no drop-in Hemet storefront. Schedule at ${REDLANDS_NAP} or ${PS_NAP}. Truck wrecks, rideshare trips, wrongful death, brain injury, and spinal cord injury lead; car, motorcycle, pedestrian, and dog bites are handled on contingency.`,
+      'There is no Lombera storefront at 145 S Carmalita Street, 1314 W Florida Avenue, 151 S State Street, or 445 E Florida Avenue by Hemet City Hall. After a Hemet wreck, meet Edgar P. Lombera at 2068 Orange Tree Lane, Suite 220, Redlands, CA 92374 — about 33 miles and 43 minutes northwest via Sanderson Avenue, Ramona Expressway, Lamb Canyon Road, and the I-10 west. Call (909) 915-0181. English or Spanish. Two practices only: personal injury and bankruptcy. You speak with him. Injury cases run on contingency: no fee unless we win.',
     ],
     sections: [
       {
-        h2: 'SR-74 and valley-floor crashes',
+        h2: 'Truck wrecks on SR-74, Florida Avenue, and SR-79',
         paragraphs: [
-          'Truck accidents, wrongful death on the 74 or Florida Avenue, traumatic brain injury, and spinal cord injury lead the work. Rideshare trips to and from the valley are included. Car, motorcycle, and dog-bite cases are handled.',
+          'Commercial truck traffic on the SR-74 mountain corridor, Florida Avenue through downtown Hemet, and SR-79 toward Winchester produces the freight collisions that lead this docket. Lombera already ranks for Hemet truck work with a generic title — this URL is the unique SR-74 / Florida Avenue / SR-79 rewrite. After a serious wreck, preserve the ECM download, dashcam footage, and the driver qualification file before insurers scatter the evidence. This is San Jacinto Valley freight — not Beaumont’s I-10 / San Gorgonio Pass page, not Moreno Valley’s SR-60 / I-215, and not Fontana’s I-10 / I-15 / Sierra grid. Wrongful death and traumatic brain injury claims from these wrecks stay on this URL.',
         ],
       },
       {
-        h2: 'Riverside County Superior Court',
+        h2: 'Uber and Lyft on Florida Avenue, Sanderson Avenue, Stetson Avenue, and State Street',
         paragraphs: [
-          'Hemet lawsuits are filed at Riverside County Superior Court, 4050 Main St., Riverside. CCP §335.1’s two-year window starts at the injury date.',
+          'Whether the driver had the app on changes which insurer must respond — we confirm coverage in the consult, not in marketing copy with dollar figures. Hemet rideshare claims stay on /personal-injury/hemet/. We do not invent a /uber/ page.',
         ],
       },
       {
-        h2: 'Free consult — (909) 915-0181',
+        h2: 'Wrongful death — standing under CCP §377.60 at 4050 Main Street',
         paragraphs: [
-          'Contingency — no recovery, no fee. Bankruptcy for medical bills: U.S. Bankruptcy Court, 3420 Twelfth Street, Riverside.',
+          'Who may bring the suit is confirmed in the consult under California Code of Civil Procedure §377.60 — we do not invent verdicts or settlement stories. Hemet has a Riverside County Superior Court Hemet Division, but unlimited civil cases for ZIP codes 92543–92546 file at 4050 Main Street, Riverside — not at the Hemet Division courthouse, not at Menifee Center Drive limited jurisdiction, not at Tahquitz Canyon Way, not at 247 W. 3rd St., not at 13800 Heacock, and not at 8303 Haven Avenue. CCP §335.1 gives most victims two years; a public entity may require six-month written notice under Government Code §911.2.',
+        ],
+      },
+      {
+        h2: 'Catastrophic injury — TBI, spinal cord, lost limb',
+        paragraphs: [
+          'Traumatic brain injury, spinal cord injury, and amputation are damages outcomes handled on this URL only — not a separate /catastrophic-injury/ landing page. Future medical care and lost earning capacity drive the damages case. This is not medical advice.',
+        ],
+      },
+      {
+        h2: 'Car, motorcycle, and Civil Code §3342 dog bites',
+        paragraphs: [
+          'After the four primary claim types, car collisions, motorcycle crashes, and dog bites under California Civil Code §3342 round out the docket. Lane-splitting on a motorcycle is legal when done safely; wearing a helmet does not flip fault. We do not handle slip-and-fall claims.',
+        ],
+      },
+      {
+        h2: '(909) 915-0181 — Orange Tree Lane, northwest',
+        paragraphs: [
+          'Hours: Monday–Friday 9am–6pm, Saturday 10am–4pm, Sunday by appointment. Serious injuries can reach the office 24/7 for an emergency consult. If the same wreck sinks the household, the same (909) 915-0181 call files Chapter 7 or Chapter 13 at 3420 Twelfth Street, Riverside. Palm Springs is the other office — 1276 N Palm Canyon Dr #107, (760) 835-9353.',
         ],
       },
     ],
@@ -1777,16 +1795,50 @@ const PI_ES: Record<CitySlug, CityPageCopy> = {
     ],
   },
   hemet: {
-    h1: "Abogado de lesiones en Hemet por la SR-74",
-    title: "Abogado de Lesiones Hemet | SR-74 | Lombera",
-    description: "Lesiones en la SR-74 en Hemet. (909) 915-0181. A contingencia.",
+    h1: 'Abogado de lesiones personales en Hemet',
+    title: 'Abogado de Lesiones Hemet | Camiones SR-74, Uber, Muerte Injusta | Lombera',
+    description:
+      'Camiones, Uber, muerte injusta y lesiones catastróficas en choques de la SR-74 / Florida Avenue en Hemet. Oficina en Orange Tree Lane #220, Redlands — unos 43 minutos al noroeste. (909) 915-0181.',
     lead: [
-      "Hemet está en Florida Avenue, la SR-74 y la SR-79 — el satélite más alejado del Valle de San Jacinto. No hay oficina en Hemet. Programe en 2068 Orange Tree Lane, Suite 220, Redlands, CA 92374 — (909) 915-0181 o en 1276 N Palm Canyon Dr #107, Palm Springs, CA 92262 — (760) 835-9353. Choques con camiones, rideshare, muerte injusta, lesión cerebral y de médula espinal lideran; auto, motocicleta, peatón y mordeduras de perro a contingencia.",
+      'No hay oficina de Lombera en 145 S Carmalita Street, 1314 W Florida Avenue, 151 S State Street ni 445 E Florida Avenue junto al ayuntamiento de Hemet. Después de un choque en Hemet, reúnase con Edgar P. Lombera en 2068 Orange Tree Lane, Suite 220, Redlands, CA 92374 — unas 33 millas y 43 minutos al noroeste por Sanderson Avenue, Ramona Expressway, Lamb Canyon Road y la I-10 al oeste. Llame al (909) 915-0181. Inglés o español. Solo dos prácticas: lesiones personales y bancarrota. Usted habla con él. Los casos de lesiones son a contingencia: sin honorarios a menos que ganemos.',
     ],
     sections: [
-{ h2: 'SR-74 y choques en el valle', paragraphs: ['Camiones, muerte injusta, lesión cerebral y de médula espinal. Rideshare incluido. Auto y motocicleta.'] },
-      { h2: 'Tribunal de Riverside', paragraphs: ['4050 Main St., Riverside. CCP §335.1: dos años.'] },
-      { h2: `Consulta gratis — (909) 915-0181`, paragraphs: ['A contingencia. Deuda médica: Riverside, 3420 Twelfth Street.'] },
+      {
+        h2: 'Choques de camiones en la SR-74, Florida Avenue y la SR-79',
+        paragraphs: [
+          'El tráfico de camiones comerciales en el corredor montañoso de la SR-74, Florida Avenue por el centro de Hemet y la SR-79 hacia Winchester produce las colisiones de carga que lideran este expediente. Lombera ya aparece en resultados para trabajo de camiones en Hemet con un título genérico — esta URL es la versión única para SR-74 / Florida Avenue / SR-79. Después de un choque grave, preserve la descarga del ECM, las grabaciones de dashcam y el expediente de calificación del conductor antes de que las aseguradoras dispersen la evidencia. Esta es la carga del Valle de San Jacinto — no la página I-10 / Paso de San Gorgonio de Beaumont, no la SR-60 / I-215 de Moreno Valley, ni la cuadrícula I-10 / I-15 / Sierra de Fontana. Las demandas por muerte injusta y lesión cerebral traumática de estos choques permanecen en esta URL.',
+        ],
+      },
+      {
+        h2: 'Uber y Lyft en Florida Avenue, Sanderson Avenue, Stetson Avenue y State Street',
+        paragraphs: [
+          'Si el conductor tenía la aplicación activada cambia qué aseguradora debe responder — confirmamos la cobertura en la consulta, no con cifras de marketing. Los reclamos de rideshare de Hemet permanecen en /es/lesiones-personales/hemet/. No inventamos una página /uber/.',
+        ],
+      },
+      {
+        h2: 'Muerte injusta — legitimación bajo el CCP §377.60 en 4050 Main Street',
+        paragraphs: [
+          'Quién puede presentar la demanda se confirma en la consulta bajo el Código de Procedimiento Civil de California §377.60 — no inventamos veredictos ni historias de acuerdos. Hemet tiene una División Hemet del Tribunal Superior del Condado de Riverside, pero los casos civiles ilimitados para códigos postales 92543–92546 se presentan en 4050 Main Street, Riverside — no en el tribunal de la División Hemet, no en Menifee Center Drive de jurisdicción limitada, no en Tahquitz Canyon Way, no en 247 W. 3rd St., no en 13800 Heacock, y no en 8303 Haven Avenue. El CCP §335.1 da dos años a la mayoría de las víctimas; una entidad pública puede exigir aviso escrito de seis meses bajo el Código de Gobierno §911.2.',
+        ],
+      },
+      {
+        h2: 'Lesiones catastróficas — cerebral, médula, pérdida de miembro',
+        paragraphs: [
+          'La lesión cerebral traumática, la lesión de médula espinal y la amputación son resultados de daños manejados solo en esta URL — no una página separada de /lesiones-catastroficas/. La atención médica futura y la capacidad de ingreso perdida impulsan el caso de daños. Esto no es consejo médico.',
+        ],
+      },
+      {
+        h2: 'Auto, motocicleta y mordeduras — Código Civil §3342',
+        paragraphs: [
+          'Después de los cuatro tipos principales de reclamo, choques de auto, accidentes de motocicleta y mordeduras de perro bajo el Código Civil de California §3342 completan el expediente. Circular entre carriles en motocicleta es legal cuando se hace con seguridad; usar casco no invierte la culpa. No manejamos reclamos por resbalones y caídas.',
+        ],
+      },
+      {
+        h2: '(909) 915-0181 — Orange Tree Lane, al noroeste',
+        paragraphs: [
+          'Horario: lunes a viernes 9am–6pm, sábado 10am–4pm, domingo con cita. Lesiones graves pueden contactar la oficina las 24 horas para consulta de emergencia. Si el mismo choque hunde el hogar, la misma llamada al (909) 915-0181 presenta el Capítulo 7 o 13 en 3420 Twelfth Street, Riverside. Palm Springs es la otra oficina — 1276 N Palm Canyon Dr #107, (760) 835-9353.',
+        ],
+      },
     ],
   },
   'desert-hot-springs': {
