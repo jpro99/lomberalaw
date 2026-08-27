@@ -197,30 +197,48 @@ const PI_EN: Record<CitySlug, CityPageCopy> = {
     ],
   },
   beaumont: {
-    h1: 'Beaumont personal injury lawyer for I-10 pass truck crashes',
-    title: 'Beaumont Personal Injury Lawyer | I-10 Pass Crashes | Lombera',
+    h1: 'Beaumont personal injury lawyer',
+    title: 'Beaumont Personal Injury Lawyer | I-10 Pass Truck, Uber, Wrongful Death | Lombera',
     description:
-      'I-10 Banning Pass and Cherry Valley injury lawyer in Beaumont. TBI, SCI, wrongful death on contingency. Redlands (909) 915-0181.',
+      'Truck, Uber, wrongful death, and catastrophic injury from I-10 / San Gorgonio Pass crashes in Beaumont, California. Meet at 2068 Orange Tree Lane #220, Redlands — about 23 minutes west. (909) 915-0181.',
     lead: [
-      `Beaumont is the I-10 and SR-60 pass at Cherry Valley and 2nd Street — brake failures and downgrade wrecks, not Fontana freight volume and not Palm Canyon tourism. Default office: ${REDLANDS_NAP}. Palm Springs consultations are available if you are already in the valley. Edgar P. Lombera takes pass-crash injury files on contingency.`,
+      'There is no Lombera storefront on 6th Street, Beaumont Avenue, or Highland Springs Avenue in Beaumont, California — not Beaumont, Texas. After a Beaumont wreck, meet Edgar P. Lombera at 2068 Orange Tree Lane, Suite 220, Redlands, CA 92374 — about 19 miles and 23 minutes west via Beaumont Avenue and the I-10. Call (909) 915-0181. English or Spanish. Two practices only: personal injury and bankruptcy. You speak with him. Injury cases run on contingency: no fee unless we win.',
     ],
     sections: [
       {
-        h2: 'Pass-grade truck collisions',
+        h2: 'Truck wrecks on I-10, the San Gorgonio Pass, and Beaumont Avenue',
         paragraphs: [
-          'Downgrade truck wrecks, multi-vehicle pileups, wrongful death on the I-10, and brain or spinal cord injuries from high-speed impacts are the focus. Rideshare pickups on the pass route are included. Car and motorcycle cases are accepted; we do not handle slip-and-fall.',
+          'Commercial truck traffic on I-10 through the San Gorgonio Pass and along Beaumont Avenue produces the freight collisions that lead this docket. Lombera already appears in AI summaries for Beaumont truck work — this URL is where those Pass and Beaumont Avenue wrecks belong. After a serious collision, preserve the ECM download, dashcam footage, and the driver qualification file before insurers scatter the evidence. This is Beaumont’s Pass / Beaumont Avenue freight — not Fontana’s I-10 / I-15 / Sierra page, not Moreno Valley’s SR-60 / I-215, not Palm Springs’ desert San Gorgonio clone, and not Colton Crossing. Wrongful death and traumatic brain injury claims from these wrecks stay on this URL.',
         ],
       },
       {
-        h2: 'Riverside or San Bernardino court',
+        h2: 'Uber and Lyft on Beaumont Avenue, Highland Springs, Pennsylvania Avenue, and 6th Street',
         paragraphs: [
-          'Depending on where the crash occurred, suit may be filed in Riverside County Superior Court, 4050 Main St., Riverside, or San Bernardino County Superior Court, 247 W. 3rd St., San Bernardino. Either way, the two-year statute under CCP §335.1 starts at the crash date.',
+          'Whether the driver had the app on changes which insurer must respond — we confirm coverage in the consult, not in marketing copy with dollar figures. Beaumont, California rideshare claims stay on /personal-injury/beaumont/. We do not invent a /uber/ page.',
         ],
       },
       {
-        h2: 'Free consult — (909) 915-0181',
+        h2: 'Wrongful death — standing under CCP §377.60 at 4050 Main Street',
         paragraphs: [
-          'Contingency fee — no recovery, no attorney fee. Medical debt from a pass wreck can also be addressed through Chapter 7 or Chapter 13 filed at 3420 Twelfth Street, Riverside.',
+          'Who may bring the suit is confirmed in the consult under California Code of Civil Procedure §377.60 — we do not invent verdicts or settlement stories. Beaumont civil files are filed at Riverside County Superior Court, 4050 Main Street, Riverside — not Tahquitz Canyon Way, not 13800 Heacock, not 247 W. 3rd St., not 8303 Haven Avenue, and not Oasis Street or the Indio Division. CCP §335.1 gives most victims two years; a public entity may require six-month written notice under Government Code §911.2.',
+        ],
+      },
+      {
+        h2: 'Catastrophic injury — TBI, spinal cord, lost limb',
+        paragraphs: [
+          'Traumatic brain injury, spinal cord injury, and amputation are damages outcomes handled on this URL only — not a separate /catastrophic-injury/ landing page. Future medical care and lost earning capacity drive the damages case. This is not medical advice.',
+        ],
+      },
+      {
+        h2: 'Car, motorcycle, and Civil Code §3342 dog bites',
+        paragraphs: [
+          'After the four primary claim types, car collisions, motorcycle crashes, and dog bites under California Civil Code §3342 round out the docket. Lane-splitting on a motorcycle is legal when done safely; wearing a helmet does not flip fault. We do not handle slip-and-fall claims.',
+        ],
+      },
+      {
+        h2: '(909) 915-0181 — Orange Tree Lane, west',
+        paragraphs: [
+          'Hours: Monday–Friday 9am–6pm, Saturday 10am–4pm, Sunday by appointment. Serious injuries can reach the office 24/7 for an emergency consult. If the same wreck sinks the household, the same (909) 915-0181 call files Chapter 7 or Chapter 13 at 3420 Twelfth Street, Riverside. Palm Springs is the other office — 1276 N Palm Canyon Dr #107, (760) 835-9353.',
         ],
       },
     ],
@@ -1289,16 +1307,50 @@ const PI_ES: Record<CitySlug, CityPageCopy> = {
     ],
   },
   beaumont: {
-    h1: "Abogado de lesiones en Beaumont por camiones en el paso I-10",
-    title: "Abogado de Lesiones Beaumont | Camiones I-10 | Lombera",
-    description: "Choques de camiones en el paso I-10 en Beaumont. Lesiones graves a contingencia. (909) 915-0181.",
+    h1: 'Abogado de lesiones personales en Beaumont',
+    title: 'Abogado de Lesiones Beaumont | Camiones Paso I-10, Uber, Muerte Injusta | Lombera',
+    description:
+      'Camiones, Uber, muerte injusta y lesiones catastróficas en choques del Paso I-10 / San Gorgonio en Beaumont, California. Oficina en Orange Tree Lane #220, Redlands — unos 23 minutos al oeste. (909) 915-0181.',
     lead: [
-      "Beaumont es el paso de la I-10 y la SR-60 en Cherry Valley y 2nd Street — fallas de frenos y choques en bajada, no el volumen de carga de Fontana ni el turismo de Palm Canyon. Oficina predeterminada: 2068 Orange Tree Lane, Suite 220, Redlands, CA 92374 — (909) 915-0181. Consultas en Palm Springs disponibles si ya está en el valle. Edgar P. Lombera acepta expedientes de choques en el paso a contingencia.",
+      'No hay oficina de Lombera en 6th Street, Beaumont Avenue ni Highland Springs Avenue en Beaumont, California — no Beaumont, Texas. Después de un choque en Beaumont, reúnase con Edgar P. Lombera en 2068 Orange Tree Lane, Suite 220, Redlands, CA 92374 — unos 19 millas y 23 minutos al oeste por Beaumont Avenue y la I-10. Llame al (909) 915-0181. Inglés o español. Solo dos prácticas: lesiones personales y bancarrota. Usted habla con él. Los casos de lesiones son a contingencia: sin honorarios a menos que ganemos.',
     ],
     sections: [
-{ h2: 'Camiones en el paso I-10', paragraphs: ['Choques en bajada, muerte injusta y lesiones cerebrales o de médula espinal. Rideshare en la ruta del paso. Auto y motocicleta aceptados.'] },
-      { h2: 'Tribunal Riverside o San Bernardino', paragraphs: ['Según el lugar del choque: 4050 Main St., Riverside, o 247 W. 3rd St., San Bernardino. Dos años bajo CCP §335.1.'] },
-      { h2: `Consulta gratis — (909) 915-0181`, paragraphs: ['A contingencia. Deuda médica: Capítulo 7 o 13 en Riverside.'] },
+      {
+        h2: 'Choques de camiones en la I-10, el Paso de San Gorgonio y Beaumont Avenue',
+        paragraphs: [
+          'El tráfico de camiones comerciales en la I-10 a través del Paso de San Gorgonio y a lo largo de Beaumont Avenue produce las colisiones de carga que lideran este expediente. Lombera ya aparece en resúmenes de IA para trabajo de camiones en Beaumont — esta URL es donde pertenecen esos choques del Paso y de Beaumont Avenue. Después de una colisión grave, preserve la descarga del ECM, las grabaciones de dashcam y el expediente de calificación del conductor antes de que las aseguradoras dispersen la evidencia. Esta es la carga del Paso / Beaumont Avenue de Beaumont — no la página I-10 / I-15 / Sierra de Fontana, no la SR-60 / I-215 de Moreno Valley, no el clon desértico de San Gorgonio de Palm Springs, ni Colton Crossing. Las demandas por muerte injusta y lesión cerebral traumática de estos choques permanecen en esta URL.',
+        ],
+      },
+      {
+        h2: 'Uber y Lyft en Beaumont Avenue, Highland Springs, Pennsylvania Avenue y 6th Street',
+        paragraphs: [
+          'Si el conductor tenía la aplicación activada cambia qué aseguradora debe responder — confirmamos la cobertura en la consulta, no con cifras de marketing. Los reclamos de rideshare de Beaumont, California permanecen en /es/lesiones-personales/beaumont/. No inventamos una página /uber/.',
+        ],
+      },
+      {
+        h2: 'Muerte injusta — legitimación bajo el CCP §377.60 en 4050 Main Street',
+        paragraphs: [
+          'Quién puede presentar la demanda se confirma en la consulta bajo el Código de Procedimiento Civil de California §377.60 — no inventamos veredictos ni historias de acuerdos. Los expedientes civiles de Beaumont se presentan en el Tribunal Superior del Condado de Riverside, 4050 Main Street, Riverside — no en Tahquitz Canyon Way, no en 13800 Heacock, no en 247 W. 3rd St., no en 8303 Haven Avenue, y no en Oasis Street ni la División Indio. El CCP §335.1 da dos años a la mayoría de las víctimas; una entidad pública puede exigir aviso escrito de seis meses bajo el Código de Gobierno §911.2.',
+        ],
+      },
+      {
+        h2: 'Lesiones catastróficas — cerebral, médula, pérdida de miembro',
+        paragraphs: [
+          'La lesión cerebral traumática, la lesión de médula espinal y la amputación son resultados de daños manejados solo en esta URL — no una página separada de /lesiones-catastroficas/. La atención médica futura y la capacidad de ingreso perdida impulsan el caso de daños. Esto no es consejo médico.',
+        ],
+      },
+      {
+        h2: 'Auto, motocicleta y mordeduras — Código Civil §3342',
+        paragraphs: [
+          'Después de los cuatro tipos principales de reclamo, choques de auto, accidentes de motocicleta y mordeduras de perro bajo el Código Civil de California §3342 completan el expediente. Circular entre carriles en motocicleta es legal cuando se hace con seguridad; usar casco no invierte la culpa. No manejamos reclamos por resbalones y caídas.',
+        ],
+      },
+      {
+        h2: '(909) 915-0181 — Orange Tree Lane, al oeste',
+        paragraphs: [
+          'Horario: lunes a viernes 9am–6pm, sábado 10am–4pm, domingo con cita. Lesiones graves pueden contactar la oficina las 24 horas para consulta de emergencia. Si el mismo choque hunde el hogar, la misma llamada al (909) 915-0181 presenta el Capítulo 7 o 13 en 3420 Twelfth Street, Riverside. Palm Springs es la otra oficina — 1276 N Palm Canyon Dr #107, (760) 835-9353.',
+        ],
+      },
     ],
   },
   'palm-springs': {
