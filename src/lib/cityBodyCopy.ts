@@ -273,30 +273,48 @@ const PI_EN: Record<CitySlug, CityPageCopy> = {
     ],
   },
   'palm-desert': {
-    h1: 'Palm Desert injury lawyer for Highway 111 rideshare crashes',
-    title: 'Palm Desert Injury Lawyer | Hwy 111 & El Paseo | Lombera',
+    h1: 'Palm Desert personal injury lawyer',
+    title: 'Palm Desert Personal Injury Lawyer | I-10/111 Truck, Uber, Wrongful Death | Lombera',
     description:
-      'Highway 111, Monterey, and El Paseo injury lawyer in Palm Desert. Rideshare, TBI. Palm Springs office (760) 835-9353.',
+      'Truck, Uber, wrongful death, and catastrophic injury from I-10 / Highway 111 crashes in Palm Desert. Meet at 1276 N Palm Canyon Dr #107, Palm Springs — about 26 minutes west. (760) 835-9353.',
     lead: [
-      `Palm Desert’s Highway 111, Monterey Avenue, and El Paseo corridor carry shoppers, snowbirds, and rideshare drivers. There is no third office on El Paseo — meet Edgar at ${PS_NAP}. Civil cases often file at the Larson Justice Center in Indio; bankruptcy files at ${BK_COURT}.`,
+      'There is no Lombera suite on El Paseo or Monterey Avenue — El Paseo is a corridor, not an office address. After a Palm Desert wreck, meet Edgar P. Lombera at 1276 N Palm Canyon Dr #107, Palm Springs, CA 92262 — about 17 miles and 26 minutes west via Monterey Avenue and the I-10. Call (760) 835-9353. English or Spanish. Two practices only: personal injury and bankruptcy. You speak with him. Injury cases run on contingency: no fee unless we win.',
     ],
     sections: [
       {
-        h2: '111 rideshare and serious injury outcomes',
+        h2: 'Truck wrecks on I-10 and Highway 111',
         paragraphs: [
-          'Rideshare accidents, I-10 truck collisions, wrongful death, traumatic brain injury, and spinal cord injury lead the docket. Car and motorcycle wrecks are handled; dog bites when liability is clear. Catastrophic outcomes from any crash type are pursued without a separate “catastrophic injury” page — the medical records define the damages.',
+          'Commercial truck traffic on I-10 and Highway 111 through Palm Desert produces the freight collisions that lead this docket. Lombera does not appear on live Google truck organic for this city — the index hole is real, and these wrecks belong here. After a serious collision, preserve the ECM download, dashcam footage, and the driver qualification file before insurers scatter the evidence. This is Palm Desert’s I-10 / 111 corridor — not the San Gorgonio Pass page rewritten for Palm Springs, and not Fontana, Colton, or Rancho freight copy with a swapped city name. Wrongful death and traumatic brain injury claims from these wrecks stay on this URL.',
         ],
       },
       {
-        h2: 'Indio Division and Riverside courts',
+        h2: 'Uber, Lyft, and rideshare on Highway 111, Cook Street, Monterey Avenue, and Fred Waring Drive',
         paragraphs: [
-          'Suit may be filed at Riverside County Superior Court, Indio Division, 46-200 Oasis St., Indio, or 4050 Main St., Riverside. Government claims against a public entity on 111 can trigger the six-month notice under Gov. Code §911.2.',
+          'Whether the driver had the app on changes which insurer must respond — we confirm coverage in the consult, not in marketing copy with dollar figures. Palm Desert rideshare claims stay on /personal-injury/palm-desert/. We do not invent a /uber/ page.',
         ],
       },
       {
-        h2: 'Call the valley line — (760) 835-9353',
+        h2: 'Wrongful death — standing under CCP §377.60 at 3255 E. Tahquitz Canyon Way',
         paragraphs: [
-          'Contingency — no fee unless we win. Chapter 7 and Chapter 13 for medical debt file at 3420 Twelfth Street, Riverside.',
+          'Who may bring the suit is confirmed in the consult under California Code of Civil Procedure §377.60 — we do not invent verdicts or settlement stories. Palm Desert civil files are filed at the Palm Springs Courthouse, 3255 E. Tahquitz Canyon Way — not Oasis Street, not the Indio Division, not 4050 Main Street, not 247 W. 3rd St., and not 8303 Haven Avenue. CCP §335.1 gives most victims two years; a public entity may require six-month written notice under Government Code §911.2.',
+        ],
+      },
+      {
+        h2: 'Catastrophic injury — TBI, spinal cord, lost limb',
+        paragraphs: [
+          'Traumatic brain injury, spinal cord injury, and amputation are damages outcomes handled on this URL only — not a separate /catastrophic-injury/ landing page. Future medical care and lost earning capacity drive the damages case. This is not medical advice.',
+        ],
+      },
+      {
+        h2: 'Car, motorcycle, and Civil Code §3342 dog bites',
+        paragraphs: [
+          'After the four primary claim types, car collisions, motorcycle crashes, and dog bites under California Civil Code §3342 round out the docket. Lane-splitting on a motorcycle is legal when done safely; wearing a helmet does not flip fault. We do not handle slip-and-fall claims.',
+        ],
+      },
+      {
+        h2: '(760) 835-9353 — 1276 N Palm Canyon Dr #107, west',
+        paragraphs: [
+          'Hours: Monday–Friday 9am–6pm, Saturday 10am–4pm, Sunday by appointment. Serious injuries can reach the office 24/7 for an emergency consult. If the same wreck sinks the household, the same (760) 835-9353 call files Chapter 7 or Chapter 13 at 3420 Twelfth Street, Riverside. Redlands is the other office — 2068 Orange Tree Lane, Suite 220, (909) 915-0181.',
         ],
       },
     ],
@@ -1295,16 +1313,50 @@ const PI_ES: Record<CitySlug, CityPageCopy> = {
     ],
   },
   'palm-desert': {
-    h1: "Abogado de lesiones en Palm Desert por rideshare en la 111",
-    title: "Abogado de Lesiones Palm Desert | Hwy 111 | Lombera",
-    description: "Rideshare y lesiones en la 111 en Palm Desert. (760) 835-9353. Sin honorarios a menos que ganemos.",
+    h1: 'Abogado de lesiones personales en Palm Desert',
+    title: 'Abogado de Lesiones Palm Desert | Camiones I-10/111, Uber, Muerte Injusta | Lombera',
+    description:
+      'Camiones, Uber, muerte injusta y lesiones catastróficas en choques de la I-10 / Carretera 111 en Palm Desert. Oficina en 1276 N Palm Canyon Dr #107, Palm Springs — unos 26 minutos al oeste. (760) 835-9353.',
     lead: [
-      "Palm Desert es el corredor de la Carretera 111 al este de Palm Springs — rideshare, camiones de la I-10 y choques en arterias del valle. Reúnase con Edgar en 1276 N Palm Canyon Dr #107, Palm Springs, CA 92262 — (760) 835-9353. Camiones, rideshare, muerte injusta y lesiones cerebrales o de médula espinal lideran el expediente; auto, motocicleta y mordeduras de perro a contingencia.",
+      'No hay suite de Lombera en El Paseo ni en Monterey Avenue — El Paseo es un corredor, no una dirección de oficina. Después de un choque en Palm Desert, reúnase con Edgar P. Lombera en 1276 N Palm Canyon Dr #107, Palm Springs, CA 92262 — unos 17 millas y 26 minutos al oeste por Monterey Avenue y la I-10. Llame al (760) 835-9353. Inglés o español. Solo dos prácticas: lesiones personales y bancarrota. Usted habla con él. Los casos de lesiones son a contingencia: sin honorarios a menos que ganemos.',
     ],
     sections: [
-{ h2: 'Rideshare en la 111 y lesiones graves', paragraphs: ['Accidentes de rideshare, camiones I-10, muerte injusta, lesión cerebral y de médula espinal. Auto y motocicleta.'] },
-      { h2: 'División Indio y Riverside', paragraphs: ['46-200 Oasis St., Indio, o 4050 Main St., Riverside. Reclamos gubernamentales: seis meses bajo §911.2.'] },
-      { h2: `Valle — (760) 835-9353`, paragraphs: ['A contingencia. Bancarrota en Riverside.'] },
+      {
+        h2: 'Choques de camiones en la I-10 y la Carretera 111',
+        paragraphs: [
+          'El tráfico de camiones comerciales en la I-10 y la Carretera 111 a través de Palm Desert produce las colisiones de carga que lideran este expediente. Lombera no aparece en búsqueda orgánica de camiones en vivo para esta ciudad — el vacío del índice es real, y estos choques pertenecen aquí. Después de una colisión grave, preserve la descarga del ECM, las grabaciones de dashcam y el expediente de calificación del conductor antes de que las aseguradoras dispersen la evidencia. Este es el corredor I-10 / 111 de Palm Desert — no la página del Paso de San Gorgonio reescrita para Palm Springs, ni copia de carga de Fontana, Colton o Rancho con el nombre de la ciudad cambiado. Las demandas por muerte injusta y lesión cerebral traumática de estos choques permanecen en esta URL.',
+        ],
+      },
+      {
+        h2: 'Uber, Lyft y rideshare en la Carretera 111, Cook Street, Monterey Avenue y Fred Waring Drive',
+        paragraphs: [
+          'Si el conductor tenía la aplicación activada cambia qué aseguradora debe responder — confirmamos la cobertura en la consulta, no con cifras de marketing. Los reclamos de rideshare de Palm Desert permanecen en /es/lesiones-personales/palm-desert/. No inventamos una página /uber/.',
+        ],
+      },
+      {
+        h2: 'Muerte injusta — legitimación bajo el CCP §377.60 en 3255 E. Tahquitz Canyon Way',
+        paragraphs: [
+          'Quién puede presentar la demanda se confirma en la consulta bajo el Código de Procedimiento Civil de California §377.60 — no inventamos veredictos ni historias de acuerdos. Los expedientes civiles de Palm Desert se presentan en el Tribunal de Palm Springs, 3255 E. Tahquitz Canyon Way — no en Oasis Street, no en la División Indio, no en 4050 Main Street, no en 247 W. 3rd St., y no en 8303 Haven Avenue. El CCP §335.1 da dos años a la mayoría de las víctimas; una entidad pública puede exigir aviso escrito de seis meses bajo el Código de Gobierno §911.2.',
+        ],
+      },
+      {
+        h2: 'Lesiones catastróficas — cerebral, médula, pérdida de miembro',
+        paragraphs: [
+          'La lesión cerebral traumática, la lesión de médula espinal y la amputación son resultados de daños manejados solo en esta URL — no una página separada de /lesiones-catastroficas/. La atención médica futura y la capacidad de ingreso perdida impulsan el caso de daños. Esto no es consejo médico.',
+        ],
+      },
+      {
+        h2: 'Auto, motocicleta y mordeduras — Código Civil §3342',
+        paragraphs: [
+          'Después de los cuatro tipos principales de reclamo, choques de auto, accidentes de motocicleta y mordeduras de perro bajo el Código Civil de California §3342 completan el expediente. Circular entre carriles en motocicleta es legal cuando se hace con seguridad; usar casco no invierte la culpa. No manejamos reclamos por resbalones y caídas.',
+        ],
+      },
+      {
+        h2: '(760) 835-9353 — 1276 N Palm Canyon Dr #107, al oeste',
+        paragraphs: [
+          'Horario: lunes a viernes 9am–6pm, sábado 10am–4pm, domingo con cita. Lesiones graves pueden contactar la oficina las 24 horas para consulta de emergencia. Si el mismo choque hunde el hogar, la misma llamada al (760) 835-9353 presenta el Capítulo 7 o 13 en 3420 Twelfth Street, Riverside. Redlands es la otra oficina — 2068 Orange Tree Lane, Suite 220, (909) 915-0181.',
+        ],
+      },
     ],
   },
   'cathedral-city': {
