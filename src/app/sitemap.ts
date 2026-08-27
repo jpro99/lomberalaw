@@ -1,5 +1,12 @@
 import type { MetadataRoute } from 'next'
 import { getPayload, PayloadUnavailableError } from '@/lib/payload'
+import { LIVE_CITY_SLUGS } from '@/lib/routing'
+import {
+  collectSpanishSitemapEnglishPaths,
+  EN_TO_ES_BK_SERVICE,
+  EN_TO_ES_PI_SERVICE,
+  toSpanishSitemapUrl,
+} from '@/lib/spanishPaths'
 import {
   STATIC_BK_SERVICES,
   STATIC_CITY_SLUGS,
@@ -7,17 +14,6 @@ import {
   STATIC_TIER1_MONEY_PAGES,
   SITE_URL,
 } from '@/lib/staticData'
-
-/** Spanish hub URLs only — never /es/personal-injury or other English slugs under /es. */
-const SPANISH_SITEMAP_PATHS = [
-  '/es/inicio',
-  '/es/lesiones-personales',
-  '/es/bancarrota',
-  '/es/sobre-nosotros',
-  '/es/preguntas-frecuentes',
-  '/es/testimonios',
-  '/es/contacta-con-nosotros',
-] as const
 
 function addEnPath(
   entries: MetadataRoute.Sitemap,
@@ -29,12 +25,17 @@ function addEnPath(
   entries.push({ url, priority, changeFrequency })
 }
 
-function addSpanishHubs(entries: MetadataRoute.Sitemap, priority = 0.8) {
-  for (const path of SPANISH_SITEMAP_PATHS) {
+function addSpanishPaths(
+  entries: MetadataRoute.Sitemap,
+  englishPaths: string[],
+  priority: number,
+  changeFrequency: MetadataRoute.Sitemap[number]['changeFrequency'],
+) {
+  for (const path of englishPaths) {
     entries.push({
-      url: `${SITE_URL}${path}/`,
+      url: toSpanishSitemapUrl(path),
       priority,
-      changeFrequency: 'monthly',
+      changeFrequency,
     })
   }
 }
@@ -75,7 +76,22 @@ function staticSitemap(): MetadataRoute.Sitemap {
     addEnPath(entries, `/${page.practice}/${page.service}/${page.city}`, 0.9, 'monthly')
   }
 
-  addSpanishHubs(entries)
+  addSpanishPaths(
+    entries,
+    collectSpanishSitemapEnglishPaths({
+      piServices: Object.keys(EN_TO_ES_PI_SERVICE),
+      bkServices: Object.keys(EN_TO_ES_BK_SERVICE),
+      cities: [...LIVE_CITY_SLUGS],
+      moneyPages: STATIC_TIER1_MONEY_PAGES.filter(
+        (page) =>
+          page.practice === 'personal-injury'
+            ? page.service in EN_TO_ES_PI_SERVICE
+            : page.service in EN_TO_ES_BK_SERVICE,
+      ),
+    }),
+    0.8,
+    'monthly',
+  )
 
   return entries
 }
@@ -104,28 +120,49 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     }
 
     const services = await payload.find({ collection: 'services', limit: 100, depth: 1 })
+    const piServices: string[] = []
+    const bkServices: string[] = []
     for (const service of services.docs) {
       const practiceArea = service.practiceArea as { slug?: string } | null
       const practiceSlug = practiceArea?.slug
-      if (practiceSlug === 'personal-injury' || practiceSlug === 'bankruptcy') {
-        addEnPath(entries, `/${practiceSlug}/${service.slug}`, 0.8, 'monthly')
+      const slug = service.slug as string
+      if (practiceSlug === 'personal-injury') {
+        piServices.push(slug)
+        addEnPath(entries, `/personal-injury/${slug}`, 0.8, 'monthly')
+      } else if (practiceSlug === 'bankruptcy') {
+        bkServices.push(slug)
+        addEnPath(entries, `/bankruptcy/${slug}`, 0.8, 'monthly')
       }
     }
 
     const cities = await payload.find({ collection: 'cities', limit: 100 })
+    const liveCitySlugs: string[] = []
     for (const city of cities.docs) {
-      addEnPath(entries, `/personal-injury/${city.slug}`, 0.7, 'monthly')
-      addEnPath(entries, `/bankruptcy/${city.slug}`, 0.7, 'monthly')
-      addEnPath(entries, `/locations/${city.slug}`, 0.7, 'monthly')
+      const slug = city.slug as string
+      if (LIVE_CITY_SLUGS.has(slug)) liveCitySlugs.push(slug)
+      addEnPath(entries, `/personal-injury/${slug}`, 0.7, 'monthly')
+      addEnPath(entries, `/bankruptcy/${slug}`, 0.7, 'monthly')
+      addEnPath(entries, `/locations/${slug}`, 0.7, 'monthly')
     }
 
-    const moneyPages = await payload.find({ collection: 'service-city-pages', limit: 200, depth: 2 })
-    for (const page of moneyPages.docs) {
+    const moneyPages: { practice: 'personal-injury' | 'bankruptcy'; service: string; city: string }[] = []
+    const moneyPageRes = await payload.find({ collection: 'service-city-pages', limit: 200, depth: 2 })
+    for (const page of moneyPageRes.docs) {
       const service = page.service as { slug?: string; practiceArea?: { slug?: string } } | null
       const city = page.city as { slug?: string } | null
       const practiceSlug = service?.practiceArea?.slug
       if (practiceSlug && service?.slug && city?.slug) {
         addEnPath(entries, `/${practiceSlug}/${service.slug}/${city.slug}`, 0.9, 'monthly')
+        if (
+          (practiceSlug === 'personal-injury' && service.slug in EN_TO_ES_PI_SERVICE) ||
+          (practiceSlug === 'bankruptcy' && service.slug in EN_TO_ES_BK_SERVICE)
+        ) {
+          moneyPages.push({
+            practice: practiceSlug,
+            service: service.slug,
+            city: city.slug,
+          })
+        }
       }
     }
 
@@ -134,7 +171,17 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       addEnPath(entries, `/blog/${post.slug}`, 0.6, 'monthly')
     }
 
-    addSpanishHubs(entries)
+    addSpanishPaths(
+      entries,
+      collectSpanishSitemapEnglishPaths({
+        piServices: piServices.filter((slug) => slug in EN_TO_ES_PI_SERVICE),
+        bkServices: bkServices.filter((slug) => slug in EN_TO_ES_BK_SERVICE),
+        cities: liveCitySlugs,
+        moneyPages,
+      }),
+      0.8,
+      'monthly',
+    )
 
     return entries
   } catch (e) {

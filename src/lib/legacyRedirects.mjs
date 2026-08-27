@@ -1,6 +1,8 @@
 // Minimal redirects — never remap live paths to new IA.
 // Old internal/alternate paths → live canonical paths only.
 
+import { buildSpanishEnglishPracticeRedirects } from './spanishRedirects.mjs'
+
 const CAR_ACCIDENT_CITY_TARGETS = [
   ['palm-springs', '/personal-injury/palm-springs/'],
   ['cathedral-city', '/personal-injury/cathedral-city/'],
@@ -64,8 +66,7 @@ export const legacyRedirects = [
   { from: '/resources/', to: '/blog/' },
   { from: '/faq/', to: '/frequently-asked-questions/' },
 
-  // Spanish — never serve /es/personal-injury
-  { from: '/es/personal-injury/', to: '/es/lesiones-personales/' },
+  // Spanish — never serve /es/personal-injury or /es/bankruptcy (children generated below)
   { from: '/es/', to: '/es/inicio/' },
 
   // Keyword landing pages → nearest live page
@@ -83,4 +84,5 @@ export const legacyRedirects = [
   { from: '/termsofservice/', to: '/terms-of-service/' },
 
   ...carAccidentLawyerRedirects,
+  ...buildSpanishEnglishPracticeRedirects(),
 ]

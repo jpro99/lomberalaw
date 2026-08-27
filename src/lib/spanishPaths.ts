@@ -10,6 +10,7 @@ export const EN_TO_ES_PI_SERVICE: Record<string, string> = {
   'wrongful-death': 'muerte-injusta',
   'dog-bites': 'mordedura-de-perro',
   'traumatic-brain-injury': 'lesion-cerebral',
+  'spinal-cord-injury': 'lesiones-de-medula-espinal',
 }
 
 /** English service slug → live Spanish URL segment under /es/bancarrota/ */
@@ -36,6 +37,8 @@ const HUB_PATH_MAP: Record<string, string> = {
   '/testimonials': '/es/testimonios',
   '/frequently-asked-questions': '/es/preguntas-frecuentes',
   '/blog': '/es/blog-espanol',
+  '/privacy-policy': '/es/politica-de-privacidad',
+  '/terms-of-service': '/es/terminos-de-servicio',
   '/': '/es/inicio',
 }
 
@@ -135,4 +138,53 @@ export function hasSpanishServiceSlug(
 ): boolean {
   const map = practice === 'personal-injury' ? EN_TO_ES_PI_SERVICE : EN_TO_ES_BK_SERVICE
   return serviceSlug in map
+}
+
+/** English paths that should appear in the Spanish sitemap via toSpanishPath. */
+export function collectSpanishSitemapEnglishPaths(options?: {
+  piServices?: string[]
+  bkServices?: string[]
+  cities?: string[]
+  moneyPages?: { practice: 'personal-injury' | 'bankruptcy'; service: string; city: string }[]
+}): string[] {
+  const paths = new Set<string>([
+    '/',
+    '/about-us',
+    '/contact',
+    '/frequently-asked-questions',
+    '/testimonials',
+    '/blog',
+    '/privacy-policy',
+    '/terms-of-service',
+    '/personal-injury',
+    '/bankruptcy',
+  ])
+
+  const piServices = options?.piServices ?? Object.keys(EN_TO_ES_PI_SERVICE)
+  const bkServices = options?.bkServices ?? Object.keys(EN_TO_ES_BK_SERVICE)
+  const cities = options?.cities ?? []
+
+  for (const service of piServices) {
+    paths.add(`/personal-injury/${service}`)
+  }
+  for (const service of bkServices) {
+    paths.add(`/bankruptcy/${service}`)
+  }
+  for (const city of cities) {
+    paths.add(`/personal-injury/${city}`)
+    paths.add(`/bankruptcy/${city}`)
+  }
+  for (const page of options?.moneyPages ?? []) {
+    paths.add(`/${page.practice}/${page.service}/${page.city}`)
+  }
+
+  return [...paths]
+}
+
+export function toSpanishSitemapUrl(englishPath: string): string {
+  const esPath = toSpanishPath(englishPath)
+  if (esPath.includes('/es/personal-injury') || esPath.includes('/es/bankruptcy')) {
+    throw new Error(`Spanish sitemap must not emit English slug path: ${esPath}`)
+  }
+  return esPath === '/' ? `${SITE_URL}/` : `${SITE_URL}${esPath}/`
 }

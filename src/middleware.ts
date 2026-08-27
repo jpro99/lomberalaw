@@ -12,6 +12,8 @@ const SPANISH_EXACT: Record<string, string> = {
   '/es/testimonios': '/es/testimonials',
   '/es/contacta-con-nosotros': '/es/contact',
   '/es/blog-espanol': '/es/blog',
+  '/es/politica-de-privacidad': '/es/privacy-policy',
+  '/es/terminos-de-servicio': '/es/terms-of-service',
 }
 
 const SPANISH_PREFIX_HUB: [string, string][] = [
