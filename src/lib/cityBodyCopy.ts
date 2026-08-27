@@ -447,30 +447,48 @@ const PI_EN: Record<CitySlug, CityPageCopy> = {
     ],
   },
   'moreno-valley': {
-    h1: 'Moreno Valley injury lawyer for SR-60 truck crashes',
-    title: 'Moreno Valley Injury Lawyer | SR-60 Crashes | Lombera',
+    h1: 'Moreno Valley personal injury lawyer',
+    title: 'Moreno Valley Personal Injury Lawyer | 60/215 Truck, Uber, Wrongful Death | Lombera',
     description:
-      'SR-60, Alessandro, and Perris Blvd injury lawyer in Moreno Valley. Truck, rideshare, TBI. (909) 915-0181.',
+      'Truck, Uber, wrongful death, and catastrophic injury from SR-60 / I-215 crashes in Moreno Valley. Meet at 2068 Orange Tree Lane #220, Redlands — I-215 north then I-10 east. (909) 915-0181.',
     lead: [
-      `Moreno Valley’s SR-60, I-215, Alessandro Boulevard, and Perris Boulevard mix port trucks and March ARB commuters. There is no suite here — meet Edgar at ${REDLANDS_NAP}. Truck and rideshare collisions, wrongful death, brain injury, and spinal cord injury lead; car, motorcycle, pedestrian, and dog bites on contingency.`,
+      'There is no Lombera storefront on Heacock, Vine, or East Avenue. After a Moreno Valley wreck, meet Edgar P. Lombera at 2068 Orange Tree Lane, Suite 220, Redlands, CA 92374. From City Hall / Frederick take I-215 north then I-10 east, about 19.5 miles and 26 minutes. From Perris Boulevard / Alessandro, Reche Canyon north then I-10 east is about 15 to 17 miles. The drive is north then east. Call (909) 915-0181. English or Spanish. Two practices only: personal injury and bankruptcy. You speak with him. Injury cases run on contingency: no fee unless we win.',
     ],
     sections: [
       {
-        h2: 'SR-60 truck and rideshare collisions',
+        h2: 'Truck wrecks on SR-60 and I-215',
         paragraphs: [
-          'We lead with truck accidents, rideshare crashes, wrongful death, brain injury, and spinal cord injury. Car and motorcycle wrecks are handled; dog bites when facts support the claim. No slip-and-fall.',
+          'Perris Boulevard, Alessandro, Sunnymead, and the March ARB approaches sit under through-truck traffic on SR-60 and I-215. After a serious wreck, preserve the ECM download, dashcam footage, and the driver qualification file before insurers scatter the evidence. This is Moreno Valley’s 60/215 corridor — not Fontana’s I-10 / I-15 / Sierra freight page. Wrongful death and traumatic brain injury claims from these wrecks stay on this URL.',
         ],
       },
       {
-        h2: 'Riverside County court',
+        h2: 'Uber and Lyft on SR-60, Frederick, Ironwood, Perris, and Alessandro',
         paragraphs: [
-          'Moreno Valley lawsuits are typically filed at Riverside County Superior Court, 4050 Main St., Riverside. The two-year limit under CCP §335.1 applies to most defendants.',
+          'Whether the driver had the app on changes which insurer must respond — we confirm coverage in the consult, not in marketing copy with dollar figures. Moreno Valley rideshare claims stay on /personal-injury/moreno-valley/. We do not invent a /uber/ page.',
         ],
       },
       {
-        h2: 'Call Redlands — (909) 915-0181',
+        h2: 'Wrongful death — standing under CCP §377.60 at 4050 Main Street',
         paragraphs: [
-          'Free consult. Contingency fee on injury cases. Medical debt bankruptcy: 3420 Twelfth Street, Riverside.',
+          'Who may bring the suit is confirmed in the consult under California Code of Civil Procedure §377.60 — we do not invent verdicts or settlement stories. County civil files are filed at the Historic Courthouse, 4050 Main Street, Riverside — not 13800 Heacock, which is limited civil only. CCP §335.1 gives most victims two years; a public entity may require six-month written notice under Government Code §911.2.',
+        ],
+      },
+      {
+        h2: 'Catastrophic injury — TBI, spinal cord, lost limb',
+        paragraphs: [
+          'Traumatic brain injury, spinal cord injury, and amputation are damages outcomes handled on this URL only — not a separate /catastrophic-injury/ landing page. Future medical care and lost earning capacity drive the damages case. This is not medical advice.',
+        ],
+      },
+      {
+        h2: 'Car, motorcycle, and Civil Code §3342 dog bites',
+        paragraphs: [
+          'After the four primary claim types, car collisions, motorcycle crashes, and dog bites under California Civil Code §3342 round out the docket. Lane-splitting on a motorcycle is legal when done safely; wearing a helmet does not flip fault. We do not handle slip-and-fall claims.',
+        ],
+      },
+      {
+        h2: '(909) 915-0181 — Orange Tree Lane, north then east',
+        paragraphs: [
+          'Hours: Monday–Friday 9am–6pm, Saturday 10am–4pm, Sunday by appointment. Serious injuries can reach the office 24/7 for an emergency consult. If the same wreck sinks the household, the same (909) 915-0181 call files Chapter 7 or Chapter 13 at 3420 Twelfth Street, Riverside. Palm Springs is the second office — 1276 N Palm Canyon Dr #107, (760) 835-9353.',
         ],
       },
     ],
@@ -1283,16 +1301,50 @@ const PI_ES: Record<CitySlug, CityPageCopy> = {
     ],
   },
   'moreno-valley': {
-    h1: "Abogado de lesiones en Moreno Valley por camiones en la SR-60",
-    title: "Abogado de Lesiones Moreno Valley | SR-60 | Lombera",
-    description: "Choques en la SR-60 en Moreno Valley. Camiones y rideshare. (909) 915-0181.",
+    h1: 'Abogado de lesiones personales en Moreno Valley',
+    title: 'Abogado de Lesiones Moreno Valley | Camiones 60/215, Uber, Muerte Injusta | Lombera',
+    description:
+      'Camiones, Uber, muerte injusta y lesiones catastróficas en choques de la SR-60 / I-215 en Moreno Valley. Oficina en Orange Tree Lane #220, Redlands — I-215 al norte y luego I-10 al este. (909) 915-0181.',
     lead: [
-      "La SR-60, la I-215, Alessandro Boulevard y Perris Boulevard en Moreno Valley mezclan camiones portuarios y viajeros de March ARB. No hay suite aquí — reúnase con Edgar en 2068 Orange Tree Lane, Suite 220, Redlands, CA 92374 — (909) 915-0181. Choques con camiones y rideshare, muerte injusta, lesión cerebral y de médula espinal lideran; auto, motocicleta, peatón y mordeduras de perro a contingencia.",
+      'No hay oficina de Lombera en Heacock, Vine ni East Avenue. Después de un choque en Moreno Valley, reúnase con Edgar P. Lombera en 2068 Orange Tree Lane, Suite 220, Redlands, CA 92374. Desde City Hall / Frederick tome la I-215 al norte y luego la I-10 al este, unos 19.5 millas y 26 minutos. Desde Perris Boulevard / Alessandro, Reche Canyon al norte y luego la I-10 al este son unos 15 a 17 millas. El trayecto es al norte y luego al este. Llame al (909) 915-0181. Inglés o español. Solo dos prácticas: lesiones personales y bancarrota. Usted habla con él. Los casos de lesiones son a contingencia: sin honorarios a menos que ganemos.',
     ],
     sections: [
-{ h2: 'Choques en la SR-60', paragraphs: ['Camiones, rideshare, muerte injusta, lesión cerebral y de médula espinal. Auto y motocicleta.'] },
-      { h2: 'Tribunal del condado de Riverside', paragraphs: ['4050 Main St., Riverside. Plazo de dos años bajo CCP §335.1.'] },
-      { h2: `Redlands — (909) 915-0181`, paragraphs: ['Consulta gratis. Bancarrota en Riverside.'] },
+      {
+        h2: 'Choques de camiones en la SR-60 y la I-215',
+        paragraphs: [
+          'Perris Boulevard, Alessandro, Sunnymead y los accesos a March ARB están bajo el tráfico de camiones de paso en la SR-60 y la I-215. Después de un choque grave, preserve la descarga del ECM, las grabaciones de dashcam y el expediente de calificación del conductor antes de que las aseguradoras dispersen la evidencia. Este es el corredor 60/215 de Moreno Valley — no la página de carga de Fontana en la I-10 / I-15 / Sierra. Las demandas por muerte injusta y lesión cerebral traumática de estos choques permanecen en esta URL.',
+        ],
+      },
+      {
+        h2: 'Uber y Lyft en la SR-60, Frederick, Ironwood, Perris y Alessandro',
+        paragraphs: [
+          'Si el conductor tenía la aplicación activada cambia qué aseguradora debe responder — confirmamos la cobertura en la consulta, no con cifras de marketing. Los reclamos de rideshare de Moreno Valley permanecen en /es/lesiones-personales/moreno-valley/. No inventamos una página /uber/.',
+        ],
+      },
+      {
+        h2: 'Muerte injusta — legitimación bajo el CCP §377.60 en 4050 Main Street',
+        paragraphs: [
+          'Quién puede presentar la demanda se confirma en la consulta bajo el Código de Procedimiento Civil de California §377.60 — no inventamos veredictos ni historias de acuerdos. Los expedientes civiles del condado se presentan en el Historic Courthouse, 4050 Main Street, Riverside — no en 13800 Heacock, que es solo civil limitado. El CCP §335.1 da dos años a la mayoría de las víctimas; una entidad pública puede exigir aviso escrito de seis meses bajo el Código de Gobierno §911.2.',
+        ],
+      },
+      {
+        h2: 'Lesiones catastróficas — cerebral, médula, pérdida de miembro',
+        paragraphs: [
+          'La lesión cerebral traumática, la lesión de médula espinal y la amputación son resultados de daños manejados solo en esta URL — no una página separada de /lesiones-catastroficas/. La atención médica futura y la capacidad de ingreso perdida impulsan el caso de daños. Esto no es consejo médico.',
+        ],
+      },
+      {
+        h2: 'Auto, motocicleta y mordeduras — Código Civil §3342',
+        paragraphs: [
+          'Después de los cuatro tipos principales de reclamo, choques de auto, accidentes de motocicleta y mordeduras de perro bajo el Código Civil de California §3342 completan el expediente. Circular entre carriles en motocicleta es legal cuando se hace con seguridad; usar casco no invierte la culpa. No manejamos reclamos por resbalones y caídas.',
+        ],
+      },
+      {
+        h2: '(909) 915-0181 — Orange Tree Lane, al norte y luego al este',
+        paragraphs: [
+          'Horario: lunes a viernes 9am–6pm, sábado 10am–4pm, domingo con cita. Lesiones graves pueden contactar la oficina las 24 horas para consulta de emergencia. Si el mismo choque hunde el hogar, la misma llamada al (909) 915-0181 presenta el Capítulo 7 o 13 en 3420 Twelfth Street, Riverside. Palm Springs es la segunda oficina — 1276 N Palm Canyon Dr #107, (760) 835-9353.',
+        ],
+      },
     ],
   },
   highland: {
