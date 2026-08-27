@@ -18,7 +18,7 @@ export async function getAboutMetadata(locale: Locale, path = '/about-us') {
   const title =
     locale === 'es'
       ? `${FIRM.founder} — Abogado de Lesiones y Bancarrota | Lombera Law`
-      : `${FIRM.founder} — Personal Injury & Bankruptcy Attorney | Lombera Law`
+      : 'Edgar P. Lombera | Redlands & Palm Springs Lawyer'
   const description =
     locale === 'es'
       ? 'Conozca a Edgar P. Lombera, abogado bilingüe con más de 15 años de experiencia en lesiones personales y bancarrota en el Inland Empire y el Valle de Coachella.'

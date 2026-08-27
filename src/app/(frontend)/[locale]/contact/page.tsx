@@ -8,7 +8,7 @@ import { ContactForm } from '@/components/ContactForm'
 import { JsonLd } from '@/components/JsonLd'
 import { breadcrumbSchema, localBusinessSchema } from '@/lib/schema'
 import { CONTACT_SEO, pageMetadata } from '@/lib/seo'
-import { OFFICES } from '@/lib/nap'
+import { OFFICES, OFFICE_HOURS_EN } from '@/lib/nap'
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: Locale }> }) {
   const { locale } = await params
@@ -41,7 +41,7 @@ export default async function ContactPage({ params }: { params: Promise<{ locale
         name: o.name,
         phone: o.phone,
         address: `${o.streetAddress}, ${o.addressLocality}, ${o.addressRegion} ${o.postalCode}`,
-        hours: 'Mon–Fri: 8:30am–5:30pm\nFree consultations by appointment',
+        hours: OFFICE_HOURS_EN,
         mapEmbedUrl: undefined as string | undefined,
       }))
 

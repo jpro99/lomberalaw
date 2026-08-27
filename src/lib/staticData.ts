@@ -1,4 +1,5 @@
 import type { Locale } from './payload'
+import { OFFICE_HOURS_EN } from './nap'
 
 /** Build-time / no-DB fallback — mirrors scripts/seed.ts so pages render without Postgres. */
 export const STATIC_OFFICES = [
@@ -7,7 +8,7 @@ export const STATIC_OFFICES = [
     name: 'Redlands Office',
     phone: '(909) 915-0181',
     address: '2068 Orange Tree Lane Suite 220, Redlands, CA 92374',
-    hours: 'Mon–Fri: 8:30am–5:30pm\nFree consultations by appointment',
+    hours: OFFICE_HOURS_EN,
     locationSlug: 'redlands-ca',
   },
   {
@@ -15,7 +16,7 @@ export const STATIC_OFFICES = [
     name: 'Palm Springs Office',
     phone: '(760) 835-9353',
     address: '1276 N Palm Canyon Dr #107, Palm Springs, CA 92262',
-    hours: 'Mon–Fri: 8:30am–5:30pm\nFree consultations by appointment',
+    hours: OFFICE_HOURS_EN,
     locationSlug: 'palm-springs',
   },
 ] as const

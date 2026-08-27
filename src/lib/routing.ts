@@ -59,7 +59,6 @@ export const IE_CITIES = new Set([
   'beaumont',
   'hemet',
   'colton',
-  'desert-hot-springs',
   'rancho-cucamonga',
 ])
 

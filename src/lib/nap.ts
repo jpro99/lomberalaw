@@ -45,3 +45,9 @@ export const AREA_SERVED = [
   'Inland Empire, California',
   'Coachella Valley, California',
 ] as const
+
+export const OFFICE_HOURS_EN =
+  'Mon–Fri: 9am–6pm\nSat: 10am–4pm\nSun: by appointment\nFree consultations by appointment'
+
+export const OFFICE_HOURS_ES =
+  'Lun–Vie: 9am–6pm\nSáb: 10am–4pm\nDom: con cita\nConsultas gratuitas con cita previa'

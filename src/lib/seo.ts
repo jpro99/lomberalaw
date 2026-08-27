@@ -8,6 +8,7 @@ type PageMeta = {
   path: string
   locale?: Locale
   noindex?: boolean
+  nofollow?: boolean
 }
 
 const SPANISH_PATH_MAP: Record<string, string> = {
@@ -27,7 +28,7 @@ function withSlash(path: string) {
 }
 
 /** Build Next.js metadata with canonical + hreflang. */
-export function pageMetadata({ title, description, path, locale = 'en', noindex }: PageMeta): Metadata {
+export function pageMetadata({ title, description, path, locale = 'en', noindex, nofollow }: PageMeta): Metadata {
   const canonical = withSlash(path === '/' ? '' : path)
   const esPath = SPANISH_PATH_MAP[path] || `/es${path === '/' ? '' : path}`
 
@@ -42,7 +43,10 @@ export function pageMetadata({ title, description, path, locale = 'en', noindex 
         'x-default': withSlash(path === '/' ? '' : path),
       },
     },
-    robots: noindex ? { index: false, follow: true } : { index: true, follow: true },
+    robots:
+      noindex || nofollow
+        ? { index: noindex ? false : true, follow: nofollow ? false : true }
+        : { index: true, follow: true },
     openGraph: {
       title,
       description,

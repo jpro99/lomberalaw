@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import type { Locale } from '@/lib/payload'
-import { OFFICES } from '@/lib/nap'
+import { OFFICES, OFFICE_HOURS_EN, OFFICE_HOURS_ES } from '@/lib/nap'
 import { OFFICE_LOCATION_SEO, pageMetadata } from '@/lib/seo'
 import { t } from '@/lib/dictionary'
 import { Container } from '@/components/Container'
@@ -102,10 +102,8 @@ export function OfficeLocationView({ slug, locale }: { slug: OfficeSlug; locale:
             <h2 className="font-display text-xl text-ink">
               {locale === 'es' ? 'Horario' : 'Hours'}
             </h2>
-            <p className="mt-4 font-body text-sm leading-relaxed text-ink-soft">
-              {locale === 'es'
-                ? 'Lun–Vie: 8:30am–5:30pm. Consultas gratuitas con cita previa.'
-                : 'Mon–Fri: 8:30am–5:30pm. Free consultations by appointment.'}
+            <p className="mt-4 font-body text-sm leading-relaxed text-ink-soft whitespace-pre-line">
+              {locale === 'es' ? OFFICE_HOURS_ES : OFFICE_HOURS_EN}
             </p>
           </div>
         </Container>

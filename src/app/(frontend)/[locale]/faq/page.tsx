@@ -1,5 +1,6 @@
 import type { Locale } from '@/lib/payload'
 import { getGeneralFaqs } from '@/lib/getFaqs'
+import { lexicalToPlainText } from '@/lib/lexicalText'
 import { Container } from '@/components/Container'
 import { Breadcrumbs } from '@/components/Breadcrumbs'
 import { FAQAccordion } from '@/components/FAQAccordion'
@@ -19,10 +20,13 @@ export default async function FAQPage({ params }: { params: Promise<{ locale: Lo
   const faqs = await getGeneralFaqs(locale)
 
   const faqSchema = faqPageSchema(
-    faqs.map((f: any) => ({
-      question: f.question,
-      answer: typeof f.answer === 'string' ? f.answer : f.question,
-    })),
+    faqs
+      .map((f: any) => {
+        const answer =
+          typeof f.answer === 'string' ? f.answer.trim() : lexicalToPlainText(f.answer)
+        return answer ? { question: f.question as string, answer } : null
+      })
+      .filter((item): item is { question: string; answer: string } => item !== null),
   )
 
   return (
