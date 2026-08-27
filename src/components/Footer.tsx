@@ -8,11 +8,19 @@ import { Container } from './Container'
 export async function Footer({ locale }: { locale: Locale }) {
   const copy = t(locale)
   const offices = await getOffices(locale)
-  const officeList = offices.length > 0 ? offices : OFFICES.map((o) => ({
+  const officeList = (offices.length > 0 ? offices : OFFICES.map((o) => ({
     id: o.id,
     name: o.name,
     phone: o.phone,
-  }))
+  }))).map((office) => {
+    const match = OFFICES.find(
+      (o) => o.id === office.id || o.name === office.name || o.phone === office.phone,
+    )
+    return {
+      ...office,
+      tel: match?.tel ?? `+1${office.phone.replace(/\D/g, '')}`,
+    }
+  })
 
   const prefix = locale === 'en' ? '' : '/es'
   const piHref = locale === 'es' ? '/es/lesiones-personales/' : '/personal-injury/'
@@ -64,7 +72,7 @@ export async function Footer({ locale }: { locale: Locale }) {
               {officeList.map((office) => (
                 <li key={office.id}>
                   <p className="font-medium text-white">{office.name as string}</p>
-                  <a href={`tel:${office.phone}`} className="font-data text-xs text-night-ink/70 hover:text-white">
+                  <a href={`tel:${office.tel}`} className="font-data text-xs text-night-ink/70 hover:text-white">
                     {office.phone as string}
                   </a>
                 </li>

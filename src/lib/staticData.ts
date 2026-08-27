@@ -54,6 +54,7 @@ export const STATIC_PI_SERVICES = [
   'medical-malpractice',
   'car-accidents',
   'motorcycle-accidents',
+  'dog-bites',
   'pedestrian-accidents',
 ] as const
 

@@ -9,7 +9,7 @@ import { Breadcrumbs } from '@/components/Breadcrumbs'
 import { JsonLd } from '@/components/JsonLd'
 import { breadcrumbSchema, legalServiceSchema } from '@/lib/schema'
 import { pageMetadata, PI_HUB_SEO, BK_HUB_SEO } from '@/lib/seo'
-import { PI_SERVICES, BK_SERVICES } from '@/lib/routing'
+import { PI_HUB_SERVICES, BK_SERVICES } from '@/lib/routing'
 import { hasSpanishServiceSlug, practiceHubHref, serviceHref } from '@/lib/spanishPaths'
 import { OFFICES } from '@/lib/nap'
 
@@ -29,10 +29,34 @@ export async function PracticeHubView({ slug, locale }: { slug: Slug; locale: Lo
   const bundle = await getPracticeAreaBundle(slug, locale)
   if (!bundle) notFound()
 
-  const allowed = slug === 'personal-injury' ? PI_SERVICES : BK_SERVICES
-  const services = bundle.services
-    .filter((s) => allowed.has(s.slug as string))
-    .filter((s) => locale === 'en' || hasSpanishServiceSlug(slug, s.slug as string))
+  const hubSlugs = slug === 'personal-injury' ? PI_HUB_SERVICES : [...BK_SERVICES]
+  const cmsBySlug = new Map(bundle.services.map((s) => [s.slug as string, s]))
+  const staticTitles: Record<string, { en: string; es: string }> = {
+    'car-accidents': { en: 'Car Accidents', es: 'Accidentes de Auto' },
+    'truck-accidents': { en: 'Truck Accidents', es: 'Accidentes de Camión' },
+    'motorcycle-accidents': { en: 'Motorcycle Accidents', es: 'Accidentes de Motocicleta' },
+    'rideshare-accidents': { en: 'Rideshare Accidents', es: 'Accidentes de Rideshare' },
+    'wrongful-death': { en: 'Wrongful Death', es: 'Muerte Injusta' },
+    'dog-bites': { en: 'Dog Bites', es: 'Mordeduras de Perro' },
+    'traumatic-brain-injury': { en: 'Traumatic Brain Injury', es: 'Lesión Cerebral' },
+    'spinal-cord-injury': { en: 'Spinal Cord Injury', es: 'Lesiones de Médula Espinal' },
+    'chapter-7': { en: 'Chapter 7 Bankruptcy', es: 'Bancarrota Capítulo 7' },
+    'chapter-13': { en: 'Chapter 13 Bankruptcy', es: 'Bancarrota Capítulo 13' },
+    'foreclosure-defense': { en: 'Foreclosure Defense', es: 'Defensa de Ejecución Hipotecaria' },
+    'wage-garnishment': { en: 'Wage Garnishment', es: 'Embargo de Salario' },
+  }
+  const services = hubSlugs
+    .filter((serviceSlug) => locale === 'en' || hasSpanishServiceSlug(slug, serviceSlug))
+    .map((serviceSlug) => {
+      const doc = cmsBySlug.get(serviceSlug)
+      if (doc) return doc
+      const labels = staticTitles[serviceSlug]
+      return {
+        id: serviceSlug,
+        slug: serviceSlug,
+        title: labels ? labels[locale] : serviceSlug,
+      }
+    })
   const copy = t(locale)
   const seo = slug === 'personal-injury' ? PI_HUB_SEO : BK_HUB_SEO
   const practicePath = practiceHubHref(locale, slug)

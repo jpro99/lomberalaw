@@ -1,3 +1,15 @@
+/** Services listed on /personal-injury/ hub — live URLs only, no slip-and-fall. */
+export const PI_HUB_SERVICES = [
+  'car-accidents',
+  'truck-accidents',
+  'motorcycle-accidents',
+  'rideshare-accidents',
+  'wrongful-death',
+  'dog-bites',
+  'traumatic-brain-injury',
+  'spinal-cord-injury',
+] as const
+
 /** Live PI service slugs — no catastrophic-injury or medical-malpractice. */
 export const PI_SERVICES = new Set([
   'car-accidents',

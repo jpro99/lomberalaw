@@ -278,6 +278,7 @@ async function main() {
     },
     { slug: 'car-accidents', practiceArea: 'personal-injury', titleEn: 'Car Accidents', titleEs: 'Accidentes de Auto', order: 80 },
     { slug: 'motorcycle-accidents', practiceArea: 'personal-injury', titleEn: 'Motorcycle Accidents', titleEs: 'Accidentes de Motocicleta', order: 90 },
+    { slug: 'dog-bites', practiceArea: 'personal-injury', titleEn: 'Dog Bites', titleEs: 'Mordeduras de Perro', order: 95 },
     { slug: 'pedestrian-accidents', practiceArea: 'personal-injury', titleEn: 'Pedestrian Accidents', titleEs: 'Accidentes de Peatones', order: 100 },
     // Bankruptcy
     {
