@@ -3,6 +3,7 @@ import { notFound } from 'next/navigation'
 import { Header } from '@/components/Header'
 import { Footer } from '@/components/Footer'
 import { EventBeaconLazy } from '@/components/EventBeaconLazy'
+import { MarketingPageShell } from '@/components/MarketingPageShell'
 import { inter, playfair } from '@/lib/fonts'
 import '../globals.css'
 
@@ -32,7 +33,7 @@ export default async function LocaleLayout({
     <html lang={locale} className={`${inter.variable} ${playfair.variable}`}>
       <body className="font-body antialiased">
         <Header locale={locale as Locale} />
-        {children}
+        <MarketingPageShell locale={locale as Locale}>{children}</MarketingPageShell>
         <Footer locale={locale as Locale} />
         <EventBeaconLazy />
       </body>

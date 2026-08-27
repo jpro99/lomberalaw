@@ -78,6 +78,14 @@ export function cityPhone(slug: string): string {
   return IE_CITIES.has(slug) ? '(909) 915-0181' : '(760) 835-9353'
 }
 
+export function cityTel(slug: string): string {
+  return IE_CITIES.has(slug) ? '+19099150181' : '+17608359353'
+}
+
+/** Default call target when no city context (Redlands primary line). */
+export const PRIMARY_TEL = '+19099150181'
+export const PRIMARY_PHONE = '(909) 915-0181'
+
 export function isPiService(slug: string) {
   return PI_SERVICES.has(slug)
 }
