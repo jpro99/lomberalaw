@@ -8,6 +8,14 @@ import { JsonLd } from '@/components/JsonLd'
 import { breadcrumbSchema } from '@/lib/schema'
 import { cityPhone, isLiveCity } from '@/lib/routing'
 import { pageMetadata } from '@/lib/seo'
+import {
+  EN_TO_ES_PI_SERVICE,
+  EN_TO_ES_BK_SERVICE,
+  localizedCanonicalUrl,
+  practiceCityHref,
+  practiceHubHref,
+  serviceHref,
+} from '@/lib/spanishPaths'
 import { t } from '@/lib/dictionary'
 
 type PracticeSlug = 'personal-injury' | 'bankruptcy'
@@ -30,24 +38,31 @@ const CITY_NAMES: Record<string, string> = {
   'rancho-cucamonga': 'Rancho Cucamonga',
 }
 
+const PI_CITY_SERVICES = Object.keys(EN_TO_ES_PI_SERVICE).filter((slug) =>
+  ['car-accidents', 'truck-accidents', 'motorcycle-accidents', 'rideshare-accidents', 'wrongful-death', 'dog-bites'].includes(slug),
+)
+
+const BK_CITY_SERVICES = Object.keys(EN_TO_ES_BK_SERVICE)
+
 export async function getPracticeCityMetadata(
   practiceSlug: PracticeSlug,
   citySlug: string,
   locale: Locale,
 ) {
   const name = CITY_NAMES[citySlug] || citySlug
+  const path = `/${practiceSlug}/${citySlug}`
   if (practiceSlug === 'personal-injury') {
     return pageMetadata({
       title: `${name} Personal Injury Lawyer | Lombera Law`,
       description: `Car, truck, and motorcycle accidents in ${name}. No fee unless we win. Call ${cityPhone(citySlug)}.`,
-      path: `/personal-injury/${citySlug}`,
+      path,
       locale,
     })
   }
   return pageMetadata({
     title: `${name} Bankruptcy Lawyer | Chapter 7 & 13`,
     description: `Chapter 7 and Chapter 13 bankruptcy in ${name}. Stop garnishment and foreclosure. Call ${cityPhone(citySlug)}.`,
-    path: `/bankruptcy/${citySlug}`,
+    path,
     locale,
   })
 }
@@ -66,16 +81,11 @@ export async function PracticeCityView({
   const name = CITY_NAMES[citySlug] || citySlug
   const phone = cityPhone(citySlug)
   const copy = t(locale)
-  const prefix = locale === 'en' ? '' : '/es'
-  const practicePath =
-    locale === 'es'
-      ? practiceSlug === 'personal-injury'
-        ? '/es/lesiones-personales/'
-        : '/es/bancarrota/'
-      : `/${practiceSlug}/`
-  const canonicalPath = `/${practiceSlug}/${citySlug}/`
-  const canonicalUrl = `https://lomberalaw.com${prefix ? '' : ''}${canonicalPath}`.replace('//', '/').replace('https:/', 'https://')
+  const practicePath = practiceHubHref(locale, practiceSlug)
+  const cityPath = practiceCityHref(locale, practiceSlug, citySlug)
+  const canonicalUrl = localizedCanonicalUrl(`/${practiceSlug}/${citySlug}`, locale)
   const homeHref = locale === 'en' ? '/' : '/es/inicio/'
+  const services = practiceSlug === 'personal-injury' ? PI_CITY_SERVICES : BK_CITY_SERVICES
 
   const h1 =
     practiceSlug === 'personal-injury'
@@ -91,7 +101,7 @@ export async function PracticeCityView({
             name: practiceSlug === 'personal-injury' ? 'Personal Injury' : 'Bankruptcy',
             url: `https://lomberalaw.com${practicePath}`,
           },
-          { name, url: `https://lomberalaw.com${canonicalPath}` },
+          { name, url: canonicalUrl },
         ])}
       />
 
@@ -104,7 +114,7 @@ export async function PracticeCityView({
                 name: practiceSlug === 'personal-injury' ? copy.nav.personalInjury : copy.nav.bankruptcy,
                 href: practicePath,
               },
-              { name, href: canonicalPath },
+              { name, href: cityPath },
             ]}
           />
           <h1 className="mt-4 font-display text-[2.5rem] leading-tight text-ink">{h1}</h1>
@@ -127,16 +137,15 @@ export async function PracticeCityView({
             {locale === 'es' ? 'Servicios' : 'Services'}
           </h2>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
-            {(practiceSlug === 'personal-injury'
-              ? ['car-accidents', 'truck-accidents', 'motorcycle-accidents', 'rideshare-accidents', 'wrongful-death', 'dog-bites']
-              : ['chapter-7', 'chapter-13', 'foreclosure-defense', 'wage-garnishment']
-            ).map((service) => (
+            {services.map((service) => (
               <li key={service}>
                 <Link
-                  href={`${practicePath}${service}/`}
+                  href={serviceHref(locale, practiceSlug, service)}
                   className="font-body text-sm text-ink-soft underline decoration-gold underline-offset-2 hover:text-ink"
                 >
-                  {service.replace(/-/g, ' ')}
+                  {locale === 'es'
+                    ? (practiceSlug === 'personal-injury' ? EN_TO_ES_PI_SERVICE : EN_TO_ES_BK_SERVICE)[service]?.replace(/-/g, ' ') || service.replace(/-/g, ' ')
+                    : service.replace(/-/g, ' ')}
                 </Link>
               </li>
             ))}

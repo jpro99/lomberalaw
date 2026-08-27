@@ -13,6 +13,7 @@ import { JsonLd } from '@/components/JsonLd'
 import { breadcrumbSchema, legalServiceSchema, faqPageSchema } from '@/lib/schema'
 import { lexicalToPlainText } from '@/lib/lexicalText'
 import { pageMetadata, CH7_SEO, CH13_SEO } from '@/lib/seo'
+import { localizedCanonicalUrl, practiceHubHref, serviceHref } from '@/lib/spanishPaths'
 
 type PracticeSlug = 'personal-injury' | 'bankruptcy'
 
@@ -46,8 +47,9 @@ export async function ServiceDetailView({
   if (!bundle) notFound()
   const { practiceArea, service, faqs, siblingServices, testimonials } = bundle
   const copy = t(locale)
-  const prefix = locale === 'en' ? '' : '/es'
-  const canonicalUrl = `https://lomberalaw.com${prefix}/${practiceSlug}/${serviceSlug}/`
+  const practicePath = practiceHubHref(locale, practiceSlug)
+  const canonicalUrl = localizedCanonicalUrl(`/${practiceSlug}/${serviceSlug}`, locale)
+  const servicePath = serviceHref(locale, practiceSlug, serviceSlug)
   const h1 =
     practiceSlug === 'bankruptcy' && serviceSlug === 'chapter-7'
       ? CH7_SEO.h1
@@ -59,8 +61,8 @@ export async function ServiceDetailView({
     <main>
       <JsonLd
         data={breadcrumbSchema([
-          { name: 'Home', url: 'https://lomberalaw.com' + (locale === 'es' ? '/es' : '') },
-          { name: practiceArea.name as string, url: `https://lomberalaw.com${prefix}/${practiceSlug}` },
+          { name: 'Home', url: 'https://lomberalaw.com' + (locale === 'es' ? '/es/inicio/' : '/') },
+          { name: practiceArea.name as string, url: `https://lomberalaw.com${practicePath}` },
           { name: service.title as string, url: canonicalUrl },
         ])}
       />
@@ -86,9 +88,9 @@ export async function ServiceDetailView({
         <Container>
           <Breadcrumbs
             items={[
-              { name: 'Home', href: locale === 'en' ? '/' : '/es' },
-              { name: practiceArea.name as string, href: `${prefix}/${practiceSlug}` },
-              { name: service.title as string, href: `${prefix}/${practiceSlug}/${serviceSlug}` },
+              { name: 'Home', href: locale === 'en' ? '/' : '/es/inicio/' },
+              { name: practiceArea.name as string, href: practicePath },
+              { name: service.title as string, href: servicePath },
             ]}
           />
           <h1 className="mt-4 max-w-2xl font-display text-[2.5rem] leading-tight text-ink">{h1}</h1>
@@ -98,7 +100,7 @@ export async function ServiceDetailView({
             </p>
           )}
           <div className="mt-8">
-            <Button href={`${prefix}/contact`} size="lg">
+            <Button href={locale === 'es' ? '/es/contacta-con-nosotros/' : '/contact/'} size="lg">
               {copy.home.heroCTA}
             </Button>
           </div>
@@ -158,7 +160,7 @@ export async function ServiceDetailView({
               {siblingServices.map((s) => (
                 <li key={s.id}>
                   <Link
-                    href={`${prefix}/${practiceSlug}/${s.slug}`}
+                    href={serviceHref(locale, practiceSlug, s.slug as string)}
                     className="interactive-card block rounded-md border border-line bg-panel px-5 py-4 font-body text-sm font-medium text-ink hover:border-clay"
                   >
                     {s.title as string}

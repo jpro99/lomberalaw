@@ -10,6 +10,7 @@ import { JsonLd } from '@/components/JsonLd'
 import { breadcrumbSchema, legalServiceSchema } from '@/lib/schema'
 import { pageMetadata, PI_HUB_SEO, BK_HUB_SEO } from '@/lib/seo'
 import { PI_SERVICES, BK_SERVICES } from '@/lib/routing'
+import { hasSpanishServiceSlug, practiceHubHref, serviceHref } from '@/lib/spanishPaths'
 import { OFFICES } from '@/lib/nap'
 
 type Slug = 'personal-injury' | 'bankruptcy'
@@ -29,10 +30,12 @@ export async function PracticeHubView({ slug, locale }: { slug: Slug; locale: Lo
   if (!bundle) notFound()
 
   const allowed = slug === 'personal-injury' ? PI_SERVICES : BK_SERVICES
-  const services = bundle.services.filter((s) => allowed.has(s.slug as string))
+  const services = bundle.services
+    .filter((s) => allowed.has(s.slug as string))
+    .filter((s) => locale === 'en' || hasSpanishServiceSlug(slug, s.slug as string))
   const copy = t(locale)
   const seo = slug === 'personal-injury' ? PI_HUB_SEO : BK_HUB_SEO
-  const practicePath = locale === 'es' ? (slug === 'personal-injury' ? '/es/lesiones-personales/' : '/es/bancarrota/') : `/${slug}/`
+  const practicePath = practiceHubHref(locale, slug)
   const homeHref = locale === 'en' ? '/' : '/es/inicio/'
 
   return (
@@ -80,7 +83,7 @@ export async function PracticeHubView({ slug, locale }: { slug: Slug; locale: Lo
               {services.map((service) => (
                 <li key={service.id}>
                   <Link
-                    href={`${practicePath}${service.slug}/`}
+                    href={serviceHref(locale, slug, service.slug as string)}
                     className="block border-b border-line py-4 font-body text-sm font-medium text-ink hover:text-gold"
                   >
                     {service.title as string}

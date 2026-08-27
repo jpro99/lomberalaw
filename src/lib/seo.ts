@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import type { Locale } from './payload'
+import { toSpanishPath } from './spanishPaths'
 import { SITE_URL } from './staticData'
 
 type PageMeta = {
@@ -11,26 +12,19 @@ type PageMeta = {
   nofollow?: boolean
 }
 
-const SPANISH_PATH_MAP: Record<string, string> = {
-  '/': '/es/inicio',
-  '/personal-injury': '/es/lesiones-personales',
-  '/bankruptcy': '/es/bancarrota',
-  '/about-us': '/es/sobre-nosotros',
-  '/contact': '/es/contacta-con-nosotros',
-  '/testimonials': '/es/testimonios',
-  '/frequently-asked-questions': '/es/preguntas-frecuentes',
-  '/blog': '/es/blog-espanol',
-}
-
 function withSlash(path: string) {
   if (!path || path === '/') return `${SITE_URL}/`
-  return `${SITE_URL}${path}/`
+  const normalized = path.startsWith('/') ? path : `/${path}`
+  return `${SITE_URL}${normalized}/`
 }
 
 /** Build Next.js metadata with canonical + hreflang. */
 export function pageMetadata({ title, description, path, locale = 'en', noindex, nofollow }: PageMeta): Metadata {
-  const canonical = withSlash(path === '/' ? '' : path)
-  const esPath = SPANISH_PATH_MAP[path] || `/es${path === '/' ? '' : path}`
+  const normalizedEn = path === '/' ? '/' : path.startsWith('/') ? path : `/${path}`
+  const enPath = normalizedEn === '/' ? '' : normalizedEn
+  const esPath = toSpanishPath(normalizedEn)
+  const canonicalPath = locale === 'es' ? esPath : enPath || '/'
+  const canonical = withSlash(canonicalPath === '/' ? '' : canonicalPath)
 
   return {
     title,
@@ -38,9 +32,9 @@ export function pageMetadata({ title, description, path, locale = 'en', noindex,
     alternates: {
       canonical,
       languages: {
-        en: withSlash(path === '/' ? '' : path),
-        es: withSlash(esPath),
-        'x-default': withSlash(path === '/' ? '' : path),
+        en: withSlash(enPath === '/' ? '' : enPath),
+        es: withSlash(esPath === '/' ? '' : esPath),
+        'x-default': withSlash(enPath === '/' ? '' : enPath),
       },
     },
     robots:

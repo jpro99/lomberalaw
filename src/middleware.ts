@@ -1,4 +1,5 @@
 import { NextResponse, type NextRequest } from 'next/server'
+import { rewriteSpanishPracticePath } from './lib/spanishPaths'
 
 // Spanish live paths use translated slugs — rewrite to internal [locale] routes
 // while keeping the URL bar on the live /es/* path.
@@ -13,9 +14,9 @@ const SPANISH_EXACT: Record<string, string> = {
   '/es/blog-espanol': '/es/blog',
 }
 
-const SPANISH_PREFIX: [string, string][] = [
-  ['/es/lesiones-personales/', '/es/personal-injury/'],
-  ['/es/bancarrota/', '/es/bankruptcy/'],
+const SPANISH_PREFIX_HUB: [string, string][] = [
+  ['/es/lesiones-personales', '/es/personal-injury'],
+  ['/es/bancarrota', '/es/bankruptcy'],
 ]
 
 const PASSTHROUGH = ['/admin', '/api', '/_next', '/favicon.ico', '/robots.txt', '/sitemap.xml']
@@ -36,12 +37,18 @@ export function middleware(request: NextRequest) {
         return NextResponse.rewrite(url)
       }
     }
-    for (const [from, to] of SPANISH_PREFIX) {
-      if (pathname.startsWith(from)) {
+    for (const [from, to] of SPANISH_PREFIX_HUB) {
+      if (bare === from) {
         const url = request.nextUrl.clone()
-        url.pathname = pathname.replace(from, to)
+        url.pathname = `${to}/`
         return NextResponse.rewrite(url)
       }
+    }
+    const rewritten = rewriteSpanishPracticePath(pathname.endsWith('/') ? pathname : `${pathname}/`)
+    if (rewritten) {
+      const url = request.nextUrl.clone()
+      url.pathname = rewritten
+      return NextResponse.rewrite(url)
     }
     // Other /es/* paths pass through to [locale] segment
     return NextResponse.next()
