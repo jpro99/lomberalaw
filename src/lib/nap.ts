@@ -1,4 +1,6 @@
 /** Hard-coded NAP — source of truth matches live site schema. Do not invent. */
+import type { Locale } from './payload'
+
 export const FIRM = {
   legalName: 'Law Offices of Edgar Lombera',
   brandName: 'Lombera Law',
@@ -38,6 +40,18 @@ export const OFFICES = [
     locationSlug: 'palm-springs',
   },
 ] as const
+
+export type OfficeId = (typeof OFFICES)[number]['id']
+
+const OFFICE_LABELS: Record<OfficeId, { en: string; es: string }> = {
+  redlands: { en: 'Redlands Office', es: 'Oficina de Redlands' },
+  'palm-springs': { en: 'Palm Springs Office', es: 'Oficina de Palm Springs' },
+}
+
+/** Localized office name for footer, contact cards, and chrome — not schema/legalName. */
+export function officeLabel(officeId: OfficeId, locale: Locale): string {
+  return OFFICE_LABELS[officeId][locale === 'es' ? 'es' : 'en']
+}
 
 export const AREA_SERVED = [
   'San Bernardino County, California',

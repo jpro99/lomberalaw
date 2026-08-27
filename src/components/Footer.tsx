@@ -1,14 +1,14 @@
 import Link from 'next/link'
 import { t } from '@/lib/dictionary'
 import type { Locale } from '@/lib/payload'
-import { OFFICES } from '@/lib/nap'
+import { OFFICES, officeLabel } from '@/lib/nap'
 import { Container } from './Container'
 
 export function Footer({ locale }: { locale: Locale }) {
   const copy = t(locale)
   const officeList = OFFICES.map((office) => ({
     id: office.id,
-    name: office.name,
+    name: officeLabel(office.id, locale),
     phone: office.phone,
     tel: office.tel,
   }))
@@ -44,12 +44,12 @@ export function Footer({ locale }: { locale: Locale }) {
               <li><Link href={bkHref} className="hover:text-white">{copy.nav.bankruptcy}</Link></li>
               <li>
                 <Link href={`${prefix}/locations/redlands-ca/`} className="hover:text-white">
-                  {locale === 'es' ? 'Oficina Redlands' : 'Redlands Office'}
+                  {officeLabel('redlands', locale)}
                 </Link>
               </li>
               <li>
                 <Link href={`${prefix}/locations/palm-springs/`} className="hover:text-white">
-                  {locale === 'es' ? 'Oficina Palm Springs' : 'Palm Springs Office'}
+                  {officeLabel('palm-springs', locale)}
                 </Link>
               </li>
             </ul>

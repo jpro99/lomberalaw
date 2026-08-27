@@ -10,7 +10,7 @@ import { JsonLd } from '@/components/JsonLd'
 import { breadcrumbSchema, localBusinessSchema } from '@/lib/schema'
 import { contactSeo, pageMetadata } from '@/lib/seo'
 import { CONTACT_COPY } from '@/lib/serviceBodyCopy'
-import { OFFICES, OFFICE_HOURS_EN, OFFICE_HOURS_ES } from '@/lib/nap'
+import { OFFICES, OFFICE_HOURS_EN, OFFICE_HOURS_ES, officeLabel } from '@/lib/nap'
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: Locale }> }) {
   const { locale } = await params
@@ -33,7 +33,7 @@ export default async function ContactPage({ params }: { params: Promise<{ locale
 
   const officeCards = OFFICES.map((o) => ({
     id: o.id,
-    name: o.name,
+    name: officeLabel(o.id, locale),
     phone: o.phone,
     address: `${o.streetAddress}, ${o.addressLocality}, ${o.addressRegion} ${o.postalCode}`,
     hours,
