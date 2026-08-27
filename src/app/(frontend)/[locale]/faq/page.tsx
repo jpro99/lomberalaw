@@ -15,9 +15,10 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: L
 
 export default async function FAQPage({ params }: { params: Promise<{ locale: Locale }> }) {
   const { locale } = await params
-  const prefix = locale === 'en' ? '' : '/es'
   const homeCrumb = locale === 'es' ? 'Inicio' : 'Home'
   const homeHref = locale === 'en' ? '/' : '/es/inicio/'
+  const faqPath = locale === 'en' ? '/frequently-asked-questions/' : '/es/preguntas-frecuentes/'
+  const faqCrumb = locale === 'es' ? 'Preguntas Frecuentes' : 'Frequently Asked Questions'
   const faqs = await getGeneralFaqs(locale)
 
   return (
@@ -25,13 +26,13 @@ export default async function FAQPage({ params }: { params: Promise<{ locale: Lo
       <JsonLd
         data={breadcrumbSchema([
           { name: homeCrumb, url: `https://lomberalaw.com${homeHref}` },
-          { name: 'FAQ', url: `https://lomberalaw.com${prefix}/faq` },
+          { name: faqCrumb, url: `https://lomberalaw.com${faqPath}` },
         ])}
       />
 
       <section className="border-b border-line bg-stone py-14 md:py-20">
         <Container>
-          <Breadcrumbs items={[{ name: homeCrumb, href: homeHref }, { name: 'FAQ', href: `${prefix}/faq` }]} />
+          <Breadcrumbs items={[{ name: homeCrumb, href: homeHref }, { name: faqCrumb, href: faqPath }]} />
           <h1 className="mt-4 max-w-2xl font-display text-4xl font-semibold text-ink md:text-5xl">
             {locale === 'es' ? 'Preguntas Frecuentes' : 'Frequently Asked Questions'}
           </h1>
