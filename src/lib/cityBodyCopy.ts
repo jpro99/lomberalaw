@@ -56,30 +56,48 @@ const CITY_NAMES: Record<CitySlug, { en: string; es: string }> = {
 
 const PI_EN: Record<CitySlug, CityPageCopy> = {
   fontana: {
-    h1: 'Fontana personal injury lawyer for I-10 and I-15 truck crashes',
-    title: 'Fontana Personal Injury Lawyer | Truck & Freeway Crashes | Lombera',
+    h1: 'Fontana personal injury lawyer',
+    title: 'Fontana Personal Injury Lawyer | I-10 Truck, Uber, Wrongful Death | Lombera',
     description:
-      'Semi-truck and I-10/I-15 crash claims in Fontana. Wrongful death and TBI on contingency. Redlands office (909) 915-0181. Free consult.',
+      'Truck, Uber, wrongful death, and catastrophic injury from I-10 / I-15 / SR-210 crashes in Fontana. Meet at 2068 Orange Tree Lane #220, Redlands — about 20 minutes east on the I-10. (909) 915-0181.',
     lead: [
-      `Fontana is the I-10 and I-15 freight junction — Sierra Avenue, through-truck traffic, and 18-wheeler merges that produce traumatic brain injury, spinal cord injury, and wrongful death claims. There is no Fontana office. Edgar P. Lombera opens Fontana files from ${REDLANDS_NAP} on contingency. You talk to him, not a call center.`,
+      'There is no Lombera suite on Sierra Avenue. After a Fontana wreck, meet Edgar P. Lombera at 2068 Orange Tree Lane, Suite 220, Redlands, CA 92374 — about 20 minutes east on the I-10. Call (909) 915-0181. English or Spanish. Two practices only: personal injury and bankruptcy. You speak with him. Injury cases run on contingency: no fee unless we win.',
     ],
     sections: [
       {
-        h2: 'Truck wrecks and catastrophic outcomes',
+        h2: 'Truck wrecks on I-10, I-15, and SR-210',
         paragraphs: [
-          'Commercial truck cases need logbooks, black-box data, and corporate defendants — not a quick insurance letter. We handle truck collisions that produce traumatic brain injury, spinal cord injury, amputation-level trauma, and wrongful death claims. Uber and Lyft crashes on the I-10 approach are taken as well. Car, motorcycle, and dog-bite matters are part of the docket but are not what defines this corridor.',
+          'Sierra Avenue, the Slover / Cherry warehouse grid, and Foothill Boulevard (Route 66) sit under through-truck traffic that produces the commercial collisions leading this docket. After a serious wreck, preserve the ECM download, dashcam footage, and the driver qualification file before insurers scatter the evidence. This is Inland Empire freight — not an LA harbor page. Wrongful death and traumatic brain injury claims from these wrecks stay on this URL.',
         ],
       },
       {
-        h2: 'San Bernardino County court and I-10 deadlines',
+        h2: 'Uber and Lyft on Sierra Avenue',
         paragraphs: [
-          'Lawsuits for Fontana crashes are typically filed in San Bernardino County Superior Court, 247 W. 3rd St., San Bernardino. California Code of Civil Procedure §335.1 gives most injury victims two years from the crash date. Evidence from the I-10/I-15 interchange fades fast — call while the CHP report and dashcam footage still exist.',
+          'Whether the driver had the app on changes which insurer must respond — we confirm coverage in the consult, not in marketing copy with dollar figures. Fontana rideshare claims stay on /personal-injury/fontana/. We do not invent a /uber/ page.',
         ],
       },
       {
-        h2: 'Contingency and the Redlands office',
+        h2: 'Wrongful death — standing under CCP §377.60',
         paragraphs: [
-          'No fee unless we win. The Fontana-area line is (909) 915-0181. Bankruptcy for medical debt from a crash files at the U.S. Bankruptcy Court, 3420 Twelfth Street, Riverside — the same firm can handle both tracks when bills arrive before the injury case settles.',
+          'Who may bring the suit is confirmed in the consult under California Code of Civil Procedure §377.60 — we do not invent verdicts or settlement stories. County civil files are filed at San Bernardino County Superior Court, 247 W. 3rd St., San Bernardino — not a Fontana District courthouse. CCP §335.1 gives most victims two years; a public entity may require six-month written notice under Government Code §911.2.',
+        ],
+      },
+      {
+        h2: 'Catastrophic injury — TBI, spinal cord, lost limb',
+        paragraphs: [
+          'Traumatic brain injury, spinal cord injury, and amputation are damages outcomes handled on this URL only — not a separate /catastrophic-injury/ landing page. Future medical care and lost earning capacity drive the damages case. This is not medical advice.',
+        ],
+      },
+      {
+        h2: 'Car, motorcycle, and Civil Code §3342 dog bites',
+        paragraphs: [
+          'After the four primary claim types, car collisions, motorcycle crashes, and dog bites under California Civil Code §3342 round out the docket. Lane-splitting on a motorcycle is legal when done safely; wearing a helmet does not flip fault. We do not handle slip-and-fall claims.',
+        ],
+      },
+      {
+        h2: '(909) 915-0181 — Orange Tree Lane, 20 minutes east',
+        paragraphs: [
+          'Hours: Monday–Friday 9am–6pm, Saturday 10am–4pm, Sunday by appointment. Serious injuries can reach the office 24/7 for an emergency consult. This is the Redlands office, not a Sierra Avenue storefront. Palm Springs is the second office — 1276 N Palm Canyon Dr #107, (760) 835-9353. Bankruptcy for medical debt files at 3420 Twelfth Street, Riverside.',
         ],
       },
     ],
@@ -968,16 +986,50 @@ const BK_EN: Record<CitySlug, CityPageCopy> = {
 
 const PI_ES: Record<CitySlug, CityPageCopy> = {
   fontana: {
-    h1: "Abogado de lesiones en Fontana por camiones en la I-10 y I-15",
-    title: "Abogado de Lesiones Fontana | Camiones I-10/I-15 | Lombera",
-    description: "Choques con camiones en la I-10/I-15 en Fontana. Muerte injusta y lesión cerebral a contingencia. Redlands (909) 915-0181. Consulta gratis.",
+    h1: 'Abogado de lesiones personales en Fontana',
+    title: 'Abogado de Lesiones Fontana | Camiones I-10, Uber, Muerte Injusta | Lombera',
+    description:
+      'Camiones, Uber, muerte injusta y lesiones catastróficas en choques de la I-10 / I-15 / SR-210 en Fontana. Oficina en Orange Tree Lane #220, Redlands — unos 20 minutos al este por la I-10. (909) 915-0181.',
     lead: [
-      "Fontana es el cruce de carga de la I-10 y la I-15 — Sierra Avenue, tráfico de camiones y fusiones de remolques que producen lesión cerebral traumática, lesión de médula espinal y muerte injusta. No hay oficina en Fontana. Edgar P. Lombera abre expedientes de Fontana desde 2068 Orange Tree Lane, Suite 220, Redlands, CA 92374 — (909) 915-0181 a contingencia. Usted habla con él, no con un centro de llamadas.",
+      'No hay suite de Lombera en Sierra Avenue. Después de un choque en Fontana, reúnase con Edgar P. Lombera en 2068 Orange Tree Lane, Suite 220, Redlands, CA 92374 — unos 20 minutos al este por la I-10. Llame al (909) 915-0181. Inglés o español. Solo dos prácticas: lesiones personales y bancarrota. Usted habla con él. Los casos de lesiones son a contingencia: sin honorarios a menos que ganemos.',
     ],
     sections: [
-{ h2: 'Choques con camiones y lesiones catastróficas', paragraphs: ['Los casos de camiones comerciales requieren registros de horas, caja negra y demandados corporativos. Manejamos colisiones que producen lesión cerebral traumática, lesión de médula espinal, amputación y muerte injusta. Choques de Uber y Lyft en la I-10 también. Accidentes de auto, motocicleta y mordeduras de perro forman parte del expediente.'] },
-      { h2: 'Tribunal del condado de San Bernardino', paragraphs: ['Las demandas por choques en Fontana suelen presentarse en el Tribunal Superior del Condado de San Bernardino, 247 W. 3rd St., San Bernardino. El CCP §335.1 da dos años desde la fecha del choque.'] },
-      { h2: 'Contingencia — oficina Redlands', paragraphs: [`Sin honorarios a menos que ganemos. Llame al (909) 915-0181. La bancarrota por deuda médica se presenta en 3420 Twelfth Street, Riverside.`] },
+      {
+        h2: 'Choques de camiones en la I-10, la I-15 y la SR-210',
+        paragraphs: [
+          'Sierra Avenue, la red de almacenes Slover / Cherry y Foothill Boulevard (Ruta 66) están bajo el tráfico de camiones de paso que produce las colisiones comerciales que lideran este expediente. Después de un choque grave, preserve la descarga del ECM, las grabaciones de dashcam y el expediente de calificación del conductor antes de que las aseguradoras dispersen la evidencia. Esto es carga del Inland Empire — no una página de puerto de Los Ángeles. Las demandas por muerte injusta y lesión cerebral traumática de estos choques permanecen en esta URL.',
+        ],
+      },
+      {
+        h2: 'Uber y Lyft en Sierra Avenue',
+        paragraphs: [
+          'Si el conductor tenía la aplicación activada cambia qué aseguradora debe responder — confirmamos la cobertura en la consulta, no con cifras de marketing. Los reclamos de rideshare de Fontana permanecen en /es/lesiones-personales/fontana/. No inventamos una página /uber/.',
+        ],
+      },
+      {
+        h2: 'Muerte injusta — legitimación bajo el CCP §377.60',
+        paragraphs: [
+          'Quién puede presentar la demanda se confirma en la consulta bajo el Código de Procedimiento Civil de California §377.60 — no inventamos veredictos ni historias de acuerdos. Los expedientes civiles del condado se presentan en el Tribunal Superior del Condado de San Bernardino, 247 W. 3rd St., San Bernardino — no un tribunal del Distrito de Fontana. El CCP §335.1 da dos años a la mayoría de las víctimas; una entidad pública puede exigir aviso escrito de seis meses bajo el Código de Gobierno §911.2.',
+        ],
+      },
+      {
+        h2: 'Lesiones catastróficas — cerebral, médula, pérdida de miembro',
+        paragraphs: [
+          'La lesión cerebral traumática, la lesión de médula espinal y la amputación son resultados de daños manejados solo en esta URL — no una página separada de /lesiones-catastroficas/. La atención médica futura y la capacidad de ingreso perdida impulsan el caso de daños. Esto no es consejo médico.',
+        ],
+      },
+      {
+        h2: 'Auto, motocicleta y mordeduras — Código Civil §3342',
+        paragraphs: [
+          'Después de los cuatro tipos principales de reclamo, choques de auto, accidentes de motocicleta y mordeduras de perro bajo el Código Civil de California §3342 completan el expediente. Circular entre carriles en motocicleta es legal cuando se hace con seguridad; usar casco no invierte la culpa. No manejamos reclamos por resbalones y caídas.',
+        ],
+      },
+      {
+        h2: '(909) 915-0181 — Orange Tree Lane, 20 minutos al este',
+        paragraphs: [
+          'Horario: lunes a viernes 9am–6pm, sábado 10am–4pm, domingo con cita. Lesiones graves pueden contactar la oficina las 24 horas para consulta de emergencia. Esta es la oficina de Redlands, no un local en Sierra Avenue. Palm Springs es la segunda oficina — 1276 N Palm Canyon Dr #107, (760) 835-9353. La bancarrota por deuda médica se presenta en 3420 Twelfth Street, Riverside.',
+        ],
+      },
     ],
   },
   colton: {
