@@ -50,8 +50,18 @@ export default async function ContactPage({ params }: { params: Promise<{ locale
           { name: pageCopy.h1, url: `https://lomberalaw.com${contactHref}` },
         ])}
       />
-      {officeCards.map((office) => (
-        <JsonLd key={office.id} data={localBusinessSchema(office as never, `https://lomberalaw.com${contactHref}`)} />
+      {OFFICES.map((office) => (
+        <JsonLd
+          key={office.id}
+          data={localBusinessSchema(
+            {
+              name: office.name,
+              phone: office.phone,
+              address: `${office.streetAddress}, ${office.addressLocality}, ${office.addressRegion} ${office.postalCode}`,
+            },
+            `https://lomberalaw.com${contactHref}`,
+          )}
+        />
       ))}
 
       <section className="border-b border-line bg-navy text-white">
