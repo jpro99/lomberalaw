@@ -1,6 +1,6 @@
-import { getPayload, PayloadUnavailableError } from './payload'
 import type { Locale } from './payload'
 import { STATIC_OFFICES } from './staticData'
+import { OFFICE_HOURS_EN, OFFICE_HOURS_ES } from './nap'
 
 type OfficeDoc = {
   id: string | number
@@ -10,20 +10,20 @@ type OfficeDoc = {
   hours?: string
 }
 
-export async function getOffices(_locale?: Locale): Promise<OfficeDoc[]> {
-  try {
-    const payload = await getPayload()
-    const res = await payload.find({ collection: 'offices', limit: 5, sort: 'name' })
-    return res.docs as OfficeDoc[]
-  } catch (e) {
-    if (e instanceof PayloadUnavailableError) {
-      return STATIC_OFFICES.map((o) => ({ ...o }))
-    }
-    throw e
-  }
+/** Static NAP — no Payload round-trip on marketing pages. */
+export function getOffices(locale?: Locale): Promise<OfficeDoc[]> {
+  const hours = locale === 'es' ? OFFICE_HOURS_ES : OFFICE_HOURS_EN
+  return Promise.resolve(
+    STATIC_OFFICES.map((o) => ({
+      id: o.id,
+      name: o.name,
+      phone: o.phone,
+      address: o.address,
+      hours,
+    })),
+  )
 }
 
 export async function getPrimaryPhone(): Promise<string | undefined> {
-  const offices = await getOffices()
-  return offices[0]?.phone
+  return STATIC_OFFICES[0]?.phone
 }

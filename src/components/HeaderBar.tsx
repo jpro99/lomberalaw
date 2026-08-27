@@ -33,33 +33,34 @@ export function HeaderBar({
 
   return (
     <header className="sticky top-0 z-40 border-b border-white/10 bg-navy text-white">
-      <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-4 py-3 md:px-6">
-        <Link href={homeHref} className="font-display text-xl tracking-tight text-white md:text-2xl">
+      <div className="mx-auto flex h-14 max-w-6xl items-center justify-between gap-3 px-4 md:px-6">
+        <Link href={homeHref} className="shrink-0 font-display text-lg tracking-tight text-white md:text-xl">
           Lombera Law
         </Link>
 
-        <nav className="hidden items-center gap-6 lg:flex" aria-label="Primary">
+        <nav className="hidden min-w-0 items-center gap-5 lg:flex" aria-label="Primary">
           {links.map((link) => (
             <Link
               key={link.href}
               href={localized(link.href)}
-              className="font-body text-sm font-semibold uppercase tracking-wide text-white/90 hover:text-gold"
+              className="whitespace-nowrap font-body text-xs font-semibold uppercase tracking-wide text-white/90 hover:text-gold"
             >
               {link.label}
             </Link>
           ))}
         </nav>
 
-        <div className="flex items-center gap-3">
+        <div className="flex shrink-0 items-center gap-2">
           <Link
             href={otherLocaleHref}
             className="font-body text-xs font-semibold uppercase text-white/70 hover:text-white"
+            aria-label={locale === 'en' ? 'Español' : 'English'}
           >
             {locale === 'en' ? 'ES' : 'EN'}
           </Link>
           <a
             href={`tel:${OFFICES[0].tel}`}
-            className="hidden rounded-sm bg-gold px-4 py-2 font-body text-sm font-semibold text-navy hover:bg-gold-deep md:inline-flex"
+            className="hidden rounded-sm bg-gold px-3 py-1.5 font-body text-xs font-semibold text-navy hover:bg-gold-deep sm:inline-flex"
           >
             {OFFICES[0].phone}
           </a>

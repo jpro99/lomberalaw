@@ -1,18 +1,15 @@
 import type { Metadata } from 'next'
-import { getPayload, PayloadUnavailableError } from '@/lib/payload'
 import { t } from '@/lib/dictionary'
 import type { Locale } from '@/lib/payload'
-import Image from 'next/image'
 import Link from 'next/link'
 import { Container } from '@/components/Container'
 import { Button } from '@/components/Button'
 import { PracticeCard } from '@/components/PracticeCard'
+import { EdgarHeadshot } from '@/components/EdgarHeadshot'
 import { JsonLd } from '@/components/JsonLd'
 import { firmLegalServiceSchema, faqPageSchema } from '@/lib/schema'
-import { EDGAR_HERO_PHOTO } from '@/lib/mediaUrl'
 import { HOME_SEO, pageMetadata } from '@/lib/seo'
 import { OFFICES } from '@/lib/nap'
-import { getOffices } from '@/lib/getOffices'
 
 export async function generateMetadata({
   params,
@@ -39,24 +36,8 @@ export async function generateMetadata({
 export default async function HomePage({ params }: { params: Promise<{ locale: Locale }> }) {
   const { locale } = await params
   const copy = t(locale).home
-  const prefix = locale === 'en' ? '' : '/es'
   const seo = locale === 'en' ? HOME_SEO.en : HOME_SEO.es
   const h1 = seo.h1
-
-  let attorney: { name?: string } | undefined
-
-  const offices = await getOffices(locale)
-  const primaryPhone = offices[0]?.phone
-
-  try {
-    const payload = await getPayload()
-    const [attorneys] = await Promise.all([
-      payload.find({ collection: 'attorneys', where: { slug: { equals: 'edgar-lombera' } }, locale, limit: 1 }),
-    ])
-    attorney = attorneys.docs[0] as { name?: string } | undefined
-  } catch (e) {
-    if (!(e instanceof PayloadUnavailableError)) throw e
-  }
 
   const faqItems = locale === 'en' ? HOME_SEO.en.faq : []
   const faqSchema = faqPageSchema(faqItems.map((f) => ({ question: f.q, answer: f.a })))
@@ -70,23 +51,21 @@ export default async function HomePage({ params }: { params: Promise<{ locale: L
       {faqSchema && <JsonLd data={faqSchema} />}
 
       <section className="relative overflow-hidden border-b border-line bg-navy text-white">
-        <Container className="relative grid items-center gap-8 py-10 md:grid-cols-[1.1fr_0.9fr] md:py-12">
+        <Container className="relative grid items-center gap-6 py-8 md:grid-cols-[1.1fr_auto] md:py-10">
           <div className="max-w-xl">
             <p className="font-body text-[11px] font-bold uppercase tracking-[0.16em] text-gold">
               {copy.officesLine}
             </p>
-            <h1 className="mt-4 font-display text-[2.5rem] leading-[1.12] text-white">{h1}</h1>
-            <p className="mt-4 max-w-md font-body text-sm leading-relaxed text-white/80 md:text-base">
+            <h1 className="mt-3 font-display text-[2rem] leading-[1.12] text-white md:text-[2.5rem]">{h1}</h1>
+            <p className="mt-3 max-w-md font-body text-sm leading-relaxed text-white/80 md:text-base">
               {'open' in seo ? seo.open : copy.heroSub}
             </p>
-            <div className="mt-6">
-              {primaryPhone && (
-                <Button href={`tel:${OFFICES[0].tel}`} variant="onDark" size="md" trackAs="call">
-                  {copy.heroCTA}
-                </Button>
-              )}
+            <div className="mt-5">
+              <Button href={`tel:${OFFICES[0].tel}`} variant="onDark" size="md" trackAs="call">
+                {copy.heroCTA}
+              </Button>
             </div>
-            <div className="mt-6 flex flex-wrap gap-6 border-t border-white/10 pt-5">
+            <div className="mt-5 flex flex-wrap gap-6 border-t border-white/10 pt-4">
               {OFFICES.map((office) => (
                 <div key={office.id}>
                   <p className="font-body text-[10px] font-bold uppercase tracking-[0.14em] text-gold">
@@ -100,16 +79,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: L
             </div>
           </div>
           <div className="justify-self-center md:justify-self-end">
-            <Image
-              src={EDGAR_HERO_PHOTO}
-              alt={attorney?.name || 'Edgar P. Lombera'}
-              width={878}
-              height={550}
-              priority
-              unoptimized
-              sizes="(min-width: 768px) 300px, 80vw"
-              className="h-auto w-full max-w-[300px] border border-white/15"
-            />
+            <EdgarHeadshot priority />
           </div>
         </Container>
       </section>
@@ -201,12 +171,9 @@ export default async function HomePage({ params }: { params: Promise<{ locale: L
         </section>
       )}
 
-      <section className="bg-navy py-12">
-        <Container className="flex flex-col items-start gap-4 md:flex-row md:items-center md:justify-between">
-          <h2 className="max-w-xl font-display text-2xl text-white">{copy.finalCTAHeadline}</h2>
-          <Button href={`tel:${OFFICES[0].tel}`} variant="onDark" size="lg" trackAs="call">
-            {copy.heroCTA}
-          </Button>
+      <section className="bg-navy py-10">
+        <Container>
+          <p className="max-w-xl font-display text-xl text-white">{copy.finalCTAHeadline}</p>
         </Container>
       </section>
     </main>

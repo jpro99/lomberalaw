@@ -173,6 +173,191 @@ export const CH13_SEO = {
   h1: 'Chapter 13 bankruptcy lawyer',
 }
 
+type ServiceSeoCopy = { title: string; h1: string; description: string }
+
+export const PI_SERVICE_SEO: Record<string, { en: ServiceSeoCopy; es: ServiceSeoCopy }> = {
+  'car-accidents': {
+    en: {
+      title: 'Car Accident Lawyer | Inland Empire | Lombera Law',
+      h1: 'Car accident lawyer in the Inland Empire',
+      description:
+        'Car accident claims in San Bernardino and Riverside County. No fee unless we win. Redlands (909) 915-0181 · Palm Springs (760) 835-9353.',
+    },
+    es: {
+      title: 'Abogado de Accidentes de Auto | Inland Empire | Lombera Law',
+      h1: 'Abogado de accidentes de auto en el Inland Empire',
+      description:
+        'Reclamos por accidentes de auto en el condado de San Bernardino y Riverside. Sin honorarios a menos que ganemos. Redlands (909) 915-0181 · Palm Springs (760) 835-9353.',
+    },
+  },
+  'truck-accidents': {
+    en: {
+      title: 'Truck Accident Lawyer | Inland Empire | Lombera Law',
+      h1: 'Truck accident lawyer in the Inland Empire',
+      description:
+        'Commercial truck and 18-wheeler crashes across the Inland Empire. Federal safety rules, black box data, corporate defendants. No fee unless we win.',
+    },
+    es: {
+      title: 'Abogado de Accidentes de Camión | Inland Empire | Lombera Law',
+      h1: 'Abogado de accidentes de camión en el Inland Empire',
+      description:
+        'Choques con camiones comerciales en el Inland Empire. Reglas federales de seguridad y demandados corporativos. Sin honorarios a menos que ganemos.',
+    },
+  },
+  'motorcycle-accidents': {
+    en: {
+      title: 'Motorcycle Accident Lawyer | Inland Empire | Lombera Law',
+      h1: 'Motorcycle accident lawyer in the Inland Empire',
+      description:
+        'Motorcycle crash claims in San Bernardino and Riverside County. Bias against riders — we build cases for trial. Free consult.',
+    },
+    es: {
+      title: 'Abogado de Accidentes de Motocicleta | Inland Empire | Lombera Law',
+      h1: 'Abogado de accidentes de motocicleta en el Inland Empire',
+      description:
+        'Reclamos por choques de motocicleta en el Inland Empire. Preparamos cada caso para juicio. Consulta gratuita.',
+    },
+  },
+  'rideshare-accidents': {
+    en: {
+      title: 'Rideshare Accident Lawyer | Inland Empire | Lombera Law',
+      h1: 'Rideshare accident lawyer in the Inland Empire',
+      description:
+        'Uber and Lyft crash claims — layered commercial insurance, app status at impact. No fee unless we win.',
+    },
+    es: {
+      title: 'Abogado de Accidentes de Rideshare | Inland Empire | Lombera Law',
+      h1: 'Abogado de accidentes de rideshare en el Inland Empire',
+      description:
+        'Choques de Uber y Lyft — cobertura comercial en capas. Sin honorarios a menos que ganemos.',
+    },
+  },
+  'dog-bites': {
+    en: {
+      title: 'Dog Bite Lawyer | Inland Empire | Lombera Law',
+      h1: 'Dog bite lawyer in the Inland Empire',
+      description:
+        'Dog bite and animal attack claims in San Bernardino and Riverside County. Medical bills, scarring, liability. Free consult.',
+    },
+    es: {
+      title: 'Abogado de Mordeduras de Perro | Inland Empire | Lombera Law',
+      h1: 'Abogado de mordeduras de perro en el Inland Empire',
+      description:
+        'Reclamos por mordeduras de perro en el Inland Empire. Facturas médicas y responsabilidad del dueño. Consulta gratuita.',
+    },
+  },
+  'wrongful-death': {
+    en: {
+      title: 'Wrongful Death Lawyer | Inland Empire | Lombera Law',
+      h1: 'Wrongful death lawyer in the Inland Empire',
+      description:
+        'Wrongful death claims for families across the Inland Empire and Coachella Valley. Accountability and financial stability after loss.',
+    },
+    es: {
+      title: 'Abogado de Muerte Injusta | Inland Empire | Lombera Law',
+      h1: 'Abogado de muerte injusta en el Inland Empire',
+      description:
+        'Reclamos por muerte injusta para familias del Inland Empire y el Valle de Coachella. Consulta gratuita.',
+    },
+  },
+  'traumatic-brain-injury': {
+    en: {
+      title: 'Brain Injury Lawyer | Inland Empire | Lombera Law',
+      h1: 'Traumatic brain injury lawyer in the Inland Empire',
+      description:
+        'TBI claims with neurologists and neuropsychologists. Document the full scope — not just the ER bill. Free consult.',
+    },
+    es: {
+      title: 'Abogado de Lesión Cerebral | Inland Empire | Lombera Law',
+      h1: 'Abogado de lesión cerebral traumática en el Inland Empire',
+      description:
+        'Casos de lesión cerebral con expertos médicos. Documentamos el alcance real de la lesión. Consulta gratuita.',
+    },
+  },
+  'spinal-cord-injury': {
+    en: {
+      title: 'Spinal Cord Injury Lawyer | Inland Empire | Lombera Law',
+      h1: 'Spinal cord injury lawyer in the Inland Empire',
+      description:
+        'Spinal cord injury cases with lifetime care planning. Wheelchairs, home modifications, ongoing treatment. No fee unless we win.',
+    },
+    es: {
+      title: 'Abogado de Lesión de Médula Espinal | Inland Empire | Lombera Law',
+      h1: 'Abogado de lesión de médula espinal en el Inland Empire',
+      description:
+        'Casos de lesión de médula espinal con planificación de cuidado de por vida. Sin honorarios a menos que ganemos.',
+    },
+  },
+}
+
+const OFFICE_CITY_SLUGS = new Set(['redlands', 'palm-springs'])
+
+const REDLANDS_OFFICE = '2068 Orange Tree Lane Suite 220, Redlands, CA 92374 — (909) 915-0181'
+const PALM_SPRINGS_OFFICE = '1276 N Palm Canyon Dr #107, Palm Springs, CA 92262 — (760) 835-9353'
+
+export function practiceCitySeo(
+  practiceSlug: 'personal-injury' | 'bankruptcy',
+  citySlug: string,
+  cityName: string,
+  locale: Locale,
+): ServiceSeoCopy {
+  const isOfficeCity = OFFICE_CITY_SLUGS.has(citySlug)
+  const nearestOffice =
+    citySlug === 'redlands' || ['san-bernardino', 'fontana', 'riverside', 'moreno-valley', 'highland', 'beaumont', 'hemet', 'colton', 'rancho-cucamonga'].includes(citySlug)
+      ? REDLANDS_OFFICE
+      : PALM_SPRINGS_OFFICE
+
+  if (practiceSlug === 'personal-injury') {
+    if (locale === 'es') {
+      return {
+        title: `${cityName} Abogado de Lesiones Personales | Lombera Law`,
+        h1: `Abogado de lesiones personales en ${cityName}`,
+        description: isOfficeCity
+          ? citySlug === 'redlands'
+            ? `Lesiones personales en ${cityName}. Oficina: ${REDLANDS_OFFICE}. Sin honorarios a menos que ganemos.`
+            : `Lesiones personales en ${cityName}. Oficina: ${PALM_SPRINGS_OFFICE}. Sin honorarios a menos que ganemos.`
+          : `Lesiones personales en ${cityName}. Oficina más cercana: ${nearestOffice}. Sin honorarios a menos que ganemos.`,
+      }
+    }
+    return {
+      title: `${cityName} Personal Injury Lawyer | Lombera Law`,
+      h1: `${cityName} personal injury lawyer`,
+      description: isOfficeCity
+        ? citySlug === 'redlands'
+          ? `Personal injury claims in ${cityName}. Office: ${REDLANDS_OFFICE}. No fee unless we win.`
+          : `Personal injury claims in ${cityName}. Office: ${PALM_SPRINGS_OFFICE}. No fee unless we win.`
+        : `Personal injury claims in ${cityName}. Nearest office: ${nearestOffice}. No fee unless we win.`,
+    }
+  }
+
+  if (locale === 'es') {
+    return {
+      title: `${cityName} Abogado de Bancarrota | Lombera Law`,
+      h1: `Abogado de bancarrota en ${cityName}`,
+      description: isOfficeCity
+        ? citySlug === 'redlands'
+          ? `Capítulo 7 y 13 en ${cityName}. Oficina: ${REDLANDS_OFFICE}. Consulta gratuita.`
+          : `Capítulo 7 y 13 en ${cityName}. Oficina: ${PALM_SPRINGS_OFFICE}. Consulta gratuita.`
+        : `Capítulo 7 y 13 en ${cityName}. Oficina más cercana: ${nearestOffice}. Consulta gratuita.`,
+    }
+  }
+  return {
+    title: `${cityName} Bankruptcy Lawyer | Lombera Law`,
+    h1: `${cityName} bankruptcy lawyer`,
+    description: isOfficeCity
+      ? citySlug === 'redlands'
+        ? `Chapter 7 and Chapter 13 in ${cityName}. Office: ${REDLANDS_OFFICE}. Free consult.`
+        : `Chapter 7 and Chapter 13 in ${cityName}. Office: ${PALM_SPRINGS_OFFICE}. Free consult.`
+      : `Chapter 7 and Chapter 13 in ${cityName}. Nearest office: ${nearestOffice}. Free consult.`,
+  }
+}
+
+export function getPiServiceSeo(serviceSlug: string, locale: Locale): ServiceSeoCopy | null {
+  const entry = PI_SERVICE_SEO[serviceSlug]
+  if (!entry) return null
+  return entry[locale]
+}
+
 export const ABOUT_SEO = {
   title: 'Edgar P. Lombera | Redlands & Palm Springs Lawyer',
   description:

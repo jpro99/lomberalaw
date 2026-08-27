@@ -1,26 +1,17 @@
 import Link from 'next/link'
 import { t } from '@/lib/dictionary'
 import type { Locale } from '@/lib/payload'
-import { getOffices } from '@/lib/getOffices'
 import { OFFICES } from '@/lib/nap'
 import { Container } from './Container'
 
-export async function Footer({ locale }: { locale: Locale }) {
+export function Footer({ locale }: { locale: Locale }) {
   const copy = t(locale)
-  const offices = await getOffices(locale)
-  const officeList = (offices.length > 0 ? offices : OFFICES.map((o) => ({
-    id: o.id,
-    name: o.name,
-    phone: o.phone,
-  }))).map((office) => {
-    const match = OFFICES.find(
-      (o) => o.id === office.id || o.name === office.name || o.phone === office.phone,
-    )
-    return {
-      ...office,
-      tel: match?.tel ?? `+1${office.phone.replace(/\D/g, '')}`,
-    }
-  })
+  const officeList = OFFICES.map((office) => ({
+    id: office.id,
+    name: office.name,
+    phone: office.phone,
+    tel: office.tel,
+  }))
 
   const prefix = locale === 'en' ? '' : '/es'
   const piHref = locale === 'es' ? '/es/lesiones-personales/' : '/personal-injury/'
@@ -71,9 +62,9 @@ export async function Footer({ locale }: { locale: Locale }) {
             <ul className="mt-4 space-y-3 font-body text-sm">
               {officeList.map((office) => (
                 <li key={office.id}>
-                  <p className="font-medium text-white">{office.name as string}</p>
+                  <p className="font-medium text-white">{office.name}</p>
                   <a href={`tel:${office.tel}`} className="font-data text-xs text-night-ink/70 hover:text-white">
-                    {office.phone as string}
+                    {office.phone}
                   </a>
                 </li>
               ))}

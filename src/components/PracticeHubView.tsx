@@ -11,7 +11,6 @@ import { breadcrumbSchema, legalServiceSchema } from '@/lib/schema'
 import { pageMetadata, PI_HUB_SEO, BK_HUB_SEO } from '@/lib/seo'
 import { PI_HUB_SERVICES, BK_SERVICES } from '@/lib/routing'
 import { hasSpanishServiceSlug, practiceHubHref, serviceHref } from '@/lib/spanishPaths'
-import { OFFICES } from '@/lib/nap'
 
 type Slug = 'personal-injury' | 'bankruptcy'
 
@@ -131,11 +130,8 @@ export async function PracticeHubView({ slug, locale }: { slug: Slug; locale: Lo
       )}
 
       <section className="bg-navy py-10 text-white">
-        <Container className="flex flex-wrap items-center justify-between gap-4">
-          <p className="font-body text-sm">{copy.home.finalCTAHeadline}</p>
-          <Button href={`tel:${OFFICES[0].tel}`} variant="onDark" size="md" trackAs="call">
-            {OFFICES[0].phone}
-          </Button>
+        <Container>
+          <p className="max-w-xl font-body text-sm text-white/90">{copy.home.finalCTAHeadline}</p>
         </Container>
       </section>
     </main>

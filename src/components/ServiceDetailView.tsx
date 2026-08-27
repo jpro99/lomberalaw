@@ -12,7 +12,7 @@ import { TestimonialCard } from '@/components/TestimonialCard'
 import { JsonLd } from '@/components/JsonLd'
 import { breadcrumbSchema, legalServiceSchema, faqPageSchema } from '@/lib/schema'
 import { lexicalToPlainText } from '@/lib/lexicalText'
-import { pageMetadata, CH7_SEO, CH13_SEO } from '@/lib/seo'
+import { pageMetadata, CH7_SEO, CH13_SEO, getPiServiceSeo } from '@/lib/seo'
 import { localizedCanonicalUrl, practiceHubHref, serviceHref } from '@/lib/spanishPaths'
 
 type PracticeSlug = 'personal-injury' | 'bankruptcy'
@@ -23,6 +23,15 @@ export async function getServiceMetadata(practiceSlug: PracticeSlug, serviceSlug
   }
   if (practiceSlug === 'bankruptcy' && serviceSlug === 'chapter-13') {
     return pageMetadata({ ...CH13_SEO, path: '/bankruptcy/chapter-13', locale })
+  }
+  const locked = practiceSlug === 'personal-injury' ? getPiServiceSeo(serviceSlug, locale) : null
+  if (locked) {
+    return pageMetadata({
+      title: locked.title,
+      description: locked.description,
+      path: `/${practiceSlug}/${serviceSlug}`,
+      locale,
+    })
   }
   const bundle = await getServiceBundle(practiceSlug, serviceSlug, locale)
   if (!bundle) return {}
@@ -50,12 +59,13 @@ export async function ServiceDetailView({
   const practicePath = practiceHubHref(locale, practiceSlug)
   const canonicalUrl = localizedCanonicalUrl(`/${practiceSlug}/${serviceSlug}`, locale)
   const servicePath = serviceHref(locale, practiceSlug, serviceSlug)
+  const lockedPi = practiceSlug === 'personal-injury' ? getPiServiceSeo(serviceSlug, locale) : null
   const h1 =
     practiceSlug === 'bankruptcy' && serviceSlug === 'chapter-7'
       ? CH7_SEO.h1
       : practiceSlug === 'bankruptcy' && serviceSlug === 'chapter-13'
         ? CH13_SEO.h1
-        : (service.title as string)
+        : lockedPi?.h1 || (service.title as string)
 
   return (
     <main>
@@ -94,10 +104,13 @@ export async function ServiceDetailView({
             ]}
           />
           <h1 className="mt-4 max-w-2xl font-display text-[2.5rem] leading-tight text-ink">{h1}</h1>
-          {service.summary && (
+          {service.summary && !lockedPi && (
             <p className="mt-4 max-w-xl font-body text-base leading-relaxed text-ink-soft">
               {service.summary as string}
             </p>
+          )}
+          {lockedPi && (
+            <p className="mt-4 max-w-xl font-body text-base leading-relaxed text-ink-soft">{lockedPi.description}</p>
           )}
           <div className="mt-8">
             <Button href={locale === 'es' ? '/es/contacta-con-nosotros/' : '/contact/'} size="lg">

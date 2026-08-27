@@ -20,8 +20,9 @@ export default async function LocationsHub({ params }: { params: Promise<{ local
   const prefix = locale === 'en' ? '' : '/es'
   const cities = await getAllCities(locale)
 
-  const byCounty = cities.reduce<Record<string, typeof cities>>((acc, city) => {
-    const key = city.county as string
+  type CityRow = { id: string | number; slug?: string; name?: string; county?: string }
+  const byCounty = (cities as CityRow[]).reduce<Record<string, CityRow[]>>((acc, city) => {
+    const key = city.county || 'Other'
     acc[key] = acc[key] || []
     acc[key].push(city)
     return acc
