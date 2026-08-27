@@ -32,12 +32,13 @@ export function OfficeLocationView({ slug, locale }: { slug: OfficeSlug; locale:
   const prefix = locale === 'en' ? '' : '/es'
   const homeHref = locale === 'en' ? '/' : '/es/inicio/'
   const path = `${prefix}/locations/${slug}/`
+  const homeCrumb = locale === 'es' ? 'Inicio' : 'Home'
 
   return (
     <main>
       <JsonLd
         data={breadcrumbSchema([
-          { name: 'Home', url: `https://lomberalaw.com${homeHref}` },
+          { name: homeCrumb, url: `https://lomberalaw.com${homeHref}` },
           { name: office.addressLocality, url: `https://lomberalaw.com${path}` },
         ])}
       />
@@ -46,7 +47,7 @@ export function OfficeLocationView({ slug, locale }: { slug: OfficeSlug; locale:
         <Container>
           <Breadcrumbs
             items={[
-              { name: 'Home', href: homeHref },
+              { name: homeCrumb, href: homeHref },
               { name: office.addressLocality, href: path },
             ]}
           />

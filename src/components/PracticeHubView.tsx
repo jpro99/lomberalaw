@@ -72,12 +72,13 @@ export async function PracticeHubView({ slug, locale }: { slug: Slug; locale: Lo
   const h1 = pageCopy.h1
   const practicePath = practiceHubHref(locale, slug)
   const homeHref = locale === 'en' ? '/' : '/es/inicio/'
+  const homeCrumb = locale === 'es' ? 'Inicio' : 'Home'
 
   return (
     <main>
       <JsonLd
         data={breadcrumbSchema([
-          { name: 'Home', url: `https://lomberalaw.com${homeHref}` },
+          { name: homeCrumb, url: `https://lomberalaw.com${homeHref}` },
           { name: h1, url: `https://lomberalaw.com${practicePath}` },
         ])}
       />
@@ -94,7 +95,7 @@ export async function PracticeHubView({ slug, locale }: { slug: Slug; locale: Lo
         <Container>
           <Breadcrumbs
             items={[
-              { name: 'Home', href: homeHref },
+              { name: homeCrumb, href: homeHref },
               { name: slug === 'personal-injury' ? copy.nav.personalInjury : copy.nav.bankruptcy, href: practicePath },
             ]}
           />

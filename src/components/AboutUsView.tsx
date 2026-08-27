@@ -47,11 +47,14 @@ export async function AboutUsView({ locale, canonicalPath = '/about-us' }: { loc
   const primaryPhone = offices[0]?.phone
   const photoSrc = resolveMediaUrl(photo, EDGAR_PHOTO_FALLBACK)
 
+  const homeHref = locale === 'es' ? '/es/inicio/' : '/'
+  const homeCrumb = locale === 'es' ? 'Inicio' : 'Home'
+
   return (
     <main>
       <JsonLd
         data={breadcrumbSchema([
-          { name: 'Home', url: 'https://lomberalaw.com' + (locale === 'es' ? '/es/inicio/' : '/') },
+          { name: homeCrumb, url: `https://lomberalaw.com${homeHref}` },
           {
             name: locale === 'es' ? 'Sobre Nosotros' : 'About Us',
             url: canonicalUrl,
@@ -71,7 +74,7 @@ export async function AboutUsView({ locale, canonicalPath = '/about-us' }: { loc
         <Container>
           <Breadcrumbs
             items={[
-              { name: 'Home', href: locale === 'en' ? '/' : '/es/inicio/' },
+              { name: homeCrumb, href: locale === 'en' ? '/' : '/es/inicio/' },
               {
                 name: locale === 'es' ? 'Sobre Nosotros' : 'About Us',
                 href: `${prefix}${canonicalPath}/`,

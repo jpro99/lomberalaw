@@ -69,7 +69,7 @@ export default async function ContactPage({ params }: { params: Promise<{ locale
           <div>
             <Breadcrumbs
               items={[
-                { name: 'Home', href: homeHref },
+                { name: homeCrumb, href: homeHref },
                 { name: copy.kicker, href: contactHref },
               ]}
             />

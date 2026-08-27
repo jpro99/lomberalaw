@@ -16,20 +16,22 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: L
 export default async function FAQPage({ params }: { params: Promise<{ locale: Locale }> }) {
   const { locale } = await params
   const prefix = locale === 'en' ? '' : '/es'
+  const homeCrumb = locale === 'es' ? 'Inicio' : 'Home'
+  const homeHref = locale === 'en' ? '/' : '/es/inicio/'
   const faqs = await getGeneralFaqs(locale)
 
   return (
     <main>
       <JsonLd
         data={breadcrumbSchema([
-          { name: 'Home', url: 'https://lomberalaw.com' + (locale === 'es' ? '/es' : '') },
+          { name: homeCrumb, url: `https://lomberalaw.com${homeHref}` },
           { name: 'FAQ', url: `https://lomberalaw.com${prefix}/faq` },
         ])}
       />
 
       <section className="border-b border-line bg-stone py-14 md:py-20">
         <Container>
-          <Breadcrumbs items={[{ name: 'Home', href: locale === 'en' ? '/' : '/es' }, { name: 'FAQ', href: `${prefix}/faq` }]} />
+          <Breadcrumbs items={[{ name: homeCrumb, href: homeHref }, { name: 'FAQ', href: `${prefix}/faq` }]} />
           <h1 className="mt-4 max-w-2xl font-display text-4xl font-semibold text-ink md:text-5xl">
             {locale === 'es' ? 'Preguntas Frecuentes' : 'Frequently Asked Questions'}
           </h1>

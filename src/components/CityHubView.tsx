@@ -25,6 +25,8 @@ export async function CityHubView({ citySlug, locale }: { citySlug: string; loca
   const { city, services } = bundle
   const copy = t(locale)
   const prefix = locale === 'en' ? '' : '/es'
+  const homeCrumb = locale === 'es' ? 'Inicio' : 'Home'
+  const homeHref = locale === 'en' ? '/' : '/es/inicio/'
 
   const personalInjury = services.filter((s: any) => s.practiceArea?.slug === 'personal-injury')
   const bankruptcy = services.filter((s: any) => s.practiceArea?.slug === 'bankruptcy')
@@ -40,7 +42,7 @@ export async function CityHubView({ citySlug, locale }: { citySlug: string; loca
     <main>
       <JsonLd
         data={breadcrumbSchema([
-          { name: 'Home', url: 'https://lomberalaw.com' + (locale === 'es' ? '/es' : '') },
+          { name: homeCrumb, url: `https://lomberalaw.com${homeHref}` },
           { name: locale === 'es' ? 'Ubicaciones' : 'Locations', url: `https://lomberalaw.com${prefix}/locations` },
           { name: city.name as string, url: `https://lomberalaw.com${prefix}/locations/${citySlug}` },
         ])}
@@ -54,7 +56,7 @@ export async function CityHubView({ citySlug, locale }: { citySlug: string; loca
         <Container>
           <Breadcrumbs
             items={[
-              { name: 'Home', href: locale === 'en' ? '/' : '/es' },
+              { name: homeCrumb, href: homeHref },
               { name: locale === 'es' ? 'Ubicaciones' : 'Locations', href: `${prefix}/locations` },
               { name: city.name as string, href: `${prefix}/locations/${citySlug}` },
             ]}

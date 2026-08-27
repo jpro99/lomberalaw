@@ -26,6 +26,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: L
 export default async function TestimonialsPage({ params }: { params: Promise<{ locale: Locale }> }) {
   const { locale } = await params
   const homeHref = locale === 'en' ? '/' : '/es/inicio/'
+  const homeCrumb = locale === 'es' ? 'Inicio' : 'Home'
   const canonicalPath = locale === 'en' ? '/testimonials/' : '/es/testimonios/'
 
   let testimonials: { id: string | number; quote: string; author: string; rating?: number }[] = []
@@ -47,7 +48,7 @@ export default async function TestimonialsPage({ params }: { params: Promise<{ l
     <main>
       <JsonLd
         data={breadcrumbSchema([
-          { name: 'Home', url: `https://lomberalaw.com${homeHref}` },
+          { name: homeCrumb, url: `https://lomberalaw.com${homeHref}` },
           { name: locale === 'es' ? 'Testimonios' : 'Testimonials', url: `https://lomberalaw.com${canonicalPath}` },
         ])}
       />
@@ -56,7 +57,7 @@ export default async function TestimonialsPage({ params }: { params: Promise<{ l
         <Container>
           <Breadcrumbs
             items={[
-              { name: 'Home', href: homeHref },
+              { name: homeCrumb, href: homeHref },
               { name: locale === 'es' ? 'Testimonios' : 'Testimonials', href: canonicalPath },
             ]}
           />

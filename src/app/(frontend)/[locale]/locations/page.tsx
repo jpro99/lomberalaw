@@ -18,6 +18,8 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: L
 export default async function LocationsHub({ params }: { params: Promise<{ locale: Locale }> }) {
   const { locale } = await params
   const prefix = locale === 'en' ? '' : '/es'
+  const homeCrumb = locale === 'es' ? 'Inicio' : 'Home'
+  const homeHref = locale === 'en' ? '/' : '/es/inicio/'
   const cities = await getAllCities(locale)
 
   type CityRow = { id: string | number; slug?: string; name?: string; county?: string }
@@ -32,7 +34,7 @@ export default async function LocationsHub({ params }: { params: Promise<{ local
     <main>
       <section className="border-b border-line bg-stone py-14 md:py-20">
         <Container>
-          <Breadcrumbs items={[{ name: 'Home', href: locale === 'en' ? '/' : '/es' }, { name: 'Locations', href: `${prefix}/locations` }]} />
+          <Breadcrumbs items={[{ name: homeCrumb, href: homeHref }, { name: locale === 'es' ? 'Ubicaciones' : 'Locations', href: `${prefix}/locations` }]} />
           <h1 className="mt-4 max-w-2xl font-display text-4xl font-semibold text-ink md:text-5xl">
             {locale === 'es' ? 'Dónde atendemos' : 'Where we serve'}
           </h1>

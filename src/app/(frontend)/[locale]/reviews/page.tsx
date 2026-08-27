@@ -16,6 +16,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: L
 export default async function ReviewsPage({ params }: { params: Promise<{ locale: Locale }> }) {
   const { locale } = await params
   const homeHref = locale === 'en' ? '/' : '/es/inicio/'
+  const homeCrumb = locale === 'es' ? 'Inicio' : 'Home'
   const canonicalPath = locale === 'en' ? '/reviews/' : '/es/reviews/'
 
   let testimonials: { id: string | number; quote: string; author: string; rating?: number }[] = []
@@ -37,14 +38,14 @@ export default async function ReviewsPage({ params }: { params: Promise<{ locale
     <main>
       <JsonLd
         data={breadcrumbSchema([
-          { name: 'Home', url: `https://lomberalaw.com${homeHref}` },
-          { name: 'Reviews', url: `https://lomberalaw.com${canonicalPath}` },
+          { name: homeCrumb, url: `https://lomberalaw.com${homeHref}` },
+          { name: locale === 'es' ? 'Reseñas' : 'Reviews', url: `https://lomberalaw.com${canonicalPath}` },
         ])}
       />
 
       <section className="border-b border-line bg-stone py-14 md:py-20">
         <Container>
-          <Breadcrumbs items={[{ name: 'Home', href: homeHref }, { name: 'Reviews', href: canonicalPath }]} />
+          <Breadcrumbs items={[{ name: homeCrumb, href: homeHref }, { name: locale === 'es' ? 'Reseñas' : 'Reviews', href: canonicalPath }]} />
           <h1 className="mt-4 max-w-2xl font-display text-4xl font-semibold text-ink md:text-5xl">
             {locale === 'es' ? 'Lo que dicen nuestros clientes' : 'What our clients say'}
           </h1>
