@@ -29,6 +29,7 @@ const PI_CITY_SERVICES = [
   'spinal-cord-injury',
   'car-accidents',
   'motorcycle-accidents',
+  'pedestrian-accidents',
   'dog-bites',
 ] as const
 
@@ -42,6 +43,7 @@ const SERVICE_LABELS: Record<string, { en: string; es: string }> = {
   'spinal-cord-injury': { en: 'Spinal Cord Injury', es: 'Lesiones de Médula Espinal' },
   'car-accidents': { en: 'Car Accidents', es: 'Accidentes de Auto' },
   'motorcycle-accidents': { en: 'Motorcycle Accidents', es: 'Accidentes de Motocicleta' },
+  'pedestrian-accidents': { en: 'Pedestrian Accidents', es: 'Accidentes de Peatones' },
   'dog-bites': { en: 'Dog Bites', es: 'Mordeduras de Perro' },
   'chapter-7': { en: 'Chapter 7 Bankruptcy', es: 'Bancarrota Capítulo 7' },
   'chapter-13': { en: 'Chapter 13 Bankruptcy', es: 'Bancarrota Capítulo 13' },
@@ -58,8 +60,14 @@ export async function getPracticeCityMetadata(
   if (!pageCopy) {
     const name = cityDisplayName(citySlug, locale)
     return pageMetadata({
-      title: `${name} Lawyer | Lombera Law`,
-      description: `Edgar P. Lombera — ${name}. Free consult.`,
+      title:
+        locale === 'es'
+          ? `${name} | Lombera Law`
+          : `${name} Lawyer | Lombera Law`,
+      description:
+        locale === 'es'
+          ? `Edgar P. Lombera — ${name}. Consulta gratuita.`
+          : `Edgar P. Lombera — ${name}. Free consult.`,
       path: `/${practiceSlug}/${citySlug}`,
       locale,
     })
@@ -96,14 +104,27 @@ export async function PracticeCityView({
   const services = serviceSlugs.filter(
     (service) => locale === 'en' || hasSpanishServiceSlug(practiceSlug, service),
   )
+  const siblingPractice = practiceSlug === 'personal-injury' ? 'bankruptcy' : 'personal-injury'
+  const siblingHref = practiceCityHref(locale, siblingPractice, citySlug)
+  const siblingLabel =
+    locale === 'es'
+      ? practiceSlug === 'personal-injury'
+        ? `Bancarrota en ${name}`
+        : `Lesiones personales en ${name}`
+      : practiceSlug === 'personal-injury'
+        ? `${name} bankruptcy`
+        : `${name} personal injury`
+  const homeCrumb = locale === 'es' ? 'Inicio' : 'Home'
+  const practiceCrumb =
+    practiceSlug === 'personal-injury' ? copy.nav.personalInjury : copy.nav.bankruptcy
 
   return (
     <main>
       <JsonLd
         data={breadcrumbSchema([
-          { name: 'Home', url: `https://lomberalaw.com${homeHref}` },
+          { name: homeCrumb, url: `https://lomberalaw.com${homeHref}` },
           {
-            name: practiceSlug === 'personal-injury' ? 'Personal Injury' : 'Bankruptcy',
+            name: practiceCrumb,
             url: `https://lomberalaw.com${practicePath}`,
           },
           { name, url: canonicalUrl },
@@ -114,9 +135,9 @@ export async function PracticeCityView({
         <Container>
           <Breadcrumbs
             items={[
-              { name: 'Home', href: homeHref },
+              { name: homeCrumb, href: homeHref },
               {
-                name: practiceSlug === 'personal-injury' ? copy.nav.personalInjury : copy.nav.bankruptcy,
+                name: practiceCrumb,
                 href: practicePath,
               },
               { name, href: cityPath },
@@ -126,6 +147,49 @@ export async function PracticeCityView({
           <div className="mt-6">
             <CopyBody lead={pageCopy.lead} sections={pageCopy.sections} />
           </div>
+          <p className="mt-8 max-w-2xl font-body text-sm leading-relaxed text-ink-soft">
+            {locale === 'es' ? (
+              <>
+                {practiceSlug === 'personal-injury' ? (
+                  <>
+                    La bancarrota por deuda médica o embargos es un expediente separado — vea{' '}
+                    <Link href={siblingHref} className="font-semibold text-gold hover:text-ink">
+                      {siblingLabel}
+                    </Link>
+                    . Se presenta en 3420 Twelfth Street, Riverside.
+                  </>
+                ) : (
+                  <>
+                    Un choque o lesión en {name} es un reclamo de contingencia separado — vea{' '}
+                    <Link href={siblingHref} className="font-semibold text-gold hover:text-ink">
+                      {siblingLabel}
+                    </Link>
+                    . Sin honorarios a menos que ganemos.
+                  </>
+                )}
+              </>
+            ) : (
+              <>
+                {practiceSlug === 'personal-injury' ? (
+                  <>
+                    Medical-debt bankruptcy or wage garnishment is a separate federal file — see{' '}
+                    <Link href={siblingHref} className="font-semibold text-gold hover:text-ink">
+                      {siblingLabel}
+                    </Link>
+                    . Consumer cases file at 3420 Twelfth Street, Riverside.
+                  </>
+                ) : (
+                  <>
+                    A crash or injury in {name} is a separate contingency claim — see{' '}
+                    <Link href={siblingHref} className="font-semibold text-gold hover:text-ink">
+                      {siblingLabel}
+                    </Link>
+                    . No fee unless we win.
+                  </>
+                )}
+              </>
+            )}
+          </p>
         </Container>
       </section>
 
@@ -154,15 +218,8 @@ export async function PracticeCityView({
             {practiceSlug === 'personal-injury' && (
               <p className="mt-6 max-w-2xl font-body text-sm text-ink-soft">
                 {locale === 'es'
-                  ? 'No manejamos resbalones y caídas ni responsabilidad de productos. La bancarrota por deuda médica se presenta en 3420 Twelfth Street, Riverside.'
-                  : 'We do not handle slip-and-fall or product liability. Medical-debt bankruptcy files at 3420 Twelfth Street, Riverside.'}
-              </p>
-            )}
-            {practiceSlug === 'bankruptcy' && (
-              <p className="mt-6 max-w-2xl font-body text-sm text-ink-soft">
-                {locale === 'es'
-                  ? 'Injury claims from the same household may run on contingency through the lesiones personales hub — no fee unless we win.'
-                  : 'Injury claims from the same household may run on contingency through the personal injury hub — no fee unless we win.'}
+                  ? 'No manejamos resbalones y caídas ni responsabilidad de productos.'
+                  : 'We do not handle slip-and-fall or product liability.'}
               </p>
             )}
           </Container>

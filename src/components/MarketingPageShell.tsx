@@ -10,7 +10,7 @@ import { cityPhone, cityTel, isLiveCity, PRIMARY_PHONE, PRIMARY_TEL } from '@/li
 
 function extractCitySlug(pathname: string): string | undefined {
   const parts = pathname.replace(/\/$/, '').split('/').filter(Boolean)
-  const offset = parts[0] === 'es' ? 1 : 0
+  const offset = parts[0] === 'es' || parts[0] === 'en' ? 1 : 0
   const practice = parts[offset]
   const isPractice =
     practice === 'personal-injury' ||

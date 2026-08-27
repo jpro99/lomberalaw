@@ -28,6 +28,15 @@ type CitySlug =
   | 'desert-hot-springs'
   | 'rancho-cucamonga'
 
+const REDLANDS_NAP =
+  '2068 Orange Tree Lane, Suite 220, Redlands, CA 92374 — (909) 915-0181'
+const PS_NAP = '1276 N Palm Canyon Dr #107, Palm Springs, CA 92262 — (760) 835-9353'
+const BK_COURT =
+  'U.S. Bankruptcy Court, Central District of California, 3420 Twelfth Street, Riverside'
+const HOURS = 'Monday–Friday 9am–6pm, Saturday 10am–4pm, Sunday by appointment'
+const DEBT_RELIEF =
+  'We are a debt relief agency. We help people file for bankruptcy relief under the Bankruptcy Code (11 U.S.C. §528).'
+
 const CITY_NAMES: Record<CitySlug, { en: string; es: string }> = {
   redlands: { en: 'Redlands', es: 'Redlands' },
   'san-bernardino': { en: 'San Bernardino', es: 'San Bernardino' },
@@ -52,7 +61,7 @@ const PI_EN: Record<CitySlug, Omit<CityPageCopy, 'h1'>> = {
     description:
       'Semi-truck and I-10/I-15 crash claims in Fontana. Wrongful death and TBI on contingency. Redlands office (909) 915-0181. Free consult.',
     lead: [
-      'Fontana sits where the I-10 and I-15 freight corridors meet — one of the heaviest truck volumes in the Inland Empire. When an 18-wheeler or box truck changes lanes without room, the injuries are rarely minor. Edgar P. Lombera takes Fontana injury files on contingency from the Redlands office at 2068 Orange Tree Lane. You talk to him, not a call center.',
+      `Fontana is the I-10 and I-15 freight junction — Sierra Avenue, through-truck traffic, and 18-wheeler merges that produce traumatic brain injury, spinal cord injury, and wrongful death claims. There is no Fontana office. Edgar P. Lombera opens Fontana files from ${REDLANDS_NAP} on contingency. You talk to him, not a call center.`,
     ],
     sections: [
       {
@@ -80,7 +89,7 @@ const PI_EN: Record<CitySlug, Omit<CityPageCopy, 'h1'>> = {
     description:
       'I-10 and I-215 truck and freeway injury claims in Colton. TBI, SCI, wrongful death on contingency. (909) 915-0181. Free consult.',
     lead: [
-      'Colton drivers know the I-10 stack near the I-215 — tight merges, port traffic from San Bernardino, and trucks that do not always brake in time. Edgar P. Lombera represents Colton injury clients on contingency from the Redlands office. The first meeting is free, in English or Spanish.',
+      `Colton Crossing — where the I-10 meets the I-215 — is one of the busiest freight junctions in the Inland Empire. After a serious wreck, Arrowhead Regional Medical Center is a landmark families recognize; it is not a law-firm affiliation. Meet Edgar at ${REDLANDS_NAP}. Injury cases run on contingency.`,
     ],
     sections: [
       {
@@ -104,11 +113,11 @@ const PI_EN: Record<CitySlug, Omit<CityPageCopy, 'h1'>> = {
     ],
   },
   'rancho-cucamonga': {
-    title: 'Rancho Cucamonga Injury Lawyer | I-15 Truck Crashes | Lombera',
+    title: 'Rancho Cucamonga Injury Lawyer | I-15 & Foothill | Lombera',
     description:
-      'I-15 and SR-60 truck and freeway injury lawyer in Rancho Cucamonga. Wrongful death and TBI. No fee unless we win. (909) 915-0181.',
+      'I-15, SR-210, and Foothill Blvd injury lawyer in Rancho Cucamonga. Truck, rideshare, TBI. No fee unless we win. (909) 915-0181.',
     lead: [
-      'Rancho Cucamonga warehouses feed the I-15 and SR-60 — day cab tractors, doubles, and delivery vans mixing with commuter traffic daily. When that mix turns into a hospital admission, Edgar P. Lombera opens the file from Redlands on contingency.',
+      `Rancho Cucamonga is western San Bernardino County — I-15, SR-210, and Foothill Boulevard commuter and warehouse traffic. This is not a Fontana freight page with a swapped city name. Edgar P. Lombera takes Rancho Cucamonga injury files from ${REDLANDS_NAP} on contingency.`,
     ],
     sections: [
       {
@@ -132,11 +141,11 @@ const PI_EN: Record<CitySlug, Omit<CityPageCopy, 'h1'>> = {
     ],
   },
   beaumont: {
-    title: 'Beaumont Personal Injury Lawyer | I-10 Pass Truck Crashes | Lombera',
+    title: 'Beaumont Personal Injury Lawyer | I-10 Pass Crashes | Lombera',
     description:
-      'I-10 Banning Pass truck and freeway injuries in Beaumont. TBI, SCI, wrongful death on contingency. Redlands (909) 915-0181.',
+      'I-10 Banning Pass and Cherry Valley injury lawyer in Beaumont. TBI, SCI, wrongful death on contingency. Redlands (909) 915-0181.',
     lead: [
-      'Beaumont is the last Inland Empire stop before the I-10 climbs toward Banning Pass — brake failures, runaway trucks, and tired drivers show up in the ER at Loma Linda and Riverside. Edgar P. Lombera handles Beaumont injury claims on contingency from the Redlands office.',
+      `Beaumont is the I-10 and SR-60 pass at Cherry Valley and 2nd Street — brake failures and downgrade wrecks, not Fontana freight volume and not Palm Canyon tourism. Default office: ${REDLANDS_NAP}. Palm Springs consultations are available if you are already in the valley. Edgar P. Lombera takes pass-crash injury files on contingency.`,
     ],
     sections: [
       {
@@ -164,7 +173,7 @@ const PI_EN: Record<CitySlug, Omit<CityPageCopy, 'h1'>> = {
     description:
       'Uber, Lyft, and Highway 111 injury claims in Palm Springs. Truck crashes on I-10. TBI and wrongful death. Palm Springs office (760) 835-9353.',
     lead: [
-      'Palm Springs runs on tourism traffic — Uber and Lyft on Highway 111, visitors on the I-10, and seasonal congestion that turns a left turn into a T-bone. Edgar P. Lombera works from the Palm Springs office at 1276 N Palm Canyon Dr #107. Injury cases are contingency; the consult is free.',
+      `This is the Coachella Valley office — ${PS_NAP}. Palm Canyon and Highway 111 carry rideshare traffic, tourists, and I-10 commuters. Edgar P. Lombera takes Palm Springs injury files on contingency here. Civil injury lawsuits from the valley often file at the Larson Justice Center in Indio; consumer bankruptcy always files at ${BK_COURT}.`,
     ],
     sections: [
       {
@@ -188,11 +197,11 @@ const PI_EN: Record<CitySlug, Omit<CityPageCopy, 'h1'>> = {
     ],
   },
   'palm-desert': {
-    title: 'Palm Desert Injury Lawyer | Hwy 111 & Rideshare | Lombera',
+    title: 'Palm Desert Injury Lawyer | Hwy 111 & El Paseo | Lombera',
     description:
-      'Highway 111 and rideshare injury lawyer in Palm Desert. I-10 truck crashes, TBI, wrongful death. Palm Springs office (760) 835-9353.',
+      'Highway 111, Monterey, and El Paseo injury lawyer in Palm Desert. Rideshare, TBI. Palm Springs office (760) 835-9353.',
     lead: [
-      'Palm Desert’s Highway 111 corridor carries El Paseo shoppers, snowbirds, and rideshare drivers in the same lanes. When a Lyft pickup on 111 ends in a brain injury, you need a lawyer who understands layered insurance — not a generic auto form. Edgar P. Lombera takes Palm Desert files from the Palm Springs office on contingency.',
+      `Palm Desert’s Highway 111, Monterey Avenue, and El Paseo corridor carry shoppers, snowbirds, and rideshare drivers. There is no third office on El Paseo — meet Edgar at ${PS_NAP}. Civil cases often file at the Larson Justice Center in Indio; bankruptcy files at ${BK_COURT}.`,
     ],
     sections: [
       {
@@ -216,11 +225,11 @@ const PI_EN: Record<CitySlug, Omit<CityPageCopy, 'h1'>> = {
     ],
   },
   'cathedral-city': {
-    title: 'Cathedral City Injury Lawyer | Hwy 111 Rideshare | Lombera',
+    title: 'Cathedral City Injury Lawyer | Date Palm & Hwy 111 | Lombera',
     description:
-      'Highway 111 and Uber/Lyft injury claims in Cathedral City. Truck and TBI cases. No fee unless we win. (760) 835-9353.',
+      'Date Palm Drive, Ramon Road, and Highway 111 injury claims in Cathedral City. Rideshare and TBI. (760) 835-9353.',
     lead: [
-      'Date Palm Drive feeds into Highway 111 through Cathedral City — rideshare runs, tourist rentals, and I-10 commuters in one stretch. Edgar P. Lombera represents injured Cathedral City residents on contingency from the Palm Springs office.',
+      `Cathedral City sits between Palm Springs and Palm Desert on Date Palm Drive, Ramon Road, and Highway 111 — a short 111 drive west to ${PS_NAP}. Rideshare collisions, I-10 truck wrecks, wrongful death, brain injury, and spinal cord injury lead; car, motorcycle, pedestrian, and dog bites on contingency.`,
     ],
     sections: [
       {
@@ -248,7 +257,7 @@ const PI_EN: Record<CitySlug, Omit<CityPageCopy, 'h1'>> = {
     description:
       'Highway 111, rideshare, and I-10 truck injury lawyer in Indio. Wrongful death and TBI. Indio court. (760) 835-9353.',
     lead: [
-      'Indio’s Highway 111 carries festival traffic, farm trucks, and rideshare surges that do not always mix safely. When a crash sends someone to JFK Memorial or Eisenhower, Edgar P. Lombera opens the file from Palm Springs on contingency — you speak with him directly.',
+      `Indio sits at the east end of Highway 111 and the I-10 — festival traffic, farm trucks, and rideshare surges. Civil injury lawsuits may file at the Larson Justice Center, 46-200 Oasis St., Indio. Meetings are at the Palm Springs office (${PS_NAP}). Bankruptcy is not filed on Oasis Street — consumer cases go to ${BK_COURT}.`,
     ],
     sections: [
       {
@@ -276,25 +285,25 @@ const PI_EN: Record<CitySlug, Omit<CityPageCopy, 'h1'>> = {
     description:
       'Personal injury lawyer at 2068 Orange Tree Lane, Redlands. Truck, rideshare, TBI, wrongful death on contingency. (909) 915-0181.',
     lead: [
-      'Redlands is home base — Edgar P. Lombera’s staffed office sits at 2068 Orange Tree Lane, Suite 220. Injury cases across San Bernardino County run on contingency from here. You meet the lawyer who signs the pleadings, in English or Spanish.',
+      `This is the Inland Empire office — ${REDLANDS_NAP}. Edgar P. Lombera meets clients here for injury claims from Redlands, Mentone, and the I-10 and SR-210 corridors along Barton Road. Truck wrecks, Uber and Lyft crashes, wrongful death, traumatic brain injury, and spinal cord injury lead the docket. Cases run on contingency: no fee unless we win.`,
     ],
     sections: [
       {
-        h2: 'Full injury docket, weighted toward serious crashes',
+        h2: 'Serious crashes on I-10, SR-210, and Barton Road',
         paragraphs: [
-          'Truck accidents on the I-10 and I-215, rideshare collisions, wrongful death, traumatic brain injury, and spinal cord injury lead the work. Car, motorcycle, pedestrian, bicycle, and dog-bite claims are handled as well. Slip-and-fall is not a practice here.',
+          'Commercial truck collisions, rideshare accidents, wrongful death, brain injury, and spinal cord injury are the weight of this practice — not a catastrophe-only shop. Car, motorcycle, pedestrian, and dog-bite claims are handled as well. Slip-and-fall and product liability are referred out.',
         ],
       },
       {
-        h2: 'San Bernardino County Superior Court',
+        h2: 'San Bernardino County Superior Court deadlines',
         paragraphs: [
-          'Redlands cases are typically filed at San Bernardino County Superior Court, 247 W. 3rd St., San Bernardino. CCP §335.1 sets a two-year limit from the injury date; government claims may require six-month notice under Gov. Code §911.2.',
+          'Lawsuits are typically filed at San Bernardino County Superior Court, 247 W. 3rd St., San Bernardino. California Code of Civil Procedure §335.1 gives most victims two years from the injury date. Government claims may require six-month written notice under Government Code §911.2.',
         ],
       },
       {
-        h2: 'Walk-in office — (909) 915-0181',
+        h2: 'Meet Edgar at Orange Tree Lane',
         paragraphs: [
-          'Hours Monday–Friday 9am–6pm, Saturday 10am–4pm, Sunday by appointment. Bankruptcy for medical debt files at 3420 Twelfth Street, Riverside.',
+          `Hours: ${HOURS}. Serious injuries can reach the office after hours for an emergency consult. You speak with Edgar P. Lombera — California State Bar No. 259393 — not an intake screener.`,
         ],
       },
     ],
@@ -304,7 +313,7 @@ const PI_EN: Record<CitySlug, Omit<CityPageCopy, 'h1'>> = {
     description:
       'Injury lawyer near San Bernardino County Superior Court. Truck, rideshare, TBI, wrongful death. Redlands (909) 915-0181.',
     lead: [
-      'San Bernardino County Superior Court at 247 W. 3rd St. is where many Inland Empire injury lawsuits are filed — including crashes from the I-215, I-10, and surface streets through San Bernardino. Edgar P. Lombera prepares those files from the Redlands office on contingency.',
+      `San Bernardino is the county seat — I-215, Waterman Avenue, and Hospitality Lane generate truck, rideshare, and wrongful-death files filed at San Bernardino County Superior Court, 247 W. 3rd St. There is no Lombera storefront downtown. Meet Edgar at the Redlands office (${REDLANDS_NAP}) — about 15 minutes west on the I-10.`,
     ],
     sections: [
       {
@@ -332,7 +341,7 @@ const PI_EN: Record<CitySlug, Omit<CityPageCopy, 'h1'>> = {
     description:
       'Personal injury lawyer near Riverside County Superior Court. Truck, rideshare, TBI, wrongful death. Redlands (909) 915-0181.',
     lead: [
-      'Riverside County Superior Court at 4050 Main St. handles injury lawsuits from the SR-91, I-215, and city arterials. Edgar P. Lombera represents Riverside clients on contingency from the Redlands office — same firm that files bankruptcy at 3420 Twelfth Street when medical bills outpace a settlement.',
+      `Riverside is the county seat — SR-60, SR-91, and I-215 feed injury lawsuits filed at Riverside County Superior Court, 4050 Main St. Meet Edgar at ${REDLANDS_NAP}. Personal injury and bankruptcy are different buildings and different practices: injury suits go to Main Street; consumer bankruptcy files only at ${BK_COURT}.`,
     ],
     sections: [
       {
@@ -358,9 +367,9 @@ const PI_EN: Record<CitySlug, Omit<CityPageCopy, 'h1'>> = {
   'moreno-valley': {
     title: 'Moreno Valley Injury Lawyer | SR-60 Crashes | Lombera',
     description:
-      'SR-60 and freeway injury lawyer in Moreno Valley. Truck, rideshare, TBI, wrongful death. No fee unless we win. (909) 915-0181.',
+      'SR-60, Alessandro, and Perris Blvd injury lawyer in Moreno Valley. Truck, rideshare, TBI. (909) 915-0181.',
     lead: [
-      'The SR-60 through Moreno Valley carries port trucks from Riverside and commuter traffic to March ARB. When that combination produces a spinal cord injury or a wrongful death, Edgar P. Lombera opens the file from Redlands on contingency.',
+      `Moreno Valley’s SR-60, I-215, Alessandro Boulevard, and Perris Boulevard mix port trucks and March ARB commuters. There is no suite here — meet Edgar at ${REDLANDS_NAP}. Truck and rideshare collisions, wrongful death, brain injury, and spinal cord injury lead; car, motorcycle, pedestrian, and dog bites on contingency.`,
     ],
     sections: [
       {
@@ -388,7 +397,7 @@ const PI_EN: Record<CitySlug, Omit<CityPageCopy, 'h1'>> = {
     description:
       'Injury lawyer for Highland and Base Line corridor crashes. Truck, rideshare, TBI. Redlands office (909) 915-0181.',
     lead: [
-      'Highland’s Base Line corridor feeds the I-210 connector and San Bernardino arterials — commuter speed, school traffic, and delivery trucks sharing lanes. Edgar P. Lombera handles Highland injury claims on contingency from the Redlands office.',
+      `Highland’s Base Line corridor and SR-210 connector are the shortest drive to Edgar’s office — ${REDLANDS_NAP}. There is no Highland storefront. Truck collisions, rideshare accidents, wrongful death, brain injury, and spinal cord injury lead the file; car, motorcycle, pedestrian, and dog-bite claims are handled on contingency.`,
     ],
     sections: [
       {
@@ -414,9 +423,9 @@ const PI_EN: Record<CitySlug, Omit<CityPageCopy, 'h1'>> = {
   hemet: {
     title: 'Hemet Personal Injury Lawyer | SR-74 Corridor | Lombera',
     description:
-      'SR-74 and western Riverside County injury lawyer in Hemet. Truck, TBI, wrongful death on contingency. (909) 915-0181.',
+      'SR-74 and Florida Avenue injury lawyer in Hemet. Truck, TBI, wrongful death on contingency. (909) 915-0181.',
     lead: [
-      'Hemet sits at the western edge of Riverside County on the SR-74 — mountain commuters, agricultural trucks, and retirement-community traffic on the same two lanes. Edgar P. Lombera represents Hemet injury clients on contingency from Redlands.',
+      `Hemet sits on Florida Avenue, SR-74, and SR-79 — the farther San Jacinto Valley satellite. There is no drop-in Hemet storefront. Schedule at ${REDLANDS_NAP} or ${PS_NAP}. Truck wrecks, rideshare trips, wrongful death, brain injury, and spinal cord injury lead; car, motorcycle, pedestrian, and dog bites are handled on contingency.`,
     ],
     sections: [
       {
@@ -442,9 +451,9 @@ const PI_EN: Record<CitySlug, Omit<CityPageCopy, 'h1'>> = {
   'desert-hot-springs': {
     title: 'Desert Hot Springs Injury Lawyer | Hwy 111 North | Lombera',
     description:
-      'Highway 111 and I-10 injury lawyer in Desert Hot Springs. Rideshare, truck, TBI. Palm Springs office (760) 835-9353.',
+      'Pierson Blvd and Highway 111 injury lawyer in Desert Hot Springs. Rideshare, truck, TBI. Palm Springs office (760) 835-9353.',
     lead: [
-      'Desert Hot Springs drivers use Highway 111 and the I-10 to reach Palm Springs jobs and medical appointments — long desert distances, fatigue, and rideshare pickups at odd hours. Edgar P. Lombera takes Desert Hot Springs injury files from the Palm Springs office on contingency.',
+      `Desert Hot Springs sits north of the I-10 on Pierson Boulevard, Dillon Road, and Indian Canyon Drive. There is no DHS suite — meet Edgar at ${PS_NAP}. Uber and Lyft collisions, I-10 truck wrecks, wrongful death, brain injury, and spinal cord injury lead; car, motorcycle, pedestrian, and dog bites on contingency.`,
     ],
     sections: [
       {
@@ -669,27 +678,27 @@ const BK_EN: Record<CitySlug, Omit<CityPageCopy, 'h1'>> = {
   indio: {
     title: 'Indio Bankruptcy Lawyer | Riverside Court Filing | Lombera',
     description:
-      'Indio bankruptcy — Chapter 7 and 13 filed at Riverside, not Indio court. Garnishment relief. (760) 835-9353.',
+      'Indio bankruptcy — Chapter 7 and 13 filed at Riverside, not Larson Justice Center. Garnishment relief. (760) 835-9353.',
     lead: [
-      'Indio has a Riverside County Superior Court branch for civil cases — but consumer bankruptcy does not file there. Every Chapter 7 and Chapter 13 from the Coachella Valley goes to the U.S. Bankruptcy Court, 3420 Twelfth Street, Riverside. Edgar P. Lombera explains the process from the Palm Springs office.',
+      `The Larson Justice Center at 46-200 Oasis St., Indio, handles civil Superior Court cases — not consumer bankruptcy. Meet Edgar at ${PS_NAP}; every Chapter 7 and Chapter 13 files at ${BK_COURT}. Edgar P. Lombera, California State Bar No. 259393.`,
     ],
     sections: [
       {
-        h2: 'Indio civil court ≠ bankruptcy court',
+        h2: 'Oasis Street is civil court only',
         paragraphs: [
-          'Injury lawsuits may be filed at 46-200 Oasis St., Indio. Bankruptcy is federal and files only at 3420 Twelfth Street, Riverside. Do not confuse the two buildings.',
+          'Injury lawsuits from Indio may be filed at the Larson Justice Center. Bankruptcy is federal and files only at 3420 Twelfth Street, Riverside — never at the Indio Superior Court branch.',
         ],
       },
       {
-        h2: 'Chapter 7 vs Chapter 13',
+        h2: 'Chapter 7 and Chapter 13',
         paragraphs: [
-          'Chapter 7 discharges unsecured debt for qualifying filers. Chapter 13 protects the home with a three-to-five-year repayment plan.',
+          'Chapter 7 runs about 90 to 120 days if you pass the means test. Chapter 13 is a three-to-five-year plan. Foreclosure defense and wage garnishment stops are built into the petition — not separate add-ons. The automatic stay begins the day of filing.',
         ],
       },
       {
-        h2: 'Automatic stay and consult',
+        h2: 'Homestead, 341, and court fees',
         paragraphs: [
-          'Filing stops most collection immediately. Free consult — debt relief agency. (760) 835-9353.',
+          'Homestead exemption is confirmed in the consult with your documents. The 341 meeting is often remote. 2026 court fees: $338 Chapter 7, $313 Chapter 13. ' + DEBT_RELIEF,
         ],
       },
     ],
@@ -699,25 +708,25 @@ const BK_EN: Record<CitySlug, Omit<CityPageCopy, 'h1'>> = {
     description:
       'Chapter 7 and Chapter 13 at 2068 Orange Tree Lane, Redlands. Filed Riverside. Foreclosure and garnishment. (909) 915-0181.',
     lead: [
-      'The Redlands office at 2068 Orange Tree Lane is where Edgar P. Lombera reviews bankruptcy petitions before they are filed at the U.S. Bankruptcy Court, 3420 Twelfth Street, Riverside. Chapter 7 and Chapter 13 — free consult in English or Spanish.',
+      `Review your bankruptcy petition at the Inland Empire office — ${REDLANDS_NAP}. Edgar P. Lombera (California State Bar No. 259393) files every consumer case at ${BK_COURT}. There is no bankruptcy court in Redlands, San Bernardino, or Indio.`,
     ],
     sections: [
       {
-        h2: 'Chapter 7 discharge',
+        h2: 'Chapter 7 — about 90 to 120 days',
         paragraphs: [
-          'Qualifying filers can eliminate most unsecured debt in a few months. The means test and document review happen in the Redlands office.',
+          'Chapter 7 discharges most unsecured debt if you pass the means test — typically in about 90 to 120 days. Foreclosure defense and wage garnishment relief are part of the bankruptcy petition, not add-on products.',
         ],
       },
       {
-        h2: 'Chapter 13 mortgage catch-up',
+        h2: 'Chapter 13 — three- to five-year plan',
         paragraphs: [
-          'Behind on the house payment? Chapter 13 spreads arrears over three to five years while the automatic stay blocks foreclosure.',
+          'Chapter 13 catches up a mortgage over three to five years. The automatic stay starts the day of filing — garnishments and most foreclosure steps must pause before the next paycheck or sale date.',
         ],
       },
       {
-        h2: 'Riverside filing address',
+        h2: 'Homestead, fees, and 341 meeting',
         paragraphs: [
-          'Consumer cases file at 3420 Twelfth Street, Riverside — not San Bernardino, not Indio. Court fees $338 Ch.7 / $313 Ch.13. Debt relief agency. (909) 915-0181.',
+          'California homestead is confirmed with documents in the free consult — we do not print exemption dollar caps on a webpage. Court filing fees in 2026 are $338 for Chapter 7 and $313 for Chapter 13. The Section 341 meeting of creditors is often held remotely. ' + DEBT_RELIEF,
         ],
       },
     ],
