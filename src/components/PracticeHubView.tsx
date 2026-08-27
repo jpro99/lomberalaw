@@ -4,18 +4,28 @@ import type { Locale } from '@/lib/payload'
 import { getPracticeAreaBundle } from '@/lib/getPracticeArea'
 import { t } from '@/lib/dictionary'
 import { Container } from '@/components/Container'
-import { Button } from '@/components/Button'
 import { Breadcrumbs } from '@/components/Breadcrumbs'
+import { CopyBody } from '@/components/CopyBody'
 import { JsonLd } from '@/components/JsonLd'
 import { breadcrumbSchema, legalServiceSchema } from '@/lib/schema'
-import { pageMetadata, PI_HUB_SEO, BK_HUB_SEO } from '@/lib/seo'
+import { pageMetadata, PI_HUB_SEO, PI_HUB_SEO_ES, BK_HUB_SEO, BK_HUB_SEO_ES } from '@/lib/seo'
+import { hubCopy } from '@/lib/hubBodyCopy'
 import { PI_HUB_SERVICES, BK_SERVICES } from '@/lib/routing'
 import { hasSpanishServiceSlug, practiceHubHref, serviceHref } from '@/lib/spanishPaths'
 
 type Slug = 'personal-injury' | 'bankruptcy'
 
 export async function getPracticeHubMetadata(slug: Slug, locale: Locale) {
-  const seo = slug === 'personal-injury' ? PI_HUB_SEO : BK_HUB_SEO
+  if (slug === 'personal-injury') {
+    const seo = locale === 'es' ? PI_HUB_SEO_ES : PI_HUB_SEO
+    return pageMetadata({
+      title: seo.title,
+      description: seo.description,
+      path: `/${slug}`,
+      locale,
+    })
+  }
+  const seo = locale === 'es' ? BK_HUB_SEO_ES : BK_HUB_SEO
   return pageMetadata({
     title: seo.title,
     description: seo.description,
@@ -35,6 +45,7 @@ export async function PracticeHubView({ slug, locale }: { slug: Slug; locale: Lo
     'truck-accidents': { en: 'Truck Accidents', es: 'Accidentes de Camión' },
     'motorcycle-accidents': { en: 'Motorcycle Accidents', es: 'Accidentes de Motocicleta' },
     'rideshare-accidents': { en: 'Rideshare Accidents', es: 'Accidentes de Rideshare' },
+    'pedestrian-accidents': { en: 'Pedestrian Accidents', es: 'Accidentes de Peatones' },
     'wrongful-death': { en: 'Wrongful Death', es: 'Muerte Injusta' },
     'dog-bites': { en: 'Dog Bites', es: 'Mordeduras de Perro' },
     'traumatic-brain-injury': { en: 'Traumatic Brain Injury', es: 'Lesión Cerebral' },
@@ -57,7 +68,8 @@ export async function PracticeHubView({ slug, locale }: { slug: Slug; locale: Lo
       }
     })
   const copy = t(locale)
-  const seo = slug === 'personal-injury' ? PI_HUB_SEO : BK_HUB_SEO
+  const pageCopy = hubCopy(slug, locale)
+  const h1 = pageCopy.h1
   const practicePath = practiceHubHref(locale, slug)
   const homeHref = locale === 'en' ? '/' : '/es/inicio/'
 
@@ -66,13 +78,13 @@ export async function PracticeHubView({ slug, locale }: { slug: Slug; locale: Lo
       <JsonLd
         data={breadcrumbSchema([
           { name: 'Home', url: `https://lomberalaw.com${homeHref}` },
-          { name: seo.h1, url: `https://lomberalaw.com${practicePath}` },
+          { name: h1, url: `https://lomberalaw.com${practicePath}` },
         ])}
       />
       <JsonLd
         data={legalServiceSchema({
-          name: seo.h1,
-          description: seo.open,
+          name: h1,
+          description: pageCopy.lead?.[0] || pageCopy.sections[0]?.paragraphs[0] || '',
           url: `https://lomberalaw.com${practicePath}`,
           areaServed: ['Inland Empire', 'Coachella Valley', 'Riverside County', 'San Bernardino County'],
         })}
@@ -86,12 +98,9 @@ export async function PracticeHubView({ slug, locale }: { slug: Slug; locale: Lo
               { name: slug === 'personal-injury' ? copy.nav.personalInjury : copy.nav.bankruptcy, href: practicePath },
             ]}
           />
-          <h1 className="mt-4 font-display text-[2.5rem] leading-tight text-ink">{seo.h1}</h1>
-          <p className="mt-4 max-w-2xl font-body text-sm leading-relaxed text-ink-soft">{seo.open}</p>
+          <h1 className="mt-4 font-display text-[2.5rem] leading-tight text-ink">{h1}</h1>
           <div className="mt-6">
-            <Button href={locale === 'es' ? '/es/contacta-con-nosotros/' : '/contact/'} size="lg">
-              {copy.home.heroCTA}
-            </Button>
+            <CopyBody lead={pageCopy.lead} sections={pageCopy.sections} />
           </div>
         </Container>
       </section>
@@ -117,23 +126,6 @@ export async function PracticeHubView({ slug, locale }: { slug: Slug; locale: Lo
           </Container>
         </section>
       )}
-
-      {slug === 'bankruptcy' && (
-        <section className="border-t border-line bg-stone py-10">
-          <Container className="max-w-2xl">
-            <p className="font-body text-xs leading-relaxed text-ink-muted">
-              We are a debt relief agency. We help people file for bankruptcy relief under the Bankruptcy Code.
-              Court filing fees are $338 for Chapter 7 and $313 for Chapter 13 (subject to change by the court).
-            </p>
-          </Container>
-        </section>
-      )}
-
-      <section className="bg-navy py-10 text-white">
-        <Container>
-          <p className="max-w-xl font-body text-sm text-white/90">{copy.home.finalCTAHeadline}</p>
-        </Container>
-      </section>
     </main>
   )
 }

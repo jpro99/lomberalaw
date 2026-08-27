@@ -95,8 +95,8 @@ export const HOME_SEO = {
     ],
   },
   es: {
-    title: 'Abogados del Inland Empire | Redlands y Palm Springs | Lombera',
-    h1: 'Lombera Law — Abogados en Redlands y Palm Springs',
+    title: 'Abogado Inland Empire | Accidentes y Bancarrota | Lombera',
+    h1: 'Oficina Legal de Edgar Lombera — Redlands y Palm Springs',
     description:
       'Abogados bilingües de lesiones y Capítulo 7 y 13 en Redlands y Palm Springs. Consulta gratis. Sin honorarios a menos que ganemos casos de lesiones. (909) 915-0181.',
     open:
@@ -150,13 +150,27 @@ export const PI_HUB_SEO = {
     'Edgar P. Lombera represents injured people across San Bernardino County, Riverside County, and the Coachella Valley. We handle car, truck, motorcycle, rideshare, dog bite, and wrongful death claims on contingency. You pay nothing unless we win. Call the Redlands office at (909) 915-0181 or Palm Springs at (760) 835-9353.',
 }
 
+export const PI_HUB_SEO_ES = {
+  title: 'Abogado de Accidentes | Inland Empire | Consulta Gratis',
+  description:
+    'Accidentes de auto, camión y motocicleta en el condado de San Bernardino y Riverside. Sin honorarios a menos que ganemos. Redlands y Palm Springs. (909) 915-0181.',
+  h1: 'Abogado de Lesiones Personales en el Inland Empire',
+}
+
 export const BK_HUB_SEO = {
-  title: 'Inland Empire Bankruptcy Lawyer | Chapter 7 & 13',
+  title: 'Inland Empire Bankruptcy Lawyer | Free Consult | Lombera',
   description:
     'Chapter 7 and Chapter 13 in San Bernardino and Riverside County. Stop garnishment and foreclosure. Free consult. (909) 915-0181.',
-  h1: 'Inland Empire bankruptcy lawyer',
+  h1: 'Bankruptcy Lawyer for the Inland Empire',
   open:
     'If credit cards, medical bills, wage garnishment, or a foreclosure notice are out of control, bankruptcy can stop collections the day the case is filed. Edgar P. Lombera files Chapter 7 and Chapter 13 for families in the Inland Empire and Coachella Valley. Cases go to the U.S. Bankruptcy Court, Central District of California, 3420 Twelfth Street, Riverside. Free consult. Hablamos español.',
+}
+
+export const BK_HUB_SEO_ES = {
+  title: 'Abogado de Bancarrota | Inland Empire | Consulta Gratis',
+  description:
+    'Capítulo 7 y Capítulo 13 en el condado de San Bernardino y Riverside. Detenga embargos y ejecuciones. Consulta gratis. (909) 915-0181.',
+  h1: 'Abogado de Bancarrota en el Inland Empire',
 }
 
 export const CH7_SEO = {

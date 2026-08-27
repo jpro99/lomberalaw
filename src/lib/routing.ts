@@ -4,10 +4,11 @@ export const PI_HUB_SERVICES = [
   'truck-accidents',
   'motorcycle-accidents',
   'rideshare-accidents',
-  'wrongful-death',
+  'pedestrian-accidents',
   'dog-bites',
   'traumatic-brain-injury',
   'spinal-cord-injury',
+  'wrongful-death',
 ] as const
 
 /** Live PI service slugs — no catastrophic-injury or medical-malpractice. */
