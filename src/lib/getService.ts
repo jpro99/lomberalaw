@@ -1,6 +1,6 @@
 import { getPayload, PayloadUnavailableError } from './payload'
 import type { Locale } from './payload'
-import { getPiServiceSeo } from './seo'
+import { getPiServiceSeo, getBkServiceSeo } from './seo'
 
 const PRACTICE_NAMES = {
   'personal-injury': { en: 'Personal Injury', es: 'Lesiones Personales' },
@@ -12,7 +12,10 @@ function staticServiceBundle(
   serviceSlug: string,
   locale: Locale,
 ) {
-  const locked = practiceSlug === 'personal-injury' ? getPiServiceSeo(serviceSlug, locale) : null
+  const locked =
+    practiceSlug === 'personal-injury'
+      ? getPiServiceSeo(serviceSlug, locale)
+      : getBkServiceSeo(serviceSlug, locale)
   return {
     practiceArea: {
       id: practiceSlug,

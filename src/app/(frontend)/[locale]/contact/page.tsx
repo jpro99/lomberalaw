@@ -2,19 +2,22 @@ import type { Locale } from '@/lib/payload'
 import { t } from '@/lib/dictionary'
 import { Container } from '@/components/Container'
 import { Breadcrumbs } from '@/components/Breadcrumbs'
+import { CopyBody } from '@/components/CopyBody'
 import { OfficeCard } from '@/components/OfficeCard'
 import { ContactForm } from '@/components/ContactForm'
 import { EdgarHeadshot } from '@/components/EdgarHeadshot'
 import { JsonLd } from '@/components/JsonLd'
 import { breadcrumbSchema, localBusinessSchema } from '@/lib/schema'
-import { CONTACT_SEO, pageMetadata } from '@/lib/seo'
+import { contactSeo, pageMetadata } from '@/lib/seo'
+import { CONTACT_COPY } from '@/lib/serviceBodyCopy'
 import { OFFICES, OFFICE_HOURS_EN, OFFICE_HOURS_ES } from '@/lib/nap'
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: Locale }> }) {
   const { locale } = await params
+  const seo = contactSeo(locale)
   return pageMetadata({
-    title: CONTACT_SEO.title,
-    description: CONTACT_SEO.description,
+    title: seo.title,
+    description: seo.description,
     path: '/contact',
     locale,
   })
@@ -23,6 +26,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: L
 export default async function ContactPage({ params }: { params: Promise<{ locale: Locale }> }) {
   const { locale } = await params
   const copy = t(locale).contact
+  const pageCopy = CONTACT_COPY[locale]
   const homeHref = locale === 'en' ? '/' : '/es/inicio/'
   const contactHref = locale === 'es' ? '/es/contacta-con-nosotros/' : '/contact/'
   const hours = locale === 'es' ? OFFICE_HOURS_ES : OFFICE_HOURS_EN
@@ -41,11 +45,11 @@ export default async function ContactPage({ params }: { params: Promise<{ locale
       <JsonLd
         data={breadcrumbSchema([
           { name: 'Home', url: `https://lomberalaw.com${homeHref}` },
-          { name: CONTACT_SEO.h1, url: `https://lomberalaw.com${contactHref}` },
+          { name: pageCopy.h1, url: `https://lomberalaw.com${contactHref}` },
         ])}
       />
       {officeCards.map((office) => (
-        <JsonLd key={office.id} data={localBusinessSchema(office as any, `https://lomberalaw.com${contactHref}`)} />
+        <JsonLd key={office.id} data={localBusinessSchema(office as never, `https://lomberalaw.com${contactHref}`)} />
       ))}
 
       <section className="border-b border-line bg-navy text-white">
@@ -59,9 +63,9 @@ export default async function ContactPage({ params }: { params: Promise<{ locale
             />
             <p className="mt-4 font-body text-xs font-semibold uppercase tracking-widest text-gold">{copy.kicker}</p>
             <h1 className="mt-2 max-w-2xl font-display text-3xl font-semibold text-white md:text-4xl">
-              {CONTACT_SEO.h1}
+              {pageCopy.h1}
             </h1>
-            <p className="mt-4 max-w-xl font-body text-sm leading-relaxed text-white/80">{copy.qualifier}</p>
+            <p className="mt-4 max-w-xl font-body text-sm leading-relaxed text-white/80">{pageCopy.lead[0]}</p>
           </div>
           <div className="justify-self-center md:justify-self-end">
             <EdgarHeadshot />
@@ -70,6 +74,12 @@ export default async function ContactPage({ params }: { params: Promise<{ locale
       </section>
 
       <section className="py-14 md:py-20">
+        <Container className="max-w-2xl">
+          <CopyBody sections={pageCopy.sections} />
+        </Container>
+      </section>
+
+      <section className="border-t border-line py-14 md:py-20">
         <Container>
           <div className="grid gap-6 md:grid-cols-2">
             {officeCards.map((office) => (

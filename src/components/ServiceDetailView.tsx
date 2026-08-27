@@ -3,28 +3,31 @@ import { RichText } from '@payloadcms/richtext-lexical/react'
 import { notFound } from 'next/navigation'
 import type { Locale } from '@/lib/payload'
 import { getServiceBundle } from '@/lib/getService'
-import { t } from '@/lib/dictionary'
 import { Container } from '@/components/Container'
-import { Button } from '@/components/Button'
 import { Breadcrumbs } from '@/components/Breadcrumbs'
-import { FAQAccordion } from '@/components/FAQAccordion'
-import { TestimonialCard } from '@/components/TestimonialCard'
+import { CopyBody } from '@/components/CopyBody'
 import { JsonLd } from '@/components/JsonLd'
-import { breadcrumbSchema, legalServiceSchema, faqPageSchema } from '@/lib/schema'
-import { lexicalToPlainText } from '@/lib/lexicalText'
-import { pageMetadata, CH7_SEO, CH13_SEO, getPiServiceSeo } from '@/lib/seo'
+import { breadcrumbSchema, legalServiceSchema } from '@/lib/schema'
+import { pageMetadata, getBkServiceSeo, getPiServiceSeo } from '@/lib/seo'
+import { serviceCopy } from '@/lib/serviceBodyCopy'
 import { localizedCanonicalUrl, practiceHubHref, serviceHref } from '@/lib/spanishPaths'
 
 type PracticeSlug = 'personal-injury' | 'bankruptcy'
 
 export async function getServiceMetadata(practiceSlug: PracticeSlug, serviceSlug: string, locale: Locale) {
-  if (practiceSlug === 'bankruptcy' && serviceSlug === 'chapter-7') {
-    return pageMetadata({ ...CH7_SEO, path: '/bankruptcy/chapter-7', locale })
+  const staticCopy = serviceCopy(practiceSlug, serviceSlug, locale)
+  if (staticCopy) {
+    return pageMetadata({
+      title: staticCopy.title,
+      description: staticCopy.description,
+      path: `/${practiceSlug}/${serviceSlug}`,
+      locale,
+    })
   }
-  if (practiceSlug === 'bankruptcy' && serviceSlug === 'chapter-13') {
-    return pageMetadata({ ...CH13_SEO, path: '/bankruptcy/chapter-13', locale })
-  }
-  const locked = practiceSlug === 'personal-injury' ? getPiServiceSeo(serviceSlug, locale) : null
+  const locked =
+    practiceSlug === 'personal-injury'
+      ? getPiServiceSeo(serviceSlug, locale)
+      : getBkServiceSeo(serviceSlug, locale)
   if (locked) {
     return pageMetadata({
       title: locked.title,
@@ -52,113 +55,80 @@ export async function ServiceDetailView({
   serviceSlug: string
   locale: Locale
 }) {
+  const staticCopy = serviceCopy(practiceSlug, serviceSlug, locale)
   const bundle = await getServiceBundle(practiceSlug, serviceSlug, locale)
-  if (!bundle) notFound()
-  const { practiceArea, service, faqs, siblingServices, testimonials } = bundle
-  const copy = t(locale)
+  if (!staticCopy && !bundle) notFound()
+
+  const practiceArea = bundle?.practiceArea ?? {
+    name:
+      practiceSlug === 'personal-injury'
+        ? locale === 'es'
+          ? 'Lesiones Personales'
+          : 'Personal Injury'
+        : locale === 'es'
+          ? 'Bancarrota'
+          : 'Bankruptcy',
+  }
+  const service = bundle?.service
+  const siblingServices = bundle?.siblingServices ?? []
+
+  const homeHref = locale === 'en' ? '/' : '/es/inicio/'
+  const homeCrumb = locale === 'es' ? 'Inicio' : 'Home'
   const practicePath = practiceHubHref(locale, practiceSlug)
+  const practiceCrumb = practiceArea.name as string
   const canonicalUrl = localizedCanonicalUrl(`/${practiceSlug}/${serviceSlug}`, locale)
   const servicePath = serviceHref(locale, practiceSlug, serviceSlug)
-  const lockedPi = practiceSlug === 'personal-injury' ? getPiServiceSeo(serviceSlug, locale) : null
-  const h1 =
-    practiceSlug === 'bankruptcy' && serviceSlug === 'chapter-7'
-      ? CH7_SEO.h1
-      : practiceSlug === 'bankruptcy' && serviceSlug === 'chapter-13'
-        ? CH13_SEO.h1
-        : lockedPi?.h1 || (service.title as string)
+
+  const h1 = staticCopy?.h1 ?? (service?.title as string)
+  const description = staticCopy?.description ?? (service?.summary as string)
+  const breadcrumbName = staticCopy?.h1 ?? (service?.title as string)
 
   return (
     <main>
       <JsonLd
         data={breadcrumbSchema([
-          { name: 'Home', url: 'https://lomberalaw.com' + (locale === 'es' ? '/es/inicio/' : '/') },
-          { name: practiceArea.name as string, url: `https://lomberalaw.com${practicePath}` },
-          { name: service.title as string, url: canonicalUrl },
+          { name: 'Home', url: `https://lomberalaw.com${homeHref}` },
+          { name: practiceCrumb, url: `https://lomberalaw.com${practicePath}` },
+          { name: breadcrumbName, url: canonicalUrl },
         ])}
       />
       <JsonLd
         data={legalServiceSchema({
-          name: service.title as string,
-          description: (service.summary as string) || '',
+          name: h1,
+          description: description || '',
           url: canonicalUrl,
           areaServed: ['Inland Empire', 'Coachella Valley', 'Riverside County', 'San Bernardino County'],
         })}
       />
-      {faqs.length > 0 && (() => {
-        const schema = faqPageSchema(
-          faqs.map((f) => ({
-            question: f.question as string,
-            answer: lexicalToPlainText(f.answer) || '',
-          })),
-        )
-        return schema ? <JsonLd data={schema} /> : null
-      })()}
 
-      <section className="border-b border-line bg-panel py-14 md:py-20">
+      <section className="border-b border-line bg-panel py-12 md:py-16">
         <Container>
           <Breadcrumbs
             items={[
-              { name: 'Home', href: locale === 'en' ? '/' : '/es/inicio/' },
-              { name: practiceArea.name as string, href: practicePath },
-              { name: service.title as string, href: servicePath },
+              { name: homeCrumb, href: homeHref },
+              { name: practiceCrumb, href: practicePath },
+              { name: breadcrumbName, href: servicePath },
             ]}
           />
-          <h1 className="mt-4 max-w-2xl font-display text-[2.5rem] leading-tight text-ink">{h1}</h1>
-          {service.summary && !lockedPi && (
-            <p className="mt-4 max-w-xl font-body text-base leading-relaxed text-ink-soft">
-              {service.summary as string}
-            </p>
+          <h1 className="mt-4 font-display text-[2.5rem] leading-tight text-ink">{h1}</h1>
+          {staticCopy ? (
+            <div className="mt-6">
+              <CopyBody lead={staticCopy.lead} sections={staticCopy.sections} />
+            </div>
+          ) : (
+            service?.summary && (
+              <p className="mt-4 max-w-xl font-body text-base leading-relaxed text-ink-soft">
+                {service.summary as string}
+              </p>
+            )
           )}
-          {lockedPi && (
-            <p className="mt-4 max-w-xl font-body text-base leading-relaxed text-ink-soft">{lockedPi.description}</p>
-          )}
-          <div className="mt-8">
-            <Button href={locale === 'es' ? '/es/contacta-con-nosotros/' : '/contact/'} size="lg">
-              {copy.home.heroCTA}
-            </Button>
-          </div>
         </Container>
       </section>
 
-      <Container>
-        <hr className="horizon-rule" />
-      </Container>
-
-      {service.body && (
+      {!staticCopy && service?.body && (
         <section className="py-14 md:py-20">
           <Container className="prose prose-headings:font-display prose-headings:text-ink prose-p:font-body prose-p:text-ink-soft prose-a:text-clay max-w-2xl">
-            <RichText data={service.body as any} />
-          </Container>
-        </section>
-      )}
-
-      {faqs.length > 0 && (
-        <section className="border-t border-line bg-stone py-14 md:py-20">
-          <Container className="max-w-2xl">
-            <h2 className="font-display text-2xl font-semibold text-ink">
-              {locale === 'es' ? 'Preguntas frecuentes' : 'Frequently asked questions'}
-            </h2>
-            <div className="mt-6">
-              <FAQAccordion faqs={faqs as any} />
-            </div>
-          </Container>
-        </section>
-      )}
-
-      {testimonials.length > 0 && (
-        <section className="py-14 md:py-20">
-          <Container>
-            <h2 className="font-display text-2xl font-semibold text-ink">{copy.home.testimonialsKicker}</h2>
-            <div className="mt-6 grid gap-5 md:grid-cols-3">
-              {testimonials.map((tm) => (
-                <TestimonialCard
-                  key={tm.id}
-                  quote={tm.quote as string}
-                  author={tm.author as string}
-                  rating={(tm.rating as number) || 5}
-                />
-              ))}
-            </div>
+            <RichText data={service.body as never} />
           </Container>
         </section>
       )}

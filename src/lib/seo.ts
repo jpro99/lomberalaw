@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import type { Locale } from './payload'
 import { toSpanishPath } from './spanishPaths'
 import { SITE_URL } from './staticData'
+import { ABOUT_COPY, CONTACT_COPY, serviceSeo } from './serviceBodyCopy'
 
 type PageMeta = {
   title: string
@@ -134,11 +135,9 @@ export const OFFICE_LOCATION_SEO = {
   },
 } as const
 
-export const CONTACT_SEO = {
-  title: 'Contact Lombera Law | Redlands & Palm Springs',
-  h1: 'Contact Lombera Law',
-  description:
-    'Call the Redlands office at (909) 915-0181 or Palm Springs at (760) 835-9353. Free consultation in English or Spanish.',
+export function contactSeo(locale: Locale) {
+  const copy = CONTACT_COPY[locale]
+  return { title: copy.title, h1: copy.h1, description: copy.description }
 }
 
 export const PI_HUB_SEO = {
@@ -173,135 +172,10 @@ export const BK_HUB_SEO_ES = {
   h1: 'Abogado de Bancarrota en el Inland Empire',
 }
 
-export const CH7_SEO = {
-  title: 'Chapter 7 Bankruptcy Lawyer | Inland Empire',
-  description:
-    'Wipe credit cards and medical bills in about 3–4 months if you pass the means test. Free consult. (909) 915-0181.',
-  h1: 'Chapter 7 bankruptcy lawyer',
-}
-
-export const CH13_SEO = {
-  title: 'Chapter 13 Bankruptcy Lawyer | Inland Empire',
-  description:
-    'A 3–5 year plan to catch up the mortgage, stop foreclosure, and keep property. Free consult. (909) 915-0181.',
-  h1: 'Chapter 13 bankruptcy lawyer',
-}
-
 type ServiceSeoCopy = { title: string; h1: string; description: string }
 
-export const PI_SERVICE_SEO: Record<string, { en: ServiceSeoCopy; es: ServiceSeoCopy }> = {
-  'car-accidents': {
-    en: {
-      title: 'Car Accident Lawyer | Inland Empire | Lombera Law',
-      h1: 'Car accident lawyer in the Inland Empire',
-      description:
-        'Car accident claims in San Bernardino and Riverside County. No fee unless we win. Redlands (909) 915-0181 · Palm Springs (760) 835-9353.',
-    },
-    es: {
-      title: 'Abogado de Accidentes de Auto | Inland Empire | Lombera Law',
-      h1: 'Abogado de accidentes de auto en el Inland Empire',
-      description:
-        'Reclamos por accidentes de auto en el condado de San Bernardino y Riverside. Sin honorarios a menos que ganemos. Redlands (909) 915-0181 · Palm Springs (760) 835-9353.',
-    },
-  },
-  'truck-accidents': {
-    en: {
-      title: 'Truck Accident Lawyer | Inland Empire | Lombera Law',
-      h1: 'Truck accident lawyer in the Inland Empire',
-      description:
-        'Commercial truck and 18-wheeler crashes across the Inland Empire. Federal safety rules, black box data, corporate defendants. No fee unless we win.',
-    },
-    es: {
-      title: 'Abogado de Accidentes de Camión | Inland Empire | Lombera Law',
-      h1: 'Abogado de accidentes de camión en el Inland Empire',
-      description:
-        'Choques con camiones comerciales en el Inland Empire. Reglas federales de seguridad y demandados corporativos. Sin honorarios a menos que ganemos.',
-    },
-  },
-  'motorcycle-accidents': {
-    en: {
-      title: 'Motorcycle Accident Lawyer | Inland Empire | Lombera Law',
-      h1: 'Motorcycle accident lawyer in the Inland Empire',
-      description:
-        'Motorcycle crash claims in San Bernardino and Riverside County. Bias against riders — we build cases for trial. Free consult.',
-    },
-    es: {
-      title: 'Abogado de Accidentes de Motocicleta | Inland Empire | Lombera Law',
-      h1: 'Abogado de accidentes de motocicleta en el Inland Empire',
-      description:
-        'Reclamos por choques de motocicleta en el Inland Empire. Preparamos cada caso para juicio. Consulta gratuita.',
-    },
-  },
-  'rideshare-accidents': {
-    en: {
-      title: 'Rideshare Accident Lawyer | Inland Empire | Lombera Law',
-      h1: 'Rideshare accident lawyer in the Inland Empire',
-      description:
-        'Uber and Lyft crash claims — layered commercial insurance, app status at impact. No fee unless we win.',
-    },
-    es: {
-      title: 'Abogado de Accidentes de Rideshare | Inland Empire | Lombera Law',
-      h1: 'Abogado de accidentes de rideshare en el Inland Empire',
-      description:
-        'Choques de Uber y Lyft — cobertura comercial en capas. Sin honorarios a menos que ganemos.',
-    },
-  },
-  'dog-bites': {
-    en: {
-      title: 'Dog Bite Lawyer | Inland Empire | Lombera Law',
-      h1: 'Dog bite lawyer in the Inland Empire',
-      description:
-        'Dog bite and animal attack claims in San Bernardino and Riverside County. Medical bills, scarring, liability. Free consult.',
-    },
-    es: {
-      title: 'Abogado de Mordeduras de Perro | Inland Empire | Lombera Law',
-      h1: 'Abogado de mordeduras de perro en el Inland Empire',
-      description:
-        'Reclamos por mordeduras de perro en el Inland Empire. Facturas médicas y responsabilidad del dueño. Consulta gratuita.',
-    },
-  },
-  'wrongful-death': {
-    en: {
-      title: 'Wrongful Death Lawyer | Inland Empire | Lombera Law',
-      h1: 'Wrongful death lawyer in the Inland Empire',
-      description:
-        'Wrongful death claims for families across the Inland Empire and Coachella Valley. Accountability and financial stability after loss.',
-    },
-    es: {
-      title: 'Abogado de Muerte Injusta | Inland Empire | Lombera Law',
-      h1: 'Abogado de muerte injusta en el Inland Empire',
-      description:
-        'Reclamos por muerte injusta para familias del Inland Empire y el Valle de Coachella. Consulta gratuita.',
-    },
-  },
-  'traumatic-brain-injury': {
-    en: {
-      title: 'Brain Injury Lawyer | Inland Empire | Lombera Law',
-      h1: 'Traumatic brain injury lawyer in the Inland Empire',
-      description:
-        'TBI claims with neurologists and neuropsychologists. Document the full scope — not just the ER bill. Free consult.',
-    },
-    es: {
-      title: 'Abogado de Lesión Cerebral | Inland Empire | Lombera Law',
-      h1: 'Abogado de lesión cerebral traumática en el Inland Empire',
-      description:
-        'Casos de lesión cerebral con expertos médicos. Documentamos el alcance real de la lesión. Consulta gratuita.',
-    },
-  },
-  'spinal-cord-injury': {
-    en: {
-      title: 'Spinal Cord Injury Lawyer | Inland Empire | Lombera Law',
-      h1: 'Spinal cord injury lawyer in the Inland Empire',
-      description:
-        'Spinal cord injury cases with lifetime care planning. Wheelchairs, home modifications, ongoing treatment. No fee unless we win.',
-    },
-    es: {
-      title: 'Abogado de Lesión de Médula Espinal | Inland Empire | Lombera Law',
-      h1: 'Abogado de lesión de médula espinal en el Inland Empire',
-      description:
-        'Casos de lesión de médula espinal con planificación de cuidado de por vida. Sin honorarios a menos que ganemos.',
-    },
-  },
+export function getBkServiceSeo(serviceSlug: string, locale: Locale): ServiceSeoCopy | null {
+  return serviceSeo('bankruptcy', serviceSlug, locale)
 }
 
 const OFFICE_CITY_SLUGS = new Set(['redlands', 'palm-springs'])
@@ -367,16 +241,18 @@ export function practiceCitySeo(
 }
 
 export function getPiServiceSeo(serviceSlug: string, locale: Locale): ServiceSeoCopy | null {
-  const entry = PI_SERVICE_SEO[serviceSlug]
-  if (!entry) return null
-  return entry[locale]
+  return serviceSeo('personal-injury', serviceSlug, locale)
 }
 
+export function aboutSeo(locale: Locale) {
+  const copy = ABOUT_COPY[locale]
+  return { title: copy.title, h1: copy.h1, description: copy.description }
+}
+
+/** @deprecated Use aboutSeo(locale) */
 export const ABOUT_SEO = {
-  title: 'Edgar P. Lombera | Redlands & Palm Springs Lawyer',
-  description:
-    'Founding attorney. California Bar 259393. Admitted December 8, 2008. Bilingual personal injury and bankruptcy. Redlands and Palm Springs.',
-  h1: 'Edgar P. Lombera',
-  open:
-    'Edgar P. Lombera is the founding attorney of the Law Offices of Edgar Lombera. He was admitted to the State Bar of California on December 8, 2008 (Bar No. 259393) and has more than 15 years helping Inland Empire and Coachella Valley families with injury claims and bankruptcy. You speak with Edgar, in English or Spanish.',
+  title: ABOUT_COPY.en.title,
+  description: ABOUT_COPY.en.description,
+  h1: ABOUT_COPY.en.h1,
+  open: ABOUT_COPY.en.lead[0],
 }
