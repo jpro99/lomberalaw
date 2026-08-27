@@ -400,30 +400,48 @@ const PI_EN: Record<CitySlug, CityPageCopy> = {
     ],
   },
   riverside: {
-    h1: 'Riverside personal injury lawyer near 4050 Main Street',
-    title: 'Riverside Personal Injury Lawyer | County Court | Lombera',
+    h1: 'Riverside personal injury lawyer',
+    title: 'Riverside Personal Injury Lawyer | 60/91/215 Truck, Uber, Wrongful Death | Lombera',
     description:
-      'Personal injury lawyer near Riverside County Superior Court. Truck, rideshare, TBI, wrongful death. Redlands (909) 915-0181.',
+      'Truck, Uber, wrongful death, and catastrophic injury from SR-60 / SR-91 / I-215 crashes in Riverside. Meet at 2068 Orange Tree Lane #220, Redlands — about 20 minutes east via I-215 north to I-10 east. (909) 915-0181.',
     lead: [
-      `Riverside is the county seat — SR-60, SR-91, and I-215 feed injury lawsuits filed at Riverside County Superior Court, 4050 Main St. Meet Edgar at ${REDLANDS_NAP}. Personal injury and bankruptcy are different buildings and different practices: injury suits go to Main Street; consumer bankruptcy files only at ${BK_COURT}.`,
+      'There is no Lombera storefront on Main Street, Pierce, Vine, or 11th. After a Riverside wreck, meet Edgar P. Lombera at 2068 Orange Tree Lane, Suite 220, Redlands, CA 92374 — about 20 minutes east via I-215 north to I-10 east, roughly 17 miles. Call (909) 915-0181. English or Spanish. Two practices only: personal injury and bankruptcy. You speak with him. Injury cases run on contingency: no fee unless we win.',
     ],
     sections: [
       {
-        h2: 'Freeway and arterial crash injuries',
+        h2: 'Truck wrecks on SR-60, SR-91, and I-215',
         paragraphs: [
-          'Commercial truck cases, Uber and Lyft collisions, wrongful death, traumatic brain injury, and spinal cord injury lead the Riverside docket. Car, motorcycle, and dog-bite claims are part of the practice.',
+          'Through-truck traffic on the 60, the 91, and I-215 produces the commercial collisions that lead this docket. After a serious wreck, preserve the ECM download, dashcam footage, and the driver qualification file before insurers scatter the evidence. This is Riverside freeways — not Fontana’s I-10 / I-15 / Sierra freight page. Wrongful death and traumatic brain injury claims from these wrecks stay on this URL.',
         ],
       },
       {
-        h2: '4050 Main St. filing',
+        h2: 'Uber and Lyft on Mission Inn, UCR, and the 91/60/215 interchange',
         paragraphs: [
-          'Most Riverside city and county crashes are filed at Riverside County Superior Court, 4050 Main St., Riverside. Evidence from the SR-91 or Mission Inn Avenue intersection should be preserved immediately.',
+          'Whether the driver had the app on changes which insurer must respond — we confirm coverage in the consult, not in marketing copy with dollar figures. Riverside rideshare claims stay on /personal-injury/riverside/. We do not invent a /uber/ page.',
         ],
       },
       {
-        h2: 'Contingency — (909) 915-0181',
+        h2: 'Wrongful death — standing under CCP §377.60',
         paragraphs: [
-          'No attorney fee unless money is recovered. Bankruptcy court for consumer cases is at 3420 Twelfth Street — the same building complex area, different federal entrance.',
+          'Who may bring the suit is confirmed in the consult under California Code of Civil Procedure §377.60 — we do not invent verdicts or settlement stories. County civil files are filed at the Historic Courthouse, 4050 Main Street, Riverside — not the Hall of Justice at 4100 Main. CCP §335.1 gives most victims two years; a public entity may require six-month written notice under Government Code §911.2.',
+        ],
+      },
+      {
+        h2: 'Catastrophic injury — TBI, spinal cord, lost limb',
+        paragraphs: [
+          'Traumatic brain injury, spinal cord injury, and amputation are damages outcomes handled on this URL only — not a separate /catastrophic-injury/ landing page. Future medical care and lost earning capacity drive the damages case. This is not medical advice.',
+        ],
+      },
+      {
+        h2: 'Car, motorcycle, and Civil Code §3342 dog bites',
+        paragraphs: [
+          'After the four primary claim types, car collisions, motorcycle crashes, and dog bites under California Civil Code §3342 round out the docket. Lane-splitting on a motorcycle is legal when done safely; wearing a helmet does not flip fault. We do not handle slip-and-fall claims.',
+        ],
+      },
+      {
+        h2: '(909) 915-0181 — Orange Tree Lane, 20 minutes east',
+        paragraphs: [
+          'Hours: Monday–Friday 9am–6pm, Saturday 10am–4pm, Sunday by appointment. Serious injuries can reach the office 24/7 for an emergency consult. If the same wreck sinks the household, the same (909) 915-0181 call files Chapter 7 or Chapter 13 at 3420 Twelfth Street, Riverside — the bankruptcy court is already in this city. Palm Springs is the second office if that drive is easier — 1276 N Palm Canyon Dr #107, (760) 835-9353.',
         ],
       },
     ],
@@ -1218,16 +1236,50 @@ const PI_ES: Record<CitySlug, CityPageCopy> = {
     ],
   },
   riverside: {
-    h1: "Abogado de lesiones en Riverside cerca de 4050 Main Street",
-    title: "Abogado de Lesiones Riverside | Lombera",
-    description: "Lesiones cerca del tribunal del condado de Riverside. (909) 915-0181. Consulta gratis.",
+    h1: 'Abogado de lesiones personales en Riverside',
+    title: 'Abogado de Lesiones Riverside | Camiones 60/91/215, Uber, Muerte Injusta | Lombera',
+    description:
+      'Camiones, Uber, muerte injusta y lesiones catastróficas en choques de la SR-60 / SR-91 / I-215 en Riverside. Oficina en Orange Tree Lane #220, Redlands — unos 20 minutos al este por la I-215 norte a la I-10 este. (909) 915-0181.',
     lead: [
-      "Riverside es la sede del condado — la SR-60, la SR-91 y la I-215 alimentan demandas por lesiones presentadas en el Tribunal Superior del Condado de Riverside, 4050 Main St. Reúnase con Edgar en 2068 Orange Tree Lane, Suite 220, Redlands, CA 92374 — (909) 915-0181. Lesiones personales y bancarrota son edificios y prácticas diferentes: las demandas por lesiones van a Main Street; la bancarrota de consumidor se presenta solo en el Tribunal de Bancarrota de EE. UU., 3420 Twelfth Street, Riverside.",
+      'No hay oficina de Lombera en Main Street, Pierce, Vine ni 11th. Después de un choque en Riverside, reúnase con Edgar P. Lombera en 2068 Orange Tree Lane, Suite 220, Redlands, CA 92374 — unos 20 minutos al este por la I-215 norte a la I-10 este, aproximadamente 17 millas. Llame al (909) 915-0181. Inglés o español. Solo dos prácticas: lesiones personales y bancarrota. Usted habla con él. Los casos de lesiones son a contingencia: sin honorarios a menos que ganemos.',
     ],
     sections: [
-{ h2: 'Choques en autopista y arteriales', paragraphs: ['Camiones, Uber/Lyft, muerte injusta, lesión cerebral y de médula espinal. Auto, motocicleta y mordeduras de perro.'] },
-      { h2: '4050 Main St.', paragraphs: ['Tribunal Superior del Condado de Riverside. Preserve evidencia de la SR-91 de inmediato.'] },
-      { h2: `A contingencia — (909) 915-0181`, paragraphs: ['Sin honorarios a menos que ganemos. Bancarrota federal en 3420 Twelfth Street.'] },
+      {
+        h2: 'Choques de camiones en la SR-60, la SR-91 y la I-215',
+        paragraphs: [
+          'El tráfico de camiones de paso en la 60, la 91 y la I-215 produce las colisiones comerciales que lideran este expediente. Después de un choque grave, preserve la descarga del ECM, las grabaciones de dashcam y el expediente de calificación del conductor antes de que las aseguradoras dispersen la evidencia. Estas son las autopistas de Riverside — no la página de carga de Fontana en la I-10 / I-15 / Sierra. Las demandas por muerte injusta y lesión cerebral traumática de estos choques permanecen en esta URL.',
+        ],
+      },
+      {
+        h2: 'Uber y Lyft en Mission Inn, UCR y el intercambio 91/60/215',
+        paragraphs: [
+          'Si el conductor tenía la aplicación activada cambia qué aseguradora debe responder — confirmamos la cobertura en la consulta, no con cifras de marketing. Los reclamos de rideshare de Riverside permanecen en /es/lesiones-personales/riverside/. No inventamos una página /uber/.',
+        ],
+      },
+      {
+        h2: 'Muerte injusta — legitimación bajo el CCP §377.60',
+        paragraphs: [
+          'Quién puede presentar la demanda se confirma en la consulta bajo el Código de Procedimiento Civil de California §377.60 — no inventamos veredictos ni historias de acuerdos. Los expedientes civiles del condado se presentan en el Historic Courthouse, 4050 Main Street, Riverside — no en el Hall of Justice en 4100 Main. El CCP §335.1 da dos años a la mayoría de las víctimas; una entidad pública puede exigir aviso escrito de seis meses bajo el Código de Gobierno §911.2.',
+        ],
+      },
+      {
+        h2: 'Lesiones catastróficas — cerebral, médula, pérdida de miembro',
+        paragraphs: [
+          'La lesión cerebral traumática, la lesión de médula espinal y la amputación son resultados de daños manejados solo en esta URL — no una página separada de /lesiones-catastroficas/. La atención médica futura y la capacidad de ingreso perdida impulsan el caso de daños. Esto no es consejo médico.',
+        ],
+      },
+      {
+        h2: 'Auto, motocicleta y mordeduras — Código Civil §3342',
+        paragraphs: [
+          'Después de los cuatro tipos principales de reclamo, choques de auto, accidentes de motocicleta y mordeduras de perro bajo el Código Civil de California §3342 completan el expediente. Circular entre carriles en motocicleta es legal cuando se hace con seguridad; usar casco no invierte la culpa. No manejamos reclamos por resbalones y caídas.',
+        ],
+      },
+      {
+        h2: '(909) 915-0181 — Orange Tree Lane, 20 minutos al este',
+        paragraphs: [
+          'Horario: lunes a viernes 9am–6pm, sábado 10am–4pm, domingo con cita. Lesiones graves pueden contactar la oficina las 24 horas para consulta de emergencia. Si el mismo choque hunde el hogar, la misma llamada al (909) 915-0181 presenta el Capítulo 7 o 13 en 3420 Twelfth Street, Riverside — el tribunal de bancarrota ya está en esta ciudad. Palm Springs es la segunda oficina si ese trayecto es más fácil — 1276 N Palm Canyon Dr #107, (760) 835-9353.',
+        ],
+      },
     ],
   },
   'moreno-valley': {
