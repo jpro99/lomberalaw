@@ -51,7 +51,11 @@ export function buildSpanishEnglishPracticeRedirects() {
     for (const city of LIVE_CITY_SLUGS) {
       redirects.push({
         from: `/es/personal-injury/${en}/${city}/`,
-        to: `${PI_HUB}${es}/${city}/`,
+        to: `${PI_HUB}${es}/`,
+      })
+      redirects.push({
+        from: `/es/lesiones-personales/${es}/${city}/`,
+        to: `${PI_HUB}${es}/`,
       })
     }
   }
@@ -66,7 +70,11 @@ export function buildSpanishEnglishPracticeRedirects() {
     for (const city of LIVE_CITY_SLUGS) {
       redirects.push({
         from: `/es/bankruptcy/${en}/${city}/`,
-        to: `${BK_HUB}${es}/${city}/`,
+        to: `${BK_HUB}${es}/`,
+      })
+      redirects.push({
+        from: `/es/bancarrota/${es}/${city}/`,
+        to: `${BK_HUB}${es}/`,
       })
     }
   }
@@ -74,9 +82,15 @@ export function buildSpanishEnglishPracticeRedirects() {
   // Spanish slug served under English /es/personal-injury/ prefix
   for (const es of Object.values(EN_TO_ES_PI_SERVICE)) {
     redirects.push({ from: `/es/personal-injury/${es}/`, to: `${PI_HUB}${es}/` })
+    for (const city of LIVE_CITY_SLUGS) {
+      redirects.push({ from: `/es/personal-injury/${es}/${city}/`, to: `${PI_HUB}${es}/` })
+    }
   }
   for (const es of Object.values(EN_TO_ES_BK_SERVICE)) {
     redirects.push({ from: `/es/bankruptcy/${es}/`, to: `${BK_HUB}${es}/` })
+    for (const city of LIVE_CITY_SLUGS) {
+      redirects.push({ from: `/es/bankruptcy/${es}/${city}/`, to: `${BK_HUB}${es}/` })
+    }
   }
 
   // Unmapped English PI/BK services under /es → hub

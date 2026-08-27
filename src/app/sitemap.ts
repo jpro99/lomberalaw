@@ -82,12 +82,6 @@ function staticSitemap(): MetadataRoute.Sitemap {
       piServices: Object.keys(EN_TO_ES_PI_SERVICE),
       bkServices: Object.keys(EN_TO_ES_BK_SERVICE),
       cities: [...LIVE_CITY_SLUGS],
-      moneyPages: STATIC_TIER1_MONEY_PAGES.filter(
-        (page) =>
-          page.practice === 'personal-injury'
-            ? page.service in EN_TO_ES_PI_SERVICE
-            : page.service in EN_TO_ES_BK_SERVICE,
-      ),
     }),
     0.8,
     'monthly',
@@ -145,7 +139,6 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       addEnPath(entries, `/locations/${slug}`, 0.7, 'monthly')
     }
 
-    const moneyPages: { practice: 'personal-injury' | 'bankruptcy'; service: string; city: string }[] = []
     const moneyPageRes = await payload.find({ collection: 'service-city-pages', limit: 200, depth: 2 })
     for (const page of moneyPageRes.docs) {
       const service = page.service as { slug?: string; practiceArea?: { slug?: string } } | null
@@ -153,16 +146,6 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       const practiceSlug = service?.practiceArea?.slug
       if (practiceSlug && service?.slug && city?.slug) {
         addEnPath(entries, `/${practiceSlug}/${service.slug}/${city.slug}`, 0.9, 'monthly')
-        if (
-          (practiceSlug === 'personal-injury' && service.slug in EN_TO_ES_PI_SERVICE) ||
-          (practiceSlug === 'bankruptcy' && service.slug in EN_TO_ES_BK_SERVICE)
-        ) {
-          moneyPages.push({
-            practice: practiceSlug,
-            service: service.slug,
-            city: city.slug,
-          })
-        }
       }
     }
 
@@ -177,7 +160,6 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         piServices: piServices.filter((slug) => slug in EN_TO_ES_PI_SERVICE),
         bkServices: bkServices.filter((slug) => slug in EN_TO_ES_BK_SERVICE),
         cities: liveCitySlugs,
-        moneyPages,
       }),
       0.8,
       'monthly',

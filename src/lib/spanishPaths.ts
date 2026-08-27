@@ -66,10 +66,18 @@ export function toSpanishPath(path: string): string {
 
   const parts = normalized.split('/').filter(Boolean)
   if (parts[0] === 'personal-injury') {
+    if (parts.length === 3 && parts[1]) {
+      const [serviceSlug] = translatePracticeSegments('personal-injury', [parts[1]], true)
+      return `/es/lesiones-personales/${serviceSlug}`
+    }
     const rest = translatePracticeSegments('personal-injury', parts.slice(1), true)
     return `/es/lesiones-personales${rest.length ? `/${rest.join('/')}` : ''}`
   }
   if (parts[0] === 'bankruptcy') {
+    if (parts.length === 3 && parts[1]) {
+      const [serviceSlug] = translatePracticeSegments('bankruptcy', [parts[1]], true)
+      return `/es/bancarrota/${serviceSlug}`
+    }
     const rest = translatePracticeSegments('bankruptcy', parts.slice(1), true)
     return `/es/bancarrota${rest.length ? `/${rest.join('/')}` : ''}`
   }
@@ -145,7 +153,6 @@ export function collectSpanishSitemapEnglishPaths(options?: {
   piServices?: string[]
   bkServices?: string[]
   cities?: string[]
-  moneyPages?: { practice: 'personal-injury' | 'bankruptcy'; service: string; city: string }[]
 }): string[] {
   const paths = new Set<string>([
     '/',
@@ -173,9 +180,6 @@ export function collectSpanishSitemapEnglishPaths(options?: {
   for (const city of cities) {
     paths.add(`/personal-injury/${city}`)
     paths.add(`/bankruptcy/${city}`)
-  }
-  for (const page of options?.moneyPages ?? []) {
-    paths.add(`/${page.practice}/${page.service}/${page.city}`)
   }
 
   return [...paths]
