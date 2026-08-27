@@ -340,7 +340,7 @@ const PI_EN: Record<CitySlug, CityPageCopy> = {
     description:
       'Truck, Uber, wrongful death, and catastrophic injury from I-10 / I-215 / I-210 crashes. Meet at 2068 Orange Tree Lane #220, Redlands. (909) 915-0181.',
     lead: [
-      'There is no Lombera storefront downtown. Injury lawsuits from San Bernardino file at San Bernardino County Superior Court, 247 W. 3rd St. Meet Edgar P. Lombera at 2068 Orange Tree Lane, Suite 220, Redlands, CA 92374 — about 15 minutes west on the I-10. Call (909) 915-0181. English or Spanish. Two practices only: personal injury and bankruptcy. You speak with him. Injury cases run on contingency: no fee unless we win.',
+      'There is no Lombera storefront downtown. Injury lawsuits from San Bernardino file at San Bernardino County Superior Court, 247 W. 3rd St. Meet Edgar P. Lombera at 2068 Orange Tree Lane, Suite 220, Redlands, CA 92374 — about 15 minutes east on the I-10. Call (909) 915-0181. English or Spanish. Two practices only: personal injury and bankruptcy. You speak with him. Injury cases run on contingency: no fee unless we win.',
     ],
     sections: [
       {
@@ -1124,7 +1124,7 @@ const PI_ES: Record<CitySlug, CityPageCopy> = {
     description:
       'Camiones, Uber, muerte injusta y lesiones catastróficas en la I-10 / I-215 / I-210. Oficina en Orange Tree Lane #220, Redlands. (909) 915-0181.',
     lead: [
-      'No hay oficina de Lombera en el centro. Las demandas por lesiones de San Bernardino se presentan en el Tribunal Superior del Condado de San Bernardino, 247 W. 3rd St. Reúnase con Edgar P. Lombera en 2068 Orange Tree Lane, Suite 220, Redlands, CA 92374 — unos 15 minutos al oeste por la I-10. Llame al (909) 915-0181. Inglés o español. Solo dos prácticas: lesiones personales y bancarrota. Usted habla con él. Los casos de lesiones son a contingencia: sin honorarios a menos que ganemos.',
+      'No hay oficina de Lombera en el centro. Las demandas por lesiones de San Bernardino se presentan en el Tribunal Superior del Condado de San Bernardino, 247 W. 3rd St. Reúnase con Edgar P. Lombera en 2068 Orange Tree Lane, Suite 220, Redlands, CA 92374 — unos 15 minutos al este por la I-10. Llame al (909) 915-0181. Inglés o español. Solo dos prácticas: lesiones personales y bancarrota. Usted habla con él. Los casos de lesiones son a contingencia: sin honorarios a menos que ganemos.',
     ],
     sections: [
       {
