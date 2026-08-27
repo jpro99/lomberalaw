@@ -45,13 +45,11 @@ export const STATIC_CITY_SLUGS = [
 ] as const
 
 export const STATIC_PI_SERVICES = [
-  'catastrophic-injury',
   'truck-accidents',
   'rideshare-accidents',
   'traumatic-brain-injury',
   'spinal-cord-injury',
   'wrongful-death',
-  'medical-malpractice',
   'car-accidents',
   'motorcycle-accidents',
   'dog-bites',
@@ -68,7 +66,6 @@ export const STATIC_BK_SERVICES = [
 export const STATIC_TIER1_MONEY_PAGES: { practice: 'personal-injury' | 'bankruptcy'; service: string; city: string }[] = [
   { practice: 'personal-injury', service: 'truck-accidents', city: 'riverside' },
   { practice: 'personal-injury', service: 'truck-accidents', city: 'san-bernardino' },
-  { practice: 'personal-injury', service: 'catastrophic-injury', city: 'riverside' },
   { practice: 'personal-injury', service: 'car-accidents', city: 'san-bernardino' },
   { practice: 'personal-injury', service: 'car-accidents', city: 'riverside' },
   { practice: 'personal-injury', service: 'car-accidents', city: 'redlands' },

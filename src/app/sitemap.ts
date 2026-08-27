@@ -1,6 +1,6 @@
 import type { MetadataRoute } from 'next'
 import { getPayload, PayloadUnavailableError } from '@/lib/payload'
-import { LIVE_CITY_SLUGS } from '@/lib/routing'
+import { isBkService, isPiService, LIVE_CITY_SLUGS } from '@/lib/routing'
 import {
   collectSpanishSitemapEnglishPaths,
   EN_TO_ES_BK_SERVICE,
@@ -121,9 +121,11 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       const practiceSlug = practiceArea?.slug
       const slug = service.slug as string
       if (practiceSlug === 'personal-injury') {
+        if (!isPiService(slug)) continue
         piServices.push(slug)
         addEnPath(entries, `/personal-injury/${slug}`, 0.8, 'monthly')
       } else if (practiceSlug === 'bankruptcy') {
+        if (!isBkService(slug)) continue
         bkServices.push(slug)
         addEnPath(entries, `/bankruptcy/${slug}`, 0.8, 'monthly')
       }
@@ -145,6 +147,8 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       const city = page.city as { slug?: string } | null
       const practiceSlug = service?.practiceArea?.slug
       if (practiceSlug && service?.slug && city?.slug) {
+        if (practiceSlug === 'personal-injury' && !isPiService(service.slug)) continue
+        if (practiceSlug === 'bankruptcy' && !isBkService(service.slug)) continue
         addEnPath(entries, `/${practiceSlug}/${service.slug}/${city.slug}`, 0.9, 'monthly')
       }
     }

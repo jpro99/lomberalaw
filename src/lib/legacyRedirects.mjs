@@ -1,7 +1,17 @@
 // Minimal redirects — never remap live paths to new IA.
 // Old internal/alternate paths → live canonical paths only.
 
-import { buildSpanishEnglishPracticeRedirects } from './spanishRedirects.mjs'
+import { buildSpanishEnglishPracticeRedirects, LIVE_CITY_SLUGS } from './spanishRedirects.mjs'
+
+const BLOCKED_PI_SERVICES = ['medical-malpractice', 'catastrophic-injury']
+
+const blockedPiServiceRedirects = BLOCKED_PI_SERVICES.flatMap((service) => [
+  { from: `/personal-injury/${service}/`, to: '/personal-injury/' },
+  ...LIVE_CITY_SLUGS.map((city) => ({
+    from: `/personal-injury/${service}/${city}/`,
+    to: `/personal-injury/${city}/`,
+  })),
+])
 
 const CAR_ACCIDENT_CITY_TARGETS = [
   ['palm-springs', '/personal-injury/palm-springs/'],
@@ -48,6 +58,7 @@ export const legacyRedirects = [
   { from: '/personal-injury/car-accidents-2/', to: '/personal-injury/car-accidents/' },
   { from: '/personal-injury/slip-and-fall/', to: '/personal-injury/' },
   { from: '/personal-injury/premises-liability/', to: '/personal-injury/' },
+  ...blockedPiServiceRedirects,
 
   // BK alternates
   { from: '/bankruptcy/stop-foreclosure/', to: '/bankruptcy/foreclosure-defense/' },

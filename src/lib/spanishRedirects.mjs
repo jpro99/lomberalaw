@@ -105,6 +105,9 @@ export function buildSpanishEnglishPracticeRedirects() {
   ]
   for (const slug of unmappedPi) {
     redirects.push({ from: `/es/personal-injury/${slug}/`, to: PI_HUB })
+    for (const city of LIVE_CITY_SLUGS) {
+      redirects.push({ from: `/es/personal-injury/${slug}/${city}/`, to: PI_HUB })
+    }
   }
 
   const unmappedBk = ['stop-foreclosure', 'stop-wage-garnishment']

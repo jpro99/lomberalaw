@@ -129,29 +129,8 @@ async function main() {
     bodyEs?: ReturnType<typeof lexicalParagraphs>
   }[] = [
     // Personal Injury -- ordered per the firm's positioning: serious/
-    // catastrophic/commercial-negligence cases lead, routine auto
-    // claims still exist for SEO capture but sit lower in the list.
-    {
-      slug: 'catastrophic-injury',
-      practiceArea: 'personal-injury',
-      titleEn: 'Catastrophic Injury',
-      titleEs: 'Lesiones Catastróficas',
-      order: 10,
-      summaryEn: 'Life-changing injuries deserve a case built for the full scope of loss -- medical costs, lost earning capacity, and long-term care, prepared with trial-level thoroughness.',
-      summaryEs: 'Las lesiones que cambian la vida merecen un caso construido para el alcance completo de la pérdida -- costos médicos, capacidad de ingresos perdida y cuidado a largo plazo, preparado con la minuciosidad de un juicio.',
-      bodyEn: lexicalParagraphs([
-        'A catastrophic injury does not resolve when the hospital discharges you. It follows you into every year that comes after -- ongoing treatment, equipment, therapy, and often the loss of the work you built your life around. A case that only accounts for the bills you have today will fall short of what the next twenty years actually cost.',
-        'Edgar personally investigates every catastrophic injury case from the ground up: medical experts to project future care, economists to calculate lost earning capacity, and -- when the injury involved a commercial vehicle, a defective product, or medical negligence -- the corporate or institutional defendant\u2019s own safety and training records.',
-        'This firm has represented catastrophic injury victims across the Inland Empire and Coachella Valley for more than 15 years. Every case is prepared as if it is going to trial, because insurance companies pay closer attention to the firms that are actually ready to go there.',
-        'There is no fee unless we recover money for you. The first consultation is free and confidential, and you will be speaking with Edgar directly -- not a case manager.',
-      ]),
-      bodyEs: lexicalParagraphs([
-        'Una lesión catastrófica no termina cuando le dan de alta en el hospital. Lo sigue durante cada año que viene después -- tratamiento continuo, equipo, terapia y a menudo la pérdida del trabajo sobre el cual construyó su vida. Un caso que solo tenga en cuenta las facturas de hoy se quedará corto frente a lo que realmente costarán los próximos veinte años.',
-        'Edgar investiga personalmente cada caso de lesión catastrófica desde cero: expertos médicos para proyectar la atención futura, economistas para calcular la capacidad de ingresos perdida y -- cuando la lesión involucró un vehículo comercial, un producto defectuoso o negligencia médica -- los propios registros de seguridad y capacitación del demandado corporativo o institucional.',
-        'Este despacho ha representado a víctimas de lesiones catastróficas en el Inland Empire y el Valle de Coachella durante más de 15 años. Cada caso se prepara como si fuera a juicio, porque las compañías de seguros prestan más atención a los despachos que realmente están dispuestos a llegar ahí.',
-        'No hay honorarios a menos que recuperemos dinero para usted. La primera consulta es gratuita y confidencial, y usted hablará directamente con Edgar -- no con un administrador de casos.',
-      ]),
-    },
+    // commercial-negligence cases lead, routine auto claims still
+    // exist for SEO capture but sit lower in the list.
     {
       slug: 'truck-accidents',
       practiceArea: 'personal-injury',
@@ -253,27 +232,6 @@ async function main() {
         'Ninguna cantidad de dinero cambia lo que sucedió. Lo que un reclamo por muerte injusta sí puede hacer es responsabilizar completamente a la parte responsable, y brindar una estabilidad financiera real para la familia que queda \u2014 ingresos perdidos, apoyo perdido, costos funerarios y el valor de una relación que no debió terminar de esa manera.',
         'Edgar maneja estos casos de manera personal y directa, entendiendo que una familia en duelo no debería tener que manejar una batalla legal además de todo lo demás. Él identifica a cada parte que tiene responsabilidad \u2014 no solo la más obvia \u2014 y construye el caso con la misma minuciosidad, ya sea que se resuelva mediante negociación o juicio.',
         'Este despacho ha representado a familias en el Inland Empire y el Valle de Coachella durante más de 15 años. No hay honorarios a menos que recuperemos dinero para usted, y la primera consulta es gratuita y confidencial.',
-      ]),
-    },
-    {
-      slug: 'medical-malpractice',
-      practiceArea: 'personal-injury',
-      titleEn: 'Medical Malpractice',
-      titleEs: 'Negligencia Médica',
-      order: 70,
-      summaryEn: 'Medical malpractice cases are handled selectively and require early expert review -- California\u2019s deadlines and certificate-of-merit requirements move fast.',
-      summaryEs: 'Los casos de negligencia médica se manejan de manera selectiva y requieren una revisión temprana de expertos -- los plazos de California y los requisitos de certificado de mérito avanzan rápido.',
-      bodyEn: lexicalParagraphs([
-        'Trusting a doctor or hospital and then discovering something went wrong is disorienting \u2014 and not every bad outcome is malpractice. A medical malpractice claim requires showing that a provider\u2019s care fell below the accepted standard, which is a different and higher bar than simply "the treatment didn\u2019t work."',
-        'Edgar handles medical malpractice cases directly and personally, working with independent medical experts early \u2014 California law imposes strict early notice requirements and short deadlines in these cases, and waiting to talk to an attorney can close off options that were available at the start.',
-        'This firm evaluates each potential medical malpractice case carefully before taking it on, because these cases require real expert support to prove. If your case is accepted, it is prepared with the same thoroughness as every other case this firm handles \u2014 ready for trial if that is what it takes.',
-        'The first consultation is free and confidential, and there is no fee unless we recover money for you.',
-      ]),
-      bodyEs: lexicalParagraphs([
-        'Confiar en un médico o hospital y luego descubrir que algo salió mal es desorientador \u2014 y no todo mal resultado es negligencia médica. Un reclamo por negligencia médica requiere demostrar que la atención de un proveedor estuvo por debajo del estándar aceptado, lo cual es un estándar diferente y más alto que simplemente "el tratamiento no funcionó."',
-        'Edgar maneja los casos de negligencia médica de manera directa y personal, trabajando con expertos médicos independientes desde el principio \u2014 la ley de California impone requisitos estrictos de notificación temprana y plazos cortos en estos casos, y esperar para hablar con un abogado puede cerrar opciones que estaban disponibles al principio.',
-        'Este despacho evalúa cuidadosamente cada posible caso de negligencia médica antes de aceptarlo, porque estos casos requieren apoyo experto real para probarse. Si su caso es aceptado, se prepara con la misma minuciosidad que cualquier otro caso que maneja este despacho \u2014 listo para juicio si eso es lo que se necesita.',
-        'La primera consulta es gratuita y confidencial, y no hay honorarios a menos que recuperemos dinero para usted.',
       ]),
     },
     { slug: 'car-accidents', practiceArea: 'personal-injury', titleEn: 'Car Accidents', titleEs: 'Accidentes de Auto', order: 80 },
@@ -707,7 +665,7 @@ async function main() {
   // highway data). Treat as a strong starter draft -- expand with
   // more unique local color per page before a heavy SEO push.
   // ---------------------------------------------------------------
-  const tier1Services = ['truck-accidents', 'catastrophic-injury', 'car-accidents', 'chapter-7', 'chapter-13']
+  const tier1Services = ['truck-accidents', 'car-accidents', 'chapter-7', 'chapter-13']
   const tier1Cities = ['riverside', 'san-bernardino', 'palm-springs', 'palm-desert', 'indio', 'redlands']
 
   function truckingMoneyBody(cityName: string) {
