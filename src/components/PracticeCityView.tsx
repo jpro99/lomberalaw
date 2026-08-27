@@ -3,15 +3,16 @@ import { notFound } from 'next/navigation'
 import Link from 'next/link'
 import { Container } from '@/components/Container'
 import { Breadcrumbs } from '@/components/Breadcrumbs'
-import { Button } from '@/components/Button'
+import { CopyBody } from '@/components/CopyBody'
 import { JsonLd } from '@/components/JsonLd'
 import { breadcrumbSchema } from '@/lib/schema'
-import { cityPhone, isLiveCity } from '@/lib/routing'
-import { practiceCitySeo, pageMetadata } from '@/lib/seo'
+import { pageMetadata } from '@/lib/seo'
+import { cityCopy, cityDisplayName } from '@/lib/cityBodyCopy'
+import { isLiveCity } from '@/lib/routing'
 import {
-  EN_TO_ES_PI_SERVICE,
   EN_TO_ES_BK_SERVICE,
   localizedCanonicalUrl,
+  hasSpanishServiceSlug,
   practiceCityHref,
   practiceHubHref,
   serviceHref,
@@ -20,42 +21,53 @@ import { t } from '@/lib/dictionary'
 
 type PracticeSlug = 'personal-injury' | 'bankruptcy'
 
-const CITY_NAMES: Record<string, string> = {
-  redlands: 'Redlands',
-  'san-bernardino': 'San Bernardino',
-  fontana: 'Fontana',
-  riverside: 'Riverside',
-  'moreno-valley': 'Moreno Valley',
-  highland: 'Highland',
-  'palm-springs': 'Palm Springs',
-  'palm-desert': 'Palm Desert',
-  'cathedral-city': 'Cathedral City',
-  indio: 'Indio',
-  beaumont: 'Beaumont',
-  hemet: 'Hemet',
-  colton: 'Colton',
-  'desert-hot-springs': 'Desert Hot Springs',
-  'rancho-cucamonga': 'Rancho Cucamonga',
-}
-
-const PI_CITY_SERVICES = Object.keys(EN_TO_ES_PI_SERVICE).filter((slug) =>
-  ['car-accidents', 'truck-accidents', 'motorcycle-accidents', 'rideshare-accidents', 'wrongful-death', 'dog-bites'].includes(slug),
-)
+const PI_CITY_SERVICES = [
+  'truck-accidents',
+  'rideshare-accidents',
+  'wrongful-death',
+  'traumatic-brain-injury',
+  'spinal-cord-injury',
+  'car-accidents',
+  'motorcycle-accidents',
+  'dog-bites',
+] as const
 
 const BK_CITY_SERVICES = Object.keys(EN_TO_ES_BK_SERVICE)
+
+const SERVICE_LABELS: Record<string, { en: string; es: string }> = {
+  'truck-accidents': { en: 'Truck Accidents', es: 'Accidentes de Camión' },
+  'rideshare-accidents': { en: 'Rideshare Accidents', es: 'Accidentes de Rideshare' },
+  'wrongful-death': { en: 'Wrongful Death', es: 'Muerte Injusta' },
+  'traumatic-brain-injury': { en: 'Traumatic Brain Injury', es: 'Lesión Cerebral' },
+  'spinal-cord-injury': { en: 'Spinal Cord Injury', es: 'Lesiones de Médula Espinal' },
+  'car-accidents': { en: 'Car Accidents', es: 'Accidentes de Auto' },
+  'motorcycle-accidents': { en: 'Motorcycle Accidents', es: 'Accidentes de Motocicleta' },
+  'dog-bites': { en: 'Dog Bites', es: 'Mordeduras de Perro' },
+  'chapter-7': { en: 'Chapter 7 Bankruptcy', es: 'Bancarrota Capítulo 7' },
+  'chapter-13': { en: 'Chapter 13 Bankruptcy', es: 'Bancarrota Capítulo 13' },
+  'foreclosure-defense': { en: 'Foreclosure Defense', es: 'Defensa de Ejecución Hipotecaria' },
+  'wage-garnishment': { en: 'Wage Garnishment', es: 'Embargo de Salario' },
+}
 
 export async function getPracticeCityMetadata(
   practiceSlug: PracticeSlug,
   citySlug: string,
   locale: Locale,
 ) {
-  const name = CITY_NAMES[citySlug] || citySlug
-  const seo = practiceCitySeo(practiceSlug, citySlug, name, locale)
-  const path = `/${practiceSlug}/${citySlug}`
+  const pageCopy = cityCopy(practiceSlug, citySlug, locale)
+  if (!pageCopy) {
+    const name = cityDisplayName(citySlug, locale)
+    return pageMetadata({
+      title: `${name} Lawyer | Lombera Law`,
+      description: `Edgar P. Lombera — ${name}. Free consult.`,
+      path: `/${practiceSlug}/${citySlug}`,
+      locale,
+    })
+  }
   return pageMetadata({
-    title: seo.title,
-    description: seo.description,
-    path,
+    title: pageCopy.title,
+    description: pageCopy.description,
+    path: `/${practiceSlug}/${citySlug}`,
     locale,
   })
 }
@@ -71,17 +83,19 @@ export async function PracticeCityView({
 }) {
   if (!isLiveCity(citySlug)) notFound()
 
-  const name = CITY_NAMES[citySlug] || citySlug
-  const phone = cityPhone(citySlug)
+  const pageCopy = cityCopy(practiceSlug, citySlug, locale)
+  if (!pageCopy) notFound()
+
+  const name = cityDisplayName(citySlug, locale)
   const copy = t(locale)
-  const citySeo = practiceCitySeo(practiceSlug, citySlug, name, locale)
   const practicePath = practiceHubHref(locale, practiceSlug)
   const cityPath = practiceCityHref(locale, practiceSlug, citySlug)
   const canonicalUrl = localizedCanonicalUrl(`/${practiceSlug}/${citySlug}`, locale)
   const homeHref = locale === 'en' ? '/' : '/es/inicio/'
-  const services = practiceSlug === 'personal-injury' ? PI_CITY_SERVICES : BK_CITY_SERVICES
-
-  const h1 = citySeo.h1
+  const serviceSlugs = practiceSlug === 'personal-injury' ? PI_CITY_SERVICES : BK_CITY_SERVICES
+  const services = serviceSlugs.filter(
+    (service) => locale === 'en' || hasSpanishServiceSlug(practiceSlug, service),
+  )
 
   return (
     <main>
@@ -108,41 +122,52 @@ export async function PracticeCityView({
               { name, href: cityPath },
             ]}
           />
-          <h1 className="mt-4 font-display text-[2.5rem] leading-tight text-ink">{h1}</h1>
-          <p className="mt-4 max-w-xl font-body text-sm leading-relaxed text-ink-soft">
-            {practiceSlug === 'personal-injury'
-              ? `Edgar P. Lombera represents injured people in ${name} and surrounding areas on contingency. You pay no attorney fee unless we recover money.`
-              : `Edgar P. Lombera files Chapter 7 and Chapter 13 bankruptcy for families in ${name} and the surrounding area. Free consultation in English or Spanish.`}
-          </p>
+          <h1 className="mt-4 font-display text-[2.5rem] leading-tight text-ink">{pageCopy.h1}</h1>
           <div className="mt-6">
-            <Button href={`tel:${phone.replace(/\D/g, '')}`} size="lg" trackAs="call">
-              {copy.home.heroCTA}
-            </Button>
+            <CopyBody lead={pageCopy.lead} sections={pageCopy.sections} />
           </div>
         </Container>
       </section>
 
-      <section className="py-12">
-        <Container>
-          <h2 className="font-display text-xl text-ink">
-            {locale === 'es' ? 'Servicios' : 'Services'}
-          </h2>
-          <ul className="mt-4 grid gap-2 sm:grid-cols-2">
-            {services.map((service) => (
-              <li key={service}>
-                <Link
-                  href={serviceHref(locale, practiceSlug, service)}
-                  className="font-body text-sm text-ink-soft underline decoration-gold underline-offset-2 hover:text-ink"
-                >
-                  {locale === 'es'
-                    ? (practiceSlug === 'personal-injury' ? EN_TO_ES_PI_SERVICE : EN_TO_ES_BK_SERVICE)[service]?.replace(/-/g, ' ') || service.replace(/-/g, ' ')
-                    : service.replace(/-/g, ' ')}
-                </Link>
-              </li>
-            ))}
-          </ul>
-        </Container>
-      </section>
+      {services.length > 0 && (
+        <section className="py-12 md:py-16">
+          <Container>
+            <h2 className="font-display text-xl text-ink">
+              {locale === 'es' ? 'También manejamos' : 'We also handle'}
+            </h2>
+            <ul className="mt-6 grid gap-3 border-t border-line sm:grid-cols-2 lg:grid-cols-3">
+              {services.map((service) => {
+                const labels = SERVICE_LABELS[service]
+                const label = labels ? labels[locale] : service.replace(/-/g, ' ')
+                return (
+                  <li key={service}>
+                    <Link
+                      href={serviceHref(locale, practiceSlug, service)}
+                      className="block border-b border-line py-4 font-body text-sm font-medium text-ink hover:text-gold"
+                    >
+                      {label}
+                    </Link>
+                  </li>
+                )
+              })}
+            </ul>
+            {practiceSlug === 'personal-injury' && (
+              <p className="mt-6 max-w-2xl font-body text-sm text-ink-soft">
+                {locale === 'es'
+                  ? 'No manejamos resbalones y caídas ni responsabilidad de productos. La bancarrota por deuda médica se presenta en 3420 Twelfth Street, Riverside.'
+                  : 'We do not handle slip-and-fall or product liability. Medical-debt bankruptcy files at 3420 Twelfth Street, Riverside.'}
+              </p>
+            )}
+            {practiceSlug === 'bankruptcy' && (
+              <p className="mt-6 max-w-2xl font-body text-sm text-ink-soft">
+                {locale === 'es'
+                  ? 'Injury claims from the same household may run on contingency through the lesiones personales hub — no fee unless we win.'
+                  : 'Injury claims from the same household may run on contingency through the personal injury hub — no fee unless we win.'}
+              </p>
+            )}
+          </Container>
+        </section>
+      )}
     </main>
   )
 }
