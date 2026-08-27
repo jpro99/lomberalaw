@@ -29,6 +29,7 @@ const PI_CITY_SERVICES = [
   'spinal-cord-injury',
   'car-accidents',
   'motorcycle-accidents',
+  'pedestrian-accidents',
   'dog-bites',
 ] as const
 
@@ -42,6 +43,7 @@ const SERVICE_LABELS: Record<string, { en: string; es: string }> = {
   'spinal-cord-injury': { en: 'Spinal Cord Injury', es: 'Lesiones de Médula Espinal' },
   'car-accidents': { en: 'Car Accidents', es: 'Accidentes de Auto' },
   'motorcycle-accidents': { en: 'Motorcycle Accidents', es: 'Accidentes de Motocicleta' },
+  'pedestrian-accidents': { en: 'Pedestrian Accidents', es: 'Accidentes de Peatones' },
   'dog-bites': { en: 'Dog Bites', es: 'Mordeduras de Perro' },
   'chapter-7': { en: 'Chapter 7 Bankruptcy', es: 'Bancarrota Capítulo 7' },
   'chapter-13': { en: 'Chapter 13 Bankruptcy', es: 'Bancarrota Capítulo 13' },

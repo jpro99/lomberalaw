@@ -133,17 +133,3 @@ export function breadcrumbSchema(items: { name: string; url: string }[]) {
     })),
   }
 }
-
-export function faqPageSchema(items: { question: string; answer: string }[]) {
-  const valid = items.filter((item) => item.answer && item.answer !== item.question)
-  if (valid.length === 0) return null
-  return {
-    '@context': 'https://schema.org',
-    '@type': 'FAQPage',
-    mainEntity: valid.map((item) => ({
-      '@type': 'Question',
-      name: item.question,
-      acceptedAnswer: { '@type': 'Answer', text: item.answer },
-    })),
-  }
-}

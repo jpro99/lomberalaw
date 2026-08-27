@@ -87,7 +87,7 @@ export async function ServiceDetailView({
     <main>
       <JsonLd
         data={breadcrumbSchema([
-          { name: 'Home', url: `https://lomberalaw.com${homeHref}` },
+          { name: homeCrumb, url: `https://lomberalaw.com${homeHref}` },
           { name: practiceCrumb, url: `https://lomberalaw.com${practicePath}` },
           { name: breadcrumbName, url: canonicalUrl },
         ])}

@@ -31,6 +31,8 @@ export default async function ContactPage({ params }: { params: Promise<{ locale
   const contactHref = locale === 'es' ? '/es/contacta-con-nosotros/' : '/contact/'
   const hours = locale === 'es' ? OFFICE_HOURS_ES : OFFICE_HOURS_EN
 
+  const homeCrumb = locale === 'es' ? 'Inicio' : 'Home'
+
   const officeCards = OFFICES.map((o) => ({
     id: o.id,
     name: officeLabel(o.id, locale),
@@ -44,7 +46,7 @@ export default async function ContactPage({ params }: { params: Promise<{ locale
     <main>
       <JsonLd
         data={breadcrumbSchema([
-          { name: 'Home', url: `https://lomberalaw.com${homeHref}` },
+          { name: homeCrumb, url: `https://lomberalaw.com${homeHref}` },
           { name: pageCopy.h1, url: `https://lomberalaw.com${contactHref}` },
         ])}
       />

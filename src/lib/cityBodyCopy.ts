@@ -1096,7 +1096,7 @@ const PI_ES: Record<CitySlug, CityPageCopy> = {
     ],
     sections: [
 { h2: 'Choques en el corredor Base Line', paragraphs: ['Camiones, rideshare, muerte injusta, lesión cerebral y de médula espinal. Auto, motocicleta y mordeduras de perro.'] },
-      { h2: 'San Bernardino County', paragraphs: ['247 W. 3rd St., San Bernardino. Preserve fotos del escena.'] },
+      { h2: 'Condado de San Bernardino', paragraphs: ['247 W. 3rd St., San Bernardino. Preserve fotos de la escena.'] },
       { h2: `(909) 915-0181 — Redlands`, paragraphs: ['Sin honorarios a menos que ganemos. Bancarrota en Riverside.'] },
     ],
   },

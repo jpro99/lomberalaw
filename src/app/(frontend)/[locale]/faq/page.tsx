@@ -1,11 +1,10 @@
 import type { Locale } from '@/lib/payload'
 import { getGeneralFaqs } from '@/lib/getFaqs'
-import { lexicalToPlainText } from '@/lib/lexicalText'
 import { Container } from '@/components/Container'
 import { Breadcrumbs } from '@/components/Breadcrumbs'
 import { FAQAccordion } from '@/components/FAQAccordion'
 import { JsonLd } from '@/components/JsonLd'
-import { breadcrumbSchema, faqPageSchema } from '@/lib/schema'
+import { breadcrumbSchema } from '@/lib/schema'
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: Locale }> }) {
   const { locale } = await params
@@ -19,16 +18,6 @@ export default async function FAQPage({ params }: { params: Promise<{ locale: Lo
   const prefix = locale === 'en' ? '' : '/es'
   const faqs = await getGeneralFaqs(locale)
 
-  const faqSchema = faqPageSchema(
-    faqs
-      .map((f: any) => {
-        const answer =
-          typeof f.answer === 'string' ? f.answer.trim() : lexicalToPlainText(f.answer)
-        return answer ? { question: f.question as string, answer } : null
-      })
-      .filter((item): item is { question: string; answer: string } => item !== null),
-  )
-
   return (
     <main>
       <JsonLd
@@ -37,7 +26,6 @@ export default async function FAQPage({ params }: { params: Promise<{ locale: Lo
           { name: 'FAQ', url: `https://lomberalaw.com${prefix}/faq` },
         ])}
       />
-      {faqSchema && <JsonLd data={faqSchema} />}
 
       <section className="border-b border-line bg-stone py-14 md:py-20">
         <Container>
