@@ -904,7 +904,7 @@ const BK_EN: Record<CitySlug, CityPageCopy> = {
     description:
       'Chapter 7 and Chapter 13 bankruptcy for Palm Springs households. Prepared at 1276 N Palm Canyon Dr #107; filed at 3420 Twelfth Street, Riverside. Garnishment and foreclosure relief. (760) 835-9353.',
     lead: [
-      'This is the Coachella Valley office — 1276 N Palm Canyon Dr #107, Palm Springs, CA 92262. There is no Lombera suite at 3200 East Tahquitz Canyon Way City Hall, 3255 E. Tahquitz Canyon Way civil court, or 3420 Twelfth Street — that last address is the federal courthouse in Riverside, not a Palm Canyon storefront. Edgar P. Lombera prepares Chapter 7 and Chapter 13 here — about 3 miles and 7 minutes from City Hall via Palm Canyon Drive. You speak with him. English or Spanish. Two practices only: personal injury and bankruptcy. Every consumer case files at the U.S. Bankruptcy Court, 3420 Twelfth Street, Riverside — about 52 miles and 64 minutes west via Highway 111 and the I-10. Call (760) 835-9353.',
+      'This is the Coachella Valley office — 1276 N Palm Canyon Dr #107, Palm Springs, CA 92262. There is no Lombera suite at a county civil courthouse in Palm Springs or at 3420 Twelfth Street — that last address is the federal courthouse in Riverside, not a Palm Canyon storefront. Edgar P. Lombera prepares Chapter 7 and Chapter 13 here in Palm Springs. You speak with him. English or Spanish. Two practices only: personal injury and bankruptcy. Every consumer case files at the U.S. Bankruptcy Court, 3420 Twelfth Street, Riverside — about 52 miles and 64 minutes west via Highway 111 and the I-10. Call (760) 835-9353.',
     ],
     sections: [
       {
@@ -928,7 +928,7 @@ const BK_EN: Record<CitySlug, CityPageCopy> = {
       {
         h2: 'Where Palm Springs files — 3420 Twelfth Street, Riverside',
         paragraphs: [
-          'Every Palm Springs consumer bankruptcy files at the U.S. Bankruptcy Court, Central District of California, 3420 Twelfth Street, Riverside — about 52 miles and 64 minutes west via Highway 111 and the I-10 from the desk at Palm Canyon Drive. That building is the courthouse, not a Lombera suite. That is not 3255 E. Tahquitz Canyon Way civil court, not 4050 Main Street, not 247 W. 3rd St., and not the Indio Division. There is no bankruptcy court in Palm Springs. Official court filing fees are $338 for Chapter 7 and $313 for Chapter 13. The Section 341 meeting of creditors is often held remotely.',
+          'Every Palm Springs consumer bankruptcy files at the U.S. Bankruptcy Court, Central District of California, 3420 Twelfth Street, Riverside — about 52 miles and 64 minutes west via Highway 111 and the I-10 from the desk at Palm Canyon Drive. That building is the courthouse, not a Lombera suite. That is not the county civil courthouse in Palm Springs, not 4050 Main Street, not 247 W. 3rd St., and not the Indio Division. There is no bankruptcy court in Palm Springs. Official court filing fees are $338 for Chapter 7 and $313 for Chapter 13. The Section 341 meeting of creditors is often held remotely.',
         ],
       },
       {
@@ -940,7 +940,7 @@ const BK_EN: Record<CitySlug, CityPageCopy> = {
       {
         h2: '(760) 835-9353 — 1276 N Palm Canyon Dr #107',
         paragraphs: [
-          'Hours: Monday–Friday 9am–6pm, Saturday 10am–4pm, Sunday by appointment. The consultation is in Palm Springs — about 3 miles and 7 minutes from City Hall, not a Tahquitz courthouse address. Redlands is the other office — 2068 Orange Tree Lane, Suite 220, (909) 915-0181. ' +
+          'Hours: Monday–Friday 9am–6pm, Saturday 10am–4pm, Sunday by appointment. The consultation is a sit-down in Palm Springs — not a federal courthouse address. Redlands is the other office — 2068 Orange Tree Lane, Suite 220, (909) 915-0181. ' +
             DEBT_RELIEF,
         ],
       },
@@ -2159,7 +2159,7 @@ const BK_ES: Record<CitySlug, CityPageCopy> = {
     description:
       'Capítulo 7 y Capítulo 13 para hogares de Palm Springs. Preparado en 1276 N Palm Canyon Dr #107; presentado en 3420 Twelfth Street, Riverside. Alivio de embargo y ejecución hipotecaria. (760) 835-9353.',
     lead: [
-      'Esta es la oficina del Valle de Coachella — 1276 N Palm Canyon Dr #107, Palm Springs, CA 92262. No hay suite de Lombera en el ayuntamiento de 3200 East Tahquitz Canyon Way, en el tribunal civil de 3255 E. Tahquitz Canyon Way ni en 3420 Twelfth Street — esa última dirección es el tribunal federal en Riverside, no un local en Palm Canyon. Edgar P. Lombera prepara el Capítulo 7 y el Capítulo 13 aquí — unas 3 millas y 7 minutos desde el ayuntamiento por Palm Canyon Drive. Usted habla con él. Inglés o español. Solo dos prácticas: lesiones personales y bancarrota. Todo caso de consumidor se presenta en el Tribunal de Bancarrota de EE. UU., 3420 Twelfth Street, Riverside — unas 52 millas y 64 minutos al oeste por la Carretera 111 y la I-10. Llame al (760) 835-9353.',
+      'Esta es la oficina del Valle de Coachella — 1276 N Palm Canyon Dr #107, Palm Springs, CA 92262. No hay suite de Lombera en un tribunal civil del condado en Palm Springs ni en 3420 Twelfth Street — esa última dirección es el tribunal federal en Riverside, no un local en Palm Canyon. Edgar P. Lombera prepara el Capítulo 7 y el Capítulo 13 aquí en Palm Springs. Usted habla con él. Inglés o español. Solo dos prácticas: lesiones personales y bancarrota. Todo caso de consumidor se presenta en el Tribunal de Bancarrota de EE. UU., 3420 Twelfth Street, Riverside — unas 52 millas y 64 minutos al oeste por la Carretera 111 y la I-10. Llame al (760) 835-9353.',
     ],
     sections: [
       {
@@ -2183,7 +2183,7 @@ const BK_ES: Record<CitySlug, CityPageCopy> = {
       {
         h2: 'Dónde presenta Palm Springs — 3420 Twelfth Street, Riverside',
         paragraphs: [
-          'Toda bancarrota de consumidor de Palm Springs se presenta en el Tribunal de Bancarrota de EE. UU., Distrito Central de California, 3420 Twelfth Street, Riverside — unas 52 millas y 64 minutos al oeste por la Carretera 111 y la I-10 desde el escritorio en Palm Canyon Drive. Ese edificio es el tribunal, no una suite de Lombera. Eso no es el tribunal civil de 3255 E. Tahquitz Canyon Way, no es 4050 Main Street, no es 247 W. 3rd St. ni la División Indio. No hay tribunal de bancarrota en Palm Springs. Las tarifas oficiales de presentación judicial son $338 para el Capítulo 7 y $313 para el Capítulo 13. La reunión de acreedores de la Sección 341 suele ser remota.',
+          'Toda bancarrota de consumidor de Palm Springs se presenta en el Tribunal de Bancarrota de EE. UU., Distrito Central de California, 3420 Twelfth Street, Riverside — unas 52 millas y 64 minutos al oeste por la Carretera 111 y la I-10 desde el escritorio en Palm Canyon Drive. Ese edificio es el tribunal, no una suite de Lombera. Eso no es el tribunal civil del condado en Palm Springs, no es 4050 Main Street, no es 247 W. 3rd St. ni la División Indio. No hay tribunal de bancarrota en Palm Springs. Las tarifas oficiales de presentación judicial son $338 para el Capítulo 7 y $313 para el Capítulo 13. La reunión de acreedores de la Sección 341 suele ser remota.',
         ],
       },
       {
@@ -2195,7 +2195,7 @@ const BK_ES: Record<CitySlug, CityPageCopy> = {
       {
         h2: '(760) 835-9353 — 1276 N Palm Canyon Dr #107',
         paragraphs: [
-          'Horario: lunes a viernes 9am–6pm, sábado 10am–4pm, domingo con cita. La consulta es en Palm Springs — unas 3 millas y 7 minutos desde el ayuntamiento, no una dirección del tribunal Tahquitz. Redlands es la otra oficina — 2068 Orange Tree Lane, Suite 220, (909) 915-0181. Somos una agencia de alivio de deudas. Ayudamos a las personas a solicitar alivio de bancarrota bajo el Código de Bancarrota (11 U.S.C. §528).',
+          'Horario: lunes a viernes 9am–6pm, sábado 10am–4pm, domingo con cita. La consulta es en persona en Palm Springs — no una dirección de tribunal federal. Redlands es la otra oficina — 2068 Orange Tree Lane, Suite 220, (909) 915-0181. Somos una agencia de alivio de deudas. Ayudamos a las personas a solicitar alivio de bancarrota bajo el Código de Bancarrota (11 U.S.C. §528).',
         ],
       },
     ],
