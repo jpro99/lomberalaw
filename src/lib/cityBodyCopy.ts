@@ -947,30 +947,49 @@ const BK_EN: Record<CitySlug, CityPageCopy> = {
     ],
   },
   'palm-desert': {
-    h1: 'Palm Desert bankruptcy lawyer — file at 3420 Twelfth Street',
-    title: 'Palm Desert Bankruptcy Lawyer | Free Consult | Lombera',
+    h1: 'Palm Desert Bankruptcy Lawyer',
+    title: 'Palm Desert Bankruptcy Lawyer | Chapter 7 & Chapter 13 | Inland Empire | Lombera',
     description:
-      'Chapter 7 and Chapter 13 in Palm Desert. Foreclosure and garnishment relief. Riverside court. (760) 835-9353.',
+      'Chapter 7 and Chapter 13 bankruptcy for Palm Desert households. Prepared at 1276 N Palm Canyon Dr #107, Palm Springs; filed at 3420 Twelfth Street, Riverside. Garnishment and foreclosure relief. (760) 835-9353.',
     lead: [
-      'Palm Desert homeowners and retirees facing creditor lawsuits or wage garnishment can file Chapter 7 or Chapter 13. Consult at the Palm Springs office; filing at the federal courthouse in Riverside at 3420 Twelfth Street.',
+      'There is no Lombera suite at 74361 CA-111, 36-915 Cook Street, El Paseo, Monterey Avenue, or 73510 Fred Waring Drive — City Hall is civic only, not a law office — and 3420 Twelfth Street is the federal courthouse in Riverside, not a Palm Canyon storefront. Palm Desert wage garnishments and foreclosure notices are state-court collection until a federal petition is filed. Meet Edgar P. Lombera at 1276 N Palm Canyon Dr #107, Palm Springs, CA 92262 — about 17 miles and 26 minutes northwest via Fred Waring Drive, Monterey Avenue, the I-10 west, and Date Palm Drive from Palm Desert City Hall. He prepares Chapter 7 and Chapter 13 at that desk. You speak with him. English or Spanish. Two practices only: personal injury and bankruptcy. Every consumer case files at the U.S. Bankruptcy Court, 3420 Twelfth Street, Riverside — about 52 miles and 64 minutes west via Highway 111 and the I-10 from the Palm Canyon office. Call (760) 835-9353.',
     ],
     sections: [
       {
-        h2: 'Debt relief options',
+        h2: 'Chapter 7 — means test and no-asset discharge',
         paragraphs: [
-          'Chapter 7 is the faster discharge for qualifying filers. Chapter 13 is the repayment plan when you need to keep property or income exceeds Chapter 7 limits.',
+          'Chapter 7 clears most unsecured debt when the household passes the means test — credit cards, desert medical bills, and deficiency balances after a vehicle repo. This is a Palm Desert valley household review at the Palm Canyon desk, not a volume mill and not a Palm Springs page with the city name swapped. A typical no-asset case discharges in about 90 to 120 days when the trustee accepts the petition.',
         ],
       },
       {
-        h2: 'Homestead exemption',
+        h2: 'Chapter 13 — plan, arrears, and cramdown',
         paragraphs: [
-          'California’s homestead exemption protects most valley homes — we verify equity in the free meeting with documents, not guesses.',
+          'Chapter 13 folds mortgage arrears into a three-to-five-year court plan and can cram down certain secured balances where the Bankruptcy Code allows — common when a Palm Desert household still has wages or retirement income but fell behind during a medical event or HOA pressure cycle. The plan is the relief, not a foreclosure-defense add-on sold separately.',
         ],
       },
       {
-        h2: '3420 Twelfth Street, Riverside',
+        h2: 'Automatic stay — garnishment, foreclosure, repossession',
         paragraphs: [
-          'All Coachella Valley consumer bankruptcies file in Riverside, not Indio. Court fees $338/$313. Debt relief agency under the Bankruptcy Code. (760) 835-9353.',
+          'The automatic stay begins the day the petition is filed — wage garnishments tied to Palm Desert employers, scheduled foreclosure sales, and repossession timelines pause for most creditors. Filing before the next paycheck or sale date protects lead time that waiting burns.',
+        ],
+      },
+      {
+        h2: 'Where Palm Desert files — 3420 Twelfth Street, Riverside',
+        paragraphs: [
+          'Every Palm Desert consumer bankruptcy files at the U.S. Bankruptcy Court, Central District of California, 3420 Twelfth Street, Riverside — about 52 miles and 64 minutes west via Highway 111 and the I-10 from the desk at 1276 N Palm Canyon Dr in Palm Springs. That building is the courthouse, not a Lombera suite. That is not the county civil courthouse in the valley, not 4050 Main Street, not 247 W. 3rd St., and not the Indio Division. There is no bankruptcy court in Palm Desert. Official court filing fees are $338 for Chapter 7 and $313 for Chapter 13. The Section 341 meeting of creditors is often held remotely.',
+        ],
+      },
+      {
+        h2: 'Tax debt vs injury settlement',
+        paragraphs: [
+          'Older income-tax debt may discharge in Chapter 7 when timing and notice rules are met — we confirm in the consult. A personal injury settlement from the same household is a separate question under the two-practice model. California homestead exemptions are confirmed with your documents — we do not print dollar caps here.',
+        ],
+      },
+      {
+        h2: '(760) 835-9353 — 1276 N Palm Canyon Dr #107',
+        paragraphs: [
+          'Hours: Monday–Friday 9am–6pm, Saturday 10am–4pm, Sunday by appointment. From Palm Desert, the consultation is about 17 miles and 26 minutes northwest on Fred Waring, Monterey, the I-10 west, and Date Palm — not an El Paseo or Cook Street storefront. Redlands is the other office — 2068 Orange Tree Lane, Suite 220, (909) 915-0181. ' +
+            DEBT_RELIEF,
         ],
       },
     ],
@@ -2201,31 +2220,50 @@ const BK_ES: Record<CitySlug, CityPageCopy> = {
     ],
   },
   'palm-desert': {
-    h1: "Abogado de bancarrota en Palm Desert — tribunal en Riverside",
-    title: "Abogado de Bancarrota Palm Desert | Lombera",
-    description: "Capítulo 7 y Capítulo 13 en Palm Desert. Alivio de ejecución hipotecaria y embargo. Tribunal Riverside. (760) 835-9353.",
+    h1: 'Abogado de Bancarrota en Palm Desert',
+    title: 'Abogado de Bancarrota Palm Desert | Capítulo 7 y Capítulo 13 | Inland Empire | Lombera',
+    description:
+      'Capítulo 7 y Capítulo 13 para hogares de Palm Desert. Preparado en 1276 N Palm Canyon Dr #107, Palm Springs; presentado en 3420 Twelfth Street, Riverside. Alivio de embargo y ejecución hipotecaria. (760) 835-9353.',
     lead: [
-      "Propietarios y jubilados de Palm Desert que enfrentan demandas de acreedores o embargo de salario pueden presentar el Capítulo 7 o el Capítulo 13. Consulta en la oficina de Palm Springs; presentación en el tribunal federal de Riverside en 3420 Twelfth Street.",
+      'No hay suite de Lombera en 74361 CA-111, 36-915 Cook Street, El Paseo, Monterey Avenue ni 73510 Fred Waring Drive — el ayuntamiento es solo cívico, no una oficina legal — y 3420 Twelfth Street es el tribunal federal en Riverside, no un local en Palm Canyon. Los embargos de salario y avisos de ejecución hipotecaria en Palm Desert son cobranza del tribunal estatal hasta que se presenta una petición federal. Reúnase con Edgar P. Lombera en 1276 N Palm Canyon Dr #107, Palm Springs, CA 92262 — unas 17 millas y 26 minutos al noroeste por Fred Waring Drive, Monterey Avenue, la I-10 al oeste y Date Palm Drive desde el ayuntamiento de Palm Desert. Él prepara el Capítulo 7 y el Capítulo 13 en ese escritorio. Usted habla con él. Inglés o español. Solo dos prácticas: lesiones personales y bancarrota. Todo caso de consumidor se presenta en el Tribunal de Bancarrota de EE. UU., 3420 Twelfth Street, Riverside — unas 52 millas y 64 minutos al oeste por la Carretera 111 y la I-10 desde la oficina de Palm Canyon. Llame al (760) 835-9353.',
     ],
     sections: [
-          {
-            h2: "Opciones de alivio de deudas",
-            paragraphs: [
-            "El Capítulo 7 es la descarga más rápida para quienes califican. El Capítulo 13 es el plan de pago cuando necesita conservar la propiedad o los ingresos superan los límites del Capítulo 7.",
-            ],
-          },
-          {
-            h2: "Exención de vivienda",
-            paragraphs: [
-            "La exención de vivienda de California protege la mayoría de las casas del valle — verificamos el capital en la reunión gratuita con documentos, no suposiciones.",
-            ],
-          },
-          {
-            h2: "3420 Twelfth Street, Riverside",
-            paragraphs: [
-            "Todas las bancarrotas de consumidor del Valle de Coachella se presentan en Riverside, no en Indio. Tarifas judiciales $338/$313. Agencia de alivio de deudas bajo el Código de Bancarrota. (760) 835-9353.",
-            ],
-          },
+      {
+        h2: 'Capítulo 7 — prueba de medios y eliminación sin activos',
+        paragraphs: [
+          'El Capítulo 7 elimina la mayor parte de la deuda no garantizada cuando el hogar pasa la prueba de medios — tarjetas de crédito, facturas médicas del desierto y saldos de deficiencia tras la recuperación de un vehículo. Esta es una revisión de hogar del valle de Palm Desert en el escritorio de Palm Canyon, no un molino de volumen ni una página de Palm Springs con el nombre de la ciudad cambiado. Un caso típico sin activos se elimina en unos 90 a 120 días cuando el síndico acepta la petición.',
+        ],
+      },
+      {
+        h2: 'Capítulo 13 — plan, atrasos y reducción forzada del saldo garantizado',
+        paragraphs: [
+          'El Capítulo 13 incorpora los atrasos de la hipoteca en un plan judicial de tres a cinco años y puede reducir de forma forzada ciertos saldos garantizados donde el Código de Bancarrota lo permite — frecuente cuando un hogar de Palm Desert aún tiene salarios o ingresos de jubilación pero se atrasó durante un evento médico o un ciclo de presión de la HOA. El plan es el alivio, no un complemento de defensa de ejecución hipotecaria vendido por separado.',
+        ],
+      },
+      {
+        h2: 'Suspensión automática — embargo, ejecución hipotecaria, recuperación de vehículo',
+        paragraphs: [
+          'La suspensión automática comienza el día que se presenta la petición — los embargos de salario vinculados a empleadores de Palm Desert, las ventas de ejecución hipotecaria programadas y los plazos de recuperación de vehículos se pausan para la mayoría de los acreedores. Presentar antes del próximo cheque o fecha de venta protege el tiempo que esperar consumiría.',
+        ],
+      },
+      {
+        h2: 'Dónde presenta Palm Desert — 3420 Twelfth Street, Riverside',
+        paragraphs: [
+          'Toda bancarrota de consumidor de Palm Desert se presenta en el Tribunal de Bancarrota de EE. UU., Distrito Central de California, 3420 Twelfth Street, Riverside — unas 52 millas y 64 minutos al oeste por la Carretera 111 y la I-10 desde el escritorio en 1276 N Palm Canyon Dr en Palm Springs. Ese edificio es el tribunal, no una suite de Lombera. Eso no es el tribunal civil del condado en el valle, no es 4050 Main Street, no es 247 W. 3rd St. ni la División Indio. No hay tribunal de bancarrota en Palm Desert. Las tarifas oficiales de presentación judicial son $338 para el Capítulo 7 y $313 para el Capítulo 13. La reunión de acreedores de la Sección 341 suele ser remota.',
+        ],
+      },
+      {
+        h2: 'Deuda fiscal frente a acuerdo por lesiones',
+        paragraphs: [
+          'La deuda fiscal antigua por ingresos puede eliminarse en el Capítulo 7 cuando se cumplen las reglas de plazo y aviso — lo confirmamos en la consulta. Un acuerdo por lesiones personales del mismo hogar es una pregunta separada bajo el modelo de dos prácticas. Las exenciones de vivienda de California se confirman con sus documentos — no imprimimos montos en dólares aquí.',
+        ],
+      },
+      {
+        h2: '(760) 835-9353 — 1276 N Palm Canyon Dr #107',
+        paragraphs: [
+          'Horario: lunes a viernes 9am–6pm, sábado 10am–4pm, domingo con cita. Desde Palm Desert, la consulta es unas 17 millas y 26 minutos al noroeste por Fred Waring, Monterey, la I-10 al oeste y Date Palm — no un local en El Paseo ni Cook Street. Redlands es la otra oficina — 2068 Orange Tree Lane, Suite 220, (909) 915-0181. Somos una agencia de alivio de deudas. Ayudamos a las personas a solicitar alivio de bancarrota bajo el Código de Bancarrota (11 U.S.C. §528).',
+        ],
+      },
     ],
   },
   'cathedral-city': {
