@@ -5,7 +5,6 @@ import { Container } from '@/components/Container'
 import { Button } from '@/components/Button'
 import { PracticeCard } from '@/components/PracticeCard'
 import { EdgarHeadshot } from '@/components/EdgarHeadshot'
-import { CopyBody } from '@/components/CopyBody'
 import { HomeCityList } from '@/components/HomeCityList'
 import { JsonLd } from '@/components/JsonLd'
 import { firmLegalServiceSchema } from '@/lib/schema'
@@ -41,40 +40,35 @@ export default async function HomePage({ params }: { params: Promise<{ locale: L
   const seo = locale === 'en' ? HOME_SEO.en : HOME_SEO.es
   const pageCopy = HOME_COPY[locale]
   const h1 = pageCopy.h1
+  const redlands = OFFICES[0]
 
   const piHref = locale === 'es' ? '/es/lesiones-personales/' : '/personal-injury/'
   const bkHref = locale === 'es' ? '/es/bancarrota/' : '/bankruptcy/'
 
-  const nextSteps =
+  const nextStep =
     locale === 'es'
-      ? [
-          'Abra la tarjeta que coincida con su problema — lesiones o bancarrota.',
-          'Llame a la oficina más cercana y pida a Edgar.',
-          'Use el formulario a continuación para enviar un mensaje.',
-        ]
-      : [
-          'Open the card that matches your problem — injury or bankruptcy.',
-          'Call the nearer office and ask for Edgar.',
-          'Use the form below to send a message.',
-        ]
+      ? 'Elija lesiones personales o bancarrota a continuación, o use el formulario para hablar con Edgar.'
+      : 'Choose personal injury or bankruptcy below, or use the form to reach Edgar.'
 
   return (
     <main>
       <JsonLd data={firmLegalServiceSchema()} />
 
-      <section className="relative overflow-hidden border-b border-line bg-navy text-white">
-        <Container className="relative grid items-center gap-6 py-8 md:grid-cols-[1.1fr_auto] md:py-10">
+      <section className="border-b border-line bg-panel">
+        <Container className="grid items-center gap-10 py-12 md:grid-cols-[1.05fr_auto] md:gap-12 md:py-16 lg:py-20">
           <div className="max-w-xl">
-            <p className="font-body text-[11px] font-bold uppercase tracking-[0.16em] text-gold">
+            <p className="font-body text-[11px] font-semibold uppercase tracking-[0.18em] text-gold">
               {copy.officesLine}
             </p>
-            <h1 className="mt-3 font-display text-[2rem] leading-[1.12] text-white md:text-[2.5rem]">{h1}</h1>
-            <div className="mt-5 flex flex-wrap gap-3">
-              {OFFICES.map((office) => (
-                <Button key={office.id} href={`tel:${office.tel}`} variant="onDark" size="md" trackAs="call">
-                  {office.addressLocality} {office.phone}
-                </Button>
-              ))}
+            <h1 className="mt-4 font-display text-[2rem] leading-[1.12] text-navy md:text-[2.75rem]">{h1}</h1>
+            {pageCopy.lead?.[0] && (
+              <p className="mt-5 max-w-lg font-body text-base leading-relaxed text-ink-soft">{pageCopy.lead[0]}</p>
+            )}
+            <div className="mt-8">
+              <Button href={`tel:${redlands.tel}`} variant="accent" size="lg" trackAs="call">
+                {redlands.phone}
+              </Button>
+              <p className="mt-4 max-w-md font-body text-sm leading-relaxed text-ink-muted">{nextStep}</p>
             </div>
           </div>
           <div className="justify-self-center md:justify-self-end">
@@ -83,7 +77,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: L
         </Container>
       </section>
 
-      <section className="border-b border-line py-12 md:py-16">
+      <section className="border-b border-line bg-stone py-14 md:py-16">
         <Container>
           <div className="grid md:grid-cols-2">
             <PracticeCard
@@ -105,28 +99,6 @@ export default async function HomePage({ params }: { params: Promise<{ locale: L
       </section>
 
       <HomeCityList locale={locale} />
-
-      <section className="border-b border-line bg-panel py-12 md:py-16">
-        <Container>
-          <CopyBody lead={pageCopy.lead} sections={pageCopy.sections} />
-        </Container>
-      </section>
-
-      <section className="border-b border-line py-10 md:py-12">
-        <Container className="max-w-2xl">
-          <h2 className="font-display text-xl text-ink md:text-2xl">
-            {locale === 'es' ? 'Siguiente paso' : 'What happens next'}
-          </h2>
-          <ol className="mt-5 list-decimal space-y-3 pl-5 font-body text-sm leading-relaxed text-ink-soft md:text-base">
-            {nextSteps.map((step) => (
-              <li key={step}>{step}</li>
-            ))}
-          </ol>
-          {pageCopy.next && (
-            <p className="mt-6 font-body text-sm leading-relaxed text-ink-soft md:text-base">{pageCopy.next}</p>
-          )}
-        </Container>
-      </section>
     </main>
   )
 }

@@ -56,23 +56,18 @@ export function MarketingPageChrome({
   const tel = citySlug ? cityTel(citySlug) : PRIMARY_TEL
 
   return (
-    <section className="border-t border-line bg-stone py-12 md:py-16">
-      <Container className="max-w-2xl">
+    <section className="border-t border-line bg-panel py-12 md:py-14">
+      <Container className="max-w-xl">
         {showCall && (
           <div className="mb-8">
-            <h2 className="font-display text-xl text-ink">
-              {locale === 'es' ? 'Llame ahora' : 'Call now'}
-            </h2>
-            <p className="mt-2 font-body text-sm text-ink-soft">
+            <Button href={`tel:${tel}`} variant="accent" size="lg" trackAs="call">
+              {phone}
+            </Button>
+            <p className="mt-3 font-body text-sm text-ink-muted">
               {locale === 'es'
-                ? 'Consulta gratuita en inglés o español. Hable directamente con Edgar P. Lombera.'
-                : 'Free consultation in English or Spanish. Speak directly with Edgar P. Lombera.'}
+                ? 'Consulta gratuita en inglés o español.'
+                : 'Free consultation in English or Spanish.'}
             </p>
-            <div className="mt-4">
-              <Button href={`tel:${tel}`} size="lg" trackAs="call">
-                {phone}
-              </Button>
-            </div>
           </div>
         )}
         <ContactForm copy={copy.contact.form} locale={locale} />

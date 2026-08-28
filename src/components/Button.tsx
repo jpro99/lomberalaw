@@ -6,7 +6,7 @@ import { logEventClient } from '@/lib/memory/logClient'
 type ButtonProps = {
   href: string
   children: React.ReactNode
-  variant?: 'primary' | 'secondary' | 'ghost' | 'onDark'
+  variant?: 'primary' | 'secondary' | 'ghost' | 'onDark' | 'accent'
   size?: 'md' | 'lg'
   className?: string
   trackAs?: string
@@ -20,6 +20,7 @@ const variants = {
   secondary: 'border border-ink text-ink hover:bg-ink hover:text-white',
   ghost: 'text-ink underline decoration-line underline-offset-4 hover:decoration-ink',
   onDark: 'bg-panel text-ink hover:bg-gold-soft',
+  accent: 'bg-gold text-navy hover:bg-gold-deep',
 }
 
 const sizes = {
