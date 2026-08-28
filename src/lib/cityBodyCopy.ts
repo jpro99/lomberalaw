@@ -952,7 +952,7 @@ const BK_EN: Record<CitySlug, CityPageCopy> = {
     description:
       'Chapter 7 and Chapter 13 bankruptcy for Palm Desert households. Prepared at 1276 N Palm Canyon Dr #107, Palm Springs; filed at 3420 Twelfth Street, Riverside. Garnishment and foreclosure relief. (760) 835-9353.',
     lead: [
-      'There is no Lombera suite at 74361 CA-111, 36-915 Cook Street, El Paseo, Monterey Avenue, or 73510 Fred Waring Drive — City Hall is civic only, not a law office — and 3420 Twelfth Street is the federal courthouse in Riverside, not a Palm Canyon storefront. Palm Desert wage garnishments and foreclosure notices are state-court collection until a federal petition is filed. Meet Edgar P. Lombera at 1276 N Palm Canyon Dr #107, Palm Springs, CA 92262 — about 17 miles and 26 minutes northwest via Fred Waring Drive, Monterey Avenue, the I-10 west, and Date Palm Drive from Palm Desert City Hall. He prepares Chapter 7 and Chapter 13 at that desk. You speak with him. English or Spanish. Two practices only: personal injury and bankruptcy. Every consumer case files at the U.S. Bankruptcy Court, 3420 Twelfth Street, Riverside — about 52 miles and 64 minutes west via Highway 111 and the I-10 from the Palm Canyon office. Call (760) 835-9353.',
+      'Palm Desert wage garnishments and foreclosure notices are state-court collection until a federal petition is filed. Meet Edgar P. Lombera at 1276 N Palm Canyon Dr #107, Palm Springs, CA 92262 — about 17 miles and 26 minutes northwest via Fred Waring Drive, Monterey Avenue, the I-10 west, and Date Palm Drive from downtown Palm Desert. He prepares Chapter 7 and Chapter 13 at that desk. You speak with him. English or Spanish. Two practices only: personal injury and bankruptcy. Every consumer case files at the U.S. Bankruptcy Court, 3420 Twelfth Street, Riverside — about 52 miles and 64 minutes west via Highway 111 and the I-10 from the Palm Canyon office. Call (760) 835-9353.',
     ],
     sections: [
       {
@@ -988,7 +988,7 @@ const BK_EN: Record<CitySlug, CityPageCopy> = {
       {
         h2: '(760) 835-9353 — 1276 N Palm Canyon Dr #107',
         paragraphs: [
-          'Hours: Monday–Friday 9am–6pm, Saturday 10am–4pm, Sunday by appointment. From Palm Desert, the consultation is about 17 miles and 26 minutes northwest on Fred Waring, Monterey, the I-10 west, and Date Palm — not an El Paseo or Cook Street storefront. Redlands is the other office — 2068 Orange Tree Lane, Suite 220, (909) 915-0181. ' +
+          'Hours: Monday–Friday 9am–6pm, Saturday 10am–4pm, Sunday by appointment. From Palm Desert, the consultation is about 17 miles and 26 minutes northwest on Fred Waring, Monterey, the I-10 west, and Date Palm — sit-down at the Palm Canyon office, not a federal courthouse address. Redlands is the other office — 2068 Orange Tree Lane, Suite 220, (909) 915-0181. ' +
             DEBT_RELIEF,
         ],
       },
@@ -2225,7 +2225,7 @@ const BK_ES: Record<CitySlug, CityPageCopy> = {
     description:
       'Capítulo 7 y Capítulo 13 para hogares de Palm Desert. Preparado en 1276 N Palm Canyon Dr #107, Palm Springs; presentado en 3420 Twelfth Street, Riverside. Alivio de embargo y ejecución hipotecaria. (760) 835-9353.',
     lead: [
-      'No hay suite de Lombera en 74361 CA-111, 36-915 Cook Street, El Paseo, Monterey Avenue ni 73510 Fred Waring Drive — el ayuntamiento es solo cívico, no una oficina legal — y 3420 Twelfth Street es el tribunal federal en Riverside, no un local en Palm Canyon. Los embargos de salario y avisos de ejecución hipotecaria en Palm Desert son cobranza del tribunal estatal hasta que se presenta una petición federal. Reúnase con Edgar P. Lombera en 1276 N Palm Canyon Dr #107, Palm Springs, CA 92262 — unas 17 millas y 26 minutos al noroeste por Fred Waring Drive, Monterey Avenue, la I-10 al oeste y Date Palm Drive desde el ayuntamiento de Palm Desert. Él prepara el Capítulo 7 y el Capítulo 13 en ese escritorio. Usted habla con él. Inglés o español. Solo dos prácticas: lesiones personales y bancarrota. Todo caso de consumidor se presenta en el Tribunal de Bancarrota de EE. UU., 3420 Twelfth Street, Riverside — unas 52 millas y 64 minutos al oeste por la Carretera 111 y la I-10 desde la oficina de Palm Canyon. Llame al (760) 835-9353.',
+      'Los embargos de salario y avisos de ejecución hipotecaria en Palm Desert son cobranza del tribunal estatal hasta que se presenta una petición federal. Reúnase con Edgar P. Lombera en 1276 N Palm Canyon Dr #107, Palm Springs, CA 92262 — unas 17 millas y 26 minutos al noroeste por Fred Waring Drive, Monterey Avenue, la I-10 al oeste y Date Palm Drive desde el centro de Palm Desert. Él prepara el Capítulo 7 y el Capítulo 13 en ese escritorio. Usted habla con él. Inglés o español. Solo dos prácticas: lesiones personales y bancarrota. Todo caso de consumidor se presenta en el Tribunal de Bancarrota de EE. UU., 3420 Twelfth Street, Riverside — unas 52 millas y 64 minutos al oeste por la Carretera 111 y la I-10 desde la oficina de Palm Canyon. Llame al (760) 835-9353.',
     ],
     sections: [
       {
@@ -2261,7 +2261,7 @@ const BK_ES: Record<CitySlug, CityPageCopy> = {
       {
         h2: '(760) 835-9353 — 1276 N Palm Canyon Dr #107',
         paragraphs: [
-          'Horario: lunes a viernes 9am–6pm, sábado 10am–4pm, domingo con cita. Desde Palm Desert, la consulta es unas 17 millas y 26 minutos al noroeste por Fred Waring, Monterey, la I-10 al oeste y Date Palm — no un local en El Paseo ni Cook Street. Redlands es la otra oficina — 2068 Orange Tree Lane, Suite 220, (909) 915-0181. Somos una agencia de alivio de deudas. Ayudamos a las personas a solicitar alivio de bancarrota bajo el Código de Bancarrota (11 U.S.C. §528).',
+          'Horario: lunes a viernes 9am–6pm, sábado 10am–4pm, domingo con cita. Desde Palm Desert, la consulta es unas 17 millas y 26 minutos al noroeste por Fred Waring, Monterey, la I-10 al oeste y Date Palm — en el escritorio de Palm Canyon, no una dirección de tribunal federal. Redlands es la otra oficina — 2068 Orange Tree Lane, Suite 220, (909) 915-0181. Somos una agencia de alivio de deudas. Ayudamos a las personas a solicitar alivio de bancarrota bajo el Código de Bancarrota (11 U.S.C. §528).',
         ],
       },
     ],
