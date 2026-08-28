@@ -764,30 +764,49 @@ const PI_EN: Record<CitySlug, CityPageCopy> = {
 
 const BK_EN: Record<CitySlug, CityPageCopy> = {
   fontana: {
-    h1: 'Fontana bankruptcy lawyer — file at 3420 Twelfth Street',
-    title: 'Fontana Bankruptcy Lawyer | Chapter 7 & 13 | Lombera',
+    h1: 'Fontana Bankruptcy Lawyer',
+    title: 'Fontana Bankruptcy Lawyer | Chapter 7 & 13 | Inland Empire | Lombera',
     description:
-      'Chapter 7 and Chapter 13 in Fontana. Stop garnishment and foreclosure. Filed at Riverside bankruptcy court. (909) 915-0181.',
+      'Chapter 7 and Chapter 13 bankruptcy for Fontana households. Prepared at 2068 Orange Tree Lane, Redlands; filed at 3420 Twelfth Street, Riverside. Garnishment and foreclosure relief. (909) 915-0181.',
     lead: [
-      'Fontana families dealing with credit cards, medical bills, or a wage levy need federal relief — not another collection call. Edgar P. Lombera files Chapter 7 and Chapter 13 from the Redlands office. Every consumer case goes to the U.S. Bankruptcy Court, Central District of California, 3420 Twelfth Street, Riverside.',
+      'There is no Lombera suite at 7426 Cherry Ave #210-312, 11326 Winery Dr, Sierra Avenue, or Hospitality Lane — and 247 W. 3rd Street is civil court, not a bankruptcy office. Fontana wage garnishments and foreclosure notices are state-court collection until a federal petition is filed. Meet Edgar P. Lombera at 2068 Orange Tree Lane, Suite 220, Redlands, CA 92374 — about 15 miles and 21 minutes east via the I-10 from Fontana. He prepares Chapter 7 and Chapter 13 here. You speak with him. English or Spanish. Two practices only: personal injury and bankruptcy. Every consumer case files at the U.S. Bankruptcy Court, 3420 Twelfth Street, Riverside — there is no bankruptcy court in Fontana. Call (909) 915-0181.',
     ],
     sections: [
       {
-        h2: 'Chapter 7 vs Chapter 13',
+        h2: 'Chapter 7 — means test and no-asset discharge',
         paragraphs: [
-          'Chapter 7 discharges most unsecured debt in a few months if you pass the means test. Chapter 13 is the three-to-five-year plan to catch up a mortgage or stop foreclosure when you have regular income.',
+          'Chapter 7 clears most unsecured debt when the household passes the means test — credit cards, Kaiser and other Fontana medical bills, and deficiency balances after a commuter vehicle repo. This is an I-10 corridor household review at Orange Tree Lane, not a volume mill and not a San Gorgonio Pass rewrite. A typical no-asset case discharges in about 90 to 120 days when the trustee accepts the petition.',
         ],
       },
       {
-        h2: 'Automatic stay on garnishment',
+        h2: 'Chapter 13 — plan, arrears, and cramdown',
         paragraphs: [
-          'The automatic stay starts the day the petition is filed — garnishments and most collection lawsuits must pause. Waiting another month lets another paycheck disappear.',
+          'Chapter 13 rolls mortgage arrears into a three-to-five-year court plan and can cram down certain secured balances where the Bankruptcy Code allows — common when a Fontana household has warehouse or logistics income but fell behind on the house during a layoff cycle. The plan is the relief, not a foreclosure-defense add-on sold separately.',
         ],
       },
       {
-        h2: 'Riverside filing — not Indio',
+        h2: 'Automatic stay — garnishment, foreclosure, repossession',
         paragraphs: [
-          'Fontana cases file at 3420 Twelfth Street, Riverside. Court fees are $338 for Chapter 7 and $313 for Chapter 13. We are a debt relief agency under 11 U.S.C. §528. Call (909) 915-0181.',
+          'The automatic stay begins the day the petition is filed — wage garnishments from Fontana employers, scheduled foreclosure sales, and repossession timelines pause for most creditors. Filing before the next paycheck or sale date protects lead time that waiting burns.',
+        ],
+      },
+      {
+        h2: 'Where Fontana files — 3420 Twelfth Street, Riverside',
+        paragraphs: [
+          'Every Fontana consumer bankruptcy files at the U.S. Bankruptcy Court, Central District of California, 3420 Twelfth Street, Riverside — about 12 miles and 17 minutes west-southwest from the desk at Orange Tree Lane via California Street, the I-10, the I-215, and Mission Inn Avenue. That is not 247 W. 3rd St. civil court, not Sierra Avenue, not Cherry Avenue, not Hospitality Lane, not 4050 Main Street, not Tahquitz Canyon Way, and not the Indio Division. Official court filing fees are $338 for Chapter 7 and $313 for Chapter 13. The Section 341 meeting of creditors is often held remotely.',
+        ],
+      },
+      {
+        h2: 'Tax debt vs injury settlement',
+        paragraphs: [
+          'Older income-tax debt may discharge in Chapter 7 when timing and notice rules are met — we confirm in the consult. A personal injury settlement from the same household is a separate question under the two-practice model. California homestead exemptions are confirmed with your documents — we do not print dollar caps here.',
+        ],
+      },
+      {
+        h2: '(909) 915-0181 — Orange Tree Lane',
+        paragraphs: [
+          'Hours: Monday–Friday 9am–6pm, Saturday 10am–4pm, Sunday by appointment. From Fontana, the consultation is about 15 miles and 21 minutes east on the I-10 — not a Cherry Avenue or Winery Drive storefront. Palm Springs is the other office — 1276 N Palm Canyon Dr #107, (760) 835-9353. ' +
+            DEBT_RELIEF,
         ],
       },
     ],
@@ -1947,31 +1966,50 @@ const PI_ES: Record<CitySlug, CityPageCopy> = {
 
 const BK_ES: Record<CitySlug, CityPageCopy> = {
   fontana: {
-    h1: "Abogado de bancarrota en Fontana — tribunal en Riverside",
-    title: "Abogado de Bancarrota Fontana | Capítulo 7 y 13 | Lombera",
-    description: "Capítulo 7 y Capítulo 13 en Fontana. Detenga embargos y ejecuciones. Presentado en el tribunal de bancarrota de Riverside. (909) 915-0181.",
+    h1: 'Abogado de Bancarrota en Fontana',
+    title: 'Abogado de Bancarrota Fontana | Capítulo 7 y 13 | Inland Empire | Lombera',
+    description:
+      'Capítulo 7 y Capítulo 13 para hogares de Fontana. Preparado en 2068 Orange Tree Lane, Redlands; presentado en 3420 Twelfth Street, Riverside. Alivio de embargo y ejecución hipotecaria. (909) 915-0181.',
     lead: [
-      "Las familias de Fontana con tarjetas de crédito, facturas médicas o un embargo de salario necesitan alivio federal — no otra llamada de cobranza. Edgar P. Lombera presenta el Capítulo 7 y el Capítulo 13 desde la oficina de Redlands. Todo caso de consumidor va al Tribunal de Bancarrota de EE. UU., Distrito Central de California, 3420 Twelfth Street, Riverside.",
+      'No hay suite de Lombera en 7426 Cherry Ave #210-312, 11326 Winery Dr, Sierra Avenue ni Hospitality Lane — y 247 W. 3rd Street es tribunal civil, no una oficina de bancarrota. Los embargos de salario y avisos de ejecución hipotecaria en Fontana son cobranza del tribunal estatal hasta que se presenta una petición federal. Reúnase con Edgar P. Lombera en 2068 Orange Tree Lane, Suite 220, Redlands, CA 92374 — unas 15 millas y 21 minutos al este por la I-10 desde Fontana. Él prepara el Capítulo 7 y el Capítulo 13 aquí. Usted habla con él. Inglés o español. Solo dos prácticas: lesiones personales y bancarrota. Todo caso de consumidor se presenta en el Tribunal de Bancarrota de EE. UU., 3420 Twelfth Street, Riverside — no hay tribunal de bancarrota en Fontana. Llame al (909) 915-0181.',
     ],
     sections: [
-          {
-            h2: "Capítulo 7 frente al Capítulo 13",
-            paragraphs: [
-            "El Capítulo 7 elimina la mayor parte de la deuda no garantizada en pocos meses si pasa la prueba de medios. El Capítulo 13 es el plan de tres a cinco años para ponerse al día con la hipoteca o detener la ejecución hipotecaria cuando tiene ingresos regulares.",
-            ],
-          },
-          {
-            h2: "Suspensión automática del embargo",
-            paragraphs: [
-            "La suspensión automática comienza el día que se presenta la petición — los embargos y la mayoría de las demandas de cobro deben pausar. Esperar otro mes deja que desaparezca otro cheque de pago.",
-            ],
-          },
-          {
-            h2: "Presentación en Riverside — no en Indio",
-            paragraphs: [
-            "Los casos de Fontana se presentan en 3420 Twelfth Street, Riverside. Las tarifas judiciales son $338 para el Capítulo 7 y $313 para el Capítulo 13. Somos una agencia de alivio de deudas bajo 11 U.S.C. §528. Llame al (909) 915-0181.",
-            ],
-          },
+      {
+        h2: 'Capítulo 7 — prueba de medios y eliminación sin activos',
+        paragraphs: [
+          'El Capítulo 7 elimina la mayor parte de la deuda no garantizada cuando el hogar pasa la prueba de medios — tarjetas de crédito, facturas médicas de Kaiser y otros proveedores de Fontana, y saldos de deficiencia tras la recuperación de un vehículo de trayecto diario. Esta es una revisión de hogar del corredor de la I-10 en Orange Tree Lane, no un molino de volumen ni una reescritura del Paso de San Gorgonio. Un caso típico sin activos se elimina en unos 90 a 120 días cuando el síndico acepta la petición.',
+        ],
+      },
+      {
+        h2: 'Capítulo 13 — plan, atrasos y reducción forzada del saldo garantizado',
+        paragraphs: [
+          'El Capítulo 13 incorpora los atrasos de la hipoteca en un plan judicial de tres a cinco años y puede reducir de forma forzada ciertos saldos garantizados donde el Código de Bancarrota lo permite — frecuente cuando un hogar de Fontana tiene ingresos de almacén o logística pero se atrasó en la casa durante un ciclo de despido. El plan es el alivio, no un complemento de defensa de ejecución hipotecaria vendido por separado.',
+        ],
+      },
+      {
+        h2: 'Suspensión automática — embargo, ejecución hipotecaria, recuperación de vehículo',
+        paragraphs: [
+          'La suspensión automática comienza el día que se presenta la petición — los embargos de salario de empleadores de Fontana, las ventas de ejecución hipotecaria programadas y los plazos de recuperación de vehículos se pausan para la mayoría de los acreedores. Presentar antes del próximo cheque o fecha de venta protege el tiempo que esperar consumiría.',
+        ],
+      },
+      {
+        h2: 'Dónde presenta Fontana — 3420 Twelfth Street, Riverside',
+        paragraphs: [
+          'Toda bancarrota de consumidor de Fontana se presenta en el Tribunal de Bancarrota de EE. UU., Distrito Central de California, 3420 Twelfth Street, Riverside — unas 12 millas y 17 minutos al oeste-suroeste desde el escritorio en Orange Tree Lane por California Street, la I-10, la I-215 y Mission Inn Avenue. Eso no es el tribunal civil de 247 W. 3rd St., no es Sierra Avenue, no es Cherry Avenue, no es Hospitality Lane, no es 4050 Main Street, no es Tahquitz Canyon Way ni la División Indio. Las tarifas oficiales de presentación judicial son $338 para el Capítulo 7 y $313 para el Capítulo 13. La reunión de acreedores de la Sección 341 suele ser remota.',
+        ],
+      },
+      {
+        h2: 'Deuda fiscal frente a acuerdo por lesiones',
+        paragraphs: [
+          'La deuda fiscal antigua por ingresos puede eliminarse en el Capítulo 7 cuando se cumplen las reglas de plazo y aviso — lo confirmamos en la consulta. Un acuerdo por lesiones personales del mismo hogar es una pregunta separada bajo el modelo de dos prácticas. Las exenciones de vivienda de California se confirman con sus documentos — no imprimimos montos en dólares aquí.',
+        ],
+      },
+      {
+        h2: '(909) 915-0181 — Orange Tree Lane',
+        paragraphs: [
+          'Horario: lunes a viernes 9am–6pm, sábado 10am–4pm, domingo con cita. Desde Fontana, la consulta es unas 15 millas y 21 minutos al este por la I-10 — no un local en Cherry Avenue ni Winery Drive. Palm Springs es la otra oficina — 1276 N Palm Canyon Dr #107, (760) 835-9353. Somos una agencia de alivio de deudas. Ayudamos a las personas a solicitar alivio de bancarrota bajo el Código de Bancarrota (11 U.S.C. §528).',
+        ],
+      },
     ],
   },
   colton: {
