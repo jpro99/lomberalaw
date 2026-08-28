@@ -1043,30 +1043,49 @@ const BK_EN: Record<CitySlug, CityPageCopy> = {
     ],
   },
   'san-bernardino': {
-    h1: 'San Bernardino bankruptcy lawyer — file in Riverside, not downtown',
-    title: 'San Bernardino Bankruptcy Lawyer | Chapter 7 & 13',
+    h1: 'San Bernardino Bankruptcy Lawyer',
+    title: 'San Bernardino Bankruptcy Lawyer | Chapter 7 & 13 | Inland Empire | Lombera',
     description:
-      'Bankruptcy in San Bernardino. Stop garnishment and foreclosure. Filed at Riverside. Redlands (909) 915-0181.',
+      'Chapter 7 and Chapter 13 bankruptcy for San Bernardino households. Prepared at 2068 Orange Tree Lane, Redlands; filed at 3420 Twelfth Street, Riverside. Garnishment and foreclosure relief. (909) 915-0181.',
     lead: [
-      'San Bernardino wage garnishments and foreclosure notices are state-court problems until a bankruptcy petition is filed in Riverside. Edgar P. Lombera handles Chapter 7 and Chapter 13 from the Redlands office — the federal courthouse is at 3420 Twelfth Street, not downtown San Bernardino.',
+      'There is no Lombera suite on Hospitality Lane, 255 N D Street, or 247 W. 3rd Street. San Bernardino wage garnishments and foreclosure notices are state-court collection until a federal petition is filed. Meet Edgar P. Lombera at 2068 Orange Tree Lane, Suite 220, Redlands, CA 92374 — about 8 miles and 14 minutes southeast via the I-10 from downtown San Bernardino. He prepares Chapter 7 and Chapter 13 here. You speak with him. English or Spanish. Two practices only: personal injury and bankruptcy. Every consumer case files at the U.S. Bankruptcy Court, 3420 Twelfth Street, Riverside — there is no bankruptcy court in San Bernardino. Call (909) 915-0181.',
     ],
     sections: [
       {
-        h2: 'Federal relief from state collection',
+        h2: 'Chapter 7 — means test and no-asset discharge',
         paragraphs: [
-          'Chapter 7 discharges unsecured debt; Chapter 13 structures repayment and can save a home. Foreclosure defense and garnishment stops ride on the petition.',
+          'Chapter 7 clears most unsecured debt when the household passes the means test — credit cards, medical bills from San Bernardino providers, and deficiency balances after a vehicle repo. This is an Inland Empire household review at Orange Tree Lane, not a volume mill. A typical no-asset case discharges in about 90 to 120 days when the trustee accepts the petition.',
         ],
       },
       {
-        h2: 'Means test and homestead',
+        h2: 'Chapter 13 — plan, arrears, and cramdown',
         paragraphs: [
-          'We review household income and home equity with real numbers in the free consult — California’s homestead exemption protects most local homes.',
+          'Chapter 13 folds mortgage arrears into a three-to-five-year court plan and can cram down certain secured balances where the Bankruptcy Code allows — useful when a San Bernardino household is behind on the house but still has income to fund a plan. It is not a side product next to foreclosure defense; the plan is the relief.',
         ],
       },
       {
-        h2: '3420 Twelfth Street, Riverside',
+        h2: 'Automatic stay — garnishment, foreclosure, repossession',
         paragraphs: [
-          'All San Bernardino County consumer bankruptcies file in Riverside. We are a debt relief agency. (909) 915-0181.',
+          'The automatic stay begins the day the petition is filed — wage garnishments tied to San Bernardino employers, scheduled foreclosure sales, and repossession timelines pause for most creditors. Filing before the next paycheck or sale date protects lead time that waiting burns.',
+        ],
+      },
+      {
+        h2: 'Where San Bernardino files — 3420 Twelfth Street, Riverside',
+        paragraphs: [
+          'Every San Bernardino County consumer bankruptcy files at the U.S. Bankruptcy Court, Central District of California, 3420 Twelfth Street, Riverside — about 12 miles and 17 minutes west-southwest from the desk at Orange Tree Lane via California Street, the I-10, the I-215, and Mission Inn Avenue. That is not 247 W. 3rd St. civil court, not Hospitality Lane, not 255 N D Street, not 4050 Main Street, not Tahquitz Canyon Way, and not the Indio Division. Official court filing fees are $338 for Chapter 7 and $313 for Chapter 13. The Section 341 meeting of creditors is often held remotely.',
+        ],
+      },
+      {
+        h2: 'Tax debt vs injury settlement',
+        paragraphs: [
+          'Older income-tax debt may discharge in Chapter 7 when timing and notice rules are met — we confirm in the consult. A personal injury settlement from the same household is a separate question under the two-practice model. California homestead exemptions are confirmed with your documents — we do not print dollar caps here.',
+        ],
+      },
+      {
+        h2: '(909) 915-0181 — Orange Tree Lane',
+        paragraphs: [
+          'Hours: Monday–Friday 9am–6pm, Saturday 10am–4pm, Sunday by appointment. From San Bernardino, the consultation is about 8 miles and 14 minutes southeast on the I-10 — not a downtown storefront. Palm Springs is the other office — 1276 N Palm Canyon Dr #107, (760) 835-9353. ' +
+            DEBT_RELIEF,
         ],
       },
     ],
@@ -2199,31 +2218,50 @@ const BK_ES: Record<CitySlug, CityPageCopy> = {
     ],
   },
   'san-bernardino': {
-    h1: "Abogado de bancarrota en San Bernardino — se presenta en Riverside",
-    title: "Abogado de Bancarrota San Bernardino | Lombera",
-    description: "Bancarrota en San Bernardino. Detenga el embargo y la ejecución hipotecaria. Presentado en Riverside. Redlands (909) 915-0181.",
+    h1: 'Abogado de Bancarrota en San Bernardino',
+    title: 'Abogado de Bancarrota San Bernardino | Capítulo 7 y 13 | Inland Empire | Lombera',
+    description:
+      'Capítulo 7 y Capítulo 13 para hogares de San Bernardino. Preparado en 2068 Orange Tree Lane, Redlands; presentado en 3420 Twelfth Street, Riverside. Alivio de embargo y ejecución hipotecaria. (909) 915-0181.',
     lead: [
-      "Los embargos de salario y avisos de ejecución hipotecaria en San Bernardino son problemas del tribunal estatal hasta que se presenta una petición de bancarrota en Riverside. Edgar P. Lombera maneja el Capítulo 7 y el Capítulo 13 desde la oficina de Redlands — el tribunal federal está en 3420 Twelfth Street, no en el centro de San Bernardino.",
+      'No hay suite de Lombera en Hospitality Lane, 255 N D Street ni 247 W. 3rd Street. Los embargos de salario y avisos de ejecución hipotecaria en San Bernardino son cobranza del tribunal estatal hasta que se presenta una petición federal. Reúnase con Edgar P. Lombera en 2068 Orange Tree Lane, Suite 220, Redlands, CA 92374 — unas 8 millas y 14 minutos al sureste por la I-10 desde el centro de San Bernardino. Él prepara el Capítulo 7 y el Capítulo 13 aquí. Usted habla con él. Inglés o español. Solo dos prácticas: lesiones personales y bancarrota. Todo caso de consumidor se presenta en el Tribunal de Bancarrota de EE. UU., 3420 Twelfth Street, Riverside — no hay tribunal de bancarrota en San Bernardino. Llame al (909) 915-0181.',
     ],
     sections: [
-          {
-            h2: "Alivio federal de la cobranza estatal",
-            paragraphs: [
-            "El Capítulo 7 elimina la deuda no garantizada; el Capítulo 13 estructura el pago y puede salvar una casa. La defensa de ejecución hipotecaria y la detención de embargos van en la petición.",
-            ],
-          },
-          {
-            h2: "Prueba de medios y exención de vivienda",
-            paragraphs: [
-            "Revisamos los ingresos del hogar y el capital de la vivienda con números reales en la consulta gratuita — la exención de vivienda de California protege la mayoría de las casas locales.",
-            ],
-          },
-          {
-            h2: "3420 Twelfth Street, Riverside",
-            paragraphs: [
-            "Todas las bancarrotas de consumidor del condado de San Bernardino se presentan en Riverside. Somos una agencia de alivio de deudas. (909) 915-0181.",
-            ],
-          },
+      {
+        h2: 'Capítulo 7 — prueba de medios y eliminación sin activos',
+        paragraphs: [
+          'El Capítulo 7 elimina la mayor parte de la deuda no garantizada cuando el hogar pasa la prueba de medios — tarjetas de crédito, facturas médicas de proveedores de San Bernardino y saldos de deficiencia tras la recuperación de un vehículo. Esta es una revisión de hogar del Inland Empire en Orange Tree Lane, no un molino de volumen. Un caso típico sin activos se elimina en unos 90 a 120 días cuando el síndico acepta la petición.',
+        ],
+      },
+      {
+        h2: 'Capítulo 13 — plan, atrasos y reducción forzada del saldo garantizado',
+        paragraphs: [
+          'El Capítulo 13 incorpora los atrasos de la hipoteca en un plan judicial de tres a cinco años y puede reducir de forma forzada ciertos saldos garantizados donde el Código de Bancarrota lo permite — útil cuando un hogar de San Bernardino está atrasado en la casa pero aún tiene ingresos para financiar un plan. No es un producto aparte junto a la defensa de ejecución hipotecaria; el plan es el alivio.',
+        ],
+      },
+      {
+        h2: 'Suspensión automática — embargo, ejecución hipotecaria, recuperación de vehículo',
+        paragraphs: [
+          'La suspensión automática comienza el día que se presenta la petición — los embargos de salario vinculados a empleadores de San Bernardino, las ventas de ejecución hipotecaria programadas y los plazos de recuperación de vehículos se pausan para la mayoría de los acreedores. Presentar antes del próximo cheque o fecha de venta protege el tiempo que esperar consumiría.',
+        ],
+      },
+      {
+        h2: 'Dónde presenta San Bernardino — 3420 Twelfth Street, Riverside',
+        paragraphs: [
+          'Toda bancarrota de consumidor del condado de San Bernardino se presenta en el Tribunal de Bancarrota de EE. UU., Distrito Central de California, 3420 Twelfth Street, Riverside — unas 12 millas y 17 minutos al oeste-suroeste desde el escritorio en Orange Tree Lane por California Street, la I-10, la I-215 y Mission Inn Avenue. Eso no es el tribunal civil de 247 W. 3rd St., no es Hospitality Lane, no es 255 N D Street, no es 4050 Main Street, no es Tahquitz Canyon Way ni la División Indio. Las tarifas oficiales de presentación judicial son $338 para el Capítulo 7 y $313 para el Capítulo 13. La reunión de acreedores de la Sección 341 suele ser remota.',
+        ],
+      },
+      {
+        h2: 'Deuda fiscal frente a acuerdo por lesiones',
+        paragraphs: [
+          'La deuda fiscal antigua por ingresos puede eliminarse en el Capítulo 7 cuando se cumplen las reglas de plazo y aviso — lo confirmamos en la consulta. Un acuerdo por lesiones personales del mismo hogar es una pregunta separada bajo el modelo de dos prácticas. Las exenciones de vivienda de California se confirman con sus documentos — no imprimimos montos en dólares aquí.',
+        ],
+      },
+      {
+        h2: '(909) 915-0181 — Orange Tree Lane',
+        paragraphs: [
+          'Horario: lunes a viernes 9am–6pm, sábado 10am–4pm, domingo con cita. Desde San Bernardino, la consulta es unas 8 millas y 14 minutos al sureste por la I-10 — no un local en el centro. Palm Springs es la otra oficina — 1276 N Palm Canyon Dr #107, (760) 835-9353. Somos una agencia de alivio de deudas. Ayudamos a las personas a solicitar alivio de bancarrota bajo el Código de Bancarrota (11 U.S.C. §528).',
+        ],
+      },
     ],
   },
   riverside: {
