@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import type { Locale } from '@/lib/payload'
 import { cityDisplayName } from '@/lib/cityBodyCopy'
-import { HOME_CITY_SLUGS } from '@/lib/homeCityLinks'
+import { HOME_CITY_SLUGS, HOME_CITY_PI_ONLY } from '@/lib/homeCityLinks'
 import { practiceCityHref } from '@/lib/spanishPaths'
 import { t } from '@/lib/dictionary'
 import { Container } from './Container'
@@ -19,6 +19,7 @@ export function HomeCityList({ locale }: { locale: Locale }) {
             const name = cityDisplayName(slug, locale)
             const piHref = practiceCityHref(locale, 'personal-injury', slug)
             const bkHref = practiceCityHref(locale, 'bankruptcy', slug)
+            const showBk = !HOME_CITY_PI_ONLY.has(slug)
             return (
               <li key={slug} className="border-b border-line py-4">
                 <p className="font-body text-sm font-semibold text-navy">{name}</p>
@@ -26,10 +27,14 @@ export function HomeCityList({ locale }: { locale: Locale }) {
                   <Link href={piHref} className="font-medium text-gold hover:text-navy">
                     {nav.personalInjury}
                   </Link>
-                  <span className="mx-2 text-ink-muted">·</span>
-                  <Link href={bkHref} className="font-medium text-gold hover:text-navy">
-                    {nav.bankruptcy}
-                  </Link>
+                  {showBk && (
+                    <>
+                      <span className="mx-2 text-ink-muted">·</span>
+                      <Link href={bkHref} className="font-medium text-gold hover:text-navy">
+                        {nav.bankruptcy}
+                      </Link>
+                    </>
+                  )}
                 </p>
               </li>
             )

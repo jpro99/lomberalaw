@@ -18,3 +18,10 @@ export const HOME_CITY_SLUGS = [
 ] as const
 
 export type HomeCitySlug = (typeof HOME_CITY_SLUGS)[number]
+
+/** Home list PI only — live `/bankruptcy/` URLs 301 to PI (template BK copy). */
+export const HOME_CITY_PI_ONLY = new Set<HomeCitySlug>([
+  'highland',
+  'colton',
+  'desert-hot-springs',
+])
