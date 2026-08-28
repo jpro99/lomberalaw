@@ -899,30 +899,49 @@ const BK_EN: Record<CitySlug, CityPageCopy> = {
     ],
   },
   'palm-springs': {
-    h1: 'Palm Springs bankruptcy lawyer — consult here, file in Riverside',
-    title: 'Palm Springs Bankruptcy Lawyer | Chapter 7 & 13',
+    h1: 'Palm Springs Bankruptcy Lawyer',
+    title: 'Palm Springs Bankruptcy Lawyer | Chapter 7 & Chapter 13 | Inland Empire | Lombera',
     description:
-      'Bankruptcy in Palm Springs. Stop garnishment, save your home. Filed at Riverside. Palm Springs office (760) 835-9353.',
+      'Chapter 7 and Chapter 13 bankruptcy for Palm Springs households. Prepared at 1276 N Palm Canyon Dr #107; filed at 3420 Twelfth Street, Riverside. Garnishment and foreclosure relief. (760) 835-9353.',
     lead: [
-      'Palm Springs cost of living and seasonal income swings push valley families toward Chapter 7 or Chapter 13. Edgar P. Lombera meets clients at 1276 N Palm Canyon Dr #107; every consumer petition files at the U.S. Bankruptcy Court, 3420 Twelfth Street, Riverside.',
+      'This is the Coachella Valley office — 1276 N Palm Canyon Dr #107, Palm Springs, CA 92262. There is no Lombera suite at 3200 East Tahquitz Canyon Way City Hall, 3255 E. Tahquitz Canyon Way civil court, or 3420 Twelfth Street — that last address is the federal courthouse in Riverside, not a Palm Canyon storefront. Edgar P. Lombera prepares Chapter 7 and Chapter 13 here — about 3 miles and 7 minutes from City Hall via Palm Canyon Drive. You speak with him. English or Spanish. Two practices only: personal injury and bankruptcy. Every consumer case files at the U.S. Bankruptcy Court, 3420 Twelfth Street, Riverside — about 52 miles and 64 minutes west via Highway 111 and the I-10. Call (760) 835-9353.',
     ],
     sections: [
       {
-        h2: 'Chapter 7 for unsecured debt',
+        h2: 'Chapter 7 — means test and no-asset discharge',
         paragraphs: [
-          'Credit cards, medical bills, and personal loans may be discharged in Chapter 7 if you pass the means test.',
+          'Chapter 7 clears most unsecured debt when the household passes the means test — credit cards, valley medical bills, and deficiency balances after a vehicle repo. This is a Coachella Valley household review at Palm Canyon Drive, not a volume mill shipped from the Inland Empire. A typical no-asset case discharges in about 90 to 120 days when the trustee accepts the petition.',
         ],
       },
       {
-        h2: 'Chapter 13 for homeowners',
+        h2: 'Chapter 13 — plan, arrears, and cramdown',
         paragraphs: [
-          'Behind on the mortgage? Chapter 13 catches up payments over three to five years while the automatic stay blocks foreclosure.',
+          'Chapter 13 folds mortgage arrears into a three-to-five-year court plan and can cram down certain secured balances where the Bankruptcy Code allows — useful when seasonal hospitality income dipped but the household still has wages to fund a catch-up plan. The plan is the relief, not a foreclosure-defense product sold on the side.',
         ],
       },
       {
-        h2: 'Valley consult, Riverside filing',
+        h2: 'Automatic stay — garnishment, foreclosure, repossession',
         paragraphs: [
-          'Meet in Palm Springs; file in Riverside at 3420 Twelfth Street. No Indio bankruptcy court exists. We are a debt relief agency. (760) 835-9353.',
+          'The automatic stay begins the day the petition is filed — wage garnishments tied to valley employers, scheduled foreclosure sales, and repossession timelines pause for most creditors. Filing before the next paycheck or sale date protects lead time that waiting burns.',
+        ],
+      },
+      {
+        h2: 'Where Palm Springs files — 3420 Twelfth Street, Riverside',
+        paragraphs: [
+          'Every Palm Springs consumer bankruptcy files at the U.S. Bankruptcy Court, Central District of California, 3420 Twelfth Street, Riverside — about 52 miles and 64 minutes west via Highway 111 and the I-10 from the desk at Palm Canyon Drive. That building is the courthouse, not a Lombera suite. That is not 3255 E. Tahquitz Canyon Way civil court, not 4050 Main Street, not 247 W. 3rd St., and not the Indio Division. There is no bankruptcy court in Palm Springs. Official court filing fees are $338 for Chapter 7 and $313 for Chapter 13. The Section 341 meeting of creditors is often held remotely.',
+        ],
+      },
+      {
+        h2: 'Tax debt vs injury settlement',
+        paragraphs: [
+          'Older income-tax debt may discharge in Chapter 7 when timing and notice rules are met — we confirm in the consult. A personal injury settlement from the same household is a separate question under the two-practice model. California homestead exemptions are confirmed with your documents — we do not print dollar caps here.',
+        ],
+      },
+      {
+        h2: '(760) 835-9353 — 1276 N Palm Canyon Dr #107',
+        paragraphs: [
+          'Hours: Monday–Friday 9am–6pm, Saturday 10am–4pm, Sunday by appointment. The consultation is in Palm Springs — about 3 miles and 7 minutes from City Hall, not a Tahquitz courthouse address. Redlands is the other office — 2068 Orange Tree Lane, Suite 220, (909) 915-0181. ' +
+            DEBT_RELIEF,
         ],
       },
     ],
@@ -2135,31 +2154,50 @@ const BK_ES: Record<CitySlug, CityPageCopy> = {
     ],
   },
   'palm-springs': {
-    h1: "Abogado de bancarrota en Palm Springs — se presenta en Riverside",
-    title: "Abogado de Bancarrota Palm Springs | Consulta Gratis",
-    description: "Bancarrota en Palm Springs. Detenga el embargo, salve su casa. Presentado en Riverside. Oficina Palm Springs (760) 835-9353.",
+    h1: 'Abogado de Bancarrota en Palm Springs',
+    title: 'Abogado de Bancarrota Palm Springs | Capítulo 7 y Capítulo 13 | Inland Empire | Lombera',
+    description:
+      'Capítulo 7 y Capítulo 13 para hogares de Palm Springs. Preparado en 1276 N Palm Canyon Dr #107; presentado en 3420 Twelfth Street, Riverside. Alivio de embargo y ejecución hipotecaria. (760) 835-9353.',
     lead: [
-      "El costo de vida de Palm Springs y las fluctuaciones de ingresos estacionales empujan a las familias del valle hacia el Capítulo 7 o el Capítulo 13. Edgar P. Lombera recibe clientes en 1276 N Palm Canyon Dr #107; toda petición de consumidor se presenta en el Tribunal de Bancarrota de EE. UU., 3420 Twelfth Street, Riverside.",
+      'Esta es la oficina del Valle de Coachella — 1276 N Palm Canyon Dr #107, Palm Springs, CA 92262. No hay suite de Lombera en el ayuntamiento de 3200 East Tahquitz Canyon Way, en el tribunal civil de 3255 E. Tahquitz Canyon Way ni en 3420 Twelfth Street — esa última dirección es el tribunal federal en Riverside, no un local en Palm Canyon. Edgar P. Lombera prepara el Capítulo 7 y el Capítulo 13 aquí — unas 3 millas y 7 minutos desde el ayuntamiento por Palm Canyon Drive. Usted habla con él. Inglés o español. Solo dos prácticas: lesiones personales y bancarrota. Todo caso de consumidor se presenta en el Tribunal de Bancarrota de EE. UU., 3420 Twelfth Street, Riverside — unas 52 millas y 64 minutos al oeste por la Carretera 111 y la I-10. Llame al (760) 835-9353.',
     ],
     sections: [
-          {
-            h2: "Capítulo 7 para deuda no garantizada",
-            paragraphs: [
-            "Tarjetas de crédito, facturas médicas y préstamos personales pueden eliminarse en el Capítulo 7 si pasa la prueba de medios.",
-            ],
-          },
-          {
-            h2: "Capítulo 13 para propietarios",
-            paragraphs: [
-            "¿Atrasado en la hipoteca? El Capítulo 13 pone al día los pagos en tres a cinco años mientras la suspensión automática bloquea la ejecución hipotecaria.",
-            ],
-          },
-          {
-            h2: "Consulta en el valle, presentación en Riverside",
-            paragraphs: [
-            "Reúnase en Palm Springs; presente en Riverside en 3420 Twelfth Street. No existe tribunal de bancarrota en Indio. Somos una agencia de alivio de deudas. (760) 835-9353.",
-            ],
-          },
+      {
+        h2: 'Capítulo 7 — prueba de medios y eliminación sin activos',
+        paragraphs: [
+          'El Capítulo 7 elimina la mayor parte de la deuda no garantizada cuando el hogar pasa la prueba de medios — tarjetas de crédito, facturas médicas del valle y saldos de deficiencia tras la recuperación de un vehículo. Esta es una revisión de hogar del Valle de Coachella en Palm Canyon Drive, no un molino de volumen enviado desde el Inland Empire. Un caso típico sin activos se elimina en unos 90 a 120 días cuando el síndico acepta la petición.',
+        ],
+      },
+      {
+        h2: 'Capítulo 13 — plan, atrasos y reducción forzada del saldo garantizado',
+        paragraphs: [
+          'El Capítulo 13 incorpora los atrasos de la hipoteca en un plan judicial de tres a cinco años y puede reducir de forma forzada ciertos saldos garantizados donde el Código de Bancarrota lo permite — útil cuando los ingresos estacionales de hospitalidad cayeron pero el hogar aún tiene salarios para financiar un plan de recuperación. El plan es el alivio, no un producto de defensa de ejecución hipotecaria vendido aparte.',
+        ],
+      },
+      {
+        h2: 'Suspensión automática — embargo, ejecución hipotecaria, recuperación de vehículo',
+        paragraphs: [
+          'La suspensión automática comienza el día que se presenta la petición — los embargos de salario vinculados a empleadores del valle, las ventas de ejecución hipotecaria programadas y los plazos de recuperación de vehículos se pausan para la mayoría de los acreedores. Presentar antes del próximo cheque o fecha de venta protege el tiempo que esperar consumiría.',
+        ],
+      },
+      {
+        h2: 'Dónde presenta Palm Springs — 3420 Twelfth Street, Riverside',
+        paragraphs: [
+          'Toda bancarrota de consumidor de Palm Springs se presenta en el Tribunal de Bancarrota de EE. UU., Distrito Central de California, 3420 Twelfth Street, Riverside — unas 52 millas y 64 minutos al oeste por la Carretera 111 y la I-10 desde el escritorio en Palm Canyon Drive. Ese edificio es el tribunal, no una suite de Lombera. Eso no es el tribunal civil de 3255 E. Tahquitz Canyon Way, no es 4050 Main Street, no es 247 W. 3rd St. ni la División Indio. No hay tribunal de bancarrota en Palm Springs. Las tarifas oficiales de presentación judicial son $338 para el Capítulo 7 y $313 para el Capítulo 13. La reunión de acreedores de la Sección 341 suele ser remota.',
+        ],
+      },
+      {
+        h2: 'Deuda fiscal frente a acuerdo por lesiones',
+        paragraphs: [
+          'La deuda fiscal antigua por ingresos puede eliminarse en el Capítulo 7 cuando se cumplen las reglas de plazo y aviso — lo confirmamos en la consulta. Un acuerdo por lesiones personales del mismo hogar es una pregunta separada bajo el modelo de dos prácticas. Las exenciones de vivienda de California se confirman con sus documentos — no imprimimos montos en dólares aquí.',
+        ],
+      },
+      {
+        h2: '(760) 835-9353 — 1276 N Palm Canyon Dr #107',
+        paragraphs: [
+          'Horario: lunes a viernes 9am–6pm, sábado 10am–4pm, domingo con cita. La consulta es en Palm Springs — unas 3 millas y 7 minutos desde el ayuntamiento, no una dirección del tribunal Tahquitz. Redlands es la otra oficina — 2068 Orange Tree Lane, Suite 220, (909) 915-0181. Somos una agencia de alivio de deudas. Ayudamos a las personas a solicitar alivio de bancarrota bajo el Código de Bancarrota (11 U.S.C. §528).',
+        ],
+      },
     ],
   },
   'palm-desert': {
