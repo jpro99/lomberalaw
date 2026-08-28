@@ -1110,30 +1110,49 @@ const BK_EN: Record<CitySlug, CityPageCopy> = {
     ],
   },
   riverside: {
-    h1: 'Riverside bankruptcy lawyer at 3420 Twelfth Street',
-    title: 'Riverside Bankruptcy Lawyer | Chapter 7 & 13 | Lombera',
+    h1: 'Riverside Bankruptcy Lawyer',
+    title: 'Riverside Bankruptcy Lawyer | Chapter 7 & Chapter 13 | Inland Empire | Lombera',
     description:
-      'Bankruptcy lawyer in Riverside. Chapter 7, Chapter 13, garnishment relief. File at 3420 Twelfth St. (909) 915-0181.',
+      'Chapter 7 and Chapter 13 bankruptcy for Riverside households. Prepared at 2068 Orange Tree Lane, Redlands; filed at 3420 Twelfth Street, Riverside. Garnishment and foreclosure relief. (909) 915-0181.',
     lead: [
-      'Riverside residents can meet Edgar P. Lombera in Redlands and file at the U.S. Bankruptcy Court just blocks from county civil court — 3420 Twelfth Street for bankruptcy, 4050 Main St. for injury lawsuits. Two different courts, one firm.',
+      'There is no Lombera suite at 10580 Magnolia Avenue, 6840 Indiana Avenue, 3610 Central Avenue, 3880 Lemon Street, or Van Buren and Magnolia — and 3420 Twelfth Street is the federal courthouse, not a law-office storefront. Riverside wage garnishments and foreclosure notices are state-court collection until a federal petition is filed. Meet Edgar P. Lombera at 2068 Orange Tree Lane, Suite 220, Redlands, CA 92374 — about 12 miles and 17 minutes east via Mission Inn Avenue, the CA-91, and the I-10 east. He prepares Chapter 7 and Chapter 13 here. You speak with him. English or Spanish. Two practices only: personal injury and bankruptcy. Consumer cases file at the U.S. Bankruptcy Court, 3420 Twelfth Street, Riverside — in this city, not at 4050 Main Street civil court. Call (909) 915-0181.',
     ],
     sections: [
       {
-        h2: 'Chapter 7 and Chapter 13',
+        h2: 'Chapter 7 — means test and no-asset discharge',
         paragraphs: [
-          'Chapter 7 for qualifying unsecured debt. Chapter 13 when you need to catch up the mortgage or income exceeds Chapter 7 limits.',
+          'Chapter 7 clears most unsecured debt when the household passes the means test — credit cards, Riverside hospital and clinic bills, and deficiency balances after a vehicle repo. This is a county-seat household review at Orange Tree Lane, not a volume mill. A typical no-asset case discharges in about 90 to 120 days when the trustee accepts the petition.',
         ],
       },
       {
-        h2: 'Automatic stay',
+        h2: 'Chapter 13 — plan, arrears, and cramdown',
         paragraphs: [
-          'The stay starts on filing day — garnishments, collection suits, and most foreclosure steps pause.',
+          'Chapter 13 folds mortgage arrears into a three-to-five-year court plan and can cram down certain secured balances where the Bankruptcy Code allows — useful when a Riverside household still earns county or university-corridor wages but fell behind during a layoff or medical leave. The plan is the relief, not a foreclosure-defense product sold on the side.',
         ],
       },
       {
-        h2: 'Federal courthouse',
+        h2: 'Automatic stay — garnishment, foreclosure, repossession',
         paragraphs: [
-          'U.S. Bankruptcy Court, Central District of California, 3420 Twelfth Street, Riverside. Court fees $338/$313. Free consult. (909) 915-0181.',
+          'The automatic stay begins the day the petition is filed — wage garnishments tied to Riverside employers, scheduled foreclosure sales, and repossession timelines pause for most creditors. Filing before the next paycheck or sale date protects lead time that waiting burns.',
+        ],
+      },
+      {
+        h2: 'Where Riverside files — 3420 Twelfth Street, in this city',
+        paragraphs: [
+          'Riverside consumer bankruptcies file in this city at the U.S. Bankruptcy Court, Central District of California, 3420 Twelfth Street — about 0.5 miles and 2 minutes south of City Hall at 3900 Main Street. That building is the courthouse, not a Lombera suite. Petitions are prepared at 2068 Orange Tree Lane in Redlands — about 12 miles and 17 minutes east via Mission Inn Avenue, the CA-91, and the I-10 east. That is not 4050 Main Street civil court, not 247 W. 3rd St., not Tahquitz Canyon Way, and not the Indio Division. Official court filing fees are $338 for Chapter 7 and $313 for Chapter 13. The Section 341 meeting of creditors is often held remotely.',
+        ],
+      },
+      {
+        h2: 'Tax debt vs injury settlement',
+        paragraphs: [
+          'Older income-tax debt may discharge in Chapter 7 when timing and notice rules are met — we confirm in the consult. A personal injury settlement from the same household is a separate question under the two-practice model. California homestead exemptions are confirmed with your documents — we do not print dollar caps here.',
+        ],
+      },
+      {
+        h2: '(909) 915-0181 — Orange Tree Lane',
+        paragraphs: [
+          'Hours: Monday–Friday 9am–6pm, Saturday 10am–4pm, Sunday by appointment. From Riverside, the consultation is about 12 miles and 17 minutes east on Mission Inn, the CA-91, and the I-10 — not a Magnolia or Indiana Avenue storefront. Palm Springs is the other office — 1276 N Palm Canyon Dr #107, (760) 835-9353. ' +
+            DEBT_RELIEF,
         ],
       },
     ],
@@ -2303,31 +2322,50 @@ const BK_ES: Record<CitySlug, CityPageCopy> = {
     ],
   },
   riverside: {
-    h1: "Abogado de bancarrota en Riverside — 3420 Twelfth Street",
-    title: "Abogado de Bancarrota Riverside | Lombera",
-    description: "Abogado de bancarrota en Riverside. Capítulo 7, Capítulo 13, alivio de embargo. Presente en 3420 Twelfth St. (909) 915-0181.",
+    h1: 'Abogado de Bancarrota en Riverside',
+    title: 'Abogado de Bancarrota Riverside | Capítulo 7 y Capítulo 13 | Inland Empire | Lombera',
+    description:
+      'Capítulo 7 y Capítulo 13 para hogares de Riverside. Preparado en 2068 Orange Tree Lane, Redlands; presentado en 3420 Twelfth Street, Riverside. Alivio de embargo y ejecución hipotecaria. (909) 915-0181.',
     lead: [
-      "Los residentes de Riverside pueden reunirse con Edgar P. Lombera en Redlands y presentar en el Tribunal de Bancarrota de EE. UU. a pocas cuadras del tribunal civil del condado — 3420 Twelfth Street para bancarrota, 4050 Main St. para demandas por lesiones. Dos tribunales diferentes, un bufete.",
+      'No hay suite de Lombera en 10580 Magnolia Avenue, 6840 Indiana Avenue, 3610 Central Avenue, 3880 Lemon Street, ni Van Buren y Magnolia — y 3420 Twelfth Street es el tribunal federal, no un local de despacho. Los embargos de salario y avisos de ejecución hipotecaria en Riverside son cobranza del tribunal estatal hasta que se presenta una petición federal. Reúnase con Edgar P. Lombera en 2068 Orange Tree Lane, Suite 220, Redlands, CA 92374 — unas 12 millas y 17 minutos al este por Mission Inn Avenue, la CA-91 y la I-10 al este. Él prepara el Capítulo 7 y el Capítulo 13 aquí. Usted habla con él. Inglés o español. Solo dos prácticas: lesiones personales y bancarrota. Los casos de consumidor se presentan en el Tribunal de Bancarrota de EE. UU., 3420 Twelfth Street, Riverside — en esta ciudad, no en el tribunal civil de 4050 Main Street. Llame al (909) 915-0181.',
     ],
     sections: [
-          {
-            h2: "Capítulo 7 y Capítulo 13",
-            paragraphs: [
-            "Capítulo 7 para deuda no garantizada que califica. Capítulo 13 cuando necesita ponerse al día con la hipoteca o los ingresos superan los límites del Capítulo 7.",
-            ],
-          },
-          {
-            h2: "Suspensión automática",
-            paragraphs: [
-            "La suspensión comienza el día de la presentación — embargos, demandas de cobro y la mayoría de los pasos de ejecución hipotecaria se pausan.",
-            ],
-          },
-          {
-            h2: "Tribunal federal",
-            paragraphs: [
-            "Tribunal de Bancarrota de EE. UU., Distrito Central de California, 3420 Twelfth Street, Riverside. Tarifas judiciales $338/$313. Consulta gratis. (909) 915-0181.",
-            ],
-          },
+      {
+        h2: 'Capítulo 7 — prueba de medios y eliminación sin activos',
+        paragraphs: [
+          'El Capítulo 7 elimina la mayor parte de la deuda no garantizada cuando el hogar pasa la prueba de medios — tarjetas de crédito, facturas de hospitales y clínicas de Riverside, y saldos de deficiencia tras la recuperación de un vehículo. Esta es una revisión de hogar de la sede del condado en Orange Tree Lane, no un molino de volumen. Un caso típico sin activos se elimina en unos 90 a 120 días cuando el síndico acepta la petición.',
+        ],
+      },
+      {
+        h2: 'Capítulo 13 — plan, atrasos y reducción forzada del saldo garantizado',
+        paragraphs: [
+          'El Capítulo 13 incorpora los atrasos de la hipoteca en un plan judicial de tres a cinco años y puede reducir de forma forzada ciertos saldos garantizados donde el Código de Bancarrota lo permite — útil cuando un hogar de Riverside aún gana salarios del condado o del corredor universitario pero se atrasó durante un despido o una licencia médica. El plan es el alivio, no un producto de defensa de ejecución hipotecaria vendido aparte.',
+        ],
+      },
+      {
+        h2: 'Suspensión automática — embargo, ejecución hipotecaria, recuperación de vehículo',
+        paragraphs: [
+          'La suspensión automática comienza el día que se presenta la petición — los embargos de salario vinculados a empleadores de Riverside, las ventas de ejecución hipotecaria programadas y los plazos de recuperación de vehículos se pausan para la mayoría de los acreedores. Presentar antes del próximo cheque o fecha de venta protege el tiempo que esperar consumiría.',
+        ],
+      },
+      {
+        h2: 'Dónde presenta Riverside — 3420 Twelfth Street, en esta ciudad',
+        paragraphs: [
+          'Las bancarrotas de consumidor de Riverside se presentan en esta ciudad en el Tribunal de Bancarrota de EE. UU., Distrito Central de California, 3420 Twelfth Street — unas 0.5 millas y 2 minutos al sur del ayuntamiento en 3900 Main Street. Ese edificio es el tribunal, no una suite de Lombera. Las peticiones se preparan en 2068 Orange Tree Lane en Redlands — unas 12 millas y 17 minutos al este por Mission Inn Avenue, la CA-91 y la I-10 al este. Eso no es el tribunal civil de 4050 Main Street, no es 247 W. 3rd St., no es Tahquitz Canyon Way ni la División Indio. Las tarifas oficiales de presentación judicial son $338 para el Capítulo 7 y $313 para el Capítulo 13. La reunión de acreedores de la Sección 341 suele ser remota.',
+        ],
+      },
+      {
+        h2: 'Deuda fiscal frente a acuerdo por lesiones',
+        paragraphs: [
+          'La deuda fiscal antigua por ingresos puede eliminarse en el Capítulo 7 cuando se cumplen las reglas de plazo y aviso — lo confirmamos en la consulta. Un acuerdo por lesiones personales del mismo hogar es una pregunta separada bajo el modelo de dos prácticas. Las exenciones de vivienda de California se confirman con sus documentos — no imprimimos montos en dólares aquí.',
+        ],
+      },
+      {
+        h2: '(909) 915-0181 — Orange Tree Lane',
+        paragraphs: [
+          'Horario: lunes a viernes 9am–6pm, sábado 10am–4pm, domingo con cita. Desde Riverside, la consulta es unas 12 millas y 17 minutos al este por Mission Inn, la CA-91 y la I-10 — no un local en Magnolia o Indiana Avenue. Palm Springs es la otra oficina — 1276 N Palm Canyon Dr #107, (760) 835-9353. Somos una agencia de alivio de deudas. Ayudamos a las personas a solicitar alivio de bancarrota bajo el Código de Bancarrota (11 U.S.C. §528).',
+        ],
+      },
     ],
   },
   'moreno-valley': {
