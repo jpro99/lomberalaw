@@ -1158,30 +1158,49 @@ const BK_EN: Record<CitySlug, CityPageCopy> = {
     ],
   },
   'moreno-valley': {
-    h1: 'Moreno Valley bankruptcy lawyer — file in Riverside',
-    title: 'Moreno Valley Bankruptcy Lawyer | Chapter 7 & 13',
+    h1: 'Moreno Valley Bankruptcy Lawyer',
+    title: 'Moreno Valley Bankruptcy Lawyer | Chapter 7 & Chapter 13 | Inland Empire | Lombera',
     description:
-      'Moreno Valley bankruptcy — garnishment, foreclosure, Chapter 7 and 13. Riverside court. (909) 915-0181.',
+      'Chapter 7 and Chapter 13 bankruptcy for Moreno Valley households. Prepared at 2068 Orange Tree Lane, Redlands; filed at 3420 Twelfth Street, Riverside. Garnishment and foreclosure relief. (909) 915-0181.',
     lead: [
-      'Moreno Valley families facing SR-60 commute costs, medical debt, and creditor harassment can file Chapter 7 or Chapter 13. Edgar P. Lombera prepares the case from Redlands; filing is at 3420 Twelfth Street, Riverside.',
+      'There is no Lombera suite at 24384 Sunnymead Boulevard, 24490 Sunnymead Boulevard, 12981 Perris Boulevard, 23962 Alessandro Boulevard, or 14177 Frederick Street — and 3420 Twelfth Street is the federal courthouse, not a law-office storefront. Moreno Valley wage garnishments and foreclosure notices are state-court collection until a federal petition is filed. Meet Edgar P. Lombera at 2068 Orange Tree Lane, Suite 220, Redlands, CA 92374 — about 20 miles and 26 minutes north via Frederick Street, Cactus Avenue, the I-215 north, and the I-10 east from City Hall. He prepares Chapter 7 and Chapter 13 here. You speak with him. English or Spanish. Two practices only: personal injury and bankruptcy. Consumer cases file at the U.S. Bankruptcy Court, 3420 Twelfth Street, Riverside — not at 13800 Heacock civil court. Call (909) 915-0181.',
     ],
     sections: [
       {
-        h2: 'Debt relief paths',
+        h2: 'Chapter 7 — means test and no-asset discharge',
         paragraphs: [
-          'Chapter 7 discharges qualifying unsecured debt. Chapter 13 is the plan to keep the house and catch up the mortgage over three to five years.',
+          'Chapter 7 clears most unsecured debt when the household passes the means test — credit cards, Moreno Valley medical bills, and deficiency balances after a commuter vehicle repo. This is a March ARB and warehouse-corridor household review at Orange Tree Lane, not a volume mill. A typical no-asset case discharges in about 90 to 120 days when the trustee accepts the petition.',
         ],
       },
       {
-        h2: 'Stop garnishment',
+        h2: 'Chapter 13 — plan, arrears, and cramdown',
         paragraphs: [
-          'The automatic stay blocks most wage levies the day the case is filed — before the next pay period.',
+          'Chapter 13 folds mortgage arrears into a three-to-five-year court plan and can cram down certain secured balances where the Bankruptcy Code allows — common when a Moreno Valley household still earns logistics or distribution wages but fell behind during a layoff or medical leave. The plan is the relief, not a foreclosure-defense add-on sold separately.',
         ],
       },
       {
-        h2: 'Riverside bankruptcy court only',
+        h2: 'Automatic stay — garnishment, foreclosure, repossession',
         paragraphs: [
-          '3420 Twelfth Street, Riverside. Not Indio. Debt relief agency under 11 U.S.C. §528. (909) 915-0181.',
+          'The automatic stay begins the day the petition is filed — wage garnishments tied to Moreno Valley employers, scheduled foreclosure sales, and repossession timelines pause for most creditors. Filing before the next paycheck or sale date protects lead time that waiting burns.',
+        ],
+      },
+      {
+        h2: 'Where Moreno Valley files — 3420 Twelfth Street, Riverside',
+        paragraphs: [
+          'Every Moreno Valley consumer bankruptcy files at the U.S. Bankruptcy Court, Central District of California, 3420 Twelfth Street, Riverside — about 10 miles and 16 minutes northwest from City Hall at 14177 Frederick Street, or about 12 miles and 17 minutes southwest from the desk at Orange Tree Lane. That building is the courthouse, not a Lombera suite. That is not 13800 Heacock limited civil court, not 4050 Main Street, not Sunnymead Boulevard, not 247 W. 3rd St., not Tahquitz Canyon Way, and not the Indio Division. Official court filing fees are $338 for Chapter 7 and $313 for Chapter 13. The Section 341 meeting of creditors is often held remotely.',
+        ],
+      },
+      {
+        h2: 'Tax debt vs injury settlement',
+        paragraphs: [
+          'Older income-tax debt may discharge in Chapter 7 when timing and notice rules are met — we confirm in the consult. A personal injury settlement from the same household is a separate question under the two-practice model. California homestead exemptions are confirmed with your documents — we do not print dollar caps here.',
+        ],
+      },
+      {
+        h2: '(909) 915-0181 — Orange Tree Lane',
+        paragraphs: [
+          'Hours: Monday–Friday 9am–6pm, Saturday 10am–4pm, Sunday by appointment. From Moreno Valley, the consultation is about 20 miles and 26 minutes north on Frederick, Cactus, the I-215 north, and the I-10 east — not a Sunnymead or Perris Boulevard storefront. Palm Springs is the other office — 1276 N Palm Canyon Dr #107, (760) 835-9353. ' +
+            DEBT_RELIEF,
         ],
       },
     ],
@@ -2369,31 +2388,50 @@ const BK_ES: Record<CitySlug, CityPageCopy> = {
     ],
   },
   'moreno-valley': {
-    h1: "Abogado de bancarrota en Moreno Valley — se presenta en Riverside",
-    title: "Abogado de Bancarrota Moreno Valley | Lombera",
-    description: "Bancarrota en Moreno Valley — embargo, ejecución hipotecaria, Capítulo 7 y 13. Tribunal Riverside. (909) 915-0181.",
+    h1: 'Abogado de Bancarrota en Moreno Valley',
+    title: 'Abogado de Bancarrota Moreno Valley | Capítulo 7 y Capítulo 13 | Inland Empire | Lombera',
+    description:
+      'Capítulo 7 y Capítulo 13 para hogares de Moreno Valley. Preparado en 2068 Orange Tree Lane, Redlands; presentado en 3420 Twelfth Street, Riverside. Alivio de embargo y ejecución hipotecaria. (909) 915-0181.',
     lead: [
-      "Las familias de Moreno Valley que enfrentan costos del viaje en la SR-60, deuda médica y acoso de acreedores pueden presentar el Capítulo 7 o el Capítulo 13. Edgar P. Lombera prepara el caso desde Redlands; la presentación es en 3420 Twelfth Street, Riverside.",
+      'No hay suite de Lombera en 24384 Sunnymead Boulevard, 24490 Sunnymead Boulevard, 12981 Perris Boulevard, 23962 Alessandro Boulevard ni 14177 Frederick Street — y 3420 Twelfth Street es el tribunal federal, no un local de despacho. Los embargos de salario y avisos de ejecución hipotecaria en Moreno Valley son cobranza del tribunal estatal hasta que se presenta una petición federal. Reúnase con Edgar P. Lombera en 2068 Orange Tree Lane, Suite 220, Redlands, CA 92374 — unas 20 millas y 26 minutos al norte por Frederick Street, Cactus Avenue, la I-215 al norte y la I-10 al este desde el ayuntamiento. Él prepara el Capítulo 7 y el Capítulo 13 aquí. Usted habla con él. Inglés o español. Solo dos prácticas: lesiones personales y bancarrota. Los casos de consumidor se presentan en el Tribunal de Bancarrota de EE. UU., 3420 Twelfth Street, Riverside — no en el tribunal civil de 13800 Heacock. Llame al (909) 915-0181.',
     ],
     sections: [
-          {
-            h2: "Rutas de alivio de deudas",
-            paragraphs: [
-            "El Capítulo 7 elimina la deuda no garantizada que califica. El Capítulo 13 es el plan para conservar la casa y ponerse al día con la hipoteca en tres a cinco años.",
-            ],
-          },
-          {
-            h2: "Detener el embargo",
-            paragraphs: [
-            "La suspensión automática bloquea la mayoría de los embargos de salario el día que se presenta el caso — antes del próximo período de pago.",
-            ],
-          },
-          {
-            h2: "Solo tribunal de bancarrota de Riverside",
-            paragraphs: [
-            "3420 Twelfth Street, Riverside. No en Indio. Agencia de alivio de deudas bajo 11 U.S.C. §528. (909) 915-0181.",
-            ],
-          },
+      {
+        h2: 'Capítulo 7 — prueba de medios y eliminación sin activos',
+        paragraphs: [
+          'El Capítulo 7 elimina la mayor parte de la deuda no garantizada cuando el hogar pasa la prueba de medios — tarjetas de crédito, facturas médicas de Moreno Valley y saldos de deficiencia tras la recuperación de un vehículo de trayecto diario. Esta es una revisión de hogar del corredor de March ARB y almacenes en Orange Tree Lane, no un molino de volumen. Un caso típico sin activos se elimina en unos 90 a 120 días cuando el síndico acepta la petición.',
+        ],
+      },
+      {
+        h2: 'Capítulo 13 — plan, atrasos y reducción forzada del saldo garantizado',
+        paragraphs: [
+          'El Capítulo 13 incorpora los atrasos de la hipoteca en un plan judicial de tres a cinco años y puede reducir de forma forzada ciertos saldos garantizados donde el Código de Bancarrota lo permite — frecuente cuando un hogar de Moreno Valley aún gana salarios de logística o distribución pero se atrasó durante un despido o una licencia médica. El plan es el alivio, no un complemento de defensa de ejecución hipotecaria vendido por separado.',
+        ],
+      },
+      {
+        h2: 'Suspensión automática — embargo, ejecución hipotecaria, recuperación de vehículo',
+        paragraphs: [
+          'La suspensión automática comienza el día que se presenta la petición — los embargos de salario vinculados a empleadores de Moreno Valley, las ventas de ejecución hipotecaria programadas y los plazos de recuperación de vehículos se pausan para la mayoría de los acreedores. Presentar antes del próximo cheque o fecha de venta protege el tiempo que esperar consumiría.',
+        ],
+      },
+      {
+        h2: 'Dónde presenta Moreno Valley — 3420 Twelfth Street, Riverside',
+        paragraphs: [
+          'Toda bancarrota de consumidor de Moreno Valley se presenta en el Tribunal de Bancarrota de EE. UU., Distrito Central de California, 3420 Twelfth Street, Riverside — unas 10 millas y 16 minutos al noroeste desde el ayuntamiento en 14177 Frederick Street, o unas 12 millas y 17 minutos al suroeste desde el escritorio en Orange Tree Lane. Ese edificio es el tribunal, no una suite de Lombera. Eso no es el tribunal civil limitado de 13800 Heacock, no es 4050 Main Street, no es Sunnymead Boulevard, no es 247 W. 3rd St., no es Tahquitz Canyon Way ni la División Indio. Las tarifas oficiales de presentación judicial son $338 para el Capítulo 7 y $313 para el Capítulo 13. La reunión de acreedores de la Sección 341 suele ser remota.',
+        ],
+      },
+      {
+        h2: 'Deuda fiscal frente a acuerdo por lesiones',
+        paragraphs: [
+          'La deuda fiscal antigua por ingresos puede eliminarse en el Capítulo 7 cuando se cumplen las reglas de plazo y aviso — lo confirmamos en la consulta. Un acuerdo por lesiones personales del mismo hogar es una pregunta separada bajo el modelo de dos prácticas. Las exenciones de vivienda de California se confirman con sus documentos — no imprimimos montos en dólares aquí.',
+        ],
+      },
+      {
+        h2: '(909) 915-0181 — Orange Tree Lane',
+        paragraphs: [
+          'Horario: lunes a viernes 9am–6pm, sábado 10am–4pm, domingo con cita. Desde Moreno Valley, la consulta es unas 20 millas y 26 minutos al norte por Frederick, Cactus, la I-215 al norte y la I-10 al este — no un local en Sunnymead ni Perris Boulevard. Palm Springs es la otra oficina — 1276 N Palm Canyon Dr #107, (760) 835-9353. Somos una agencia de alivio de deudas. Ayudamos a las personas a solicitar alivio de bancarrota bajo el Código de Bancarrota (11 U.S.C. §528).',
+        ],
+      },
     ],
   },
   highland: {
