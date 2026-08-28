@@ -996,30 +996,48 @@ const BK_EN: Record<CitySlug, CityPageCopy> = {
     ],
   },
   redlands: {
-    h1: 'Redlands bankruptcy lawyer — file in Riverside',
-    title: 'Redlands Bankruptcy Lawyer | Lombera Law Office',
+    h1: 'Redlands Bankruptcy Lawyer',
+    title: 'Redlands Bankruptcy Lawyer | Chapter 7 & 13 | Inland Empire | Lombera',
     description:
-      'Chapter 7 and Chapter 13 at 2068 Orange Tree Lane, Redlands. Filed Riverside. Foreclosure and garnishment. (909) 915-0181.',
+      'Chapter 7 and Chapter 13 bankruptcy from 2068 Orange Tree Lane, Suite 220, Redlands. Filed at 3420 Twelfth Street, Riverside. Garnishment and foreclosure relief. (909) 915-0181.',
     lead: [
-      `Review your bankruptcy petition at the Inland Empire office — ${REDLANDS_NAP}. Edgar P. Lombera (California State Bar No. 259393) files every consumer case at ${BK_COURT}. There is no bankruptcy court in Redlands, San Bernardino, or Indio.`,
+      'This is the Inland Empire office — 2068 Orange Tree Lane, Suite 220, Redlands, CA 92374. Edgar P. Lombera prepares Chapter 7 and Chapter 13 petitions here. You speak with him. English or Spanish. Two practices only: personal injury and bankruptcy. Every consumer case files at the U.S. Bankruptcy Court, 3420 Twelfth Street, Riverside — there is no bankruptcy court in Redlands, San Bernardino, or Indio. Call (909) 915-0181.',
     ],
     sections: [
       {
-        h2: 'Chapter 7 — about 90 to 120 days',
+        h2: 'Chapter 7 — means test and no-asset discharge',
         paragraphs: [
-          'Chapter 7 discharges most unsecured debt if you pass the means test — typically in about 90 to 120 days. Foreclosure defense and wage garnishment relief are part of the bankruptcy petition, not add-on products.',
+          'Chapter 7 wipes most unsecured debt when the household passes the means test — credit cards, medical bills, and deficiency balances after repossession. This is an Inland Empire household review at Orange Tree Lane, not a national mill assembly line. A typical no-asset case discharges in about 90 to 120 days when the trustee accepts the petition.',
         ],
       },
       {
-        h2: 'Chapter 13 — three- to five-year plan',
+        h2: 'Chapter 13 — plan, arrears, and cramdown',
         paragraphs: [
-          'Chapter 13 catches up a mortgage over three to five years. The automatic stay starts the day of filing — garnishments and most foreclosure steps must pause before the next paycheck or sale date.',
+          'Chapter 13 catches up mortgage arrears over three to five years and can cram down certain secured debt when the code allows. Redlands homeowners behind on the mortgage or facing a sale date use the plan to force a pause and a structured catch-up — not a separate foreclosure-defense product.',
         ],
       },
       {
-        h2: 'Homestead, fees, and 341 meeting',
+        h2: 'Automatic stay — garnishment, foreclosure, repossession',
         paragraphs: [
-          'California homestead is confirmed with documents in the free consult — we do not print exemption dollar caps on a webpage. Court filing fees in 2026 are $338 for Chapter 7 and $313 for Chapter 13. The Section 341 meeting of creditors is often held remotely. ' + DEBT_RELIEF,
+          'The automatic stay starts the day the petition is filed — wage garnishments, foreclosure sales, and vehicle repossession efforts must pause for most creditors. Waiting until the next paycheck or trustee sale date burns lead time the stay would have protected.',
+        ],
+      },
+      {
+        h2: 'Where Redlands files — 3420 Twelfth Street, Riverside',
+        paragraphs: [
+          'Every Redlands consumer bankruptcy files at the U.S. Bankruptcy Court, Central District of California, 3420 Twelfth Street, Riverside — about 12 miles and 17 minutes west-southwest via California Street, the I-10, the I-215, and Mission Inn Avenue. That is not 4050 Main Street civil court, not 247 W. 3rd St., not Tahquitz Canyon Way, and not the Indio Division. Official court filing fees are $338 for Chapter 7 and $313 for Chapter 13. The Section 341 meeting of creditors is often held remotely.',
+        ],
+      },
+      {
+        h2: 'Tax debt vs injury settlement',
+        paragraphs: [
+          'Older income-tax debt may discharge in Chapter 7 when timing and notice rules are met — we confirm in the consult, not on a webpage. A personal injury settlement from the same household is a separate question; bankruptcy and injury work stay in two practices under one roof. California homestead exemptions are confirmed with your documents — we do not print dollar caps here.',
+        ],
+      },
+      {
+        h2: '(909) 915-0181 — Orange Tree Lane',
+        paragraphs: [
+          'Hours: Monday–Friday 9am–6pm, Saturday 10am–4pm, Sunday by appointment. Palm Springs is the other office — 1276 N Palm Canyon Dr #107, (760) 835-9353. ' + DEBT_RELIEF,
         ],
       },
     ],
@@ -2134,31 +2152,50 @@ const BK_ES: Record<CitySlug, CityPageCopy> = {
     ],
   },
   redlands: {
-    h1: "Abogado de bancarrota en Redlands — se presenta en Riverside",
-    title: "Abogado de Bancarrota Redlands | Oficina Lombera",
-    description: "Capítulo 7 y Capítulo 13 en 2068 Orange Tree Lane, Redlands. Presentado en Riverside. Ejecución hipotecaria y embargo. (909) 915-0181.",
+    h1: 'Abogado de Bancarrota en Redlands',
+    title: 'Abogado de Bancarrota Redlands | Capítulo 7 y 13 | Inland Empire | Lombera',
+    description:
+      'Capítulo 7 y Capítulo 13 en 2068 Orange Tree Lane, Suite 220, Redlands. Presentado en 3420 Twelfth Street, Riverside. Alivio de embargo y ejecución hipotecaria. (909) 915-0181.',
     lead: [
-      "Revise su petición de bancarrota en la oficina del Inland Empire — 2068 Orange Tree Lane, Suite 220, Redlands, CA 92374 — (909) 915-0181. Edgar P. Lombera (Colegio de Abogados de California No. 259393) presenta todo caso de consumidor en el Tribunal de Bancarrota de EE. UU., Distrito Central de California, 3420 Twelfth Street, Riverside. No hay tribunal de bancarrota en Redlands, San Bernardino ni Indio.",
+      'Esta es la oficina del Inland Empire — 2068 Orange Tree Lane, Suite 220, Redlands, CA 92374. Edgar P. Lombera prepara las peticiones del Capítulo 7 y el Capítulo 13 aquí. Usted habla con él. Inglés o español. Solo dos prácticas: lesiones personales y bancarrota. Todo caso de consumidor se presenta en el Tribunal de Bancarrota de EE. UU., 3420 Twelfth Street, Riverside — no hay tribunal de bancarrota en Redlands, San Bernardino ni Indio. Llame al (909) 915-0181.',
     ],
     sections: [
-          {
-            h2: "Capítulo 7 — unos 90 a 120 días",
-            paragraphs: [
-            "El Capítulo 7 elimina la mayor parte de la deuda no garantizada si pasa la prueba de medios — típicamente en unos 90 a 120 días. La defensa de ejecución hipotecaria y el alivio del embargo de salario son parte de la petición de bancarrota, no productos adicionales.",
-            ],
-          },
-          {
-            h2: "Capítulo 13 — plan de tres a cinco años",
-            paragraphs: [
-            "El Capítulo 13 pone al día la hipoteca en tres a cinco años. La suspensión automática comienza el día de la presentación — los embargos y la mayoría de los pasos de ejecución hipotecaria deben pausar antes del próximo cheque o fecha de venta.",
-            ],
-          },
-          {
-            h2: "Exención de vivienda, tarifas y reunión 341",
-            paragraphs: [
-            "La exención de vivienda de California se confirma con documentos en la consulta gratuita — no imprimimos montos de exención en una página web. Las tarifas de presentación judicial en 2026 son $338 para el Capítulo 7 y $313 para el Capítulo 13. La reunión de acreedores de la Sección 341 suele ser remota. Somos una agencia de alivio de deudas. Ayudamos a las personas a solicitar alivio de bancarrota bajo el Código de Bancarrota (11 U.S.C. §528).",
-            ],
-          },
+      {
+        h2: 'Capítulo 7 — prueba de medios y eliminación sin activos',
+        paragraphs: [
+          'El Capítulo 7 elimina la mayor parte de la deuda no garantizada cuando el hogar pasa la prueba de medios — tarjetas de crédito, facturas médicas y saldos de deficiencia tras la recuperación del vehículo. Esta es una revisión de hogar del Inland Empire en Orange Tree Lane, no una línea de ensamblaje de un molino nacional. Un caso típico sin activos se elimina en unos 90 a 120 días cuando el síndico acepta la petición.',
+        ],
+      },
+      {
+        h2: 'Capítulo 13 — plan, atrasos y cramdown',
+        paragraphs: [
+          'El Capítulo 13 pone al día los atrasos de la hipoteca en tres a cinco años y puede hacer cramdown de ciertas deudas garantizadas cuando el código lo permite. Los propietarios de Redlands atrasados en la hipoteca o con fecha de venta usan el plan para forzar una pausa y una recuperación estructurada — no un producto separado de defensa de ejecución hipotecaria.',
+        ],
+      },
+      {
+        h2: 'Suspensión automática — embargo, ejecución hipotecaria, recuperación de vehículo',
+        paragraphs: [
+          'La suspensión automática comienza el día que se presenta la petición — los embargos de salario, las ventas de ejecución hipotecaria y los esfuerzos de recuperación de vehículos deben pausar para la mayoría de los acreedores. Esperar hasta el próximo cheque o fecha de venta del síndico quema tiempo que la suspensión habría protegido.',
+        ],
+      },
+      {
+        h2: 'Dónde presenta Redlands — 3420 Twelfth Street, Riverside',
+        paragraphs: [
+          'Toda bancarrota de consumidor de Redlands se presenta en el Tribunal de Bancarrota de EE. UU., Distrito Central de California, 3420 Twelfth Street, Riverside — unas 12 millas y 17 minutos al oeste-suroeste por California Street, la I-10, la I-215 y Mission Inn Avenue. Eso no es el tribunal civil de 4050 Main Street, no es 247 W. 3rd St., no es Tahquitz Canyon Way, ni la División Indio. Las tarifas oficiales de presentación judicial son $338 para el Capítulo 7 y $313 para el Capítulo 13. La reunión de acreedores de la Sección 341 suele ser remota.',
+        ],
+      },
+      {
+        h2: 'Deuda fiscal frente a acuerdo por lesiones',
+        paragraphs: [
+          'La deuda fiscal antigua por ingresos puede eliminarse en el Capítulo 7 cuando se cumplen las reglas de plazo y aviso — lo confirmamos en la consulta, no en una página web. Un acuerdo por lesiones personales del mismo hogar es una pregunta separada; la bancarrota y el trabajo de lesiones permanecen en dos prácticas bajo un mismo techo. Las exenciones de vivienda de California se confirman con sus documentos — no imprimimos montos en dólares aquí.',
+        ],
+      },
+      {
+        h2: '(909) 915-0181 — Orange Tree Lane',
+        paragraphs: [
+          'Horario: lunes a viernes 9am–6pm, sábado 10am–4pm, domingo con cita. Palm Springs es la otra oficina — 1276 N Palm Canyon Dr #107, (760) 835-9353. Somos una agencia de alivio de deudas. Ayudamos a las personas a solicitar alivio de bancarrota bajo el Código de Bancarrota (11 U.S.C. §528).',
+        ],
+      },
     ],
   },
   'san-bernardino': {
