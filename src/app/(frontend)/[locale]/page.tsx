@@ -6,6 +6,7 @@ import { Button } from '@/components/Button'
 import { PracticeCard } from '@/components/PracticeCard'
 import { EdgarHeadshot } from '@/components/EdgarHeadshot'
 import { CopyBody } from '@/components/CopyBody'
+import { HomeCityList } from '@/components/HomeCityList'
 import { JsonLd } from '@/components/JsonLd'
 import { firmLegalServiceSchema } from '@/lib/schema'
 import { HOME_COPY } from '@/lib/hubBodyCopy'
@@ -102,6 +103,8 @@ export default async function HomePage({ params }: { params: Promise<{ locale: L
           </div>
         </Container>
       </section>
+
+      <HomeCityList locale={locale} />
 
       <section className="border-b border-line bg-panel py-12 md:py-16">
         <Container>
