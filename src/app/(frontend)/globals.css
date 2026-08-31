@@ -258,15 +258,13 @@ img, svg { display: block; max-width: 100%; }
   }
 }
 
-/* Homepage hero — extra dissolve on bottom/right crop edges (baked alpha + mask). */
+/* Homepage hero — bottom/right dissolve (baked v4 alpha + single combined mask). */
 .edgar-hero-cutout {
   background: transparent;
-  -webkit-mask-image:
-    linear-gradient(to top, transparent 0%, rgba(0, 0, 0, 0.45) 10%, #000 24%),
-    linear-gradient(to left, transparent 0%, rgba(0, 0, 0, 0.45) 10%, #000 22%);
-  mask-image:
-    linear-gradient(to top, transparent 0%, rgba(0, 0, 0, 0.45) 10%, #000 24%),
-    linear-gradient(to left, transparent 0%, rgba(0, 0, 0, 0.45) 10%, #000 22%);
-  -webkit-mask-composite: source-in;
-  mask-composite: intersect;
+  -webkit-mask-image: url('/images/edgar-hero-cutout-mask.webp');
+  mask-image: url('/images/edgar-hero-cutout-mask.webp');
+  -webkit-mask-size: 100% 100%;
+  mask-size: 100% 100%;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
 }
