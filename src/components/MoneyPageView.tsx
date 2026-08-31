@@ -40,6 +40,8 @@ export async function MoneyPageView({
   locale: Locale
 }) {
   const prefix = locale === 'en' ? '' : '/es'
+  const homeCrumb = locale === 'es' ? 'Inicio' : 'Home'
+  const homeHref = locale === 'en' ? '/' : '/es/inicio/'
   const bundle = await getMoneyPage(practiceSlug, serviceSlug, citySlug, locale)
 
   // No tier-1 page for this combo -- send them to the city hub instead
@@ -56,7 +58,7 @@ export async function MoneyPageView({
     <main>
       <JsonLd
         data={breadcrumbSchema([
-          { name: 'Home', url: 'https://lomberalaw.com' + (locale === 'es' ? '/es' : '') },
+          { name: homeCrumb, url: `https://lomberalaw.com${homeHref}` },
           { name: practiceArea?.name as string, url: `https://lomberalaw.com${prefix}/${practiceSlug}` },
           { name: service.title as string, url: `https://lomberalaw.com${prefix}/${practiceSlug}/${serviceSlug}` },
           { name: city.name as string, url: canonicalUrl },
@@ -75,7 +77,7 @@ export async function MoneyPageView({
         <Container>
           <Breadcrumbs
             items={[
-              { name: 'Home', href: locale === 'en' ? '/' : '/es' },
+              { name: homeCrumb, href: homeHref },
               { name: practiceArea?.name as string, href: `${prefix}/${practiceSlug}` },
               { name: service.title as string, href: `${prefix}/${practiceSlug}/${serviceSlug}` },
               { name: city.name as string, href: `${prefix}/${practiceSlug}/${serviceSlug}/${citySlug}` },

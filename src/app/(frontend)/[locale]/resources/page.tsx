@@ -14,13 +14,15 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: L
 export default async function ResourcesHub({ params }: { params: Promise<{ locale: Locale }> }) {
   const { locale } = await params
   const prefix = locale === 'en' ? '' : '/es'
+  const homeCrumb = locale === 'es' ? 'Inicio' : 'Home'
+  const homeHref = locale === 'en' ? '/' : '/es/inicio/'
   const posts = await getAllPosts(locale)
 
   return (
     <main>
       <section className="border-b border-line bg-stone py-14 md:py-20">
         <Container>
-          <Breadcrumbs items={[{ name: 'Home', href: locale === 'en' ? '/' : '/es' }, { name: 'Resources', href: `${prefix}/resources` }]} />
+          <Breadcrumbs items={[{ name: homeCrumb, href: homeHref }, { name: locale === 'es' ? 'Recursos' : 'Resources', href: `${prefix}/resources` }]} />
           <h1 className="mt-4 max-w-2xl font-display text-4xl font-semibold text-ink md:text-5xl">
             {locale === 'es' ? 'Recursos' : 'Resources'}
           </h1>

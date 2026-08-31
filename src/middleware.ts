@@ -1,41 +1,71 @@
 import { NextResponse, type NextRequest } from 'next/server'
+import { rewriteSpanishPracticePath } from './lib/spanishPaths'
 
-// ROUTING STRATEGY:
-// Public routes are defined once, under src/app/(frontend)/[locale]/...
-// The [locale] segment is always "en" or "es" internally. But we do
-// NOT want /en/ in the URL bar -- English is the default market and
-// keeping it unprefixed preserves the existing site's URL equity.
-//
-// So: a request to /personal-injury/ is rewritten internally to
-// /en/personal-injury/ (invisible to the visitor and to Google --
-// the URL bar and canonical tag both stay /personal-injury/). A
-// request to /es/personal-injury/ already matches the [locale]
-// segment directly and passes through untouched.
-//
-// This keeps ONE route tree for both languages -- no duplicated
-// page files -- while giving English the clean unprefixed URLs the
-// brief asked for.
+// Spanish live paths use translated slugs — rewrite to internal [locale] routes
+// while keeping the URL bar on the live /es/* path.
+const SPANISH_EXACT: Record<string, string> = {
+  '/es/inicio': '/es',
+  '/es/lesiones-personales': '/es/personal-injury',
+  '/es/bancarrota': '/es/bankruptcy',
+  '/es/sobre-nosotros': '/es/about-us',
+  '/es/preguntas-frecuentes': '/es/frequently-asked-questions',
+  '/es/testimonios': '/es/testimonials',
+  '/es/contacta-con-nosotros': '/es/contact',
+  '/es/blog-espanol': '/es/blog',
+  '/es/politica-de-privacidad': '/es/privacy-policy',
+  '/es/terminos-de-servicio': '/es/terms-of-service',
+}
 
-const PASSTHROUGH_PREFIXES = ['/admin', '/api', '/_next', '/favicon.ico', '/robots.txt', '/sitemap.xml', '/es']
+const SPANISH_PREFIX_HUB: [string, string][] = [
+  ['/es/lesiones-personales', '/es/personal-injury'],
+  ['/es/bancarrota', '/es/bankruptcy'],
+]
+
+const PASSTHROUGH = ['/admin', '/api', '/_next', '/favicon.ico', '/robots.txt', '/sitemap.xml']
 
 export function middleware(request: NextRequest) {
-  const { pathname } = request.nextUrl
+  let { pathname } = request.nextUrl
 
-  const isPassthrough = PASSTHROUGH_PREFIXES.some(
-    (p) => pathname === p || pathname.startsWith(`${p}/`),
-  )
-  if (isPassthrough) return NextResponse.next()
+  // Normalize: strip trailing slash for matching, re-add on rewrite
+  const hasTrailing = pathname.endsWith('/') && pathname !== '/'
+  const bare = hasTrailing ? pathname.slice(0, -1) : pathname
 
+  // Spanish rewrites (before /es passthrough)
+  if (bare.startsWith('/es')) {
+    for (const [from, to] of Object.entries(SPANISH_EXACT)) {
+      if (bare === from) {
+        const url = request.nextUrl.clone()
+        url.pathname = to + (hasTrailing || to === '/es' ? '/' : '')
+        return NextResponse.rewrite(url)
+      }
+    }
+    for (const [from, to] of SPANISH_PREFIX_HUB) {
+      if (bare === from) {
+        const url = request.nextUrl.clone()
+        url.pathname = `${to}/`
+        return NextResponse.rewrite(url)
+      }
+    }
+    const rewritten = rewriteSpanishPracticePath(pathname.endsWith('/') ? pathname : `${pathname}/`)
+    if (rewritten) {
+      const url = request.nextUrl.clone()
+      url.pathname = rewritten
+      return NextResponse.rewrite(url)
+    }
+    // Other /es/* paths pass through to [locale] segment
+    return NextResponse.next()
+  }
+
+  if (PASSTHROUGH.some((p) => pathname === p || pathname.startsWith(`${p}/`))) {
+    return NextResponse.next()
+  }
+
+  // English unprefixed → internal /en/*
   const url = request.nextUrl.clone()
   url.pathname = `/en${pathname}`
   return NextResponse.rewrite(url)
 }
 
 export const config = {
-  matcher: [
-    /*
-     * Match all paths except Next.js internals and static files.
-     */
-    '/((?!_next/static|_next/image|.*\\.(?:svg|png|jpg|jpeg|webp|avif|ico|css|js)$).*)',
-  ],
+  matcher: ['/((?!_next/static|_next/image|.*\\.(?:svg|png|jpg|jpeg|webp|avif|ico|css|js)$).*)'],
 }

@@ -4,7 +4,7 @@ import { Container } from '@/components/Container'
 import { Breadcrumbs } from '@/components/Breadcrumbs'
 import { FAQAccordion } from '@/components/FAQAccordion'
 import { JsonLd } from '@/components/JsonLd'
-import { breadcrumbSchema, faqPageSchema } from '@/lib/schema'
+import { breadcrumbSchema } from '@/lib/schema'
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: Locale }> }) {
   const { locale } = await params
@@ -15,31 +15,24 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: L
 
 export default async function FAQPage({ params }: { params: Promise<{ locale: Locale }> }) {
   const { locale } = await params
-  const prefix = locale === 'en' ? '' : '/es'
+  const homeCrumb = locale === 'es' ? 'Inicio' : 'Home'
+  const homeHref = locale === 'en' ? '/' : '/es/inicio/'
+  const faqPath = locale === 'en' ? '/frequently-asked-questions/' : '/es/preguntas-frecuentes/'
+  const faqCrumb = locale === 'es' ? 'Preguntas Frecuentes' : 'Frequently Asked Questions'
   const faqs = await getGeneralFaqs(locale)
 
   return (
     <main>
       <JsonLd
         data={breadcrumbSchema([
-          { name: 'Home', url: 'https://lomberalaw.com' + (locale === 'es' ? '/es' : '') },
-          { name: 'FAQ', url: `https://lomberalaw.com${prefix}/faq` },
+          { name: homeCrumb, url: `https://lomberalaw.com${homeHref}` },
+          { name: faqCrumb, url: `https://lomberalaw.com${faqPath}` },
         ])}
       />
-      {faqs.length > 0 && (
-        <JsonLd
-          data={faqPageSchema(
-            faqs.map((f: any) => ({
-              question: f.question,
-              answer: typeof f.answer === 'string' ? f.answer : f.question,
-            })),
-          )}
-        />
-      )}
 
       <section className="border-b border-line bg-stone py-14 md:py-20">
         <Container>
-          <Breadcrumbs items={[{ name: 'Home', href: locale === 'en' ? '/' : '/es' }, { name: 'FAQ', href: `${prefix}/faq` }]} />
+          <Breadcrumbs items={[{ name: homeCrumb, href: homeHref }, { name: faqCrumb, href: faqPath }]} />
           <h1 className="mt-4 max-w-2xl font-display text-4xl font-semibold text-ink md:text-5xl">
             {locale === 'es' ? 'Preguntas Frecuentes' : 'Frequently Asked Questions'}
           </h1>

@@ -49,6 +49,9 @@ module.exports = {
           DEFAULT: 'var(--color-night)',
           ink: 'var(--color-night-ink)',
         },
+        navy: {
+          DEFAULT: 'var(--color-navy)',
+        },
       },
       fontFamily: {
         display: ['var(--font-display)'],

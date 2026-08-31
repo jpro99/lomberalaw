@@ -26,3 +26,5 @@ export function resolveMediaUrl(
 export const EDGAR_PHOTO_FALLBACK = '/edgar-lombera.jpg'
 /** Desk/office shot — better for full-bleed homepage hero. */
 export const EDGAR_HERO_PHOTO = '/edgar-lombera-hero.jpg'
+/** Transparent cutout from edgar-lombera.jpg — homepage hero feather blend (v3 cache-bust). */
+export const EDGAR_HERO_CUTOUT = '/images/edgar-lombera-cutout-v3.webp'

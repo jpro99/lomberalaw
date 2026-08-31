@@ -25,6 +25,8 @@ export default async function ResourcePostPage({
 }) {
   const { locale, slug } = await params
   const prefix = locale === 'en' ? '' : '/es'
+  const homeCrumb = locale === 'es' ? 'Inicio' : 'Home'
+  const homeHref = locale === 'en' ? '/' : '/es/inicio/'
   const post = await getPostBySlug(slug, locale)
   if (!post) notFound()
 
@@ -34,8 +36,8 @@ export default async function ResourcePostPage({
     <main>
       <JsonLd
         data={breadcrumbSchema([
-          { name: 'Home', url: 'https://lomberalaw.com' + (locale === 'es' ? '/es' : '') },
-          { name: 'Resources', url: `https://lomberalaw.com${prefix}/resources` },
+          { name: homeCrumb, url: `https://lomberalaw.com${homeHref}` },
+          { name: locale === 'es' ? 'Recursos' : 'Resources', url: `https://lomberalaw.com${prefix}/resources` },
           { name: post.title as string, url: `https://lomberalaw.com${prefix}/resources/${slug}` },
         ])}
       />
@@ -44,8 +46,8 @@ export default async function ResourcePostPage({
         <Container className="max-w-2xl">
           <Breadcrumbs
             items={[
-              { name: 'Home', href: locale === 'en' ? '/' : '/es' },
-              { name: 'Resources', href: `${prefix}/resources` },
+              { name: homeCrumb, href: homeHref },
+              { name: locale === 'es' ? 'Recursos' : 'Resources', href: `${prefix}/resources` },
               { name: post.title as string, href: `${prefix}/resources/${slug}` },
             ]}
           />
