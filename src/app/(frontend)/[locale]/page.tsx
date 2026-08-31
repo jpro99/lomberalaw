@@ -6,6 +6,7 @@ import { Button } from '@/components/Button'
 import { PracticeCard } from '@/components/PracticeCard'
 import { EdgarHeadshot } from '@/components/EdgarHeadshot'
 import { HomeCityList } from '@/components/HomeCityList'
+import { HomeHeroBackdrop } from '@/components/HomeHeroBackdrop'
 import { JsonLd } from '@/components/JsonLd'
 import { firmLegalServiceSchema } from '@/lib/schema'
 import { HOME_COPY } from '@/lib/hubBodyCopy'
@@ -54,8 +55,9 @@ export default async function HomePage({ params }: { params: Promise<{ locale: L
     <main>
       <JsonLd data={firmLegalServiceSchema()} />
 
-      <section className="border-b border-line bg-panel">
-        <Container className="grid items-center gap-10 py-12 md:grid-cols-[1.05fr_auto] md:gap-12 md:py-16 lg:py-20">
+      <section className="relative isolate overflow-hidden border-b border-line">
+        <HomeHeroBackdrop />
+        <Container className="relative z-0 grid items-center gap-10 py-12 md:grid-cols-[1.05fr_auto] md:gap-12 md:py-16 lg:py-20">
           <div className="max-w-xl">
             <p className="font-body text-[11px] font-semibold uppercase tracking-[0.18em] text-gold">
               {copy.officesLine}
