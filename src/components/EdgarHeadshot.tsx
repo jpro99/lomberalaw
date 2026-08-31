@@ -50,7 +50,11 @@ export function EdgarHeadshot({
           }
         />
         {showCaption && (
-          <figcaption className="mt-3 max-w-[240px] font-body text-xs leading-relaxed text-navy">
+          <figcaption className="relative mt-3 max-w-[240px] px-2 py-1.5 text-center font-body text-xs font-medium leading-relaxed text-navy">
+            <span
+              aria-hidden
+              className="pointer-events-none absolute inset-x-[-4px] inset-y-[-2px] -z-10 bg-gradient-to-b from-white/95 via-white/88 to-white/55"
+            />
             {captionText}
           </figcaption>
         )}

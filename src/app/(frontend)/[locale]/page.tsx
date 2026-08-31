@@ -74,15 +74,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: L
             </div>
           </div>
           <div className="justify-self-center bg-transparent md:justify-self-end">
-            <EdgarHeadshot
-              priority
-              feathered
-              caption={
-                locale === 'es'
-                  ? 'Edgar P. Lombera, Abogado fundador'
-                  : 'Edgar P. Lombera, Founding Attorney'
-              }
-            />
+            <EdgarHeadshot priority feathered locale={locale} />
           </div>
         </Container>
       </section>
