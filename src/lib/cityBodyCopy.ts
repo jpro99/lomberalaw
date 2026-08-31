@@ -1006,7 +1006,7 @@ const BK_EN: Record<CitySlug, CityPageCopy> = {
       {
         h2: 'Chapter 7 — means test and no-asset discharge',
         paragraphs: [
-          'Chapter 7 clears most unsecured debt when the household passes the means test — credit cards, valley medical bills, and deficiency balances after a vehicle repo. This is a Cathedral City household review at the Palm Canyon desk, not a Palm Desert hop on Fred Waring or a Palm Springs office-city page with the name swapped. A typical no-asset case discharges in about 90 to 120 days when the trustee accepts the petition.',
+          'Chapter 7 clears most unsecured debt when the household passes the means test — credit cards, valley medical bills, and deficiency balances after a vehicle repo. This is a Cathedral City household review at the Palm Canyon desk. A typical no-asset case discharges in about 90 to 120 days when the trustee accepts the petition.',
         ],
       },
       {
@@ -2291,7 +2291,7 @@ const BK_ES: Record<CitySlug, CityPageCopy> = {
       {
         h2: 'Capítulo 7 — prueba de medios y eliminación sin activos',
         paragraphs: [
-          'El Capítulo 7 elimina la mayor parte de la deuda no garantizada cuando el hogar pasa la prueba de medios — tarjetas de crédito, facturas médicas del valle y saldos de deficiencia tras la recuperación de un vehículo. Esta es una revisión de hogar de Cathedral City en el escritorio de Palm Canyon, no un trayecto de Palm Desert por Fred Waring ni una página de Palm Springs con el nombre de la ciudad cambiado. Un caso típico sin activos se elimina en unos 90 a 120 días cuando el síndico acepta la petición.',
+          'El Capítulo 7 elimina la mayor parte de la deuda no garantizada cuando el hogar pasa la prueba de medios — tarjetas de crédito, facturas médicas del valle y saldos de deficiencia tras la recuperación de un vehículo. Esta es una revisión de hogar de Cathedral City en el escritorio de Palm Canyon. Un caso típico sin activos se elimina en unos 90 a 120 días cuando el síndico acepta la petición.',
         ],
       },
       {
