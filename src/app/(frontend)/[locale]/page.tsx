@@ -55,7 +55,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: L
     <main>
       <JsonLd data={firmLegalServiceSchema()} />
 
-      <section className="relative isolate overflow-hidden border-b border-line">
+      <section className="relative isolate border-b border-line">
         <HomeHeroBackdrop />
         <Container className="relative z-0 grid items-center gap-10 py-12 md:grid-cols-[1.05fr_auto] md:gap-12 md:py-16 lg:py-20">
           <div className="max-w-xl">
@@ -71,10 +71,11 @@ export default async function HomePage({ params }: { params: Promise<{ locale: L
                 {redlands.phone}
               </Button>
               <p className="mt-4 max-w-md font-body text-sm leading-relaxed text-navy">{nextStep}</p>
+              <p className="mt-6 font-body text-xs text-navy">Edgar P. Lombera, Founding Attorney</p>
             </div>
           </div>
-          <div className="justify-self-center md:justify-self-end">
-            <EdgarHeadshot priority feathered />
+          <div className="justify-self-center bg-transparent md:justify-self-end">
+            <EdgarHeadshot priority feathered showCaption={false} />
           </div>
         </Container>
       </section>
