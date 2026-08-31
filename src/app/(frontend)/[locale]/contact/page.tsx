@@ -80,7 +80,7 @@ export default async function ContactPage({ params }: { params: Promise<{ locale
             <p className="mt-4 max-w-xl font-body text-sm leading-relaxed text-white/80">{pageCopy.lead[0]}</p>
           </div>
           <div className="justify-self-center md:justify-self-end">
-            <EdgarHeadshot />
+            <EdgarHeadshot locale={locale} />
           </div>
         </Container>
       </section>

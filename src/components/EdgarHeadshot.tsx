@@ -1,15 +1,26 @@
 import Image from 'next/image'
+import type { Locale } from '@/lib/payload'
 import { EDGAR_HERO_CUTOUT, EDGAR_PHOTO_FALLBACK } from '@/lib/mediaUrl'
 
 /** Padded transparent cutout v3 — do not run through next/image optimizer (flattens alpha). */
 const EDGAR_CUTOUT_WIDTH = 351
 const EDGAR_CUTOUT_HEIGHT = 387
 
+const EDGAR_CAPTION: Record<Locale, string> = {
+  en: 'Edgar P. Lombera, Founding Attorney',
+  es: 'Edgar P. Lombera, Abogado fundador',
+}
+
+function resolveCaption(locale: Locale, caption?: string) {
+  return caption ?? EDGAR_CAPTION[locale]
+}
+
 export function EdgarHeadshot({
   priority = false,
   theme = 'light',
   feathered = false,
   showCaption = true,
+  locale = 'en',
   caption,
   className,
 }: {
@@ -17,11 +28,13 @@ export function EdgarHeadshot({
   theme?: 'light' | 'dark'
   feathered?: boolean
   showCaption?: boolean
+  locale?: Locale
   caption?: string
   className?: string
 }) {
+  const captionText = resolveCaption(locale, caption)
+
   if (feathered) {
-    const captionText = caption ?? 'Edgar P. Lombera, Founding Attorney'
     return (
       <figure className="bg-transparent text-center">
         <img
@@ -55,7 +68,7 @@ export function EdgarHeadshot({
     <figure className="text-center">
       <Image
         src={EDGAR_PHOTO_FALLBACK}
-        alt="Edgar P. Lombera, Founding Attorney"
+        alt={captionText}
         width={288}
         height={288}
         priority={priority}
@@ -68,7 +81,7 @@ export function EdgarHeadshot({
             theme === 'dark' ? 'text-white/70' : 'text-ink-muted'
           }`}
         >
-          Edgar P. Lombera, Founding Attorney
+          {captionText}
         </figcaption>
       )}
     </figure>
