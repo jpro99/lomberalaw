@@ -71,11 +71,18 @@ export default async function HomePage({ params }: { params: Promise<{ locale: L
                 {redlands.phone}
               </Button>
               <p className="mt-4 max-w-md font-body text-sm leading-relaxed text-navy">{nextStep}</p>
-              <p className="mt-6 font-body text-xs text-navy">Edgar P. Lombera, Founding Attorney</p>
             </div>
           </div>
           <div className="justify-self-center bg-transparent md:justify-self-end">
-            <EdgarHeadshot priority feathered showCaption={false} />
+            <EdgarHeadshot
+              priority
+              feathered
+              caption={
+                locale === 'es'
+                  ? 'Edgar P. Lombera, Abogado fundador'
+                  : 'Edgar P. Lombera, Founding Attorney'
+              }
+            />
           </div>
         </Container>
       </section>

@@ -1,36 +1,47 @@
 import Image from 'next/image'
 import { EDGAR_HERO_CUTOUT, EDGAR_PHOTO_FALLBACK } from '@/lib/mediaUrl'
 
-/** Padded transparent cutout — do not run through next/image optimizer (flattens alpha). */
-const EDGAR_CUTOUT_WIDTH = 258
-const EDGAR_CUTOUT_HEIGHT = 350
+/** Padded transparent cutout v3 — do not run through next/image optimizer (flattens alpha). */
+const EDGAR_CUTOUT_WIDTH = 351
+const EDGAR_CUTOUT_HEIGHT = 387
 
 export function EdgarHeadshot({
   priority = false,
   theme = 'light',
   feathered = false,
   showCaption = true,
+  caption,
   className,
 }: {
   priority?: boolean
   theme?: 'light' | 'dark'
   feathered?: boolean
   showCaption?: boolean
+  caption?: string
   className?: string
 }) {
   if (feathered) {
+    const captionText = caption ?? 'Edgar P. Lombera, Founding Attorney'
     return (
-      <div className="bg-transparent">
+      <figure className="bg-transparent text-center">
         <img
           src={EDGAR_HERO_CUTOUT}
-          alt="Edgar P. Lombera, Founding Attorney"
+          alt={captionText}
           width={EDGAR_CUTOUT_WIDTH}
           height={EDGAR_CUTOUT_HEIGHT}
           fetchPriority={priority ? 'high' : undefined}
           decoding="async"
-          className={className ?? 'h-auto w-full max-w-[220px] bg-transparent md:max-w-[240px]'}
+          className={
+            className ??
+            'edgar-hero-cutout h-auto w-full max-w-[220px] bg-transparent md:max-w-[240px]'
+          }
         />
-      </div>
+        {showCaption && (
+          <figcaption className="mt-3 max-w-[240px] font-body text-xs leading-relaxed text-navy">
+            {captionText}
+          </figcaption>
+        )}
+      </figure>
     )
   }
 
