@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import { EDGAR_PHOTO_FALLBACK } from '@/lib/mediaUrl'
+import { EDGAR_HERO_CUTOUT, EDGAR_PHOTO_FALLBACK } from '@/lib/mediaUrl'
 
 export function EdgarHeadshot({
   priority = false,
@@ -15,7 +15,7 @@ export function EdgarHeadshot({
   const imageClass =
     className ??
     (feathered
-      ? 'edgar-hero-feather h-auto w-full max-w-[260px]'
+      ? 'h-auto w-full max-w-[260px]'
       : theme === 'dark'
         ? 'h-auto w-full max-w-[220px] border border-white/15'
         : 'h-auto w-full max-w-[240px] rounded-sm border border-line shadow-card')
@@ -23,7 +23,7 @@ export function EdgarHeadshot({
   return (
     <figure className="text-center">
       <Image
-        src={EDGAR_PHOTO_FALLBACK}
+        src={feathered ? EDGAR_HERO_CUTOUT : EDGAR_PHOTO_FALLBACK}
         alt="Edgar P. Lombera, Founding Attorney"
         width={288}
         height={288}

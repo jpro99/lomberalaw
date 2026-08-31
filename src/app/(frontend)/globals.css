@@ -257,24 +257,3 @@ img, svg { display: block; max-width: 100%; }
       );
   }
 }
-
-/* Homepage hero — Edgar dissolves into the mountain; face stays sharp. */
-.edgar-hero-feather {
-  border: none;
-  border-radius: 0;
-  box-shadow: none;
-  -webkit-mask-image: radial-gradient(
-    ellipse 90% 92% at 50% 38%,
-    #000 44%,
-    rgba(0, 0, 0, 0.88) 62%,
-    rgba(0, 0, 0, 0.45) 78%,
-    transparent 94%
-  );
-  mask-image: radial-gradient(
-    ellipse 90% 92% at 50% 38%,
-    #000 44%,
-    rgba(0, 0, 0, 0.88) 62%,
-    rgba(0, 0, 0, 0.45) 78%,
-    transparent 94%
-  );
-}
