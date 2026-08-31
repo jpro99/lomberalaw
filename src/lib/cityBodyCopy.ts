@@ -995,30 +995,43 @@ const BK_EN: Record<CitySlug, CityPageCopy> = {
     ],
   },
   'cathedral-city': {
-    h1: 'Cathedral City bankruptcy lawyer — file in Riverside',
-    title: 'Cathedral City Bankruptcy Lawyer | Chapter 7 & 13',
+    h1: 'Cathedral City Bankruptcy Lawyer',
+    title: 'Cathedral City Bankruptcy Lawyer | Chapter 7 & Chapter 13 | Inland Empire | Lombera',
     description:
-      'Bankruptcy lawyer in Cathedral City. Stop garnishment and foreclosure. Riverside filing. (760) 835-9353.',
+      'Chapter 7 and Chapter 13 bankruptcy for Cathedral City households. Prepared at 1276 N Palm Canyon Dr #107, Palm Springs; filed at 3420 Twelfth Street, Riverside. Garnishment and foreclosure relief. (760) 835-9353.',
     lead: [
-      'Cathedral City families with mounting credit card debt, medical bills, or a foreclosure notice can stop collections by filing bankruptcy. Edgar P. Lombera prepares the case from Palm Springs; the U.S. Bankruptcy Court is at 3420 Twelfth Street, Riverside.',
+      'Cathedral City wage garnishments and foreclosure notices are state-court collection until a federal petition is filed. From civic City Hall at 68700 Avenida Lalo Guerrero — the hop start only, not a firm suite — the desk at 1276 N Palm Canyon Dr #107, Palm Springs, CA 92262 is about 9 miles and 15 minutes northwest via Cathedral Canyon Drive, East Palm Canyon Drive, Gene Autry Trail, and Vista Chino. Edgar P. Lombera prepares Chapter 7 and Chapter 13 at that Palm Springs desk. You speak with him. English or Spanish. Two practices only: personal injury and bankruptcy. There is no Lombera storefront in Cathedral City. Every consumer case files at the U.S. Bankruptcy Court, 3420 Twelfth Street, Riverside — about 52 miles and 64 minutes west from the Palm Canyon office. Call (760) 835-9353.',
     ],
     sections: [
       {
-        h2: 'Chapter 7 and Chapter 13 explained',
+        h2: 'Chapter 7 — means test and no-asset discharge',
         paragraphs: [
-          'Chapter 7 wipes qualifying unsecured debt. Chapter 13 is the court-supervised plan to catch up a mortgage or manage debt when Chapter 7 is not available.',
+          'Chapter 7 clears most unsecured debt when the household passes the means test — credit cards, valley medical bills, and deficiency balances after a vehicle repo. This is a Cathedral City household review at the Palm Canyon desk, not a Palm Desert hop on Fred Waring or a Palm Springs office-city page with the name swapped. A typical no-asset case discharges in about 90 to 120 days when the trustee accepts the petition.',
         ],
       },
       {
-        h2: 'Wage garnishment relief',
+        h2: 'Chapter 13 — plan, arrears, and cramdown',
         paragraphs: [
-          'The automatic stay halts most garnishments the day the petition is filed — before another paycheck is taken.',
+          'Chapter 13 folds mortgage arrears into a three-to-five-year court plan and can cram down certain secured balances where the Bankruptcy Code allows — common when a Cathedral City household still has wages but fell behind during a medical event or credit-card pressure cycle. The plan is the relief, not a foreclosure-defense add-on sold separately.',
         ],
       },
       {
-        h2: 'Federal court address',
+        h2: 'Automatic stay — garnishment, foreclosure, repossession',
         paragraphs: [
-          'U.S. Bankruptcy Court, Central District of California, 3420 Twelfth Street, Riverside. Free consult in English or Spanish. (760) 835-9353.',
+          'The automatic stay begins the day the petition is filed — wage garnishments tied to Cathedral City employers, scheduled foreclosure sales, and repossession timelines pause for most creditors. Filing before the next paycheck or sale date protects lead time that waiting burns.',
+        ],
+      },
+      {
+        h2: 'Where Cathedral City files — 3420 Twelfth Street, Riverside',
+        paragraphs: [
+          'Every Cathedral City consumer bankruptcy files at the U.S. Bankruptcy Court, Central District of California, 3420 Twelfth Street, Riverside — about 52 miles and 64 minutes west via Highway 111 and the I-10 from the desk at 1276 N Palm Canyon Dr in Palm Springs. That building is the courthouse, not a Lombera suite. There is no bankruptcy court in Cathedral City. Official court filing fees are $338 for Chapter 7 and $313 for Chapter 13. The Section 341 meeting of creditors is often held remotely.',
+        ],
+      },
+      {
+        h2: '(760) 835-9353 — 1276 N Palm Canyon Dr #107',
+        paragraphs: [
+          'Hours: Monday–Friday 9am–6pm, Saturday 10am–4pm, Sunday by appointment. From Cathedral City, the consultation is about 9 miles and 15 minutes northwest on Cathedral Canyon, East Palm Canyon, Gene Autry, and Vista Chino — sit-down at the Palm Canyon office, not a federal courthouse address. Redlands is the other office — 2068 Orange Tree Lane, Suite 220, (909) 915-0181. ' +
+            DEBT_RELIEF,
         ],
       },
     ],
@@ -2267,31 +2280,44 @@ const BK_ES: Record<CitySlug, CityPageCopy> = {
     ],
   },
   'cathedral-city': {
-    h1: "Abogado de bancarrota en Cathedral City — se presenta en Riverside",
-    title: "Abogado de Bancarrota Cathedral City | Lombera",
-    description: "Abogado de bancarrota en Cathedral City. Detenga el embargo y la ejecución hipotecaria. Presentación en Riverside. (760) 835-9353.",
+    h1: 'Abogado de Bancarrota en Cathedral City',
+    title: 'Abogado de Bancarrota Cathedral City | Capítulo 7 y Capítulo 13 | Inland Empire | Lombera',
+    description:
+      'Capítulo 7 y Capítulo 13 para hogares de Cathedral City. Preparado en 1276 N Palm Canyon Dr #107, Palm Springs; presentado en 3420 Twelfth Street, Riverside. Alivio de embargo y ejecución hipotecaria. (760) 835-9353.',
     lead: [
-      "Las familias de Cathedral City con deuda creciente de tarjetas de crédito, facturas médicas o un aviso de ejecución hipotecaria pueden detener las cobranzas presentando bancarrota. Edgar P. Lombera prepara el caso desde Palm Springs; el Tribunal de Bancarrota de EE. UU. está en 3420 Twelfth Street, Riverside.",
+      'Los embargos de salario y avisos de ejecución hipotecaria en Cathedral City son cobranza del tribunal estatal hasta que se presenta una petición federal. Desde el Ayuntamiento cívico en 68700 Avenida Lalo Guerrero — solo el inicio del trayecto, no una suite del despacho — el escritorio en 1276 N Palm Canyon Dr #107, Palm Springs, CA 92262 queda a unas 9 millas y 15 minutos al noroeste por Cathedral Canyon Drive, East Palm Canyon Drive, Gene Autry Trail y Vista Chino. Edgar P. Lombera prepara el Capítulo 7 y el Capítulo 13 en ese escritorio de Palm Springs. Usted habla con él. Inglés o español. Solo dos prácticas: lesiones personales y bancarrota. No hay local de Lombera en Cathedral City. Todo caso de consumidor se presenta en el Tribunal de Bancarrota de EE. UU., 3420 Twelfth Street, Riverside — unas 52 millas y 64 minutos al oeste desde la oficina de Palm Canyon. Llame al (760) 835-9353.',
     ],
     sections: [
-          {
-            h2: "Capítulo 7 y Capítulo 13 explicados",
-            paragraphs: [
-            "El Capítulo 7 elimina la deuda no garantizada que califica. El Capítulo 13 es el plan supervisado por el tribunal para ponerse al día con la hipoteca o manejar la deuda cuando el Capítulo 7 no está disponible.",
-            ],
-          },
-          {
-            h2: "Alivio del embargo de salario",
-            paragraphs: [
-            "La suspensión automática detiene la mayoría de los embargos el día que se presenta la petición — antes de que tomen otro cheque de pago.",
-            ],
-          },
-          {
-            h2: "Dirección del tribunal federal",
-            paragraphs: [
-            "Tribunal de Bancarrota de EE. UU., Distrito Central de California, 3420 Twelfth Street, Riverside. Consulta gratis en inglés o español. (760) 835-9353.",
-            ],
-          },
+      {
+        h2: 'Capítulo 7 — prueba de medios y eliminación sin activos',
+        paragraphs: [
+          'El Capítulo 7 elimina la mayor parte de la deuda no garantizada cuando el hogar pasa la prueba de medios — tarjetas de crédito, facturas médicas del valle y saldos de deficiencia tras la recuperación de un vehículo. Esta es una revisión de hogar de Cathedral City en el escritorio de Palm Canyon, no un trayecto de Palm Desert por Fred Waring ni una página de Palm Springs con el nombre de la ciudad cambiado. Un caso típico sin activos se elimina en unos 90 a 120 días cuando el síndico acepta la petición.',
+        ],
+      },
+      {
+        h2: 'Capítulo 13 — plan, atrasos y reducción forzada del saldo garantizado',
+        paragraphs: [
+          'El Capítulo 13 incorpora los atrasos de la hipoteca en un plan judicial de tres a cinco años y puede reducir de forma forzada ciertos saldos garantizados donde el Código de Bancarrota lo permite — frecuente cuando un hogar de Cathedral City aún tiene salarios pero se atrasó durante un evento médico o un ciclo de presión de tarjetas de crédito. El plan es el alivio, no un complemento de defensa de ejecución hipotecaria vendido por separado.',
+        ],
+      },
+      {
+        h2: 'Suspensión automática — embargo, ejecución hipotecaria, recuperación de vehículo',
+        paragraphs: [
+          'La suspensión automática comienza el día que se presenta la petición — los embargos de salario vinculados a empleadores de Cathedral City, las ventas de ejecución hipotecaria programadas y los plazos de recuperación de vehículos se pausan para la mayoría de los acreedores. Presentar antes del próximo cheque o fecha de venta protege el tiempo que esperar consumiría.',
+        ],
+      },
+      {
+        h2: 'Dónde presenta Cathedral City — 3420 Twelfth Street, Riverside',
+        paragraphs: [
+          'Toda bancarrota de consumidor de Cathedral City se presenta en el Tribunal de Bancarrota de EE. UU., Distrito Central de California, 3420 Twelfth Street, Riverside — unas 52 millas y 64 minutos al oeste por la Carretera 111 y la I-10 desde el escritorio en 1276 N Palm Canyon Dr en Palm Springs. Ese edificio es el tribunal, no una suite de Lombera. No hay tribunal de bancarrota en Cathedral City. Las tarifas oficiales de presentación judicial son $338 para el Capítulo 7 y $313 para el Capítulo 13. La reunión de acreedores de la Sección 341 suele ser remota.',
+        ],
+      },
+      {
+        h2: '(760) 835-9353 — 1276 N Palm Canyon Dr #107',
+        paragraphs: [
+          'Horario: lunes a viernes 9am–6pm, sábado 10am–4pm, domingo con cita. Desde Cathedral City, la consulta es unas 9 millas y 15 minutos al noroeste por Cathedral Canyon, East Palm Canyon, Gene Autry y Vista Chino — en el escritorio de Palm Canyon, no una dirección de tribunal federal. Redlands es la otra oficina — 2068 Orange Tree Lane, Suite 220, (909) 915-0181. Somos una agencia de alivio de deudas. Ayudamos a las personas a solicitar alivio de bancarrota bajo el Código de Bancarrota (11 U.S.C. §528).',
+        ],
+      },
     ],
   },
   indio: {
