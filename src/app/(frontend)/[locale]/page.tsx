@@ -64,17 +64,17 @@ export default async function HomePage({ params }: { params: Promise<{ locale: L
             </p>
             <h1 className="mt-4 font-display text-[2rem] leading-[1.12] text-navy md:text-[2.75rem]">{h1}</h1>
             {pageCopy.lead?.[0] && (
-              <p className="mt-5 max-w-lg font-body text-base leading-relaxed text-ink-soft">{pageCopy.lead[0]}</p>
+              <p className="mt-5 max-w-lg font-body text-base leading-relaxed text-navy">{pageCopy.lead[0]}</p>
             )}
             <div className="mt-8">
               <Button href={`tel:${redlands.tel}`} variant="accent" size="lg" trackAs="call">
                 {redlands.phone}
               </Button>
-              <p className="mt-4 max-w-md font-body text-sm leading-relaxed text-ink-muted">{nextStep}</p>
+              <p className="mt-4 max-w-md font-body text-sm leading-relaxed text-navy">{nextStep}</p>
             </div>
           </div>
           <div className="justify-self-center md:justify-self-end">
-            <EdgarHeadshot priority />
+            <EdgarHeadshot priority feathered />
           </div>
         </Container>
       </section>

@@ -20,7 +20,7 @@ export function PracticeCard({
     >
       <p className="font-body text-xs font-semibold uppercase tracking-[0.16em] text-gold">{eyebrow}</p>
       <h3 className="mt-3 font-display text-2xl text-navy md:text-[1.75rem]">{name}</h3>
-      <p className="mt-3 max-w-md font-body text-sm leading-relaxed text-ink-soft">{description}</p>
+      <p className="mt-3 max-w-md font-body text-sm leading-relaxed text-navy">{description}</p>
       <span className="mt-6 inline-flex items-center gap-2 font-body text-sm font-semibold text-ink underline decoration-gold underline-offset-4 group-hover:decoration-ink">
         {learnMore} →
       </span>
