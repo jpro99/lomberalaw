@@ -870,30 +870,43 @@ const BK_EN: Record<CitySlug, CityPageCopy> = {
     ],
   },
   beaumont: {
-    h1: 'Beaumont bankruptcy lawyer — file in Riverside, not Indio',
-    title: 'Beaumont Bankruptcy Lawyer | Chapter 7 & 13 | Lombera',
+    h1: 'Beaumont Bankruptcy Lawyer',
+    title: 'Beaumont Bankruptcy Lawyer | Chapter 7 & Chapter 13 | Inland Empire | Lombera',
     description:
-      'Beaumont bankruptcy — Chapter 7 and 13, foreclosure defense, wage garnishment. Riverside court. (909) 915-0181.',
+      'Chapter 7 and Chapter 13 bankruptcy for Beaumont households. Prepared at 2068 Orange Tree Lane, Suite 220, Redlands; filed at 3420 Twelfth Street, Riverside. Garnishment and foreclosure relief. (909) 915-0181.',
     lead: [
-      'Beaumont residents facing foreclosure on the I-10 corridor or a hospital bill from a pass-area ER can file bankruptcy in Riverside. Edgar P. Lombera handles Chapter 7 and Chapter 13 from the Redlands office — consult free, in English or Spanish.',
+      'Beaumont wage garnishments and foreclosure notices are state-court collection until a federal petition is filed. Meet Edgar P. Lombera at 2068 Orange Tree Lane, Suite 220, Redlands, CA 92374 — about 19 miles and 23 minutes northwest from downtown Beaumont via Beaumont Avenue, the I-10 west, and California Street. He prepares Chapter 7 and Chapter 13 at that Orange Tree desk. You speak with him. English or Spanish. Two practices only: personal injury and bankruptcy. There is no Lombera storefront in Beaumont. Every consumer case files at the U.S. Bankruptcy Court, 3420 Twelfth Street, Riverside — about 12 miles and 17 minutes southwest from the Redlands office via California Street, the I-10, and the I-215. Call (909) 915-0181.',
     ],
     sections: [
       {
-        h2: 'Medical debt after a pass wreck',
+        h2: 'Chapter 7 — means test and no-asset discharge',
         paragraphs: [
-          'A crash on the I-10 can leave medical debt that outpaces insurance. Chapter 7 discharges many of those bills; Chapter 13 structures repayment when you need to keep the home.',
+          'Chapter 7 clears most unsecured debt when the household passes the means test — credit cards, pass-area medical bills, and deficiency balances after a vehicle repo. This is a Beaumont household review at the Orange Tree Lane desk. A typical no-asset case discharges in about 90 to 120 days when the trustee accepts the petition.',
         ],
       },
       {
-        h2: 'Automatic stay',
+        h2: 'Chapter 13 — plan, arrears, and cramdown',
         paragraphs: [
-          'Filing triggers the automatic stay — garnishments and foreclosure sales pause while the case is active.',
+          'Chapter 13 folds mortgage arrears into a three-to-five-year court plan and can cram down certain secured balances where the Bankruptcy Code allows — common when a Beaumont household on the I-10 pass corridor still has wages but fell behind during a medical event or commuter-cost pressure cycle. The plan is the relief, not a foreclosure-defense add-on sold separately.',
         ],
       },
       {
-        h2: 'Riverside bankruptcy court',
+        h2: 'Automatic stay — garnishment, foreclosure, repossession',
         paragraphs: [
-          'File at 3420 Twelfth Street, Riverside. Court fees $338 Ch.7 / $313 Ch.13. Never file in Indio — there is no bankruptcy court there. (909) 915-0181.',
+          'The automatic stay begins the day the petition is filed — wage garnishments tied to Beaumont employers, scheduled foreclosure sales, and repossession timelines pause for most creditors. Filing before the next paycheck or sale date protects lead time that waiting burns.',
+        ],
+      },
+      {
+        h2: 'Where Beaumont files — 3420 Twelfth Street, Riverside',
+        paragraphs: [
+          'Every Beaumont consumer bankruptcy files at the U.S. Bankruptcy Court, Central District of California, 3420 Twelfth Street, Riverside — about 12 miles and 17 minutes southwest via California Street, the I-10, and the I-215 from the desk at 2068 Orange Tree Lane in Redlands. That building is the courthouse, not a Lombera suite. There is no bankruptcy court in Beaumont. Official court filing fees are $338 for Chapter 7 and $313 for Chapter 13. The Section 341 meeting of creditors is often held remotely.',
+        ],
+      },
+      {
+        h2: '(909) 915-0181 — 2068 Orange Tree Lane, Suite 220',
+        paragraphs: [
+          'Hours: Monday–Friday 9am–6pm, Saturday 10am–4pm, Sunday by appointment. From Beaumont, the consultation is about 19 miles and 23 minutes northwest on Beaumont Avenue, the I-10 west, and California Street — sit-down at the Orange Tree Lane office, not a federal courthouse address. Palm Springs is the other office — 1276 N Palm Canyon Dr #107, (760) 835-9353. ' +
+            DEBT_RELIEF,
         ],
       },
     ],
@@ -2171,31 +2184,44 @@ const BK_ES: Record<CitySlug, CityPageCopy> = {
     ],
   },
   beaumont: {
-    h1: "Abogado de bancarrota en Beaumont — se presenta en Riverside",
-    title: "Abogado de Bancarrota Beaumont | Capítulo 7 y 13",
-    description: "Bancarrota en Beaumont — Capítulo 7 y 13, defensa de ejecución hipotecaria, embargo de salario. Tribunal Riverside. (909) 915-0181.",
+    h1: 'Abogado de Bancarrota en Beaumont',
+    title: 'Abogado de Bancarrota Beaumont | Capítulo 7 y Capítulo 13 | Inland Empire | Lombera',
+    description:
+      'Capítulo 7 y Capítulo 13 para hogares de Beaumont. Preparado en 2068 Orange Tree Lane, Suite 220, Redlands; presentado en 3420 Twelfth Street, Riverside. Alivio de embargo y ejecución hipotecaria. (909) 915-0181.',
     lead: [
-      "Los residentes de Beaumont que enfrentan ejecución hipotecaria en el corredor de la I-10 o una factura hospitalaria de un ER del paso pueden presentar bancarrota en Riverside. Edgar P. Lombera maneja el Capítulo 7 y el Capítulo 13 desde la oficina de Redlands — consulta gratis, en inglés o español.",
+      'Los embargos de salario y avisos de ejecución hipotecaria en Beaumont son cobranza del tribunal estatal hasta que se presenta una petición federal. Reúnase con Edgar P. Lombera en 2068 Orange Tree Lane, Suite 220, Redlands, CA 92374 — unas 19 millas y 23 minutos al noroeste desde el centro de Beaumont por Beaumont Avenue, la I-10 al oeste y California Street. Él prepara el Capítulo 7 y el Capítulo 13 en ese escritorio de Orange Tree. Usted habla con él. Inglés o español. Solo dos prácticas: lesiones personales y bancarrota. No hay local de Lombera en Beaumont. Todo caso de consumidor se presenta en el Tribunal de Bancarrota de EE. UU., 3420 Twelfth Street, Riverside — unas 12 millas y 17 minutos al suroeste desde la oficina de Redlands por California Street, la I-10 y la I-215. Llame al (909) 915-0181.',
     ],
     sections: [
-          {
-            h2: "Deuda médica después de un choque en el paso",
-            paragraphs: [
-            "Un choque en la I-10 puede dejar deuda médica que supera el seguro. El Capítulo 7 elimina muchas de esas facturas; el Capítulo 13 estructura el pago cuando necesita conservar la casa.",
-            ],
-          },
-          {
-            h2: "Suspensión automática",
-            paragraphs: [
-            "La presentación activa la suspensión automática — los embargos y las ventas de ejecución hipotecaria se pausan mientras el caso está activo.",
-            ],
-          },
-          {
-            h2: "Tribunal de bancarrota de Riverside",
-            paragraphs: [
-            "Presente en 3420 Twelfth Street, Riverside. Tarifas judiciales $338 Cap.7 / $313 Cap.13. Nunca presente en Indio — no hay tribunal de bancarrota allí. (909) 915-0181.",
-            ],
-          },
+      {
+        h2: 'Capítulo 7 — prueba de medios y eliminación sin activos',
+        paragraphs: [
+          'El Capítulo 7 elimina la mayor parte de la deuda no garantizada cuando el hogar pasa la prueba de medios — tarjetas de crédito, facturas médicas del área del paso y saldos de deficiencia tras la recuperación de un vehículo. Esta es una revisión de hogar de Beaumont en el escritorio de Orange Tree Lane. Un caso típico sin activos se elimina en unos 90 a 120 días cuando el síndico acepta la petición.',
+        ],
+      },
+      {
+        h2: 'Capítulo 13 — plan, atrasos y reducción forzada del saldo garantizado',
+        paragraphs: [
+          'El Capítulo 13 incorpora los atrasos de la hipoteca en un plan judicial de tres a cinco años y puede reducir de forma forzada ciertos saldos garantizados donde el Código de Bancarrota lo permite — frecuente cuando un hogar de Beaumont en el corredor del paso de la I-10 aún tiene salarios pero se atrasó durante un evento médico o un ciclo de presión de costos de traslado. El plan es el alivio, no un complemento de defensa de ejecución hipotecaria vendido por separado.',
+        ],
+      },
+      {
+        h2: 'Suspensión automática — embargo, ejecución hipotecaria, recuperación de vehículo',
+        paragraphs: [
+          'La suspensión automática comienza el día que se presenta la petición — los embargos de salario vinculados a empleadores de Beaumont, las ventas de ejecución hipotecaria programadas y los plazos de recuperación de vehículos se pausan para la mayoría de los acreedores. Presentar antes del próximo cheque o fecha de venta protege el tiempo que esperar consumiría.',
+        ],
+      },
+      {
+        h2: 'Dónde presenta Beaumont — 3420 Twelfth Street, Riverside',
+        paragraphs: [
+          'Toda bancarrota de consumidor de Beaumont se presenta en el Tribunal de Bancarrota de EE. UU., Distrito Central de California, 3420 Twelfth Street, Riverside — unas 12 millas y 17 minutos al suroeste por California Street, la I-10 y la I-215 desde el escritorio en 2068 Orange Tree Lane en Redlands. Ese edificio es el tribunal, no una suite de Lombera. No hay tribunal de bancarrota en Beaumont. Las tarifas oficiales de presentación judicial son $338 para el Capítulo 7 y $313 para el Capítulo 13. La reunión de acreedores de la Sección 341 suele ser remota.',
+        ],
+      },
+      {
+        h2: '(909) 915-0181 — 2068 Orange Tree Lane, Suite 220',
+        paragraphs: [
+          'Horario: lunes a viernes 9am–6pm, sábado 10am–4pm, domingo con cita. Desde Beaumont, la consulta es unas 19 millas y 23 minutos al noroeste por Beaumont Avenue, la I-10 al oeste y California Street — en el escritorio de Orange Tree Lane, no una dirección de tribunal federal. Palm Springs es la otra oficina — 1276 N Palm Canyon Dr #107, (760) 835-9353. Somos una agencia de alivio de deudas. Ayudamos a las personas a solicitar alivio de bancarrota bajo el Código de Bancarrota (11 U.S.C. §528).',
+        ],
+      },
     ],
   },
   'palm-springs': {
