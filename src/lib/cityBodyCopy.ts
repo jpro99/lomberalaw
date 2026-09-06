@@ -1037,30 +1037,43 @@ const BK_EN: Record<CitySlug, CityPageCopy> = {
     ],
   },
   indio: {
-    h1: 'Indio bankruptcy lawyer — Oasis Street is not bankruptcy court',
-    title: 'Indio Bankruptcy Lawyer | Riverside Court Filing | Lombera',
+    h1: 'Indio Bankruptcy Lawyer',
+    title: 'Indio Bankruptcy Lawyer | Chapter 7 & Chapter 13 | Inland Empire | Lombera',
     description:
-      'Indio bankruptcy — Chapter 7 and 13 filed at Riverside, not Larson Justice Center. Garnishment relief. (760) 835-9353.',
+      'Chapter 7 and Chapter 13 bankruptcy for Indio households. Prepared at 1276 N Palm Canyon Dr #107, Palm Springs; filed at 3420 Twelfth Street, Riverside. Garnishment and foreclosure relief. (760) 835-9353.',
     lead: [
-      `The Larson Justice Center at 46-200 Oasis St., Indio, handles civil Superior Court cases — not consumer bankruptcy. Meet Edgar at ${PS_NAP}; every Chapter 7 and Chapter 13 files at ${BK_COURT}. Edgar P. Lombera, California State Bar No. 259393.`,
+      'Indio wage garnishments and foreclosure notices are state-court collection until a federal petition is filed. Meet Edgar P. Lombera at 1276 N Palm Canyon Dr #107, Palm Springs, CA 92262 — about 24 miles and 31 minutes west-northwest from downtown Indio via Jackson Street, the I-10 west, Vista Chino, and Palm Canyon. He prepares Chapter 7 and Chapter 13 at that Palm Springs desk. You speak with him. English or Spanish. Two practices only: personal injury and bankruptcy. There is no Lombera storefront in Indio. Every consumer case files at the U.S. Bankruptcy Court, 3420 Twelfth Street, Riverside — about 52 miles and 64 minutes west from the Palm Canyon office. Call (760) 835-9353.',
     ],
     sections: [
       {
-        h2: 'Oasis Street is civil court only',
+        h2: 'Chapter 7 — means test and no-asset discharge',
         paragraphs: [
-          'Injury lawsuits from Indio may be filed at the Larson Justice Center. Bankruptcy is federal and files only at 3420 Twelfth Street, Riverside — never at the Indio Superior Court branch.',
+          'Chapter 7 clears most unsecured debt when the household passes the means test — credit cards, valley medical bills, and deficiency balances after a vehicle repo. This is an Indio household review at the Palm Canyon desk. A typical no-asset case discharges in about 90 to 120 days when the trustee accepts the petition.',
         ],
       },
       {
-        h2: 'Chapter 7 and Chapter 13',
+        h2: 'Chapter 13 — plan, arrears, and cramdown',
         paragraphs: [
-          'Chapter 7 runs about 90 to 120 days if you pass the means test. Chapter 13 is a three-to-five-year plan. Foreclosure defense and wage garnishment stops are built into the petition — not separate add-ons. The automatic stay begins the day of filing.',
+          'Chapter 13 folds mortgage arrears into a three-to-five-year court plan and can cram down certain secured balances where the Bankruptcy Code allows — common when an Indio household still has wages from hospitality, logistics, or seasonal valley work but fell behind during a medical event or HOA pressure cycle. The plan is the relief, not a foreclosure-defense add-on sold separately.',
         ],
       },
       {
-        h2: 'Homestead, 341, and court fees',
+        h2: 'Automatic stay — garnishment, foreclosure, repossession',
         paragraphs: [
-          'Homestead exemption is confirmed in the consult with your documents. The 341 meeting is often remote. 2026 court fees: $338 Chapter 7, $313 Chapter 13. ' + DEBT_RELIEF,
+          'The automatic stay begins the day the petition is filed — wage garnishments tied to Indio employers, scheduled foreclosure sales, and repossession timelines pause for most creditors. Filing before the next paycheck or sale date protects lead time that waiting burns.',
+        ],
+      },
+      {
+        h2: 'Where Indio files — 3420 Twelfth Street, Riverside',
+        paragraphs: [
+          'Every Indio consumer bankruptcy files at the U.S. Bankruptcy Court, Central District of California, 3420 Twelfth Street, Riverside — about 52 miles and 64 minutes west via Highway 111 and the I-10 from the desk at 1276 N Palm Canyon Dr in Palm Springs. That building is the courthouse, not a Lombera suite. There is no bankruptcy court in Indio. Official court filing fees are $338 for Chapter 7 and $313 for Chapter 13. The Section 341 meeting of creditors is often held remotely.',
+        ],
+      },
+      {
+        h2: '(760) 835-9353 — 1276 N Palm Canyon Dr #107',
+        paragraphs: [
+          'Hours: Monday–Friday 9am–6pm, Saturday 10am–4pm, Sunday by appointment. From Indio, the consultation is about 24 miles and 31 minutes west-northwest on Jackson Street, the I-10 west, Vista Chino, and Palm Canyon — sit-down at the Palm Canyon office, not a federal courthouse address. Redlands is the other office — 2068 Orange Tree Lane, Suite 220, (909) 915-0181. ' +
+            DEBT_RELIEF,
         ],
       },
     ],
@@ -2321,31 +2334,44 @@ const BK_ES: Record<CitySlug, CityPageCopy> = {
     ],
   },
   indio: {
-    h1: "Abogado de bancarrota en Indio — el tribunal federal está en Riverside",
-    title: "Abogado de Bancarrota Indio | Tribunal Riverside",
-    description: "Bancarrota en Indio — Capítulo 7 y 13 presentados en Riverside, no en Larson Justice Center. Alivio de embargo. (760) 835-9353.",
+    h1: 'Abogado de Bancarrota en Indio',
+    title: 'Abogado de Bancarrota Indio | Capítulo 7 y Capítulo 13 | Inland Empire | Lombera',
+    description:
+      'Capítulo 7 y Capítulo 13 para hogares de Indio. Preparado en 1276 N Palm Canyon Dr #107, Palm Springs; presentado en 3420 Twelfth Street, Riverside. Alivio de embargo y ejecución hipotecaria. (760) 835-9353.',
     lead: [
-      "El Larson Justice Center en 46-200 Oasis St., Indio, maneja casos del Tribunal Superior civil — no bancarrota de consumidor. Reúnase con Edgar en 1276 N Palm Canyon Dr #107, Palm Springs, CA 92262 — (760) 835-9353; todo Capítulo 7 y Capítulo 13 se presenta en el Tribunal de Bancarrota de EE. UU., 3420 Twelfth Street, Riverside. Edgar P. Lombera, Colegio de Abogados de California No. 259393.",
+      'Los embargos de salario y avisos de ejecución hipotecaria en Indio son cobranza del tribunal estatal hasta que se presenta una petición federal. Reúnase con Edgar P. Lombera en 1276 N Palm Canyon Dr #107, Palm Springs, CA 92262 — unas 24 millas y 31 minutos al oeste-noroeste desde el centro de Indio por Jackson Street, la I-10 al oeste, Vista Chino y Palm Canyon. Él prepara el Capítulo 7 y el Capítulo 13 en ese escritorio de Palm Springs. Usted habla con él. Inglés o español. Solo dos prácticas: lesiones personales y bancarrota. No hay local de Lombera en Indio. Todo caso de consumidor se presenta en el Tribunal de Bancarrota de EE. UU., 3420 Twelfth Street, Riverside — unas 52 millas y 64 minutos al oeste desde la oficina de Palm Canyon. Llame al (760) 835-9353.',
     ],
     sections: [
-          {
-            h2: "Oasis Street es solo tribunal civil",
-            paragraphs: [
-            "Las demandas por lesiones de Indio pueden presentarse en el Larson Justice Center. La bancarrota es federal y se presenta solo en 3420 Twelfth Street, Riverside — nunca en la sucursal del Tribunal Superior de Indio.",
-            ],
-          },
-          {
-            h2: "Capítulo 7 y Capítulo 13",
-            paragraphs: [
-            "El Capítulo 7 dura unos 90 a 120 días si pasa la prueba de medios. El Capítulo 13 es un plan de tres a cinco años. La defensa de ejecución hipotecaria y la detención del embargo de salario van en la petición — no son complementos separados. La suspensión automática comienza el día de la presentación.",
-            ],
-          },
-          {
-            h2: "Exención de vivienda, 341 y tarifas judiciales",
-            paragraphs: [
-            "La exención de vivienda se confirma en la consulta con sus documentos. La reunión 341 suele ser remota. Tarifas judiciales 2026: $338 Capítulo 7, $313 Capítulo 13. Somos una agencia de alivio de deudas. Ayudamos a las personas a solicitar alivio de bancarrota bajo el Código de Bancarrota (11 U.S.C. §528).",
-            ],
-          },
+      {
+        h2: 'Capítulo 7 — prueba de medios y eliminación sin activos',
+        paragraphs: [
+          'El Capítulo 7 elimina la mayor parte de la deuda no garantizada cuando el hogar pasa la prueba de medios — tarjetas de crédito, facturas médicas del valle y saldos de deficiencia tras la recuperación de un vehículo. Esta es una revisión de hogar de Indio en el escritorio de Palm Canyon. Un caso típico sin activos se elimina en unos 90 a 120 días cuando el síndico acepta la petición.',
+        ],
+      },
+      {
+        h2: 'Capítulo 13 — plan, atrasos y reducción forzada del saldo garantizado',
+        paragraphs: [
+          'El Capítulo 13 incorpora los atrasos de la hipoteca en un plan judicial de tres a cinco años y puede reducir de forma forzada ciertos saldos garantizados donde el Código de Bancarrota lo permite — frecuente cuando un hogar de Indio aún tiene salarios de hospitalidad, logística o trabajo estacional del valle pero se atrasó durante un evento médico o un ciclo de presión de la HOA. El plan es el alivio, no un complemento de defensa de ejecución hipotecaria vendido por separado.',
+        ],
+      },
+      {
+        h2: 'Suspensión automática — embargo, ejecución hipotecaria, recuperación de vehículo',
+        paragraphs: [
+          'La suspensión automática comienza el día que se presenta la petición — los embargos de salario vinculados a empleadores de Indio, las ventas de ejecución hipotecaria programadas y los plazos de recuperación de vehículos se pausan para la mayoría de los acreedores. Presentar antes del próximo cheque o fecha de venta protege el tiempo que esperar consumiría.',
+        ],
+      },
+      {
+        h2: 'Dónde presenta Indio — 3420 Twelfth Street, Riverside',
+        paragraphs: [
+          'Toda bancarrota de consumidor de Indio se presenta en el Tribunal de Bancarrota de EE. UU., Distrito Central de California, 3420 Twelfth Street, Riverside — unas 52 millas y 64 minutos al oeste por la Carretera 111 y la I-10 desde el escritorio en 1276 N Palm Canyon Dr en Palm Springs. Ese edificio es el tribunal, no una suite de Lombera. No hay tribunal de bancarrota en Indio. Las tarifas oficiales de presentación judicial son $338 para el Capítulo 7 y $313 para el Capítulo 13. La reunión de acreedores de la Sección 341 suele ser remota.',
+        ],
+      },
+      {
+        h2: '(760) 835-9353 — 1276 N Palm Canyon Dr #107',
+        paragraphs: [
+          'Horario: lunes a viernes 9am–6pm, sábado 10am–4pm, domingo con cita. Desde Indio, la consulta es unas 24 millas y 31 minutos al oeste-noroeste por Jackson Street, la I-10 al oeste, Vista Chino y Palm Canyon — en el escritorio de Palm Canyon, no una dirección de tribunal federal. Redlands es la otra oficina — 2068 Orange Tree Lane, Suite 220, (909) 915-0181. Somos una agencia de alivio de deudas. Ayudamos a las personas a solicitar alivio de bancarrota bajo el Código de Bancarrota (11 U.S.C. §528).',
+        ],
+      },
     ],
   },
   redlands: {
