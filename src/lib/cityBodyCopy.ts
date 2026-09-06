@@ -841,30 +841,43 @@ const BK_EN: Record<CitySlug, CityPageCopy> = {
     ],
   },
   'rancho-cucamonga': {
-    h1: 'Rancho Cucamonga bankruptcy lawyer — Chapter 7 and 13 in Riverside',
-    title: 'Rancho Cucamonga Bankruptcy Lawyer | Chapter 7 & 13',
+    h1: 'Rancho Cucamonga Bankruptcy Lawyer',
+    title: 'Rancho Cucamonga Bankruptcy Lawyer | Chapter 7 & Chapter 13 | Inland Empire | Lombera',
     description:
-      'Bankruptcy lawyer in Rancho Cucamonga. Chapter 7, Chapter 13, garnishment relief. Filed Riverside. (909) 915-0181.',
+      'Chapter 7 and Chapter 13 bankruptcy for Rancho Cucamonga households. Prepared at 2068 Orange Tree Lane, Redlands; filed at 3420 Twelfth Street, Riverside. Garnishment and foreclosure relief. (909) 915-0181.',
     lead: [
-      'Rancho Cucamonga homeowners and renters hit with medical debt, credit cards, or a creditor lawsuit can file Chapter 7 or Chapter 13. Edgar P. Lombera prepares the petition from Redlands; filing is at 3420 Twelfth Street, Riverside.',
+      'Rancho Cucamonga wage garnishments and creditor lawsuits are state-court collection until a federal petition is filed. Meet Edgar P. Lombera at 2068 Orange Tree Lane, Suite 220, Redlands, CA 92374 — about 24 miles and 32 minutes east from downtown Rancho Cucamonga via Haven Avenue, the I-10 east, and California Street. He prepares Chapter 7 and Chapter 13 at that Orange Tree desk. You speak with him. English or Spanish. Two practices only: personal injury and bankruptcy. There is no Lombera storefront in Rancho Cucamonga. Every consumer case files at the U.S. Bankruptcy Court, 3420 Twelfth Street, Riverside. Call (909) 915-0181.',
     ],
     sections: [
       {
-        h2: 'Chapter 7 discharge',
+        h2: 'Chapter 7 — means test and no-asset discharge',
         paragraphs: [
-          'If you qualify through the means test, Chapter 7 can eliminate most unsecured debt in months — cards, medical bills, personal loans.',
+          'Chapter 7 clears most unsecured debt when the household passes the means test — credit cards, Foothill corridor medical bills, and deficiency balances after a commuter vehicle repo. This is a Rancho Cucamonga household review at the Orange Tree Lane desk, not a volume mill. A typical no-asset case discharges in about 90 to 120 days when the trustee accepts the petition.',
         ],
       },
       {
-        h2: 'Chapter 13 to save the house',
+        h2: 'Chapter 13 — plan, arrears, and cramdown',
         paragraphs: [
-          'When income is too high for Chapter 7 or you are behind on the mortgage, Chapter 13 spreads catch-up payments over three to five years while the automatic stay blocks foreclosure.',
+          'Chapter 13 folds mortgage arrears into a three-to-five-year court plan and can cram down certain secured balances where the Bankruptcy Code allows — common when a Rancho Cucamonga household still draws wages from logistics parks along Milliken or the I-15 / I-210 stack but fell behind during a layoff or medical event. The plan is the relief, not a foreclosure-defense add-on sold separately.',
         ],
       },
       {
-        h2: 'Federal court in Riverside only',
+        h2: 'Automatic stay — garnishment, foreclosure, repossession',
         paragraphs: [
-          'Every Rancho Cucamonga consumer bankruptcy files at the U.S. Bankruptcy Court, Central District of California, 3420 Twelfth Street, Riverside. Debt relief agency. Free consult: (909) 915-0181.',
+          'The automatic stay begins the day the petition is filed — wage garnishments tied to Rancho Cucamonga employers, scheduled foreclosure sales, and repossession timelines pause for most creditors. Filing before the next paycheck or sale date protects lead time that waiting burns.',
+        ],
+      },
+      {
+        h2: 'Where Rancho Cucamonga files — 3420 Twelfth Street, Riverside',
+        paragraphs: [
+          'Every Rancho Cucamonga consumer bankruptcy files at the U.S. Bankruptcy Court, Central District of California, 3420 Twelfth Street, Riverside — about 12 miles and 17 minutes southwest from the desk at 2068 Orange Tree Lane via California Street, the I-10, and the I-215. That building is the federal courthouse, not a Lombera suite. There is no bankruptcy court in Rancho Cucamonga. Official court filing fees are $338 for Chapter 7 and $313 for Chapter 13. The Section 341 meeting of creditors is often held remotely.',
+        ],
+      },
+      {
+        h2: '(909) 915-0181 — Orange Tree Lane',
+        paragraphs: [
+          'Hours: Monday–Friday 9am–6pm, Saturday 10am–4pm, Sunday by appointment. From Rancho Cucamonga, the consultation is about 24 miles and 32 minutes east on Haven Avenue, the I-10 east, and California Street — sit-down at Orange Tree Lane, not a federal courthouse address. Palm Springs is the other office — 1276 N Palm Canyon Dr #107, (760) 835-9353. ' +
+            DEBT_RELIEF,
         ],
       },
     ],
@@ -2169,31 +2182,44 @@ const BK_ES: Record<CitySlug, CityPageCopy> = {
     ],
   },
   'rancho-cucamonga': {
-    h1: "Abogado de bancarrota en Rancho Cucamonga — tribunal en Riverside",
-    title: "Abogado de Bancarrota Rancho Cucamonga | Lombera",
-    description: "Abogado de bancarrota en Rancho Cucamonga. Capítulo 7, Capítulo 13, alivio de embargo. Presentado en Riverside. (909) 915-0181.",
+    h1: 'Abogado de Bancarrota en Rancho Cucamonga',
+    title: 'Abogado de Bancarrota en Rancho Cucamonga | Capítulo 7 y Capítulo 13 | Inland Empire | Lombera',
+    description:
+      'Capítulo 7 y Capítulo 13 para hogares de Rancho Cucamonga. Preparado en 2068 Orange Tree Lane, Redlands; presentado en 3420 Twelfth Street, Riverside. Alivio de embargo y ejecución hipotecaria. (909) 915-0181.',
     lead: [
-      "Propietarios y inquilinos de Rancho Cucamonga con deuda médica, tarjetas de crédito o una demanda de acreedor pueden presentar el Capítulo 7 o el Capítulo 13. Edgar P. Lombera prepara la petición desde Redlands; la presentación es en 3420 Twelfth Street, Riverside.",
+      'Los embargos de salario y las demandas de acreedores en Rancho Cucamonga son cobranza del tribunal estatal hasta que se presenta una petición federal. Reúnase con Edgar P. Lombera en 2068 Orange Tree Lane, Suite 220, Redlands, CA 92374 — unas 24 millas y 32 minutos al este desde el centro de Rancho Cucamonga por Haven Avenue, la I-10 al este y California Street. Prepara el Capítulo 7 y el Capítulo 13 en ese escritorio de Orange Tree. Usted habla con él. Inglés o español. Solo dos prácticas: lesiones personales y bancarrota. No hay local de Lombera en Rancho Cucamonga. Todo caso de consumidor se presenta en el Tribunal de Bancarrota de EE. UU., 3420 Twelfth Street, Riverside. Llame al (909) 915-0181.',
     ],
     sections: [
-          {
-            h2: "Descarga del Capítulo 7",
-            paragraphs: [
-            "Si califica mediante la prueba de medios, el Capítulo 7 puede eliminar la mayor parte de la deuda no garantizada en meses — tarjetas, facturas médicas, préstamos personales.",
-            ],
-          },
-          {
-            h2: "Capítulo 13 para salvar la casa",
-            paragraphs: [
-            "Cuando los ingresos son demasiado altos para el Capítulo 7 o está atrasado en la hipoteca, el Capítulo 13 distribuye los pagos de puesta al día en tres a cinco años mientras la suspensión automática bloquea la ejecución hipotecaria.",
-            ],
-          },
-          {
-            h2: "Solo tribunal federal en Riverside",
-            paragraphs: [
-            "Toda bancarrota de consumidor de Rancho Cucamonga se presenta en el Tribunal de Bancarrota de EE. UU., Distrito Central de California, 3420 Twelfth Street, Riverside. Agencia de alivio de deudas. Consulta gratis: (909) 915-0181.",
-            ],
-          },
+      {
+        h2: 'Capítulo 7 — prueba de medios y eliminación sin activos',
+        paragraphs: [
+          'El Capítulo 7 elimina la mayor parte de la deuda no garantizada cuando el hogar supera la prueba de medios — tarjetas de crédito, facturas médicas del corredor de Foothill y saldos por deficiencia después de un retiro de vehículo de traslado. Esta es una revisión del hogar de Rancho Cucamonga en el escritorio de Orange Tree Lane, no un molino de volumen. Un caso típico sin activos se libera en unos 90 a 120 días cuando el síndico acepta la petición.',
+        ],
+      },
+      {
+        h2: 'Capítulo 13 — plan, atrasos y reducción forzada del saldo garantizado',
+        paragraphs: [
+          'El Capítulo 13 integra los atrasos hipotecarios en un plan judicial de tres a cinco años y puede aplicar reducción forzada del saldo garantizado en ciertos saldos garantizados cuando el Código de Bancarrota lo permite — frecuente cuando un hogar de Rancho Cucamonga aún recibe salarios de parques logísticos en Milliken o del conjunto I-15 / I-210 pero se quedó atrás durante un despido o un evento médico. El plan es el alivio, no un complemento de defensa de ejecución hipotecaria vendido por separado.',
+        ],
+      },
+      {
+        h2: 'Suspensión automática — embargo, ejecución hipotecaria, recuperación de vehículo',
+        paragraphs: [
+          'La suspensión automática comienza el día que se presenta la petición — los embargos de salario ligados a empleadores de Rancho Cucamonga, las ventas de ejecución hipotecaria programadas y los plazos de recuperación de vehículos se detienen para la mayoría de los acreedores. Presentar antes del próximo cheque de pago o fecha de venta protege el tiempo que esperar quema.',
+        ],
+      },
+      {
+        h2: 'Dónde presenta Rancho Cucamonga — 3420 Twelfth Street, Riverside',
+        paragraphs: [
+          'Toda bancarrota de consumidor de Rancho Cucamonga se presenta en el Tribunal de Bancarrota de EE. UU., Distrito Central de California, 3420 Twelfth Street, Riverside — unas 12 millas y 17 minutos al suroeste desde el escritorio en 2068 Orange Tree Lane por California Street, la I-10 y la I-215. Ese edificio es el tribunal federal, no una suite de Lombera. No hay tribunal de bancarrota en Rancho Cucamonga. Las tarifas judiciales oficiales son $338 para el Capítulo 7 y $313 para el Capítulo 13. La reunión de acreedores de la Sección 341 a menudo se celebra de forma remota.',
+        ],
+      },
+      {
+        h2: '(909) 915-0181 — Orange Tree Lane',
+        paragraphs: [
+          'Horario: lunes a viernes 9am–6pm, sábado 10am–4pm, domingo con cita. Desde Rancho Cucamonga, la consulta es unas 24 millas y 32 minutos al este por Haven Avenue, la I-10 al este y California Street — cita presencial en Orange Tree Lane, no en un tribunal federal. Palm Springs es la otra oficina — 1276 N Palm Canyon Dr #107, (760) 835-9353. Somos una agencia de alivio de deudas. Ayudamos a las personas a solicitar alivio de bancarrota bajo el Código de Bancarrota (11 U.S.C. §528).',
+        ],
+      },
     ],
   },
   beaumont: {
