@@ -123,6 +123,7 @@ export async function PracticeCityView({
       citySlug === 'moreno-valley' ||
       citySlug === 'highland' ||
       citySlug === 'palm-springs' ||
+      citySlug === 'palm-desert' ||
       citySlug === 'beaumont')
   const homeCrumb = locale === 'es' ? 'Inicio' : 'Home'
   const practiceCrumb =

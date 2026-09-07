@@ -294,45 +294,45 @@ const PI_EN: Record<CitySlug, CityPageCopy> = {
     h1: 'Palm Desert personal injury lawyer',
     title: 'Palm Desert Personal Injury Lawyer | I-10/111 Truck, Uber, Wrongful Death | Lombera',
     description:
-      'Truck, Uber, wrongful death, and catastrophic injury from I-10 / Highway 111 crashes in Palm Desert. Meet at 1276 N Palm Canyon Dr #107, Palm Springs — about 26 minutes west. (760) 835-9353.',
+      'Truck, Uber, wrongful death, and catastrophic injury from I-10 / Highway 111 crashes in Palm Desert. Meet at 1276 N Palm Canyon Dr #107, Palm Springs — about 17 miles and 26 minutes northwest. (760) 835-9353.',
     lead: [
-      'There is no Lombera suite on El Paseo or Monterey Avenue — El Paseo is a corridor, not an office address. After a Palm Desert wreck, meet Edgar P. Lombera at 1276 N Palm Canyon Dr #107, Palm Springs, CA 92262 — about 17 miles and 26 minutes west via Monterey Avenue and the I-10. Call (760) 835-9353. English or Spanish. Two practices only: personal injury and bankruptcy. You speak with him. Injury cases run on contingency: no fee unless we win.',
+      'There is no Lombera storefront in Palm Desert, California. After a Palm Desert wreck, meet Edgar P. Lombera at 1276 N Palm Canyon Dr #107, Palm Springs, CA 92262. From Palm Desert City Hall at 73510 Fred Waring Drive — civic reference only, not our address — take Civic Center Drive to San Pablo, Fred Waring Drive, Monterey Avenue, the I-10 west, Date Palm Drive, Vista Chino / CA-111, and N Palm Canyon Drive — about 17 miles and 26 minutes northwest. The drive is northwest. I-10, Highway 111, El Paseo, and the Monterey / Fred Waring retail corridors are crash corridors on this page, not the route to the Palm Canyon office. Call (760) 835-9353. English or Spanish. Two practices only: personal injury and bankruptcy. You speak with him. Injury cases run on contingency: no fee unless we win.',
     ],
     sections: [
       {
         h2: 'Truck wrecks on I-10 and Highway 111',
         paragraphs: [
-          'Commercial truck traffic on I-10 and Highway 111 through Palm Desert produces the freight collisions that lead this docket. Lombera does not appear on live Google truck organic for this city — the index hole is real, and these wrecks belong here. After a serious collision, preserve the ECM download, dashcam footage, and the driver qualification file before insurers scatter the evidence. This is Palm Desert’s I-10 / 111 corridor — not the San Gorgonio Pass page rewritten for Palm Springs, and not Fontana, Colton, or Rancho freight copy with a swapped city name. Wrongful death and traumatic brain injury claims from these wrecks stay on this URL.',
+          'Commercial truck traffic on I-10 and Highway 111 through Palm Desert produces the freight collisions that lead this docket. Desert heat, valley retail delivery cycles, and I-10 merge pressure at Date Palm and Monterey produce rear-end and override events before freight clears El Paseo retail loops. After a serious collision, preserve the ECM download, dashcam footage, and the driver qualification file before insurers scatter the evidence. Unlimited civil lawsuits from Palm Desert file at Riverside County Superior Court — Palm Springs Courthouse, 3255 E. Tahquitz Canyon Way — about 12 miles and 22 minutes northwest from Palm Desert City Hall at 73510 Fred Waring Drive. This is Palm Desert\u2019s I-10 / 111 corridor — not the San Gorgonio Pass page for Palm Springs, not Cathedral City\u2019s Date Palm / Ramon stack, not Indio\u2019s Jackson corridor, and not Fontana, Colton, or Rancho freight copy. Wrongful death and traumatic brain injury claims from these wrecks stay on this URL.',
         ],
       },
       {
-        h2: 'Uber, Lyft, and rideshare on Highway 111, Cook Street, Monterey Avenue, and Fred Waring Drive',
+        h2: 'Uber and Lyft on El Paseo, Monterey Avenue, and Highway 111',
         paragraphs: [
-          'Whether the driver had the app on changes which insurer must respond — we confirm coverage in the consult, not in marketing copy with dollar figures. Palm Desert rideshare claims stay on /personal-injury/palm-desert/. We do not invent a /uber/ page.',
+          'Whether the driver had the app on changes which insurer must respond — we confirm coverage in the consult, not in marketing copy with dollar figures. El Paseo retail, Monterey Avenue outlet traffic, and Highway 111 valley connectors stack rideshare pickups between seasonal tourism, golf-resort drop-offs, and weekend event surges. Palm Desert rideshare claims stay on /personal-injury/palm-desert/. We do not invent a /uber/ page.',
         ],
       },
       {
         h2: 'Wrongful death — standing under CCP §377.60 at 3255 E. Tahquitz Canyon Way',
         paragraphs: [
-          'Who may bring the suit is confirmed in the consult under California Code of Civil Procedure §377.60 — we do not invent verdicts or settlement stories. Palm Desert civil files are filed at the Palm Springs Courthouse, 3255 E. Tahquitz Canyon Way — not Oasis Street, not the Indio Division, not 4050 Main Street, not 247 W. 3rd St., and not 8303 Haven Avenue. CCP §335.1 gives most victims two years; a public entity may require six-month written notice under Government Code §911.2.',
+          'Who may bring the suit is confirmed in the consult under California Code of Civil Procedure §377.60 — we do not invent verdicts or settlement stories. Unlimited civil files for Palm Desert are filed at Riverside County Superior Court — Palm Springs Courthouse, 3255 E. Tahquitz Canyon Way — not Oasis Street, not 4050 Main Street, not 247 W. 3rd St., not 8303 Haven Avenue, and not the Indio Division.',
         ],
       },
       {
         h2: 'Catastrophic injury — TBI, spinal cord, lost limb',
         paragraphs: [
-          'Traumatic brain injury, spinal cord injury, and amputation are damages outcomes handled on this URL only — not a separate /catastrophic-injury/ landing page. Future medical care and lost earning capacity drive the damages case. This is not medical advice.',
+          'Traumatic brain injury, spinal cord injury, and amputation are damages outcomes handled on this URL only — not a separate /catastrophic-injury/ landing page. An I-10 or El Paseo corridor collision can leave lifetime medical needs and lost earning capacity that insurers undervalue early. Initial trauma care often starts at Eisenhower Health before the long-term damages picture is clear. Future medical care, life-care planning, and vocational loss drive the case insurers try to close early. This is not medical advice.',
         ],
       },
       {
         h2: 'Car, motorcycle, and Civil Code §3342 dog bites',
         paragraphs: [
-          'After the four primary claim types, car collisions, motorcycle crashes, and dog bites under California Civil Code §3342 round out the docket. Lane-splitting on a motorcycle is legal when done safely; wearing a helmet does not flip fault. We do not handle slip-and-fall claims.',
+          'After the four primary claim types, car collisions, motorcycle crashes, and dog bites under California Civil Code §3342 round out the docket. Lane-splitting on a motorcycle is legal when done safely; wearing a helmet does not flip fault. We do not handle slip-and-fall claims. CCP §335.1 gives most Palm Desert injury victims two years from the date of harm — confirm your deadline in the consult before evidence goes stale; a public entity may require six-month written notice under Government Code §911.2.',
         ],
       },
       {
-        h2: '(760) 835-9353 — 1276 N Palm Canyon Dr #107, west',
+        h2: '(760) 835-9353 — 1276 N Palm Canyon Dr #107, northwest',
         paragraphs: [
-          'Hours: Monday–Friday 9am–6pm, Saturday 10am–4pm, Sunday by appointment. Serious injuries can reach the office 24/7 for an emergency consult. If the same wreck sinks the household, the same (760) 835-9353 call files Chapter 7 or Chapter 13 at 3420 Twelfth Street, Riverside. Redlands is the other office — 2068 Orange Tree Lane, Suite 220, (909) 915-0181.',
+          'Hours: Monday–Friday 9am–6pm, Saturday 10am–4pm, Sunday by appointment. Serious injuries can reach the office 24/7 for an emergency consult. From Palm Desert, the consultation is about 17 miles and 26 minutes northwest via Civic Center Drive, San Pablo, Fred Waring Drive, Monterey Avenue, the I-10 west, Date Palm Drive, Vista Chino / CA-111, and N Palm Canyon Drive — not a Palm Desert storefront. If the same wreck sinks the household, the same (760) 835-9353 call files Chapter 7 or Chapter 13 at the U.S. Bankruptcy Court, 3420 Twelfth Street, Riverside. Redlands is the second office only — 2068 Orange Tree Lane, Suite 220, (909) 915-0181.',
         ],
       },
     ],
@@ -1637,33 +1637,33 @@ const PI_ES: Record<CitySlug, CityPageCopy> = {
     h1: 'Abogado de lesiones personales en Palm Desert',
     title: 'Abogado de Lesiones Palm Desert | Camiones I-10/111, Uber, Muerte Injusta | Lombera',
     description:
-      'Camiones, Uber, muerte injusta y lesiones catastróficas en choques de la I-10 / Carretera 111 en Palm Desert. Oficina en 1276 N Palm Canyon Dr #107, Palm Springs — unos 26 minutos al oeste. (760) 835-9353.',
+      'Camiones, Uber, muerte injusta y lesiones catastróficas en choques de la I-10 / Carretera 111 en Palm Desert. Oficina en 1276 N Palm Canyon Dr #107, Palm Springs — unas 17 millas y unos 26 minutos al noroeste. (760) 835-9353.',
     lead: [
-      'No hay suite de Lombera en El Paseo ni en Monterey Avenue — El Paseo es un corredor, no una dirección de oficina. Después de un choque en Palm Desert, reúnase con Edgar P. Lombera en 1276 N Palm Canyon Dr #107, Palm Springs, CA 92262 — unos 17 millas y 26 minutos al oeste por Monterey Avenue y la I-10. Llame al (760) 835-9353. Inglés o español. Solo dos prácticas: lesiones personales y bancarrota. Usted habla con él. Los casos de lesiones son a contingencia: sin honorarios a menos que ganemos.',
+      'No hay local de Lombera en Palm Desert, California. Después de un choque en Palm Desert, reúnase con Edgar P. Lombera en 1276 N Palm Canyon Dr #107, Palm Springs, CA 92262. Desde el Ayuntamiento de Palm Desert en 73510 Fred Waring Drive — referencia cívica solamente, no nuestra dirección — tome Civic Center Drive a San Pablo, Fred Waring Drive, Monterey Avenue, la I-10 al oeste, Date Palm Drive, Vista Chino / CA-111 y N Palm Canyon Drive — unas 17 millas y unos 26 minutos al noroeste. El trayecto es al noroeste. La I-10, la Carretera 111, El Paseo y los corredores comerciales de Monterey / Fred Waring son corredores de choques en esta página, no la ruta a la oficina de Palm Canyon. Llame al (760) 835-9353. Inglés o español. Solo dos prácticas: lesiones personales y bancarrota. Usted habla con él. Los casos de lesiones son a contingencia: sin honorarios a menos que ganemos.',
     ],
     sections: [
       {
         h2: 'Choques de camiones en la I-10 y la Carretera 111',
         paragraphs: [
-          'El tráfico de camiones comerciales en la I-10 y la Carretera 111 a través de Palm Desert produce las colisiones de carga que lideran este expediente. Lombera no aparece en búsqueda orgánica de camiones en vivo para esta ciudad — el vacío del índice es real, y estos choques pertenecen aquí. Después de una colisión grave, preserve la descarga del ECM, las grabaciones de dashcam y el expediente de calificación del conductor antes de que las aseguradoras dispersen la evidencia. Este es el corredor I-10 / 111 de Palm Desert — no la página del Paso de San Gorgonio reescrita para Palm Springs, ni copia de carga de Fontana, Colton o Rancho con el nombre de la ciudad cambiado. Las demandas por muerte injusta y lesión cerebral traumática de estos choques permanecen en esta URL.',
+          'El tráfico de camiones comerciales en la I-10 y la Carretera 111 a través de Palm Desert produce las colisiones de carga que lideran este expediente. El calor del desierto, los ciclos de entrega comercial del valle y la presión de incorporación en la I-10 en Date Palm y Monterey producen choques por alcance y arrastre antes de que la carga despeje los bucles comerciales de El Paseo. Después de una colisión grave, preserve la descarga del ECM, las grabaciones de dashcam y el expediente de calificación del conductor antes de que las aseguradoras dispersen la evidencia. Las demandas civiles ilimitadas de Palm Desert se presentan en el Tribunal Superior del Condado de Riverside — Tribunal de Palm Springs, 3255 E. Tahquitz Canyon Way — unas 12 millas y unos 22 minutos al noroeste desde el Ayuntamiento de Palm Desert en 73510 Fred Waring Drive. Este es el corredor I-10 / 111 de Palm Desert — no la página del Paso de San Gorgonio para Palm Springs, no el conjunto Date Palm / Ramon de Cathedral City, no el corredor Jackson de Indio, ni copia de carga de Fontana, Colton o Rancho. Las demandas por muerte injusta y lesión cerebral traumática de estos choques permanecen en esta URL.',
         ],
       },
       {
-        h2: 'Uber, Lyft y rideshare en la Carretera 111, Cook Street, Monterey Avenue y Fred Waring Drive',
+        h2: 'Uber y Lyft en El Paseo, Monterey Avenue y la Carretera 111',
         paragraphs: [
-          'Si el conductor tenía la aplicación activada cambia qué aseguradora debe responder — confirmamos la cobertura en la consulta, no con cifras de marketing. Los reclamos de rideshare de Palm Desert permanecen en /es/lesiones-personales/palm-desert/. No inventamos una página /uber/.',
+          'Si el conductor tenía la aplicación activada cambia qué aseguradora debe responder — confirmamos la cobertura en la consulta, no con cifras de marketing. El comercio de El Paseo, el tráfico de outlets en Monterey Avenue y los conectores de la Carretera 111 concentran recogidas de rideshare entre turismo estacional, entregas en resorts de golf y oleadas de eventos de fin de semana. Los reclamos de rideshare de Palm Desert permanecen en /es/lesiones-personales/palm-desert/. No inventamos una página /uber/.',
         ],
       },
       {
         h2: 'Muerte injusta — legitimación bajo el CCP §377.60 en 3255 E. Tahquitz Canyon Way',
         paragraphs: [
-          'Quién puede presentar la demanda se confirma en la consulta bajo el Código de Procedimiento Civil de California §377.60 — no inventamos veredictos ni historias de acuerdos. Los expedientes civiles de Palm Desert se presentan en el Tribunal de Palm Springs, 3255 E. Tahquitz Canyon Way — no en Oasis Street, no en la División Indio, no en 4050 Main Street, no en 247 W. 3rd St., y no en 8303 Haven Avenue. El CCP §335.1 da dos años a la mayoría de las víctimas; una entidad pública puede exigir aviso escrito de seis meses bajo el Código de Gobierno §911.2.',
+          'Quién puede presentar la demanda se confirma en la consulta bajo el Código de Procedimiento Civil de California §377.60 — no inventamos veredictos ni historias de acuerdos. Los expedientes civiles ilimitados de Palm Desert se presentan en el Tribunal Superior del Condado de Riverside — Tribunal de Palm Springs, 3255 E. Tahquitz Canyon Way — no en Oasis Street, no en 4050 Main Street, no en 247 W. 3rd St., no en 8303 Haven Avenue, y no en la División Indio. El plazo general de dos años del CCP §335.1 rige la mayoría de las demandas por lesiones; contra una entidad pública puede hacer falta aviso escrito de seis meses conforme al Código de Gobierno §911.2 antes de demandar.',
         ],
       },
       {
         h2: 'Lesiones catastróficas — cerebral, médula, pérdida de miembro',
         paragraphs: [
-          'La lesión cerebral traumática, la lesión de médula espinal y la amputación son resultados de daños manejados solo en esta URL — no una página separada de /lesiones-catastroficas/. La atención médica futura y la capacidad de ingreso perdida impulsan el caso de daños. Esto no es consejo médico.',
+          'La lesión cerebral traumática, la lesión de médula espinal y la amputación son resultados de daños manejados solo en esta URL — no una página separada de /lesiones-catastroficas/. Una colisión en la I-10 o en el corredor de El Paseo puede dejar necesidades médicas de por vida y capacidad de ingreso perdida que las aseguradoras subvaloran al principio. La atención inicial de trauma suele comenzar en Eisenhower Health antes de que el panorama de daños a largo plazo quede claro. La atención médica futura, la planificación de cuidados y la pérdida vocacional impulsan el caso que las aseguradoras intentan cerrar pronto. Esto no es consejo médico.',
         ],
       },
       {
@@ -1673,9 +1673,9 @@ const PI_ES: Record<CitySlug, CityPageCopy> = {
         ],
       },
       {
-        h2: '(760) 835-9353 — 1276 N Palm Canyon Dr #107, al oeste',
+        h2: '(760) 835-9353 — 1276 N Palm Canyon Dr #107, al noroeste',
         paragraphs: [
-          'Horario: lunes a viernes 9am–6pm, sábado 10am–4pm, domingo con cita. Lesiones graves pueden contactar la oficina las 24 horas para consulta de emergencia. Si el mismo choque hunde el hogar, la misma llamada al (760) 835-9353 presenta el Capítulo 7 o 13 en 3420 Twelfth Street, Riverside. Redlands es la otra oficina — 2068 Orange Tree Lane, Suite 220, (909) 915-0181.',
+          'Horario: lunes a viernes 9am–6pm, sábado 10am–4pm, domingo con cita. Lesiones graves pueden contactar la oficina las 24 horas para consulta de emergencia. Desde Palm Desert, la consulta es unas 17 millas y unos 26 minutos al noroeste por Civic Center Drive, San Pablo, Fred Waring Drive, Monterey Avenue, la I-10 al oeste, Date Palm Drive, Vista Chino / CA-111 y N Palm Canyon Drive — no un local en Palm Desert. Si el mismo choque hunde el hogar, la misma llamada al (760) 835-9353 presenta el Capítulo 7 o 13 en el Tribunal de Bancarrota de EE. UU., 3420 Twelfth Street, Riverside. Redlands es solo la segunda oficina — 2068 Orange Tree Lane, Suite 220, (909) 915-0181.',
         ],
       },
     ],
