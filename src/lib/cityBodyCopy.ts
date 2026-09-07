@@ -245,47 +245,47 @@ const PI_EN: Record<CitySlug, CityPageCopy> = {
   },
   'palm-springs': {
     h1: 'Palm Springs personal injury lawyer',
-    title: 'Palm Springs Personal Injury Lawyer | I-10 Truck, Uber, Wrongful Death | Lombera',
+    title: 'Palm Springs Personal Injury Lawyer | I-10/San Gorgonio Truck, Uber, Wrongful Death | Lombera',
     description:
-      'Truck, Uber, wrongful death, and catastrophic injury from I-10 / San Gorgonio Pass crashes in Palm Springs. Office at 1276 N Palm Canyon Dr #107. (760) 835-9353.',
+      'Truck, Uber, wrongful death, and catastrophic injury from I-10 / San Gorgonio / Hwy 111 crashes in Palm Springs. Sit-down office at 1276 N Palm Canyon Dr #107 — about 3.2 miles and 7 minutes west-northwest from City Hall. (760) 835-9353.',
     lead: [
-      'This is the Coachella Valley office — 1276 N Palm Canyon Dr #107, Palm Springs, CA 92262. After a Palm Springs wreck, meet Edgar P. Lombera here — about 3.17 miles and 6.3 minutes from the courthouse via Palm Canyon and Tahquitz. Call (760) 835-9353. English or Spanish. Two practices only: personal injury and bankruptcy. You speak with him. Injury cases run on contingency: no fee unless we win.',
+      'This is the Coachella Valley sit-down office — 1276 N Palm Canyon Dr #107, Palm Springs, CA 92262. From Palm Springs City Hall at 3200 East Tahquitz Canyon Way — civic reference only, not our address — the consultation room is about 3.2 miles and 7 minutes west-northwest via Civic Center Drive, Tahquitz Canyon Way, Sunrise Way, Tachevah Road, and N Palm Canyon Drive. I-10, the San Gorgonio Pass, Highway 111, Palm Canyon Drive, and Indian Canyon Drive are crash corridors on this page, not the route from City Hall to the storefront. Call (760) 835-9353. Edgar P. Lombera takes injury files here in English or Spanish. Two practices only: personal injury and bankruptcy. You speak with him. Injury cases run on contingency: no fee unless we win.',
     ],
     sections: [
       {
-        h2: 'Truck wrecks on I-10 and the San Gorgonio Pass',
+        h2: 'Truck wrecks on I-10, the San Gorgonio Pass, and Highway 111',
         paragraphs: [
-          'Commercial truck traffic on I-10 through the San Gorgonio Pass produces the freight collisions that lead this docket. The Palm Springs truck gap on live search is real, and these wrecks belong here. After a serious collision, preserve the ECM download, dashcam footage, and the driver qualification file before insurers scatter the evidence. This is desert I-10 / San Gorgonio Pass — not Fontana’s I-10 / I-15 / Sierra freight page, not Colton Crossing, not Rancho’s I-15 / I-210, not Highland’s I-210 / SR-210 / Base Line, not Moreno Valley’s SR-60 / I-215, and not Riverside’s 60 / 91 / 215. Wrongful death and traumatic brain injury claims from these wrecks stay on this URL.',
+          'Commercial truck traffic on I-10 through the San Gorgonio Pass and along Highway 111 produces the freight collisions that lead this docket. Wind shear, descending grades, and desert heat push brake failures and jackknife events across the pass before loads reach valley retail corridors. After a serious collision, preserve the ECM download, dashcam footage, and the driver qualification file before insurers scatter the evidence. Unlimited civil lawsuits from these freight corridors file at Riverside County Superior Court — Palm Springs Courthouse, 3255 E. Tahquitz Canyon Way — about 0.1 miles and under 1 minute east along the Tahquitz Canyon corridor from City Hall at 3200 East Tahquitz Canyon Way. This is desert I-10 / San Gorgonio / Hwy 111 freight — not Fontana\u2019s I-10 / I-15 / Sierra page, not Colton Crossing, not Rancho\u2019s I-15 / I-210, not Highland\u2019s I-210 / SR-210 / Base Line, not Moreno Valley\u2019s SR-60 / I-215, and not Riverside\u2019s 60 / 91 / 215 grid. Wrongful death and traumatic brain injury claims from these wrecks stay on this URL.',
         ],
       },
       {
-        h2: 'Uber and Lyft on Highway 111, Palm Canyon, and Indian Canyon',
+        h2: 'Uber and Lyft on Palm Canyon Drive, Indian Canyon Drive, and Highway 111',
         paragraphs: [
-          'Whether the driver had the app on changes which insurer must respond — we confirm coverage in the consult, not in marketing copy with dollar figures. Palm Springs rideshare claims stay on /personal-injury/palm-springs/. We do not invent a /uber/ page.',
+          'Whether the driver had the app on changes which insurer must respond — we confirm coverage in the consult, not in marketing copy with dollar figures. Downtown Palm Canyon, the Uptown Design District, Indian Canyon resort runs, and Highway 111 valley connectors stack rideshare pickups between seasonal tourism surges, airport shuttles, and weekend event traffic. Palm Springs rideshare claims stay on /personal-injury/palm-springs/. We do not invent a /uber/ page.',
         ],
       },
       {
         h2: 'Wrongful death — standing under CCP §377.60 at 3255 E. Tahquitz Canyon Way',
         paragraphs: [
-          'Who may bring the suit is confirmed in the consult under California Code of Civil Procedure §377.60 — we do not invent verdicts or settlement stories. Palm Springs civil files are filed at Riverside County Superior Court, 3255 E. Tahquitz Canyon Way, Palm Springs — not Oasis Street, not the Indio Division, not 247 W. 3rd St., not 4050 Main Street, and not 8303 Haven Avenue. CCP §335.1 gives most victims two years; a public entity may require six-month written notice under Government Code §911.2.',
+          'Who may bring the suit is confirmed in the consult under California Code of Civil Procedure §377.60 — we do not invent verdicts or settlement stories. Unlimited civil files for Palm Springs are filed at Riverside County Superior Court — Palm Springs Courthouse, 3255 E. Tahquitz Canyon Way — not Oasis Street, not 4050 Main Street, not 247 W. 3rd Street, and not any Indio Division leftover routing. The courthouse sits about 0.1 miles and under 1 minute east along the Tahquitz Canyon corridor from City Hall at 3200 East Tahquitz Canyon Way — adjacent civic filing, not the Palm Canyon office hop.',
         ],
       },
       {
         h2: 'Catastrophic injury — TBI, spinal cord, lost limb',
         paragraphs: [
-          'Traumatic brain injury, spinal cord injury, and amputation are damages outcomes handled on this URL only — not a separate /catastrophic-injury/ landing page. Future medical care and lost earning capacity drive the damages case. This is not medical advice.',
+          'Traumatic brain injury, spinal cord injury, and amputation are damages outcomes handled on this URL only — not a separate /catastrophic-injury/ landing page. A San Gorgonio Pass or Palm Canyon corridor collision can leave lifetime medical needs and lost earning capacity that insurers undervalue early. Initial trauma care often starts at Desert Regional Medical Center before the long-term damages picture is clear. Future medical care, life-care planning, and vocational loss drive the case insurers try to close early. This is not medical advice.',
         ],
       },
       {
         h2: 'Car, motorcycle, and Civil Code §3342 dog bites',
         paragraphs: [
-          'After the four primary claim types, car collisions, motorcycle crashes, and dog bites under California Civil Code §3342 round out the docket. Lane-splitting on a motorcycle is legal when done safely; wearing a helmet does not flip fault. We do not handle slip-and-fall claims.',
+          'After the four primary claim types, car collisions, motorcycle crashes, and dog bites under California Civil Code §3342 round out the docket. Lane-splitting on a motorcycle is legal when done safely; wearing a helmet does not flip fault. We do not handle slip-and-fall claims. CCP §335.1 gives most Palm Springs injury victims two years from the date of harm — confirm your deadline in the consult before evidence goes stale; a public entity may require six-month written notice under Government Code §911.2.',
         ],
       },
       {
-        h2: '(760) 835-9353 — 1276 N Palm Canyon Dr #107',
+        h2: '(760) 835-9353 — 1276 N Palm Canyon Dr #107, local sit-down',
         paragraphs: [
-          'Hours: Monday–Friday 9am–6pm, Saturday 10am–4pm, Sunday by appointment. Serious injuries can reach the office 24/7 for an emergency consult. If the same wreck sinks the household, the same (760) 835-9353 call files Chapter 7 or Chapter 13 at 3420 Twelfth Street, Riverside. Redlands is the second office — 2068 Orange Tree Lane, Suite 220, (909) 915-0181.',
+          'Hours: Monday–Friday 9am–6pm, Saturday 10am–4pm, Sunday by appointment. Serious injuries can reach the office 24/7 for an emergency consult. The storefront sits on N Palm Canyon Drive — about 3.2 miles and 7 minutes west-northwest from City Hall at 3200 East Tahquitz Canyon Way when you route Civic \u2192 Tahquitz \u2192 Sunrise \u2192 Tachevah \u2192 N Palm Canyon. If the same wreck sinks the household, the same (760) 835-9353 call files Chapter 7 or Chapter 13 at the U.S. Bankruptcy Court, 3420 Twelfth Street, Riverside — about 55 miles and 71 minutes west-northwest. Redlands is the second office only — 2068 Orange Tree Lane, Suite 220, (909) 915-0181 — about 49 miles and 60 minutes west-northwest, not the Palm Springs lead line.',
         ],
       },
     ],
@@ -1588,47 +1588,47 @@ const PI_ES: Record<CitySlug, CityPageCopy> = {
   },
   'palm-springs': {
     h1: 'Abogado de lesiones personales en Palm Springs',
-    title: 'Abogado de Lesiones Palm Springs | Camiones I-10, Uber, Muerte Injusta | Lombera',
+    title: 'Abogado de Lesiones Palm Springs | Camiones I-10/San Gorgonio, Uber, Muerte Injusta | Lombera',
     description:
-      'Camiones, Uber, muerte injusta y lesiones catastróficas en choques de la I-10 / Paso de San Gorgonio en Palm Springs. Oficina en 1276 N Palm Canyon Dr #107. (760) 835-9353.',
+      'Camiones, Uber, muerte injusta y lesiones catastróficas en choques de la I-10 / San Gorgonio / Carretera 111 en Palm Springs. Oficina en 1276 N Palm Canyon Dr #107 — unas 3.2 millas y unos 7 minutos al noroeste del Ayuntamiento. (760) 835-9353.',
     lead: [
-      'Esta es la oficina del Valle de Coachella — 1276 N Palm Canyon Dr #107, Palm Springs, CA 92262. Después de un choque en Palm Springs, reúnase con Edgar P. Lombera aquí — unos 3.17 millas y 6.3 minutos del tribunal por Palm Canyon y Tahquitz. Llame al (760) 835-9353. Inglés o español. Solo dos prácticas: lesiones personales y bancarrota. Usted habla con él. Los casos de lesiones son a contingencia: sin honorarios a menos que ganemos.',
+      'Esta es la oficina presencial del Valle de Coachella — 1276 N Palm Canyon Dr #107, Palm Springs, CA 92262. Desde el Ayuntamiento de Palm Springs en 3200 East Tahquitz Canyon Way — referencia cívica solamente, no nuestra dirección — la sala de consulta queda unas 3.2 millas y unos 7 minutos al noroeste por Civic Center Drive, Tahquitz Canyon Way, Sunrise Way, Tachevah Road y N Palm Canyon Drive. La I-10, el Paso de San Gorgonio, la Carretera 111, Palm Canyon Drive e Indian Canyon Drive son corredores de choques en esta página, no la ruta del Ayuntamiento al local. Llame al (760) 835-9353. Edgar P. Lombera recibe expedientes de lesiones aquí en inglés o español. Solo dos prácticas: lesiones personales y bancarrota. Usted habla con él. Los casos de lesiones son a contingencia: sin honorarios a menos que ganemos.',
     ],
     sections: [
       {
-        h2: 'Choques de camiones en la I-10 y el Paso de San Gorgonio',
+        h2: 'Choques de camiones en la I-10, el Paso de San Gorgonio y la Carretera 111',
         paragraphs: [
-          'El tráfico de camiones comerciales en la I-10 a través del Paso de San Gorgonio produce las colisiones de carga que lideran este expediente. El vacío de camiones en Palm Springs en búsqueda en vivo es real, y estos choques pertenecen aquí. Después de una colisión grave, preserve la descarga del ECM, las grabaciones de dashcam y el expediente de calificación del conductor antes de que las aseguradoras dispersen la evidencia. Esto es la I-10 del desierto / Paso de San Gorgonio — no la página de carga de Fontana en la I-10 / I-15 / Sierra, no Colton Crossing, no la I-15 / I-210 de Rancho, no la I-210 / SR-210 / Base Line de Highland, no la SR-60 / I-215 de Moreno Valley, ni el conjunto 60 / 91 / 215 de Riverside. Las demandas por muerte injusta y lesión cerebral traumática de estos choques permanecen en esta URL.',
+          'El tráfico de camiones comerciales en la I-10 a través del Paso de San Gorgonio y a lo largo de la Carretera 111 produce las colisiones de carga que lideran este expediente. Las ráfagas de viento, los descensos pronunciados y el calor del desierto empujan fallas de frenos y vuelcos en el paso antes de que la carga llegue a los corredores comerciales del valle. Después de una colisión grave, preserve la descarga del ECM, las grabaciones de dashcam y el expediente de calificación del conductor antes de que las aseguradoras dispersen la evidencia. Las demandas civiles ilimitadas de estos corredores de carga se presentan en el Tribunal Superior del Condado de Riverside — Tribunal de Palm Springs, 3255 E. Tahquitz Canyon Way — unas 0.1 millas y menos de un minuto al este por el corredor de Tahquitz Canyon desde el Ayuntamiento en 3200 East Tahquitz Canyon Way. Este es el corredor de carga I-10 / San Gorgonio / Carretera 111 del desierto — no la página de Fontana en la I-10 / I-15 / Sierra, no Colton Crossing, no la I-15 / I-210 de Rancho, no la I-210 / SR-210 / Base Line de Highland, no la SR-60 / I-215 de Moreno Valley, ni la cuadrícula 60 / 91 / 215 de Riverside. Las demandas por muerte injusta y lesión cerebral traumática de estos choques permanecen en esta URL.',
         ],
       },
       {
-        h2: 'Uber y Lyft en la Carretera 111, Palm Canyon e Indian Canyon',
+        h2: 'Uber y Lyft en Palm Canyon Drive, Indian Canyon Drive y la Carretera 111',
         paragraphs: [
-          'Si el conductor tenía la aplicación activada cambia qué aseguradora debe responder — confirmamos la cobertura en la consulta, no con cifras de marketing. Los reclamos de rideshare de Palm Springs permanecen en /es/lesiones-personales/palm-springs/. No inventamos una página /uber/.',
+          'Si el conductor tenía la aplicación activada cambia qué aseguradora debe responder — confirmamos la cobertura en la consulta, no con cifras de marketing. El Palm Canyon del centro, el Distrito de Diseño Uptown, las rutas de resorts en Indian Canyon y los conectores de la Carretera 111 concentran recogidas de rideshare entre oleadas turísticas estacionales, traslados al aeropuerto y tráfico de eventos de fin de semana. Los reclamos de rideshare de Palm Springs permanecen en /es/lesiones-personales/palm-springs/. No inventamos una página /uber/.',
         ],
       },
       {
         h2: 'Muerte injusta — legitimación bajo el CCP §377.60 en 3255 E. Tahquitz Canyon Way',
         paragraphs: [
-          'Quién puede presentar la demanda se confirma en la consulta bajo el Código de Procedimiento Civil de California §377.60 — no inventamos veredictos ni historias de acuerdos. Los expedientes civiles de Palm Springs se presentan en el Tribunal Superior del Condado de Riverside, 3255 E. Tahquitz Canyon Way, Palm Springs — no en Oasis Street, no en la División Indio, no en 247 W. 3rd St., no en 4050 Main Street, y no en 8303 Haven Avenue. El CCP §335.1 da dos años a la mayoría de las víctimas; una entidad pública puede exigir aviso escrito de seis meses bajo el Código de Gobierno §911.2.',
+          'Quién puede presentar la demanda se confirma en la consulta bajo el Código de Procedimiento Civil de California §377.60 — no inventamos veredictos ni historias de acuerdos. Los expedientes civiles ilimitados de Palm Springs se presentan en el Tribunal Superior del Condado de Riverside — Tribunal de Palm Springs, 3255 E. Tahquitz Canyon Way — no en Oasis Street, no en 4050 Main Street, no en 247 W. 3rd Street, y no en ningún enrutamiento residual de la División Indio. El tribunal queda unas 0.1 millas y menos de un minuto al este por el corredor de Tahquitz Canyon desde el Ayuntamiento en 3200 East Tahquitz Canyon Way — presentación cívica adyacente, no el trayecto a la oficina de Palm Canyon.',
         ],
       },
       {
         h2: 'Lesiones catastróficas — cerebral, médula, pérdida de miembro',
         paragraphs: [
-          'La lesión cerebral traumática, la lesión de médula espinal y la amputación son resultados de daños manejados solo en esta URL — no una página separada de /lesiones-catastroficas/. La atención médica futura y la capacidad de ingreso perdida impulsan el caso de daños. Esto no es consejo médico.',
+          'La lesión cerebral traumática, la lesión de médula espinal y la amputación son resultados de daños manejados solo en esta URL — no una página separada de /lesiones-catastroficas/. Una colisión en el Paso de San Gorgonio o en el corredor de Palm Canyon puede dejar necesidades médicas de por vida y capacidad de ingreso perdida que las aseguradoras subvaloran al principio. La atención inicial de trauma suele comenzar en Desert Regional Medical Center antes de que el panorama de daños a largo plazo quede claro. La atención médica futura, la planificación de cuidados y la pérdida vocacional impulsan el caso que las aseguradoras intentan cerrar pronto. Esto no es consejo médico.',
         ],
       },
       {
         h2: 'Auto, motocicleta y mordeduras — Código Civil §3342',
         paragraphs: [
-          'Después de los cuatro tipos principales de reclamo, choques de auto, accidentes de motocicleta y mordeduras de perro bajo el Código Civil de California §3342 completan el expediente. Circular entre carriles en motocicleta es legal cuando se hace con seguridad; usar casco no invierte la culpa. No manejamos reclamos por resbalones y caídas.',
+          'Después de los cuatro tipos principales de reclamo, choques de auto, accidentes de motocicleta y mordeduras de perro bajo el Código Civil de California §3342 completan el expediente. Circular entre carriles en motocicleta es legal cuando se hace con seguridad; usar casco no invierte la culpa. No manejamos reclamos por resbalones y caídas. La mayoría de las víctimas de lesiones en Palm Springs tienen dos años bajo el CCP §335.1 contados desde la fecha del daño — confirme su plazo en la consulta antes de que la evidencia se deteriore; una entidad pública puede exigir aviso escrito de seis meses conforme al Código de Gobierno §911.2.',
         ],
       },
       {
-        h2: '(760) 835-9353 — 1276 N Palm Canyon Dr #107',
+        h2: '(760) 835-9353 — 1276 N Palm Canyon Dr #107, consulta local',
         paragraphs: [
-          'Horario: lunes a viernes 9am–6pm, sábado 10am–4pm, domingo con cita. Lesiones graves pueden contactar la oficina las 24 horas para consulta de emergencia. Si el mismo choque hunde el hogar, la misma llamada al (760) 835-9353 presenta el Capítulo 7 o 13 en 3420 Twelfth Street, Riverside. Redlands es la segunda oficina — 2068 Orange Tree Lane, Suite 220, (909) 915-0181.',
+          'Horario: lunes a viernes 9am–6pm, sábado 10am–4pm, domingo con cita. Lesiones graves pueden contactar la oficina las 24 horas para consulta de emergencia. El local está en N Palm Canyon Drive — unas 3.2 millas y unos 7 minutos al noroeste del Ayuntamiento en 3200 East Tahquitz Canyon Way cuando se recorre Civic \u2192 Tahquitz \u2192 Sunrise \u2192 Tachevah \u2192 N Palm Canyon. Si el mismo choque hunde el hogar, la misma llamada al (760) 835-9353 presenta el Capítulo 7 o 13 en el Tribunal de Bancarrota de EE. UU., 3420 Twelfth Street, Riverside — unas 55 millas y unos 71 minutos al noroeste. Redlands es la segunda oficina solamente — 2068 Orange Tree Lane, Suite 220, (909) 915-0181 — unas 49 millas y unos 60 minutos al noroeste, no la línea principal de Palm Springs.',
         ],
       },
     ],

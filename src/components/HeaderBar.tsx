@@ -1,8 +1,10 @@
 'use client'
 
 import Link from 'next/link'
+import { usePathname } from 'next/navigation'
 import { useState } from 'react'
 import { OFFICES } from '@/lib/nap'
+import { cityPhone, cityTel, extractCitySlugFromPath } from '@/lib/routing'
 
 type NavLink = { href: string; label: string }
 
@@ -14,6 +16,10 @@ export function HeaderBar({
   links: NavLink[]
 }) {
   const [open, setOpen] = useState(false)
+  const pathname = usePathname() || '/'
+  const citySlug = extractCitySlugFromPath(pathname)
+  const phone = citySlug ? cityPhone(citySlug) : OFFICES[0].phone
+  const tel = citySlug ? cityTel(citySlug) : OFFICES[0].tel
   const homeHref = locale === 'en' ? '/' : '/es/inicio/'
   const otherLocaleHref = locale === 'en' ? '/es/inicio/' : '/'
   const localized = (href: string) => {
@@ -58,10 +64,10 @@ export function HeaderBar({
             {locale === 'en' ? 'ES' : 'EN'}
           </Link>
           <a
-            href={`tel:${OFFICES[0].tel}`}
+            href={`tel:${tel}`}
             className="hidden rounded-sm bg-gold px-3 py-1.5 font-body text-xs font-semibold text-navy hover:bg-gold-deep sm:inline-flex"
           >
-            {OFFICES[0].phone}
+            {phone}
           </a>
           <button
             type="button"
@@ -93,8 +99,8 @@ export function HeaderBar({
                 {link.label}
               </Link>
             ))}
-            <a href={`tel:${OFFICES[0].tel}`} className="mt-2 py-2 font-data text-sm text-gold">
-              {OFFICES[0].phone}
+            <a href={`tel:${tel}`} className="mt-2 py-2 font-data text-sm text-gold">
+              {phone}
             </a>
           </nav>
         </div>

@@ -98,3 +98,30 @@ export function isBkService(slug: string) {
 export function isLiveCity(slug: string) {
   return LIVE_CITY_SLUGS.has(slug)
 }
+
+/** City slug from marketing paths — used by chrome CTA and sticky header phone. */
+export function extractCitySlugFromPath(pathname: string): string | undefined {
+  const parts = pathname.replace(/\/$/, '').split('/').filter(Boolean)
+  const offset = parts[0] === 'es' || parts[0] === 'en' ? 1 : 0
+  const practice = parts[offset]
+  const isPractice =
+    practice === 'personal-injury' ||
+    practice === 'bankruptcy' ||
+    practice === 'lesiones-personales' ||
+    practice === 'bancarrota'
+
+  if (!isPractice) {
+    if (parts[offset] === 'locations' && parts[offset + 1]) {
+      let loc = parts[offset + 1]!
+      if (loc === 'redlands-ca') loc = 'redlands'
+      return isLiveCity(loc) ? loc : undefined
+    }
+    return undefined
+  }
+
+  const segment = parts[offset + 1]
+  if (segment && isLiveCity(segment)) return segment
+  const citySegment = parts[offset + 2]
+  if (citySegment && isLiveCity(citySegment)) return citySegment
+  return undefined
+}
