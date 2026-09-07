@@ -479,48 +479,48 @@ const PI_EN: Record<CitySlug, CityPageCopy> = {
     ],
   },
   'san-bernardino': {
-    h1: 'San Bernardino personal injury lawyer — meet on Orange Tree Lane',
-    title: 'San Bernardino Personal Injury Lawyer | I-215 Truck, Uber, Wrongful Death | Lombera',
+    h1: 'San Bernardino personal injury lawyer',
+    title: 'San Bernardino Personal Injury Lawyer | I-10/I-215/I-210 Truck, Uber, Wrongful Death | Lombera',
     description:
-      'Truck, Uber, wrongful death, and catastrophic injury from I-10 / I-215 / I-210 crashes. Meet at 2068 Orange Tree Lane #220, Redlands. (909) 915-0181.',
+      'Truck, Uber, wrongful death, and catastrophic injury from I-10 / I-215 / I-210 crashes in San Bernardino. Meet at 2068 Orange Tree Lane #220, Redlands — about 8 miles and 14 minutes east-southeast via 2nd, I-215, and I-10. (909) 915-0181.',
     lead: [
-      'There is no Lombera storefront downtown. Injury lawsuits from San Bernardino file at San Bernardino County Superior Court, 247 W. 3rd St. Meet Edgar P. Lombera at 2068 Orange Tree Lane, Suite 220, Redlands, CA 92374 — about 15 minutes east on the I-10. Call (909) 915-0181. English or Spanish. Two practices only: personal injury and bankruptcy. You speak with him. Injury cases run on contingency: no fee unless we win.',
+      'There is no Lombera storefront in San Bernardino. After a San Bernardino wreck, meet Edgar P. Lombera at 2068 Orange Tree Lane, Suite 220, Redlands, CA 92374. From San Bernardino City Hall at 290 N D Street (civic reference only), take 2nd Street to the I-215 south to the I-10 east, then California Street — about 8 miles and 14 minutes east-southeast. The drive is east-southeast. I-10, I-215, and I-210 are crash corridors on this page, not a downtown San Bernardino storefront. Call (909) 915-0181. English or Spanish. Two practices only: personal injury and bankruptcy. You speak with him. Injury cases run on contingency: no fee unless we win.',
     ],
     sections: [
       {
         h2: 'Truck wrecks on I-10, I-215, and I-210',
         paragraphs: [
-          'Freight and through-truck traffic on I-10, I-215, and the I-210 connector, plus Waterman Avenue and Hospitality Lane, produce the commercial collisions that lead this docket. After a serious wreck, preserve the ECM download, dashcam footage, and the driver qualification file before insurers scatter the evidence. This is an Inland Empire corridor — not an LA harbor page. Wrongful death and traumatic brain injury claims from these wrecks stay on this URL.',
+          'Baseline Street, Hospitality Lane, and the I-215 / I-10 stack carry through-truck freight that produces the commercial collisions leading this docket. After a serious wreck, preserve the ECM download, dashcam footage, and the driver qualification file before insurers scatter the evidence. Unlimited civil lawsuits from these freeway corridors file at San Bernardino County Superior Court / Justice Center, 247 W. 3rd Street — about 0.6 miles and 3 minutes east from downtown civic landmarks. This is San Bernardino’s I-10 / I-215 / I-210 junction — not Fontana’s I-10 / I-15 / Sierra freight page, not Riverside’s 60 / 91 / 215 grid, and not Redlands’ I-10 / Alabama corridor. Wrongful death and traumatic brain injury claims from these wrecks stay on this URL.',
         ],
       },
       {
-        h2: 'Uber and Lyft — which layer depends on app status',
+        h2: 'Uber, Lyft, and rideshare on Hospitality Lane and the I-215 corridor',
         paragraphs: [
-          'Whether the driver had the app on changes which insurer must respond — we confirm coverage in the consult, not in marketing copy with dollar figures. Hospitality Lane and downtown San Bernardino rideshare trips stay on this city URL — not a 50-state doorway.',
+          'Whether the driver had the app on changes which insurer must respond — we confirm coverage in the consult, not in marketing copy with dollar figures. Hospitality Lane, E Street, Rialto Avenue, and the I-215 / I-10 interchange stack rideshare pickups between hospital shifts, CSUSB commuter traffic, and county-employee runs. San Bernardino rideshare claims stay on /personal-injury/san-bernardino/. We do not invent a /uber/ or /rideshare/ page.',
         ],
       },
       {
         h2: 'Wrongful death — standing under CCP §377.60 at 247 W. 3rd Street',
         paragraphs: [
-          'Who may bring the suit is confirmed in the consult under California Code of Civil Procedure §377.60 — we do not invent verdicts or settlement stories. Suits are typically filed at San Bernardino County Superior Court, 247 W. 3rd St., San Bernardino. CCP §335.1 gives most victims two years; a public entity may require six-month written notice under Government Code §911.2.',
+          'Who may bring the suit is confirmed in the consult under California Code of Civil Procedure §377.60 — we do not invent verdicts or settlement stories. Unlimited civil files are filed at San Bernardino County Superior Court / Justice Center, 247 W. 3rd Street, San Bernardino — not Riverside’s 4050 Main Street, not Fontana District on Arrow, and not a Palm Springs division filing. The courthouse sits about 0.6 miles and 3 minutes east of downtown civic reference points.',
         ],
       },
       {
         h2: 'Catastrophic injury — TBI, spinal cord, lost limb',
         paragraphs: [
-          'Traumatic brain injury, spinal cord injury, and amputation are damages outcomes — not a separate catastrophic-injury landing page. Families often receive initial treatment at Community Hospital of San Bernardino, St. Bernardine Medical Center, or Loma Linda University Medical Center. Future medical care and lost earning capacity drive the damages case. This is not medical advice.',
+          'Traumatic brain injury, spinal cord injury, and amputation are damages outcomes handled on this URL only — not a separate /catastrophic-injury/ landing page. A freeway or interchange collision on the I-10, I-215, or I-210 can leave lifetime medical needs and lost earning capacity that insurers undervalue early. Families often receive initial treatment at Community Hospital of San Bernardino, St. Bernardine Medical Center, Arrowhead Regional Medical Center, or Loma Linda University Medical Center. Future medical care and vocational loss drive the damages case. This is not medical advice.',
         ],
       },
       {
         h2: 'Car, motorcycle, and Civil Code §3342 dog bites',
         paragraphs: [
-          'After the four primary claim types, car collisions, motorcycle crashes, and dog bites under California Civil Code §3342 round out the docket. Lane-splitting on a motorcycle is legal when done safely; wearing a helmet does not flip fault. We do not handle slip-and-fall claims.',
+          'After the four primary claim types, car collisions, motorcycle crashes, and dog bites under California Civil Code §3342 round out the docket. Lane-splitting on a motorcycle is legal when done safely; wearing a helmet does not flip fault. We do not handle slip-and-fall claims. CCP §335.1 gives most San Bernardino injury victims two years from the date of harm — confirm your deadline in the consult before evidence goes stale; a public entity may require six-month notice under Government Code §911.2.',
         ],
       },
       {
-        h2: '(909) 915-0181 — Orange Tree Lane, not downtown',
+        h2: '(909) 915-0181 — Orange Tree Lane, east-southeast',
         paragraphs: [
-          'Hours: Monday–Friday 9am–6pm, Saturday 10am–4pm, Sunday by appointment. Serious injuries can reach the office 24/7 for an emergency consult. This is the Redlands office, not a fake San Bernardino suite. Palm Springs is the second office — 1276 N Palm Canyon Dr #107, (760) 835-9353. Bankruptcy for medical debt files at 3420 Twelfth Street, Riverside.',
+          'Hours: Monday–Friday 9am–6pm, Saturday 10am–4pm, Sunday by appointment. Serious injuries can reach the office 24/7 for an emergency consult. From San Bernardino, the consultation is about 8 miles and 14 minutes east-southeast via 2nd Street, the I-215, the I-10, and California Street — not a downtown San Bernardino storefront. If the same wreck sinks the household, the same (909) 915-0181 call files Chapter 7 or Chapter 13 at the U.S. Bankruptcy Court, 3420 Twelfth Street, Riverside — about 11 miles and 16 minutes south-southwest. Palm Springs is the second office — 1276 N Palm Canyon Dr #107, (760) 835-9353 — about 54 miles and 64 minutes east-southeast, not the San Bernardino lead line.',
         ],
       },
     ],
@@ -1822,36 +1822,36 @@ const PI_ES: Record<CitySlug, CityPageCopy> = {
     ],
   },
   'san-bernardino': {
-    h1: 'Abogado de lesiones en San Bernardino — reúnase en Orange Tree Lane',
-    title: 'Abogado de Lesiones San Bernardino | Camiones I-215, Uber, Muerte Injusta | Lombera',
+    h1: 'Abogado de lesiones personales en San Bernardino',
+    title: 'Abogado de Lesiones San Bernardino | Camiones I-10/I-215/I-210, Uber, Muerte Injusta | Lombera',
     description:
-      'Camiones, Uber, muerte injusta y lesiones catastróficas en la I-10 / I-215 / I-210. Oficina en Orange Tree Lane #220, Redlands. (909) 915-0181.',
+      'Camiones, Uber, muerte injusta y lesiones catastróficas en choques de la I-10 / I-215 / I-210 en San Bernardino. Oficina en Orange Tree Lane #220, Redlands — unas 8 millas y 14 minutos al sureste por 2nd, la I-215 y la I-10. (909) 915-0181.',
     lead: [
-      'No hay oficina de Lombera en el centro. Las demandas por lesiones de San Bernardino se presentan en el Tribunal Superior del Condado de San Bernardino, 247 W. 3rd St. Reúnase con Edgar P. Lombera en 2068 Orange Tree Lane, Suite 220, Redlands, CA 92374 — unos 15 minutos al este por la I-10. Llame al (909) 915-0181. Inglés o español. Solo dos prácticas: lesiones personales y bancarrota. Usted habla con él. Los casos de lesiones son a contingencia: sin honorarios a menos que ganemos.',
+      'No hay local de Lombera en San Bernardino. Después de un choque en San Bernardino, reúnase con Edgar P. Lombera en 2068 Orange Tree Lane, Suite 220, Redlands, CA 92374. Desde el Ayuntamiento de San Bernardino en 290 N D Street (referencia cívica solamente), tome 2nd Street a la I-215 al sur a la I-10 al este, luego California Street — unas 8 millas y 14 minutos al sureste. El trayecto es al sureste. La I-10, la I-215 y la I-210 son corredores de choques en esta página, no un local en el centro de San Bernardino. Llame al (909) 915-0181. Inglés o español. Solo dos prácticas: lesiones personales y bancarrota. Usted habla con él. Los casos de lesiones son a contingencia: sin honorarios a menos que ganemos.',
     ],
     sections: [
       {
         h2: 'Choques de camiones en la I-10, la I-215 y la I-210',
         paragraphs: [
-          'El tráfico de carga y de camiones de paso en la I-10, la I-215 y el conector de la I-210, más Waterman Avenue y Hospitality Lane, producen las colisiones comerciales que lideran este expediente. Después de un choque grave, preserve la descarga del ECM, las grabaciones de dashcam y el expediente de calificación del conductor antes de que las aseguradoras dispersen la evidencia. Este es un corredor del Inland Empire — no una página de puerto de Los Ángeles. Las demandas por muerte injusta y lesión cerebral traumática de estos choques permanecen en esta URL.',
+          'Baseline Street, Hospitality Lane y el empalme I-215 / I-10 soportan carga de camiones de paso que produce las colisiones comerciales que lideran este expediente. Después de un choque grave, preserve la descarga del ECM, las grabaciones de dashcam y el expediente de calificación del conductor antes de que las aseguradoras dispersen la evidencia. Las demandas civiles ilimitadas de estos corredores de autopista se presentan en el Tribunal Superior del Condado de San Bernardino / Justice Center, 247 W. 3rd Street — unas 0.6 millas y 3 minutos al este desde puntos cívicos del centro. Este es el empalme I-10 / I-215 / I-210 de San Bernardino — no la página de carga de Fontana en la I-10 / I-15 / Sierra, no la red 60 / 91 / 215 de Riverside, ni el corredor I-10 / Alabama de Redlands. Las demandas por muerte injusta y lesión cerebral traumática de estos choques permanecen en esta URL.',
         ],
       },
       {
-        h2: 'Uber y Lyft — la capa depende del estado de la app',
+        h2: 'Uber, Lyft y rideshare en Hospitality Lane y el corredor I-215',
         paragraphs: [
-          'Si el conductor tenía la aplicación activada cambia qué aseguradora debe responder — confirmamos la cobertura en la consulta, no con cifras de marketing. Los viajes de rideshare en Hospitality Lane y el centro de San Bernardino permanecen en esta URL de la ciudad — no una puerta de entrada de 50 estados.',
+          'Si el conductor tenía la aplicación activada cambia qué aseguradora debe responder — confirmamos la cobertura en la consulta, no con cifras de marketing. Hospitality Lane, E Street, Rialto Avenue y el intercambio I-215 / I-10 concentran recogidas de rideshare entre turnos hospitalarios, tráfico de CSUSB y trayectos de empleados del condado. Los reclamos de rideshare de San Bernardino permanecen en /es/lesiones-personales/san-bernardino/. No inventamos una página /uber/ ni /rideshare/.',
         ],
       },
       {
         h2: 'Muerte injusta — legitimación bajo el CCP §377.60 en 247 W. 3rd Street',
         paragraphs: [
-          'Quién puede presentar la demanda se confirma en la consulta bajo el Código de Procedimiento Civil de California §377.60 — no inventamos veredictos ni historias de acuerdos. Las demandas se presentan normalmente en el Tribunal Superior del Condado de San Bernardino, 247 W. 3rd St., San Bernardino. El CCP §335.1 da dos años a la mayoría de las víctimas; una entidad pública puede exigir aviso escrito de seis meses bajo el Código de Gobierno §911.2.',
+          'Quién puede presentar la demanda se confirma en la consulta bajo el Código de Procedimiento Civil de California §377.60 — no inventamos veredictos ni historias de acuerdos. Los expedientes civiles ilimitados se presentan en el Tribunal Superior del Condado de San Bernardino / Justice Center, 247 W. 3rd Street, San Bernardino — no en 4050 Main Street de Riverside, no en el distrito de Fontana en Arrow, y no en una división de Palm Springs. El tribunal está unas 0.6 millas y 3 minutos al este de puntos cívicos del centro. El CCP §335.1 da dos años a la mayoría de las víctimas; una entidad pública puede exigir aviso escrito de seis meses bajo el Código de Gobierno §911.2.',
         ],
       },
       {
         h2: 'Lesiones catastróficas — cerebral, médula, pérdida de miembro',
         paragraphs: [
-          'La lesión cerebral traumática, la lesión de médula espinal y la amputación son resultados de daños — no una página separada de lesiones catastróficas. Las familias a menudo reciben tratamiento inicial en Community Hospital of San Bernardino, St. Bernardine Medical Center o Loma Linda University Medical Center. La atención médica futura y la capacidad de ingreso perdida impulsan el caso de daños. Esto no es consejo médico.',
+          'La lesión cerebral traumática, la lesión de médula espinal y la amputación son resultados de daños manejados solo en esta URL — no una página separada de /lesiones-catastroficas/. Un choque en autopista o intercambio en la I-10, la I-215 o la I-210 puede dejar necesidades médicas de por vida y capacidad de ingreso perdida que las aseguradoras subvaloran al inicio. Las familias a menudo reciben tratamiento inicial en Community Hospital of San Bernardino, St. Bernardine Medical Center, Arrowhead Regional Medical Center o Loma Linda University Medical Center. La atención médica futura y la pérdida vocacional impulsan el caso de daños. Esto no es consejo médico.',
         ],
       },
       {
@@ -1861,9 +1861,9 @@ const PI_ES: Record<CitySlug, CityPageCopy> = {
         ],
       },
       {
-        h2: '(909) 915-0181 — Orange Tree Lane, no el centro',
+        h2: '(909) 915-0181 — Orange Tree Lane, al sureste',
         paragraphs: [
-          'Horario: lunes a viernes 9am–6pm, sábado 10am–4pm, domingo con cita. Lesiones graves pueden contactar la oficina las 24 horas para consulta de emergencia. Esta es la oficina de Redlands, no una suite ficticia en San Bernardino. Palm Springs es la segunda oficina — 1276 N Palm Canyon Dr #107, (760) 835-9353. La bancarrota por deuda médica se presenta en 3420 Twelfth Street, Riverside.',
+          'Horario: lunes a viernes 9am–6pm, sábado 10am–4pm, domingo con cita. Lesiones graves pueden contactar la oficina las 24 horas para consulta de emergencia. Desde San Bernardino, la consulta es unas 8 millas y 14 minutos al sureste por 2nd Street, la I-215, la I-10 y California Street — no un local en el centro de San Bernardino. Si el mismo choque hunde el hogar, la misma llamada al (909) 915-0181 presenta el Capítulo 7 o 13 en el Tribunal de Bancarrota de EE. UU., 3420 Twelfth Street, Riverside — unas 11 millas y 16 minutos al sur-suroeste. Palm Springs es la segunda oficina — 1276 N Palm Canyon Dr #107, (760) 835-9353 — unas 54 millas y 64 minutos al sureste, no la línea principal de San Bernardino.',
         ],
       },
     ],

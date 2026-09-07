@@ -116,7 +116,10 @@ export async function PracticeCityView({
         : `${name} personal injury`
   const ctaIsLastH2 =
     practiceSlug === 'personal-injury' &&
-    (citySlug === 'fontana' || citySlug === 'riverside' || citySlug === 'redlands')
+    (citySlug === 'fontana' ||
+      citySlug === 'riverside' ||
+      citySlug === 'redlands' ||
+      citySlug === 'san-bernardino')
   const homeCrumb = locale === 'es' ? 'Inicio' : 'Home'
   const practiceCrumb =
     practiceSlug === 'personal-injury' ? copy.nav.personalInjury : copy.nav.bankruptcy
