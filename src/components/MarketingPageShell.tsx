@@ -38,9 +38,14 @@ function isHomePath(pathname: string) {
   return pathname === '/' || pathname === '/es' || pathname === '/es/inicio'
 }
 
-function isFontanaPiPath(pathname: string) {
+function isPiPathWithDemotedPostCtaHeadings(pathname: string) {
   const normalized = pathname.replace(/\/$/, '')
-  return normalized === '/personal-injury/fontana' || normalized === '/es/lesiones-personales/fontana'
+  return (
+    normalized === '/personal-injury/fontana' ||
+    normalized === '/es/lesiones-personales/fontana' ||
+    normalized === '/personal-injury/riverside' ||
+    normalized === '/es/lesiones-personales/riverside'
+  )
 }
 
 function skipChrome(pathname: string) {
@@ -103,7 +108,7 @@ export function MarketingPageShell({
         locale={locale}
         citySlug={citySlug}
         showCall={showCall}
-        formHeadingTag={isFontanaPiPath(pathname) ? 'p' : 'h2'}
+        formHeadingTag={isPiPathWithDemotedPostCtaHeadings(pathname) ? 'p' : 'h2'}
       />
     </>
   )
