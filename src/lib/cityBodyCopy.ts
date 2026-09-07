@@ -432,36 +432,36 @@ const PI_EN: Record<CitySlug, CityPageCopy> = {
     ],
   },
   redlands: {
-    h1: 'Redlands personal injury lawyer at 2068 Orange Tree Lane',
-    title: 'Redlands Personal Injury Lawyer | I-10 Truck, Uber, Wrongful Death | Lombera',
+    h1: 'Redlands personal injury lawyer',
+    title: 'Redlands Personal Injury Lawyer | I-10/I-210 Truck, Uber, Wrongful Death | Lombera',
     description:
-      'Truck, Uber, wrongful death, and catastrophic injury from 2068 Orange Tree Lane #220, Redlands. (909) 915-0181. Free consult.',
+      'Truck, Uber, wrongful death, and catastrophic injury at 2068 Orange Tree Lane #220, Redlands — local sit-down office. About 3.5 miles west-northwest from City Hall. (909) 915-0181.',
     lead: [
-      'This is the office — 2068 Orange Tree Lane, Suite 220, Redlands, CA 92374. Call (909) 915-0181. Edgar P. Lombera, California State Bar No. 259393, takes Redlands injury files here in English or Spanish. Two practices only: personal injury and bankruptcy. You speak with him. Injury cases run on contingency: no fee unless we win.',
+      'This is the Redlands sit-down office — 2068 Orange Tree Lane, Suite 220, Redlands, CA 92374. From Redlands City Hall at 35 Cajon Street — civic reference only, not our address — the consultation room is about 3.5 miles and 6 minutes west-northwest via Cajon Street, Orange Street, the I-10, and California Street to Orange Tree Lane. Call (909) 915-0181. Edgar P. Lombera takes injury files here in English or Spanish. Two practices only: personal injury and bankruptcy. You speak with him. Injury cases run on contingency: no fee unless we win.',
     ],
     sections: [
       {
         h2: 'Truck wrecks on I-10 and I-210',
         paragraphs: [
-          'Semi-truck collisions cluster at I-10 and Alabama Street, on the I-210 connector, and wherever through-truck traffic meets local commuters. After a serious wreck, preserve the ECM download, dashcam footage, and the driver qualification file before insurers scatter the evidence. This is an Inland Empire freight corridor — not an LA harbor page. Wrongful death and traumatic brain injury claims from these wrecks are handled on this URL.',
+          'Through-truck traffic on the I-10 and the I-210 connector meets Redlands commuters at Alabama Street, Orange Street, and the Redlands Boulevard arterials — the same freight lanes that feed San Bernardino County logistics without a separate harbor page. After a serious collision, preserve the ECM download, dashcam footage, and the driver qualification file before insurers scatter the evidence. Unlimited civil lawsuits from these corridors file at San Bernardino County Superior Court / Justice Center, 247 W. 3rd Street, San Bernardino — not Haven Avenue, not Tahquitz Canyon Way, and not Oasis in the desert divisions. Wrongful death and traumatic brain injury claims from these wrecks stay on this URL.',
         ],
       },
       {
-        h2: 'Uber and Lyft — which layer depends on app status',
+        h2: 'Uber and Lyft on Redlands Boulevard, Orange Street, and the I-10 corridor',
         paragraphs: [
-          'Whether the driver had the app on changes which insurer must respond — we confirm coverage in the consult, not in marketing copy with dollar figures. Highway 111 is the Coachella Valley rideshare corridor; Redlands trips run I-10, Redlands Blvd, Orange Street, and Citrus Avenue and State Street. Rideshare injury claims from these arterials stay here.',
+          'Whether the driver had the app on changes which insurer must respond — we confirm coverage in the consult, not in marketing copy with dollar figures. University of Redlands traffic, downtown Orange Street runs, and I-10 connector trips produce steady rideshare volume alongside commuter lanes. Redlands rideshare injury claims stay on /personal-injury/redlands/. We do not invent a /uber/ or /rideshare/ page.',
         ],
       },
       {
-        h2: 'Wrongful death — standing under CCP §377.60',
+        h2: 'Wrongful death — standing under CCP §377.60 at 247 W. 3rd Street',
         paragraphs: [
-          'Who may bring the suit is confirmed in the consult under California Code of Civil Procedure §377.60 — we do not invent verdicts or settlement stories. The same two-year clock under CCP §335.1 applies to most injury claims; a public entity may require six-month written notice under Government Code §911.2. Suits are typically filed at San Bernardino County Superior Court, 247 W. 3rd St., San Bernardino.',
+          'Who may bring the suit is confirmed in the consult under California Code of Civil Procedure §377.60 — we do not invent verdicts or settlement stories. Unlimited civil files are filed at San Bernardino County Superior Court / Justice Center, 247 W. 3rd Street, San Bernardino. CCP §335.1 gives most victims two years to file; a public entity may require six-month written notice under Government Code §911.2 before suit.',
         ],
       },
       {
         h2: 'Catastrophic injury — TBI, spinal cord, lost limb',
         paragraphs: [
-          'Traumatic brain injury, spinal cord injury, and amputation are damages outcomes — not a separate catastrophic-injury landing page. Families often receive initial treatment at Redlands Community Hospital or Loma Linda University Medical Center. Future medical care and lost earning capacity drive the damages case. This is not medical advice.',
+          'Traumatic brain injury, spinal cord injury, and amputation are damages outcomes handled on this URL only — not a separate /catastrophic-injury/ landing page. Initial trauma care often starts at Redlands Community Hospital or Loma Linda University Medical Center before the long-term damages picture is clear. Future medical care, life-care planning, and lost earning capacity drive the case insurers try to close early. This is not medical advice.',
         ],
       },
       {
@@ -471,9 +471,9 @@ const PI_EN: Record<CitySlug, CityPageCopy> = {
         ],
       },
       {
-        h2: '(909) 915-0181 — Orange Tree Lane',
+        h2: '(909) 915-0181 — Orange Tree Lane, local sit-down',
         paragraphs: [
-          'Hours: Monday–Friday 9am–6pm, Saturday 10am–4pm, Sunday by appointment. Serious injuries can reach the office 24/7 for an emergency consult. Palm Springs is the second office — 1276 N Palm Canyon Dr #107, (760) 835-9353 — not the Redlands line. Bankruptcy for medical debt from a wreck files at 3420 Twelfth Street, Riverside.',
+          'Hours: Monday–Friday 9am–6pm, Saturday 10am–4pm, Sunday by appointment. Serious injuries can reach the office 24/7 for an emergency consult. The office sits on Orange Tree Lane — about 3.5 miles and 6 minutes west-northwest from City Hall at 35 Cajon Street when you route Cajon → Orange → I-10 → California Street. If the same wreck sinks the household, the same (909) 915-0181 call files Chapter 7 or Chapter 13 at 3420 Twelfth Street, Riverside — about 15 miles and 21 minutes west-southwest. Palm Springs is the second office only — 1276 N Palm Canyon Dr #107, (760) 835-9353.',
         ],
       },
     ],
@@ -1775,36 +1775,36 @@ const PI_ES: Record<CitySlug, CityPageCopy> = {
     ],
   },
   redlands: {
-    h1: 'Abogado de lesiones en Redlands en 2068 Orange Tree Lane',
-    title: 'Abogado de Lesiones Redlands | Camiones I-10, Uber, Muerte Injusta | Lombera',
+    h1: 'Abogado de lesiones personales en Redlands',
+    title: 'Abogado de Lesiones Redlands | Camiones I-10/I-210, Uber, Muerte Injusta | Lombera',
     description:
-      'Camiones, Uber, muerte injusta y lesiones catastróficas desde Orange Tree Lane #220. (909) 915-0181. Consulta gratis.',
+      'Camiones, Uber, muerte injusta y lesiones catastróficas en 2068 Orange Tree Lane #220, Redlands — oficina local con atención presencial. Unas 3.5 millas al noroeste del City Hall. (909) 915-0181.',
     lead: [
-      'Esta es la oficina — 2068 Orange Tree Lane, Suite 220, Redlands, CA 92374. Llame al (909) 915-0181. Edgar P. Lombera, Abogado del Estado de California No. 259393, abre expedientes de lesiones de Redlands aquí en inglés o español. Solo dos prácticas: lesiones personales y bancarrota. Usted habla con él. Los casos de lesiones son a contingencia: sin honorarios a menos que ganemos.',
+      'Esta es la oficina con atención presencial de Redlands — 2068 Orange Tree Lane, Suite 220, Redlands, CA 92374. Desde el City Hall de Redlands en 35 Cajon Street — solo referencia cívica, no nuestra dirección — la sala de consulta queda a unas 3.5 millas y 6 minutos al noroeste por Cajon Street, Orange Street, la I-10 y California Street hasta Orange Tree Lane. Llame al (909) 915-0181. Edgar P. Lombera abre expedientes de lesiones aquí en inglés o español. Solo dos prácticas: lesiones personales y bancarrota. Usted habla con él. Los casos de lesiones son a contingencia: sin honorarios a menos que ganemos.',
     ],
     sections: [
       {
         h2: 'Choques de camiones en la I-10 y la I-210',
         paragraphs: [
-          'Los choques con tractocamiones se concentran en la I-10 y Alabama Street, en el conector de la I-210 y donde el tráfico de camiones de paso se cruza con conductores locales. Después de un choque grave, preserve la descarga del ECM, las grabaciones de dashcam y el expediente de calificación del conductor antes de que las aseguradoras dispersen la evidencia. Este es un corredor de carga del Inland Empire — no una página de puerto de Los Ángeles. Las demandas por muerte injusta y lesión cerebral traumática de estos choques se manejan en esta URL.',
+          'El tráfico de camiones de paso en la I-10 y el conector de la I-210 se cruza con conductores de Redlands en Alabama Street, Orange Street y las arterias de Redlands Boulevard — los mismos corredores de carga que alimentan la logística del condado de San Bernardino sin ser una página de puerto de Los Ángeles. Después de una colisión grave, preserve la descarga del ECM, las grabaciones de dashcam y el expediente de calificación del conductor antes de que las aseguradoras dispersen la evidencia. Las demandas civiles ilimitadas de estos corredores se presentan en el Tribunal Superior del Condado de San Bernardino / Justice Center, 247 W. 3rd Street, San Bernardino — no Haven Avenue, no Tahquitz Canyon Way ni Oasis en las divisiones del desierto. Las demandas por muerte injusta y lesión cerebral traumática de estos choques permanecen en esta URL.',
         ],
       },
       {
-        h2: 'Uber y Lyft — la capa depende del estado de la app',
+        h2: 'Uber y Lyft en Redlands Boulevard, Orange Street y el corredor de la I-10',
         paragraphs: [
-          'Si el conductor tenía la aplicación activada cambia qué aseguradora debe responder — confirmamos la cobertura en la consulta, no con cifras de marketing. La autopista 111 es el corredor de rideshare del Valle de Coachella; los viajes de Redlands recorren la I-10, Redlands Blvd, Orange Street y Citrus Avenue y State Street. Los reclamos de lesiones en rideshare por estas arterias permanecen aquí.',
+          'Si el conductor tenía la aplicación activada cambia qué aseguradora debe responder — confirmamos la cobertura en la consulta, no con cifras de marketing. El tráfico de la Universidad de Redlands, los recorridos por Orange Street en el centro y los viajes por el conector de la I-10 generan volumen constante de rideshare junto a las vías de pasajeros. Los reclamos de lesiones en rideshare de Redlands permanecen en /es/lesiones-personales/redlands/. No inventamos una página /uber/ ni /rideshare/.',
         ],
       },
       {
-        h2: 'Muerte injusta — legitimación bajo el CCP §377.60',
+        h2: 'Muerte injusta — legitimación bajo el CCP §377.60 en 247 W. 3rd Street',
         paragraphs: [
-          'Quién puede presentar la demanda se confirma en la consulta bajo el Código de Procedimiento Civil de California §377.60 — no inventamos veredictos ni historias de acuerdos. El mismo plazo de dos años del CCP §335.1 aplica a la mayoría de los reclamos por lesiones; una entidad pública puede exigir aviso escrito de seis meses bajo el Código de Gobierno §911.2. Las demandas se presentan normalmente en el Tribunal Superior del Condado de San Bernardino, 247 W. 3rd St., San Bernardino.',
+          'Quién puede presentar la demanda se confirma en la consulta bajo el Código de Procedimiento Civil de California §377.60 — no inventamos veredictos ni historias de acuerdos. Los expedientes civiles ilimitados se presentan en el Tribunal Superior del Condado de San Bernardino / Justice Center, 247 W. 3rd Street, San Bernardino. El plazo general de dos años del CCP §335.1 rige la mayoría de las demandas por lesiones; contra una entidad pública puede hacer falta aviso escrito de seis meses conforme al Código de Gobierno §911.2 antes de demandar.',
         ],
       },
       {
         h2: 'Lesiones catastróficas — cerebral, médula, pérdida de miembro',
         paragraphs: [
-          'La lesión cerebral traumática, la lesión de médula espinal y la amputación son resultados de daños — no una página separada de lesiones catastróficas. Las familias a menudo reciben tratamiento inicial en Redlands Community Hospital o Loma Linda University Medical Center. La atención médica futura y la capacidad de ingreso perdida impulsan el caso de daños. Esto no es consejo médico.',
+          'La lesión cerebral traumática, la lesión de médula espinal y la amputación son resultados de daños manejados solo en esta URL — no una página separada de /lesiones-catastroficas/. La atención inicial de trauma suele comenzar en Redlands Community Hospital o Loma Linda University Medical Center antes de que el panorama de daños a largo plazo quede claro. La atención médica futura, la planificación de cuidados y la capacidad de ingreso perdida impulsan el caso que las aseguradoras intentan cerrar pronto. Esto no es consejo médico.',
         ],
       },
       {
@@ -1814,9 +1814,9 @@ const PI_ES: Record<CitySlug, CityPageCopy> = {
         ],
       },
       {
-        h2: '(909) 915-0181 — Orange Tree Lane',
+        h2: '(909) 915-0181 — Orange Tree Lane, oficina local',
         paragraphs: [
-          'Horario: lunes a viernes 9am–6pm, sábado 10am–4pm, domingo con cita. Lesiones graves pueden contactar la oficina las 24 horas para consulta de emergencia. Palm Springs es la segunda oficina — 1276 N Palm Canyon Dr #107, (760) 835-9353 — no la línea de Redlands. La bancarrota por deuda médica de un choque se presenta en 3420 Twelfth Street, Riverside.',
+          'Horario: lunes a viernes 9am–6pm, sábado 10am–4pm, domingo con cita. Lesiones graves pueden contactar la oficina las 24 horas para consulta de emergencia. La oficina está en Orange Tree Lane — unas 3.5 millas y 6 minutos al noroeste del City Hall en 35 Cajon Street si toma Cajon → Orange → I-10 → California Street. Si el mismo choque hunde el hogar, la misma llamada al (909) 915-0181 presenta el Capítulo 7 o 13 en 3420 Twelfth Street, Riverside — unas 15 millas y 21 minutos al suroeste. Palm Springs es solo la segunda oficina — 1276 N Palm Canyon Dr #107, (760) 835-9353.',
         ],
       },
     ],
