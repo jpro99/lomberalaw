@@ -61,7 +61,7 @@ const PI_EN: Record<CitySlug, CityPageCopy> = {
     description:
       'Truck, Uber, wrongful death, and catastrophic injury from I-10 / I-15 / SR-210 crashes in Fontana. Meet at 2068 Orange Tree Lane #220, Redlands — about 15 miles and 21 minutes east. (909) 915-0181.',
     lead: [
-      'There is no Lombera suite at 7337 East Ave, 9030 Sierra, 9161 Sierra, 14568 Arrow, 17780 Arrow, or anywhere on Sierra Avenue — 8353 Sierra is Fontana City Hall, not a law office. After a Fontana wreck, meet Edgar P. Lombera at 2068 Orange Tree Lane, Suite 220, Redlands, CA 92374. From Fontana City Hall, take Sierra Avenue to the I-10 east, then California Street — about 15 miles and 21 minutes east. The drive is east. I-10, I-15, and SR-210 are crash corridors on this page, not the route to a Fontana storefront. Call (909) 915-0181. English or Spanish. Two practices only: personal injury and bankruptcy. You speak with him. Injury cases run on contingency: no fee unless we win.',
+      'There is no Lombera storefront in Fontana and no suite on Sierra Avenue. After a Fontana wreck, meet Edgar P. Lombera at 2068 Orange Tree Lane, Suite 220, Redlands, CA 92374. From Fontana City Hall, take Sierra Avenue to the I-10 east, then California Street — about 15 miles and 21 minutes east. The drive is east. I-10, I-15, and SR-210 are crash corridors on this page, not the route to a Fontana storefront. Call (909) 915-0181. English or Spanish. Two practices only: personal injury and bankruptcy. You speak with him. Injury cases run on contingency: no fee unless we win.',
     ],
     sections: [
       {
@@ -1404,7 +1404,7 @@ const PI_ES: Record<CitySlug, CityPageCopy> = {
     description:
       'Camiones, Uber, muerte injusta y lesiones catastróficas en choques de la I-10 / I-15 / SR-210 en Fontana. Oficina en Orange Tree Lane #220, Redlands — unas 15 millas y 21 minutos al este. (909) 915-0181.',
     lead: [
-      'No hay suite de Lombera en 7337 East Ave, 9030 Sierra, 9161 Sierra, 14568 Arrow, 17780 Arrow, ni en ningún punto de Sierra Avenue — 8353 Sierra es el City Hall de Fontana, no una oficina legal. Después de un choque en Fontana, reúnase con Edgar P. Lombera en 2068 Orange Tree Lane, Suite 220, Redlands, CA 92374. Desde el City Hall de Fontana, tome Sierra Avenue a la I-10 al este, luego California Street — unas 15 millas y 21 minutos al este. El trayecto es al este. La I-10, la I-15 y la SR-210 son corredores de choques en esta página, no la ruta a un local en Fontana. Llame al (909) 915-0181. Inglés o español. Solo dos prácticas: lesiones personales y bancarrota. Usted habla con él. Los casos de lesiones son a contingencia: sin honorarios a menos que ganemos.',
+      'No hay local de Lombera en Fontana ni suite en Sierra Avenue. Después de un choque en Fontana, reúnase con Edgar P. Lombera en 2068 Orange Tree Lane, Suite 220, Redlands, CA 92374. Desde el City Hall de Fontana, tome Sierra Avenue a la I-10 al este, luego California Street — unas 15 millas y 21 minutos al este. El trayecto es al este. La I-10, la I-15 y la SR-210 son corredores de choques en esta página, no la ruta a un local en Fontana. Llame al (909) 915-0181. Inglés o español. Solo dos prácticas: lesiones personales y bancarrota. Usted habla con él. Los casos de lesiones son a contingencia: sin honorarios a menos que ganemos.',
     ],
     sections: [
       {
