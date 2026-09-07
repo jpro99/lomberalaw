@@ -50,7 +50,9 @@ function isPiPathWithDemotedPostCtaHeadings(pathname: string) {
     normalized === '/personal-injury/san-bernardino' ||
     normalized === '/es/lesiones-personales/san-bernardino' ||
     normalized === '/personal-injury/moreno-valley' ||
-    normalized === '/es/lesiones-personales/moreno-valley'
+    normalized === '/es/lesiones-personales/moreno-valley' ||
+    normalized === '/personal-injury/highland' ||
+    normalized === '/es/lesiones-personales/highland'
   )
 }
 
