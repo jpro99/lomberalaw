@@ -623,45 +623,45 @@ const PI_EN: Record<CitySlug, CityPageCopy> = {
     h1: 'Highland personal injury lawyer',
     title: 'Highland Personal Injury Lawyer | 210/Base Line Truck, Uber, Wrongful Death | Lombera',
     description:
-      'Truck, Uber, wrongful death, and catastrophic injury from I-210 / SR-210 / Base Line crashes in Highland. Meet at 2068 Orange Tree Lane #220, Redlands — about 10 minutes south. (909) 915-0181.',
+      'Truck, Uber, wrongful death, and catastrophic injury from I-210 / SR-210 / Base Line crashes in Highland. Meet at 2068 Orange Tree Lane #220, Redlands — about 5 miles and 10 minutes south. (909) 915-0181.',
     lead: [
-      'There is no Lombera storefront on 26940 Base Line or in downtown Highland. After a Highland wreck, meet Edgar P. Lombera at 2068 Orange Tree Lane, Suite 220, Redlands, CA 92374. From Highland City Hall / 27215 Base Line, take Palm Avenue and Alabama Street south, then a short hop on the I-10 — about 5 miles and 10 minutes. The drive is south. Call (909) 915-0181. English or Spanish. Two practices only: personal injury and bankruptcy. You speak with him. Injury cases run on contingency: no fee unless we win.',
+      'There is no Lombera storefront in Highland. After a Highland wreck, meet Edgar P. Lombera at 2068 Orange Tree Lane, Suite 220, Redlands, CA 92374. From Highland City Hall at 27215 Base Line — civic reference only — take Base Line to Palm Avenue, Alabama Street south, a short hop on the I-10, then California Street — about 5 miles and 10 minutes south. I-210, SR-210, and Base Line are crash corridors on this page, not the route to a Highland storefront. Call (909) 915-0181. English or Spanish. Two practices only: personal injury and bankruptcy. You speak with him. Injury cases run on contingency: no fee unless we win.',
     ],
     sections: [
       {
         h2: 'Truck wrecks on I-210, SR-210, and Base Line',
         paragraphs: [
-          'Commercial truck traffic on I-210, SR-210, and Base Line produces the freight collisions that lead this docket — the Highland truck gap on search is real, and these wrecks belong here. After a serious collision, preserve the ECM download, dashcam footage, and the driver qualification file before insurers scatter the evidence. This is Highland’s 210 / Base Line corridor — not Fontana’s I-10 / I-15 / Sierra freight page, not Moreno Valley’s SR-60 / I-215, and not Riverside’s 60 / 91 / 215 stack. Wrongful death and traumatic brain injury claims from these wrecks stay on this URL.',
+          'East Highland, Greenspot Road, Victoria Avenue, and the I-210 / SR-210 / Base Line interchange carry through-truck freight that produces the commercial collisions leading this docket. After a serious wreck, preserve the ECM download, dashcam footage, and the driver qualification file before insurers scatter the evidence. Unlimited civil lawsuits from these freight corridors file at San Bernardino County Superior Court, San Bernardino Justice Center, 247 W. 3rd Street — about 5.5 miles and 11 minutes west-southwest from Highland civic reference points, often after Base Line to Palm Avenue. This is Highland\u2019s I-210 / SR-210 / Base Line junction — not Fontana\u2019s I-10 / I-15 / Sierra freight page, not San Bernardino\u2019s I-10 / I-215 / I-210 belt, not Moreno Valley\u2019s SR-60 / I-215, and not Riverside\u2019s 60 / 91 / 215 grid. Wrongful death and traumatic brain injury claims from these wrecks stay on this URL.',
         ],
       },
       {
         h2: 'Uber and Lyft on Base Line, Highland Avenue, and Palm Avenue',
         paragraphs: [
-          'Whether the driver had the app on changes which insurer must respond — we confirm coverage in the consult, not in marketing copy with dollar figures. Highland rideshare claims stay on /personal-injury/highland/. We do not invent a /uber/ page.',
+          'Whether the driver had the app on changes which insurer must respond — we confirm coverage in the consult, not in marketing copy with dollar figures. Base Line, Highland Avenue, Palm Avenue, Greenspot Road, and the I-210 / Base Line interchange stack rideshare pickups between commuter runs to Loma Linda, retail shifts at East Highland shopping corridors, and warehouse-gap drivers. Highland rideshare claims stay on /personal-injury/highland/. We do not invent a /uber/ or /rideshare/ page.',
         ],
       },
       {
         h2: 'Wrongful death — standing under CCP §377.60 at 247 W. 3rd Street',
         paragraphs: [
-          'Who may bring the suit is confirmed in the consult under California Code of Civil Procedure §377.60 — we do not invent verdicts or settlement stories. There is no Highland courthouse. County civil files are filed at San Bernardino County Superior Court, 247 W. 3rd St., San Bernardino — not Arrow Boulevard, and not 4050 Main Street in Riverside. CCP §335.1 gives most victims two years; a public entity may require six-month written notice under Government Code §911.2.',
+          'Who may bring the suit is confirmed in the consult under California Code of Civil Procedure §377.60 — we do not invent verdicts or settlement stories. Unlimited civil files for Highland ZIP codes are filed at San Bernardino County Superior Court, San Bernardino Justice Center, 247 W. 3rd Street, San Bernardino — not Arrow Boulevard, not 4050 Main Street in Riverside, and not a Highland courthouse because none exists.',
         ],
       },
       {
         h2: 'Catastrophic injury — TBI, spinal cord, lost limb',
         paragraphs: [
-          'Traumatic brain injury, spinal cord injury, and amputation are damages outcomes handled on this URL only — not a separate /catastrophic-injury/ landing page. Future medical care and lost earning capacity drive the damages case. This is not medical advice.',
+          'Traumatic brain injury, spinal cord injury, and amputation are damages outcomes handled on this URL only — not a separate /catastrophic-injury/ landing page. A freeway or interchange collision on I-210, SR-210, or Base Line near East Highland or the Greenspot corridor can leave lifetime medical needs and lost earning capacity that insurers undervalue early. Future medical care and vocational loss drive the damages case. This is not medical advice.',
         ],
       },
       {
         h2: 'Car, motorcycle, and Civil Code §3342 dog bites',
         paragraphs: [
-          'After the four primary claim types, car collisions, motorcycle crashes, and dog bites under California Civil Code §3342 round out the docket. Lane-splitting on a motorcycle is legal when done safely; wearing a helmet does not flip fault. We do not handle slip-and-fall claims.',
+          'After the four primary claim types, car collisions, motorcycle crashes, and dog bites under California Civil Code §3342 round out the docket. Lane-splitting on a motorcycle is legal when done safely; wearing a helmet does not flip fault. We do not handle slip-and-fall claims. CCP §335.1 gives most Highland injury victims two years from the date of harm — confirm your deadline in the consult before evidence goes stale; a public entity may require six-month notice under Government Code §911.2.',
         ],
       },
       {
         h2: '(909) 915-0181 — Orange Tree Lane, south',
         paragraphs: [
-          'Hours: Monday–Friday 9am–6pm, Saturday 10am–4pm, Sunday by appointment. Serious injuries can reach the office 24/7 for an emergency consult. If the same wreck sinks the household, the same (909) 915-0181 call files Chapter 7 or Chapter 13 at 3420 Twelfth Street, Riverside. Palm Springs is the second office — 1276 N Palm Canyon Dr #107, (760) 835-9353.',
+          'Hours: Monday–Friday 9am–6pm, Saturday 10am–4pm, Sunday by appointment. Serious injuries can reach the office 24/7 for an emergency consult. From Highland, the consultation is about 5 miles and 10 minutes south via Base Line, Palm Avenue, Alabama Street, a short hop on the I-10, and California Street — not a Highland storefront. If the same wreck sinks the household, the same (909) 915-0181 call files Chapter 7 or Chapter 13 at the U.S. Bankruptcy Court, 3420 Twelfth Street, Riverside — about 17 miles and 25 minutes southwest. Palm Springs is the second office only — 1276 N Palm Canyon Dr #107, (760) 835-9353.',
         ],
       },
     ],
@@ -1966,33 +1966,33 @@ const PI_ES: Record<CitySlug, CityPageCopy> = {
     h1: 'Abogado de lesiones personales en Highland',
     title: 'Abogado de Lesiones Highland | Camiones 210/Base Line, Uber, Muerte Injusta | Lombera',
     description:
-      'Camiones, Uber, muerte injusta y lesiones catastróficas en choques de la I-210 / SR-210 / Base Line en Highland. Oficina en Orange Tree Lane #220, Redlands — unos 10 minutos al sur. (909) 915-0181.',
+      'Camiones, Uber, muerte injusta y lesiones catastróficas en choques de la I-210 / SR-210 / Base Line en Highland. Oficina en Orange Tree Lane #220, Redlands — unos 5 millas y 10 minutos al sur. (909) 915-0181.',
     lead: [
-      'No hay oficina de Lombera en 26940 Base Line ni en el centro de Highland. Después de un choque en Highland, reúnase con Edgar P. Lombera en 2068 Orange Tree Lane, Suite 220, Redlands, CA 92374. Desde City Hall de Highland / 27215 Base Line, tome Palm Avenue y Alabama Street al sur, luego un tramo corto en la I-10 — unos 5 millas y 10 minutos. El trayecto es al sur. Llame al (909) 915-0181. Inglés o español. Solo dos prácticas: lesiones personales y bancarrota. Usted habla con él. Los casos de lesiones son a contingencia: sin honorarios a menos que ganemos.',
+      'No hay local de Lombera en Highland. Después de un choque en Highland, reúnase con Edgar P. Lombera en 2068 Orange Tree Lane, Suite 220, Redlands, CA 92374. Desde el City Hall en 27215 Base Line — solo referencia cívica — tome Base Line a Palm Avenue, Alabama Street al sur, un tramo corto en la I-10, luego California Street — unos 5 millas y 10 minutos al sur. La I-210, la SR-210 y Base Line son corredores de choques en esta página, no la ruta a un local en Highland. Llame al (909) 915-0181. Inglés o español. Solo dos prácticas: lesiones personales y bancarrota. Usted habla con él. Los casos de lesiones son a contingencia: sin honorarios a menos que ganemos.',
     ],
     sections: [
       {
         h2: 'Choques de camiones en la I-210, la SR-210 y Base Line',
         paragraphs: [
-          'El tráfico de camiones comerciales en la I-210, la SR-210 y Base Line produce las colisiones de carga que lideran este expediente — el vacío de camiones en Highland en búsqueda es real, y estos choques pertenecen aquí. Después de una colisión grave, preserve la descarga del ECM, las grabaciones de dashcam y el expediente de calificación del conductor antes de que las aseguradoras dispersen la evidencia. Este es el corredor 210 / Base Line de Highland — no la página de carga de Fontana en la I-10 / I-15 / Sierra, no la SR-60 / I-215 de Moreno Valley, ni el conjunto 60 / 91 / 215 de Riverside. Las demandas por muerte injusta y lesión cerebral traumática de estos choques permanecen en esta URL.',
+          'East Highland, Greenspot Road, Victoria Avenue y el intercambio I-210 / SR-210 / Base Line soportan el tráfico de camiones de paso que produce las colisiones comerciales que lideran este expediente. Después de un choque grave, preserve la descarga del ECM, las grabaciones de dashcam y el expediente de calificación del conductor antes de que las aseguradoras dispersen la evidencia. Las demandas civiles ilimitadas de estos corredores de carga se presentan en el Tribunal Superior del Condado de San Bernardino, San Bernardino Justice Center, 247 W. 3rd Street — unas 5.5 millas y 11 minutos al oeste-suroeste desde puntos de referencia cívicos de Highland, a menudo después de Base Line a Palm Avenue. Este es el cruce I-210 / SR-210 / Base Line de Highland — no la página de carga de Fontana en la I-10 / I-15 / Sierra, ni la franja I-10 / I-215 / I-210 de San Bernardino, ni la SR-60 / I-215 de Moreno Valley, ni el conjunto 60 / 91 / 215 de Riverside. Las demandas por muerte injusta y lesión cerebral traumática de estos choques permanecen en esta URL.',
         ],
       },
       {
         h2: 'Uber y Lyft en Base Line, Highland Avenue y Palm Avenue',
         paragraphs: [
-          'Si el conductor tenía la aplicación activada cambia qué aseguradora debe responder — confirmamos la cobertura en la consulta, no con cifras de marketing. Los reclamos de rideshare de Highland permanecen en /es/lesiones-personales/highland/. No inventamos una página /uber/.',
+          'Si el conductor tenía la aplicación activada cambia qué aseguradora debe responder — confirmamos la cobertura en la consulta, no con cifras de marketing. Base Line, Highland Avenue, Palm Avenue, Greenspot Road y el intercambio I-210 / Base Line concentran recogidas de rideshare entre trayectos a Loma Linda, turnos comerciales en East Highland y huecos entre turnos de almacén. Los reclamos de rideshare de Highland permanecen en /es/lesiones-personales/highland/. No inventamos una página /uber/ ni /rideshare/.',
         ],
       },
       {
         h2: 'Muerte injusta — legitimación bajo el CCP §377.60 en 247 W. 3rd Street',
         paragraphs: [
-          'Quién puede presentar la demanda se confirma en la consulta bajo el Código de Procedimiento Civil de California §377.60 — no inventamos veredictos ni historias de acuerdos. No hay tribunal en Highland. Los expedientes civiles del condado se presentan en el Tribunal Superior del Condado de San Bernardino, 247 W. 3rd St., San Bernardino — no en Arrow Boulevard, y no en 4050 Main Street en Riverside. El CCP §335.1 da dos años a la mayoría de las víctimas; una entidad pública puede exigir aviso escrito de seis meses bajo el Código de Gobierno §911.2.',
+          'Quién puede presentar la demanda se confirma en la consulta bajo el Código de Procedimiento Civil de California §377.60 — no inventamos veredictos ni historias de acuerdos. Los expedientes civiles ilimitados para códigos postales de Highland se presentan en el Tribunal Superior del Condado de San Bernardino, San Bernardino Justice Center, 247 W. 3rd Street, San Bernardino — no en Arrow Boulevard, no en 4050 Main Street en Riverside, y no en un tribunal de Highland porque no existe. El plazo general de dos años del CCP §335.1 rige la mayoría de las demandas por lesiones; contra una entidad pública puede hacer falta aviso escrito de seis meses conforme al Código de Gobierno §911.2 antes de demandar.',
         ],
       },
       {
         h2: 'Lesiones catastróficas — cerebral, médula, pérdida de miembro',
         paragraphs: [
-          'La lesión cerebral traumática, la lesión de médula espinal y la amputación son resultados de daños manejados solo en esta URL — no una página separada de /lesiones-catastroficas/. La atención médica futura y la capacidad de ingreso perdida impulsan el caso de daños. Esto no es consejo médico.',
+          'La lesión cerebral traumática, la lesión de médula espinal y la amputación son resultados de daños manejados solo en esta URL — no una página separada de /lesiones-catastroficas/. Un choque en autopista o intercambio en la I-210, la SR-210 o Base Line cerca de East Highland o el corredor Greenspot puede dejar necesidades médicas de por vida y capacidad de ingreso perdida que las aseguradoras subvaloran al inicio. La atención médica futura y la pérdida vocacional impulsan el caso de daños. Esto no es consejo médico.',
         ],
       },
       {
@@ -2004,7 +2004,7 @@ const PI_ES: Record<CitySlug, CityPageCopy> = {
       {
         h2: '(909) 915-0181 — Orange Tree Lane, al sur',
         paragraphs: [
-          'Horario: lunes a viernes 9am–6pm, sábado 10am–4pm, domingo con cita. Lesiones graves pueden contactar la oficina las 24 horas para consulta de emergencia. Si el mismo choque hunde el hogar, la misma llamada al (909) 915-0181 presenta el Capítulo 7 o 13 en 3420 Twelfth Street, Riverside. Palm Springs es la segunda oficina — 1276 N Palm Canyon Dr #107, (760) 835-9353.',
+          'Horario: lunes a viernes 9am–6pm, sábado 10am–4pm, domingo con cita. Lesiones graves pueden contactar la oficina las 24 horas para consulta de emergencia. Desde Highland, la consulta es unos 5 millas y 10 minutos al sur por Base Line, Palm Avenue, Alabama Street, un tramo corto en la I-10 y California Street — no un local en Highland. Si el mismo choque hunde el hogar, la misma llamada al (909) 915-0181 presenta el Capítulo 7 o 13 en el Tribunal de Bancarrota de EE. UU., 3420 Twelfth Street, Riverside — unas 17 millas y 25 minutos al suroeste. Palm Springs es solo la segunda oficina — 1276 N Palm Canyon Dr #107, (760) 835-9353.',
         ],
       },
     ],
