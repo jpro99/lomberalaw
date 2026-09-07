@@ -529,45 +529,45 @@ const PI_EN: Record<CitySlug, CityPageCopy> = {
     h1: 'Riverside personal injury lawyer',
     title: 'Riverside Personal Injury Lawyer | 60/91/215 Truck, Uber, Wrongful Death | Lombera',
     description:
-      'Truck, Uber, wrongful death, and catastrophic injury from SR-60 / SR-91 / I-215 crashes in Riverside. Meet at 2068 Orange Tree Lane #220, Redlands — about 20 minutes east via I-215 north to I-10 east. (909) 915-0181.',
+      'Truck, Uber, wrongful death, and catastrophic injury from SR-60 / SR-91 / I-215 crashes in Riverside. Meet at 2068 Orange Tree Lane #220, Redlands — about 12 miles and 17 minutes northeast via Mission Inn, CA-91, and I-10. (909) 915-0181.',
     lead: [
-      'There is no Lombera storefront on Main Street, Pierce, Vine, or 11th. After a Riverside wreck, meet Edgar P. Lombera at 2068 Orange Tree Lane, Suite 220, Redlands, CA 92374 — about 20 minutes east via I-215 north to I-10 east, roughly 17 miles. Call (909) 915-0181. English or Spanish. Two practices only: personal injury and bankruptcy. You speak with him. Injury cases run on contingency: no fee unless we win.',
+      'There is no Lombera storefront in Riverside. After a Riverside wreck, meet Edgar P. Lombera at 2068 Orange Tree Lane, Suite 220, Redlands, CA 92374. From Mission Inn Avenue downtown, take the CA-91 east to the I-10 east, then California Street — about 12 miles and 17 minutes northeast. The drive is northeast. SR-60, SR-91, and I-215 are crash corridors on this page, not the route to a Riverside storefront. Call (909) 915-0181. English or Spanish. Two practices only: personal injury and bankruptcy. You speak with him. Injury cases run on contingency: no fee unless we win.',
     ],
     sections: [
       {
         h2: 'Truck wrecks on SR-60, SR-91, and I-215',
         paragraphs: [
-          'Through-truck traffic on the 60, the 91, and I-215 produces the commercial collisions that lead this docket. After a serious wreck, preserve the ECM download, dashcam footage, and the driver qualification file before insurers scatter the evidence. This is Riverside freeways — not Fontana’s I-10 / I-15 / Sierra freight page. Wrongful death and traumatic brain injury claims from these wrecks stay on this URL.',
+          'Tyler Street, Central Avenue, Magnolia Avenue, and the Box Springs / Arlington corridor sit under through-truck traffic on SR-60, SR-91, and I-215 that produces the commercial collisions leading this docket. After a serious wreck, preserve the ECM download, dashcam footage, and the driver qualification file before insurers scatter the evidence. Unlimited civil lawsuits from these freeway corridors file at Riverside County Superior Court, Historic Courthouse, 4050 Main Street — often after a hop through Mission Inn or University Avenue. This is Riverside’s 60/91/215 grid — not Fontana’s I-10 / I-15 / Sierra freight page, not San Bernardino’s 247 W. 3rd belt. Wrongful death and traumatic brain injury claims from these wrecks stay on this URL.',
         ],
       },
       {
         h2: 'Uber and Lyft on Mission Inn, UCR, and the 91/60/215 interchange',
         paragraphs: [
-          'Whether the driver had the app on changes which insurer must respond — we confirm coverage in the consult, not in marketing copy with dollar figures. Riverside rideshare claims stay on /personal-injury/riverside/. We do not invent a /uber/ page.',
+          'Whether the driver had the app on changes which insurer must respond — we confirm coverage in the consult, not in marketing copy with dollar figures. Mission Inn Avenue, the University of California Riverside campus, and the SR-91 / SR-60 / I-215 interchange stack rideshare pickups between student traffic, hospitality shifts, and county-commuter runs. Riverside rideshare claims stay on /personal-injury/riverside/. We do not invent a /uber/ page.',
         ],
       },
       {
-        h2: 'Wrongful death — standing under CCP §377.60',
+        h2: 'Wrongful death — standing under CCP §377.60 at 4050 Main Street',
         paragraphs: [
-          'Who may bring the suit is confirmed in the consult under California Code of Civil Procedure §377.60 — we do not invent verdicts or settlement stories. County civil files are filed at the Historic Courthouse, 4050 Main Street, Riverside — not the Hall of Justice at 4100 Main. CCP §335.1 gives most victims two years; a public entity may require six-month written notice under Government Code §911.2.',
+          'Who may bring the suit is confirmed in the consult under California Code of Civil Procedure §377.60 — we do not invent verdicts or settlement stories. Unlimited civil files are filed at Riverside County Superior Court, Historic Courthouse, 4050 Main Street, Riverside — not the Hall of Justice at 4100 Main, not 247 W. 3rd Street in San Bernardino, and not 13800 Heacock limited civil. CCP §335.1 gives most victims two years; a public entity may require six-month written notice under Government Code §911.2.',
         ],
       },
       {
         h2: 'Catastrophic injury — TBI, spinal cord, lost limb',
         paragraphs: [
-          'Traumatic brain injury, spinal cord injury, and amputation are damages outcomes handled on this URL only — not a separate /catastrophic-injury/ landing page. Future medical care and lost earning capacity drive the damages case. This is not medical advice.',
+          'Traumatic brain injury, spinal cord injury, and amputation are damages outcomes handled on this URL only — not a separate /catastrophic-injury/ landing page. A freeway or interchange collision on the 60, 91, or 215 can leave lifetime medical needs and lost earning capacity that insurers undervalue early. Future medical care and vocational loss drive the damages case. This is not medical advice.',
         ],
       },
       {
         h2: 'Car, motorcycle, and Civil Code §3342 dog bites',
         paragraphs: [
-          'After the four primary claim types, car collisions, motorcycle crashes, and dog bites under California Civil Code §3342 round out the docket. Lane-splitting on a motorcycle is legal when done safely; wearing a helmet does not flip fault. We do not handle slip-and-fall claims.',
+          'After the four primary claim types, car collisions, motorcycle crashes, and dog bites under California Civil Code §3342 round out the docket. Lane-splitting on a motorcycle is legal when done safely; wearing a helmet does not flip fault. We do not handle slip-and-fall claims. CCP §335.1 gives most Riverside injury victims two years from the date of harm — confirm your deadline in the consult before evidence goes stale; a public entity may require six-month notice under Government Code §911.2.',
         ],
       },
       {
-        h2: '(909) 915-0181 — Orange Tree Lane, 20 minutes east',
+        h2: '(909) 915-0181 — Orange Tree Lane, northeast',
         paragraphs: [
-          'Hours: Monday–Friday 9am–6pm, Saturday 10am–4pm, Sunday by appointment. Serious injuries can reach the office 24/7 for an emergency consult. If the same wreck sinks the household, the same (909) 915-0181 call files Chapter 7 or Chapter 13 at 3420 Twelfth Street, Riverside — the bankruptcy court is already in this city. Palm Springs is the second office if that drive is easier — 1276 N Palm Canyon Dr #107, (760) 835-9353.',
+          'Hours: Monday–Friday 9am–6pm, Saturday 10am–4pm, Sunday by appointment. Serious injuries can reach the office 24/7 for an emergency consult. From Riverside, the consultation is about 12 miles and 17 minutes northeast via Mission Inn Avenue, the CA-91, the I-10, and California Street — not a downtown Riverside storefront. If the same wreck sinks the household, the same (909) 915-0181 call files Chapter 7 or Chapter 13 at the U.S. Bankruptcy Court, 3420 Twelfth Street, Riverside — about 0.5 miles and 2 minutes south-southeast from downtown. Palm Springs is the second office if that drive is easier — 1276 N Palm Canyon Dr #107, (760) 835-9353.',
         ],
       },
     ],
@@ -1872,45 +1872,45 @@ const PI_ES: Record<CitySlug, CityPageCopy> = {
     h1: 'Abogado de lesiones personales en Riverside',
     title: 'Abogado de Lesiones Riverside | Camiones 60/91/215, Uber, Muerte Injusta | Lombera',
     description:
-      'Camiones, Uber, muerte injusta y lesiones catastróficas en choques de la SR-60 / SR-91 / I-215 en Riverside. Oficina en Orange Tree Lane #220, Redlands — unos 20 minutos al este por la I-215 norte a la I-10 este. (909) 915-0181.',
+      'Camiones, Uber, muerte injusta y lesiones catastróficas en choques de la SR-60 / SR-91 / I-215 en Riverside. Oficina en Orange Tree Lane #220, Redlands — unas 12 millas y 17 minutos al noreste por Mission Inn, la CA-91 y la I-10. (909) 915-0181.',
     lead: [
-      'No hay oficina de Lombera en Main Street, Pierce, Vine ni 11th. Después de un choque en Riverside, reúnase con Edgar P. Lombera en 2068 Orange Tree Lane, Suite 220, Redlands, CA 92374 — unos 20 minutos al este por la I-215 norte a la I-10 este, aproximadamente 17 millas. Llame al (909) 915-0181. Inglés o español. Solo dos prácticas: lesiones personales y bancarrota. Usted habla con él. Los casos de lesiones son a contingencia: sin honorarios a menos que ganemos.',
+      'No hay local de Lombera en Riverside. Después de un choque en Riverside, reúnase con Edgar P. Lombera en 2068 Orange Tree Lane, Suite 220, Redlands, CA 92374. Desde Mission Inn Avenue en el centro, tome la CA-91 al este a la I-10 al este, luego California Street — unas 12 millas y 17 minutos al noreste. El trayecto es al noreste. La SR-60, la SR-91 y la I-215 son corredores de choques en esta página, no la ruta a un local en Riverside. Llame al (909) 915-0181. Inglés o español. Solo dos prácticas: lesiones personales y bancarrota. Usted habla con él. Los casos de lesiones son a contingencia: sin honorarios a menos que ganemos.',
     ],
     sections: [
       {
         h2: 'Choques de camiones en la SR-60, la SR-91 y la I-215',
         paragraphs: [
-          'El tráfico de camiones de paso en la 60, la 91 y la I-215 produce las colisiones comerciales que lideran este expediente. Después de un choque grave, preserve la descarga del ECM, las grabaciones de dashcam y el expediente de calificación del conductor antes de que las aseguradoras dispersen la evidencia. Estas son las autopistas de Riverside — no la página de carga de Fontana en la I-10 / I-15 / Sierra. Las demandas por muerte injusta y lesión cerebral traumática de estos choques permanecen en esta URL.',
+          'Tyler Street, Central Avenue, Magnolia Avenue y el corredor Box Springs / Arlington están bajo el tráfico de camiones de paso en la SR-60, la SR-91 y la I-215 que produce las colisiones comerciales que lideran este expediente. Después de un choque grave, preserve la descarga del ECM, las grabaciones de dashcam y el expediente de calificación del conductor antes de que las aseguradoras dispersen la evidencia. Las demandas civiles ilimitadas de estos corredores de autopista se presentan en el Tribunal Superior del Condado de Riverside, Historic Courthouse, 4050 Main Street — a menudo después de un trayecto por Mission Inn o University Avenue. Esta es la red 60/91/215 de Riverside — no la página de carga de Fontana en la I-10 / I-15 / Sierra, ni la franja de 247 W. 3rd en San Bernardino. Las demandas por muerte injusta y lesión cerebral traumática de estos choques permanecen en esta URL.',
         ],
       },
       {
         h2: 'Uber y Lyft en Mission Inn, UCR y el intercambio 91/60/215',
         paragraphs: [
-          'Si el conductor tenía la aplicación activada cambia qué aseguradora debe responder — confirmamos la cobertura en la consulta, no con cifras de marketing. Los reclamos de rideshare de Riverside permanecen en /es/lesiones-personales/riverside/. No inventamos una página /uber/.',
+          'Si el conductor tenía la aplicación activada cambia qué aseguradora debe responder — confirmamos la cobertura en la consulta, no con cifras de marketing. Mission Inn Avenue, el campus de la Universidad de California Riverside y el intercambio SR-91 / SR-60 / I-215 concentran recogidas de rideshare entre tráfico estudiantil, turnos de hospitalidad y trayectos de pasajeros del condado. Los reclamos de rideshare de Riverside permanecen en /es/lesiones-personales/riverside/. No inventamos una página /uber/.',
         ],
       },
       {
-        h2: 'Muerte injusta — legitimación bajo el CCP §377.60',
+        h2: 'Muerte injusta — legitimación bajo el CCP §377.60 en 4050 Main Street',
         paragraphs: [
-          'Quién puede presentar la demanda se confirma en la consulta bajo el Código de Procedimiento Civil de California §377.60 — no inventamos veredictos ni historias de acuerdos. Los expedientes civiles del condado se presentan en el Historic Courthouse, 4050 Main Street, Riverside — no en el Hall of Justice en 4100 Main. El CCP §335.1 da dos años a la mayoría de las víctimas; una entidad pública puede exigir aviso escrito de seis meses bajo el Código de Gobierno §911.2.',
+          'Quién puede presentar la demanda se confirma en la consulta bajo el Código de Procedimiento Civil de California §377.60 — no inventamos veredictos ni historias de acuerdos. Los expedientes civiles ilimitados se presentan en el Tribunal Superior del Condado de Riverside, Historic Courthouse, 4050 Main Street, Riverside — no en el Hall of Justice en 4100 Main, no en 247 W. 3rd Street en San Bernardino, y no en 13800 Heacock civil limitado. El CCP §335.1 da dos años a la mayoría de las víctimas; una entidad pública puede exigir aviso escrito de seis meses bajo el Código de Gobierno §911.2.',
         ],
       },
       {
         h2: 'Lesiones catastróficas — cerebral, médula, pérdida de miembro',
         paragraphs: [
-          'La lesión cerebral traumática, la lesión de médula espinal y la amputación son resultados de daños manejados solo en esta URL — no una página separada de /lesiones-catastroficas/. La atención médica futura y la capacidad de ingreso perdida impulsan el caso de daños. Esto no es consejo médico.',
+          'La lesión cerebral traumática, la lesión de médula espinal y la amputación son resultados de daños manejados solo en esta URL — no una página separada de /lesiones-catastroficas/. Un choque en autopista o intercambio en la 60, la 91 o la 215 puede dejar necesidades médicas de por vida y capacidad de ingreso perdida que las aseguradoras subvaloran al inicio. La atención médica futura y la pérdida vocacional impulsan el caso de daños. Esto no es consejo médico.',
         ],
       },
       {
         h2: 'Auto, motocicleta y mordeduras — Código Civil §3342',
         paragraphs: [
-          'Después de los cuatro tipos principales de reclamo, choques de auto, accidentes de motocicleta y mordeduras de perro bajo el Código Civil de California §3342 completan el expediente. Circular entre carriles en motocicleta es legal cuando se hace con seguridad; usar casco no invierte la culpa. No manejamos reclamos por resbalones y caídas.',
+          'Después de los cuatro tipos principales de reclamo, choques de auto, accidentes de motocicleta y mordeduras de perro bajo el Código Civil de California §3342 completan el expediente. Circular entre carriles en motocicleta es legal cuando se hace con seguridad; usar casco no invierte la culpa. No manejamos reclamos por resbalones y caídas. La mayoría de las víctimas en Riverside tienen dos años desde la lesión bajo el CCP §335.1; una entidad pública puede exigir aviso escrito de seis meses bajo el Código de Gobierno §911.2 — revisamos su plazo en la consulta antes de que corra.',
         ],
       },
       {
-        h2: '(909) 915-0181 — Orange Tree Lane, 20 minutos al este',
+        h2: '(909) 915-0181 — Orange Tree Lane, al noreste',
         paragraphs: [
-          'Horario: lunes a viernes 9am–6pm, sábado 10am–4pm, domingo con cita. Lesiones graves pueden contactar la oficina las 24 horas para consulta de emergencia. Si el mismo choque hunde el hogar, la misma llamada al (909) 915-0181 presenta el Capítulo 7 o 13 en 3420 Twelfth Street, Riverside — el tribunal de bancarrota ya está en esta ciudad. Palm Springs es la segunda oficina si ese trayecto es más fácil — 1276 N Palm Canyon Dr #107, (760) 835-9353.',
+          'Horario: lunes a viernes 9am–6pm, sábado 10am–4pm, domingo con cita. Lesiones graves pueden contactar la oficina las 24 horas para consulta de emergencia. Desde Riverside, la consulta es unas 12 millas y 17 minutos al noreste por Mission Inn Avenue, la CA-91, la I-10 y California Street — no un local en el centro de Riverside. Si el mismo choque hunde el hogar, la misma llamada al (909) 915-0181 presenta el Capítulo 7 o 13 en el Tribunal de Bancarrota de EE. UU., 3420 Twelfth Street, Riverside — unas 0.5 millas y 2 minutos al sureste desde el centro. Palm Springs es la segunda oficina si ese trayecto es más fácil — 1276 N Palm Canyon Dr #107, (760) 835-9353.',
         ],
       },
     ],
