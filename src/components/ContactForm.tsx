@@ -26,7 +26,15 @@ const inputClass =
   'w-full rounded-sm border border-line bg-panel px-4 py-2.5 font-body text-sm text-ink placeholder:text-ink-muted focus:border-ink focus:outline-none'
 const labelClass = 'mb-1.5 block font-body text-xs font-semibold uppercase tracking-wide text-ink-muted'
 
-export function ContactForm({ copy, locale }: { copy: Copy; locale: 'en' | 'es' }) {
+export function ContactForm({
+  copy,
+  locale,
+  headingTag = 'h2',
+}: {
+  copy: Copy
+  locale: 'en' | 'es'
+  headingTag?: 'h2' | 'p'
+}) {
   const [state, formAction, isPending] = useActionState(submitContactForm, initialState)
 
   if (state.status === 'success') {
@@ -40,7 +48,11 @@ export function ContactForm({ copy, locale }: { copy: Copy; locale: 'en' | 'es' 
   return (
     <form action={formAction} className="space-y-5 border border-line bg-panel p-6 md:p-8">
       <div>
-        <h2 className="font-display text-xl font-semibold text-ink">{copy.heading}</h2>
+        {headingTag === 'p' ? (
+          <p className="font-display text-xl font-semibold text-ink">{copy.heading}</p>
+        ) : (
+          <h2 className="font-display text-xl font-semibold text-ink">{copy.heading}</h2>
+        )}
         <p className="mt-1 font-body text-sm text-ink-soft">{copy.subheading}</p>
       </div>
 

@@ -59,33 +59,33 @@ const PI_EN: Record<CitySlug, CityPageCopy> = {
     h1: 'Fontana personal injury lawyer',
     title: 'Fontana Personal Injury Lawyer | I-10 Truck, Uber, Wrongful Death | Lombera',
     description:
-      'Truck, Uber, wrongful death, and catastrophic injury from I-10 / I-15 / SR-210 crashes in Fontana. Meet at 2068 Orange Tree Lane #220, Redlands — about 20 minutes east on the I-10. (909) 915-0181.',
+      'Truck, Uber, wrongful death, and catastrophic injury from I-10 / I-15 / SR-210 crashes in Fontana. Meet at 2068 Orange Tree Lane #220, Redlands — about 15 miles and 21 minutes east. (909) 915-0181.',
     lead: [
-      'There is no Lombera suite on Sierra Avenue. After a Fontana wreck, meet Edgar P. Lombera at 2068 Orange Tree Lane, Suite 220, Redlands, CA 92374 — about 20 minutes east on the I-10. Call (909) 915-0181. English or Spanish. Two practices only: personal injury and bankruptcy. You speak with him. Injury cases run on contingency: no fee unless we win.',
+      'There is no Lombera suite at 7337 East Ave, 9030 Sierra, 9161 Sierra, 14568 Arrow, 17780 Arrow, or anywhere on Sierra Avenue — 8353 Sierra is Fontana City Hall, not a law office. After a Fontana wreck, meet Edgar P. Lombera at 2068 Orange Tree Lane, Suite 220, Redlands, CA 92374. From Fontana City Hall, take Sierra Avenue to the I-10 east, then California Street — about 15 miles and 21 minutes east. The drive is east. I-10, I-15, and SR-210 are crash corridors on this page, not the route to a Fontana storefront. Call (909) 915-0181. English or Spanish. Two practices only: personal injury and bankruptcy. You speak with him. Injury cases run on contingency: no fee unless we win.',
     ],
     sections: [
       {
         h2: 'Truck wrecks on I-10, I-15, and SR-210',
         paragraphs: [
-          'Sierra Avenue, the Slover / Cherry warehouse grid, and Foothill Boulevard (Route 66) sit under through-truck traffic that produces the commercial collisions leading this docket. After a serious wreck, preserve the ECM download, dashcam footage, and the driver qualification file before insurers scatter the evidence. This is Inland Empire freight — not an LA harbor page. Wrongful death and traumatic brain injury claims from these wrecks stay on this URL.',
+          'Sierra Avenue, the Slover / Cherry warehouse grid, and Foothill Boulevard (Historic Route 66) sit under through-truck traffic on the I-10, I-15, and SR-210 that produces the commercial collisions leading this docket. After a serious wreck, preserve the ECM download, dashcam footage, and the driver qualification file before insurers scatter the evidence. Civil lawsuits from these freight corridors file at San Bernardino County Superior Court / Justice Center, 247 W. 3rd Street, San Bernardino — often after a hop east on Foothill Boulevard toward the I-10. This is Inland Empire freight — not an LA harbor page. Wrongful death and traumatic brain injury claims from these wrecks stay on this URL.',
         ],
       },
       {
         h2: 'Uber and Lyft on Sierra Avenue',
         paragraphs: [
-          'Whether the driver had the app on changes which insurer must respond — we confirm coverage in the consult, not in marketing copy with dollar figures. Fontana rideshare claims stay on /personal-injury/fontana/. We do not invent a /uber/ page.',
+          'Whether the driver had the app on changes which insurer must respond — we confirm coverage in the consult, not in marketing copy with dollar figures. Sierra Avenue, Foothill Boulevard, and the I-10 / I-15 connectors carry heavy rideshare volume between warehouse shifts and commuter runs. Fontana rideshare claims stay on /personal-injury/fontana/. We do not invent a /uber/ or /rideshare/ page.',
         ],
       },
       {
-        h2: 'Wrongful death — standing under CCP §377.60',
+        h2: 'Wrongful death — standing under CCP §377.60 at 247 W. 3rd Street',
         paragraphs: [
-          'Who may bring the suit is confirmed in the consult under California Code of Civil Procedure §377.60 — we do not invent verdicts or settlement stories. County civil files are filed at San Bernardino County Superior Court, 247 W. 3rd St., San Bernardino — not a Fontana District courthouse. CCP §335.1 gives most victims two years; a public entity may require six-month written notice under Government Code §911.2.',
+          'Who may bring the suit is confirmed in the consult under California Code of Civil Procedure §377.60 — we do not invent verdicts or settlement stories. Unlimited civil files are filed at San Bernardino County Superior Court / Justice Center, 247 W. 3rd Street, San Bernardino — not Fontana District on Arrow, not Haven Avenue, and not Tahquitz Canyon Way or Oasis in the desert divisions. CCP §335.1 gives most victims two years; a public entity may require six-month written notice under Government Code §911.2.',
         ],
       },
       {
         h2: 'Catastrophic injury — TBI, spinal cord, lost limb',
         paragraphs: [
-          'Traumatic brain injury, spinal cord injury, and amputation are damages outcomes handled on this URL only — not a separate /catastrophic-injury/ landing page. Future medical care and lost earning capacity drive the damages case. This is not medical advice.',
+          'Traumatic brain injury, spinal cord injury, and amputation are damages outcomes handled on this URL only — not a separate /catastrophic-injury/ landing page. A warehouse or logistics injury on Sierra Avenue or the Slover / Cherry grid can leave lifetime medical needs and lost earning capacity that insurers undervalue early. Future medical care and vocational loss drive the damages case. This is not medical advice.',
         ],
       },
       {
@@ -95,9 +95,9 @@ const PI_EN: Record<CitySlug, CityPageCopy> = {
         ],
       },
       {
-        h2: '(909) 915-0181 — Orange Tree Lane, 20 minutes east',
+        h2: '(909) 915-0181 — Orange Tree Lane, east',
         paragraphs: [
-          'Hours: Monday–Friday 9am–6pm, Saturday 10am–4pm, Sunday by appointment. Serious injuries can reach the office 24/7 for an emergency consult. This is the Redlands office, not a Sierra Avenue storefront. Palm Springs is the second office — 1276 N Palm Canyon Dr #107, (760) 835-9353. Bankruptcy for medical debt files at 3420 Twelfth Street, Riverside.',
+          'Hours: Monday–Friday 9am–6pm, Saturday 10am–4pm, Sunday by appointment. Serious injuries can reach the office 24/7 for an emergency consult. From Fontana, the consultation is about 15 miles and 21 minutes east via Sierra Avenue, the I-10, and California Street — not a Sierra Avenue storefront. If the same wreck sinks the household, the same (909) 915-0181 call files Chapter 7 or Chapter 13 at 3420 Twelfth Street, Riverside — about 11 miles and 20 minutes south-southeast. Palm Springs is the second office — 1276 N Palm Canyon Dr #107, (760) 835-9353.',
         ],
       },
     ],
@@ -1402,33 +1402,33 @@ const PI_ES: Record<CitySlug, CityPageCopy> = {
     h1: 'Abogado de lesiones personales en Fontana',
     title: 'Abogado de Lesiones Fontana | Camiones I-10, Uber, Muerte Injusta | Lombera',
     description:
-      'Camiones, Uber, muerte injusta y lesiones catastróficas en choques de la I-10 / I-15 / SR-210 en Fontana. Oficina en Orange Tree Lane #220, Redlands — unos 20 minutos al este por la I-10. (909) 915-0181.',
+      'Camiones, Uber, muerte injusta y lesiones catastróficas en choques de la I-10 / I-15 / SR-210 en Fontana. Oficina en Orange Tree Lane #220, Redlands — unas 15 millas y 21 minutos al este. (909) 915-0181.',
     lead: [
-      'No hay suite de Lombera en Sierra Avenue. Después de un choque en Fontana, reúnase con Edgar P. Lombera en 2068 Orange Tree Lane, Suite 220, Redlands, CA 92374 — unos 20 minutos al este por la I-10. Llame al (909) 915-0181. Inglés o español. Solo dos prácticas: lesiones personales y bancarrota. Usted habla con él. Los casos de lesiones son a contingencia: sin honorarios a menos que ganemos.',
+      'No hay suite de Lombera en 7337 East Ave, 9030 Sierra, 9161 Sierra, 14568 Arrow, 17780 Arrow, ni en ningún punto de Sierra Avenue — 8353 Sierra es el City Hall de Fontana, no una oficina legal. Después de un choque en Fontana, reúnase con Edgar P. Lombera en 2068 Orange Tree Lane, Suite 220, Redlands, CA 92374. Desde el City Hall de Fontana, tome Sierra Avenue a la I-10 al este, luego California Street — unas 15 millas y 21 minutos al este. El trayecto es al este. La I-10, la I-15 y la SR-210 son corredores de choques en esta página, no la ruta a un local en Fontana. Llame al (909) 915-0181. Inglés o español. Solo dos prácticas: lesiones personales y bancarrota. Usted habla con él. Los casos de lesiones son a contingencia: sin honorarios a menos que ganemos.',
     ],
     sections: [
       {
         h2: 'Choques de camiones en la I-10, la I-15 y la SR-210',
         paragraphs: [
-          'Sierra Avenue, la red de almacenes Slover / Cherry y Foothill Boulevard (Ruta 66) están bajo el tráfico de camiones de paso que produce las colisiones comerciales que lideran este expediente. Después de un choque grave, preserve la descarga del ECM, las grabaciones de dashcam y el expediente de calificación del conductor antes de que las aseguradoras dispersen la evidencia. Esto es carga del Inland Empire — no una página de puerto de Los Ángeles. Las demandas por muerte injusta y lesión cerebral traumática de estos choques permanecen en esta URL.',
+          'Sierra Avenue, la red de almacenes Slover / Cherry y Foothill Boulevard (Ruta Histórica 66) están bajo el tráfico de camiones de paso en la I-10, la I-15 y la SR-210 que produce las colisiones comerciales que lideran este expediente. Después de un choque grave, preserve la descarga del ECM, las grabaciones de dashcam y el expediente de calificación del conductor antes de que las aseguradoras dispersen la evidencia. Las demandas civiles de estos corredores de carga se presentan en el Tribunal Superior del Condado de San Bernardino / Justice Center, 247 W. 3rd Street, San Bernardino — a menudo después de un trayecto al este por Foothill Boulevard hacia la I-10. Esto es carga del Inland Empire — no una página de puerto de Los Ángeles. Las demandas por muerte injusta y lesión cerebral traumática de estos choques permanecen en esta URL.',
         ],
       },
       {
         h2: 'Uber y Lyft en Sierra Avenue',
         paragraphs: [
-          'Si el conductor tenía la aplicación activada cambia qué aseguradora debe responder — confirmamos la cobertura en la consulta, no con cifras de marketing. Los reclamos de rideshare de Fontana permanecen en /es/lesiones-personales/fontana/. No inventamos una página /uber/.',
+          'Si el conductor tenía la aplicación activada cambia qué aseguradora debe responder — confirmamos la cobertura en la consulta, no con cifras de marketing. Sierra Avenue, Foothill Boulevard y los conectores de la I-10 / I-15 concentran volumen de rideshare entre turnos de almacén y trayectos de pasajeros. Los reclamos de rideshare de Fontana permanecen en /es/lesiones-personales/fontana/. No inventamos una página /uber/ ni /rideshare/.',
         ],
       },
       {
-        h2: 'Muerte injusta — legitimación bajo el CCP §377.60',
+        h2: 'Muerte injusta — legitimación bajo el CCP §377.60 en 247 W. 3rd Street',
         paragraphs: [
-          'Quién puede presentar la demanda se confirma en la consulta bajo el Código de Procedimiento Civil de California §377.60 — no inventamos veredictos ni historias de acuerdos. Los expedientes civiles del condado se presentan en el Tribunal Superior del Condado de San Bernardino, 247 W. 3rd St., San Bernardino — no un tribunal del Distrito de Fontana. El CCP §335.1 da dos años a la mayoría de las víctimas; una entidad pública puede exigir aviso escrito de seis meses bajo el Código de Gobierno §911.2.',
+          'Quién puede presentar la demanda se confirma en la consulta bajo el Código de Procedimiento Civil de California §377.60 — no inventamos veredictos ni historias de acuerdos. Los expedientes civiles ilimitados se presentan en el Tribunal Superior del Condado de San Bernardino / Justice Center, 247 W. 3rd Street, San Bernardino — no el Distrito de Fontana en Arrow, no Haven Avenue, ni Tahquitz Canyon Way u Oasis en las divisiones del desierto. El CCP §335.1 da dos años a la mayoría de las víctimas; una entidad pública puede exigir aviso escrito de seis meses bajo el Código de Gobierno §911.2.',
         ],
       },
       {
         h2: 'Lesiones catastróficas — cerebral, médula, pérdida de miembro',
         paragraphs: [
-          'La lesión cerebral traumática, la lesión de médula espinal y la amputación son resultados de daños manejados solo en esta URL — no una página separada de /lesiones-catastroficas/. La atención médica futura y la capacidad de ingreso perdida impulsan el caso de daños. Esto no es consejo médico.',
+          'La lesión cerebral traumática, la lesión de médula espinal y la amputación son resultados de daños manejados solo en esta URL — no una página separada de /lesiones-catastroficas/. Una lesión en almacén o logística en Sierra Avenue o la red Slover / Cherry puede dejar necesidades médicas de por vida y capacidad de ingreso perdida que las aseguradoras subvaloran al inicio. La atención médica futura y la pérdida vocacional impulsan el caso de daños. Esto no es consejo médico.',
         ],
       },
       {
@@ -1438,9 +1438,9 @@ const PI_ES: Record<CitySlug, CityPageCopy> = {
         ],
       },
       {
-        h2: '(909) 915-0181 — Orange Tree Lane, 20 minutos al este',
+        h2: '(909) 915-0181 — Orange Tree Lane, al este',
         paragraphs: [
-          'Horario: lunes a viernes 9am–6pm, sábado 10am–4pm, domingo con cita. Lesiones graves pueden contactar la oficina las 24 horas para consulta de emergencia. Esta es la oficina de Redlands, no un local en Sierra Avenue. Palm Springs es la segunda oficina — 1276 N Palm Canyon Dr #107, (760) 835-9353. La bancarrota por deuda médica se presenta en 3420 Twelfth Street, Riverside.',
+          'Horario: lunes a viernes 9am–6pm, sábado 10am–4pm, domingo con cita. Lesiones graves pueden contactar la oficina las 24 horas para consulta de emergencia. Desde Fontana, la consulta es unas 15 millas y 21 minutos al este por Sierra Avenue, la I-10 y California Street — no un local en Sierra Avenue. Si el mismo choque hunde el hogar, la misma llamada al (909) 915-0181 presenta el Capítulo 7 o 13 en 3420 Twelfth Street, Riverside — unas 11 millas y 20 minutos al sureste. Palm Springs es la segunda oficina — 1276 N Palm Canyon Dr #107, (760) 835-9353.',
         ],
       },
     ],
