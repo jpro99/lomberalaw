@@ -122,7 +122,8 @@ export async function PracticeCityView({
       citySlug === 'san-bernardino' ||
       citySlug === 'moreno-valley' ||
       citySlug === 'highland' ||
-      citySlug === 'palm-springs')
+      citySlug === 'palm-springs' ||
+      citySlug === 'beaumont')
   const homeCrumb = locale === 'es' ? 'Inicio' : 'Home'
   const practiceCrumb =
     practiceSlug === 'personal-injury' ? copy.nav.personalInjury : copy.nav.bankruptcy
