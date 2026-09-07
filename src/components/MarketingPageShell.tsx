@@ -38,6 +38,11 @@ function isHomePath(pathname: string) {
   return pathname === '/' || pathname === '/es' || pathname === '/es/inicio'
 }
 
+function isFontanaPiPath(pathname: string) {
+  const normalized = pathname.replace(/\/$/, '')
+  return normalized === '/personal-injury/fontana' || normalized === '/es/lesiones-personales/fontana'
+}
+
 function skipChrome(pathname: string) {
   return /\/(contact|contacta-con-nosotros|thank-you|gracias)\/?$/.test(pathname)
 }
@@ -46,10 +51,12 @@ export function MarketingPageChrome({
   locale,
   citySlug,
   showCall = true,
+  formHeadingTag = 'h2',
 }: {
   locale: Locale
   citySlug?: string
   showCall?: boolean
+  formHeadingTag?: 'h2' | 'p'
 }) {
   const copy = t(locale)
   const phone = citySlug ? cityPhone(citySlug) : PRIMARY_PHONE
@@ -70,7 +77,7 @@ export function MarketingPageChrome({
             </p>
           </div>
         )}
-        <ContactForm copy={copy.contact.form} locale={locale} />
+        <ContactForm copy={copy.contact.form} locale={locale} headingTag={formHeadingTag} />
       </Container>
     </section>
   )
@@ -92,7 +99,12 @@ export function MarketingPageShell({
   return (
     <>
       {children}
-      <MarketingPageChrome locale={locale} citySlug={citySlug} showCall={showCall} />
+      <MarketingPageChrome
+        locale={locale}
+        citySlug={citySlug}
+        showCall={showCall}
+        formHeadingTag={isFontanaPiPath(pathname) ? 'p' : 'h2'}
+      />
     </>
   )
 }

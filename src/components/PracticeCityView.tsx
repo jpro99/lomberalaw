@@ -114,6 +114,7 @@ export async function PracticeCityView({
       : practiceSlug === 'personal-injury'
         ? `${name} bankruptcy`
         : `${name} personal injury`
+  const ctaIsLastH2 = practiceSlug === 'personal-injury' && citySlug === 'fontana'
   const homeCrumb = locale === 'es' ? 'Inicio' : 'Home'
   const practiceCrumb =
     practiceSlug === 'personal-injury' ? copy.nav.personalInjury : copy.nav.bankruptcy
@@ -196,9 +197,15 @@ export async function PracticeCityView({
       {services.length > 0 && (
         <section className="py-12 md:py-16">
           <Container>
-            <h2 className="font-display text-xl text-ink">
-              {locale === 'es' ? 'También manejamos' : 'We also handle'}
-            </h2>
+            {ctaIsLastH2 ? (
+              <p className="font-display text-xl text-ink">
+                {locale === 'es' ? 'También manejamos' : 'We also handle'}
+              </p>
+            ) : (
+              <h2 className="font-display text-xl text-ink">
+                {locale === 'es' ? 'También manejamos' : 'We also handle'}
+              </h2>
+            )}
             <ul className="mt-6 grid gap-3 border-t border-line sm:grid-cols-2 lg:grid-cols-3">
               {services.map((service) => {
                 const labels = SERVICE_LABELS[service]
