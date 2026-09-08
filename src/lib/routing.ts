@@ -51,12 +51,12 @@ export const LIVE_CITY_SLUGS = new Set([
   'desert-hot-springs',
   'rancho-cucamonga',
   'yucaipa',
+  'la-quinta',
 ])
 
 /** Homepage "coming soon" — no money pages. */
 export const COMING_SOON_CITY_SLUGS = new Set([
   'ontario',
-  'la-quinta',
   'rancho-mirage',
   'indian-wells',
   'coachella',

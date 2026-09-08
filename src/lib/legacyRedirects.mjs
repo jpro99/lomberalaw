@@ -31,7 +31,7 @@ const CAR_ACCIDENT_CITY_TARGETS = [
   ['rancho-cucamonga', '/personal-injury/car-accidents/'],
   ['yucaipa', '/personal-injury/yucaipa/'],
   ['ontario', '/personal-injury/car-accidents/'],
-  ['la-quinta', '/personal-injury/car-accidents/'],
+  ['la-quinta', '/personal-injury/la-quinta/'],
   ['rancho-mirage', '/personal-injury/car-accidents/'],
   ['indian-wells', '/personal-injury/car-accidents/'],
   ['coachella', '/personal-injury/car-accidents/'],

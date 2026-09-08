@@ -15,6 +15,7 @@ export const HOME_CITY_SLUGS = [
   'palm-desert',
   'cathedral-city',
   'indio',
+  'la-quinta',
   'desert-hot-springs',
 ] as const
 
