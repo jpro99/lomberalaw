@@ -31,6 +31,12 @@ export function middleware(request: NextRequest) {
   const bare = hasTrailing ? pathname.slice(0, -1) : pathname
 
   // Spanish rewrites (before /es passthrough)
+  if (bare.startsWith('/en/lesiones-personales')) {
+    const url = request.nextUrl.clone()
+    url.pathname = bare.replace('/en/lesiones-personales', '/es/lesiones-personales') + (hasTrailing ? '/' : '')
+    return NextResponse.redirect(url)
+  }
+
   if (bare.startsWith('/es')) {
     for (const [from, to] of Object.entries(SPANISH_EXACT)) {
       if (bare === from) {

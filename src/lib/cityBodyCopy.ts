@@ -106,45 +106,45 @@ const PI_EN: Record<CitySlug, CityPageCopy> = {
     h1: 'Colton personal injury lawyer',
     title: 'Colton Personal Injury Lawyer | I-10/I-215 Truck, Uber, Wrongful Death | Lombera',
     description:
-      'Truck, Uber, wrongful death, and catastrophic injury from I-10 / I-215 / Colton Crossing crashes. Meet at 2068 Orange Tree Lane #220, Redlands — about 10 minutes east on the I-10. (909) 915-0181.',
+      'Truck, Uber, wrongful death, and catastrophic injury from I-10 / I-215 / Colton Crossing crashes. Meet at 2068 Orange Tree Lane #220, Redlands — about 6.5 miles and 10 minutes east. (909) 915-0181.',
     lead: [
-      'There is no Lombera storefront on Cooley Street, Brier Avenue, or Inland Empire Boulevard. After a Colton wreck, meet Edgar P. Lombera at 2068 Orange Tree Lane, Suite 220, Redlands, CA 92374. From Colton City Hall at 650 N. La Cadena, take the 9th Street on-ramp to the I-10 east — about 6.47 miles and 10.2 minutes. The drive is east. I-215 is a crash corridor on this page, not the route to the office. Call (909) 915-0181. English or Spanish. Two practices only: personal injury and bankruptcy. You speak with him. Injury cases run on contingency: no fee unless we win.',
+      'There is no Lombera storefront in Colton. After a Colton wreck, meet Edgar P. Lombera at 2068 Orange Tree Lane, Suite 220, Redlands, CA 92374. From Colton City Hall at 650 N. La Cadena, take the 9th Street on-ramp to the I-10 east, then California Street — about 6.5 miles and 10 minutes east. The drive is east. I-10, I-215, and Colton Crossing are crash corridors on this page, not the route to the office. Call (909) 915-0181. English or Spanish. Two practices only: personal injury and bankruptcy. You speak with him. Injury cases run on contingency: no fee unless we win.',
     ],
     sections: [
       {
         h2: 'Truck wrecks on I-10, I-215, Mt Vernon, and Colton Crossing',
         paragraphs: [
-          'Colton Crossing — where the I-10 meets the I-215 — plus Mt Vernon Avenue and through-truck traffic produce the freight collisions that lead this docket. The Colton truck gap on live search is real, and these wrecks belong here. After a serious collision, preserve the ECM download, dashcam footage, and the driver qualification file before insurers scatter the evidence. This is Colton’s I-10 / I-215 junction — not Fontana’s I-10 / I-15 / Sierra freight page, not Highland’s I-210 / SR-210 / Base Line, not Moreno Valley’s SR-60 / I-215, and not Riverside’s 60 / 91 / 215 stack. Wrongful death and traumatic brain injury claims from these wrecks stay on this URL.',
+          'Colton Crossing — where the I-10 meets the I-215 — plus Mt Vernon Avenue, La Cadena Drive, and through-truck traffic from the warehouse grid produce the freight collisions that lead this docket. Merge pressure at the I-10 / I-215 stack and yard traffic on Mt Vernon push rear-end and override events before loads clear valley corridors. After a serious collision, preserve the ECM download, dashcam footage, and the driver qualification file before insurers scatter the evidence. Unlimited civil lawsuits from Colton file at San Bernardino County Superior Court / Justice Center, 247 W. 3rd Street, San Bernardino — about 3.5 miles and 8 minutes northeast from Colton City Hall at 650 N. La Cadena. This is Colton’s I-10 / I-215 junction — not Fontana’s I-10 / I-15 / Sierra freight page, not Highland’s I-210 / SR-210 / Base Line, not Moreno Valley’s SR-60 / I-215, and not Riverside’s 60 / 91 / 215 stack. Wrongful death and traumatic brain injury claims from these wrecks stay on this URL.',
         ],
       },
       {
-        h2: 'Uber and Lyft on Valley, La Cadena, and Rancho',
+        h2: 'Uber and Lyft on Valley Boulevard, La Cadena, Mt Vernon, and Rancho',
         paragraphs: [
-          'Whether the driver had the app on changes which insurer must respond — we confirm coverage in the consult, not in marketing copy with dollar figures. Colton rideshare claims stay on /personal-injury/colton/. We do not invent a /uber/ page.',
+          'Whether the driver had the app on changes which insurer must respond — we confirm coverage in the consult, not in marketing copy with dollar figures. Valley Boulevard, La Cadena Drive, Mt Vernon Avenue, and the Rancho corridor stack rideshare pickups between warehouse shifts, CSUSB commuter runs, and I-215 interchange traffic at Colton Crossing. Colton rideshare claims stay on /personal-injury/colton/. We do not invent a /uber/ page.',
         ],
       },
       {
         h2: 'Wrongful death — standing under CCP §377.60 at 247 W. 3rd Street',
         paragraphs: [
-          'Who may bring the suit is confirmed in the consult under California Code of Civil Procedure §377.60 — we do not invent verdicts or settlement stories. County civil files are filed at San Bernardino County Superior Court, 247 W. 3rd St., San Bernardino — not 400 N. Pepper, not Arrow Boulevard, and not 4050 Main Street in Riverside. CCP §335.1 gives most victims two years; a public entity may require six-month written notice under Government Code §911.2.',
+          'Who may bring the suit is confirmed in the consult under California Code of Civil Procedure §377.60 — we do not invent verdicts or settlement stories. Unlimited civil files are filed at San Bernardino County Superior Court / Justice Center, 247 W. 3rd Street, San Bernardino — not 4050 Main Street in Riverside, not Tahquitz Canyon Way, not 400 N. Pepper, and not Arrow Boulevard. The courthouse sits about 3.5 miles and 8 minutes northeast from Colton City Hall at 650 N. La Cadena.',
         ],
       },
       {
         h2: 'Catastrophic injury — TBI, spinal cord, lost limb',
         paragraphs: [
-          'Traumatic brain injury, spinal cord injury, and amputation are damages outcomes handled on this URL only — not a separate /catastrophic-injury/ landing page. Future medical care and lost earning capacity drive the damages case. This is not medical advice.',
+          'Traumatic brain injury, spinal cord injury, and amputation are damages outcomes handled on this URL only — not a separate /catastrophic-injury/ landing page. A Colton Crossing or Mt Vernon corridor collision can leave lifetime medical needs and lost earning capacity that insurers undervalue early. Initial trauma care often starts at Arrowhead Regional Medical Center or St. Bernardine Medical Center before the long-term damages picture is clear. Future medical care, life-care planning, and vocational loss drive the case insurers try to close early. This is not medical advice.',
         ],
       },
       {
         h2: 'Car, motorcycle, and Civil Code §3342 dog bites',
         paragraphs: [
-          'After the four primary claim types, car collisions, motorcycle crashes, and dog bites under California Civil Code §3342 round out the docket. Lane-splitting on a motorcycle is legal when done safely; wearing a helmet does not flip fault. We do not handle slip-and-fall claims.',
+          'After the four primary claim types, car collisions, motorcycle crashes, and dog bites under California Civil Code §3342 round out the docket. Lane-splitting on a motorcycle is legal when done safely; wearing a helmet does not flip fault. We do not handle slip-and-fall claims. CCP §335.1 gives most Colton injury victims two years from the date of harm — confirm your deadline in the consult before evidence goes stale; a public entity may require six-month notice under Government Code §911.2.',
         ],
       },
       {
         h2: '(909) 915-0181 — Orange Tree Lane, east',
         paragraphs: [
-          'Hours: Monday–Friday 9am–6pm, Saturday 10am–4pm, Sunday by appointment. Serious injuries can reach the office 24/7 for an emergency consult. If the same wreck sinks the household, the same (909) 915-0181 call files Chapter 7 or Chapter 13 at 3420 Twelfth Street, Riverside. Palm Springs is the second office — 1276 N Palm Canyon Dr #107, (760) 835-9353.',
+          'Hours: Monday–Friday 9am–6pm, Saturday 10am–4pm, Sunday by appointment. Serious injuries can reach the office 24/7 for an emergency consult. From Colton, the consultation is about 6.5 miles and 10 minutes east via the 9th Street on-ramp, the I-10, and California Street — not a Colton storefront. If the same wreck sinks the household, the same (909) 915-0181 call files Chapter 7 or Chapter 13 at the U.S. Bankruptcy Court, 3420 Twelfth Street, Riverside — about 9 miles and 14 minutes south. Palm Springs is the second office only — 1276 N Palm Canyon Dr #107, (760) 835-9353.',
         ],
       },
     ],
@@ -1449,33 +1449,33 @@ const PI_ES: Record<CitySlug, CityPageCopy> = {
     h1: 'Abogado de lesiones personales en Colton',
     title: 'Abogado de Lesiones Colton | Camiones I-10/I-215, Uber, Muerte Injusta | Lombera',
     description:
-      'Camiones, Uber, muerte injusta y lesiones catastróficas en choques de la I-10 / I-215 / Colton Crossing. Oficina en Orange Tree Lane #220, Redlands — unos 10 minutos al este por la I-10. (909) 915-0181.',
+      'Camiones, Uber, muerte injusta y lesiones catastróficas en choques de la I-10 / I-215 / Colton Crossing. Oficina en Orange Tree Lane #220, Redlands — unas 6.5 millas y unos 10 minutos al este. (909) 915-0181.',
     lead: [
-      'No hay oficina de Lombera en Cooley Street, Brier Avenue ni Inland Empire Boulevard. Después de un choque en Colton, reúnase con Edgar P. Lombera en 2068 Orange Tree Lane, Suite 220, Redlands, CA 92374. Desde City Hall de Colton en 650 N. La Cadena, tome la rampa de la 9th Street a la I-10 al este — unos 6.47 millas y 10.2 minutos. El trayecto es al este. La I-215 es un corredor de choques en esta página, no la ruta a la oficina. Llame al (909) 915-0181. Inglés o español. Solo dos prácticas: lesiones personales y bancarrota. Usted habla con él. Los casos de lesiones son a contingencia: sin honorarios a menos que ganemos.',
+      'No hay local de Lombera en Colton. Después de un choque en Colton, reúnase con Edgar P. Lombera en 2068 Orange Tree Lane, Suite 220, Redlands, CA 92374. Desde el Ayuntamiento de Colton en 650 N. La Cadena, tome la rampa de la 9th Street a la I-10 al este, luego California Street — unas 6.5 millas y unos 10 minutos al este. El trayecto es al este. La I-10, la I-215 y Colton Crossing son corredores de choques en esta página, no la ruta a la oficina. Llame al (909) 915-0181. Inglés o español. Solo dos prácticas: lesiones personales y bancarrota. Usted habla con él. Los casos de lesiones son a contingencia: sin honorarios a menos que ganemos.',
     ],
     sections: [
       {
         h2: 'Choques de camiones en la I-10, la I-215, Mt Vernon y Colton Crossing',
         paragraphs: [
-          'Colton Crossing — donde la I-10 se encuentra con la I-215 — más Mt Vernon Avenue y el tráfico de camiones de paso producen las colisiones de carga que lideran este expediente. El vacío de camiones en Colton en búsqueda en vivo es real, y estos choques pertenecen aquí. Después de una colisión grave, preserve la descarga del ECM, las grabaciones de dashcam y el expediente de calificación del conductor antes de que las aseguradoras dispersen la evidencia. Este es el cruce I-10 / I-215 de Colton — no la página de carga de Fontana en la I-10 / I-15 / Sierra, no la I-210 / SR-210 / Base Line de Highland, no la SR-60 / I-215 de Moreno Valley, ni el conjunto 60 / 91 / 215 de Riverside. Las demandas por muerte injusta y lesión cerebral traumática de estos choques permanecen en esta URL.',
+          'Colton Crossing — donde la I-10 se encuentra con la I-215 — más Mt Vernon Avenue, La Cadena Drive y el tráfico de camiones de paso desde la cuadrícula de almacenes producen las colisiones de carga que lideran este expediente. La presión de incorporación en el conjunto I-10 / I-215 y el tráfico de patios en Mt Vernon empujan choques por alcance y arrastre antes de que la carga despeje los corredores del valle. Después de una colisión grave, preserve la descarga del ECM, las grabaciones de dashcam y el expediente de calificación del conductor antes de que las aseguradoras dispersen la evidencia. Las demandas civiles ilimitadas de Colton se presentan en el Tribunal Superior del Condado de San Bernardino / Justice Center, 247 W. 3rd Street, San Bernardino — unas 3.5 millas y unos 8 minutos al noreste desde el Ayuntamiento de Colton en 650 N. La Cadena. Este es el cruce I-10 / I-215 de Colton — no la página de carga de Fontana en la I-10 / I-15 / Sierra, no la I-210 / SR-210 / Base Line de Highland, no la SR-60 / I-215 de Moreno Valley, ni el conjunto 60 / 91 / 215 de Riverside. Las demandas por muerte injusta y lesión cerebral traumática de estos choques permanecen en esta URL.',
         ],
       },
       {
-        h2: 'Uber y Lyft en Valley, La Cadena y Rancho',
+        h2: 'Uber y Lyft en Valley Boulevard, La Cadena, Mt Vernon y Rancho',
         paragraphs: [
-          'Si el conductor tenía la aplicación activada cambia qué aseguradora debe responder — confirmamos la cobertura en la consulta, no con cifras de marketing. Los reclamos de rideshare de Colton permanecen en /es/lesiones-personales/colton/. No inventamos una página /uber/.',
+          'Si el conductor tenía la aplicación activada cambia qué aseguradora debe responder — confirmamos la cobertura en la consulta, no con cifras de marketing. Valley Boulevard, La Cadena Drive, Mt Vernon Avenue y el corredor Rancho concentran recogidas de rideshare entre turnos de almacén, trayectos de pasajeros de CSUSB y tráfico del intercambio I-215 en Colton Crossing. Los reclamos de rideshare de Colton permanecen en /es/lesiones-personales/colton/. No inventamos una página /uber/.',
         ],
       },
       {
         h2: 'Muerte injusta — legitimación bajo el CCP §377.60 en 247 W. 3rd Street',
         paragraphs: [
-          'Quién puede presentar la demanda se confirma en la consulta bajo el Código de Procedimiento Civil de California §377.60 — no inventamos veredictos ni historias de acuerdos. Los expedientes civiles del condado se presentan en el Tribunal Superior del Condado de San Bernardino, 247 W. 3rd St., San Bernardino — no en 400 N. Pepper, no en Arrow Boulevard, y no en 4050 Main Street en Riverside. El CCP §335.1 da dos años a la mayoría de las víctimas; una entidad pública puede exigir aviso escrito de seis meses bajo el Código de Gobierno §911.2.',
+          'Quién puede presentar la demanda se confirma en la consulta bajo el Código de Procedimiento Civil de California §377.60 — no inventamos veredictos ni historias de acuerdos. Los expedientes civiles ilimitados se presentan en el Tribunal Superior del Condado de San Bernardino / Justice Center, 247 W. 3rd Street, San Bernardino — no en 4050 Main Street en Riverside, no en Tahquitz Canyon Way, no en 400 N. Pepper, y no en Arrow Boulevard. El tribunal está unas 3.5 millas y unos 8 minutos al noreste del Ayuntamiento de Colton en 650 N. La Cadena. El plazo general de dos años del CCP §335.1 rige la mayoría de las demandas por lesiones; contra una entidad pública puede hacer falta aviso escrito de seis meses conforme al Código de Gobierno §911.2 antes de demandar.',
         ],
       },
       {
         h2: 'Lesiones catastróficas — cerebral, médula, pérdida de miembro',
         paragraphs: [
-          'La lesión cerebral traumática, la lesión de médula espinal y la amputación son resultados de daños manejados solo en esta URL — no una página separada de /lesiones-catastroficas/. La atención médica futura y la capacidad de ingreso perdida impulsan el caso de daños. Esto no es consejo médico.',
+          'La lesión cerebral traumática, la lesión de médula espinal y la amputación son resultados de daños manejados solo en esta URL — no una página separada de /lesiones-catastroficas/. Una colisión en Colton Crossing o en el corredor de Mt Vernon puede dejar necesidades médicas de por vida y capacidad de ingreso perdida que las aseguradoras subvaloran al inicio. La atención inicial de trauma suele comenzar en Arrowhead Regional Medical Center o St. Bernardine Medical Center antes de que el panorama de daños a largo plazo quede claro. La atención médica futura, la planificación de cuidados y la pérdida vocacional impulsan el caso que las aseguradoras intentan cerrar pronto. Esto no es consejo médico.',
         ],
       },
       {
@@ -1487,7 +1487,7 @@ const PI_ES: Record<CitySlug, CityPageCopy> = {
       {
         h2: '(909) 915-0181 — Orange Tree Lane, al este',
         paragraphs: [
-          'Horario: lunes a viernes 9am–6pm, sábado 10am–4pm, domingo con cita. Lesiones graves pueden contactar la oficina las 24 horas para consulta de emergencia. Si el mismo choque hunde el hogar, la misma llamada al (909) 915-0181 presenta el Capítulo 7 o 13 en 3420 Twelfth Street, Riverside. Palm Springs es la segunda oficina — 1276 N Palm Canyon Dr #107, (760) 835-9353.',
+          'Horario: lunes a viernes 9am–6pm, sábado 10am–4pm, domingo con cita. Lesiones graves pueden contactar la oficina las 24 horas para consulta de emergencia. Desde Colton, la consulta es unas 6.5 millas y unos 10 minutos al este por la rampa de la 9th Street, la I-10 y California Street — no un local en Colton. Si el mismo choque hunde el hogar, la misma llamada al (909) 915-0181 presenta el Capítulo 7 o 13 en el Tribunal de Bancarrota de EE. UU., 3420 Twelfth Street, Riverside — unas 9 millas y unos 14 minutos al sur. Palm Springs es solo la segunda oficina — 1276 N Palm Canyon Dr #107, (760) 835-9353.',
         ],
       },
     ],

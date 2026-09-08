@@ -128,7 +128,8 @@ export async function PracticeCityView({
       resolvedCitySlug === 'palm-springs' ||
       resolvedCitySlug === 'palm-desert' ||
       resolvedCitySlug === 'beaumont' ||
-      resolvedCitySlug === 'indio')
+      resolvedCitySlug === 'indio' ||
+      resolvedCitySlug === 'colton')
   const homeCrumb = locale === 'es' ? 'Inicio' : 'Home'
   const practiceCrumb =
     practiceSlug === 'personal-injury' ? copy.nav.personalInjury : copy.nav.bankruptcy

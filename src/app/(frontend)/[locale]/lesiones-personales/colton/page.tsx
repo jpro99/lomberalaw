@@ -6,9 +6,9 @@ export const dynamic = 'force-dynamic'
 const LOCALE: Locale = 'es'
 
 export async function generateMetadata() {
-  return getPracticeCityMetadata('personal-injury', 'indio', LOCALE)
+  return getPracticeCityMetadata('personal-injury', 'colton', LOCALE)
 }
 
-export default function IndioLesionesPersonalesPage() {
-  return <PracticeCityView practiceSlug="personal-injury" citySlug="indio" locale={LOCALE} />
+export default function ColtonLesionesPersonalesPage() {
+  return <PracticeCityView practiceSlug="personal-injury" citySlug="colton" locale={LOCALE} />
 }
