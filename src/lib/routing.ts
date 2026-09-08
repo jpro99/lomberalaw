@@ -54,11 +54,11 @@ export const LIVE_CITY_SLUGS = new Set([
   'la-quinta',
   'ontario',
   'coachella',
+  'rancho-mirage',
 ])
 
 /** Homepage "coming soon" — no money pages. */
 export const COMING_SOON_CITY_SLUGS = new Set([
-  'rancho-mirage',
   'indian-wells',
 ])
 

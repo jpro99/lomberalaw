@@ -38,6 +38,7 @@ export const LIVE_CITY_SLUGS = [
   'la-quinta',
   'ontario',
   'coachella',
+  'rancho-mirage',
 ]
 
 const PI_HUB = '/es/lesiones-personales/'
