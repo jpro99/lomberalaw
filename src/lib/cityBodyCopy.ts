@@ -668,35 +668,35 @@ const PI_EN: Record<CitySlug, CityPageCopy> = {
   },
   hemet: {
     h1: 'Hemet personal injury lawyer',
-    title: 'Hemet Personal Injury Lawyer | SR-74 Truck, Uber, Wrongful Death | Lombera',
+    title: 'Hemet Personal Injury Lawyer | SR-74/I-215 Truck, Uber, Wrongful Death | Lombera',
     description:
-      'Truck, Uber, wrongful death, and catastrophic injury from SR-74 / Florida Avenue crashes in Hemet. Meet at 2068 Orange Tree Lane #220, Redlands — about 43 minutes northwest. (909) 915-0181.',
+      'Truck, Uber, wrongful death, and catastrophic injury from SR-74 / I-215 / Lamb Canyon crashes in Hemet. Meet at 2068 Orange Tree Lane #220, Redlands — about 33 miles and 43 minutes northwest. (909) 915-0181.',
     lead: [
-      'There is no Lombera storefront at 145 S Carmalita Street, 1314 W Florida Avenue, 151 S State Street, or 445 E Florida Avenue by Hemet City Hall. After a Hemet wreck, meet Edgar P. Lombera at 2068 Orange Tree Lane, Suite 220, Redlands, CA 92374 — about 33 miles and 43 minutes northwest via Sanderson Avenue, Ramona Expressway, Lamb Canyon Road, and the I-10 west. Call (909) 915-0181. English or Spanish. Two practices only: personal injury and bankruptcy. You speak with him. Injury cases run on contingency: no fee unless we win.',
+      'There is no Lombera storefront in Hemet. After a Hemet wreck, meet Edgar P. Lombera at 2068 Orange Tree Lane, Suite 220, Redlands, CA 92374. From Hemet City Hall at 445 E. Florida Avenue — civic reference only, not our address — take Florida Avenue, State Street, Ramona Expressway, Sanderson Avenue, Lamb Canyon Road, Beaumont Avenue, the I-10 west, and California Street — about 33 miles and 43 minutes northwest. The drive is northwest. SR-74, SR-79, I-215, Lamb Canyon Road, Florida Avenue, and Sanderson Avenue are crash corridors on this page, not the route to the office. Call (909) 915-0181. English or Spanish. Two practices only: personal injury and bankruptcy. You speak with him. Injury cases run on contingency: no fee unless we win.',
     ],
     sections: [
       {
-        h2: 'Truck wrecks on SR-74, Florida Avenue, and SR-79',
+        h2: 'Truck wrecks on SR-74, SR-79, I-215, and Lamb Canyon',
         paragraphs: [
-          'Commercial truck traffic on the SR-74 mountain corridor, Florida Avenue through downtown Hemet, and SR-79 toward Winchester produces the freight collisions that lead this docket. Lombera already ranks for Hemet truck work with a generic title — this URL is the unique SR-74 / Florida Avenue / SR-79 rewrite. After a serious wreck, preserve the ECM download, dashcam footage, and the driver qualification file before insurers scatter the evidence. This is San Jacinto Valley freight — not Beaumont’s I-10 / San Gorgonio Pass page, not Moreno Valley’s SR-60 / I-215, and not Fontana’s I-10 / I-15 / Sierra grid. Wrongful death and traumatic brain injury claims from these wrecks stay on this URL.',
+          'Commercial truck traffic on the SR-74 mountain corridor, SR-79 toward Winchester, the I-215 connector, and Lamb Canyon Road produces the freight collisions that lead this docket. Florida Avenue through downtown Hemet and Sanderson Avenue stack merge pressure before loads reach valley corridors. After a serious collision, preserve the ECM download, dashcam footage, and the driver qualification file before insurers scatter the evidence. Unlimited civil lawsuits from Hemet ZIP codes 92543–92546 file at Riverside County Superior Court, Historic Courthouse, 4050 Main Street, Riverside — about 34 miles and 49 minutes northwest from Hemet City Hall at 445 E. Florida Avenue. This is Hemet’s SR-74 / SR-79 / I-215 / Lamb Canyon freight — not Beaumont’s I-10 / San Gorgonio Pass page, not Moreno Valley’s SR-60 / I-215, not Fontana’s I-10 / I-15 / Sierra grid, and not Rancho Cucamonga or Colton Crossing copy. Wrongful death and traumatic brain injury claims from these wrecks stay on this URL.',
         ],
       },
       {
         h2: 'Uber and Lyft on Florida Avenue, Sanderson Avenue, Stetson Avenue, and State Street',
         paragraphs: [
-          'Whether the driver had the app on changes which insurer must respond — we confirm coverage in the consult, not in marketing copy with dollar figures. Hemet rideshare claims stay on /personal-injury/hemet/. We do not invent a /uber/ page.',
+          'Whether the driver had the app on changes which insurer must respond — we confirm coverage in the consult, not in marketing copy with dollar figures. Florida Avenue, Sanderson Avenue, Stetson Avenue, and State Street stack rideshare pickups between San Jacinto Valley commuter runs and retail shifts along the SR-74 corridor. Hemet rideshare claims stay on /personal-injury/hemet/. We do not invent a /uber/ page.',
         ],
       },
       {
         h2: 'Wrongful death — standing under CCP §377.60 at 4050 Main Street',
         paragraphs: [
-          'Who may bring the suit is confirmed in the consult under California Code of Civil Procedure §377.60 — we do not invent verdicts or settlement stories. Hemet has a Riverside County Superior Court Hemet Division, but unlimited civil cases for ZIP codes 92543–92546 file at 4050 Main Street, Riverside — not at the Hemet Division courthouse, not at Menifee Center Drive limited jurisdiction, not at Tahquitz Canyon Way, not at 247 W. 3rd St., not at 13800 Heacock, and not at 8303 Haven Avenue. CCP §335.1 gives most victims two years; a public entity may require six-month written notice under Government Code §911.2.',
+          'Who may bring the suit is confirmed in the consult under California Code of Civil Procedure §377.60 — we do not invent verdicts or settlement stories. Unlimited civil files for Hemet ZIP codes 92543–92546 are filed at Riverside County Superior Court, Historic Courthouse, 4050 Main Street, Riverside — not at the Hemet Division courthouse, not at Menifee Center Drive limited jurisdiction, not at Tahquitz Canyon Way, not at 247 W. 3rd St., not at 8303 Haven Avenue, not at Oasis Street, and not at 400 N. Pepper. The courthouse sits about 34 miles and 49 minutes northwest from Hemet City Hall at 445 E. Florida Avenue. CCP §335.1 gives most victims two years; a public entity may require six-month written notice under Government Code §911.2.',
         ],
       },
       {
         h2: 'Catastrophic injury — TBI, spinal cord, lost limb',
         paragraphs: [
-          'Traumatic brain injury, spinal cord injury, and amputation are damages outcomes handled on this URL only — not a separate /catastrophic-injury/ landing page. Future medical care and lost earning capacity drive the damages case. This is not medical advice.',
+          'Traumatic brain injury, spinal cord injury, and amputation are damages outcomes handled on this URL only — not a separate /catastrophic-injury/ landing page. An SR-74 or Lamb Canyon corridor collision can leave lifetime medical needs and lost earning capacity that insurers undervalue early. Future medical care and vocational loss drive the damages case. This is not medical advice.',
         ],
       },
       {
@@ -708,7 +708,7 @@ const PI_EN: Record<CitySlug, CityPageCopy> = {
       {
         h2: '(909) 915-0181 — Orange Tree Lane, northwest',
         paragraphs: [
-          'Hours: Monday–Friday 9am–6pm, Saturday 10am–4pm, Sunday by appointment. Serious injuries can reach the office 24/7 for an emergency consult. If the same wreck sinks the household, the same (909) 915-0181 call files Chapter 7 or Chapter 13 at 3420 Twelfth Street, Riverside. Palm Springs is the other office — 1276 N Palm Canyon Dr #107, (760) 835-9353.',
+          'Hours: Monday–Friday 9am–6pm, Saturday 10am–4pm, Sunday by appointment. Serious injuries can reach the office 24/7 for an emergency consult. From Hemet, the consultation is about 33 miles and 43 minutes northwest via Florida Avenue, State Street, Ramona Expressway, Sanderson Avenue, Lamb Canyon Road, Beaumont Avenue, the I-10 west, and California Street — not a Hemet storefront. If the same wreck sinks the household, the same (909) 915-0181 call files Chapter 7 or Chapter 13 at the U.S. Bankruptcy Court, 3420 Twelfth Street, Riverside — about 34 miles and 49 minutes northwest. Palm Springs is the second office only — 1276 N Palm Canyon Dr #107, (760) 835-9353.',
         ],
       },
     ],
@@ -2011,47 +2011,47 @@ const PI_ES: Record<CitySlug, CityPageCopy> = {
   },
   hemet: {
     h1: 'Abogado de lesiones personales en Hemet',
-    title: 'Abogado de Lesiones Hemet | Camiones SR-74, Uber, Muerte Injusta | Lombera',
+    title: 'Abogado de Lesiones Hemet | Camiones SR-74/I-215, Uber, Muerte Injusta | Lombera',
     description:
-      'Camiones, Uber, muerte injusta y lesiones catastróficas en choques de la SR-74 / Florida Avenue en Hemet. Oficina en Orange Tree Lane #220, Redlands — unos 43 minutos al noroeste. (909) 915-0181.',
+      'Camiones, Uber, muerte injusta y lesiones catastróficas en choques de la SR-74 / I-215 / Lamb Canyon en Hemet. Oficina en Orange Tree Lane #220, Redlands — unas 33 millas y unos 43 minutos al noroeste. (909) 915-0181.',
     lead: [
-      'No hay oficina de Lombera en 145 S Carmalita Street, 1314 W Florida Avenue, 151 S State Street ni 445 E Florida Avenue junto al ayuntamiento de Hemet. Después de un choque en Hemet, reúnase con Edgar P. Lombera en 2068 Orange Tree Lane, Suite 220, Redlands, CA 92374 — unas 33 millas y 43 minutos al noroeste por Sanderson Avenue, Ramona Expressway, Lamb Canyon Road y la I-10 al oeste. Llame al (909) 915-0181. Inglés o español. Solo dos prácticas: lesiones personales y bancarrota. Usted habla con él. Los casos de lesiones son a contingencia: sin honorarios a menos que ganemos.',
+      'No hay local de Lombera en Hemet. Después de un choque en Hemet, reúnase con Edgar P. Lombera en 2068 Orange Tree Lane, Suite 220, Redlands, CA 92374. Desde el Ayuntamiento de Hemet en 445 E. Florida Avenue — referencia cívica solamente, no nuestra dirección — tome Florida Avenue, State Street, Ramona Expressway, Sanderson Avenue, Lamb Canyon Road, Beaumont Avenue, la I-10 al oeste y California Street — unas 33 millas y unos 43 minutos al noroeste. El trayecto es al noroeste. La SR-74, la SR-79, la I-215, Lamb Canyon Road, Florida Avenue y Sanderson Avenue son corredores de choques en esta página, no la ruta a la oficina. Llame al (909) 915-0181. Inglés o español. Solo dos prácticas: lesiones personales y bancarrota. Usted habla con él. Los casos de lesiones son a contingencia: sin honorarios a menos que ganemos.',
     ],
     sections: [
       {
-        h2: 'Choques de camiones en la SR-74, Florida Avenue y la SR-79',
+        h2: 'Choques de camiones en la SR-74, SR-79, I-215 y Lamb Canyon',
         paragraphs: [
-          'El tráfico de camiones comerciales en el corredor montañoso de la SR-74, Florida Avenue por el centro de Hemet y la SR-79 hacia Winchester produce las colisiones de carga que lideran este expediente. Lombera ya aparece en resultados para trabajo de camiones en Hemet con un título genérico — esta URL es la versión única para SR-74 / Florida Avenue / SR-79. Después de un choque grave, preserve la descarga del ECM, las grabaciones de dashcam y el expediente de calificación del conductor antes de que las aseguradoras dispersen la evidencia. Esta es la carga del Valle de San Jacinto — no la página I-10 / Paso de San Gorgonio de Beaumont, no la SR-60 / I-215 de Moreno Valley, ni la cuadrícula I-10 / I-15 / Sierra de Fontana. Las demandas por muerte injusta y lesión cerebral traumática de estos choques permanecen en esta URL.',
+          'El tráfico de camiones comerciales en el corredor montañoso de la SR-74, la SR-79 hacia Winchester, el conector I-215 y Lamb Canyon Road produce las colisiones de carga que lideran este expediente. Florida Avenue por el centro de Hemet y Sanderson Avenue concentran presión de incorporación antes de que la carga llegue a los corredores del valle. Después de una colisión grave, preserve la descarga del ECM, las grabaciones de dashcam y el expediente de calificación del conductor antes de que las aseguradoras dispersen la evidencia. Las demandas civiles ilimitadas de los códigos postales 92543–92546 se presentan en el Tribunal Superior del Condado de Riverside, Historic Courthouse, 4050 Main Street, Riverside — unas 34 millas y unos 49 minutos al noroeste desde el Ayuntamiento de Hemet en 445 E. Florida Avenue. Esta es la carga SR-74 / SR-79 / I-215 / Lamb Canyon de Hemet — no la página I-10 / Paso de San Gorgonio de Beaumont, no la SR-60 / I-215 de Moreno Valley, no la cuadrícula I-10 / I-15 / Sierra de Fontana, ni copia de carga de Rancho Cucamonga o Colton Crossing. Las demandas por muerte injusta y lesión cerebral traumática de estos choques permanecen en esta URL.',
         ],
       },
       {
         h2: 'Uber y Lyft en Florida Avenue, Sanderson Avenue, Stetson Avenue y State Street',
         paragraphs: [
-          'Si el conductor tenía la aplicación activada cambia qué aseguradora debe responder — confirmamos la cobertura en la consulta, no con cifras de marketing. Los reclamos de rideshare de Hemet permanecen en /es/lesiones-personales/hemet/. No inventamos una página /uber/.',
+          'Si el conductor tenía la aplicación activada cambia qué aseguradora debe responder — confirmamos la cobertura en la consulta, no con cifras de marketing. Florida Avenue, Sanderson Avenue, Stetson Avenue y State Street concentran recogidas de rideshare entre trayectos de pasajeros del Valle de San Jacinto y turnos comerciales a lo largo del corredor SR-74. Los reclamos de rideshare de Hemet permanecen en /es/lesiones-personales/hemet/. No inventamos una página /uber/.',
         ],
       },
       {
         h2: 'Muerte injusta — legitimación bajo el CCP §377.60 en 4050 Main Street',
         paragraphs: [
-          'Quién puede presentar la demanda se confirma en la consulta bajo el Código de Procedimiento Civil de California §377.60 — no inventamos veredictos ni historias de acuerdos. Hemet tiene una División Hemet del Tribunal Superior del Condado de Riverside, pero los casos civiles ilimitados para códigos postales 92543–92546 se presentan en 4050 Main Street, Riverside — no en el tribunal de la División Hemet, no en Menifee Center Drive de jurisdicción limitada, no en Tahquitz Canyon Way, no en 247 W. 3rd St., no en 13800 Heacock, y no en 8303 Haven Avenue. El CCP §335.1 da dos años a la mayoría de las víctimas; una entidad pública puede exigir aviso escrito de seis meses bajo el Código de Gobierno §911.2.',
+          'Quién puede presentar la demanda se confirma en la consulta bajo el Código de Procedimiento Civil de California §377.60 — no inventamos veredictos ni historias de acuerdos. Los expedientes civiles ilimitados de los códigos postales 92543–92546 se presentan en el Tribunal Superior del Condado de Riverside, Historic Courthouse, 4050 Main Street, Riverside — no en el tribunal de la División Hemet, no en Menifee Center Drive de jurisdicción limitada, no en Tahquitz Canyon Way, no en 247 W. 3rd St., no en 8303 Haven Avenue, no en Oasis Street, y no en 400 N. Pepper. El tribunal está unas 34 millas y unos 49 minutos al noroeste del Ayuntamiento de Hemet en 445 E. Florida Avenue.',
         ],
       },
       {
         h2: 'Lesiones catastróficas — cerebral, médula, pérdida de miembro',
         paragraphs: [
-          'La lesión cerebral traumática, la lesión de médula espinal y la amputación son resultados de daños manejados solo en esta URL — no una página separada de /lesiones-catastroficas/. La atención médica futura y la capacidad de ingreso perdida impulsan el caso de daños. Esto no es consejo médico.',
+          'La lesión cerebral traumática, la lesión de médula espinal y la amputación son resultados de daños manejados solo en esta URL — no una página separada de /lesiones-catastroficas/. Una colisión en el corredor SR-74 o Lamb Canyon puede dejar necesidades médicas de por vida y capacidad de ingreso perdida que las aseguradoras subvaloran al principio. La atención médica futura y la pérdida vocacional impulsan el caso que las aseguradoras intentan cerrar pronto. Esto no es consejo médico.',
         ],
       },
       {
         h2: 'Auto, motocicleta y mordeduras — Código Civil §3342',
         paragraphs: [
-          'Después de los cuatro tipos principales de reclamo, choques de auto, accidentes de motocicleta y mordeduras de perro bajo el Código Civil de California §3342 completan el expediente. Circular entre carriles en motocicleta es legal cuando se hace con seguridad; usar casco no invierte la culpa. No manejamos reclamos por resbalones y caídas.',
+          'Después de los cuatro tipos principales de reclamo, choques de auto, accidentes de motocicleta y mordeduras de perro bajo el Código Civil de California §3342 completan el expediente. Circular entre carriles en motocicleta es legal cuando se hace con seguridad; usar casco no invierte la culpa. No manejamos reclamos por resbalones y caídas. El plazo general de dos años del CCP §335.1 rige la mayoría de las demandas por lesiones de Hemet — confirme su fecha límite en la consulta antes de que la evidencia caduque; contra una entidad pública puede hacer falta aviso escrito de seis meses conforme al Código de Gobierno §911.2 antes de demandar.',
         ],
       },
       {
         h2: '(909) 915-0181 — Orange Tree Lane, al noroeste',
         paragraphs: [
-          'Horario: lunes a viernes 9am–6pm, sábado 10am–4pm, domingo con cita. Lesiones graves pueden contactar la oficina las 24 horas para consulta de emergencia. Si el mismo choque hunde el hogar, la misma llamada al (909) 915-0181 presenta el Capítulo 7 o 13 en 3420 Twelfth Street, Riverside. Palm Springs es la otra oficina — 1276 N Palm Canyon Dr #107, (760) 835-9353.',
+          'Horario: lunes a viernes 9am–6pm, sábado 10am–4pm, domingo con cita. Lesiones graves pueden contactar la oficina las 24 horas para consulta de emergencia. Desde Hemet, la consulta es unas 33 millas y unos 43 minutos al noroeste por Florida Avenue, State Street, Ramona Expressway, Sanderson Avenue, Lamb Canyon Road, Beaumont Avenue, la I-10 al oeste y California Street — no un local en Hemet. Si el mismo choque hunde el hogar, la misma llamada al (909) 915-0181 presenta el Capítulo 7 o 13 en el Tribunal de Bancarrota de EE. UU., 3420 Twelfth Street, Riverside — unas 34 millas y unos 49 minutos al noroeste. Palm Springs es solo la segunda oficina — 1276 N Palm Canyon Dr #107, (760) 835-9353.',
         ],
       },
     ],
