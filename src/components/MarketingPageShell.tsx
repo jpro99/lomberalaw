@@ -48,7 +48,9 @@ function isPiPathWithDemotedPostCtaHeadings(pathname: string) {
     normalized === '/personal-injury/yucaipa' ||
     normalized === '/es/lesiones-personales/yucaipa' ||
     normalized === '/personal-injury/la-quinta' ||
-    normalized === '/es/lesiones-personales/la-quinta'
+    normalized === '/es/lesiones-personales/la-quinta' ||
+    normalized === '/personal-injury/ontario' ||
+    normalized === '/es/lesiones-personales/ontario'
   )
 }
 

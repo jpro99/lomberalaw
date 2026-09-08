@@ -52,11 +52,11 @@ export const LIVE_CITY_SLUGS = new Set([
   'rancho-cucamonga',
   'yucaipa',
   'la-quinta',
+  'ontario',
 ])
 
 /** Homepage "coming soon" — no money pages. */
 export const COMING_SOON_CITY_SLUGS = new Set([
-  'ontario',
   'rancho-mirage',
   'indian-wells',
   'coachella',
@@ -74,6 +74,7 @@ export const IE_CITIES = new Set([
   'colton',
   'rancho-cucamonga',
   'yucaipa',
+  'ontario',
 ])
 
 export function cityPhone(slug: string): string {

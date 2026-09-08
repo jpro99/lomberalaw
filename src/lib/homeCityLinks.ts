@@ -3,6 +3,7 @@ export const HOME_CITY_SLUGS = [
   'redlands',
   'san-bernardino',
   'fontana',
+  'ontario',
   'rancho-cucamonga',
   'riverside',
   'moreno-valley',

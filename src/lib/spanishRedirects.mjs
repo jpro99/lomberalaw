@@ -36,6 +36,7 @@ export const LIVE_CITY_SLUGS = [
   'rancho-cucamonga',
   'yucaipa',
   'la-quinta',
+  'ontario',
 ]
 
 const PI_HUB = '/es/lesiones-personales/'
