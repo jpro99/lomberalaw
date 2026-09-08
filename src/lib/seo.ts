@@ -191,7 +191,7 @@ export function practiceCitySeo(
 ): ServiceSeoCopy {
   const isOfficeCity = OFFICE_CITY_SLUGS.has(citySlug)
   const nearestOffice =
-    citySlug === 'redlands' || ['san-bernardino', 'fontana', 'riverside', 'moreno-valley', 'highland', 'beaumont', 'hemet', 'colton', 'rancho-cucamonga'].includes(citySlug)
+    citySlug === 'redlands' || ['san-bernardino', 'fontana', 'riverside', 'moreno-valley', 'highland', 'beaumont', 'hemet', 'colton', 'rancho-cucamonga', 'yucaipa'].includes(citySlug)
       ? REDLANDS_OFFICE
       : PALM_SPRINGS_OFFICE
 

@@ -34,6 +34,7 @@ export const LIVE_CITY_SLUGS = [
   'colton',
   'desert-hot-springs',
   'rancho-cucamonga',
+  'yucaipa',
 ]
 
 const PI_HUB = '/es/lesiones-personales/'

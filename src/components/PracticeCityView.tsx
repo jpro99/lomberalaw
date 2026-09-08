@@ -133,7 +133,8 @@ export async function PracticeCityView({
       resolvedCitySlug === 'rancho-cucamonga' ||
       resolvedCitySlug === 'hemet' ||
       resolvedCitySlug === 'cathedral-city' ||
-      resolvedCitySlug === 'desert-hot-springs')
+      resolvedCitySlug === 'desert-hot-springs' ||
+      resolvedCitySlug === 'yucaipa')
   const homeCrumb = locale === 'es' ? 'Inicio' : 'Home'
   const practiceCrumb =
     practiceSlug === 'personal-injury' ? copy.nav.personalInjury : copy.nav.bankruptcy
