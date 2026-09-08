@@ -26,6 +26,7 @@ type CitySlug =
   | 'colton'
   | 'desert-hot-springs'
   | 'rancho-cucamonga'
+  | 'yucaipa'
 
 const REDLANDS_NAP =
   '2068 Orange Tree Lane, Suite 220, Redlands, CA 92374 — (909) 915-0181'
@@ -52,6 +53,7 @@ const CITY_NAMES: Record<CitySlug, { en: string; es: string }> = {
   colton: { en: 'Colton', es: 'Colton' },
   'desert-hot-springs': { en: 'Desert Hot Springs', es: 'Desert Hot Springs' },
   'rancho-cucamonga': { en: 'Rancho Cucamonga', es: 'Rancho Cucamonga' },
+  yucaipa: { en: 'Yucaipa', es: 'Yucaipa' },
 }
 
 const PI_EN: Record<CitySlug, CityPageCopy> = {
@@ -760,6 +762,53 @@ const PI_EN: Record<CitySlug, CityPageCopy> = {
       },
     ],
   },
+  yucaipa: {
+    h1: 'Yucaipa personal injury lawyer',
+    title: 'Yucaipa Personal Injury Lawyer | Free Case Call | Lombera Law',
+    description:
+      'Truck, Uber, wrongful death, and catastrophic injury from I-10 / Wildwood Canyon corridor crashes in Yucaipa. Meet at 2068 Orange Tree Lane #220, Redlands — about 11.5 miles and 17 minutes west-northwest. (909) 915-0181.',
+    lead: [
+      'There is no Lombera storefront in Yucaipa. After a Yucaipa wreck, meet Edgar P. Lombera at 2068 Orange Tree Lane, Suite 220, Redlands, CA 92374. From Yucaipa City Hall at 34272 Yucaipa Boulevard — civic reference only — take Yucaipa Boulevard through Oak Glen to the I-10 west, then California Street — about 11.5 miles and 17 minutes west-northwest. The drive is west-northwest. The I-10 and Wildwood Canyon corridor are crash corridors on this page, not the route to an office in Yucaipa. Call (909) 915-0181. English or Spanish. Two practices only: personal injury and bankruptcy. You speak with him. Injury cases run on contingency: no fee unless we win.',
+    ],
+    sections: [
+      {
+        h2: 'Truck wrecks on I-10 and the Wildwood Canyon corridor',
+        paragraphs: [
+          'Yucaipa Boulevard, Oak Glen Road, the Wildwood Canyon corridor, and through-truck traffic on the I-10 produce the commercial collisions that lead this docket. Eastbound freight climbing the pass and weekend canyon traffic on Wildwood Canyon Road push override and loss-of-control events before loads clear valley corridors. After a serious wreck, preserve the ECM download, dashcam footage, and the driver qualification file before insurers scatter the evidence. Unlimited civil lawsuits from Yucaipa file at San Bernardino County Superior Court / Justice Center, 247 W. 3rd Street, San Bernardino — about 18 miles and 26 minutes west-northwest from Yucaipa City Hall at 34272 Yucaipa Boulevard — not 4050 Main Street in Riverside, not Tahquitz Canyon Way, not 8303 Haven Avenue, not Arrow Boulevard, and not 400 N. Pepper. This is Yucaipa\u2019s I-10 / Wildwood Canyon freight page — not Fontana\u2019s I-10 / I-15 / Sierra freight page, not Colton Crossing / Mt Vernon, not Highland\u2019s I-210 / Base Line junction, and not Riverside\u2019s 60 / 91 / 215 grid. Wrongful death and traumatic brain injury claims from these wrecks stay on this URL.',
+        ],
+      },
+      {
+        h2: 'Uber and Lyft on Yucaipa Boulevard and Oak Glen Road',
+        paragraphs: [
+          'Whether the driver had the app on changes which insurer must respond — we confirm coverage in the consult, not in marketing copy with dollar figures. Yucaipa Boulevard, Oak Glen Road, and the I-10 connector stack rideshare pickups between canyon weekend traffic, retail shifts along the 10, and commuter runs toward Redlands and San Bernardino. Yucaipa rideshare claims stay on /personal-injury/yucaipa/. We do not invent a /uber/ page.',
+        ],
+      },
+      {
+        h2: 'Wrongful death — standing under CCP §377.60 at 247 W. 3rd Street',
+        paragraphs: [
+          'Who may bring the suit is confirmed in the consult under California Code of Civil Procedure §377.60 — we do not invent verdicts or settlement stories. Unlimited civil files are filed at San Bernardino County Superior Court / Justice Center, 247 W. 3rd Street, San Bernardino — not 4050 Main Street in Riverside, not Tahquitz Canyon Way, not 8303 Haven Avenue, not Arrow Boulevard, and not 400 N. Pepper. The courthouse sits about 18 miles and 26 minutes west-northwest from Yucaipa City Hall at 34272 Yucaipa Boulevard.',
+        ],
+      },
+      {
+        h2: 'Catastrophic injury — TBI, spinal cord, lost limb',
+        paragraphs: [
+          'Traumatic brain injury, spinal cord injury, and amputation are damages outcomes handled on this URL only — not a separate /catastrophic-injury/ landing page. An I-10 or Wildwood Canyon corridor collision can leave lifetime medical needs and lost earning capacity that insurers undervalue early. Future medical care, life-care planning, and vocational loss drive the case insurers try to close early. This is not medical advice.',
+        ],
+      },
+      {
+        h2: 'Car, motorcycle, and Civil Code §3342 dog bites',
+        paragraphs: [
+          'After the four primary claim types, car collisions, motorcycle crashes, and dog bites under California Civil Code §3342 round out the docket. Lane-splitting on a motorcycle is legal when done safely; wearing a helmet does not flip fault. We do not handle slip-and-fall claims. CCP §335.1 gives most Yucaipa injury victims two years from the date of harm — confirm your deadline in the consult before evidence goes stale; a public entity may require six-month notice under Government Code §911.2.',
+        ],
+      },
+      {
+        h2: '(909) 915-0181 — Orange Tree Lane, west-northwest',
+        paragraphs: [
+          'Hours: Monday–Friday 9am–6pm, Saturday 10am–4pm, Sunday by appointment. Serious injuries can reach the office 24/7 for an emergency consult. From Yucaipa, the consultation is about 11.5 miles and 17 minutes west-northwest via Yucaipa Boulevard through Oak Glen, the I-10 west, and California Street — not a Yucaipa storefront. If the same wreck sinks the household, the same (909) 915-0181 call files Chapter 7 or Chapter 13 at the U.S. Bankruptcy Court, 3420 Twelfth Street, Riverside — about 23 miles and 31 minutes west-southwest. Palm Springs is the second office only — 1276 N Palm Canyon Dr #107, (760) 835-9353 — about 38 miles and 47 minutes east-southeast.',
+        ],
+      },
+    ],
+  },
 }
 
 const BK_EN: Record<CitySlug, CityPageCopy> = {
@@ -1391,6 +1440,35 @@ const BK_EN: Record<CitySlug, CityPageCopy> = {
         h2: '3420 Twelfth Street, Riverside',
         paragraphs: [
           'Debt relief agency. Court fees $338 Ch.7 / $313 Ch.13. (760) 835-9353.',
+        ],
+      },
+    ],
+  },
+  yucaipa: {
+    h1: 'Yucaipa bankruptcy lawyer — stop garnishment, file in Riverside',
+    title: 'Yucaipa Bankruptcy Lawyer | Stop Garnishment | Lombera',
+    description:
+      'Chapter 7 and Chapter 13 bankruptcy in Yucaipa. Wage garnishment and foreclosure defense. Riverside court. (909) 915-0181.',
+    lead: [
+      'A Yucaipa wage garnishment or foreclosure notice means the state court process is already moving. Bankruptcy stops most collection the day a case is filed at the federal courthouse in Riverside. Edgar P. Lombera explains Chapter 7 and Chapter 13 in a free consult from Redlands.',
+    ],
+    sections: [
+      {
+        h2: 'Stop the levy before the next paycheck',
+        paragraphs: [
+          'Chapter 7 can wipe unsecured debt; Chapter 13 catches up a mortgage over three to five years. Foreclosure defense and wage garnishment relief ride on the same petition.',
+        ],
+      },
+      {
+        h2: 'California homestead and the means test',
+        paragraphs: [
+          'Most Inland Empire homeowners keep the house — we confirm the current homestead number in the consult. The means test uses household size and recent income; bring pay stubs and tax returns.',
+        ],
+      },
+      {
+        h2: '3420 Twelfth Street, Riverside',
+        paragraphs: [
+          'There is no bankruptcy court in Yucaipa or San Bernardino city. Consumer cases file at the U.S. Bankruptcy Court, Central District of California, Riverside. (909) 915-0181.',
         ],
       },
     ],
@@ -2103,6 +2181,53 @@ const PI_ES: Record<CitySlug, CityPageCopy> = {
       },
     ],
   },
+  yucaipa: {
+    h1: 'Abogado de lesiones personales en Yucaipa',
+    title: 'Abogado de Lesiones Personales en Yucaipa | Lombera Law',
+    description:
+      'Camiones, Uber, muerte injusta y lesiones catastróficas en choques de la I-10 / corredor Wildwood Canyon en Yucaipa. Oficina en Orange Tree Lane #220, Redlands — unas 11.5 millas y unos 17 minutos al oeste-noroeste. (909) 915-0181.',
+    lead: [
+      'No hay local de Lombera en Yucaipa. Después de un choque en Yucaipa, reúnase con Edgar P. Lombera en 2068 Orange Tree Lane, Suite 220, Redlands, CA 92374. Desde el Ayuntamiento de Yucaipa en 34272 Yucaipa Boulevard — referencia cívica solamente — tome Yucaipa Boulevard por Oak Glen a la I-10 al oeste, luego California Street — unas 11.5 millas y unos 17 minutos al oeste-noroeste. El trayecto es al oeste-noroeste. La I-10 y el corredor Wildwood Canyon son corredores de choques en esta página, no la ruta a una oficina en Yucaipa. Llame al (909) 915-0181. Inglés o español. Solo dos prácticas: lesiones personales y bancarrota. Usted habla con él. Los casos de lesiones son a contingencia: sin honorarios a menos que ganemos.',
+    ],
+    sections: [
+      {
+        h2: 'Choques de camiones en la I-10 y el corredor Wildwood Canyon',
+        paragraphs: [
+          'Yucaipa Boulevard, Oak Glen Road, el corredor Wildwood Canyon y el tráfico de camiones de paso en la I-10 producen las colisiones comerciales que lideran este expediente. La carga con destino al este subiendo el paso y el tráfico de fin de semana en Wildwood Canyon Road provocan choques por alcance y pérdida de control antes de que la carga despeje los corredores del valle. Después de un choque grave, preserve la descarga del ECM, las grabaciones de dashcam y el expediente de calificación del conductor antes de que las aseguradoras dispersen la evidencia. Las demandas civiles ilimitadas de Yucaipa se presentan en el Tribunal Superior del Condado de San Bernardino / Justice Center, 247 W. 3rd Street, San Bernardino — unas 18 millas y unos 26 minutos al oeste-noroeste desde el Ayuntamiento de Yucaipa en 34272 Yucaipa Boulevard — no en 4050 Main Street en Riverside, no en Tahquitz Canyon Way, no en 8303 Haven Avenue, no en Arrow Boulevard, y no en 400 N. Pepper. Esta es la página de carga I-10 / Wildwood Canyon de Yucaipa — no la página de carga de Fontana en la I-10 / I-15 / Sierra, no Colton Crossing / Mt Vernon, no el cruce I-210 / Base Line de Highland, ni el conjunto 60 / 91 / 215 de Riverside. Las demandas por muerte injusta y lesión cerebral traumática de estos choques permanecen en esta URL.',
+        ],
+      },
+      {
+        h2: 'Uber y Lyft en Yucaipa Boulevard y Oak Glen Road',
+        paragraphs: [
+          'Si el conductor tenía la aplicación activada cambia qué aseguradora debe responder — confirmamos la cobertura en la consulta, no con cifras de marketing. Yucaipa Boulevard, Oak Glen Road y el conector de la I-10 concentran recogidas de rideshare entre tráfico de fin de semana en el cañón, turnos comerciales a lo largo de la 10 y trayectos de pasajeros hacia Redlands y San Bernardino. Los reclamos de rideshare de Yucaipa permanecen en /es/lesiones-personales/yucaipa/. No inventamos una página /uber/.',
+        ],
+      },
+      {
+        h2: 'Muerte injusta — legitimación bajo el CCP §377.60 en 247 W. 3rd Street',
+        paragraphs: [
+          'Quién puede presentar la demanda se confirma en la consulta bajo el Código de Procedimiento Civil de California §377.60 — no inventamos veredictos ni historias de acuerdos. Los expedientes civiles ilimitados se presentan en el Tribunal Superior del Condado de San Bernardino / Justice Center, 247 W. 3rd Street, San Bernardino — no en 4050 Main Street en Riverside, no en Tahquitz Canyon Way, no en 8303 Haven Avenue, no en Arrow Boulevard, y no en 400 N. Pepper. El tribunal está unas 18 millas y unos 26 minutos al oeste-noroeste del Ayuntamiento de Yucaipa en 34272 Yucaipa Boulevard. El plazo general de dos años del CCP §335.1 rige la mayoría de las demandas por lesiones; contra una entidad pública puede hacer falta aviso escrito de seis meses conforme al Código de Gobierno §911.2 antes de demandar.',
+        ],
+      },
+      {
+        h2: 'Lesiones catastróficas — cerebral, médula, pérdida de miembro',
+        paragraphs: [
+          'La lesión cerebral traumática, la lesión de médula espinal y la amputación son resultados de daños manejados solo en esta URL — no una página separada de /lesiones-catastroficas/. Una colisión en la I-10 o en el corredor Wildwood Canyon puede dejar necesidades médicas de por vida y capacidad de ingreso perdida que las aseguradoras subvaloran al principio. La atención médica futura, la planificación de cuidados y la pérdida vocacional impulsan el caso que las aseguradoras intentan cerrar pronto. Esto no es consejo médico.',
+        ],
+      },
+      {
+        h2: 'Auto, motocicleta y mordeduras — Código Civil §3342',
+        paragraphs: [
+          'Después de los cuatro tipos principales de reclamo, choques de auto, accidentes de motocicleta y mordeduras de perro bajo el Código Civil de California §3342 completan el expediente. Circular entre carriles en motocicleta es legal cuando se hace con seguridad; usar casco no invierte la culpa. No manejamos reclamos por resbalones y caídas.',
+        ],
+      },
+      {
+        h2: '(909) 915-0181 — Orange Tree Lane, al oeste-noroeste',
+        paragraphs: [
+          'Horario: lunes a viernes 9am–6pm, sábado 10am–4pm, domingo con cita. Lesiones graves pueden contactar la oficina las 24 horas para consulta de emergencia. Desde Yucaipa, la consulta es unas 11.5 millas y unos 17 minutos al oeste-noroeste por Yucaipa Boulevard por Oak Glen, la I-10 al oeste y California Street — no un local en Yucaipa. Si el mismo choque hunde el hogar, la misma llamada al (909) 915-0181 presenta el Capítulo 7 o 13 en el Tribunal de Bancarrota de EE. UU., 3420 Twelfth Street, Riverside — unas 23 millas y unos 31 minutos al oeste-suroeste. Palm Springs es solo la segunda oficina — 1276 N Palm Canyon Dr #107, (760) 835-9353 — unas 38 millas y unos 47 minutos al este-sureste.',
+        ],
+      },
+    ],
+  },
 }
 
 const BK_ES: Record<CitySlug, CityPageCopy> = {
@@ -2720,6 +2845,34 @@ const BK_ES: Record<CitySlug, CityPageCopy> = {
             h2: "3420 Twelfth Street, Riverside",
             paragraphs: [
             "Agencia de alivio de deudas. Tarifas judiciales $338 Cap.7 / $313 Cap.13. (760) 835-9353.",
+            ],
+          },
+    ],
+  },
+  yucaipa: {
+    h1: "Abogado de bancarrota en Yucaipa — se presenta en Riverside",
+    title: "Abogado de Bancarrota Yucaipa | Lombera",
+    description: "Bancarrota en Yucaipa. Defensa de ejecución hipotecaria, embargo de salario, Capítulo 7 y 13. Riverside. (909) 915-0181.",
+    lead: [
+      "Un embargo de salario o aviso de ejecución hipotecaria en Yucaipa significa que el proceso en tribunal estatal ya avanza. La bancarrota detiene la mayoría de las cobranzas el día que se presenta la petición en el tribunal federal de Riverside. Edgar P. Lombera explica el Capítulo 7 y el Capítulo 13 en una consulta gratuita desde Redlands.",
+    ],
+    sections: [
+          {
+            h2: "Detener el embargo antes del próximo cheque",
+            paragraphs: [
+            "El Capítulo 7 puede eliminar la deuda no garantizada; el Capítulo 13 pone al día la hipoteca en tres a cinco años. La defensa de ejecución hipotecaria y el alivio del embargo de salario van en la misma petición.",
+            ],
+          },
+          {
+            h2: "Exención de vivienda y prueba de medios",
+            paragraphs: [
+            "La mayoría de los propietarios del Inland Empire conservan la casa — confirmamos el número de exención vigente en la consulta. La prueba de medios usa el tamaño del hogar y los ingresos recientes; traiga talones de pago y declaraciones de impuestos.",
+            ],
+          },
+          {
+            h2: "3420 Twelfth Street, Riverside",
+            paragraphs: [
+            "No hay tribunal de bancarrota en Yucaipa ni en la ciudad de San Bernardino. Los casos de consumidor se presentan en el Tribunal de Bancarrota de EE. UU., Distrito Central de California, Riverside. (909) 915-0181.",
             ],
           },
     ],

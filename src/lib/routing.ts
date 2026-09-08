@@ -50,11 +50,11 @@ export const LIVE_CITY_SLUGS = new Set([
   'colton',
   'desert-hot-springs',
   'rancho-cucamonga',
+  'yucaipa',
 ])
 
 /** Homepage "coming soon" — no money pages. */
 export const COMING_SOON_CITY_SLUGS = new Set([
-  'yucaipa',
   'ontario',
   'la-quinta',
   'rancho-mirage',
@@ -73,6 +73,7 @@ export const IE_CITIES = new Set([
   'hemet',
   'colton',
   'rancho-cucamonga',
+  'yucaipa',
 ])
 
 export function cityPhone(slug: string): string {

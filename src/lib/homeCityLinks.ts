@@ -10,6 +10,7 @@ export const HOME_CITY_SLUGS = [
   'beaumont',
   'highland',
   'colton',
+  'yucaipa',
   'palm-springs',
   'palm-desert',
   'cathedral-city',
@@ -24,4 +25,5 @@ export const HOME_CITY_PI_ONLY = new Set<HomeCitySlug>([
   'highland',
   'colton',
   'desert-hot-springs',
+  'yucaipa',
 ])

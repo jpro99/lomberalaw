@@ -11,8 +11,8 @@ export function HomeCityList({ locale }: { locale: Locale }) {
   const heading = locale === 'es' ? 'Encuentre su ciudad' : 'Find your city'
   const sub =
     locale === 'es'
-      ? 'Quince ciudades del Inland Empire y el Valle de Coachella.'
-      : 'Fifteen cities across the Inland Empire and Coachella Valley.'
+      ? 'Dieciséis ciudades del Inland Empire y el Valle de Coachella.'
+      : 'Sixteen cities across the Inland Empire and Coachella Valley.'
 
   return (
     <section className="border-b border-line bg-panel py-14 md:py-16">
