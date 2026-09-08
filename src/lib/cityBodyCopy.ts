@@ -153,15 +153,15 @@ const PI_EN: Record<CitySlug, CityPageCopy> = {
     h1: 'Rancho Cucamonga personal injury lawyer',
     title: 'Rancho Cucamonga Personal Injury Lawyer | I-15/I-210 Truck, Uber, Wrongful Death | Lombera',
     description:
-      'Truck, Uber, wrongful death, and catastrophic injury from I-15 / I-210 / I-10 crashes in Rancho Cucamonga. Meet at 2068 Orange Tree Lane #220, Redlands — about 31 minutes east on the I-10. (909) 915-0181.',
+      'Truck, Uber, wrongful death, and catastrophic injury from I-15 / I-210 / I-10 crashes in Rancho Cucamonga. Meet at 2068 Orange Tree Lane #220, Redlands — about 24 miles and 31 minutes east. (909) 915-0181.',
     lead: [
-      'There is no Lombera storefront on Utica Avenue, Laurel Avenue, or Arrow Route. After a Rancho Cucamonga wreck, meet Edgar P. Lombera at 2068 Orange Tree Lane, Suite 220, Redlands, CA 92374. From Rancho Cucamonga City Hall at 10500 Civic Center Drive, take the Haven on-ramp to the I-10 east — about 23.68 miles and 31.5 minutes. The drive is east. I-15 and I-210 are crash corridors on this page, not the route to the office. Call (909) 915-0181. English or Spanish. Two practices only: personal injury and bankruptcy. You speak with him. Injury cases run on contingency: no fee unless we win.',
+      'There is no Lombera storefront in Rancho Cucamonga. After a Rancho Cucamonga wreck, meet Edgar P. Lombera at 2068 Orange Tree Lane, Suite 220, Redlands, CA 92374. From Rancho Cucamonga City Hall at 10500 Civic Center Drive, take Haven Avenue to the I-10 east, then California Street — about 24 miles and 31 minutes east. The drive is east. I-15 and I-210 are crash corridors on this page, not the route to the office. Call (909) 915-0181. English or Spanish. Two practices only: personal injury and bankruptcy. You speak with him. Injury cases run on contingency: no fee unless we win.',
     ],
     sections: [
       {
         h2: 'Truck wrecks on I-15, I-210, and I-10',
         paragraphs: [
-          'Commercial truck traffic on I-15, I-210, and the I-10 approaches produces the freight collisions that lead this docket. The Rancho Cucamonga truck gap on live search is real, and these wrecks belong here. After a serious collision, preserve the ECM download, dashcam footage, and the driver qualification file before insurers scatter the evidence. This is Rancho’s I-15 / I-210 / I-10 stack — not Fontana’s I-10 / I-15 / Sierra freight page, not Colton Crossing / Mt Vernon, not Highland’s I-210 / SR-210 / Base Line, not Moreno Valley’s SR-60 / I-215, and not Riverside’s 60 / 91 / 215. Wrongful death and traumatic brain injury claims from these wrecks stay on this URL.',
+          'Commercial truck traffic on I-15, I-210, and the I-10 approaches through Haven Avenue, Foothill Boulevard, and the Ontario / Rancho warehouse corridors produces the freight collisions that lead this docket. Merge pressure at the I-15 / I-210 / I-10 stack and distribution traffic on Haven push rear-end and override events before loads clear valley corridors. After a serious collision, preserve the ECM download, dashcam footage, and the driver qualification file before insurers scatter the evidence. Unlimited civil lawsuits from Rancho Cucamonga file at San Bernardino County Superior Court, 8303 Haven Avenue — about 0.2 miles and 1 minute northeast from Rancho Cucamonga City Hall at 10500 Civic Center Drive, adjacent on Haven. This is Rancho’s I-15 / I-210 / I-10 stack — not Fontana’s I-10 / I-15 / Sierra freight page, not Colton Crossing / Mt Vernon, not Highland’s I-210 / SR-210 / Base Line, not Moreno Valley’s SR-60 / I-215, and not Riverside’s 60 / 91 / 215. Wrongful death and traumatic brain injury claims from these wrecks stay on this URL.',
         ],
       },
       {
@@ -173,7 +173,7 @@ const PI_EN: Record<CitySlug, CityPageCopy> = {
       {
         h2: 'Wrongful death — standing under CCP §377.60 at 8303 Haven Avenue',
         paragraphs: [
-          'Who may bring the suit is confirmed in the consult under California Code of Civil Procedure §377.60 — we do not invent verdicts or settlement stories. Rancho Cucamonga civil files are filed at San Bernardino County Superior Court, 8303 Haven Avenue — not 247 W. 3rd St. in San Bernardino, not Arrow Boulevard, and not 4050 Main Street in Riverside. CCP §335.1 gives most victims two years; a public entity may require six-month written notice under Government Code §911.2.',
+          'Who may bring the suit is confirmed in the consult under California Code of Civil Procedure §377.60 — we do not invent verdicts or settlement stories. Unlimited civil files from Rancho Cucamonga are filed at San Bernardino County Superior Court, 8303 Haven Avenue — not 247 W. 3rd St. in San Bernardino, not 4050 Main Street in Riverside, not Tahquitz Canyon Way, not Oasis Street, not Arrow Boulevard, and not 400 N. Pepper. The courthouse sits about 0.2 miles and 1 minute northeast from Rancho Cucamonga City Hall at 10500 Civic Center Drive — adjacent on Haven Avenue.',
         ],
       },
       {
@@ -185,13 +185,13 @@ const PI_EN: Record<CitySlug, CityPageCopy> = {
       {
         h2: 'Car, motorcycle, and Civil Code §3342 dog bites',
         paragraphs: [
-          'After the four primary claim types, car collisions, motorcycle crashes, and dog bites under California Civil Code §3342 round out the docket. Lane-splitting on a motorcycle is legal when done safely; wearing a helmet does not flip fault. We do not handle slip-and-fall claims.',
+          'After the four primary claim types, car collisions, motorcycle crashes, and dog bites under California Civil Code §3342 round out the docket. Lane-splitting on a motorcycle is legal when done safely; wearing a helmet does not flip fault. We do not handle slip-and-fall claims. CCP §335.1 gives most Rancho Cucamonga injury victims two years from the date of harm — confirm your deadline in the consult before evidence goes stale; a public entity may require six-month notice under Government Code §911.2.',
         ],
       },
       {
         h2: '(909) 915-0181 — Orange Tree Lane, east',
         paragraphs: [
-          'Hours: Monday–Friday 9am–6pm, Saturday 10am–4pm, Sunday by appointment. Serious injuries can reach the office 24/7 for an emergency consult. If the same wreck sinks the household, the same (909) 915-0181 call files Chapter 7 or Chapter 13 at 3420 Twelfth Street, Riverside. Palm Springs is the second office — 1276 N Palm Canyon Dr #107, (760) 835-9353.',
+          'Hours: Monday–Friday 9am–6pm, Saturday 10am–4pm, Sunday by appointment. Serious injuries can reach the office 24/7 for an emergency consult. From Rancho Cucamonga, the consultation is about 24 miles and 31 minutes east via Haven Avenue to the I-10 east and California Street — not a Rancho Cucamonga storefront. If the same wreck sinks the household, the same (909) 915-0181 call files Chapter 7 or Chapter 13 at the U.S. Bankruptcy Court, 3420 Twelfth Street, Riverside — about 20 miles and 29 minutes southeast. Palm Springs is the second office only — 1276 N Palm Canyon Dr #107, (760) 835-9353.',
         ],
       },
     ],
@@ -1496,15 +1496,15 @@ const PI_ES: Record<CitySlug, CityPageCopy> = {
     h1: 'Abogado de lesiones personales en Rancho Cucamonga',
     title: 'Abogado de Lesiones Rancho Cucamonga | Camiones I-15/I-210, Uber, Muerte Injusta | Lombera',
     description:
-      'Camiones, Uber, muerte injusta y lesiones catastróficas en choques de la I-15 / I-210 / I-10 en Rancho Cucamonga. Oficina en Orange Tree Lane #220, Redlands — unos 31 minutos al este por la I-10. (909) 915-0181.',
+      'Camiones, Uber, muerte injusta y lesiones catastróficas en choques de la I-15 / I-210 / I-10 en Rancho Cucamonga. Oficina en Orange Tree Lane #220, Redlands — unas 24 millas y unos 31 minutos al este. (909) 915-0181.',
     lead: [
-      'No hay oficina de Lombera en Utica Avenue, Laurel Avenue ni Arrow Route. Después de un choque en Rancho Cucamonga, reúnase con Edgar P. Lombera en 2068 Orange Tree Lane, Suite 220, Redlands, CA 92374. Desde City Hall de Rancho Cucamonga en 10500 Civic Center Drive, tome la rampa de Haven a la I-10 al este — unos 23.68 millas y 31.5 minutos. El trayecto es al este. La I-15 y la I-210 son corredores de choques en esta página, no la ruta a la oficina. Llame al (909) 915-0181. Inglés o español. Solo dos prácticas: lesiones personales y bancarrota. Usted habla con él. Los casos de lesiones son a contingencia: sin honorarios a menos que ganemos.',
+      'No hay local de Lombera en Rancho Cucamonga. Después de un choque en Rancho Cucamonga, reúnase con Edgar P. Lombera en 2068 Orange Tree Lane, Suite 220, Redlands, CA 92374. Desde City Hall de Rancho Cucamonga en 10500 Civic Center Drive, tome Haven Avenue a la I-10 al este, luego California Street — unas 24 millas y unos 31 minutos al este. El trayecto es al este. La I-15 y la I-210 son corredores de choques en esta página, no la ruta a la oficina. Llame al (909) 915-0181. Inglés o español. Solo dos prácticas: lesiones personales y bancarrota. Usted habla con él. Los casos de lesiones son a contingencia: sin honorarios a menos que ganemos.',
     ],
     sections: [
       {
         h2: 'Choques de camiones en la I-15, la I-210 y la I-10',
         paragraphs: [
-          'El tráfico de camiones comerciales en la I-15, la I-210 y los accesos a la I-10 produce las colisiones de carga que lideran este expediente. El vacío de camiones en Rancho Cucamonga en búsqueda en vivo es real, y estos choques pertenecen aquí. Después de una colisión grave, preserve la descarga del ECM, las grabaciones de dashcam y el expediente de calificación del conductor antes de que las aseguradoras dispersen la evidencia. Este es el conjunto I-15 / I-210 / I-10 de Rancho — no la página de carga de Fontana en la I-10 / I-15 / Sierra, no Colton Crossing / Mt Vernon, no la I-210 / SR-210 / Base Line de Highland, no la SR-60 / I-215 de Moreno Valley, ni el conjunto 60 / 91 / 215 de Riverside. Las demandas por muerte injusta y lesión cerebral traumática de estos choques permanecen en esta URL.',
+          'El tráfico de camiones comerciales en la I-15, la I-210 y los accesos a la I-10 a través de Haven Avenue, Foothill Boulevard y los corredores de almacenes de Ontario / Rancho produce las colisiones de carga que lideran este expediente. La presión de incorporación en el conjunto I-15 / I-210 / I-10 y el tráfico de distribución en Haven empujan choques por alcance y arrastre antes de que la carga despeje los corredores del valle. Después de una colisión grave, preserve la descarga del ECM, las grabaciones de dashcam y el expediente de calificación del conductor antes de que las aseguradoras dispersen la evidencia. Las demandas civiles ilimitadas de Rancho Cucamonga se presentan en el Tribunal Superior del Condado de San Bernardino, 8303 Haven Avenue — unas 0.2 millas y un minuto al noreste desde City Hall de Rancho Cucamonga en 10500 Civic Center Drive, adyacente en Haven. Este es el conjunto I-15 / I-210 / I-10 de Rancho — no la página de carga de Fontana en la I-10 / I-15 / Sierra, no Colton Crossing / Mt Vernon, no la I-210 / SR-210 / Base Line de Highland, no la SR-60 / I-215 de Moreno Valley, ni el conjunto 60 / 91 / 215 de Riverside. Las demandas por muerte injusta y lesión cerebral traumática de estos choques permanecen en esta URL.',
         ],
       },
       {
@@ -1516,7 +1516,7 @@ const PI_ES: Record<CitySlug, CityPageCopy> = {
       {
         h2: 'Muerte injusta — legitimación bajo el CCP §377.60 en 8303 Haven Avenue',
         paragraphs: [
-          'Quién puede presentar la demanda se confirma en la consulta bajo el Código de Procedimiento Civil de California §377.60 — no inventamos veredictos ni historias de acuerdos. Los expedientes civiles de Rancho Cucamonga se presentan en el Tribunal Superior del Condado de San Bernardino, 8303 Haven Avenue — no en 247 W. 3rd St. en San Bernardino, no en Arrow Boulevard, y no en 4050 Main Street en Riverside. El CCP §335.1 da dos años a la mayoría de las víctimas; una entidad pública puede exigir aviso escrito de seis meses bajo el Código de Gobierno §911.2.',
+          'Quién puede presentar la demanda se confirma en la consulta bajo el Código de Procedimiento Civil de California §377.60 — no inventamos veredictos ni historias de acuerdos. Los expedientes civiles ilimitados de Rancho Cucamonga se presentan en el Tribunal Superior del Condado de San Bernardino, 8303 Haven Avenue — no en 247 W. 3rd St. en San Bernardino, no en 4050 Main Street en Riverside, no en Tahquitz Canyon Way, no en Oasis Street, no en Arrow Boulevard, y no en 400 N. Pepper. El tribunal está unas 0.2 millas y un minuto al noreste de City Hall de Rancho Cucamonga en 10500 Civic Center Drive — adyacente en Haven Avenue. El plazo general de dos años del CCP §335.1 rige la mayoría de las demandas por lesiones; contra una entidad pública puede hacer falta aviso escrito de seis meses conforme al Código de Gobierno §911.2 antes de demandar.',
         ],
       },
       {
@@ -1534,7 +1534,7 @@ const PI_ES: Record<CitySlug, CityPageCopy> = {
       {
         h2: '(909) 915-0181 — Orange Tree Lane, al este',
         paragraphs: [
-          'Horario: lunes a viernes 9am–6pm, sábado 10am–4pm, domingo con cita. Lesiones graves pueden contactar la oficina las 24 horas para consulta de emergencia. Si el mismo choque hunde el hogar, la misma llamada al (909) 915-0181 presenta el Capítulo 7 o 13 en 3420 Twelfth Street, Riverside. Palm Springs es la segunda oficina — 1276 N Palm Canyon Dr #107, (760) 835-9353.',
+          'Horario: lunes a viernes 9am–6pm, sábado 10am–4pm, domingo con cita. Lesiones graves pueden contactar la oficina las 24 horas para consulta de emergencia. Desde Rancho Cucamonga, la consulta es unas 24 millas y unos 31 minutos al este por Haven Avenue, la I-10 al este y California Street — no un local en Rancho Cucamonga. Si el mismo choque hunde el hogar, la misma llamada al (909) 915-0181 presenta el Capítulo 7 o 13 en el Tribunal de Bancarrota de EE. UU., 3420 Twelfth Street, Riverside — unas 20 millas y unos 29 minutos al sureste. Palm Springs es solo la segunda oficina — 1276 N Palm Canyon Dr #107, (760) 835-9353.',
         ],
       },
     ],
