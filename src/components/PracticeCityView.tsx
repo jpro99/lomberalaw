@@ -135,7 +135,8 @@ export async function PracticeCityView({
       resolvedCitySlug === 'cathedral-city' ||
       resolvedCitySlug === 'desert-hot-springs' ||
       resolvedCitySlug === 'yucaipa' ||
-      resolvedCitySlug === 'la-quinta')
+      resolvedCitySlug === 'la-quinta' ||
+      resolvedCitySlug === 'ontario')
   const homeCrumb = locale === 'es' ? 'Inicio' : 'Home'
   const practiceCrumb =
     practiceSlug === 'personal-injury' ? copy.nav.personalInjury : copy.nav.bankruptcy

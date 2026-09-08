@@ -30,7 +30,7 @@ const CAR_ACCIDENT_CITY_TARGETS = [
   ['desert-hot-springs', '/personal-injury/car-accidents/'],
   ['rancho-cucamonga', '/personal-injury/car-accidents/'],
   ['yucaipa', '/personal-injury/yucaipa/'],
-  ['ontario', '/personal-injury/car-accidents/'],
+  ['ontario', '/personal-injury/ontario/'],
   ['la-quinta', '/personal-injury/la-quinta/'],
   ['rancho-mirage', '/personal-injury/car-accidents/'],
   ['indian-wells', '/personal-injury/car-accidents/'],
