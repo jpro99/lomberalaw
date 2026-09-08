@@ -1,4 +1,5 @@
 import type { Locale } from './payload'
+import { isBkCitySlug, isPiCitySlug, normalizeCitySlug } from './cityBodyCopy'
 import { SITE_URL } from './staticData'
 
 /** English service slug → live Spanish URL segment under /es/lesiones-personales/ */
@@ -47,6 +48,14 @@ function normalizePath(path: string) {
   return trimmed.startsWith('/') ? trimmed : `/${trimmed}`
 }
 
+function isPracticeCitySlug(
+  practice: 'personal-injury' | 'bankruptcy',
+  segment: string,
+): boolean {
+  const slug = normalizeCitySlug(segment)
+  return practice === 'personal-injury' ? isPiCitySlug(slug) : isBkCitySlug(slug)
+}
+
 function translatePracticeSegments(
   practice: 'personal-injury' | 'bankruptcy',
   segments: string[],
@@ -54,9 +63,21 @@ function translatePracticeSegments(
 ): string[] {
   const map = practice === 'personal-injury' ? (toSpanish ? EN_TO_ES_PI_SERVICE : ES_TO_EN_PI_SERVICE) : (toSpanish ? EN_TO_ES_BK_SERVICE : ES_TO_EN_BK_SERVICE)
   return segments.map((segment, index) => {
+    if (isPracticeCitySlug(practice, segment)) return normalizeCitySlug(segment)
     if (index === 0) return map[segment] ?? segment
     return segment
   })
+}
+
+/** Live Spanish PI city hubs served from /es/lesiones-personales/{city}/ (not middleware rewrite). */
+const SPANISH_STATIC_PI_CITY_SLUGS = new Set(['indio'])
+
+/** True when the live Spanish PI URL is a static city hub under lesiones-personales. */
+export function isSpanishPiCityPath(pathname: string): boolean {
+  if (!pathname.startsWith('/es/lesiones-personales/')) return false
+  const rest = pathname.slice('/es/lesiones-personales/'.length).replace(/\/$/, '')
+  const first = rest.split('/').filter(Boolean)[0]
+  return Boolean(first && SPANISH_STATIC_PI_CITY_SLUGS.has(normalizeCitySlug(first)))
 }
 
 /** Convert an English internal path to the live Spanish canonical path. */
@@ -126,6 +147,7 @@ export function practiceCityHref(
 /** Rewrite live Spanish PI/BK URLs to internal /es/{practice}/… routes. */
 export function rewriteSpanishPracticePath(pathname: string): string | null {
   if (pathname.startsWith('/es/lesiones-personales/')) {
+    if (isSpanishPiCityPath(pathname)) return null
     const rest = pathname.slice('/es/lesiones-personales/'.length).replace(/\/$/, '')
     const segments = rest ? rest.split('/') : []
     const translated = translatePracticeSegments('personal-injury', segments, false)
