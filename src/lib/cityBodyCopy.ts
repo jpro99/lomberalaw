@@ -26,6 +26,7 @@ type CitySlug =
   | 'colton'
   | 'desert-hot-springs'
   | 'rancho-cucamonga'
+  | 'rancho-mirage'
   | 'yucaipa'
   | 'la-quinta'
   | 'ontario'
@@ -56,6 +57,7 @@ const CITY_NAMES: Record<CitySlug, { en: string; es: string }> = {
   colton: { en: 'Colton', es: 'Colton' },
   'desert-hot-springs': { en: 'Desert Hot Springs', es: 'Desert Hot Springs' },
   'rancho-cucamonga': { en: 'Rancho Cucamonga', es: 'Rancho Cucamonga' },
+  'rancho-mirage': { en: 'Rancho Mirage', es: 'Rancho Mirage' },
   yucaipa: { en: 'Yucaipa', es: 'Yucaipa' },
   'la-quinta': { en: 'La Quinta', es: 'La Quinta' },
   ontario: { en: 'Ontario', es: 'Ontario' },
@@ -956,6 +958,53 @@ const PI_EN: Record<CitySlug, CityPageCopy> = {
       },
     ],
   },
+  'rancho-mirage': {
+    h1: 'Rancho Mirage personal injury lawyer',
+    title: 'Rancho Mirage Personal Injury Lawyer | Free Case Call | Lombera Law',
+    description:
+      'Truck, Uber, wrongful death, and catastrophic injury from I-10 / Highway 111 crashes in Rancho Mirage. Meet at 1276 N Palm Canyon Dr #107, Palm Springs — about 10.5 miles and 18 minutes northwest. (760) 835-9353.',
+    lead: [
+      'There is no Lombera storefront in Rancho Mirage. After a Rancho Mirage wreck, meet Edgar P. Lombera at 1276 N Palm Canyon Dr #107, Palm Springs, CA 92262. From Rancho Mirage City Hall at 69-825 Highway 111 — civic reference only, not our address — take East Palm Canyon Drive, Gene Autry Trail, Vista Chino / CA-111, and N Palm Canyon Drive — about 10.5 miles and 18 minutes northwest. The drive is northwest. I-10, Highway 111, and the resort retail connectors through Rancho Mirage are crash corridors on this page, not the route to the Palm Canyon office. Call (760) 835-9353. English or Spanish. Two practices only: personal injury and bankruptcy. You speak with him. Injury cases run on contingency: no fee unless we win.',
+    ],
+    sections: [
+      {
+        h2: 'Truck wrecks on I-10 and Highway 111',
+        paragraphs: [
+          'Commercial truck traffic on I-10 and Highway 111 through Rancho Mirage produces the freight collisions that lead this docket. Resort retail delivery cycles, golf-community access roads, and I-10 merge pressure at valley connectors produce rear-end and override events before freight clears the corridor. After a serious collision, preserve the ECM download, dashcam footage, and the driver qualification file before insurers scatter the evidence. Unlimited civil lawsuits from Rancho Mirage file at Riverside County Superior Court — Palm Springs Courthouse, 3255 E. Tahquitz Canyon Way — about 7 miles and 13 minutes northwest from Rancho Mirage City Hall at 69-825 Highway 111. This is Rancho Mirage\u2019s I-10 / 111 corridor — not Indio\u2019s Jackson grid, not a San Bernardino freight page, and not Fontana or Colton warehouse copy. Wrongful death and traumatic brain injury claims from these wrecks stay on this URL.',
+        ],
+      },
+      {
+        h2: 'Uber and Lyft on Highway 111 and the resort retail connectors',
+        paragraphs: [
+          'Whether the driver had the app on changes which insurer must respond — we confirm coverage in the consult, not in marketing copy with dollar figures. Highway 111, Gerald Ford Drive, Dinah Shore Drive, and the Monterey corridor stack rideshare pickups between golf-resort drop-offs, seasonal tourism, and weekend event traffic. Rancho Mirage rideshare claims stay on /personal-injury/rancho-mirage/. We do not invent a /uber/ page.',
+        ],
+      },
+      {
+        h2: 'Wrongful death — standing under CCP §377.60 at 3255 E. Tahquitz Canyon Way',
+        paragraphs: [
+          'Who may bring the suit is confirmed in the consult under California Code of Civil Procedure §377.60 — we do not invent verdicts or settlement stories. Unlimited civil files for Rancho Mirage are filed at Riverside County Superior Court — Palm Springs Courthouse, 3255 E. Tahquitz Canyon Way — not Oasis Street, not Larson Justice Center limited civil, not 4050 Main Street, not 247 W. 3rd St., not 8303 Haven Avenue, and not the Indio Division. The courthouse sits about 7 miles and 13 minutes northwest from Rancho Mirage City Hall at 69-825 Highway 111.',
+        ],
+      },
+      {
+        h2: 'Catastrophic injury — TBI, spinal cord, lost limb',
+        paragraphs: [
+          'Traumatic brain injury, spinal cord injury, and amputation are damages outcomes handled on this URL only — not a separate /catastrophic-injury/ landing page. An I-10 or Highway 111 corridor collision can leave lifetime medical needs and lost earning capacity that insurers undervalue early. Initial trauma care often starts at Eisenhower Health before the long-term damages picture is clear. Future medical care, life-care planning, and vocational loss drive the case insurers try to close early. This is not medical advice.',
+        ],
+      },
+      {
+        h2: 'Car, motorcycle, and Civil Code §3342 dog bites',
+        paragraphs: [
+          'After the four primary claim types, car collisions, motorcycle crashes, and dog bites under California Civil Code §3342 round out the docket. Lane-splitting on a motorcycle is legal when done safely; wearing a helmet does not flip fault. We do not handle slip-and-fall claims. CCP §335.1 gives most Rancho Mirage injury victims two years from the date of harm — confirm your deadline in the consult before evidence goes stale; a public entity may require six-month written notice under Government Code §911.2.',
+        ],
+      },
+      {
+        h2: '(760) 835-9353 — 1276 N Palm Canyon Dr #107, northwest',
+        paragraphs: [
+          'Hours: Monday–Friday 9am–6pm, Saturday 10am–4pm, Sunday by appointment. Serious injuries can reach the office 24/7 for an emergency consult. From Rancho Mirage, the consultation is about 10.5 miles and 18 minutes northwest via East Palm Canyon Drive, Gene Autry Trail, Vista Chino / CA-111, and N Palm Canyon Drive — not a Rancho Mirage storefront. If the same wreck sinks the household, the same (760) 835-9353 call files Chapter 7 or Chapter 13 at the U.S. Bankruptcy Court, 3420 Twelfth Street, Riverside — about 63 miles and 79 minutes west-northwest. Redlands is the second office only — 2068 Orange Tree Lane, Suite 220, (909) 915-0181 — about 57 miles and 68 minutes west-northwest.',
+        ],
+      },
+    ],
+  },
 }
 
 const BK_EN: Record<CitySlug, CityPageCopy> = {
@@ -1728,6 +1777,48 @@ const BK_EN: Record<CitySlug, CityPageCopy> = {
         h2: '(760) 835-9353 — 1276 N Palm Canyon Dr #107',
         paragraphs: [
           'Hours: Monday–Friday 9am–6pm, Saturday 10am–4pm, Sunday by appointment. From Coachella, the consultation is about 28.5 miles and 35 minutes west-northwest on Enterprise Way, Avenue 52, SR-86, the I-10 west, Vista Chino, and Palm Canyon — sit-down at the Palm Canyon office, not a federal courthouse address. Redlands is the other office — 2068 Orange Tree Lane, Suite 220, (909) 915-0181. ' +
+            DEBT_RELIEF,
+        ],
+      },
+    ],
+  },
+  'rancho-mirage': {
+    h1: 'Rancho Mirage Bankruptcy Lawyer',
+    title: 'Rancho Mirage Bankruptcy Lawyer | Chapter 7 & Chapter 13 | Coachella Valley | Lombera',
+    description:
+      'Chapter 7 and Chapter 13 bankruptcy for Rancho Mirage households. Prepared at 1276 N Palm Canyon Dr #107, Palm Springs; filed at 3420 Twelfth Street, Riverside. Garnishment and foreclosure relief. (760) 835-9353.',
+    lead: [
+      'Rancho Mirage wage garnishments and foreclosure notices are state-court collection until a federal petition is filed. Meet Edgar P. Lombera at 1276 N Palm Canyon Dr #107, Palm Springs, CA 92262 — about 10.5 miles and 18 minutes northwest from Rancho Mirage via East Palm Canyon Drive, Gene Autry Trail, Vista Chino, and Palm Canyon. He prepares Chapter 7 and Chapter 13 at that Palm Springs desk. You speak with him. English or Spanish. Two practices only: personal injury and bankruptcy. There is no Lombera storefront in Rancho Mirage. Every consumer case files at the U.S. Bankruptcy Court, 3420 Twelfth Street, Riverside — about 63 miles and 79 minutes west-northwest from the Palm Canyon office. Call (760) 835-9353.',
+    ],
+    sections: [
+      {
+        h2: 'Chapter 7 — means test and no-asset discharge',
+        paragraphs: [
+          'Chapter 7 clears most unsecured debt when the household passes the means test — credit cards, valley medical bills, and deficiency balances after a vehicle repo. This is a Rancho Mirage household review at the Palm Canyon desk. A typical no-asset case discharges in about 90 to 120 days when the trustee accepts the petition.',
+        ],
+      },
+      {
+        h2: 'Chapter 13 — plan, arrears, and cramdown',
+        paragraphs: [
+          'Chapter 13 folds mortgage arrears into a three-to-five-year court plan and can cram down certain secured balances where the Bankruptcy Code allows — common when a Rancho Mirage household still has wages from hospitality, golf-resort, or seasonal valley work but fell behind during a medical event or HOA pressure cycle. The plan is the relief, not a foreclosure-defense add-on sold separately.',
+        ],
+      },
+      {
+        h2: 'Automatic stay — garnishment, foreclosure, repossession',
+        paragraphs: [
+          'The automatic stay begins the day the petition is filed — wage garnishments tied to Rancho Mirage employers, scheduled foreclosure sales, and repossession timelines pause for most creditors. Filing before the next paycheck or sale date protects lead time that waiting burns.',
+        ],
+      },
+      {
+        h2: 'Where Rancho Mirage files — 3420 Twelfth Street, Riverside',
+        paragraphs: [
+          'Every Rancho Mirage consumer bankruptcy files at the U.S. Bankruptcy Court, Central District of California, 3420 Twelfth Street, Riverside — about 63 miles and 79 minutes west-northwest via Highway 111 and the I-10 from the desk at 1276 N Palm Canyon Dr in Palm Springs. That building is the courthouse, not a Lombera suite. There is no bankruptcy court in Rancho Mirage. Official court filing fees are $338 for Chapter 7 and $313 for Chapter 13. The Section 341 meeting of creditors is often held remotely.',
+        ],
+      },
+      {
+        h2: '(760) 835-9353 — 1276 N Palm Canyon Dr #107',
+        paragraphs: [
+          'Hours: Monday–Friday 9am–6pm, Saturday 10am–4pm, Sunday by appointment. From Rancho Mirage, the consultation is about 10.5 miles and 18 minutes northwest on East Palm Canyon Drive, Gene Autry Trail, Vista Chino, and Palm Canyon — sit-down at the Palm Canyon office, not a federal courthouse address. Redlands is the other office — 2068 Orange Tree Lane, Suite 220, (909) 915-0181. ' +
             DEBT_RELIEF,
         ],
       },
@@ -2629,6 +2720,53 @@ const PI_ES: Record<CitySlug, CityPageCopy> = {
       },
     ],
   },
+  'rancho-mirage': {
+    h1: 'Abogado de lesiones personales en Rancho Mirage',
+    title: 'Abogado de Lesiones Personales en Rancho Mirage | Lombera Law',
+    description:
+      'Camiones, Uber, muerte injusta y lesiones catastróficas en choques de la I-10 / Carretera 111 en Rancho Mirage. Oficina en 1276 N Palm Canyon Dr #107, Palm Springs — unas 10.5 millas y unos 18 minutos al noroeste. (760) 835-9353.',
+    lead: [
+      'No hay local de Lombera en Rancho Mirage. Después de un choque en Rancho Mirage, reúnase con Edgar P. Lombera en 1276 N Palm Canyon Dr #107, Palm Springs, CA 92262. Desde el Ayuntamiento de Rancho Mirage en 69-825 Highway 111 — referencia cívica solamente, no nuestra dirección — tome East Palm Canyon Drive, Gene Autry Trail, Vista Chino / CA-111 y N Palm Canyon Drive — unas 10.5 millas y unos 18 minutos al noroeste. El trayecto es al noroeste. La I-10, la Carretera 111 y los conectores comerciales de resort en Rancho Mirage son corredores de choques en esta página, no la ruta a la oficina de Palm Canyon. Llame al (760) 835-9353. Inglés o español. Solo dos prácticas: lesiones personales y bancarrota. Usted habla con él. Los casos de lesiones son a contingencia: sin honorarios a menos que ganemos.',
+    ],
+    sections: [
+      {
+        h2: 'Choques de camiones en la I-10 y la Carretera 111',
+        paragraphs: [
+          'El tráfico de camiones comerciales en la I-10 y la Carretera 111 a través de Rancho Mirage produce las colisiones de carga que lideran este expediente. Los ciclos de entrega comercial de resort, las vías de acceso a comunidades de golf y la presión de incorporación en la I-10 en los conectores del valle producen choques por alcance y arrastre antes de que la carga despeje el corredor. Después de una colisión grave, preserve la descarga del ECM, las grabaciones de dashcam y el expediente de calificación del conductor antes de que las aseguradoras dispersen la evidencia. Las demandas civiles ilimitadas de Rancho Mirage se presentan en el Tribunal Superior del Condado de Riverside — Tribunal de Palm Springs, 3255 E. Tahquitz Canyon Way — unas 7 millas y unos 13 minutos al noroeste desde el Ayuntamiento de Rancho Mirage en 69-825 Highway 111. Este es el corredor I-10 / 111 de Rancho Mirage — no la cuadrícula Jackson de Indio, no una página de carga de San Bernardino, ni la copia de almacén de Fontana o Colton. Las demandas por muerte injusta y lesión cerebral traumática de estos choques permanecen en esta URL.',
+        ],
+      },
+      {
+        h2: 'Uber y Lyft en la Carretera 111 y los conectores comerciales de resort',
+        paragraphs: [
+          'Si el conductor tenía la aplicación activada cambia qué aseguradora debe responder — confirmamos la cobertura en la consulta, no con cifras de marketing. La Carretera 111, Gerald Ford Drive, Dinah Shore Drive y el corredor de Monterey concentran recogidas de rideshare entre entregas en resorts de golf, turismo estacional y tráfico de eventos de fin de semana. Los reclamos de rideshare de Rancho Mirage permanecen en /es/lesiones-personales/rancho-mirage/. No inventamos una página /uber/.',
+        ],
+      },
+      {
+        h2: 'Muerte injusta — legitimación bajo el CCP §377.60 en 3255 E. Tahquitz Canyon Way',
+        paragraphs: [
+          'Quién puede presentar la demanda se confirma en la consulta bajo el Código de Procedimiento Civil de California §377.60 — no inventamos veredictos ni historias de acuerdos. Los expedientes civiles ilimitados de Rancho Mirage se presentan en el Tribunal Superior del Condado de Riverside — Tribunal de Palm Springs, 3255 E. Tahquitz Canyon Way — no en Oasis Street, no en Larson Justice Center de jurisdicción limitada, no en 4050 Main Street, no en 247 W. 3rd St., no en 8303 Haven Avenue, y no en la División Indio. El tribunal está unas 7 millas y unos 13 minutos al noroeste del Ayuntamiento de Rancho Mirage en 69-825 Highway 111. El plazo general de dos años del CCP §335.1 rige la mayoría de las demandas por lesiones; contra una entidad pública puede hacer falta aviso escrito de seis meses conforme al Código de Gobierno §911.2 antes de demandar.',
+        ],
+      },
+      {
+        h2: 'Lesiones catastróficas — cerebral, médula, pérdida de miembro',
+        paragraphs: [
+          'La lesión cerebral traumática, la lesión de médula espinal y la amputación son resultados de daños manejados solo en esta URL — no una página separada de /lesiones-catastroficas/. Una colisión en el corredor I-10 / Carretera 111 puede dejar necesidades médicas de por vida y capacidad de ingreso perdida que las aseguradoras subvaloran al principio. La atención inicial de trauma suele comenzar en Eisenhower Health antes de que el panorama de daños a largo plazo quede claro. La atención médica futura, la planificación de cuidados y la pérdida vocacional impulsan el caso que las aseguradoras intentan cerrar pronto. Esto no es consejo médico.',
+        ],
+      },
+      {
+        h2: 'Auto, motocicleta y mordeduras — Código Civil §3342',
+        paragraphs: [
+          'Después de los cuatro tipos principales de reclamo, choques de auto, accidentes de motocicleta y mordeduras de perro bajo el Código Civil de California §3342 completan el expediente. Circular entre carriles en motocicleta es legal cuando se hace con seguridad; usar casco no invierte la culpa. No manejamos reclamos por resbalones y caídas.',
+        ],
+      },
+      {
+        h2: '(760) 835-9353 — 1276 N Palm Canyon Dr #107, al noroeste',
+        paragraphs: [
+          'Horario: lunes a viernes 9am–6pm, sábado 10am–4pm, domingo con cita. Lesiones graves pueden contactar la oficina las 24 horas para consulta de emergencia. Desde Rancho Mirage, la consulta es unas 10.5 millas y unos 18 minutos al noroeste por East Palm Canyon Drive, Gene Autry Trail, Vista Chino / CA-111 y N Palm Canyon Drive — no un local en Rancho Mirage. Si el mismo choque hunde el hogar, la misma llamada al (760) 835-9353 presenta el Capítulo 7 o 13 en el Tribunal de Bancarrota de EE. UU., 3420 Twelfth Street, Riverside — unas 63 millas y unos 79 minutos al oeste-noroeste. Redlands es solo la segunda oficina — 2068 Orange Tree Lane, Suite 220, (909) 915-0181 — unas 57 millas y unos 68 minutos al oeste-noroeste.',
+        ],
+      },
+    ],
+  },
 }
 
 const BK_ES: Record<CitySlug, CityPageCopy> = {
@@ -3384,6 +3522,47 @@ const BK_ES: Record<CitySlug, CityPageCopy> = {
         h2: '(760) 835-9353 — 1276 N Palm Canyon Dr #107',
         paragraphs: [
           'Horario: lunes a viernes 9am–6pm, sábado 10am–4pm, domingo con cita. Desde Coachella, la consulta es unas 28.5 millas y unos 35 minutos al oeste-noroeste por Enterprise Way, Avenue 52, SR-86, la I-10 al oeste, Vista Chino y Palm Canyon — en el escritorio de Palm Canyon, no una dirección de tribunal federal. Redlands es la otra oficina — 2068 Orange Tree Lane, Suite 220, (909) 915-0181. Somos una agencia de alivio de deudas. Ayudamos a las personas a solicitar alivio de bancarrota bajo el Código de Bancarrota (11 U.S.C. §528).',
+        ],
+      },
+    ],
+  },
+  'rancho-mirage': {
+    h1: 'Abogado de Bancarrota en Rancho Mirage',
+    title: 'Abogado de Bancarrota Rancho Mirage | Capítulo 7 y Capítulo 13 | Valle de Coachella | Lombera',
+    description:
+      'Capítulo 7 y Capítulo 13 para hogares de Rancho Mirage. Preparado en 1276 N Palm Canyon Dr #107, Palm Springs; presentado en 3420 Twelfth Street, Riverside. Alivio de embargo y ejecución hipotecaria. (760) 835-9353.',
+    lead: [
+      'Los embargos de salario y avisos de ejecución hipotecaria en Rancho Mirage son cobranza del tribunal estatal hasta que se presenta una petición federal. Reúnase con Edgar P. Lombera en 1276 N Palm Canyon Dr #107, Palm Springs, CA 92262 — unas 10.5 millas y unos 18 minutos al noroeste desde Rancho Mirage por East Palm Canyon Drive, Gene Autry Trail, Vista Chino y Palm Canyon. Él prepara el Capítulo 7 y el Capítulo 13 en ese escritorio de Palm Springs. Usted habla con él. Inglés o español. Solo dos prácticas: lesiones personales y bancarrota. No hay local de Lombera en Rancho Mirage. Todo caso de consumidor se presenta en el Tribunal de Bancarrota de EE. UU., 3420 Twelfth Street, Riverside — unas 63 millas y unos 79 minutos al oeste-noroeste desde la oficina de Palm Canyon. Llame al (760) 835-9353.',
+    ],
+    sections: [
+      {
+        h2: 'Capítulo 7 — prueba de medios y eliminación sin activos',
+        paragraphs: [
+          'El Capítulo 7 elimina la mayor parte de la deuda no garantizada cuando el hogar pasa la prueba de medios — tarjetas de crédito, facturas médicas del valle y saldos de deficiencia tras la recuperación de un vehículo. Esta es una revisión de hogar de Rancho Mirage en el escritorio de Palm Canyon. Un caso típico sin activos se elimina en unos 90 a 120 días cuando el síndico acepta la petición.',
+        ],
+      },
+      {
+        h2: 'Capítulo 13 — plan, atrasos y reducción forzada del saldo garantizado',
+        paragraphs: [
+          'El Capítulo 13 incorpora los atrasos de la hipoteca en un plan judicial de tres a cinco años y puede reducir de forma forzada ciertos saldos garantizados donde el Código de Bancarrota lo permite — frecuente cuando un hogar de Rancho Mirage aún tiene salarios de hospitalidad, resort de golf o trabajo estacional del valle pero se atrasó durante un evento médico o un ciclo de presión de la HOA. El plan es el alivio, no un complemento de defensa de ejecución hipotecaria vendido por separado.',
+        ],
+      },
+      {
+        h2: 'Suspensión automática — embargo, ejecución hipotecaria, recuperación de vehículo',
+        paragraphs: [
+          'La suspensión automática comienza el día que se presenta la petición — los embargos de salario vinculados a empleadores de Rancho Mirage, las ventas de ejecución hipotecaria programadas y los plazos de recuperación de vehículos se pausan para la mayoría de los acreedores. Presentar antes del próximo cheque o fecha de venta protege el tiempo que esperar consumiría.',
+        ],
+      },
+      {
+        h2: 'Dónde presenta Rancho Mirage — 3420 Twelfth Street, Riverside',
+        paragraphs: [
+          'Toda bancarrota de consumidor de Rancho Mirage se presenta en el Tribunal de Bancarrota de EE. UU., Distrito Central de California, 3420 Twelfth Street, Riverside — unas 63 millas y unos 79 minutos al oeste-noroeste por la Carretera 111 y la I-10 desde el escritorio en 1276 N Palm Canyon Dr en Palm Springs. Ese edificio es el tribunal, no una suite de Lombera. No hay tribunal de bancarrota en Rancho Mirage. Las tarifas oficiales de presentación judicial son $338 para el Capítulo 7 y $313 para el Capítulo 13. La reunión de acreedores de la Sección 341 suele ser remota.',
+        ],
+      },
+      {
+        h2: '(760) 835-9353 — 1276 N Palm Canyon Dr #107',
+        paragraphs: [
+          'Horario: lunes a viernes 9am–6pm, sábado 10am–4pm, domingo con cita. Desde Rancho Mirage, la consulta es unas 10.5 millas y unos 18 minutos al noroeste por East Palm Canyon Drive, Gene Autry Trail, Vista Chino y Palm Canyon — en el escritorio de Palm Canyon, no una dirección de tribunal federal. Redlands es la otra oficina — 2068 Orange Tree Lane, Suite 220, (909) 915-0181. Somos una agencia de alivio de deudas. Ayudamos a las personas a solicitar alivio de bancarrota bajo el Código de Bancarrota (11 U.S.C. §528).',
         ],
       },
     ],

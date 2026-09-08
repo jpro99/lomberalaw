@@ -14,6 +14,7 @@ export const HOME_CITY_SLUGS = [
   'yucaipa',
   'palm-springs',
   'palm-desert',
+  'rancho-mirage',
   'cathedral-city',
   'indio',
   'coachella',
