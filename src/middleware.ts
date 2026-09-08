@@ -1,5 +1,5 @@
 import { NextResponse, type NextRequest } from 'next/server'
-import { rewriteSpanishPracticePath } from './lib/spanishPaths'
+import { isSpanishPiCityPath, rewriteSpanishPracticePath } from './lib/spanishPaths'
 
 // Spanish live paths use translated slugs — rewrite to internal [locale] routes
 // while keeping the URL bar on the live /es/* path.
@@ -46,7 +46,11 @@ export function middleware(request: NextRequest) {
         return NextResponse.rewrite(url)
       }
     }
-    const rewritten = rewriteSpanishPracticePath(pathname.endsWith('/') ? pathname : `${pathname}/`)
+    const spanishPath = pathname.endsWith('/') ? pathname : `${pathname}/`
+    if (isSpanishPiCityPath(spanishPath)) {
+      return NextResponse.next()
+    }
+    const rewritten = rewriteSpanishPracticePath(spanishPath)
     if (rewritten) {
       const url = request.nextUrl.clone()
       url.pathname = rewritten
