@@ -37,6 +37,7 @@ export const LIVE_CITY_SLUGS = [
   'yucaipa',
   'la-quinta',
   'ontario',
+  'coachella',
 ]
 
 const PI_HUB = '/es/lesiones-personales/'

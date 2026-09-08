@@ -25,6 +25,7 @@ const STATIC_CITY_DATA: Record<string, { name: string; county: string }> = {
   'desert-hot-springs': { name: 'Desert Hot Springs', county: 'Riverside County' },
   'rancho-cucamonga': { name: 'Rancho Cucamonga', county: 'San Bernardino County' },
   yucaipa: { name: 'Yucaipa', county: 'San Bernardino County' },
+  coachella: { name: 'Coachella', county: 'Riverside County' },
 }
 
 function staticCities() {

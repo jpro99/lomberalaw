@@ -43,6 +43,7 @@ export const STATIC_CITY_SLUGS = [
   'desert-hot-springs',
   'rancho-cucamonga',
   'yucaipa',
+  'coachella',
 ] as const
 
 export const STATIC_PI_SERVICES = [

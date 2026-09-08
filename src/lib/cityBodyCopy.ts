@@ -29,6 +29,7 @@ type CitySlug =
   | 'yucaipa'
   | 'la-quinta'
   | 'ontario'
+  | 'coachella'
 
 const REDLANDS_NAP =
   '2068 Orange Tree Lane, Suite 220, Redlands, CA 92374 — (909) 915-0181'
@@ -58,6 +59,7 @@ const CITY_NAMES: Record<CitySlug, { en: string; es: string }> = {
   yucaipa: { en: 'Yucaipa', es: 'Yucaipa' },
   'la-quinta': { en: 'La Quinta', es: 'La Quinta' },
   ontario: { en: 'Ontario', es: 'Ontario' },
+  coachella: { en: 'Coachella', es: 'Coachella' },
 }
 
 const PI_EN: Record<CitySlug, CityPageCopy> = {
@@ -907,6 +909,53 @@ const PI_EN: Record<CitySlug, CityPageCopy> = {
       },
     ],
   },
+  coachella: {
+    h1: 'Coachella personal injury lawyer',
+    title: 'Coachella Personal Injury Lawyer | Free Case Call | Lombera Law',
+    description:
+      'Truck, Uber, wrongful death, and catastrophic injury from I-10 / SR-86 east-valley crashes in Coachella. Meet at 1276 N Palm Canyon Dr #107, Palm Springs — about 28.5 miles and 35 minutes west-northwest. (760) 835-9353.',
+    lead: [
+      'There is no Lombera storefront in Coachella. After a Coachella wreck, meet Edgar P. Lombera at 1276 N Palm Canyon Dr #107, Palm Springs, CA 92262. From the Coachella Civic Center at 53990 Enterprise Way — civic reference only, not our address — take Enterprise Way, Avenue 52, SR-86, the I-10 west, Date Palm Drive, Vista Chino / CA-111, and N Palm Canyon Drive — about 28.5 miles and 35 minutes west-northwest. The drive is west-northwest. I-10, SR-86, Avenue 52, Grapefruit Boulevard, and Harrison Street are crash corridors on this page, not the route to the Palm Canyon office. Call (760) 835-9353. English or Spanish. Two practices only: personal injury and bankruptcy. You speak with him. Injury cases run on contingency: no fee unless we win.',
+    ],
+    sections: [
+      {
+        h2: 'Truck wrecks on I-10 and the east-valley freight corridor',
+        paragraphs: [
+          'Avenue 52, the SR-86 connector, Harrison Street, and through-truck traffic on I-10 through the east valley produce the commercial collisions that lead this docket. Agricultural haulers, warehouse delivery cycles, and I-10 merge pressure at the SR-86 interchange push rear-end and override events before loads clear valley retail corridors. After a serious collision, preserve the ECM download, dashcam footage, and the driver qualification file before insurers scatter the evidence. Unlimited civil lawsuits from Coachella file at Riverside County Superior Court — Palm Springs Courthouse, 3255 E. Tahquitz Canyon Way — about 25.5 miles and 34 minutes west-northwest from the Coachella Civic Center at 53990 Enterprise Way. This is Coachella\u2019s I-10 / SR-86 east-valley corridor — not Indio\u2019s Jackson / Monroe festival grid, not La Quinta\u2019s Eisenhower resort stack, not Cathedral City\u2019s Date Palm / Ramon page, and not Fontana or Colton freight copy. Wrongful death and traumatic brain injury claims from these wrecks stay on this URL.',
+        ],
+      },
+      {
+        h2: 'Uber and Lyft on Harrison Street, Avenue 52, and Grapefruit Boulevard',
+        paragraphs: [
+          'Whether the driver had the app on changes which insurer must respond — we confirm coverage in the consult, not in marketing copy with dollar figures. Harrison Street, Avenue 52, Grapefruit Boulevard, and the SR-86 / I-10 connector stack rideshare pickups between east-valley commute runs, agricultural shift traffic, and weekend event surges. Coachella rideshare claims stay on /personal-injury/coachella/. We do not invent a /uber/ page.',
+        ],
+      },
+      {
+        h2: 'Wrongful death — standing under CCP §377.60 at 3255 E. Tahquitz Canyon Way',
+        paragraphs: [
+          'Who may bring the suit is confirmed in the consult under California Code of Civil Procedure §377.60 — we do not invent verdicts or settlement stories. Unlimited civil files for Coachella are filed at Riverside County Superior Court — Palm Springs Courthouse, 3255 E. Tahquitz Canyon Way — not 4050 Main Street, not 247 W. 3rd St., not 8303 Haven Avenue, not Oasis Street, and not the Indio Division. The courthouse sits about 25.5 miles and 34 minutes west-northwest from the Coachella Civic Center at 53990 Enterprise Way.',
+        ],
+      },
+      {
+        h2: 'Catastrophic injury — TBI, spinal cord, lost limb',
+        paragraphs: [
+          'Traumatic brain injury, spinal cord injury, and amputation are damages outcomes handled on this URL only — not a separate /catastrophic-injury/ landing page. An I-10 or SR-86 east-valley corridor collision can leave lifetime medical needs and lost earning capacity that insurers undervalue early. Future medical care, life-care planning, and vocational loss drive the case insurers try to close early. This is not medical advice.',
+        ],
+      },
+      {
+        h2: 'Car, motorcycle, and Civil Code §3342 dog bites',
+        paragraphs: [
+          'After the four primary claim types, car collisions, motorcycle crashes, and dog bites under California Civil Code §3342 round out the docket. Lane-splitting on a motorcycle is legal when done safely; wearing a helmet does not flip fault. We do not handle slip-and-fall claims. CCP §335.1 gives most Coachella injury victims two years from the date of harm — confirm your deadline in the consult before evidence goes stale; a public entity may require six-month written notice under Government Code §911.2.',
+        ],
+      },
+      {
+        h2: '(760) 835-9353 — 1276 N Palm Canyon Dr #107, west-northwest',
+        paragraphs: [
+          'Hours: Monday–Friday 9am–6pm, Saturday 10am–4pm, Sunday by appointment. Serious injuries can reach the office 24/7 for an emergency consult. From Coachella, the consultation is about 28.5 miles and 35 minutes west-northwest via Enterprise Way, Avenue 52, SR-86, the I-10 west, Date Palm Drive, Vista Chino / CA-111, and N Palm Canyon Drive — not a Coachella storefront. If the same wreck sinks the household, the same (760) 835-9353 call files Chapter 7 or Chapter 13 at the U.S. Bankruptcy Court, 3420 Twelfth Street, Riverside — about 79 miles and 92 minutes west-northwest. Redlands is the second office only — 2068 Orange Tree Lane, Suite 220, (909) 915-0181 — about 73 miles and 81 minutes west-northwest.',
+        ],
+      },
+    ],
+  },
 }
 
 const BK_EN: Record<CitySlug, CityPageCopy> = {
@@ -1638,6 +1687,48 @@ const BK_EN: Record<CitySlug, CityPageCopy> = {
         h2: '3420 Twelfth Street, Riverside',
         paragraphs: [
           'There is no bankruptcy court in Ontario or San Bernardino city. Consumer cases file at the U.S. Bankruptcy Court, Central District of California, Riverside — about 20.5 miles and 28 minutes east-southeast from Ontario. (909) 915-0181.',
+        ],
+      },
+    ],
+  },
+  coachella: {
+    h1: 'Coachella Bankruptcy Lawyer',
+    title: 'Coachella Bankruptcy Lawyer | Chapter 7 & Chapter 13 | Coachella Valley | Lombera',
+    description:
+      'Chapter 7 and Chapter 13 bankruptcy for Coachella households. Prepared at 1276 N Palm Canyon Dr #107, Palm Springs; filed at 3420 Twelfth Street, Riverside. Garnishment and foreclosure relief. (760) 835-9353.',
+    lead: [
+      'Coachella wage garnishments and foreclosure notices are state-court collection until a federal petition is filed. Meet Edgar P. Lombera at 1276 N Palm Canyon Dr #107, Palm Springs, CA 92262 — about 28.5 miles and 35 minutes west-northwest from Coachella via Enterprise Way, Avenue 52, SR-86, the I-10 west, Vista Chino, and Palm Canyon. He prepares Chapter 7 and Chapter 13 at that Palm Springs desk. You speak with him. English or Spanish. Two practices only: personal injury and bankruptcy. There is no Lombera storefront in Coachella. Every consumer case files at the U.S. Bankruptcy Court, 3420 Twelfth Street, Riverside — about 79 miles and 92 minutes west-northwest from the Palm Canyon office. Call (760) 835-9353.',
+    ],
+    sections: [
+      {
+        h2: 'Chapter 7 — means test and no-asset discharge',
+        paragraphs: [
+          'Chapter 7 clears most unsecured debt when the household passes the means test — credit cards, valley medical bills, and deficiency balances after a vehicle repo. This is a Coachella household review at the Palm Canyon desk. A typical no-asset case discharges in about 90 to 120 days when the trustee accepts the petition.',
+        ],
+      },
+      {
+        h2: 'Chapter 13 — plan, arrears, and cramdown',
+        paragraphs: [
+          'Chapter 13 folds mortgage arrears into a three-to-five-year court plan and can cram down certain secured balances where the Bankruptcy Code allows — common when a Coachella household still has wages from agricultural, warehouse, or seasonal valley work but fell behind during a medical event or HOA pressure cycle. The plan is the relief, not a foreclosure-defense add-on sold separately.',
+        ],
+      },
+      {
+        h2: 'Automatic stay — garnishment, foreclosure, repossession',
+        paragraphs: [
+          'The automatic stay begins the day the petition is filed — wage garnishments tied to Coachella employers, scheduled foreclosure sales, and repossession timelines pause for most creditors. Filing before the next paycheck or sale date protects lead time that waiting burns.',
+        ],
+      },
+      {
+        h2: 'Where Coachella files — 3420 Twelfth Street, Riverside',
+        paragraphs: [
+          'Every Coachella consumer bankruptcy files at the U.S. Bankruptcy Court, Central District of California, 3420 Twelfth Street, Riverside — about 79 miles and 92 minutes west-northwest via SR-86 and the I-10 from the desk at 1276 N Palm Canyon Dr in Palm Springs. That building is the courthouse, not a Lombera suite. There is no bankruptcy court in Coachella. Official court filing fees are $338 for Chapter 7 and $313 for Chapter 13. The Section 341 meeting of creditors is often held remotely.',
+        ],
+      },
+      {
+        h2: '(760) 835-9353 — 1276 N Palm Canyon Dr #107',
+        paragraphs: [
+          'Hours: Monday–Friday 9am–6pm, Saturday 10am–4pm, Sunday by appointment. From Coachella, the consultation is about 28.5 miles and 35 minutes west-northwest on Enterprise Way, Avenue 52, SR-86, the I-10 west, Vista Chino, and Palm Canyon — sit-down at the Palm Canyon office, not a federal courthouse address. Redlands is the other office — 2068 Orange Tree Lane, Suite 220, (909) 915-0181. ' +
+            DEBT_RELIEF,
         ],
       },
     ],
@@ -2491,6 +2582,53 @@ const PI_ES: Record<CitySlug, CityPageCopy> = {
       },
     ],
   },
+  coachella: {
+    h1: 'Abogado de lesiones personales en Coachella',
+    title: 'Abogado de Lesiones Personales en Coachella | Lombera Law',
+    description:
+      'Camiones, Uber, muerte injusta y lesiones catastróficas en choques de la I-10 / SR-86 del valle este en Coachella. Oficina en 1276 N Palm Canyon Dr #107, Palm Springs — unas 28.5 millas y unos 35 minutos al oeste-noroeste. (760) 835-9353.',
+    lead: [
+      'No hay local de Lombera en Coachella. Después de un choque en Coachella, reúnase con Edgar P. Lombera en 1276 N Palm Canyon Dr #107, Palm Springs, CA 92262. Desde el Centro Cívico de Coachella en 53990 Enterprise Way — referencia cívica solamente, no nuestra dirección — tome Enterprise Way, Avenue 52, SR-86, la I-10 al oeste, Date Palm Drive, Vista Chino / CA-111 y N Palm Canyon Drive — unas 28.5 millas y unos 35 minutos al oeste-noroeste. El trayecto es al oeste-noroeste. La I-10, la SR-86, Avenue 52, Grapefruit Boulevard y Harrison Street son corredores de choques en esta página, no la ruta a la oficina de Palm Canyon. Llame al (760) 835-9353. Inglés o español. Solo dos prácticas: lesiones personales y bancarrota. Usted habla con él. Los casos de lesiones son a contingencia: sin honorarios a menos que ganemos.',
+    ],
+    sections: [
+      {
+        h2: 'Choques de camiones en la I-10 y el corredor de carga del valle este',
+        paragraphs: [
+          'Avenue 52, el conector SR-86, Harrison Street y el tráfico de camiones comerciales en la I-10 a través del valle este producen las colisiones de carga que lideran este expediente. Los transportistas agrícolas, los ciclos de entrega de almacén y la presión de incorporación en la I-10 en el intercambio SR-86 provocan choques por alcance y arrastre antes de que la carga despeje los corredores comerciales del valle. Después de una colisión grave, preserve la descarga del ECM, las grabaciones de dashcam y el expediente de calificación del conductor antes de que las aseguradoras dispersen la evidencia. Las demandas civiles ilimitadas de Coachella se presentan en el Tribunal Superior del Condado de Riverside — Tribunal de Palm Springs, 3255 E. Tahquitz Canyon Way — unas 25.5 millas y unos 34 minutos al oeste-noroeste desde el Centro Cívico de Coachella en 53990 Enterprise Way. Este es el corredor I-10 / SR-86 del valle este de Coachella — no la cuadrícula de festivales Jackson / Monroe de Indio, no el conjunto de resort Eisenhower de La Quinta, no la página Date Palm / Ramon de Cathedral City, ni la copia de carga de Fontana o Colton. Las demandas por muerte injusta y lesión cerebral traumática de estos choques permanecen en esta URL.',
+        ],
+      },
+      {
+        h2: 'Uber y Lyft en Harrison Street, Avenue 52 y Grapefruit Boulevard',
+        paragraphs: [
+          'Si el conductor tenía la aplicación activada cambia qué aseguradora debe responder — confirmamos la cobertura en la consulta, no con cifras de marketing. Harrison Street, Avenue 52, Grapefruit Boulevard y el conector SR-86 / I-10 concentran recogidas de rideshare entre trayectos de pasajeros del valle este, tráfico de turnos agrícolas y oleadas de eventos de fin de semana. Los reclamos de rideshare de Coachella permanecen en /es/lesiones-personales/coachella/. No inventamos una página /uber/.',
+        ],
+      },
+      {
+        h2: 'Muerte injusta — legitimación bajo el CCP §377.60 en 3255 E. Tahquitz Canyon Way',
+        paragraphs: [
+          'Quién puede presentar la demanda se confirma en la consulta bajo el Código de Procedimiento Civil de California §377.60 — no inventamos veredictos ni historias de acuerdos. Los expedientes civiles ilimitados de Coachella se presentan en el Tribunal Superior del Condado de Riverside — Tribunal de Palm Springs, 3255 E. Tahquitz Canyon Way — no en 4050 Main Street, no en 247 W. 3rd St., no en 8303 Haven Avenue, no en Oasis Street, y no en la División de Indio. El tribunal está unas 25.5 millas y unos 34 minutos al oeste-noroeste del Centro Cívico de Coachella en 53990 Enterprise Way. El plazo general de dos años del CCP §335.1 rige la mayoría de las demandas por lesiones; contra una entidad pública puede hacer falta aviso escrito de seis meses conforme al Código de Gobierno §911.2 antes de demandar.',
+        ],
+      },
+      {
+        h2: 'Lesiones catastróficas — cerebral, médula, pérdida de miembro',
+        paragraphs: [
+          'La lesión cerebral traumática, la lesión de médula espinal y la amputación son resultados de daños manejados solo en esta URL — no una página separada de /lesiones-catastroficas/. Una colisión en el corredor I-10 / SR-86 del valle este puede dejar necesidades médicas de por vida y capacidad de ingreso perdida que las aseguradoras subvaloran al principio. La atención médica futura, la planificación de cuidados y la pérdida vocacional impulsan el caso que las aseguradoras intentan cerrar pronto. Esto no es consejo médico.',
+        ],
+      },
+      {
+        h2: 'Auto, motocicleta y mordeduras — Código Civil §3342',
+        paragraphs: [
+          'Después de los cuatro tipos principales de reclamo, choques de auto, accidentes de motocicleta y mordeduras de perro bajo el Código Civil de California §3342 completan el expediente. Circular entre carriles en motocicleta es legal cuando se hace con seguridad; usar casco no invierte la culpa. No manejamos reclamos por resbalones y caídas.',
+        ],
+      },
+      {
+        h2: '(760) 835-9353 — 1276 N Palm Canyon Dr #107, al oeste-noroeste',
+        paragraphs: [
+          'Horario: lunes a viernes 9am–6pm, sábado 10am–4pm, domingo con cita. Lesiones graves pueden contactar la oficina las 24 horas para consulta de emergencia. Desde Coachella, la consulta es unas 28.5 millas y unos 35 minutos al oeste-noroeste por Enterprise Way, Avenue 52, SR-86, la I-10 al oeste, Date Palm Drive, Vista Chino / CA-111 y N Palm Canyon Drive — no un local en Coachella. Si el mismo choque hunde el hogar, la misma llamada al (760) 835-9353 presenta el Capítulo 7 o 13 en el Tribunal de Bancarrota de EE. UU., 3420 Twelfth Street, Riverside — unas 79 millas y unos 92 minutos al oeste-noroeste. Redlands es solo la segunda oficina — 2068 Orange Tree Lane, Suite 220, (909) 915-0181 — unas 73 millas y unos 81 minutos al oeste-noroeste.',
+        ],
+      },
+    ],
+  },
 }
 
 const BK_ES: Record<CitySlug, CityPageCopy> = {
@@ -3207,6 +3345,47 @@ const BK_ES: Record<CitySlug, CityPageCopy> = {
             "No hay tribunal de bancarrota en Ontario ni en la ciudad de San Bernardino. Los casos de consumidor se presentan en el Tribunal de Bancarrota de EE. UU., Distrito Central de California, Riverside — unas 20.5 millas y unos 28 minutos al este-sureste desde Ontario. (909) 915-0181.",
             ],
           },
+    ],
+  },
+  coachella: {
+    h1: 'Abogado de Bancarrota en Coachella',
+    title: 'Abogado de Bancarrota Coachella | Capítulo 7 y Capítulo 13 | Valle de Coachella | Lombera',
+    description:
+      'Capítulo 7 y Capítulo 13 para hogares de Coachella. Preparado en 1276 N Palm Canyon Dr #107, Palm Springs; presentado en 3420 Twelfth Street, Riverside. Alivio de embargo y ejecución hipotecaria. (760) 835-9353.',
+    lead: [
+      'Los embargos de salario y avisos de ejecución hipotecaria en Coachella son cobranza del tribunal estatal hasta que se presenta una petición federal. Reúnase con Edgar P. Lombera en 1276 N Palm Canyon Dr #107, Palm Springs, CA 92262 — unas 28.5 millas y unos 35 minutos al oeste-noroeste desde Coachella por Enterprise Way, Avenue 52, SR-86, la I-10 al oeste, Vista Chino y Palm Canyon. Él prepara el Capítulo 7 y el Capítulo 13 en ese escritorio de Palm Springs. Usted habla con él. Inglés o español. Solo dos prácticas: lesiones personales y bancarrota. No hay local de Lombera en Coachella. Todo caso de consumidor se presenta en el Tribunal de Bancarrota de EE. UU., 3420 Twelfth Street, Riverside — unas 79 millas y unos 92 minutos al oeste-noroeste desde la oficina de Palm Canyon. Llame al (760) 835-9353.',
+    ],
+    sections: [
+      {
+        h2: 'Capítulo 7 — prueba de medios y eliminación sin activos',
+        paragraphs: [
+          'El Capítulo 7 elimina la mayor parte de la deuda no garantizada cuando el hogar pasa la prueba de medios — tarjetas de crédito, facturas médicas del valle y saldos de deficiencia tras la recuperación de un vehículo. Esta es una revisión de hogar de Coachella en el escritorio de Palm Canyon. Un caso típico sin activos se elimina en unos 90 a 120 días cuando el síndico acepta la petición.',
+        ],
+      },
+      {
+        h2: 'Capítulo 13 — plan, atrasos y reducción forzada del saldo garantizado',
+        paragraphs: [
+          'El Capítulo 13 incorpora los atrasos de la hipoteca en un plan judicial de tres a cinco años y puede reducir de forma forzada ciertos saldos garantizados donde el Código de Bancarrota lo permite — frecuente cuando un hogar de Coachella aún tiene salarios de trabajo agrícola, de almacén o estacional del valle pero se atrasó durante un evento médico o un ciclo de presión de la HOA. El plan es el alivio, no un complemento de defensa de ejecución hipotecaria vendido por separado.',
+        ],
+      },
+      {
+        h2: 'Suspensión automática — embargo, ejecución hipotecaria, recuperación de vehículo',
+        paragraphs: [
+          'La suspensión automática comienza el día que se presenta la petición — los embargos de salario vinculados a empleadores de Coachella, las ventas de ejecución hipotecaria programadas y los plazos de recuperación de vehículos se pausan para la mayoría de los acreedores. Presentar antes del próximo cheque o fecha de venta protege el tiempo que esperar consumiría.',
+        ],
+      },
+      {
+        h2: 'Dónde presenta Coachella — 3420 Twelfth Street, Riverside',
+        paragraphs: [
+          'Toda bancarrota de consumidor de Coachella se presenta en el Tribunal de Bancarrota de EE. UU., Distrito Central de California, 3420 Twelfth Street, Riverside — unas 79 millas y unos 92 minutos al oeste-noroeste por SR-86 y la I-10 desde el escritorio en 1276 N Palm Canyon Dr en Palm Springs. Ese edificio es el tribunal, no una suite de Lombera. No hay tribunal de bancarrota en Coachella. Las tarifas oficiales de presentación judicial son $338 para el Capítulo 7 y $313 para el Capítulo 13. La reunión de acreedores de la Sección 341 suele ser remota.',
+        ],
+      },
+      {
+        h2: '(760) 835-9353 — 1276 N Palm Canyon Dr #107',
+        paragraphs: [
+          'Horario: lunes a viernes 9am–6pm, sábado 10am–4pm, domingo con cita. Desde Coachella, la consulta es unas 28.5 millas y unos 35 minutos al oeste-noroeste por Enterprise Way, Avenue 52, SR-86, la I-10 al oeste, Vista Chino y Palm Canyon — en el escritorio de Palm Canyon, no una dirección de tribunal federal. Redlands es la otra oficina — 2068 Orange Tree Lane, Suite 220, (909) 915-0181. Somos una agencia de alivio de deudas. Ayudamos a las personas a solicitar alivio de bancarrota bajo el Código de Bancarrota (11 U.S.C. §528).',
+        ],
+      },
     ],
   },
 }
