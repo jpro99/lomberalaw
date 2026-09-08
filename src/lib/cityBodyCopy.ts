@@ -717,45 +717,45 @@ const PI_EN: Record<CitySlug, CityPageCopy> = {
     h1: 'Desert Hot Springs personal injury lawyer',
     title: 'Desert Hot Springs Personal Injury Lawyer | I-10 Truck, Uber, Wrongful Death | Lombera',
     description:
-      'Truck, Uber, wrongful death, and catastrophic injury from I-10 / Whitewater / Pierson crashes in Desert Hot Springs. Meet at 1276 N Palm Canyon Dr #107, Palm Springs — about 18 minutes southwest. (760) 835-9353.',
+      'Truck, Uber, wrongful death, and catastrophic injury from I-10 / Whitewater / Pierson crashes in Desert Hot Springs. Meet at 1276 N Palm Canyon Dr #107, Palm Springs — about 11 miles and 18 minutes south. (760) 835-9353.',
     lead: [
-      'There is no Lombera storefront at 69262 Crestwood Road or 11999 Palm Drive by Desert Hot Springs City Hall. After a Desert Hot Springs wreck, meet Edgar P. Lombera at 1276 N Palm Canyon Dr #107, Palm Springs, CA 92262 — about 11 miles and 18 minutes southwest via Palm Drive, Gene Autry Trail, and Vista Chino. Call (760) 835-9353. This is a personal injury practice — truck, Uber, wrongful death, and catastrophic injury lead the docket; bankruptcy is the second practice when the household sinks. English or Spanish. You speak with him. Injury cases run on contingency: no fee unless we win.',
+      'There is no Lombera storefront in Desert Hot Springs. After a Desert Hot Springs wreck, meet Edgar P. Lombera at 1276 N Palm Canyon Dr #107, Palm Springs, CA 92262. From Desert Hot Springs City Hall at 11999 Palm Drive — civic reference only, not our address — take Pierson Boulevard, Palm Drive, Gene Autry Trail, Vista Chino / CA-111, and N Palm Canyon Drive — about 11 miles and 18 minutes south. The drive is south. I-10, Whitewater, Cabazon, Pierson Boulevard, Indian Canyon Drive, and Palm Drive are crash corridors on this page, not the route to the Palm Canyon office. Call (760) 835-9353. English or Spanish. Two practices only: personal injury and bankruptcy. You speak with him. Injury cases run on contingency: no fee unless we win.',
     ],
     sections: [
       {
         h2: 'Truck wrecks on I-10, Whitewater, Cabazon, and Pierson Boulevard',
         paragraphs: [
-          'Commercial truck traffic on I-10 through Whitewater and Cabazon, and along Pierson Boulevard through Desert Hot Springs, produces the freight collisions that lead this docket. Lombera already ranks for Desert Hot Springs truck work — this URL is the unique I-10 / Whitewater / Cabazon / Pierson rewrite. After a serious wreck, preserve the ECM download, dashcam footage, and the driver qualification file before insurers scatter the evidence. This is north-valley I-10 freight — not Palm Springs’ San Gorgonio Pass page, not Cathedral City’s Date Palm / Ramon stack, not Indio’s I-10 / Highway 111 clone, and not Beaumont’s Pass / Beaumont Avenue page. Wrongful death and traumatic brain injury claims from these wrecks stay on this URL.',
+          'Commercial truck traffic on I-10 through Whitewater and Cabazon, and along Pierson Boulevard through Desert Hot Springs, produces the freight collisions that lead this docket. North-valley freight surges on Pierson and the Whitewater grade push brake failures and override events before loads clear valley corridors. After a serious collision, preserve the ECM download, dashcam footage, and the driver qualification file before insurers scatter the evidence. Unlimited civil lawsuits from Desert Hot Springs ZIP codes 92240 and 92241 file at Riverside County Superior Court — Palm Springs Courthouse, 3255 E. Tahquitz Canyon Way — about 11 miles and 19 minutes south from Desert Hot Springs City Hall at 11999 Palm Drive. This is north-valley I-10 / Whitewater / Cabazon / Pierson freight — not Palm Springs’ San Gorgonio Pass page, not Cathedral City’s Date Palm / Ramon stack, not Indio’s I-10 / Highway 111 clone, and not Beaumont’s Pass / Beaumont Avenue page. Wrongful death and traumatic brain injury claims from these wrecks stay on this URL.',
         ],
       },
       {
         h2: 'Uber and Lyft on Indian Canyon Drive, Pierson Boulevard, and Palm Drive',
         paragraphs: [
-          'Whether the driver had the app on changes which insurer must respond — we confirm coverage in the consult, not in marketing copy with dollar figures. Desert Hot Springs rideshare claims stay on /personal-injury/desert-hot-springs/. We do not invent a /uber/ page.',
+          'Whether the driver had the app on changes which insurer must respond — we confirm coverage in the consult, not in marketing copy with dollar figures. Indian Canyon Drive, Pierson Boulevard, and Palm Drive stack rideshare pickups between north-valley commuter runs, spa-tourism shuttles from Desert Hot Springs resort corridors, and weekend event traffic on the I-10 connector. Desert Hot Springs rideshare claims stay on /personal-injury/desert-hot-springs/. We do not invent a /uber/ page.',
         ],
       },
       {
         h2: 'Wrongful death — standing under CCP §377.60 at 3255 E. Tahquitz Canyon Way',
         paragraphs: [
-          'Who may bring the suit is confirmed in the consult under California Code of Civil Procedure §377.60 — we do not invent verdicts or settlement stories. Desert Hot Springs has a Riverside County Superior Court Indio Division, but unlimited civil cases for ZIP codes 92240 and 92241 file at 3255 E. Tahquitz Canyon Way, Palm Springs — not at the Indio Division courthouse, not at Oasis Street, not at 4050 Main Street, not at 247 W. 3rd St., and not at 8303 Haven Avenue. CCP §335.1 gives most victims two years; a public entity may require six-month written notice under Government Code §911.2.',
+          'Who may bring the suit is confirmed in the consult under California Code of Civil Procedure §377.60 — we do not invent verdicts or settlement stories. Unlimited civil files for Desert Hot Springs ZIP codes 92240 and 92241 are filed at Riverside County Superior Court — Palm Springs Courthouse, 3255 E. Tahquitz Canyon Way — not Oasis Street, not Larson Justice Center limited civil, not 4050 Main Street, not 247 W. 3rd St., not 8303 Haven Avenue, and not the Indio Division. The courthouse sits about 11 miles and 19 minutes south from Desert Hot Springs City Hall at 11999 Palm Drive.',
         ],
       },
       {
         h2: 'Catastrophic injury — TBI, spinal cord, lost limb',
         paragraphs: [
-          'Traumatic brain injury, spinal cord injury, and amputation are damages outcomes handled on this URL only — not a separate /catastrophic-injury/ landing page. Future medical care and lost earning capacity drive the damages case. This is not medical advice.',
+          'Traumatic brain injury, spinal cord injury, and amputation are damages outcomes handled on this URL only — not a separate /catastrophic-injury/ landing page. An I-10 or Pierson Boulevard corridor collision can leave lifetime medical needs and lost earning capacity that insurers undervalue early. Initial trauma care often starts at Desert Regional Medical Center before the long-term damages picture is clear. Future medical care, life-care planning, and vocational loss drive the case insurers try to close early. This is not medical advice.',
         ],
       },
       {
         h2: 'Car, motorcycle, and Civil Code §3342 dog bites',
         paragraphs: [
-          'After the four primary claim types, car collisions, motorcycle crashes, and dog bites under California Civil Code §3342 round out the docket. Lane-splitting on a motorcycle is legal when done safely; wearing a helmet does not flip fault. We do not handle slip-and-fall claims.',
+          'After the four primary claim types, car collisions, motorcycle crashes, and dog bites under California Civil Code §3342 round out the docket. Lane-splitting on a motorcycle is legal when done safely; wearing a helmet does not flip fault. We do not handle slip-and-fall claims. CCP §335.1 gives most Desert Hot Springs injury victims two years from the date of harm — confirm your deadline in the consult before evidence goes stale; a public entity may require six-month written notice under Government Code §911.2.',
         ],
       },
       {
-        h2: '(760) 835-9353 — 1276 N Palm Canyon Dr #107, southwest',
+        h2: '(760) 835-9353 — 1276 N Palm Canyon Dr #107, south',
         paragraphs: [
-          'Hours: Monday–Friday 9am–6pm, Saturday 10am–4pm, Sunday by appointment. Serious injuries can reach the office 24/7 for an emergency consult. If the same wreck sinks the household, the same (760) 835-9353 call files Chapter 7 or Chapter 13 at 3420 Twelfth Street, Riverside. Redlands is the other office — 2068 Orange Tree Lane, Suite 220, (909) 915-0181.',
+          'Hours: Monday–Friday 9am–6pm, Saturday 10am–4pm, Sunday by appointment. Serious injuries can reach the office 24/7 for an emergency consult. From Desert Hot Springs, the consultation is about 11 miles and 18 minutes south via Pierson Boulevard, Palm Drive, Gene Autry Trail, Vista Chino / CA-111, and N Palm Canyon Drive — not a Desert Hot Springs storefront. If the same wreck sinks the household, the same (760) 835-9353 call files Chapter 7 or Chapter 13 at the U.S. Bankruptcy Court, 3420 Twelfth Street, Riverside. Redlands is the second office only — 2068 Orange Tree Lane, Suite 220, (909) 915-0181.',
         ],
       },
     ],
@@ -2060,45 +2060,45 @@ const PI_ES: Record<CitySlug, CityPageCopy> = {
     h1: 'Abogado de lesiones personales en Desert Hot Springs',
     title: 'Abogado de Lesiones Desert Hot Springs | Camiones I-10, Uber, Muerte Injusta | Lombera',
     description:
-      'Camiones, Uber, muerte injusta y lesiones catastróficas en choques de la I-10 / Whitewater / Pierson en Desert Hot Springs. Oficina en 1276 N Palm Canyon Dr #107, Palm Springs — unos 18 minutos al suroeste. (760) 835-9353.',
+      'Camiones, Uber, muerte injusta y lesiones catastróficas en choques de la I-10 / Whitewater / Pierson en Desert Hot Springs. Oficina en 1276 N Palm Canyon Dr #107, Palm Springs — unas 11 millas y 18 minutos al sur. (760) 835-9353.',
     lead: [
-      'No hay oficina de Lombera en 69262 Crestwood Road ni 11999 Palm Drive junto al ayuntamiento de Desert Hot Springs. Después de un choque en Desert Hot Springs, reúnase con Edgar P. Lombera en 1276 N Palm Canyon Dr #107, Palm Springs, CA 92262 — unas 11 millas y 18 minutos al suroeste por Palm Drive, Gene Autry Trail y Vista Chino. Llame al (760) 835-9353. Esta es una práctica de lesiones personales — camiones, Uber, muerte injusta y lesiones catastróficas lideran el expediente; la bancarrota es la segunda práctica cuando el hogar se hunde. Inglés o español. Usted habla con él. Los casos de lesiones son a contingencia: sin honorarios a menos que ganemos.',
+      'No hay local de Lombera en Desert Hot Springs. Después de un choque en Desert Hot Springs, reúnase con Edgar P. Lombera en 1276 N Palm Canyon Dr #107, Palm Springs, CA 92262. Desde el Ayuntamiento de Desert Hot Springs en 11999 Palm Drive — referencia cívica solamente, no nuestra dirección — tome Pierson Boulevard, Palm Drive, Gene Autry Trail, Vista Chino / CA-111 y N Palm Canyon Drive — unas 11 millas y 18 minutos al sur. El trayecto es al sur. La I-10, Whitewater, Cabazon, Pierson Boulevard, Indian Canyon Drive y Palm Drive son corredores de choques en esta página, no la ruta a la oficina de Palm Canyon. Llame al (760) 835-9353. Inglés o español. Solo dos prácticas: lesiones personales y bancarrota. Usted habla con él. Los casos de lesiones son a contingencia: sin honorarios a menos que ganemos.',
     ],
     sections: [
       {
         h2: 'Choques de camiones en la I-10, Whitewater, Cabazon y Pierson Boulevard',
         paragraphs: [
-          'El tráfico de camiones comerciales en la I-10 a través de Whitewater y Cabazon, y a lo largo de Pierson Boulevard por Desert Hot Springs, produce las colisiones de carga que lideran este expediente. Lombera ya aparece en resultados para trabajo de camiones en Desert Hot Springs — esta URL es la versión única para I-10 / Whitewater / Cabazon / Pierson. Después de un choque grave, preserve la descarga del ECM, las grabaciones de dashcam y el expediente de calificación del conductor antes de que las aseguradoras dispersen la evidencia. Esta es la carga I-10 del valle norte — no la página del Paso de San Gorgonio de Palm Springs, no la pila Date Palm / Ramon de Cathedral City, no el clon I-10 / Highway 111 de Indio, ni la página Paso / Beaumont Avenue de Beaumont. Las demandas por muerte injusta y lesión cerebral traumática de estos choques permanecen en esta URL.',
+          'El tráfico de camiones comerciales en la I-10 a través de Whitewater y Cabazon, y a lo largo de Pierson Boulevard por Desert Hot Springs, produce las colisiones de carga que lideran este expediente. Los picos de carga del valle norte en Pierson y el gradiente de Whitewater provocan fallas de frenos y choques por alcance antes de que la carga despeje los corredores del valle. Después de una colisión grave, preserve la descarga del ECM, las grabaciones de dashcam y el expediente de calificación del conductor antes de que las aseguradoras dispersen la evidencia. Las demandas civiles ilimitadas de los códigos postales 92240 y 92241 de Desert Hot Springs se presentan en el Tribunal Superior del Condado de Riverside — Tribunal de Palm Springs, 3255 E. Tahquitz Canyon Way — unas 11 millas y unos 19 minutos al sur desde el Ayuntamiento de Desert Hot Springs en 11999 Palm Drive. Esta es la carga I-10 / Whitewater / Cabazon / Pierson del valle norte — no la página del Paso de San Gorgonio de Palm Springs, no la pila Date Palm / Ramon de Cathedral City, no el clon I-10 / Highway 111 de Indio, ni la página Paso / Beaumont Avenue de Beaumont. Las demandas por muerte injusta y lesión cerebral traumática de estos choques permanecen en esta URL.',
         ],
       },
       {
         h2: 'Uber y Lyft en Indian Canyon Drive, Pierson Boulevard y Palm Drive',
         paragraphs: [
-          'Si el conductor tenía la aplicación activada cambia qué aseguradora debe responder — confirmamos la cobertura en la consulta, no con cifras de marketing. Los reclamos de rideshare de Desert Hot Springs permanecen en /es/lesiones-personales/desert-hot-springs/. No inventamos una página /uber/.',
+          'Si el conductor tenía la aplicación activada cambia qué aseguradora debe responder — confirmamos la cobertura en la consulta, no con cifras de marketing. Indian Canyon Drive, Pierson Boulevard y Palm Drive concentran recogidas de rideshare entre trayectos de pasajeros del valle norte, traslados de turismo de spa desde los corredores de resorts de Desert Hot Springs y tráfico de eventos de fin de semana en el conector de la I-10. Los reclamos de rideshare de Desert Hot Springs permanecen en /es/lesiones-personales/desert-hot-springs/. No inventamos una página /uber/.',
         ],
       },
       {
         h2: 'Muerte injusta — legitimación bajo el CCP §377.60 en 3255 E. Tahquitz Canyon Way',
         paragraphs: [
-          'Quién puede presentar la demanda se confirma en la consulta bajo el Código de Procedimiento Civil de California §377.60 — no inventamos veredictos ni historias de acuerdos. Desert Hot Springs tiene una División Indio del Tribunal Superior del Condado de Riverside, pero los casos civiles ilimitados para códigos postales 92240 y 92241 se presentan en 3255 E. Tahquitz Canyon Way, Palm Springs — no en el tribunal de la División Indio, no en Oasis Street, no en 4050 Main Street, no en 247 W. 3rd St., y no en 8303 Haven Avenue. El CCP §335.1 da dos años a la mayoría de las víctimas; una entidad pública puede exigir aviso escrito de seis meses bajo el Código de Gobierno §911.2.',
+          'Quién puede presentar la demanda se confirma en la consulta bajo el Código de Procedimiento Civil de California §377.60 — no inventamos veredictos ni historias de acuerdos. Los expedientes civiles ilimitados de los códigos postales 92240 y 92241 de Desert Hot Springs se presentan en el Tribunal Superior del Condado de Riverside — Tribunal de Palm Springs, 3255 E. Tahquitz Canyon Way — no en Oasis Street, no en Larson Justice Center de jurisdicción limitada, no en 4050 Main Street, no en 247 W. 3rd St., no en 8303 Haven Avenue, y no en la División Indio. El tribunal está unas 11 millas y unos 19 minutos al sur del Ayuntamiento de Desert Hot Springs en 11999 Palm Drive. El plazo general de dos años del CCP §335.1 rige la mayoría de las demandas por lesiones; contra una entidad pública puede hacer falta aviso escrito de seis meses conforme al Código de Gobierno §911.2 antes de demandar.',
         ],
       },
       {
         h2: 'Lesiones catastróficas — cerebral, médula, pérdida de miembro',
         paragraphs: [
-          'La lesión cerebral traumática, la lesión de médula espinal y la amputación son resultados de daños manejados solo en esta URL — no una página separada de /lesiones-catastroficas/. La atención médica futura y la capacidad de ingreso perdida impulsan el caso de daños. Esto no es consejo médico.',
+          'La lesión cerebral traumática, la lesión de médula espinal y la amputación son resultados de daños manejados solo en esta URL — no una página separada de /lesiones-catastroficas/. Una colisión en la I-10 o en el corredor de Pierson Boulevard puede dejar necesidades médicas de por vida y capacidad de ingreso perdida que las aseguradoras subvaloran al principio. La atención inicial de trauma suele comenzar en Desert Regional Medical Center antes de que el panorama de daños a largo plazo quede claro. La atención médica futura, la planificación de cuidados y la pérdida vocacional impulsan el caso que las aseguradoras intentan cerrar pronto. Esto no es consejo médico.',
         ],
       },
       {
         h2: 'Auto, motocicleta y mordeduras — Código Civil §3342',
         paragraphs: [
-          'Después de los cuatro tipos principales de reclamo, choques de auto, accidentes de motocicleta y mordeduras de perro bajo el Código Civil de California §3342 completan el expediente. Circular entre carriles en motocicleta es legal cuando se hace con seguridad; usar casco no invierte la culpa. No manejamos reclamos por resbalones y caídas.',
+          'Después de los cuatro tipos principales de reclamo, choques de auto, accidentes de motocicleta y mordeduras de perro bajo el Código Civil de California §3342 completan el expediente. Circular entre carriles en motocicleta es legal cuando se hace con seguridad; usar casco no invierte la culpa. No manejamos reclamos por resbalones y caídas. La mayoría de las víctimas de lesiones en Desert Hot Springs tienen dos años bajo el CCP §335.1 contados desde la fecha del daño — confirme su plazo en la consulta antes de que la evidencia se deteriore; una entidad pública puede exigir aviso escrito de seis meses conforme al Código de Gobierno §911.2.',
         ],
       },
       {
-        h2: '(760) 835-9353 — 1276 N Palm Canyon Dr #107, al suroeste',
+        h2: '(760) 835-9353 — 1276 N Palm Canyon Dr #107, al sur',
         paragraphs: [
-          'Horario: lunes a viernes 9am–6pm, sábado 10am–4pm, domingo con cita. Lesiones graves pueden contactar la oficina las 24 horas para consulta de emergencia. Si el mismo choque hunde el hogar, la misma llamada al (760) 835-9353 presenta el Capítulo 7 o 13 en 3420 Twelfth Street, Riverside. Redlands es la otra oficina — 2068 Orange Tree Lane, Suite 220, (909) 915-0181.',
+          'Horario: lunes a viernes 9am–6pm, sábado 10am–4pm, domingo con cita. Lesiones graves pueden contactar la oficina las 24 horas para consulta de emergencia. Desde Desert Hot Springs, la consulta es unas 11 millas y 18 minutos al sur por Pierson Boulevard, Palm Drive, Gene Autry Trail, Vista Chino / CA-111 y N Palm Canyon Drive — no un local en Desert Hot Springs. Si el mismo choque hunde el hogar, la misma llamada al (760) 835-9353 presenta el Capítulo 7 o 13 en el Tribunal de Bancarrota de EE. UU., 3420 Twelfth Street, Riverside. Redlands es solo la segunda oficina — 2068 Orange Tree Lane, Suite 220, (909) 915-0181.',
         ],
       },
     ],
