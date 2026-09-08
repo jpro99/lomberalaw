@@ -27,6 +27,7 @@ type CitySlug =
   | 'desert-hot-springs'
   | 'rancho-cucamonga'
   | 'yucaipa'
+  | 'la-quinta'
 
 const REDLANDS_NAP =
   '2068 Orange Tree Lane, Suite 220, Redlands, CA 92374 — (909) 915-0181'
@@ -54,6 +55,7 @@ const CITY_NAMES: Record<CitySlug, { en: string; es: string }> = {
   'desert-hot-springs': { en: 'Desert Hot Springs', es: 'Desert Hot Springs' },
   'rancho-cucamonga': { en: 'Rancho Cucamonga', es: 'Rancho Cucamonga' },
   yucaipa: { en: 'Yucaipa', es: 'Yucaipa' },
+  'la-quinta': { en: 'La Quinta', es: 'La Quinta' },
 }
 
 const PI_EN: Record<CitySlug, CityPageCopy> = {
@@ -429,6 +431,53 @@ const PI_EN: Record<CitySlug, CityPageCopy> = {
         h2: '(760) 835-9353 — 1276 N Palm Canyon Dr #107, west-northwest',
         paragraphs: [
           'Hours: Monday–Friday 9am–6pm, Saturday 10am–4pm, Sunday by appointment. Serious injuries can reach the office 24/7 for an emergency consult. From Indio, the consultation is about 24 miles and 31 minutes west-northwest via Civic Center Drive, Jackson Street, the I-10 west, Date Palm Drive, Vista Chino / CA-111, and N Palm Canyon Drive — not an Indio storefront. If the same wreck sinks the household, the same (760) 835-9353 call files Chapter 7 or Chapter 13 at the U.S. Bankruptcy Court, 3420 Twelfth Street, Riverside. Redlands is the second office only — 2068 Orange Tree Lane, Suite 220, (909) 915-0181.',
+        ],
+      },
+    ],
+  },
+  'la-quinta': {
+    h1: 'La Quinta personal injury lawyer',
+    title: 'La Quinta Personal Injury Lawyer | Free Case Call | Lombera Law',
+    description:
+      'Truck, Uber, wrongful death, and catastrophic injury from I-10 / Highway 111 crashes in La Quinta. Meet at 1276 N Palm Canyon Dr #107, Palm Springs — about 23 miles and 34 minutes northwest. (760) 835-9353.',
+    lead: [
+      'There is no Lombera storefront in La Quinta. After a La Quinta wreck, meet Edgar P. Lombera at 1276 N Palm Canyon Dr #107, Palm Springs, CA 92262. From La Quinta City Hall at 78495 Calle Tampico — civic reference only, not our address — take Washington Street, Varner Road, the I-10 west, Date Palm Drive, Vista Chino / CA-111, and N Palm Canyon Drive — about 23 miles and 34 minutes northwest. The drive is northwest. I-10, Highway 111, Washington Street, Fred Waring Drive, and Eisenhower Drive are crash corridors on this page, not the route to the Palm Canyon office. Call (760) 835-9353. English or Spanish. Two practices only: personal injury and bankruptcy. You speak with him. Injury cases run on contingency: no fee unless we win.',
+    ],
+    sections: [
+      {
+        h2: 'Truck wrecks on I-10 and Highway 111',
+        paragraphs: [
+          'Washington Street, Fred Waring Drive, Eisenhower Drive, and through-truck traffic on I-10 and Highway 111 through La Quinta produce the commercial collisions that lead this docket. Resort-season freight, golf-corridor haulers on Eisenhower, and I-10 merge pressure at Date Palm produce rear-end and override events before loads clear valley retail corridors. After a serious collision, preserve the ECM download, dashcam footage, and the driver qualification file before insurers scatter the evidence. Unlimited civil lawsuits from La Quinta file at Riverside County Superior Court — Palm Springs Courthouse, 3255 E. Tahquitz Canyon Way — about 20 miles and 33 minutes northwest from La Quinta City Hall at 78495 Calle Tampico. This is La Quinta\u2019s I-10 / 111 corridor — not Cathedral City\u2019s Date Palm / Ramon stack, not Palm Desert\u2019s Cook / Monterey page, not Indio\u2019s Jackson / Monroe festival grid, and not the San Gorgonio Pass page for Palm Springs. Wrongful death and traumatic brain injury claims from these wrecks stay on this URL.',
+        ],
+      },
+      {
+        h2: 'Uber and Lyft on Highway 111, Washington Street, and Eisenhower Drive',
+        paragraphs: [
+          'Whether the driver had the app on changes which insurer must respond — we confirm coverage in the consult, not in marketing copy with dollar figures. Highway 111, Washington Street, Fred Waring Drive, and the Eisenhower resort corridor stack rideshare pickups between PGA West event traffic, Old Town weekend runs, and valley commute trips. La Quinta rideshare claims stay on /personal-injury/la-quinta/. We do not invent a /uber/ page.',
+        ],
+      },
+      {
+        h2: 'Wrongful death — standing under CCP §377.60 at 3255 E. Tahquitz Canyon Way',
+        paragraphs: [
+          'Who may bring the suit is confirmed in the consult under California Code of Civil Procedure §377.60 — we do not invent verdicts or settlement stories. Unlimited civil files for La Quinta are filed at Riverside County Superior Court — Palm Springs Courthouse, 3255 E. Tahquitz Canyon Way — not 4050 Main Street, not 247 W. 3rd St., not 8303 Haven Avenue, and not Oasis Street. The courthouse sits about 20 miles and 33 minutes northwest from La Quinta City Hall at 78495 Calle Tampico.',
+        ],
+      },
+      {
+        h2: 'Catastrophic injury — TBI, spinal cord, lost limb',
+        paragraphs: [
+          'Traumatic brain injury, spinal cord injury, and amputation are damages outcomes handled on this URL only — not a separate /catastrophic-injury/ landing page. An I-10 or Highway 111 corridor collision can leave lifetime medical needs and lost earning capacity that insurers undervalue early. Future medical care, life-care planning, and vocational loss drive the case insurers try to close early. This is not medical advice.',
+        ],
+      },
+      {
+        h2: 'Car, motorcycle, and Civil Code §3342 dog bites',
+        paragraphs: [
+          'After the four primary claim types, car collisions, motorcycle crashes, and dog bites under California Civil Code §3342 round out the docket. Lane-splitting on a motorcycle is legal when done safely; wearing a helmet does not flip fault. We do not handle slip-and-fall claims. CCP §335.1 gives most La Quinta injury victims two years from the date of harm — confirm your deadline in the consult before evidence goes stale; a public entity may require six-month written notice under Government Code §911.2.',
+        ],
+      },
+      {
+        h2: '(760) 835-9353 — 1276 N Palm Canyon Dr #107, northwest',
+        paragraphs: [
+          'Hours: Monday–Friday 9am–6pm, Saturday 10am–4pm, Sunday by appointment. Serious injuries can reach the office 24/7 for an emergency consult. From La Quinta, the consultation is about 23 miles and 34 minutes northwest via Washington Street, Varner Road, the I-10 west, Date Palm Drive, Vista Chino / CA-111, and N Palm Canyon Drive — not a La Quinta storefront. If the same wreck sinks the household, the same (760) 835-9353 call files Chapter 7 or Chapter 13 at the U.S. Bankruptcy Court, 3420 Twelfth Street, Riverside — about 73.5 miles and 91 minutes northwest. Redlands is the second office only — 2068 Orange Tree Lane, Suite 220, (909) 915-0181 — about 67.5 miles and 80 minutes west-northwest.',
         ],
       },
     ],
@@ -1153,6 +1202,48 @@ const BK_EN: Record<CitySlug, CityPageCopy> = {
       },
     ],
   },
+  'la-quinta': {
+    h1: 'La Quinta Bankruptcy Lawyer',
+    title: 'La Quinta Bankruptcy Lawyer | Chapter 7 & Chapter 13 | Coachella Valley | Lombera',
+    description:
+      'Chapter 7 and Chapter 13 bankruptcy for La Quinta households. Prepared at 1276 N Palm Canyon Dr #107, Palm Springs; filed at 3420 Twelfth Street, Riverside. Garnishment and foreclosure relief. (760) 835-9353.',
+    lead: [
+      'La Quinta wage garnishments and foreclosure notices are state-court collection until a federal petition is filed. Meet Edgar P. Lombera at 1276 N Palm Canyon Dr #107, Palm Springs, CA 92262 — about 23 miles and 34 minutes northwest from La Quinta via Washington Street, Varner Road, the I-10 west, Vista Chino, and Palm Canyon. He prepares Chapter 7 and Chapter 13 at that Palm Springs desk. You speak with him. English or Spanish. Two practices only: personal injury and bankruptcy. There is no Lombera storefront in La Quinta. Every consumer case files at the U.S. Bankruptcy Court, 3420 Twelfth Street, Riverside — about 73.5 miles and 91 minutes northwest from the Palm Canyon office. Call (760) 835-9353.',
+    ],
+    sections: [
+      {
+        h2: 'Chapter 7 — means test and no-asset discharge',
+        paragraphs: [
+          'Chapter 7 clears most unsecured debt when the household passes the means test — credit cards, valley medical bills, and deficiency balances after a vehicle repo. This is a La Quinta household review at the Palm Canyon desk. A typical no-asset case discharges in about 90 to 120 days when the trustee accepts the petition.',
+        ],
+      },
+      {
+        h2: 'Chapter 13 — plan, arrears, and cramdown',
+        paragraphs: [
+          'Chapter 13 folds mortgage arrears into a three-to-five-year court plan and can cram down certain secured balances where the Bankruptcy Code allows — common when a La Quinta household still has wages from hospitality, golf-resort, or seasonal valley work but fell behind during a medical event or HOA pressure cycle. The plan is the relief, not a foreclosure-defense add-on sold separately.',
+        ],
+      },
+      {
+        h2: 'Automatic stay — garnishment, foreclosure, repossession',
+        paragraphs: [
+          'The automatic stay begins the day the petition is filed — wage garnishments tied to La Quinta employers, scheduled foreclosure sales, and repossession timelines pause for most creditors. Filing before the next paycheck or sale date protects lead time that waiting burns.',
+        ],
+      },
+      {
+        h2: 'Where La Quinta files — 3420 Twelfth Street, Riverside',
+        paragraphs: [
+          'Every La Quinta consumer bankruptcy files at the U.S. Bankruptcy Court, Central District of California, 3420 Twelfth Street, Riverside — about 73.5 miles and 91 minutes northwest via Highway 111 and the I-10 from the desk at 1276 N Palm Canyon Dr in Palm Springs. That building is the courthouse, not a Lombera suite. There is no bankruptcy court in La Quinta. Official court filing fees are $338 for Chapter 7 and $313 for Chapter 13. The Section 341 meeting of creditors is often held remotely.',
+        ],
+      },
+      {
+        h2: '(760) 835-9353 — 1276 N Palm Canyon Dr #107',
+        paragraphs: [
+          'Hours: Monday–Friday 9am–6pm, Saturday 10am–4pm, Sunday by appointment. From La Quinta, the consultation is about 23 miles and 34 minutes northwest on Washington Street, Varner Road, the I-10 west, Vista Chino, and Palm Canyon — sit-down at the Palm Canyon office, not a federal courthouse address. Redlands is the other office — 2068 Orange Tree Lane, Suite 220, (909) 915-0181. ' +
+            DEBT_RELIEF,
+        ],
+      },
+    ],
+  },
   redlands: {
     h1: 'Redlands Bankruptcy Lawyer',
     title: 'Redlands Bankruptcy Lawyer | Chapter 7 & 13 | Inland Empire | Lombera',
@@ -1848,6 +1939,53 @@ const PI_ES: Record<CitySlug, CityPageCopy> = {
         h2: '(760) 835-9353 — 1276 N Palm Canyon Dr #107, al oeste-noroeste',
         paragraphs: [
           'Horario: lunes a viernes 9am–6pm, sábado 10am–4pm, domingo con cita. Lesiones graves pueden contactar la oficina las 24 horas para consulta de emergencia. Desde Indio, la consulta es unas 24 millas y unos 31 minutos al oeste-noroeste por Civic Center Drive, Jackson Street, la I-10 al oeste, Date Palm Drive, Vista Chino / CA-111 y N Palm Canyon Drive — no un local en Indio. Si el mismo choque hunde el hogar, la misma llamada al (760) 835-9353 presenta el Capítulo 7 o 13 en el Tribunal de Bancarrota de EE. UU., 3420 Twelfth Street, Riverside. Redlands es solo la segunda oficina — 2068 Orange Tree Lane, Suite 220, (909) 915-0181.',
+        ],
+      },
+    ],
+  },
+  'la-quinta': {
+    h1: 'Abogado de lesiones personales en La Quinta',
+    title: 'Abogado de Lesiones Personales en La Quinta | Lombera Law',
+    description:
+      'Camiones, Uber, muerte injusta y lesiones catastróficas en choques de la I-10 / Carretera 111 en La Quinta. Oficina en 1276 N Palm Canyon Dr #107, Palm Springs — unas 23 millas y unos 34 minutos al noroeste. (760) 835-9353.',
+    lead: [
+      'No hay local de Lombera en La Quinta. Después de un choque en La Quinta, reúnase con Edgar P. Lombera en 1276 N Palm Canyon Dr #107, Palm Springs, CA 92262. Desde el Ayuntamiento de La Quinta en 78495 Calle Tampico — referencia cívica solamente, no nuestra dirección — tome Washington Street, Varner Road, la I-10 al oeste, Date Palm Drive, Vista Chino / CA-111 y N Palm Canyon Drive — unas 23 millas y unos 34 minutos al noroeste. El trayecto es al noroeste. La I-10, la Carretera 111, Washington Street, Fred Waring Drive y Eisenhower Drive son corredores de choques en esta página, no la ruta a la oficina de Palm Canyon. Llame al (760) 835-9353. Inglés o español. Solo dos prácticas: lesiones personales y bancarrota. Usted habla con él. Los casos de lesiones son a contingencia: sin honorarios a menos que ganemos.',
+    ],
+    sections: [
+      {
+        h2: 'Choques de camiones en la I-10 y la Carretera 111',
+        paragraphs: [
+          'Washington Street, Fred Waring Drive, Eisenhower Drive y el tráfico de camiones comerciales en la I-10 y la Carretera 111 a través de La Quinta producen las colisiones de carga que lideran este expediente. Las oleadas de carga en temporada de resort, los transportistas del corredor de golf en Eisenhower y la presión de incorporación en la I-10 en Date Palm producen choques por alcance y arrastre antes de que la carga despeje los corredores comerciales del valle. Después de una colisión grave, preserve la descarga del ECM, las grabaciones de dashcam y el expediente de calificación del conductor antes de que las aseguradoras dispersen la evidencia. Las demandas civiles ilimitadas de La Quinta se presentan en el Tribunal Superior del Condado de Riverside — Tribunal de Palm Springs, 3255 E. Tahquitz Canyon Way — unas 20 millas y unos 33 minutos al noroeste desde el Ayuntamiento de La Quinta en 78495 Calle Tampico. Este es el corredor I-10 / 111 de La Quinta — no el conjunto Date Palm / Ramon de Cathedral City, no la página Cook / Monterey de Palm Desert, no la cuadrícula de festivales Jackson / Monroe de Indio, ni la del Paso de San Gorgonio para Palm Springs. Las demandas por muerte injusta y lesión cerebral traumática de estos choques permanecen en esta URL.',
+        ],
+      },
+      {
+        h2: 'Uber y Lyft en la Carretera 111, Washington Street y Eisenhower Drive',
+        paragraphs: [
+          'Si el conductor tenía la aplicación activada cambia qué aseguradora debe responder — confirmamos la cobertura en la consulta, no con cifras de marketing. La Carretera 111, Washington Street, Fred Waring Drive y el corredor de resort en Eisenhower concentran recogidas de rideshare entre tráfico de eventos en PGA West, recorridos de fin de semana en Old Town y trayectos de pasajeros del valle. Los reclamos de rideshare de La Quinta permanecen en /es/lesiones-personales/la-quinta/. No inventamos una página /uber/.',
+        ],
+      },
+      {
+        h2: 'Muerte injusta — legitimación bajo el CCP §377.60 en 3255 E. Tahquitz Canyon Way',
+        paragraphs: [
+          'Quién puede presentar la demanda se confirma en la consulta bajo el Código de Procedimiento Civil de California §377.60 — no inventamos veredictos ni historias de acuerdos. Los expedientes civiles ilimitados de La Quinta se presentan en el Tribunal Superior del Condado de Riverside — Tribunal de Palm Springs, 3255 E. Tahquitz Canyon Way — no en 4050 Main Street, no en 247 W. 3rd St., no en 8303 Haven Avenue, y no en Oasis Street. El tribunal está unas 20 millas y unos 33 minutos al noroeste del Ayuntamiento de La Quinta en 78495 Calle Tampico. El plazo general de dos años del CCP §335.1 rige la mayoría de las demandas por lesiones; contra una entidad pública puede hacer falta aviso escrito de seis meses conforme al Código de Gobierno §911.2 antes de demandar.',
+        ],
+      },
+      {
+        h2: 'Lesiones catastróficas — cerebral, médula, pérdida de miembro',
+        paragraphs: [
+          'La lesión cerebral traumática, la lesión de médula espinal y la amputación son resultados de daños manejados solo en esta URL — no una página separada de /lesiones-catastroficas/. Una colisión en la I-10 o en el corredor de la Carretera 111 puede dejar necesidades médicas de por vida y capacidad de ingreso perdida que las aseguradoras subvaloran al principio. La atención médica futura, la planificación de cuidados y la pérdida vocacional impulsan el caso que las aseguradoras intentan cerrar pronto. Esto no es consejo médico.',
+        ],
+      },
+      {
+        h2: 'Auto, motocicleta y mordeduras — Código Civil §3342',
+        paragraphs: [
+          'Después de los cuatro tipos principales de reclamo, choques de auto, accidentes de motocicleta y mordeduras de perro bajo el Código Civil de California §3342 completan el expediente. Circular entre carriles en motocicleta es legal cuando se hace con seguridad; usar casco no invierte la culpa. No manejamos reclamos por resbalones y caídas.',
+        ],
+      },
+      {
+        h2: '(760) 835-9353 — 1276 N Palm Canyon Dr #107, al noroeste',
+        paragraphs: [
+          'Horario: lunes a viernes 9am–6pm, sábado 10am–4pm, domingo con cita. Lesiones graves pueden contactar la oficina las 24 horas para consulta de emergencia. Desde La Quinta, la consulta es unas 23 millas y unos 34 minutos al noroeste por Washington Street, Varner Road, la I-10 al oeste, Date Palm Drive, Vista Chino / CA-111 y N Palm Canyon Drive — no un local en La Quinta. Si el mismo choque hunde el hogar, la misma llamada al (760) 835-9353 presenta el Capítulo 7 o 13 en el Tribunal de Bancarrota de EE. UU., 3420 Twelfth Street, Riverside — unas 73.5 millas y unos 91 minutos al noroeste. Redlands es solo la segunda oficina — 2068 Orange Tree Lane, Suite 220, (909) 915-0181 — unas 67.5 millas y unos 80 minutos al oeste-noroeste.',
         ],
       },
     ],
@@ -2560,6 +2698,47 @@ const BK_ES: Record<CitySlug, CityPageCopy> = {
         h2: '(760) 835-9353 — 1276 N Palm Canyon Dr #107',
         paragraphs: [
           'Horario: lunes a viernes 9am–6pm, sábado 10am–4pm, domingo con cita. Desde Indio, la consulta es unas 24 millas y 31 minutos al oeste-noroeste por Jackson Street, la I-10 al oeste, Vista Chino y Palm Canyon — en el escritorio de Palm Canyon, no una dirección de tribunal federal. Redlands es la otra oficina — 2068 Orange Tree Lane, Suite 220, (909) 915-0181. Somos una agencia de alivio de deudas. Ayudamos a las personas a solicitar alivio de bancarrota bajo el Código de Bancarrota (11 U.S.C. §528).',
+        ],
+      },
+    ],
+  },
+  'la-quinta': {
+    h1: 'Abogado de Bancarrota en La Quinta',
+    title: 'Abogado de Bancarrota La Quinta | Capítulo 7 y Capítulo 13 | Valle de Coachella | Lombera',
+    description:
+      'Capítulo 7 y Capítulo 13 para hogares de La Quinta. Preparado en 1276 N Palm Canyon Dr #107, Palm Springs; presentado en 3420 Twelfth Street, Riverside. Alivio de embargo y ejecución hipotecaria. (760) 835-9353.',
+    lead: [
+      'Los embargos de salario y avisos de ejecución hipotecaria en La Quinta son cobranza del tribunal estatal hasta que se presenta una petición federal. Reúnase con Edgar P. Lombera en 1276 N Palm Canyon Dr #107, Palm Springs, CA 92262 — unas 23 millas y unos 34 minutos al noroeste desde La Quinta por Washington Street, Varner Road, la I-10 al oeste, Vista Chino y Palm Canyon. Él prepara el Capítulo 7 y el Capítulo 13 en ese escritorio de Palm Springs. Usted habla con él. Inglés o español. Solo dos prácticas: lesiones personales y bancarrota. No hay local de Lombera en La Quinta. Todo caso de consumidor se presenta en el Tribunal de Bancarrota de EE. UU., 3420 Twelfth Street, Riverside — unas 73.5 millas y unos 91 minutos al noroeste desde la oficina de Palm Canyon. Llame al (760) 835-9353.',
+    ],
+    sections: [
+      {
+        h2: 'Capítulo 7 — prueba de medios y eliminación sin activos',
+        paragraphs: [
+          'El Capítulo 7 elimina la mayor parte de la deuda no garantizada cuando el hogar pasa la prueba de medios — tarjetas de crédito, facturas médicas del valle y saldos de deficiencia tras la recuperación de un vehículo. Esta es una revisión de hogar de La Quinta en el escritorio de Palm Canyon. Un caso típico sin activos se elimina en unos 90 a 120 días cuando el síndico acepta la petición.',
+        ],
+      },
+      {
+        h2: 'Capítulo 13 — plan, atrasos y reducción forzada del saldo garantizado',
+        paragraphs: [
+          'El Capítulo 13 incorpora los atrasos de la hipoteca en un plan judicial de tres a cinco años y puede reducir de forma forzada ciertos saldos garantizados donde el Código de Bancarrota lo permite — frecuente cuando un hogar de La Quinta aún tiene salarios de hospitalidad, resort de golf o trabajo estacional del valle pero se atrasó durante un evento médico o un ciclo de presión de la HOA. El plan es el alivio, no un complemento de defensa de ejecución hipotecaria vendido por separado.',
+        ],
+      },
+      {
+        h2: 'Suspensión automática — embargo, ejecución hipotecaria, recuperación de vehículo',
+        paragraphs: [
+          'La suspensión automática comienza el día que se presenta la petición — los embargos de salario vinculados a empleadores de La Quinta, las ventas de ejecución hipotecaria programadas y los plazos de recuperación de vehículos se pausan para la mayoría de los acreedores. Presentar antes del próximo cheque o fecha de venta protege el tiempo que esperar consumiría.',
+        ],
+      },
+      {
+        h2: 'Dónde presenta La Quinta — 3420 Twelfth Street, Riverside',
+        paragraphs: [
+          'Toda bancarrota de consumidor de La Quinta se presenta en el Tribunal de Bancarrota de EE. UU., Distrito Central de California, 3420 Twelfth Street, Riverside — unas 73.5 millas y unos 91 minutos al noroeste por la Carretera 111 y la I-10 desde el escritorio en 1276 N Palm Canyon Dr en Palm Springs. Ese edificio es el tribunal, no una suite de Lombera. No hay tribunal de bancarrota en La Quinta. Las tarifas oficiales de presentación judicial son $338 para el Capítulo 7 y $313 para el Capítulo 13. La reunión de acreedores de la Sección 341 suele ser remota.',
+        ],
+      },
+      {
+        h2: '(760) 835-9353 — 1276 N Palm Canyon Dr #107',
+        paragraphs: [
+          'Horario: lunes a viernes 9am–6pm, sábado 10am–4pm, domingo con cita. Desde La Quinta, la consulta es unas 23 millas y unos 34 minutos al noroeste por Washington Street, Varner Road, la I-10 al oeste, Vista Chino y Palm Canyon — en el escritorio de Palm Canyon, no una dirección de tribunal federal. Redlands es la otra oficina — 2068 Orange Tree Lane, Suite 220, (909) 915-0181. Somos una agencia de alivio de deudas. Ayudamos a las personas a solicitar alivio de bancarrota bajo el Código de Bancarrota (11 U.S.C. §528).',
         ],
       },
     ],
