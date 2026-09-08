@@ -2,7 +2,8 @@ import type { Locale } from '@/lib/payload'
 import { notFound } from 'next/navigation'
 import { ServiceDetailView, getServiceMetadata } from '@/components/ServiceDetailView'
 import { PracticeCityView, getPracticeCityMetadata } from '@/components/PracticeCityView'
-import { isBkService, isLiveCity } from '@/lib/routing'
+import { isBkCitySlug, normalizeCitySlug } from '@/lib/cityBodyCopy'
+import { isBkService } from '@/lib/routing'
 
 export async function generateMetadata({
   params,
@@ -10,7 +11,8 @@ export async function generateMetadata({
   params: Promise<{ locale: Locale; service: string }>
 }) {
   const { locale, service } = await params
-  if (isLiveCity(service)) return getPracticeCityMetadata('bankruptcy', service, locale)
+  const citySlug = normalizeCitySlug(service)
+  if (isBkCitySlug(citySlug)) return getPracticeCityMetadata('bankruptcy', citySlug, locale)
   return getServiceMetadata('bankruptcy', service, locale)
 }
 
@@ -20,8 +22,9 @@ export default async function BankruptcySlugPage({
   params: Promise<{ locale: Locale; service: string }>
 }) {
   const { locale, service } = await params
-  if (isLiveCity(service)) {
-    return <PracticeCityView practiceSlug="bankruptcy" citySlug={service} locale={locale} />
+  const citySlug = normalizeCitySlug(service)
+  if (isBkCitySlug(citySlug)) {
+    return <PracticeCityView practiceSlug="bankruptcy" citySlug={citySlug} locale={locale} />
   }
   if (!isBkService(service)) notFound()
   return <ServiceDetailView practiceSlug="bankruptcy" serviceSlug={service} locale={locale} />

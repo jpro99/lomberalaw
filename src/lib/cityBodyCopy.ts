@@ -2726,20 +2726,36 @@ const BK_ES: Record<CitySlug, CityPageCopy> = {
   },
 }
 
+export const PI_CITY_SLUGS = new Set(Object.keys(PI_EN) as CitySlug[])
+export const BK_CITY_SLUGS = new Set(Object.keys(BK_EN) as CitySlug[])
+
+export function normalizeCitySlug(slug: string): string {
+  return slug.trim().toLowerCase()
+}
+
+export function isPiCitySlug(slug: string): boolean {
+  return PI_CITY_SLUGS.has(normalizeCitySlug(slug) as CitySlug)
+}
+
+export function isBkCitySlug(slug: string): boolean {
+  return BK_CITY_SLUGS.has(normalizeCitySlug(slug) as CitySlug)
+}
+
 export function cityCopy(
   practice: Practice,
   citySlug: string,
   locale: Locale,
 ): CityPageCopy | null {
-  if (!(citySlug in PI_EN)) return null
-  const city = citySlug as CitySlug
+  const city = normalizeCitySlug(citySlug) as CitySlug
   if (practice === 'personal-injury') {
+    if (!PI_CITY_SLUGS.has(city)) return null
     return locale === 'es' ? PI_ES[city] : PI_EN[city]
   }
+  if (!BK_CITY_SLUGS.has(city)) return null
   return locale === 'es' ? BK_ES[city] : BK_EN[city]
 }
 
 export function cityDisplayName(citySlug: string, locale: Locale): string {
-  const city = citySlug as CitySlug
+  const city = normalizeCitySlug(citySlug) as CitySlug
   return CITY_NAMES[city]?.[locale] ?? citySlug
 }

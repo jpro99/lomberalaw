@@ -7,8 +7,7 @@ import { CopyBody } from '@/components/CopyBody'
 import { JsonLd } from '@/components/JsonLd'
 import { breadcrumbSchema } from '@/lib/schema'
 import { pageMetadata } from '@/lib/seo'
-import { cityCopy, cityDisplayName } from '@/lib/cityBodyCopy'
-import { isLiveCity } from '@/lib/routing'
+import { cityCopy, cityDisplayName, isBkCitySlug, isPiCitySlug, normalizeCitySlug } from '@/lib/cityBodyCopy'
 import {
   EN_TO_ES_BK_SERVICE,
   localizedCanonicalUrl,
@@ -56,9 +55,10 @@ export async function getPracticeCityMetadata(
   citySlug: string,
   locale: Locale,
 ) {
-  const pageCopy = cityCopy(practiceSlug, citySlug, locale)
+  const resolvedCitySlug = normalizeCitySlug(citySlug)
+  const pageCopy = cityCopy(practiceSlug, resolvedCitySlug, locale)
   if (!pageCopy) {
-    const name = cityDisplayName(citySlug, locale)
+    const name = cityDisplayName(resolvedCitySlug, locale)
     return pageMetadata({
       title:
         locale === 'es'
@@ -68,14 +68,14 @@ export async function getPracticeCityMetadata(
         locale === 'es'
           ? `Edgar P. Lombera — ${name}. Consulta gratuita.`
           : `Edgar P. Lombera — ${name}. Free consult.`,
-      path: `/${practiceSlug}/${citySlug}`,
+      path: `/${practiceSlug}/${resolvedCitySlug}`,
       locale,
     })
   }
   return pageMetadata({
     title: pageCopy.title,
     description: pageCopy.description,
-    path: `/${practiceSlug}/${citySlug}`,
+    path: `/${practiceSlug}/${resolvedCitySlug}`,
     locale,
   })
 }
@@ -89,23 +89,26 @@ export async function PracticeCityView({
   citySlug: string
   locale: Locale
 }) {
-  if (!isLiveCity(citySlug)) notFound()
+  const resolvedCitySlug = normalizeCitySlug(citySlug)
+  const hasCityCopy =
+    practiceSlug === 'personal-injury' ? isPiCitySlug(resolvedCitySlug) : isBkCitySlug(resolvedCitySlug)
+  if (!hasCityCopy) notFound()
 
-  const pageCopy = cityCopy(practiceSlug, citySlug, locale)
+  const pageCopy = cityCopy(practiceSlug, resolvedCitySlug, locale)
   if (!pageCopy) notFound()
 
-  const name = cityDisplayName(citySlug, locale)
+  const name = cityDisplayName(resolvedCitySlug, locale)
   const copy = t(locale)
   const practicePath = practiceHubHref(locale, practiceSlug)
-  const cityPath = practiceCityHref(locale, practiceSlug, citySlug)
-  const canonicalUrl = localizedCanonicalUrl(`/${practiceSlug}/${citySlug}`, locale)
+  const cityPath = practiceCityHref(locale, practiceSlug, resolvedCitySlug)
+  const canonicalUrl = localizedCanonicalUrl(`/${practiceSlug}/${resolvedCitySlug}`, locale)
   const homeHref = locale === 'en' ? '/' : '/es/inicio/'
   const serviceSlugs = practiceSlug === 'personal-injury' ? PI_CITY_SERVICES : BK_CITY_SERVICES
   const services = serviceSlugs.filter(
     (service) => locale === 'en' || hasSpanishServiceSlug(practiceSlug, service),
   )
   const siblingPractice = practiceSlug === 'personal-injury' ? 'bankruptcy' : 'personal-injury'
-  const siblingHref = practiceCityHref(locale, siblingPractice, citySlug)
+  const siblingHref = practiceCityHref(locale, siblingPractice, resolvedCitySlug)
   const siblingLabel =
     locale === 'es'
       ? practiceSlug === 'personal-injury'
@@ -116,16 +119,16 @@ export async function PracticeCityView({
         : `${name} personal injury`
   const ctaIsLastH2 =
     practiceSlug === 'personal-injury' &&
-    (citySlug === 'fontana' ||
-      citySlug === 'riverside' ||
-      citySlug === 'redlands' ||
-      citySlug === 'san-bernardino' ||
-      citySlug === 'moreno-valley' ||
-      citySlug === 'highland' ||
-      citySlug === 'palm-springs' ||
-      citySlug === 'palm-desert' ||
-      citySlug === 'beaumont' ||
-      citySlug === 'indio')
+    (resolvedCitySlug === 'fontana' ||
+      resolvedCitySlug === 'riverside' ||
+      resolvedCitySlug === 'redlands' ||
+      resolvedCitySlug === 'san-bernardino' ||
+      resolvedCitySlug === 'moreno-valley' ||
+      resolvedCitySlug === 'highland' ||
+      resolvedCitySlug === 'palm-springs' ||
+      resolvedCitySlug === 'palm-desert' ||
+      resolvedCitySlug === 'beaumont' ||
+      resolvedCitySlug === 'indio')
   const homeCrumb = locale === 'es' ? 'Inicio' : 'Home'
   const practiceCrumb =
     practiceSlug === 'personal-injury' ? copy.nav.personalInjury : copy.nav.bankruptcy
