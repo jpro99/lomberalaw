@@ -70,7 +70,7 @@ function translatePracticeSegments(
 }
 
 /** Live Spanish PI city hubs served from /es/lesiones-personales/{city}/ (not middleware rewrite). */
-const SPANISH_STATIC_PI_CITY_SLUGS = new Set(['indio', 'colton', 'rancho-cucamonga', 'hemet'])
+const SPANISH_STATIC_PI_CITY_SLUGS = new Set(['indio', 'colton', 'rancho-cucamonga', 'hemet', 'cathedral-city'])
 
 /** True when the live Spanish PI URL is a static city hub under lesiones-personales. */
 export function isSpanishPiCityPath(pathname: string): boolean {
