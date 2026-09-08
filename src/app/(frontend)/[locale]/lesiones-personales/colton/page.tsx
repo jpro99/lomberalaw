@@ -3,16 +3,12 @@ import { PracticeCityView, getPracticeCityMetadata } from '@/components/Practice
 
 export const dynamic = 'force-dynamic'
 
-export async function generateMetadata({ params }: { params: Promise<{ locale: Locale }> }) {
-  const { locale } = await params
-  return getPracticeCityMetadata('personal-injury', 'colton', locale)
+const LOCALE: Locale = 'es'
+
+export async function generateMetadata() {
+  return getPracticeCityMetadata('personal-injury', 'colton', LOCALE)
 }
 
-export default async function ColtonLesionesPersonalesPage({
-  params,
-}: {
-  params: Promise<{ locale: Locale }>
-}) {
-  const { locale } = await params
-  return <PracticeCityView practiceSlug="personal-injury" citySlug="colton" locale={locale} />
+export default function ColtonLesionesPersonalesPage() {
+  return <PracticeCityView practiceSlug="personal-injury" citySlug="colton" locale={LOCALE} />
 }
