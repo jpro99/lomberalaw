@@ -34,7 +34,7 @@ const CAR_ACCIDENT_CITY_TARGETS = [
   ['la-quinta', '/personal-injury/la-quinta/'],
   ['rancho-mirage', '/personal-injury/car-accidents/'],
   ['indian-wells', '/personal-injury/car-accidents/'],
-  ['coachella', '/personal-injury/car-accidents/'],
+  ['coachella', '/personal-injury/coachella/'],
   ['barstow', '/personal-injury/car-accidents/'],
   ['rialto', '/personal-injury/car-accidents/'],
   ['big-bear-lake', '/personal-injury/car-accidents/'],
