@@ -554,28 +554,50 @@ const BK_EN: Record<BkSlug, ServicePageCopy> = {
     title: 'Chapter 7 Bankruptcy Lawyer | Inland Empire | Lombera',
     h1: 'Chapter 7 Bankruptcy Lawyer in the Inland Empire',
     description:
-      'Chapter 7 discharge in about 90–120 days if you pass the means test. Court fee $338. File at 3420 Twelfth Street, Riverside. Free consult.',
+      'Chapter 7 means test, unsecured discharge, no repayment plan. Typical no-asset timeline about 90–120 days when the trustee accepts. Court fee $338. Riverside Division. Free consult.',
     lead: [
-      `When collection calls, credit cards, and medical bills outpace income, Chapter 7 can discharge most unsecured debt — typically in about 90 to 120 days if you pass the means test. Edgar P. Lombera reviews your situation from ${REDLANDS_NAP} or ${PS_NAP}. Every consumer case files at ${BK_COURT}.`,
+      `Chapter 7 is a liquidation case for consumers who qualify: there is no three- or five-year repayment plan — eligible unsecured debt can be discharged and the case can close in a matter of months. Edgar P. Lombera prepares petitions at ${REDLANDS_NAP} or ${PS_NAP}. Riverside and San Bernardino County households file at ${BK_COURT}. English or Spanish. You speak with Edgar in the first meeting.`,
     ],
     sections: [
       {
-        h2: 'Means test and what Chapter 7 discharges',
+        h2: 'Means test — when the Code requires the full worksheet',
         paragraphs: [
-          'Chapter 7 eliminates credit cards, medical bills, personal loans, and many other unsecured debts if household income falls below the means-test threshold for your family size. Secured debts — mortgages and car loans — are treated separately; most homeowners keep the house if payments stay current and equity fits within California’s homestead exemption.',
-          'Edgar confirms qualification with pay stubs and tax returns in the free consult — not a website calculator.',
+          'If your household’s current monthly income is above the state median for your family size, the Bankruptcy Code requires a means test to see whether a consumer Chapter 7 filing is presumed abusive. Below median, the full worksheet may not be required — but every case still turns on pay stubs, tax returns, and household size, not a slogan on a website.',
+          'Edgar runs the numbers in the free consult. If the means test points to Chapter 13 — or you are behind on a mortgage and need to cure arrears — see /bankruptcy/chapter-13/ instead of forcing a Chapter 7 that the facts will not support.',
         ],
       },
       {
-        h2: 'Automatic stay and garnishment relief',
+        h2: 'Unsecured debt, exemptions, and what Chapter 7 does not fix',
         paragraphs: [
-          'The automatic stay starts the day the petition is filed — garnishments, collection lawsuits, and most foreclosure steps must pause. Waiting another month lets another paycheck disappear.',
+          'Credit cards, medical bills, personal loans, and many other unsecured debts are the usual Chapter 7 targets when the case qualifies. California exemption law decides what a trustee can sell to pay creditors; we confirm your exemptions with your documents and do not print dollar amounts here.',
+          'Chapter 7 does not cure mortgage arrears. Secured property — a home or car — can still be lost if ongoing payments, liens, or surrender choices are not handled. Keeping a house generally means staying current after filing, not expecting the chapter to rewrite a delinquent loan.',
+        ],
+      },
+      {
+        h2: 'No-asset timeline — not a guarantee',
+        paragraphs: [
+          'California’s self-help materials describe many Chapter 7 cases finishing in about three to six months. In a typical no-asset case, discharge often lands in about 90 to 120 days when the trustee accepts the petition — timing varies with court calendar, document requests, and whether any asset issues surface.',
+          'There is no repayment plan in Chapter 7. That speed is why households that pass the means test and do not need a structured mortgage catch-up often start here rather than in Chapter 13.',
+        ],
+      },
+      {
+        h2: 'Automatic stay — breathing room, not a permanent shield',
+        paragraphs: [
+          'Filing triggers the automatic stay: most collection calls, garnishments, and state-court collection lawsuits pause while the stay is in effect. It is a pause ordered by the bankruptcy court, not a permanent bar — secured creditors may still pursue relief if you fall behind on a mortgage or car note after filing.',
+          'Families waiting for “one more paycheck” before calling often lose garnished wages the stay would have protected. The stay buys time to finish the case; it does not replace the discharge order.',
+        ],
+      },
+      {
+        h2: 'Injury claims and collection pressure — one firm, one lawyer',
+        paragraphs: [
+          'This office sits in Redlands and Palm Springs with two practices only: personal injury and bankruptcy. A household juggling Kaiser or desert-hospital bills after a crash while collectors call does not need two law firms and two intake scripts — Edgar can map the injury track and whether Chapter 7 fits the debt side in one conversation.',
+          'Local bankruptcy context: /bankruptcy/redlands/ and /bankruptcy/palm-springs/. Compare chapters: /bankruptcy/chapter-13/ when income or mortgage arrears push you toward a plan.',
         ],
       },
       {
         h2: '3420 Twelfth Street, Riverside — court fee $338',
         paragraphs: [
-          'There is no bankruptcy court in Redlands, San Bernardino, Indio, or any Inland Empire city. Consumer cases file only at 3420 Twelfth Street, Riverside. The 2026 court filing fee for Chapter 7 is $338. The Section 341 meeting of creditors is often held remotely. ' +
+          'There is no bankruptcy court in Redlands, San Bernardino, Indio, or any Inland Empire city. Consumer Chapter 7 cases file only at 3420 Twelfth Street, Riverside (Central District, Riverside Division). The court filing fee for Chapter 7 is $338. The Section 341 meeting of creditors is often held remotely. Redlands (909) 915-0181 · Palm Springs (760) 835-9353. ' +
             DEBT_RELIEF_EN,
         ],
       },
@@ -585,28 +607,50 @@ const BK_EN: Record<BkSlug, ServicePageCopy> = {
     title: 'Chapter 13 Bankruptcy Lawyer | Inland Empire | Lombera',
     h1: 'Chapter 13 Bankruptcy Lawyer in the Inland Empire',
     description:
-      'Chapter 13 plan over 36–60 months. Catch up the mortgage, stop foreclosure. Court fee $313. File Riverside. Free consult.',
+      'Chapter 13 plan 36–60 months, trustee payments, mortgage catch-up. Below-median three years unless extended for cause; above median often five. Court fee $313. Riverside. Free consult.',
     lead: [
-      `Chapter 13 is for families with regular income who need a court-supervised plan — usually 36 to 60 months — to catch up a mortgage, keep a vehicle, or repay debt that Chapter 7 cannot address. Edgar P. Lombera prepares the plan from Redlands or Palm Springs. Filing is at ${BK_COURT}.`,
+      `Chapter 13 is for households with regular income who need a court-approved repayment plan — not a quick unsecured discharge. Edgar P. Lombera drafts the plan from ${REDLANDS_NAP} or ${PS_NAP}. Payments go to the Chapter 13 trustee after confirmation. Every consumer case files at ${BK_COURT}. English or Spanish.`,
     ],
     sections: [
       {
-        h2: '36–60 month plan — no cramdown promises',
+        h2: 'Plan length — 36 to 60 months, never longer than five years',
         paragraphs: [
-          'The plan spreads past-due mortgage payments and certain secured debt over three to five years while you keep the home and stay current on new payments. Edgar builds a proposal that fits your actual budget — not a template that promises cramdown or lien stripping that the facts may not support.',
-          'Every case is different; what worked for a neighbor’s cousin may not apply to your mortgage, arrears, or income.',
+          'Below the state median income, the plan usually runs three years unless the court approves a longer period for cause. Above median, the plan is generally five years. The Bankruptcy Code does not allow a consumer Chapter 13 plan to stretch past five years.',
+          'The proposal must be realistic for your actual budget — payroll deposits, housing, insurance, and court-approved expenses — not a template copied from another county.',
         ],
       },
       {
-        h2: 'Foreclosure defense and wage garnishment',
+        h2: 'Mortgage arrears, trustee payments, and confirmation',
         paragraphs: [
-          'Filing Chapter 13 triggers the automatic stay — foreclosure sales and most wage garnishments pause while the case is active. For families already in state-court collection, the federal petition is often the fastest path to breathing room.',
+          'Chapter 13’s core use for many Inland Empire homeowners is catching up mortgage arrears while keeping the house: past-due amounts fold into the plan alongside ongoing monthly payments. You send plan payments to the Chapter 13 trustee; the court confirms the plan after creditors and the trustee review it.',
+          'Chapter 13 does not promise cramdown or lien stripping on every loan. Edgar builds the proposal from your mortgage statements and income — not from marketing copy that guarantees tools the facts may not allow.',
+        ],
+      },
+      {
+        h2: 'When Chapter 7 is the better fit',
+        paragraphs: [
+          'Households that pass the means test, are current on the mortgage, and mainly need unsecured relief often belong in Chapter 7 — no multi-year plan, no trustee payment stream. See /bankruptcy/chapter-7/ when arrears and plan funding are not the problem.',
+          'If the means test presumes abuse in Chapter 7, or foreclosure pressure comes from months of missed house payments, Chapter 13 is usually the conversation — not an attempt to “quick discharge” secured arrears in Chapter 7.',
+        ],
+      },
+      {
+        h2: 'Automatic stay while the case stays active',
+        paragraphs: [
+          'The automatic stay begins when the petition is filed. Foreclosure sales, repossession timelines, and many wage garnishments halt for most creditors while the stay applies and the case remains in good standing — again, a temporary court-ordered pause, not a forever ban on secured enforcement if you default under the plan.',
+          'State-court collection lawsuits can sit idle while the federal case is open, which buys months to confirm a plan — but missing trustee payments can end that protection.',
+        ],
+      },
+      {
+        h2: 'One attorney, two practices — injury and bankruptcy',
+        paragraphs: [
+          'Edgar P. Lombera is the founding attorney at both staffed offices — personal injury and bankruptcy only. When a family faces a foreclosure notice and an open bodily-injury claim from the same crash, coordinating timing matters; you do not need a national bankruptcy mill for the debt and a billboard firm for the injury.',
+          'Office-specific bankruptcy pages: /bankruptcy/redlands/ and /bankruptcy/palm-springs/. Chapter comparison: /bankruptcy/chapter-7/ for means-test-qualified households without a mortgage catch-up.',
         ],
       },
       {
         h2: '3420 Twelfth Street, Riverside — court fee $313',
         paragraphs: [
-          'All Inland Empire and Coachella Valley consumer Chapter 13 cases file at the U.S. Bankruptcy Court, Central District of California, 3420 Twelfth Street, Riverside — never at the Indio civil courthouse or downtown San Bernardino. The 2026 court filing fee for Chapter 13 is $313. ' +
+          'Riverside and San Bernardino County consumer Chapter 13 cases file at the U.S. Bankruptcy Court, Central District of California, 3420 Twelfth Street, Riverside — not at county civil courthouses in San Bernardino, Indio, or downtown Riverside. The court filing fee for Chapter 13 is $313. Redlands (909) 915-0181 · Palm Springs (760) 835-9353. ' +
             DEBT_RELIEF_EN,
         ],
       },
@@ -619,27 +663,50 @@ const BK_ES: Record<BkSlug, ServicePageCopy> = {
     title: 'Abogado de Bancarrota Capítulo 7 | Inland Empire | Lombera',
     h1: 'Abogado de bancarrota Capítulo 7 en el Inland Empire',
     description:
-      'Descarga del Capítulo 7 en unos 90–120 días si pasa la prueba de medios. Tarifa judicial $338. Presente en 3420 Twelfth Street, Riverside.',
+      'Capítulo 7: prueba de medios, descarga de deuda no garantizada, sin plan de pagos. Caso sin activos suele cerrar en unos 90–120 días si el síndico acepta. Tarifa $338. División Riverside.',
     lead: [
-      `Cuando las llamadas de cobro, las tarjetas de crédito y las facturas médicas superan los ingresos, el Capítulo 7 puede eliminar la mayor parte de la deuda no garantizada — típicamente en unos 90 a 120 días si pasa la prueba de medios. Edgar P. Lombera revisa su situación desde Redlands o Palm Springs. Todo caso de consumidor se presenta en ${BK_COURT}.`,
+      `El Capítulo 7 es un caso de liquidación para consumidores que califican: no hay plan de reembolso de tres o cinco años — la deuda no garantizada elegible puede descargarse y el caso puede cerrarse en pocos meses. Edgar P. Lombera prepara las peticiones en ${REDLANDS_NAP} o en ${PS_NAP}. Los hogares del condado de Riverside y San Bernardino presentan en ${BK_COURT}. Inglés o español. Usted habla con Edgar en la primera reunión.`,
     ],
     sections: [
       {
-        h2: 'Prueba de medios y qué elimina el Capítulo 7',
+        h2: 'Prueba de medios — cuándo el Código exige la hoja completa',
         paragraphs: [
-          'El Capítulo 7 elimina tarjetas de crédito, facturas médicas, préstamos personales y mucha otra deuda no garantizada si los ingresos del hogar están por debajo del umbral de la prueba de medios para su tamaño familiar. Las deudas garantizadas — hipotecas y préstamos de auto — se tratan por separado; la mayoría de los propietarios conservan la casa si los pagos siguen al día y el capital cabe en la exención de vivienda de California.',
+          'Si el ingreso mensual actual de su hogar supera la mediana estatal para su tamaño familiar, el Código de Bancarrota exige una prueba de medios para ver si una petición de consumidor del Capítulo 7 se presume abusiva. Por debajo de la mediana, puede que no haga falta la hoja completa — pero cada caso depende de talones de pago, declaraciones de impuestos y personas en el hogar, no de un eslogan en internet.',
+          'Edgar calcula las cifras en la consulta gratuita. Si la prueba de medios apunta al Capítulo 13 — o está atrasado en la hipoteca y necesita poner al día los atrasos — revise /es/bancarrota/bancarrota-capitulo-13/ en lugar de forzar un Capítulo 7 que los hechos no respaldan.',
         ],
       },
       {
-        h2: 'Suspensión automática y alivio del embargo',
+        h2: 'Deuda no garantizada, exenciones y lo que el Capítulo 7 no arregla',
         paragraphs: [
-          'La suspensión automática comienza el día que se presenta la petición — embargos, demandas de cobro y la mayoría de los pasos de ejecución hipotecaria deben pausar.',
+          'Tarjetas de crédito, facturas médicas, préstamos personales y mucha otra deuda no garantizada son los objetivos habituales del Capítulo 7 cuando el caso califica. La ley de exenciones de California define qué puede vender un síndico para pagar acreedores; confirmamos sus exenciones con sus documentos y no publicamos montos en dólares aquí.',
+          'El Capítulo 7 no cura atrasos de hipoteca. La propiedad garantizada — casa o auto — aún puede perderse si no se manejan los pagos continuos, los gravámenes o la entrega voluntaria. Conservar la casa generalmente significa mantenerse al día después de presentar, no esperar que el capítulo reescriba un préstamo en mora.',
+        ],
+      },
+      {
+        h2: 'Cronograma sin activos — no es una garantía',
+        paragraphs: [
+          'Los materiales de autoayuda de los tribunales de California describen muchos casos del Capítulo 7 que terminan en unos tres a seis meses. En un caso típico sin activos, la descarga suele llegar en unos 90 a 120 días cuando el síndico acepta la petición — el calendario varía según la corte, solicitudes de documentos y si surgen temas de activos.',
+          'No hay plan de pagos en el Capítulo 7. Por eso los hogares que pasan la prueba de medios y no necesitan una recuperación estructurada de la hipoteca suelen empezar aquí en lugar del Capítulo 13.',
+        ],
+      },
+      {
+        h2: 'Suspensión automática — respiro temporal, no escudo permanente',
+        paragraphs: [
+          'La presentación activa la suspensión automática: la mayoría de las llamadas de cobro, embargos y demandas de cobro en tribunales estatales se detienen mientras la suspensión está vigente. Es una pausa ordenada por el tribunal de bancarrota, no una prohibición permanente — los acreedores garantizados pueden pedir alivio si se atrasa en la hipoteca o el auto después de presentar.',
+          'Las familias que esperan “un cheque más” antes de llamar a menudo pierden salarios que la suspensión habría protegido. La suspensión da tiempo para terminar el caso; no sustituye la orden de descarga.',
+        ],
+      },
+      {
+        h2: 'Reclamos por lesiones y presión de cobro — un despacho, un abogado',
+        paragraphs: [
+          'Esta oficina está en Redlands y Palm Springs con solo dos prácticas: lesiones personales y bancarrota. Un hogar con facturas del hospital tras un choque y llamadas de cobradores no necesita dos despachos ni dos guiones de intake — Edgar puede trazar el reclamo por lesiones y si el Capítulo 7 encaja en el lado de la deuda en una sola conversación.',
+          'Contexto local: /es/bancarrota/redlands/ y /es/bancarrota/palm-springs/. Compare capítulos: /es/bancarrota/bancarrota-capitulo-13/ cuando los ingresos o los atrasos de hipoteca empujan hacia un plan.',
         ],
       },
       {
         h2: '3420 Twelfth Street, Riverside — tarifa judicial $338',
         paragraphs: [
-          'No hay tribunal de bancarrota en Redlands, San Bernardino, Indio ni ninguna ciudad del Inland Empire. Los casos de consumidor se presentan solo en 3420 Twelfth Street, Riverside. La tarifa de presentación judicial de 2026 para el Capítulo 7 es $338. La reunión 341 suele ser remota. ' +
+          'No hay tribunal de bancarrota en Redlands, San Bernardino, Indio ni ninguna ciudad del Inland Empire. Los casos de consumidor del Capítulo 7 se presentan solo en 3420 Twelfth Street, Riverside (Distrito Central, División Riverside). La tarifa de presentación judicial del Capítulo 7 es $338. La reunión de acreedores de la Sección 341 suele ser remota. Redlands (909) 915-0181 · Palm Springs (760) 835-9353. ' +
             DEBT_RELIEF_ES,
         ],
       },
@@ -649,27 +716,50 @@ const BK_ES: Record<BkSlug, ServicePageCopy> = {
     title: 'Abogado de Bancarrota Capítulo 13 | Inland Empire | Lombera',
     h1: 'Abogado de bancarrota Capítulo 13 en el Inland Empire',
     description:
-      'Plan del Capítulo 13 de 36–60 meses. Póngase al día con la hipoteca, detenga la ejecución. Tarifa judicial $313. Presente en Riverside.',
+      'Plan del Capítulo 13 de 36–60 meses, pagos al síndico, recuperación de hipoteca. Tres años bajo la mediana salvo causa; cinco si está arriba. Tarifa $313. Riverside.',
     lead: [
-      `El Capítulo 13 es para familias con ingresos regulares que necesitan un plan supervisado por el tribunal — usualmente de 36 a 60 meses — para ponerse al día con la hipoteca, conservar un vehículo o pagar deuda que el Capítulo 7 no puede abordar. Edgar P. Lombera prepara el plan desde Redlands o Palm Springs. La presentación es en ${BK_COURT}.`,
+      `El Capítulo 13 es para hogares con ingresos regulares que necesitan un plan de reembolso aprobado por el tribunal — no una descarga rápida de deuda no garantizada. Edgar P. Lombera redacta el plan desde ${REDLANDS_NAP} o ${PS_NAP}. Los pagos van al síndico del Capítulo 13 después de la confirmación. Todo caso de consumidor se presenta en ${BK_COURT}. Inglés o español.`,
     ],
     sections: [
       {
-        h2: 'Plan de 36–60 meses — sin promesas de cramdown',
+        h2: 'Duración del plan — de 36 a 60 meses, nunca más de cinco años',
         paragraphs: [
-          'El plan distribuye pagos atrasados de hipoteca y cierta deuda garantizada en tres a cinco años mientras conserva la casa y se mantiene al día en pagos nuevos. Edgar construye una propuesta que se ajusta a su presupuesto real — no una plantilla que promete cramdown o eliminación de gravamen que los hechos pueden no respaldar.',
+          'Por debajo de la mediana estatal de ingresos, el plan suele durar tres años salvo que el tribunal apruebe un periodo más largo por causa justificada. Por encima de la mediana, el plan generalmente es de cinco años. El Código de Bancarrota no permite que un plan de consumidor del Capítulo 13 se extienda más de cinco años.',
+          'La propuesta debe ser realista para su presupuesto real — depósitos de nómina, vivienda, seguros y gastos aprobados por el tribunal — no una plantilla copiada de otro condado.',
         ],
       },
       {
-        h2: 'Defensa de ejecución hipotecaria y embargo de salario',
+        h2: 'Atrasos de hipoteca, pagos al síndico y confirmación',
         paragraphs: [
-          'Presentar el Capítulo 13 activa la suspensión automática — las ventas de ejecución hipotecaria y la mayoría de los embargos de salario se pausan mientras el caso está activo.',
+          'El uso central del Capítulo 13 para muchos propietarios del Inland Empire es poner al día los atrasos de hipoteca mientras conservan la casa: los montos vencidos entran al plan junto con los pagos mensuales en curso. Usted envía los pagos del plan al síndico del Capítulo 13; el tribunal confirma el plan después de que acreedores y síndico lo revisan.',
+          'El Capítulo 13 no promete cramdown ni eliminación de gravamen en todo préstamo. Edgar construye la propuesta a partir de sus estados de hipoteca e ingresos — no con texto publicitario que garantiza herramientas que los hechos pueden no permitir.',
+        ],
+      },
+      {
+        h2: 'Cuándo el Capítulo 7 encaja mejor',
+        paragraphs: [
+          'Los hogares que pasan la prueba de medios, están al día en la hipoteca y principalmente necesitan alivio en deuda no garantizada suelen pertenecer al Capítulo 7 — sin plan de varios años ni flujo de pagos al síndico. Vea /es/bancarrota/bancarrota-capitulo-7/ cuando los atrasos y el financiamiento del plan no son el problema.',
+          'Si la prueba de medios presume abuso en el Capítulo 7, o la presión de ejecución viene de meses sin pagar la casa, la conversación suele ser Capítulo 13 — no intentar “descargar rápido” atrasos garantizados en el Capítulo 7.',
+        ],
+      },
+      {
+        h2: 'Suspensión automática mientras el caso sigue activo',
+        paragraphs: [
+          'La suspensión automática comienza al presentar la petición. Las ventas de ejecución hipotecaria, plazos de recuperación de vehículos y muchos embargos de salario se detienen para la mayoría de los acreedores mientras la suspensión aplica y el caso permanece en regla — otra pausa temporal ordenada por el tribunal, no una prohibición eterna si incumple el plan.',
+          'Las demandas de cobro en tribunales estatales pueden quedar en espera mientras el caso federal está abierto, lo que da meses para confirmar un plan — pero perder pagos al síndico puede terminar esa protección.',
+        ],
+      },
+      {
+        h2: 'Un abogado, dos prácticas — lesiones y bancarrota',
+        paragraphs: [
+          'Edgar P. Lombera es el abogado fundador en ambas oficinas con personal — solo lesiones personales y bancarrota. Cuando una familia enfrenta un aviso de ejecución y un reclamo por lesiones corporales del mismo choque, coordinar tiempos importa; no necesita un molino nacional de bancarrota para la deuda y un despacho de vallas para la lesión.',
+          'Páginas de bancarrota por oficina: /es/bancarrota/redlands/ y /es/bancarrota/palm-springs/. Comparación de capítulos: /es/bancarrota/bancarrota-capitulo-7/ para hogares que pasan la prueba de medios sin recuperación de hipoteca.',
         ],
       },
       {
         h2: '3420 Twelfth Street, Riverside — tarifa judicial $313',
         paragraphs: [
-          'Todos los casos de consumidor del Capítulo 13 del Inland Empire y el Valle de Coachella se presentan en el Tribunal de Bancarrota de EE. UU., Distrito Central de California, 3420 Twelfth Street, Riverside — nunca en el tribunal civil de Indio ni en el centro de San Bernardino. La tarifa de presentación judicial de 2026 para el Capítulo 13 es $313. ' +
+          'Los casos de consumidor del Capítulo 13 del condado de Riverside y San Bernardino se presentan en el Tribunal de Bancarrota de EE. UU., Distrito Central de California, 3420 Twelfth Street, Riverside — no en tribunales civiles del condado en San Bernardino, Indio o el centro de Riverside. La tarifa de presentación judicial del Capítulo 13 es $313. Redlands (909) 915-0181 · Palm Springs (760) 835-9353. ' +
             DEBT_RELIEF_ES,
         ],
       },
