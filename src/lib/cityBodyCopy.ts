@@ -81,7 +81,7 @@ const PI_EN: Record<CitySlug, CityPageCopy> = {
       {
         h2: 'Uber and Lyft on Sierra Avenue',
         paragraphs: [
-          'Whether the driver had the app on changes which insurer must respond — we confirm coverage in the consult, not in marketing copy with dollar figures. Sierra Avenue, Foothill Boulevard, and the I-10 / I-15 connectors carry heavy rideshare volume between warehouse shifts and commuter runs. Fontana rideshare claims stay on /personal-injury/fontana/. We do not invent a /uber/ or /rideshare/ page.',
+          'Uber and Lyft pickups along Sierra Avenue and Foothill Boulevard (Historic Route 66) stack against I-10 and I-15 connector traffic when warehouse shifts end and commuter runs spike—coverage turns on whether the driver was logged into the app, and we map that in a consult instead of quoting policy limits in marketing copy. Fontana rideshare injury claims are handled on /personal-injury/fontana/ only; Lombera does not publish a separate /uber/ or /rideshare/ landing page.',
         ],
       },
       {
@@ -128,7 +128,7 @@ const PI_EN: Record<CitySlug, CityPageCopy> = {
       {
         h2: 'Uber and Lyft on Valley Boulevard, La Cadena, Mt Vernon, and Rancho',
         paragraphs: [
-          'Whether the driver had the app on changes which insurer must respond — we confirm coverage in the consult, not in marketing copy with dollar figures. Valley Boulevard, La Cadena Drive, Mt Vernon Avenue, and the Rancho corridor stack rideshare pickups between warehouse shifts, CSUSB commuter runs, and I-215 interchange traffic at Colton Crossing. Colton rideshare claims stay on /personal-injury/colton/. We do not invent a /uber/ page.',
+          'Valley Boulevard, La Cadena Drive, Mt Vernon Avenue, and the Rancho corridor see steady Uber and Lyft volume mixing with I-215 interchange traffic at Colton Crossing and CSUSB commuter trips. Which insurer answers usually depends on app status at impact—we verify that face-to-face, not with dollar figures on the website. Colton rideshare cases stay on /personal-injury/colton/; there is no standalone /uber/ page.',
         ],
       },
       {
@@ -175,7 +175,7 @@ const PI_EN: Record<CitySlug, CityPageCopy> = {
       {
         h2: 'Uber and Lyft on Haven, Foothill, and Baseline',
         paragraphs: [
-          'Whether the driver had the app on changes which insurer must respond — we confirm coverage in the consult, not in marketing copy with dollar figures. Rancho Cucamonga rideshare claims stay on /personal-injury/rancho-cucamonga/. We do not invent a /uber/ page.',
+          'Haven Avenue, Foothill Boulevard, Baseline Road, and the Ontario / Rancho warehouse approaches feed constant rideshare runs into the I-15 / I-210 / I-10 merge—when a crash happens, app-on versus app-off decides which policy must respond, and we confirm that during the consult rather than in webpage copy with coverage amounts. Rancho Cucamonga Uber and Lyft claims are filed from this /personal-injury/rancho-cucamonga/ URL without a separate /uber/ shortcut.',
         ],
       },
       {
@@ -222,7 +222,7 @@ const PI_EN: Record<CitySlug, CityPageCopy> = {
       {
         h2: 'Uber and Lyft on Beaumont Avenue, Highland Springs, Pennsylvania Avenue, and 6th Street',
         paragraphs: [
-          'Whether the driver had the app on changes which insurer must respond — we confirm coverage in the consult, not in marketing copy with dollar figures. Beaumont Avenue, Highland Springs Avenue, 6th Street, and Pennsylvania Avenue stack rideshare pickups between Cherry Valley commuter runs, retail shifts at the Beaumont Marketplace corridor, and warehouse-gap drivers heading toward the Pass. Beaumont, California rideshare claims stay on /personal-injury/beaumont/. We do not invent a /uber/ page.',
+          'Rideshare drivers thread Beaumont Avenue, Highland Springs Avenue, 6th Street, and Pennsylvania Avenue between Cherry Valley commuter legs, Beaumont Marketplace retail shifts, and warehouse-gap runs toward the San Gorgonio Pass. Uber and Lyft coverage shifts with app status; we nail down the right insurer in consultation instead of advertising limits here. Beaumont, California rideshare matters remain on /personal-injury/beaumont/—not a fabricated /uber/ page.',
         ],
       },
       {
@@ -269,7 +269,7 @@ const PI_EN: Record<CitySlug, CityPageCopy> = {
       {
         h2: 'Uber and Lyft on Palm Canyon Drive, Indian Canyon Drive, and Highway 111',
         paragraphs: [
-          'Whether the driver had the app on changes which insurer must respond — we confirm coverage in the consult, not in marketing copy with dollar figures. Downtown Palm Canyon, the Uptown Design District, Indian Canyon resort runs, and Highway 111 valley connectors stack rideshare pickups between seasonal tourism surges, airport shuttles, and weekend event traffic. Palm Springs rideshare claims stay on /personal-injury/palm-springs/. We do not invent a /uber/ page.',
+          'Downtown Palm Canyon Drive, the Uptown Design District, Indian Canyon resort routes, and Highway 111 connectors see seasonal Uber and Lyft surges around tourism, airport shuttles, and weekend events. Whether the driver was actively on the app controls which carrier responds—we establish that in the case consult, not with marketing dollar quotes. Palm Springs rideshare claims are pursued from /personal-injury/palm-springs/ without inventing a dedicated /uber/ page.',
         ],
       },
       {
@@ -316,7 +316,7 @@ const PI_EN: Record<CitySlug, CityPageCopy> = {
       {
         h2: 'Uber and Lyft on El Paseo, Monterey Avenue, and Highway 111',
         paragraphs: [
-          'Whether the driver had the app on changes which insurer must respond — we confirm coverage in the consult, not in marketing copy with dollar figures. El Paseo retail, Monterey Avenue outlet traffic, and Highway 111 valley connectors stack rideshare pickups between seasonal tourism, golf-resort drop-offs, and weekend event surges. Palm Desert rideshare claims stay on /personal-injury/palm-desert/. We do not invent a /uber/ page.',
+          'El Paseo shopping, Monterey Avenue outlet traffic, and Highway 111 valley links produce golf-resort drop-offs and weekend-event Lyft and Uber trips that can collide with through traffic on I-10 approaches. App status at the moment of impact drives insurer responsibility; we confirm coverage privately before demand letters go out. Palm Desert rideshare injuries are handled on /personal-injury/palm-desert/—no separate /uber/ URL.',
         ],
       },
       {
@@ -363,7 +363,7 @@ const PI_EN: Record<CitySlug, CityPageCopy> = {
       {
         h2: 'Uber, Lyft, and rideshare on Highway 111, Date Palm Drive, Ramon Road, and Cathedral Canyon Drive',
         paragraphs: [
-          'Whether the driver had the app on changes which insurer must respond — we confirm coverage in the consult, not in marketing copy with dollar figures. Highway 111, Date Palm Drive, Ramon Road, and Cathedral Canyon Drive stack rideshare pickups between valley commuter runs, casino and retail shifts, and weekend event traffic. Cathedral City rideshare claims stay on /personal-injury/cathedral-city/. We do not invent a /uber/ page.',
+          'Highway 111, Date Palm Drive, Ramon Road, and Cathedral Canyon Drive mix casino shifts, retail commutes, and weekend-event rideshare pickups across the valley floor. Uber and Lyft policies layer differently when the app is on—we sort that in the intake consult rather than on this page with speculative limits. Cathedral City rideshare claims stay anchored on /personal-injury/cathedral-city/ without a made-up /uber/ route.',
         ],
       },
       {
@@ -410,7 +410,7 @@ const PI_EN: Record<CitySlug, CityPageCopy> = {
       {
         h2: 'Uber and Lyft on Highway 111, Monroe Street, Jackson, and Avenue 42–44',
         paragraphs: [
-          'Whether the driver had the app on changes which insurer must respond — we confirm coverage in the consult, not in marketing copy with dollar figures. Highway 111, Monroe Street, Jackson Street, and the Avenue 42–44 festival corridors stack rideshare pickups between Coachella Valley Music Festival surges, valley commute runs, and weekend event traffic. Indio rideshare claims stay on /personal-injury/indio/. We do not invent a /uber/ page.',
+          'Highway 111, Monroe Street, Jackson Street, and the Avenue 42–44 festival grids see Coachella Valley Music Festival spikes and everyday valley commutes in the same Uber and Lyft lanes. Liability and coverage hinge on whether the driver was en route or waiting—we verify app status before insurers steer the claim. Indio rideshare cases belong on /personal-injury/indio/; Lombera does not spin up a separate /uber/ page.',
         ],
       },
       {
@@ -457,7 +457,7 @@ const PI_EN: Record<CitySlug, CityPageCopy> = {
       {
         h2: 'Uber and Lyft on Highway 111, Washington Street, and Eisenhower Drive',
         paragraphs: [
-          'Whether the driver had the app on changes which insurer must respond — we confirm coverage in the consult, not in marketing copy with dollar figures. Highway 111, Washington Street, Fred Waring Drive, and the Eisenhower resort corridor stack rideshare pickups between PGA West event traffic, Old Town weekend runs, and valley commute trips. La Quinta rideshare claims stay on /personal-injury/la-quinta/. We do not invent a /uber/ page.',
+          'Washington Street, Fred Waring Drive, the Eisenhower resort corridor, and Highway 111 carry PGA West event traffic, Old Town weekend runs, and steady commute Lyft and Uber volume. Which policy pays often tracks app logs at impact—we review that with you directly instead of posting coverage amounts online. La Quinta rideshare injury work stays on /personal-injury/la-quinta/ without an extra /uber/ landing page.',
         ],
       },
       {
@@ -504,7 +504,7 @@ const PI_EN: Record<CitySlug, CityPageCopy> = {
       {
         h2: 'Uber and Lyft on Redlands Boulevard, Orange Street, and the I-10 corridor',
         paragraphs: [
-          'Whether the driver had the app on changes which insurer must respond — we confirm coverage in the consult, not in marketing copy with dollar figures. University of Redlands traffic, downtown Orange Street runs, and I-10 connector trips produce steady rideshare volume alongside commuter lanes. Redlands rideshare injury claims stay on /personal-injury/redlands/. We do not invent a /uber/ or /rideshare/ page.',
+          'Redlands Boulevard, downtown Orange Street, University of Redlands traffic, and I-10 connector trips keep Uber and Lyft active beside local commuter lanes. A serious rideshare wreck raises app-status and stacking questions—we answer those in the consult, not in public marketing with dollar caps. Redlands rideshare injury claims are handled exclusively through /personal-injury/redlands/; there is no parallel /uber/ or /rideshare/ page.',
         ],
       },
       {
@@ -551,7 +551,7 @@ const PI_EN: Record<CitySlug, CityPageCopy> = {
       {
         h2: 'Uber, Lyft, and rideshare on Hospitality Lane and the I-215 corridor',
         paragraphs: [
-          'Whether the driver had the app on changes which insurer must respond — we confirm coverage in the consult, not in marketing copy with dollar figures. Hospitality Lane, E Street, Rialto Avenue, and the I-215 / I-10 interchange stack rideshare pickups between hospital shifts, CSUSB commuter traffic, and county-employee runs. San Bernardino rideshare claims stay on /personal-injury/san-bernardino/. We do not invent a /uber/ or /rideshare/ page.',
+          'Hospitality Lane, E Street, Rialto Avenue, and the I-215 / I-10 stack see hospital-shift Lyft runs, CSUSB student trips, and county-employee Uber pickups daily. Coverage fights often start over whether the driver was logged in—we confirm the active policy in consultation rather than listing limits on the website. San Bernardino rideshare claims are brought from /personal-injury/san-bernardino/ without inventing a dedicated /uber/ or /rideshare/ URL.',
         ],
       },
       {
@@ -598,7 +598,7 @@ const PI_EN: Record<CitySlug, CityPageCopy> = {
       {
         h2: 'Uber and Lyft on Mission Inn, UCR, and the 91/60/215 interchange',
         paragraphs: [
-          'Whether the driver had the app on changes which insurer must respond — we confirm coverage in the consult, not in marketing copy with dollar figures. Mission Inn Avenue, the University of California Riverside campus, and the SR-91 / SR-60 / I-215 interchange stack rideshare pickups between student traffic, hospitality shifts, and county-commuter runs. Riverside rideshare claims stay on /personal-injury/riverside/. We do not invent a /uber/ page.',
+          'Mission Inn Avenue, the University of California Riverside campus, and the SR-91 / SR-60 / I-215 interchange funnel student, hospitality, and county-commuter Uber and Lyft trips into high-speed merge points. App-on timing decides which insurer must respond—we establish that before negotiations, not through marketing copy with policy-dollar figures. Riverside rideshare matters stay on /personal-injury/riverside/; there is no standalone /uber/ page.',
         ],
       },
       {
@@ -645,7 +645,7 @@ const PI_EN: Record<CitySlug, CityPageCopy> = {
       {
         h2: 'Uber and Lyft on Frederick, Ironwood, Perris Boulevard, and Alessandro',
         paragraphs: [
-          'Whether the driver had the app on changes which insurer must respond — we confirm coverage in the consult, not in marketing copy with dollar figures. Frederick Street, Ironwood Avenue, Perris Boulevard, Alessandro Boulevard, and the SR-60 / I-215 interchange stack rideshare pickups between March ARB commuter runs, Sunnymead retail traffic, and warehouse-shift gaps. Moreno Valley rideshare claims stay on /personal-injury/moreno-valley/. We do not invent a /uber/ or /rideshare/ page.',
+          'Frederick Street, Ironwood Avenue, Perris Boulevard, Alessandro Boulevard, and the SR-60 / I-215 interchange link March ARB commuters, Sunnymead retail shifts, and warehouse-gap rideshare drivers. Uber and Lyft coverage layers shift with app status at the crash—we map the responsible carrier in the consult instead of quoting thresholds here. Moreno Valley rideshare claims are pursued from /personal-injury/moreno-valley/ without a separate /uber/ or /rideshare/ page.',
         ],
       },
       {
@@ -692,7 +692,7 @@ const PI_EN: Record<CitySlug, CityPageCopy> = {
       {
         h2: 'Uber and Lyft on Base Line, Highland Avenue, and Palm Avenue',
         paragraphs: [
-          'Whether the driver had the app on changes which insurer must respond — we confirm coverage in the consult, not in marketing copy with dollar figures. Base Line, Highland Avenue, Palm Avenue, Greenspot Road, and the I-210 / Base Line interchange stack rideshare pickups between commuter runs to Loma Linda, retail shifts at East Highland shopping corridors, and warehouse-gap drivers. Highland rideshare claims stay on /personal-injury/highland/. We do not invent a /uber/ or /rideshare/ page.',
+          'Base Line, Highland Avenue, Palm Avenue, Greenspot Road, and the I-210 / Base Line interchange carry commuters toward Loma Linda, East Highland retail workers, and warehouse-gap Uber and Lyft runs. Whether the app was active changes which policy answers—we confirm that with you before insurers frame the claim. Highland rideshare injuries are handled on /personal-injury/highland/ only; Lombera does not publish a distinct /uber/ or /rideshare/ URL.',
         ],
       },
       {
@@ -739,7 +739,7 @@ const PI_EN: Record<CitySlug, CityPageCopy> = {
       {
         h2: 'Uber and Lyft on Florida Avenue, Sanderson Avenue, Stetson Avenue, and State Street',
         paragraphs: [
-          'Whether the driver had the app on changes which insurer must respond — we confirm coverage in the consult, not in marketing copy with dollar figures. Florida Avenue, Sanderson Avenue, Stetson Avenue, and State Street stack rideshare pickups between San Jacinto Valley commuter runs and retail shifts along the SR-74 corridor. Hemet rideshare claims stay on /personal-injury/hemet/. We do not invent a /uber/ page.',
+          'Florida Avenue, Sanderson Avenue, Stetson Avenue, and State Street anchor San Jacinto Valley Uber and Lyft trips tied to SR-74 corridor commutes and local retail shifts. Serious rideshare collisions turn on driver app status and available policies—we verify both in the case consult, not in webpage marketing with dollar limits. Hemet rideshare claims stay on /personal-injury/hemet/ without an invented /uber/ page.',
         ],
       },
       {
@@ -786,7 +786,7 @@ const PI_EN: Record<CitySlug, CityPageCopy> = {
       {
         h2: 'Uber and Lyft on Indian Canyon Drive, Pierson Boulevard, and Palm Drive',
         paragraphs: [
-          'Whether the driver had the app on changes which insurer must respond — we confirm coverage in the consult, not in marketing copy with dollar figures. Indian Canyon Drive, Pierson Boulevard, and Palm Drive stack rideshare pickups between north-valley commuter runs, spa-tourism shuttles from Desert Hot Springs resort corridors, and weekend event traffic on the I-10 connector. Desert Hot Springs rideshare claims stay on /personal-injury/desert-hot-springs/. We do not invent a /uber/ page.',
+          'Indian Canyon Drive, Pierson Boulevard, and Palm Drive connect north-valley commuters, Desert Hot Springs spa-tourism shuttles, and I-10 connector traffic where Lyft and Uber volume spikes on weekends. Insurer responsibility tracks whether the driver was logged into the app—we establish coverage in consultation rather than advertising policy dollars on this site. Desert Hot Springs rideshare cases are filed from /personal-injury/desert-hot-springs/; no separate /uber/ page is used.',
         ],
       },
       {
@@ -833,7 +833,7 @@ const PI_EN: Record<CitySlug, CityPageCopy> = {
       {
         h2: 'Uber and Lyft on Yucaipa Boulevard and Oak Glen Road',
         paragraphs: [
-          'Whether the driver had the app on changes which insurer must respond — we confirm coverage in the consult, not in marketing copy with dollar figures. Yucaipa Boulevard, Oak Glen Road, and the I-10 connector stack rideshare pickups between canyon weekend traffic, retail shifts along the 10, and commuter runs toward Redlands and San Bernardino. Yucaipa rideshare claims stay on /personal-injury/yucaipa/. We do not invent a /uber/ page.',
+          'Yucaipa Boulevard, Oak Glen Road, and the I-10 connector blend canyon weekend traffic, retail shifts along the 10, and commuter Uber and Lyft runs toward Redlands and San Bernardino. App status at impact often decides which carrier must pay—we confirm that privately before demands go out. Yucaipa rideshare injury claims are handled on /personal-injury/yucaipa/ without a fabricated /uber/ page.',
         ],
       },
       {
@@ -880,7 +880,7 @@ const PI_EN: Record<CitySlug, CityPageCopy> = {
       {
         h2: 'Uber and Lyft on Fourth Street, Mountain Avenue, and the Ontario Mills corridor',
         paragraphs: [
-          'Whether the driver had the app on changes which insurer must respond — we confirm coverage in the consult, not in marketing copy with dollar figures. Fourth Street, Mountain Avenue, and the Ontario Mills corridor stack rideshare pickups between warehouse shifts, airport runs toward ONT, and commuter trips toward Rancho Cucamonga and Fontana. Ontario rideshare claims stay on /personal-injury/ontario/. We do not invent a /uber/ page.',
+          'Fourth Street, Mountain Avenue, and the Ontario Mills corridor stack warehouse-shift Lyft pickups, ONT airport runs, and commuter Uber trips toward Rancho Cucamonga and Fontana. Which policy responds typically follows whether the driver had the app on—we review logs and coverage in the consult, not with marketing dollar figures on the web. Ontario rideshare matters remain on /personal-injury/ontario/; there is no separate /uber/ URL.',
         ],
       },
       {
@@ -927,7 +927,7 @@ const PI_EN: Record<CitySlug, CityPageCopy> = {
       {
         h2: 'Uber and Lyft on Harrison Street, Avenue 52, and Grapefruit Boulevard',
         paragraphs: [
-          'Whether the driver had the app on changes which insurer must respond — we confirm coverage in the consult, not in marketing copy with dollar figures. Harrison Street, Avenue 52, Grapefruit Boulevard, and the SR-86 / I-10 connector stack rideshare pickups between east-valley commute runs, agricultural shift traffic, and weekend event surges. Coachella rideshare claims stay on /personal-injury/coachella/. We do not invent a /uber/ page.',
+          'Harrison Street, Avenue 52, Grapefruit Boulevard, and the SR-86 / I-10 connector carry east-valley commutes, agricultural shift traffic, and weekend-event Uber and Lyft surges through Coachella. Coverage questions start with driver app status at the collision—we answer those in intake instead of posting policy limits publicly. Coachella rideshare claims are pursued from /personal-injury/coachella/ without inventing a standalone /uber/ page.',
         ],
       },
       {
@@ -1754,7 +1754,7 @@ const PI_ES: Record<CitySlug, CityPageCopy> = {
       {
         h2: 'Uber y Lyft en Sierra Avenue',
         paragraphs: [
-          'Si el conductor tenía la aplicación activada cambia qué aseguradora debe responder — confirmamos la cobertura en la consulta, no con cifras de marketing. Sierra Avenue, Foothill Boulevard y los conectores de la I-10 / I-15 concentran volumen de rideshare entre turnos de almacén y trayectos de pasajeros. Los reclamos de rideshare de Fontana permanecen en /es/lesiones-personales/fontana/. No inventamos una página /uber/ ni /rideshare/.',
+          'Las recogidas de Uber y Lyft en Sierra Avenue y Foothill Boulevard (Historic Route 66) se mezclan con el tráfico de los conectores de la I-10 y la I-15 cuando terminan los turnos de almacén y suben los viajes de pasajeros; la cobertura depende de si el conductor tenía la aplicación abierta, y eso lo aclaramos en la consulta sin citar límites de póliza en el sitio. Las lesiones por rideshare en Fontana se atienden solo en /es/lesiones-personales/fontana/; Lombera no publica una página aparte de /uber/ ni /rideshare/.',
         ],
       },
       {
@@ -1801,7 +1801,7 @@ const PI_ES: Record<CitySlug, CityPageCopy> = {
       {
         h2: 'Uber y Lyft en Valley Boulevard, La Cadena, Mt Vernon y Rancho',
         paragraphs: [
-          'Si el conductor tenía la aplicación activada cambia qué aseguradora debe responder — confirmamos la cobertura en la consulta, no con cifras de marketing. Valley Boulevard, La Cadena Drive, Mt Vernon Avenue y el corredor Rancho concentran recogidas de rideshare entre turnos de almacén, trayectos de pasajeros de CSUSB y tráfico del intercambio I-215 en Colton Crossing. Los reclamos de rideshare de Colton permanecen en /es/lesiones-personales/colton/. No inventamos una página /uber/.',
+          'Valley Boulevard, La Cadena Drive, Mt Vernon Avenue y el corredor Rancho sostienen un flujo constante de Uber y Lyft junto al intercambio I-215 en Colton Crossing y los trayectos de CSUSB. Qué aseguradora responde suele depender del estado de la app al momento del choque; lo verificamos en persona, no con cifras en la web. Los casos de rideshare en Colton se quedan en /es/lesiones-personales/colton/; no hay una página /uber/ independiente.',
         ],
       },
       {
@@ -1848,7 +1848,7 @@ const PI_ES: Record<CitySlug, CityPageCopy> = {
       {
         h2: 'Uber y Lyft en Haven, Foothill y Baseline',
         paragraphs: [
-          'Si el conductor tenía la aplicación activada cambia qué aseguradora debe responder — confirmamos la cobertura en la consulta, no con cifras de marketing. Los reclamos de rideshare de Rancho Cucamonga permanecen en /es/lesiones-personales/rancho-cucamonga/. No inventamos una página /uber/.',
+          'Haven Avenue, Foothill Boulevard, Baseline Road y los accesos de almacén de Ontario / Rancho alimentan viajes de rideshare hacia la unión I-15 / I-210 / I-10; si hay choque, que la app estuviera encendida o apagada define qué póliza debe responder, y lo confirmamos en la consulta sin montos de cobertura en la página. Los reclamos de Uber y Lyft en Rancho Cucamonga se presentan desde /es/lesiones-personales/rancho-cucamonga/, sin un atajo /uber/ aparte.',
         ],
       },
       {
@@ -1895,7 +1895,7 @@ const PI_ES: Record<CitySlug, CityPageCopy> = {
       {
         h2: 'Uber y Lyft en Beaumont Avenue, Highland Springs, Pennsylvania Avenue y 6th Street',
         paragraphs: [
-          'Si el conductor tenía la aplicación activada cambia qué aseguradora debe responder — confirmamos la cobertura en la consulta, no con cifras de marketing. Beaumont Avenue, Highland Springs Avenue, 6th Street y Pennsylvania Avenue concentran recogidas de rideshare entre trayectos de pasajeros de Cherry Valley, turnos comerciales en el corredor Beaumont Marketplace y huecos entre turnos de almacén hacia el Paso. Los reclamos de rideshare de Beaumont, California permanecen en /es/lesiones-personales/beaumont/. No inventamos una página /uber/.',
+          'Los conductores de rideshare recorren Beaumont Avenue, Highland Springs Avenue, 6th Street y Pennsylvania Avenue entre trayectos de Cherry Valley, turnos en Beaumont Marketplace y huecos entre turnos de almacén rumbo al Paso de San Gorgonio. La cobertura de Uber y Lyft cambia según el estado de la app; identificamos la aseguradora correcta en la consulta, sin anunciar límites aquí. Los asuntos de rideshare en Beaumont, California siguen en /es/lesiones-personales/beaumont/, no en una página /uber/ inventada.',
         ],
       },
       {
@@ -1942,7 +1942,7 @@ const PI_ES: Record<CitySlug, CityPageCopy> = {
       {
         h2: 'Uber y Lyft en Palm Canyon Drive, Indian Canyon Drive y la Carretera 111',
         paragraphs: [
-          'Si el conductor tenía la aplicación activada cambia qué aseguradora debe responder — confirmamos la cobertura en la consulta, no con cifras de marketing. El Palm Canyon del centro, el Distrito de Diseño Uptown, las rutas de resorts en Indian Canyon y los conectores de la Carretera 111 concentran recogidas de rideshare entre oleadas turísticas estacionales, traslados al aeropuerto y tráfico de eventos de fin de semana. Los reclamos de rideshare de Palm Springs permanecen en /es/lesiones-personales/palm-springs/. No inventamos una página /uber/.',
+          'Palm Canyon Drive en el centro, el Distrito de Diseño Uptown, las rutas de resorts en Indian Canyon y los conectores de la Carretera 111 ven picos estacionales de Uber y Lyft con turismo, traslados al aeropuerto y eventos de fin de semana. Si el conductor tenía la app activa define qué aseguradora responde; lo establecemos en la consulta del caso, no con cifras de marketing. Los reclamos de rideshare en Palm Springs se impulsan desde /es/lesiones-personales/palm-springs/ sin crear una página /uber/ dedicada.',
         ],
       },
       {
@@ -1989,7 +1989,7 @@ const PI_ES: Record<CitySlug, CityPageCopy> = {
       {
         h2: 'Uber y Lyft en El Paseo, Monterey Avenue y la Carretera 111',
         paragraphs: [
-          'Si el conductor tenía la aplicación activada cambia qué aseguradora debe responder — confirmamos la cobertura en la consulta, no con cifras de marketing. El comercio de El Paseo, el tráfico de outlets en Monterey Avenue y los conectores de la Carretera 111 concentran recogidas de rideshare entre turismo estacional, entregas en resorts de golf y oleadas de eventos de fin de semana. Los reclamos de rideshare de Palm Desert permanecen en /es/lesiones-personales/palm-desert/. No inventamos una página /uber/.',
+          'El comercio de El Paseo, el tráfico de outlets en Monterey Avenue y los enlaces de la Carretera 111 generan entregas en resorts de golf y viajes de Uber y Lyft de fin de semana que pueden chocar con el tráfico de paso hacia la I-10. El estado de la app al impacto marca la responsabilidad de la aseguradora; confirmamos la cobertura en privado antes de enviar exigencias. Las lesiones por rideshare en Palm Desert se atienden en /es/lesiones-personales/palm-desert/, sin URL /uber/ separada.',
         ],
       },
       {
@@ -2036,7 +2036,7 @@ const PI_ES: Record<CitySlug, CityPageCopy> = {
       {
         h2: 'Uber, Lyft y rideshare en la Carretera 111, Date Palm Drive, Ramon Road y Cathedral Canyon Drive',
         paragraphs: [
-          'Si el conductor tenía la aplicación activada cambia qué aseguradora debe responder — confirmamos la cobertura en la consulta, no con cifras de marketing. La Carretera 111, Date Palm Drive, Ramon Road y Cathedral Canyon Drive concentran recogidas de rideshare entre trayectos de pasajeros del valle, turnos en casinos y comercios, y tráfico de eventos de fin de semana. Los reclamos de rideshare de Cathedral City permanecen en /es/lesiones-personales/cathedral-city/. No inventamos una página /uber/.',
+          'La Carretera 111, Date Palm Drive, Ramon Road y Cathedral Canyon Drive mezclan turnos de casino, trayectos comerciales y recogidas de rideshare de eventos de fin de semana en el valle. Las pólizas de Uber y Lyft se superponen de forma distinta cuando la app está activa; lo ordenamos en la consulta inicial, no con límites especulativos en esta página. Los reclamos de rideshare en Cathedral City permanecen anclados en /es/lesiones-personales/cathedral-city/, sin una ruta /uber/ fabricada.',
         ],
       },
       {
@@ -2083,7 +2083,7 @@ const PI_ES: Record<CitySlug, CityPageCopy> = {
       {
         h2: 'Uber y Lyft en la Carretera 111, Monroe Street, Jackson y Avenue 42–44',
         paragraphs: [
-          'Si el conductor tenía la aplicación activada cambia qué aseguradora debe responder — confirmamos la cobertura en la consulta, no con cifras de marketing. La Carretera 111, Monroe Street, Jackson Street y los corredores de festivales en Avenue 42–44 concentran recogidas de rideshare entre oleadas del Festival de Música del Valle de Coachella, trayectos de pasajeros del valle y tráfico de eventos de fin de semana. Los reclamos de rideshare de Indio permanecen en /es/lesiones-personales/indio/. No inventamos una página /uber/.',
+          'La Carretera 111, Monroe Street, Jackson Street y las cuadrículas de festivales en Avenue 42–44 combinan picos del Festival de Música del Valle de Coachella con los viajes diarios de Uber y Lyft del valle. La responsabilidad y la cobertura dependen de si el conductor iba en ruta o esperando; verificamos el estado de la app antes de que las aseguradoras dirijan el reclamo. Los casos de rideshare en Indio pertenecen a /es/lesiones-personales/indio/; Lombera no abre una página /uber/ aparte.',
         ],
       },
       {
@@ -2130,7 +2130,7 @@ const PI_ES: Record<CitySlug, CityPageCopy> = {
       {
         h2: 'Uber y Lyft en la Carretera 111, Washington Street y Eisenhower Drive',
         paragraphs: [
-          'Si el conductor tenía la aplicación activada cambia qué aseguradora debe responder — confirmamos la cobertura en la consulta, no con cifras de marketing. La Carretera 111, Washington Street, Fred Waring Drive y el corredor de resort en Eisenhower concentran recogidas de rideshare entre tráfico de eventos en PGA West, recorridos de fin de semana en Old Town y trayectos de pasajeros del valle. Los reclamos de rideshare de La Quinta permanecen en /es/lesiones-personales/la-quinta/. No inventamos una página /uber/.',
+          'Washington Street, Fred Waring Drive, el corredor de resorts en Eisenhower y la Carretera 111 sostienen tráfico de PGA West, recorridos de fin de semana en Old Town y un volumen constante de Lyft y Uber de pasajeros. Qué póliza paga suele seguir los registros de la app al impacto; lo revisamos con usted directamente, sin publicar montos de cobertura en línea. El trabajo de lesiones por rideshare en La Quinta se mantiene en /es/lesiones-personales/la-quinta/, sin una landing /uber/ extra.',
         ],
       },
       {
@@ -2177,7 +2177,7 @@ const PI_ES: Record<CitySlug, CityPageCopy> = {
       {
         h2: 'Uber y Lyft en Redlands Boulevard, Orange Street y el corredor de la I-10',
         paragraphs: [
-          'Si el conductor tenía la aplicación activada cambia qué aseguradora debe responder — confirmamos la cobertura en la consulta, no con cifras de marketing. El tráfico de la Universidad de Redlands, los recorridos por Orange Street en el centro y los viajes por el conector de la I-10 generan volumen constante de rideshare junto a las vías de pasajeros. Los reclamos de lesiones en rideshare de Redlands permanecen en /es/lesiones-personales/redlands/. No inventamos una página /uber/ ni /rideshare/.',
+          'Redlands Boulevard, Orange Street en el centro, el tráfico de la Universidad de Redlands y los viajes por el conector de la I-10 mantienen activos a Uber y Lyft junto a las vías locales. Un choque grave de rideshare plantea dudas de estado de la app y de pólizas superpuestas; las resolvemos en la consulta, no en marketing público con topes en dólares. Las lesiones por rideshare en Redlands se manejan exclusivamente por /es/lesiones-personales/redlands/; no hay página paralela /uber/ ni /rideshare/.',
         ],
       },
       {
@@ -2224,7 +2224,7 @@ const PI_ES: Record<CitySlug, CityPageCopy> = {
       {
         h2: 'Uber, Lyft y rideshare en Hospitality Lane y el corredor I-215',
         paragraphs: [
-          'Si el conductor tenía la aplicación activada cambia qué aseguradora debe responder — confirmamos la cobertura en la consulta, no con cifras de marketing. Hospitality Lane, E Street, Rialto Avenue y el intercambio I-215 / I-10 concentran recogidas de rideshare entre turnos hospitalarios, tráfico de CSUSB y trayectos de empleados del condado. Los reclamos de rideshare de San Bernardino permanecen en /es/lesiones-personales/san-bernardino/. No inventamos una página /uber/ ni /rideshare/.',
+          'Hospitality Lane, E Street, Rialto Avenue y la unión I-215 / I-10 ven a diario viajes de Lyft tras turnos hospitalarios, estudiantes de CSUSB y empleados del condado en Uber. Las disputas de cobertura suelen empezar por si el conductor estaba conectado; confirmamos la póliza activa en la consulta, sin listar límites en el sitio. Los reclamos de rideshare en San Bernardino se presentan desde /es/lesiones-personales/san-bernardino/, sin inventar una URL /uber/ o /rideshare/ dedicada.',
         ],
       },
       {
@@ -2271,7 +2271,7 @@ const PI_ES: Record<CitySlug, CityPageCopy> = {
       {
         h2: 'Uber y Lyft en Mission Inn, UCR y el intercambio 91/60/215',
         paragraphs: [
-          'Si el conductor tenía la aplicación activada cambia qué aseguradora debe responder — confirmamos la cobertura en la consulta, no con cifras de marketing. Mission Inn Avenue, el campus de la Universidad de California Riverside y el intercambio SR-91 / SR-60 / I-215 concentran recogidas de rideshare entre tráfico estudiantil, turnos de hospitalidad y trayectos de pasajeros del condado. Los reclamos de rideshare de Riverside permanecen en /es/lesiones-personales/riverside/. No inventamos una página /uber/.',
+          'Mission Inn Avenue, el campus de la Universidad de California Riverside y el intercambio SR-91 / SR-60 / I-215 canalizan viajes de Uber y Lyft de estudiantes, hospitalidad y empleados del condado hacia puntos de fusión a alta velocidad. El momento en que la app estaba activa decide qué aseguradora debe responder; lo fijamos antes de negociar, no con cifras de póliza en texto de marketing. Los asuntos de rideshare en Riverside se quedan en /es/lesiones-personales/riverside/; no hay página /uber/ independiente.',
         ],
       },
       {
@@ -2318,7 +2318,7 @@ const PI_ES: Record<CitySlug, CityPageCopy> = {
       {
         h2: 'Uber y Lyft en Frederick, Ironwood, Perris Boulevard y Alessandro',
         paragraphs: [
-          'Si el conductor tenía la aplicación activada cambia qué aseguradora debe responder — confirmamos la cobertura en la consulta, no con cifras de marketing. Frederick Street, Ironwood Avenue, Perris Boulevard, Alessandro Boulevard y el intercambio SR-60 / I-215 concentran recogidas de rideshare entre trayectos de March ARB, tráfico comercial de Sunnymead y huecos entre turnos de almacén. Los reclamos de rideshare de Moreno Valley permanecen en /es/lesiones-personales/moreno-valley/. No inventamos una página /uber/ ni /rideshare/.',
+          'Frederick Street, Ironwood Avenue, Perris Boulevard, Alessandro Boulevard y el intercambio SR-60 / I-215 enlazan a quienes viajan desde March ARB, turnos comerciales en Sunnymead y conductores de rideshare entre turnos de almacén. Las capas de cobertura de Uber y Lyft cambian con el estado de la app al choque; identificamos la aseguradora responsable en la consulta, sin umbrales citados aquí. Los reclamos de rideshare en Moreno Valley se impulsan desde /es/lesiones-personales/moreno-valley/, sin página /uber/ o /rideshare/ aparte.',
         ],
       },
       {
@@ -2365,7 +2365,7 @@ const PI_ES: Record<CitySlug, CityPageCopy> = {
       {
         h2: 'Uber y Lyft en Base Line, Highland Avenue y Palm Avenue',
         paragraphs: [
-          'Si el conductor tenía la aplicación activada cambia qué aseguradora debe responder — confirmamos la cobertura en la consulta, no con cifras de marketing. Base Line, Highland Avenue, Palm Avenue, Greenspot Road y el intercambio I-210 / Base Line concentran recogidas de rideshare entre trayectos a Loma Linda, turnos comerciales en East Highland y huecos entre turnos de almacén. Los reclamos de rideshare de Highland permanecen en /es/lesiones-personales/highland/. No inventamos una página /uber/ ni /rideshare/.',
+          'Base Line, Highland Avenue, Palm Avenue, Greenspot Road y el intercambio I-210 / Base Line llevan a pasajeros hacia Loma Linda, trabajadores comerciales de East Highland y viajes de Uber y Lyft entre turnos de almacén. Si la app estaba activa cambia qué póliza responde; lo confirmamos con usted antes de que las aseguradoras encuadren el reclamo. Las lesiones por rideshare en Highland se atienden solo en /es/lesiones-personales/highland/; Lombera no publica una URL /uber/ o /rideshare/ distinta.',
         ],
       },
       {
@@ -2412,7 +2412,7 @@ const PI_ES: Record<CitySlug, CityPageCopy> = {
       {
         h2: 'Uber y Lyft en Florida Avenue, Sanderson Avenue, Stetson Avenue y State Street',
         paragraphs: [
-          'Si el conductor tenía la aplicación activada cambia qué aseguradora debe responder — confirmamos la cobertura en la consulta, no con cifras de marketing. Florida Avenue, Sanderson Avenue, Stetson Avenue y State Street concentran recogidas de rideshare entre trayectos de pasajeros del Valle de San Jacinto y turnos comerciales a lo largo del corredor SR-74. Los reclamos de rideshare de Hemet permanecen en /es/lesiones-personales/hemet/. No inventamos una página /uber/.',
+          'Florida Avenue, Sanderson Avenue, Stetson Avenue y State Street sostienen viajes de Uber y Lyft del Valle de San Jacinto ligados a trayectos del corredor SR-74 y turnos comerciales locales. Los choques graves de rideshare giran en torno al estado de la app y las pólizas disponibles; verificamos ambos en la consulta del caso, no en marketing web con límites en dólares. Los reclamos de rideshare en Hemet se quedan en /es/lesiones-personales/hemet/, sin una página /uber/ inventada.',
         ],
       },
       {
@@ -2459,7 +2459,7 @@ const PI_ES: Record<CitySlug, CityPageCopy> = {
       {
         h2: 'Uber y Lyft en Indian Canyon Drive, Pierson Boulevard y Palm Drive',
         paragraphs: [
-          'Si el conductor tenía la aplicación activada cambia qué aseguradora debe responder — confirmamos la cobertura en la consulta, no con cifras de marketing. Indian Canyon Drive, Pierson Boulevard y Palm Drive concentran recogidas de rideshare entre trayectos de pasajeros del valle norte, traslados de turismo de spa desde los corredores de resorts de Desert Hot Springs y tráfico de eventos de fin de semana en el conector de la I-10. Los reclamos de rideshare de Desert Hot Springs permanecen en /es/lesiones-personales/desert-hot-springs/. No inventamos una página /uber/.',
+          'Indian Canyon Drive, Pierson Boulevard y Palm Drive conectan a pasajeros del valle norte, traslados de turismo de spa desde los corredores de resorts de Desert Hot Springs y el tráfico del conector de la I-10, donde Lyft y Uber suben los fines de semana. La responsabilidad de la aseguradora sigue si el conductor tenía la app abierta; fijamos la cobertura en la consulta, sin anunciar montos de póliza en este sitio. Los casos de rideshare en Desert Hot Springs se presentan desde /es/lesiones-personales/desert-hot-springs/; no se usa una página /uber/ separada.',
         ],
       },
       {
@@ -2506,7 +2506,7 @@ const PI_ES: Record<CitySlug, CityPageCopy> = {
       {
         h2: 'Uber y Lyft en Yucaipa Boulevard y Oak Glen Road',
         paragraphs: [
-          'Si el conductor tenía la aplicación activada cambia qué aseguradora debe responder — confirmamos la cobertura en la consulta, no con cifras de marketing. Yucaipa Boulevard, Oak Glen Road y el conector de la I-10 concentran recogidas de rideshare entre tráfico de fin de semana en el cañón, turnos comerciales a lo largo de la 10 y trayectos de pasajeros hacia Redlands y San Bernardino. Los reclamos de rideshare de Yucaipa permanecen en /es/lesiones-personales/yucaipa/. No inventamos una página /uber/.',
+          'Yucaipa Boulevard, Oak Glen Road y el conector de la I-10 mezclan tráfico de fin de semana en el cañón, turnos comerciales a lo largo de la 10 y viajes de Uber y Lyft hacia Redlands y San Bernardino. El estado de la app al impacto suele decidir qué aseguradora debe pagar; lo confirmamos en privado antes de enviar exigencias. Las lesiones por rideshare en Yucaipa se manejan en /es/lesiones-personales/yucaipa/, sin una página /uber/ fabricada.',
         ],
       },
       {
@@ -2553,7 +2553,7 @@ const PI_ES: Record<CitySlug, CityPageCopy> = {
       {
         h2: 'Uber y Lyft en Fourth Street, Mountain Avenue y el corredor Ontario Mills',
         paragraphs: [
-          'Si el conductor tenía la aplicación activada cambia qué aseguradora debe responder — confirmamos la cobertura en la consulta, no con cifras de marketing. Fourth Street, Mountain Avenue y el corredor Ontario Mills concentran recogidas de rideshare entre turnos de almacén, trayectos al aeropuerto hacia ONT y viajes de pasajeros hacia Rancho Cucamonga y Fontana. Los reclamos de rideshare de Ontario permanecen en /es/lesiones-personales/ontario/. No inventamos una página /uber/.',
+          'Fourth Street, Mountain Avenue y el corredor Ontario Mills apilan recogidas de Lyft tras turnos de almacén, trayectos al aeropuerto ONT y viajes de Uber hacia Rancho Cucamonga y Fontana. Qué póliza responde suele seguir si el conductor tenía la app encendida; revisamos registros y cobertura en la consulta, no con cifras de marketing en la web. Los asuntos de rideshare en Ontario permanecen en /es/lesiones-personales/ontario/; no hay URL /uber/ separada.',
         ],
       },
       {
@@ -2600,7 +2600,7 @@ const PI_ES: Record<CitySlug, CityPageCopy> = {
       {
         h2: 'Uber y Lyft en Harrison Street, Avenue 52 y Grapefruit Boulevard',
         paragraphs: [
-          'Si el conductor tenía la aplicación activada cambia qué aseguradora debe responder — confirmamos la cobertura en la consulta, no con cifras de marketing. Harrison Street, Avenue 52, Grapefruit Boulevard y el conector SR-86 / I-10 concentran recogidas de rideshare entre trayectos de pasajeros del valle este, tráfico de turnos agrícolas y oleadas de eventos de fin de semana. Los reclamos de rideshare de Coachella permanecen en /es/lesiones-personales/coachella/. No inventamos una página /uber/.',
+          'Harrison Street, Avenue 52, Grapefruit Boulevard y el conector SR-86 / I-10 transportan trayectos del valle este, tráfico de turnos agrícolas y picos de Uber y Lyft de eventos de fin de semana en Coachella. Las preguntas de cobertura empiezan por el estado de la app al choque; las respondemos en la intake, no publicando límites de póliza. Los reclamos de rideshare en Coachella se impulsan desde /es/lesiones-personales/coachella/, sin inventar una página /uber/ independiente.',
         ],
       },
       {
