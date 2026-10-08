@@ -1,7 +1,27 @@
 import { getPayload, PayloadUnavailableError } from './payload'
 import type { Locale } from './payload'
+import type { City, Service } from '@/payload-types'
 
 type PracticeSlug = 'personal-injury' | 'bankruptcy'
+
+export type CityHubService = Service & { hasMoneyPage: boolean }
+
+/** City hub payload: full CMS city or static fallback when Payload is unavailable. */
+export type CityHubCity = Pick<City, 'slug' | 'name'> & {
+  id: City['id'] | string
+  county: City['county'] | string
+  localIntro?: City['localIntro']
+  servingOffice?: City['servingOffice']
+  courthouse?: City['courthouse']
+  hospitals?: City['hospitals']
+  highways?: City['highways']
+  nearbyCities?: City['nearbyCities']
+}
+
+export type CityHubBundle = {
+  city: CityHubCity
+  services: CityHubService[]
+}
 
 const STATIC_CITY_DATA: Record<string, { name: string; county: string }> = {
   riverside: { name: 'Riverside', county: 'Riverside County' },
@@ -96,7 +116,7 @@ export async function getMoneyPage(
   }
 }
 
-export async function getCityHub(citySlug: string, locale: Locale) {
+export async function getCityHub(citySlug: string, locale: Locale): Promise<CityHubBundle | null> {
   try {
     const payload = await getPayload()
 

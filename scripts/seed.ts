@@ -3,6 +3,17 @@ import { getPayload } from 'payload'
 import config from '../src/payload.config'
 import { lexicalParagraphs } from './lexical'
 
+/** Payload Postgres IDs are numeric; normalize for typed create/update payloads. */
+function asNumericId(id: string | number): number {
+  return typeof id === 'number' ? id : Number(id)
+}
+
+function requiredId(map: Record<string, number>, key: string): number {
+  const id = map[key]
+  if (id === undefined) throw new Error(`Missing seeded id for "${key}"`)
+  return id
+}
+
 async function main() {
   const payload = await getPayload({ config })
   console.log('Seeding Lombera Law starter content...')
@@ -27,7 +38,7 @@ async function main() {
     },
   ]
 
-  const officeIds: Record<string, string | number> = {}
+  const officeIds: Record<string, number> = {}
 
   for (const seed of officeSeeds) {
     const existing = await payload.find({ collection: 'offices', where: { name: { equals: seed.name } }, limit: 1 })
@@ -43,7 +54,7 @@ async function main() {
       data: { name: seed.name, phone: seed.phone, address: seed.address, hours: seed.hoursEn },
     })
     await payload.update({ collection: 'offices', id: doc.id, locale: 'es', data: { hours: seed.hoursEs } })
-    officeIds[seed.name] = doc.id
+    officeIds[seed.name] = asNumericId(doc.id)
     console.log(`  ✓ Office: ${seed.name}`)
   }
 
@@ -101,7 +112,7 @@ async function main() {
     },
   ]
 
-  const practiceAreaIds: Record<string, string | number> = {}
+  const practiceAreaIds: Record<string, number> = {}
 
   for (const seed of practiceAreaSeeds) {
     const existing = await payload.find({ collection: 'practice-areas', where: { slug: { equals: seed.slug } }, limit: 1 })
@@ -110,7 +121,7 @@ async function main() {
       (await payload.create({ collection: 'practice-areas', data: { slug: seed.slug, ...seed.en } }))
     await payload.update({ collection: 'practice-areas', id: doc.id, data: seed.en })
     await payload.update({ collection: 'practice-areas', id: doc.id, locale: 'es', data: seed.es })
-    practiceAreaIds[seed.slug] = doc.id
+    practiceAreaIds[seed.slug] = asNumericId(doc.id)
     console.log(`  ✓ Practice area: ${seed.slug}`)
   }
 
@@ -334,7 +345,7 @@ async function main() {
         data: {
           slug: s.slug,
           title: s.titleEn,
-          practiceArea: practiceAreaIds[s.practiceArea],
+          practiceArea: requiredId(practiceAreaIds, s.practiceArea),
           displayOrder: s.order,
           summary: s.summaryEn,
           ...(s.bodyEn ? { body: s.bodyEn } : {}),
@@ -498,14 +509,20 @@ async function main() {
           quote: seed.ratingEn,
           rating: 5,
           featured: true,
-          practiceArea: practiceAreaIds[seed.practiceArea],
+          practiceArea: requiredId(practiceAreaIds, seed.practiceArea),
           source: 'Google',
         },
       }))
     await payload.update({
       collection: 'testimonials',
       id: doc.id,
-      data: { author: seed.author, quote: seed.ratingEn, rating: 5, featured: true, practiceArea: practiceAreaIds[seed.practiceArea] },
+      data: {
+        author: seed.author,
+        quote: seed.ratingEn,
+        rating: 5,
+        featured: true,
+        practiceArea: requiredId(practiceAreaIds, seed.practiceArea),
+      },
     })
     await payload.update({ collection: 'testimonials', id: doc.id, locale: 'es', data: { quote: seed.ratingEs } })
   }
@@ -557,7 +574,7 @@ async function main() {
     { slug: 'big-bear-lake', name: 'Big Bear Lake', county: 'San Bernardino County' as const, office: 'Redlands Office', courthouse: 'San Bernardino County Superior Court — Civil Division, San Bernardino Justice Center, 247 West Third Street, San Bernardino (no separate mountain-area civil branch found; verify current branch for your specific case type)', highways: ['SR-18', 'SR-330'] },
   ]
 
-  const cityIds: Record<string, string | number> = {}
+  const cityIds: Record<string, number> = {}
 
   for (const c of citySeeds) {
     const existing = await payload.find({ collection: 'cities', where: { slug: { equals: c.slug } }, limit: 1 })
@@ -569,12 +586,12 @@ async function main() {
           name: c.name,
           slug: c.slug,
           county: c.county,
-          servingOffice: officeIds[c.office],
+          servingOffice: requiredId(officeIds, c.office),
           courthouse: c.courthouse,
           highways: c.highways.map((name) => ({ name })),
         },
       }))
-    cityIds[c.slug] = doc.id
+    cityIds[c.slug] = asNumericId(doc.id)
   }
   console.log(`  ✓ ${citySeeds.length} cities (courthouse assignments flagged -- verify before publishing money pages)`)
 
@@ -603,7 +620,11 @@ async function main() {
     await payload.update({
       collection: 'cities',
       id,
-      data: { nearbyCities: nearbySlugs.map((s) => cityIds[s]).filter(Boolean) },
+      data: {
+        nearbyCities: nearbySlugs
+          .map((s) => cityIds[s])
+          .filter((id): id is number => id !== undefined),
+      },
     })
   }
   console.log('  ✓ nearby-city links')
