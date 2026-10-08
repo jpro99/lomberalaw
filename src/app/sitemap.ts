@@ -66,10 +66,17 @@ function staticSitemap(): MetadataRoute.Sitemap {
     addEnPath(entries, `/bankruptcy/${service}`, 0.8, 'monthly')
   }
 
+  // Only cities with real PI/BK copy (LIVE_CITY_SLUGS) get practice-city
+  // pages -- STATIC_CITY_SLUGS also includes "coming soon" cities (e.g.
+  // rancho-mirage, rialto, big-bear-lake) that only have a /locations hub
+  // entry in Payload. Submitting /personal-injury/{city} or /bankruptcy/{city}
+  // for those 404s, which is exactly what happened before this fix.
   for (const city of STATIC_CITY_SLUGS) {
-    addEnPath(entries, `/personal-injury/${city}`, 0.7, 'monthly')
-    addEnPath(entries, `/bankruptcy/${city}`, 0.7, 'monthly')
     addEnPath(entries, `/locations/${city}`, 0.7, 'monthly')
+    if (LIVE_CITY_SLUGS.has(city)) {
+      addEnPath(entries, `/personal-injury/${city}`, 0.7, 'monthly')
+      addEnPath(entries, `/bankruptcy/${city}`, 0.7, 'monthly')
+    }
   }
 
   for (const page of STATIC_TIER1_MONEY_PAGES) {
@@ -135,10 +142,16 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     const liveCitySlugs: string[] = []
     for (const city of cities.docs) {
       const slug = city.slug as string
-      if (LIVE_CITY_SLUGS.has(slug)) liveCitySlugs.push(slug)
-      addEnPath(entries, `/personal-injury/${slug}`, 0.7, 'monthly')
-      addEnPath(entries, `/bankruptcy/${slug}`, 0.7, 'monthly')
       addEnPath(entries, `/locations/${slug}`, 0.7, 'monthly')
+      // Same fix as staticSitemap() below: a Payload City record (e.g.
+      // rancho-mirage, rialto, big-bear-lake) doesn't mean a PI/BK page
+      // exists for it -- only LIVE_CITY_SLUGS has real copy and a working
+      // route. Without this gate the sitemap submitted 404s to Google.
+      if (LIVE_CITY_SLUGS.has(slug)) {
+        liveCitySlugs.push(slug)
+        addEnPath(entries, `/personal-injury/${slug}`, 0.7, 'monthly')
+        addEnPath(entries, `/bankruptcy/${slug}`, 0.7, 'monthly')
+      }
     }
 
     const moneyPageRes = await payload.find({ collection: 'service-city-pages', limit: 200, depth: 2 })
