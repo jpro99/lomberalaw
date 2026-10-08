@@ -1,5 +1,8 @@
 import { getPayload, PayloadUnavailableError } from './payload'
 import type { Locale } from './payload'
+import type { CityHubBundle, CityHubCity, CityHubService } from './cityHubTypes'
+
+export type { CityHubBundle, CityHubCity, CityHubService } from './cityHubTypes'
 
 type PracticeSlug = 'personal-injury' | 'bankruptcy'
 
@@ -96,7 +99,7 @@ export async function getMoneyPage(
   }
 }
 
-export async function getCityHub(citySlug: string, locale: Locale) {
+export async function getCityHub(citySlug: string, locale: Locale): Promise<CityHubBundle | null> {
   try {
     const payload = await getPayload()
 
@@ -121,14 +124,24 @@ export async function getCityHub(citySlug: string, locale: Locale) {
       }),
     ])
 
-    const moneyPageServiceIds = new Set(moneyPages.docs.map((p) => (p.service as any)?.id ?? p.service))
+    const moneyPageServiceIds = new Set(
+      moneyPages.docs.map((p) => {
+        const service = p.service
+        return typeof service === 'object' && service !== null ? service.id : service
+      }),
+    )
 
     return {
-      city,
-      services: allServices.docs.map((s) => ({
-        ...s,
-        hasMoneyPage: moneyPageServiceIds.has(s.id),
-      })),
+      city: city as CityHubCity,
+      services: allServices.docs.map(
+        (s): CityHubService => ({
+          id: s.id,
+          title: s.title,
+          slug: s.slug,
+          practiceArea: s.practiceArea,
+          hasMoneyPage: moneyPageServiceIds.has(s.id),
+        }),
+      ),
     }
   } catch (e) {
     if (e instanceof PayloadUnavailableError) {

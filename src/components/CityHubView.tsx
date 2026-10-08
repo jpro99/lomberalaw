@@ -1,7 +1,8 @@
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import type { Locale } from '@/lib/payload'
-import { getCityHub } from '@/lib/getLocations'
+import { getCityHub, type CityHubCity, type CityHubService } from '@/lib/getLocations'
+import type { CityHubNamedRow, CityHubPracticeArea } from '@/lib/cityHubTypes'
 import { t } from '@/lib/dictionary'
 import { Container } from '@/components/Container'
 import { Button } from '@/components/Button'
@@ -10,6 +11,30 @@ import { CityFactsCard } from '@/components/CityFactsCard'
 import { JsonLd } from '@/components/JsonLd'
 import { HorizonMotif } from '@/components/HorizonMotif'
 import { breadcrumbSchema } from '@/lib/schema'
+
+function practiceAreaSlug(practiceArea: CityHubPracticeArea): string | undefined {
+  return typeof practiceArea === 'object' ? practiceArea.slug : undefined
+}
+
+function cityHorizonVariant(servingOffice: CityHubCity['servingOffice']): 'desert' | 'citrus' {
+  if (servingOffice && typeof servingOffice === 'object' && servingOffice.name?.includes('Palm Springs')) {
+    return 'desert'
+  }
+  return 'citrus'
+}
+
+function namedList(items: CityHubNamedRow[] | null | undefined): { name: string }[] | undefined {
+  if (!items?.length) return undefined
+  const named = items.flatMap((item) => (item.name ? [{ name: item.name }] : []))
+  return named.length > 0 ? named : undefined
+}
+
+function serviceLink(s: CityHubService, prefix: string, citySlug: string) {
+  const practiceSlug = practiceAreaSlug(s.practiceArea) === 'bankruptcy' ? 'bankruptcy' : 'personal-injury'
+  return s.hasMoneyPage
+    ? `${prefix}/${practiceSlug}/${s.slug}/${citySlug}`
+    : `${prefix}/${practiceSlug}/${s.slug}`
+}
 
 export async function getCityHubMetadata(citySlug: string, locale: Locale) {
   const bundle = await getCityHub(citySlug, locale)
@@ -28,15 +53,8 @@ export async function CityHubView({ citySlug, locale }: { citySlug: string; loca
   const homeCrumb = locale === 'es' ? 'Inicio' : 'Home'
   const homeHref = locale === 'en' ? '/' : '/es/inicio/'
 
-  const personalInjury = services.filter((s: any) => s.practiceArea?.slug === 'personal-injury')
-  const bankruptcy = services.filter((s: any) => s.practiceArea?.slug === 'bankruptcy')
-
-  const serviceLink = (s: any) => {
-    const practiceSlug = s.practiceArea?.slug === 'bankruptcy' ? 'bankruptcy' : 'personal-injury'
-    return s.hasMoneyPage
-      ? `${prefix}/${practiceSlug}/${s.slug}/${citySlug}`
-      : `${prefix}/${practiceSlug}/${s.slug}`
-  }
+  const personalInjury = services.filter((s) => practiceAreaSlug(s.practiceArea) === 'personal-injury')
+  const bankruptcy = services.filter((s) => practiceAreaSlug(s.practiceArea) === 'bankruptcy')
 
   return (
     <main>
@@ -44,13 +62,13 @@ export async function CityHubView({ citySlug, locale }: { citySlug: string; loca
         data={breadcrumbSchema([
           { name: homeCrumb, url: `https://lomberalaw.com${homeHref}` },
           { name: locale === 'es' ? 'Ubicaciones' : 'Locations', url: `https://lomberalaw.com${prefix}/locations` },
-          { name: city.name as string, url: `https://lomberalaw.com${prefix}/locations/${citySlug}` },
+          { name: city.name, url: `https://lomberalaw.com${prefix}/locations/${citySlug}` },
         ])}
       />
 
       <section className="relative overflow-hidden border-b border-line bg-panel py-14 md:py-20">
         <HorizonMotif
-          variant={(city.servingOffice as any)?.name?.includes('Palm Springs') ? 'desert' : 'citrus'}
+          variant={cityHorizonVariant(city.servingOffice)}
           className="pointer-events-none absolute inset-x-0 bottom-0 h-20 w-full text-ink md:h-28"
         />
         <Container>
@@ -58,7 +76,7 @@ export async function CityHubView({ citySlug, locale }: { citySlug: string; loca
             items={[
               { name: homeCrumb, href: homeHref },
               { name: locale === 'es' ? 'Ubicaciones' : 'Locations', href: `${prefix}/locations` },
-              { name: city.name as string, href: `${prefix}/locations/${citySlug}` },
+              { name: city.name, href: `${prefix}/locations/${citySlug}` },
             ]}
           />
           <h1 className="mt-4 max-w-2xl font-display text-4xl font-semibold text-ink md:text-5xl">
@@ -66,7 +84,7 @@ export async function CityHubView({ citySlug, locale }: { citySlug: string; loca
           </h1>
           {city.localIntro && (
             <p className="mt-4 max-w-xl font-body text-base leading-relaxed text-ink-soft">
-              {city.localIntro as string}
+              {city.localIntro}
             </p>
           )}
           <div className="mt-8">
@@ -87,10 +105,10 @@ export async function CityHubView({ citySlug, locale }: { citySlug: string; loca
             <div>
               <h2 className="font-display text-xl font-semibold text-ink">{copy.home.piName}</h2>
               <ul className="mt-4 grid gap-3 sm:grid-cols-2">
-                {personalInjury.map((s: any) => (
+                {personalInjury.map((s) => (
                   <li key={s.id}>
                     <Link
-                      href={serviceLink(s)}
+                      href={serviceLink(s, prefix, citySlug)}
                       className="interactive-card block rounded-md border border-line bg-panel px-5 py-4 font-body text-sm font-medium text-ink hover:border-clay"
                     >
                       {s.title}
@@ -102,10 +120,10 @@ export async function CityHubView({ citySlug, locale }: { citySlug: string; loca
             <div>
               <h2 className="font-display text-xl font-semibold text-ink">{copy.home.bkName}</h2>
               <ul className="mt-4 grid gap-3 sm:grid-cols-2">
-                {bankruptcy.map((s: any) => (
+                {bankruptcy.map((s) => (
                   <li key={s.id}>
                     <Link
-                      href={serviceLink(s)}
+                      href={serviceLink(s, prefix, citySlug)}
                       className="interactive-card block rounded-md border border-line bg-panel px-5 py-4 font-body text-sm font-medium text-ink hover:border-clay"
                     >
                       {s.title}
@@ -117,9 +135,9 @@ export async function CityHubView({ citySlug, locale }: { citySlug: string; loca
           </div>
           <aside className="space-y-5">
             <CityFactsCard
-              courthouse={city.courthouse as string}
-              hospitals={city.hospitals as any}
-              highways={city.highways as any}
+              courthouse={city.courthouse ?? undefined}
+              hospitals={namedList(city.hospitals)}
+              highways={namedList(city.highways)}
               locale={locale}
             />
             {Array.isArray(city.nearbyCities) && city.nearbyCities.length > 0 && (
@@ -128,13 +146,16 @@ export async function CityHubView({ citySlug, locale }: { citySlug: string; loca
                   {locale === 'es' ? 'Ciudades cercanas' : 'Nearby cities'}
                 </p>
                 <ul className="mt-3 space-y-2">
-                  {city.nearbyCities.map((nc: any) => (
-                    <li key={nc.id}>
-                      <Link href={`${prefix}/locations/${nc.slug}`} className="font-body text-sm text-ink-soft hover:text-clay">
-                        {nc.name}
-                      </Link>
-                    </li>
-                  ))}
+                  {city.nearbyCities.map((nc) => {
+                    if (typeof nc !== 'object') return null
+                    return (
+                      <li key={nc.id}>
+                        <Link href={`${prefix}/locations/${nc.slug}`} className="font-body text-sm text-ink-soft hover:text-clay">
+                          {nc.name}
+                        </Link>
+                      </li>
+                    )
+                  })}
                 </ul>
               </div>
             )}
