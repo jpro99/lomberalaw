@@ -246,7 +246,7 @@ const PI_EN: Record<CitySlug, CityPageCopy> = {
       {
         h2: '(909) 915-0181 — Orange Tree Lane, northwest',
         paragraphs: [
-          'Hours: Monday–Friday 9am–6pm, Saturday 10am–4pm, Sunday by appointment. Serious injuries can reach the office 24/7 for an emergency consult. From Beaumont, the consultation is about 19 miles and 23 minutes northwest via Orange Avenue, 6th Street, Beaumont Avenue, the I-10 west, and California Street — not a Beaumont storefront. If the same wreck sinks the household, the same (909) 915-0181 call files Chapter 7 or Chapter 13 at the U.S. Bankruptcy Court, 3420 Twelfth Street, Riverside — about 12 miles and 17 minutes southwest. Palm Springs is the second office only — 1276 N Palm Canyon Dr #107, (760) 835-9353.',
+          'Hours: Monday–Friday 9am–6pm, Saturday 10am–4pm, Sunday by appointment. Serious injuries can reach the office 24/7 for an emergency consult. From Beaumont, the consultation is about 19 miles and 23 minutes northwest via Orange Avenue, 6th Street, Beaumont Avenue, the I-10 west, and California Street — not a Beaumont storefront. If the same wreck sinks the household, the same (909) 915-0181 call files Chapter 7 or Chapter 13 at the U.S. Bankruptcy Court, 3420 Twelfth Street, Riverside — about 25 miles and 34 minutes west. Palm Springs is the second office only — 1276 N Palm Canyon Dr #107, (760) 835-9353.',
         ],
       },
     ],
@@ -369,7 +369,7 @@ const PI_EN: Record<CitySlug, CityPageCopy> = {
       {
         h2: 'Wrongful death — standing under CCP §377.60 at 3255 E. Tahquitz Canyon Way',
         paragraphs: [
-          'Who may bring the suit is confirmed in the consult under California Code of Civil Procedure §377.60 — we do not invent verdicts or settlement stories. Unlimited civil files for Cathedral City ZIP codes 92234 and 92235 are filed at Riverside County Superior Court — Palm Springs Courthouse, 3255 E. Tahquitz Canyon Way — not Oasis Street, not Larson Justice Center limited civil, not 4050 Main Street, not 247 W. 3rd St., not 8303 Haven Avenue, and not the Indio Division. The courthouse sits about 5 miles and 11 minutes northwest from Cathedral City City Hall at 68700 Avenida Lalo Guerrero.',
+          'Who may bring the suit is confirmed in the consult under California Code of Civil Procedure §377.60 — we do not invent verdicts or settlement stories. Unlimited civil files for Cathedral City ZIP codes 92234 and 92235 are filed at Riverside County Superior Court — Palm Springs Courthouse, 3255 E. Tahquitz Canyon Way — not Oasis Street, not 4050 Main Street, not 247 W. 3rd St., not 8303 Haven Avenue, and not the Indio Division. The courthouse sits about 5 miles and 11 minutes northwest from Cathedral City City Hall at 68700 Avenida Lalo Guerrero.',
         ],
       },
       {
@@ -416,7 +416,7 @@ const PI_EN: Record<CitySlug, CityPageCopy> = {
       {
         h2: 'Wrongful death — standing under CCP §377.60 at 3255 E. Tahquitz Canyon Way',
         paragraphs: [
-          'Who may bring the suit is confirmed in the consult under California Code of Civil Procedure §377.60 — we do not invent verdicts or settlement stories. Unlimited civil files for Indio are filed at Riverside County Superior Court — Palm Springs Courthouse, 3255 E. Tahquitz Canyon Way — not Oasis Street, not Larson Justice Center limited civil, not 4050 Main Street, not 247 W. 3rd St., not 8303 Haven Avenue, and not the Indio Division. The courthouse sits about 21 miles and 30 minutes west-northwest from Indio City Hall at 100 Civic Center Mall.',
+          'Who may bring the suit is confirmed in the consult under California Code of Civil Procedure §377.60 — we do not invent verdicts or settlement stories. Unlimited civil files for Indio are filed at Riverside County Superior Court — Palm Springs Courthouse, 3255 E. Tahquitz Canyon Way — not Oasis Street, not 4050 Main Street, not 247 W. 3rd St., not 8303 Haven Avenue, and not the Indio Division. The courthouse sits about 21 miles and 30 minutes west-northwest from Indio City Hall at 100 Civic Center Mall.',
         ],
       },
       {
@@ -745,7 +745,7 @@ const PI_EN: Record<CitySlug, CityPageCopy> = {
       {
         h2: 'Wrongful death — standing under CCP §377.60 at 4050 Main Street',
         paragraphs: [
-          'Who may bring the suit is confirmed in the consult under California Code of Civil Procedure §377.60 — we do not invent verdicts or settlement stories. Unlimited civil files for Hemet ZIP codes 92543–92546 are filed at Riverside County Superior Court, Historic Courthouse, 4050 Main Street, Riverside — not at the Hemet Division courthouse, not at Menifee Center Drive limited jurisdiction, not at Tahquitz Canyon Way, not at 247 W. 3rd St., not at 8303 Haven Avenue, not at Oasis Street, and not at 400 N. Pepper. The courthouse sits about 34 miles and 49 minutes northwest from Hemet City Hall at 445 E. Florida Avenue. CCP §335.1 gives most victims two years; a public entity may require six-month written notice under Government Code §911.2.',
+          'Who may bring the suit is confirmed in the consult under California Code of Civil Procedure §377.60 — we do not invent verdicts or settlement stories. Unlimited civil files for Hemet ZIP codes 92543–92546 are filed at Riverside County Superior Court, Historic Courthouse, 4050 Main Street, Riverside — not at Menifee Center Drive limited jurisdiction, not at Tahquitz Canyon Way, not at 247 W. 3rd St., not at 8303 Haven Avenue, not at Oasis Street, and not at 400 N. Pepper. The courthouse sits about 34 miles and 49 minutes northwest from Hemet City Hall at 445 E. Florida Avenue. CCP §335.1 gives most victims two years; a public entity may require six-month written notice under Government Code §911.2.',
         ],
       },
       {
@@ -792,7 +792,7 @@ const PI_EN: Record<CitySlug, CityPageCopy> = {
       {
         h2: 'Wrongful death — standing under CCP §377.60 at 3255 E. Tahquitz Canyon Way',
         paragraphs: [
-          'Who may bring the suit is confirmed in the consult under California Code of Civil Procedure §377.60 — we do not invent verdicts or settlement stories. Unlimited civil files for Desert Hot Springs ZIP codes 92240 and 92241 are filed at Riverside County Superior Court — Palm Springs Courthouse, 3255 E. Tahquitz Canyon Way — not Oasis Street, not Larson Justice Center limited civil, not 4050 Main Street, not 247 W. 3rd St., not 8303 Haven Avenue, and not the Indio Division. The courthouse sits about 11 miles and 19 minutes south from Desert Hot Springs City Hall at 11999 Palm Drive.',
+          'Who may bring the suit is confirmed in the consult under California Code of Civil Procedure §377.60 — we do not invent verdicts or settlement stories. Unlimited civil files for Desert Hot Springs ZIP codes 92240 and 92241 are filed at Riverside County Superior Court — Palm Springs Courthouse, 3255 E. Tahquitz Canyon Way — not Oasis Street, not 4050 Main Street, not 247 W. 3rd St., not 8303 Haven Avenue, and not the Indio Division. The courthouse sits about 11 miles and 19 minutes south from Desert Hot Springs City Hall at 11999 Palm Drive.',
         ],
       },
       {
@@ -821,7 +821,7 @@ const PI_EN: Record<CitySlug, CityPageCopy> = {
     description:
       'Truck, Uber, wrongful death, and catastrophic injury from I-10 / Wildwood Canyon corridor crashes in Yucaipa. Meet at 2068 Orange Tree Lane #220, Redlands — about 11.5 miles and 17 minutes west-northwest. (909) 915-0181.',
     lead: [
-      'There is no Lombera storefront in Yucaipa. After a Yucaipa wreck, meet Edgar P. Lombera at 2068 Orange Tree Lane, Suite 220, Redlands, CA 92374. From Yucaipa City Hall at 34272 Yucaipa Boulevard — civic reference only — take Yucaipa Boulevard through Oak Glen to the I-10 west, then California Street — about 11.5 miles and 17 minutes west-northwest. The drive is west-northwest. The I-10 and Wildwood Canyon corridor are crash corridors on this page, not the route to an office in Yucaipa. Call (909) 915-0181. English or Spanish. Two practices only: personal injury and bankruptcy. You speak with him. Injury cases run on contingency: no fee unless we win.',
+      'There is no Lombera storefront in Yucaipa. After a Yucaipa wreck, meet Edgar P. Lombera at 2068 Orange Tree Lane, Suite 220, Redlands, CA 92374. From Yucaipa City Hall at 34272 Yucaipa Boulevard — civic reference only — take Yucaipa Boulevard and Oak Glen Road to the I-10 west, then California Street — about 11.5 miles and 17 minutes west-northwest. The drive is west-northwest. The I-10 and Wildwood Canyon corridor are crash corridors on this page, not the route to an office in Yucaipa. Call (909) 915-0181. English or Spanish. Two practices only: personal injury and bankruptcy. You speak with him. Injury cases run on contingency: no fee unless we win.',
     ],
     sections: [
       {
@@ -857,7 +857,7 @@ const PI_EN: Record<CitySlug, CityPageCopy> = {
       {
         h2: '(909) 915-0181 — Orange Tree Lane, west-northwest',
         paragraphs: [
-          'Hours: Monday–Friday 9am–6pm, Saturday 10am–4pm, Sunday by appointment. Serious injuries can reach the office 24/7 for an emergency consult. From Yucaipa, the consultation is about 11.5 miles and 17 minutes west-northwest via Yucaipa Boulevard through Oak Glen, the I-10 west, and California Street — not a Yucaipa storefront. If the same wreck sinks the household, the same (909) 915-0181 call files Chapter 7 or Chapter 13 at the U.S. Bankruptcy Court, 3420 Twelfth Street, Riverside — about 23 miles and 31 minutes west-southwest. Palm Springs is the second office only — 1276 N Palm Canyon Dr #107, (760) 835-9353 — about 38 miles and 47 minutes east-southeast.',
+          'Hours: Monday–Friday 9am–6pm, Saturday 10am–4pm, Sunday by appointment. Serious injuries can reach the office 24/7 for an emergency consult. From Yucaipa, the consultation is about 11.5 miles and 17 minutes west-northwest via Yucaipa Boulevard and Oak Glen Road, the I-10 west, and California Street — not a Yucaipa storefront. If the same wreck sinks the household, the same (909) 915-0181 call files Chapter 7 or Chapter 13 at the U.S. Bankruptcy Court, 3420 Twelfth Street, Riverside — about 23 miles and 31 minutes west-southwest. Palm Springs is the second office only — 1276 N Palm Canyon Dr #107, (760) 835-9353 — about 38 miles and 47 minutes east-southeast.',
         ],
       },
     ],
@@ -1031,7 +1031,8 @@ const BK_EN: Record<CitySlug, CityPageCopy> = {
       {
         h2: '3420 Twelfth Street, Riverside',
         paragraphs: [
-          'There is no bankruptcy court in Colton or San Bernardino city. Consumer cases file at the U.S. Bankruptcy Court, Central District of California, Riverside. (909) 915-0181.',
+          'There is no bankruptcy court in Colton or San Bernardino city. Consumer cases file at the U.S. Bankruptcy Court, Central District of California, Riverside. (909) 915-0181. ' +
+            DEBT_RELIEF,
         ],
       },
     ],
@@ -1306,7 +1307,7 @@ const BK_EN: Record<CitySlug, CityPageCopy> = {
     description:
       'Chapter 7 and Chapter 13 bankruptcy for La Quinta households. Prepared at 1276 N Palm Canyon Dr #107, Palm Springs; filed at 3420 Twelfth Street, Riverside. Garnishment and foreclosure relief. (760) 835-9353.',
     lead: [
-      'La Quinta wage garnishments and foreclosure notices are state-court collection until a federal petition is filed. Meet Edgar P. Lombera at 1276 N Palm Canyon Dr #107, Palm Springs, CA 92262 — about 23 miles and 34 minutes northwest from La Quinta via Washington Street, Varner Road, the I-10 west, Vista Chino, and Palm Canyon. He prepares Chapter 7 and Chapter 13 at that Palm Springs desk. You speak with him. English or Spanish. Two practices only: personal injury and bankruptcy. There is no Lombera storefront in La Quinta. Every consumer case files at the U.S. Bankruptcy Court, 3420 Twelfth Street, Riverside — about 73.5 miles and 91 minutes northwest from the Palm Canyon office. Call (760) 835-9353.',
+      'La Quinta wage garnishments and foreclosure notices are state-court collection until a federal petition is filed. Meet Edgar P. Lombera at 1276 N Palm Canyon Dr #107, Palm Springs, CA 92262 — about 23 miles and 34 minutes northwest from La Quinta via Washington Street, Varner Road, the I-10 west, Vista Chino, and Palm Canyon. He prepares Chapter 7 and Chapter 13 at that Palm Springs desk. You speak with him. English or Spanish. Two practices only: personal injury and bankruptcy. There is no Lombera storefront in La Quinta. Every consumer case files at the U.S. Bankruptcy Court, 3420 Twelfth Street, Riverside — about 52 miles and 64 minutes west from the Palm Canyon office. Call (760) 835-9353.',
     ],
     sections: [
       {
@@ -1330,7 +1331,7 @@ const BK_EN: Record<CitySlug, CityPageCopy> = {
       {
         h2: 'Where La Quinta files — 3420 Twelfth Street, Riverside',
         paragraphs: [
-          'Every La Quinta consumer bankruptcy files at the U.S. Bankruptcy Court, Central District of California, 3420 Twelfth Street, Riverside — about 73.5 miles and 91 minutes northwest via Highway 111 and the I-10 from the desk at 1276 N Palm Canyon Dr in Palm Springs. That building is the courthouse, not a Lombera suite. There is no bankruptcy court in La Quinta. Official court filing fees are $338 for Chapter 7 and $313 for Chapter 13. The Section 341 meeting of creditors is often held remotely.',
+          'Every La Quinta consumer bankruptcy files at the U.S. Bankruptcy Court, Central District of California, 3420 Twelfth Street, Riverside — about 52 miles and 64 minutes west via Highway 111 and the I-10 from the desk at 1276 N Palm Canyon Dr in Palm Springs. That building is the courthouse, not a Lombera suite. There is no bankruptcy court in La Quinta. Official court filing fees are $338 for Chapter 7 and $313 for Chapter 13. The Section 341 meeting of creditors is often held remotely.',
         ],
       },
       {
@@ -1557,7 +1558,8 @@ const BK_EN: Record<CitySlug, CityPageCopy> = {
       {
         h2: 'File in Riverside',
         paragraphs: [
-          'U.S. Bankruptcy Court, Central District of California, 3420 Twelfth Street, Riverside. (909) 915-0181.',
+          'U.S. Bankruptcy Court, Central District of California, 3420 Twelfth Street, Riverside. (909) 915-0181. ' +
+            DEBT_RELIEF,
         ],
       },
     ],
@@ -1628,7 +1630,8 @@ const BK_EN: Record<CitySlug, CityPageCopy> = {
       {
         h2: '3420 Twelfth Street, Riverside',
         paragraphs: [
-          'Debt relief agency. Court fees $338 Ch.7 / $313 Ch.13. (760) 835-9353.',
+          DEBT_RELIEF +
+            ' Court fees $338 Ch.7 / $313 Ch.13. (760) 835-9353.',
         ],
       },
     ],
@@ -1657,7 +1660,8 @@ const BK_EN: Record<CitySlug, CityPageCopy> = {
       {
         h2: '3420 Twelfth Street, Riverside',
         paragraphs: [
-          'There is no bankruptcy court in Yucaipa or San Bernardino city. Consumer cases file at the U.S. Bankruptcy Court, Central District of California, Riverside. (909) 915-0181.',
+          'There is no bankruptcy court in Yucaipa or San Bernardino city. Consumer cases file at the U.S. Bankruptcy Court, Central District of California, Riverside. (909) 915-0181. ' +
+            DEBT_RELIEF,
         ],
       },
     ],
@@ -1686,7 +1690,8 @@ const BK_EN: Record<CitySlug, CityPageCopy> = {
       {
         h2: '3420 Twelfth Street, Riverside',
         paragraphs: [
-          'There is no bankruptcy court in Ontario or San Bernardino city. Consumer cases file at the U.S. Bankruptcy Court, Central District of California, Riverside — about 20.5 miles and 28 minutes east-southeast from Ontario. (909) 915-0181.',
+          'There is no bankruptcy court in Ontario or San Bernardino city. Consumer cases file at the U.S. Bankruptcy Court, Central District of California, Riverside — about 20.5 miles and 28 minutes east-southeast from Ontario. (909) 915-0181. ' +
+            DEBT_RELIEF,
         ],
       },
     ],
@@ -1697,7 +1702,7 @@ const BK_EN: Record<CitySlug, CityPageCopy> = {
     description:
       'Chapter 7 and Chapter 13 bankruptcy for Coachella households. Prepared at 1276 N Palm Canyon Dr #107, Palm Springs; filed at 3420 Twelfth Street, Riverside. Garnishment and foreclosure relief. (760) 835-9353.',
     lead: [
-      'Coachella wage garnishments and foreclosure notices are state-court collection until a federal petition is filed. Meet Edgar P. Lombera at 1276 N Palm Canyon Dr #107, Palm Springs, CA 92262 — about 28.5 miles and 35 minutes west-northwest from Coachella via Enterprise Way, Avenue 52, SR-86, the I-10 west, Vista Chino, and Palm Canyon. He prepares Chapter 7 and Chapter 13 at that Palm Springs desk. You speak with him. English or Spanish. Two practices only: personal injury and bankruptcy. There is no Lombera storefront in Coachella. Every consumer case files at the U.S. Bankruptcy Court, 3420 Twelfth Street, Riverside — about 79 miles and 92 minutes west-northwest from the Palm Canyon office. Call (760) 835-9353.',
+      'Coachella wage garnishments and foreclosure notices are state-court collection until a federal petition is filed. Meet Edgar P. Lombera at 1276 N Palm Canyon Dr #107, Palm Springs, CA 92262 — about 28.5 miles and 35 minutes west-northwest from Coachella via Enterprise Way, Avenue 52, SR-86, the I-10 west, Vista Chino, and Palm Canyon. He prepares Chapter 7 and Chapter 13 at that Palm Springs desk. You speak with him. English or Spanish. Two practices only: personal injury and bankruptcy. There is no Lombera storefront in Coachella. Every consumer case files at the U.S. Bankruptcy Court, 3420 Twelfth Street, Riverside — about 52 miles and 64 minutes west from the Palm Canyon office. Call (760) 835-9353.',
     ],
     sections: [
       {
@@ -1721,7 +1726,7 @@ const BK_EN: Record<CitySlug, CityPageCopy> = {
       {
         h2: 'Where Coachella files — 3420 Twelfth Street, Riverside',
         paragraphs: [
-          'Every Coachella consumer bankruptcy files at the U.S. Bankruptcy Court, Central District of California, 3420 Twelfth Street, Riverside — about 79 miles and 92 minutes west-northwest via SR-86 and the I-10 from the desk at 1276 N Palm Canyon Dr in Palm Springs. That building is the courthouse, not a Lombera suite. There is no bankruptcy court in Coachella. Official court filing fees are $338 for Chapter 7 and $313 for Chapter 13. The Section 341 meeting of creditors is often held remotely.',
+          'Every Coachella consumer bankruptcy files at the U.S. Bankruptcy Court, Central District of California, 3420 Twelfth Street, Riverside — about 52 miles and 64 minutes west via Highway 111 and the I-10 from the desk at 1276 N Palm Canyon Dr in Palm Springs. That building is the courthouse, not a Lombera suite. There is no bankruptcy court in Coachella. Official court filing fees are $338 for Chapter 7 and $313 for Chapter 13. The Section 341 meeting of creditors is often held remotely.',
         ],
       },
       {
@@ -1919,7 +1924,7 @@ const PI_ES: Record<CitySlug, CityPageCopy> = {
       {
         h2: '(909) 915-0181 — Orange Tree Lane, al noroeste',
         paragraphs: [
-          'Horario: lunes a viernes 9am–6pm, sábado 10am–4pm, domingo con cita. Lesiones graves pueden contactar la oficina las 24 horas para consulta de emergencia. Desde Beaumont, la consulta es unas 19 millas y unos 23 minutos al noroeste por Orange Avenue, 6th Street, Beaumont Avenue, la I-10 al oeste y California Street — no un local en Beaumont. Si el mismo choque hunde el hogar, la misma llamada al (909) 915-0181 presenta el Capítulo 7 o 13 en el Tribunal de Bancarrota de EE. UU., 3420 Twelfth Street, Riverside — unas 12 millas y 17 minutos al suroeste. Palm Springs es solo la segunda oficina — 1276 N Palm Canyon Dr #107, (760) 835-9353.',
+          'Horario: lunes a viernes 9am–6pm, sábado 10am–4pm, domingo con cita. Lesiones graves pueden contactar la oficina las 24 horas para consulta de emergencia. Desde Beaumont, la consulta es unas 19 millas y unos 23 minutos al noroeste por Orange Avenue, 6th Street, Beaumont Avenue, la I-10 al oeste y California Street — no un local en Beaumont. Si el mismo choque hunde el hogar, la misma llamada al (909) 915-0181 presenta el Capítulo 7 o 13 en el Tribunal de Bancarrota de EE. UU., 3420 Twelfth Street, Riverside — unas 25 millas y 34 minutos al oeste. Palm Springs es solo la segunda oficina — 1276 N Palm Canyon Dr #107, (760) 835-9353.',
         ],
       },
     ],
@@ -2042,7 +2047,7 @@ const PI_ES: Record<CitySlug, CityPageCopy> = {
       {
         h2: 'Muerte injusta — legitimación bajo el CCP §377.60 en 3255 E. Tahquitz Canyon Way',
         paragraphs: [
-          'Quién puede presentar la demanda se confirma en la consulta bajo el Código de Procedimiento Civil de California §377.60 — no inventamos veredictos ni historias de acuerdos. Los expedientes civiles ilimitados de los códigos postales 92234 y 92235 de Cathedral City se presentan en el Tribunal Superior del Condado de Riverside — Tribunal de Palm Springs, 3255 E. Tahquitz Canyon Way — no en Oasis Street, no en Larson Justice Center de jurisdicción limitada, no en 4050 Main Street, no en 247 W. 3rd St., no en 8303 Haven Avenue, y no en la División Indio. El tribunal está unas 5 millas y unos 11 minutos al noroeste del Ayuntamiento de Cathedral City en 68700 Avenida Lalo Guerrero. El plazo general de dos años del CCP §335.1 rige la mayoría de las demandas por lesiones; contra una entidad pública puede hacer falta aviso escrito de seis meses conforme al Código de Gobierno §911.2 antes de demandar.',
+          'Quién puede presentar la demanda se confirma en la consulta bajo el Código de Procedimiento Civil de California §377.60 — no inventamos veredictos ni historias de acuerdos. Los expedientes civiles ilimitados de los códigos postales 92234 y 92235 de Cathedral City se presentan en el Tribunal Superior del Condado de Riverside — Tribunal de Palm Springs, 3255 E. Tahquitz Canyon Way — no en Oasis Street, no en 4050 Main Street, no en 247 W. 3rd St., no en 8303 Haven Avenue, y no en la División Indio. El tribunal está unas 5 millas y unos 11 minutos al noroeste del Ayuntamiento de Cathedral City en 68700 Avenida Lalo Guerrero. El plazo general de dos años del CCP §335.1 rige la mayoría de las demandas por lesiones; contra una entidad pública puede hacer falta aviso escrito de seis meses conforme al Código de Gobierno §911.2 antes de demandar.',
         ],
       },
       {
@@ -2089,7 +2094,7 @@ const PI_ES: Record<CitySlug, CityPageCopy> = {
       {
         h2: 'Muerte injusta — legitimación bajo el CCP §377.60 en 3255 E. Tahquitz Canyon Way',
         paragraphs: [
-          'Quién puede presentar la demanda se confirma en la consulta bajo el Código de Procedimiento Civil de California §377.60 — no inventamos veredictos ni historias de acuerdos. Los expedientes civiles ilimitados de Indio se presentan en el Tribunal Superior del Condado de Riverside — Tribunal de Palm Springs, 3255 E. Tahquitz Canyon Way — no en Oasis Street, no en Larson Justice Center de jurisdicción limitada, no en 4050 Main Street, no en 247 W. 3rd St., no en 8303 Haven Avenue, y no en la División Indio. El tribunal está unas 21 millas y unos 30 minutos al oeste-noroeste del Ayuntamiento de Indio en 100 Civic Center Mall. El plazo general de dos años del CCP §335.1 rige la mayoría de las demandas por lesiones; contra una entidad pública puede hacer falta aviso escrito de seis meses conforme al Código de Gobierno §911.2 antes de demandar.',
+          'Quién puede presentar la demanda se confirma en la consulta bajo el Código de Procedimiento Civil de California §377.60 — no inventamos veredictos ni historias de acuerdos. Los expedientes civiles ilimitados de Indio se presentan en el Tribunal Superior del Condado de Riverside — Tribunal de Palm Springs, 3255 E. Tahquitz Canyon Way — no en Oasis Street, no en 4050 Main Street, no en 247 W. 3rd St., no en 8303 Haven Avenue, y no en la División Indio. El tribunal está unas 21 millas y unos 30 minutos al oeste-noroeste del Ayuntamiento de Indio en 100 Civic Center Mall. El plazo general de dos años del CCP §335.1 rige la mayoría de las demandas por lesiones; contra una entidad pública puede hacer falta aviso escrito de seis meses conforme al Código de Gobierno §911.2 antes de demandar.',
         ],
       },
       {
@@ -2418,7 +2423,7 @@ const PI_ES: Record<CitySlug, CityPageCopy> = {
       {
         h2: 'Muerte injusta — legitimación bajo el CCP §377.60 en 4050 Main Street',
         paragraphs: [
-          'Quién puede presentar la demanda se confirma en la consulta bajo el Código de Procedimiento Civil de California §377.60 — no inventamos veredictos ni historias de acuerdos. Los expedientes civiles ilimitados de los códigos postales 92543–92546 se presentan en el Tribunal Superior del Condado de Riverside, Historic Courthouse, 4050 Main Street, Riverside — no en el tribunal de la División Hemet, no en Menifee Center Drive de jurisdicción limitada, no en Tahquitz Canyon Way, no en 247 W. 3rd St., no en 8303 Haven Avenue, no en Oasis Street, y no en 400 N. Pepper. El tribunal está unas 34 millas y unos 49 minutos al noroeste del Ayuntamiento de Hemet en 445 E. Florida Avenue.',
+          'Quién puede presentar la demanda se confirma en la consulta bajo el Código de Procedimiento Civil de California §377.60 — no inventamos veredictos ni historias de acuerdos. Los expedientes civiles ilimitados de los códigos postales 92543–92546 se presentan en el Tribunal Superior del Condado de Riverside, Historic Courthouse, 4050 Main Street, Riverside — no en Menifee Center Drive de jurisdicción limitada, no en Tahquitz Canyon Way, no en 247 W. 3rd St., no en 8303 Haven Avenue, no en Oasis Street, y no en 400 N. Pepper. El tribunal está unas 34 millas y unos 49 minutos al noroeste del Ayuntamiento de Hemet en 445 E. Florida Avenue.',
         ],
       },
       {
@@ -2465,7 +2470,7 @@ const PI_ES: Record<CitySlug, CityPageCopy> = {
       {
         h2: 'Muerte injusta — legitimación bajo el CCP §377.60 en 3255 E. Tahquitz Canyon Way',
         paragraphs: [
-          'Quién puede presentar la demanda se confirma en la consulta bajo el Código de Procedimiento Civil de California §377.60 — no inventamos veredictos ni historias de acuerdos. Los expedientes civiles ilimitados de los códigos postales 92240 y 92241 de Desert Hot Springs se presentan en el Tribunal Superior del Condado de Riverside — Tribunal de Palm Springs, 3255 E. Tahquitz Canyon Way — no en Oasis Street, no en Larson Justice Center de jurisdicción limitada, no en 4050 Main Street, no en 247 W. 3rd St., no en 8303 Haven Avenue, y no en la División Indio. El tribunal está unas 11 millas y unos 19 minutos al sur del Ayuntamiento de Desert Hot Springs en 11999 Palm Drive. El plazo general de dos años del CCP §335.1 rige la mayoría de las demandas por lesiones; contra una entidad pública puede hacer falta aviso escrito de seis meses conforme al Código de Gobierno §911.2 antes de demandar.',
+          'Quién puede presentar la demanda se confirma en la consulta bajo el Código de Procedimiento Civil de California §377.60 — no inventamos veredictos ni historias de acuerdos. Los expedientes civiles ilimitados de los códigos postales 92240 y 92241 de Desert Hot Springs se presentan en el Tribunal Superior del Condado de Riverside — Tribunal de Palm Springs, 3255 E. Tahquitz Canyon Way — no en Oasis Street, no en 4050 Main Street, no en 247 W. 3rd St., no en 8303 Haven Avenue, y no en la División Indio. El tribunal está unas 11 millas y unos 19 minutos al sur del Ayuntamiento de Desert Hot Springs en 11999 Palm Drive. El plazo general de dos años del CCP §335.1 rige la mayoría de las demandas por lesiones; contra una entidad pública puede hacer falta aviso escrito de seis meses conforme al Código de Gobierno §911.2 antes de demandar.',
         ],
       },
       {
@@ -2494,7 +2499,7 @@ const PI_ES: Record<CitySlug, CityPageCopy> = {
     description:
       'Camiones, Uber, muerte injusta y lesiones catastróficas en choques de la I-10 / corredor Wildwood Canyon en Yucaipa. Oficina en Orange Tree Lane #220, Redlands — unas 11.5 millas y unos 17 minutos al oeste-noroeste. (909) 915-0181.',
     lead: [
-      'No hay local de Lombera en Yucaipa. Después de un choque en Yucaipa, reúnase con Edgar P. Lombera en 2068 Orange Tree Lane, Suite 220, Redlands, CA 92374. Desde el Ayuntamiento de Yucaipa en 34272 Yucaipa Boulevard — referencia cívica solamente — tome Yucaipa Boulevard por Oak Glen a la I-10 al oeste, luego California Street — unas 11.5 millas y unos 17 minutos al oeste-noroeste. El trayecto es al oeste-noroeste. La I-10 y el corredor Wildwood Canyon son corredores de choques en esta página, no la ruta a una oficina en Yucaipa. Llame al (909) 915-0181. Inglés o español. Solo dos prácticas: lesiones personales y bancarrota. Usted habla con él. Los casos de lesiones son a contingencia: sin honorarios a menos que ganemos.',
+      'No hay local de Lombera en Yucaipa. Después de un choque en Yucaipa, reúnase con Edgar P. Lombera en 2068 Orange Tree Lane, Suite 220, Redlands, CA 92374. Desde el Ayuntamiento de Yucaipa en 34272 Yucaipa Boulevard — referencia cívica solamente — tome Yucaipa Boulevard y Oak Glen Road a la I-10 al oeste, luego California Street — unas 11.5 millas y unos 17 minutos al oeste-noroeste. El trayecto es al oeste-noroeste. La I-10 y el corredor Wildwood Canyon son corredores de choques en esta página, no la ruta a una oficina en Yucaipa. Llame al (909) 915-0181. Inglés o español. Solo dos prácticas: lesiones personales y bancarrota. Usted habla con él. Los casos de lesiones son a contingencia: sin honorarios a menos que ganemos.',
     ],
     sections: [
       {
@@ -2530,7 +2535,7 @@ const PI_ES: Record<CitySlug, CityPageCopy> = {
       {
         h2: '(909) 915-0181 — Orange Tree Lane, al oeste-noroeste',
         paragraphs: [
-          'Horario: lunes a viernes 9am–6pm, sábado 10am–4pm, domingo con cita. Lesiones graves pueden contactar la oficina las 24 horas para consulta de emergencia. Desde Yucaipa, la consulta es unas 11.5 millas y unos 17 minutos al oeste-noroeste por Yucaipa Boulevard por Oak Glen, la I-10 al oeste y California Street — no un local en Yucaipa. Si el mismo choque hunde el hogar, la misma llamada al (909) 915-0181 presenta el Capítulo 7 o 13 en el Tribunal de Bancarrota de EE. UU., 3420 Twelfth Street, Riverside — unas 23 millas y unos 31 minutos al oeste-suroeste. Palm Springs es solo la segunda oficina — 1276 N Palm Canyon Dr #107, (760) 835-9353 — unas 38 millas y unos 47 minutos al este-sureste.',
+          'Horario: lunes a viernes 9am–6pm, sábado 10am–4pm, domingo con cita. Lesiones graves pueden contactar la oficina las 24 horas para consulta de emergencia. Desde Yucaipa, la consulta es unas 11.5 millas y unos 17 minutos al oeste-noroeste por Yucaipa Boulevard y Oak Glen Road, la I-10 al oeste y California Street — no un local en Yucaipa. Si el mismo choque hunde el hogar, la misma llamada al (909) 915-0181 presenta el Capítulo 7 o 13 en el Tribunal de Bancarrota de EE. UU., 3420 Twelfth Street, Riverside — unas 23 millas y unos 31 minutos al oeste-suroeste. Palm Springs es solo la segunda oficina — 1276 N Palm Canyon Dr #107, (760) 835-9353 — unas 38 millas y unos 47 minutos al este-sureste.',
         ],
       },
     ],
@@ -2702,7 +2707,7 @@ const BK_ES: Record<CitySlug, CityPageCopy> = {
           {
             h2: "3420 Twelfth Street, Riverside",
             paragraphs: [
-            "No hay tribunal de bancarrota en Colton ni en la ciudad de San Bernardino. Los casos de consumidor se presentan en el Tribunal de Bancarrota de EE. UU., Distrito Central de California, Riverside. (909) 915-0181.",
+            "No hay tribunal de bancarrota en Colton ni en la ciudad de San Bernardino. Los casos de consumidor se presentan en el Tribunal de Bancarrota de EE. UU., Distrito Central de California, Riverside. (909) 915-0181. Somos una agencia de alivio de deudas. Ayudamos a las personas a solicitar alivio de bancarrota bajo el Código de Bancarrota (11 U.S.C. §528).",
             ],
           },
     ],
@@ -2971,7 +2976,7 @@ const BK_ES: Record<CitySlug, CityPageCopy> = {
     description:
       'Capítulo 7 y Capítulo 13 para hogares de La Quinta. Preparado en 1276 N Palm Canyon Dr #107, Palm Springs; presentado en 3420 Twelfth Street, Riverside. Alivio de embargo y ejecución hipotecaria. (760) 835-9353.',
     lead: [
-      'Los embargos de salario y avisos de ejecución hipotecaria en La Quinta son cobranza del tribunal estatal hasta que se presenta una petición federal. Reúnase con Edgar P. Lombera en 1276 N Palm Canyon Dr #107, Palm Springs, CA 92262 — unas 23 millas y unos 34 minutos al noroeste desde La Quinta por Washington Street, Varner Road, la I-10 al oeste, Vista Chino y Palm Canyon. Él prepara el Capítulo 7 y el Capítulo 13 en ese escritorio de Palm Springs. Usted habla con él. Inglés o español. Solo dos prácticas: lesiones personales y bancarrota. No hay local de Lombera en La Quinta. Todo caso de consumidor se presenta en el Tribunal de Bancarrota de EE. UU., 3420 Twelfth Street, Riverside — unas 73.5 millas y unos 91 minutos al noroeste desde la oficina de Palm Canyon. Llame al (760) 835-9353.',
+      'Los embargos de salario y avisos de ejecución hipotecaria en La Quinta son cobranza del tribunal estatal hasta que se presenta una petición federal. Reúnase con Edgar P. Lombera en 1276 N Palm Canyon Dr #107, Palm Springs, CA 92262 — unas 23 millas y unos 34 minutos al noroeste desde La Quinta por Washington Street, Varner Road, la I-10 al oeste, Vista Chino y Palm Canyon. Él prepara el Capítulo 7 y el Capítulo 13 en ese escritorio de Palm Springs. Usted habla con él. Inglés o español. Solo dos prácticas: lesiones personales y bancarrota. No hay local de Lombera en La Quinta. Todo caso de consumidor se presenta en el Tribunal de Bancarrota de EE. UU., 3420 Twelfth Street, Riverside — unas 52 millas y 64 minutos al oeste desde la oficina de Palm Canyon. Llame al (760) 835-9353.',
     ],
     sections: [
       {
@@ -2995,7 +3000,7 @@ const BK_ES: Record<CitySlug, CityPageCopy> = {
       {
         h2: 'Dónde presenta La Quinta — 3420 Twelfth Street, Riverside',
         paragraphs: [
-          'Toda bancarrota de consumidor de La Quinta se presenta en el Tribunal de Bancarrota de EE. UU., Distrito Central de California, 3420 Twelfth Street, Riverside — unas 73.5 millas y unos 91 minutos al noroeste por la Carretera 111 y la I-10 desde el escritorio en 1276 N Palm Canyon Dr en Palm Springs. Ese edificio es el tribunal, no una suite de Lombera. No hay tribunal de bancarrota en La Quinta. Las tarifas oficiales de presentación judicial son $338 para el Capítulo 7 y $313 para el Capítulo 13. La reunión de acreedores de la Sección 341 suele ser remota.',
+          'Toda bancarrota de consumidor de La Quinta se presenta en el Tribunal de Bancarrota de EE. UU., Distrito Central de California, 3420 Twelfth Street, Riverside — unas 52 millas y 64 minutos al oeste por la Carretera 111 y la I-10 desde el escritorio en 1276 N Palm Canyon Dr en Palm Springs. Ese edificio es el tribunal, no una suite de Lombera. No hay tribunal de bancarrota en La Quinta. Las tarifas oficiales de presentación judicial son $338 para el Capítulo 7 y $313 para el Capítulo 13. La reunión de acreedores de la Sección 341 suele ser remota.',
         ],
       },
       {
@@ -3217,7 +3222,7 @@ const BK_ES: Record<CitySlug, CityPageCopy> = {
           {
             h2: "Presentar en Riverside",
             paragraphs: [
-            "Tribunal de Bancarrota de EE. UU., Distrito Central de California, 3420 Twelfth Street, Riverside. (909) 915-0181.",
+            "Tribunal de Bancarrota de EE. UU., Distrito Central de California, 3420 Twelfth Street, Riverside. (909) 915-0181. Somos una agencia de alivio de deudas. Ayudamos a las personas a solicitar alivio de bancarrota bajo el Código de Bancarrota (11 U.S.C. §528).",
             ],
           },
     ],
@@ -3286,7 +3291,7 @@ const BK_ES: Record<CitySlug, CityPageCopy> = {
           {
             h2: "3420 Twelfth Street, Riverside",
             paragraphs: [
-            "Agencia de alivio de deudas. Tarifas judiciales $338 Cap.7 / $313 Cap.13. (760) 835-9353.",
+            "Somos una agencia de alivio de deudas. Ayudamos a las personas a solicitar alivio de bancarrota bajo el Código de Bancarrota (11 U.S.C. §528). Tarifas judiciales $338 Cap.7 / $313 Cap.13. (760) 835-9353.",
             ],
           },
     ],
@@ -3314,7 +3319,7 @@ const BK_ES: Record<CitySlug, CityPageCopy> = {
           {
             h2: "3420 Twelfth Street, Riverside",
             paragraphs: [
-            "No hay tribunal de bancarrota en Yucaipa ni en la ciudad de San Bernardino. Los casos de consumidor se presentan en el Tribunal de Bancarrota de EE. UU., Distrito Central de California, Riverside. (909) 915-0181.",
+            "No hay tribunal de bancarrota en Yucaipa ni en la ciudad de San Bernardino. Los casos de consumidor se presentan en el Tribunal de Bancarrota de EE. UU., Distrito Central de California, Riverside. (909) 915-0181. Somos una agencia de alivio de deudas. Ayudamos a las personas a solicitar alivio de bancarrota bajo el Código de Bancarrota (11 U.S.C. §528).",
             ],
           },
     ],
@@ -3342,7 +3347,7 @@ const BK_ES: Record<CitySlug, CityPageCopy> = {
           {
             h2: "3420 Twelfth Street, Riverside",
             paragraphs: [
-            "No hay tribunal de bancarrota en Ontario ni en la ciudad de San Bernardino. Los casos de consumidor se presentan en el Tribunal de Bancarrota de EE. UU., Distrito Central de California, Riverside — unas 20.5 millas y unos 28 minutos al este-sureste desde Ontario. (909) 915-0181.",
+            "No hay tribunal de bancarrota en Ontario ni en la ciudad de San Bernardino. Los casos de consumidor se presentan en el Tribunal de Bancarrota de EE. UU., Distrito Central de California, Riverside — unas 20.5 millas y unos 28 minutos al este-sureste desde Ontario. (909) 915-0181. Somos una agencia de alivio de deudas. Ayudamos a las personas a solicitar alivio de bancarrota bajo el Código de Bancarrota (11 U.S.C. §528).",
             ],
           },
     ],
@@ -3353,7 +3358,7 @@ const BK_ES: Record<CitySlug, CityPageCopy> = {
     description:
       'Capítulo 7 y Capítulo 13 para hogares de Coachella. Preparado en 1276 N Palm Canyon Dr #107, Palm Springs; presentado en 3420 Twelfth Street, Riverside. Alivio de embargo y ejecución hipotecaria. (760) 835-9353.',
     lead: [
-      'Los embargos de salario y avisos de ejecución hipotecaria en Coachella son cobranza del tribunal estatal hasta que se presenta una petición federal. Reúnase con Edgar P. Lombera en 1276 N Palm Canyon Dr #107, Palm Springs, CA 92262 — unas 28.5 millas y unos 35 minutos al oeste-noroeste desde Coachella por Enterprise Way, Avenue 52, SR-86, la I-10 al oeste, Vista Chino y Palm Canyon. Él prepara el Capítulo 7 y el Capítulo 13 en ese escritorio de Palm Springs. Usted habla con él. Inglés o español. Solo dos prácticas: lesiones personales y bancarrota. No hay local de Lombera en Coachella. Todo caso de consumidor se presenta en el Tribunal de Bancarrota de EE. UU., 3420 Twelfth Street, Riverside — unas 79 millas y unos 92 minutos al oeste-noroeste desde la oficina de Palm Canyon. Llame al (760) 835-9353.',
+      'Los embargos de salario y avisos de ejecución hipotecaria en Coachella son cobranza del tribunal estatal hasta que se presenta una petición federal. Reúnase con Edgar P. Lombera en 1276 N Palm Canyon Dr #107, Palm Springs, CA 92262 — unas 28.5 millas y unos 35 minutos al oeste-noroeste desde Coachella por Enterprise Way, Avenue 52, SR-86, la I-10 al oeste, Vista Chino y Palm Canyon. Él prepara el Capítulo 7 y el Capítulo 13 en ese escritorio de Palm Springs. Usted habla con él. Inglés o español. Solo dos prácticas: lesiones personales y bancarrota. No hay local de Lombera en Coachella. Todo caso de consumidor se presenta en el Tribunal de Bancarrota de EE. UU., 3420 Twelfth Street, Riverside — unas 52 millas y 64 minutos al oeste desde la oficina de Palm Canyon. Llame al (760) 835-9353.',
     ],
     sections: [
       {
@@ -3377,7 +3382,7 @@ const BK_ES: Record<CitySlug, CityPageCopy> = {
       {
         h2: 'Dónde presenta Coachella — 3420 Twelfth Street, Riverside',
         paragraphs: [
-          'Toda bancarrota de consumidor de Coachella se presenta en el Tribunal de Bancarrota de EE. UU., Distrito Central de California, 3420 Twelfth Street, Riverside — unas 79 millas y unos 92 minutos al oeste-noroeste por SR-86 y la I-10 desde el escritorio en 1276 N Palm Canyon Dr en Palm Springs. Ese edificio es el tribunal, no una suite de Lombera. No hay tribunal de bancarrota en Coachella. Las tarifas oficiales de presentación judicial son $338 para el Capítulo 7 y $313 para el Capítulo 13. La reunión de acreedores de la Sección 341 suele ser remota.',
+          'Toda bancarrota de consumidor de Coachella se presenta en el Tribunal de Bancarrota de EE. UU., Distrito Central de California, 3420 Twelfth Street, Riverside — unas 52 millas y 64 minutos al oeste por la Carretera 111 y la I-10 desde el escritorio en 1276 N Palm Canyon Dr en Palm Springs. Ese edificio es el tribunal, no una suite de Lombera. No hay tribunal de bancarrota en Coachella. Las tarifas oficiales de presentación judicial son $338 para el Capítulo 7 y $313 para el Capítulo 13. La reunión de acreedores de la Sección 341 suele ser remota.',
         ],
       },
       {
