@@ -2,7 +2,7 @@ import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import type { Locale } from '@/lib/payload'
 import { getCityHub, type CityHubCity, type CityHubService } from '@/lib/getLocations'
-import type { City, PracticeArea } from '@/payload-types'
+import type { CityHubNamedRow, CityHubPracticeArea } from '@/lib/cityHubTypes'
 import { t } from '@/lib/dictionary'
 import { Container } from '@/components/Container'
 import { Button } from '@/components/Button'
@@ -12,7 +12,7 @@ import { JsonLd } from '@/components/JsonLd'
 import { HorizonMotif } from '@/components/HorizonMotif'
 import { breadcrumbSchema } from '@/lib/schema'
 
-function practiceAreaSlug(practiceArea: number | PracticeArea): string | undefined {
+function practiceAreaSlug(practiceArea: CityHubPracticeArea): string | undefined {
   return typeof practiceArea === 'object' ? practiceArea.slug : undefined
 }
 
@@ -23,7 +23,7 @@ function cityHorizonVariant(servingOffice: CityHubCity['servingOffice']): 'deser
   return 'citrus'
 }
 
-function namedList(items: City['hospitals'] | City['highways']): { name: string }[] | undefined {
+function namedList(items: CityHubNamedRow[] | null | undefined): { name: string }[] | undefined {
   if (!items?.length) return undefined
   const named = items.flatMap((item) => (item.name ? [{ name: item.name }] : []))
   return named.length > 0 ? named : undefined

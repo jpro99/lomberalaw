@@ -1,27 +1,10 @@
 import { getPayload, PayloadUnavailableError } from './payload'
 import type { Locale } from './payload'
-import type { City, Service } from '@/payload-types'
+import type { CityHubBundle, CityHubCity, CityHubService } from './cityHubTypes'
+
+export type { CityHubBundle, CityHubCity, CityHubService } from './cityHubTypes'
 
 type PracticeSlug = 'personal-injury' | 'bankruptcy'
-
-export type CityHubService = Service & { hasMoneyPage: boolean }
-
-/** City hub payload: full CMS city or static fallback when Payload is unavailable. */
-export type CityHubCity = Pick<City, 'slug' | 'name'> & {
-  id: City['id'] | string
-  county: City['county'] | string
-  localIntro?: City['localIntro']
-  servingOffice?: City['servingOffice']
-  courthouse?: City['courthouse']
-  hospitals?: City['hospitals']
-  highways?: City['highways']
-  nearbyCities?: City['nearbyCities']
-}
-
-export type CityHubBundle = {
-  city: CityHubCity
-  services: CityHubService[]
-}
 
 const STATIC_CITY_DATA: Record<string, { name: string; county: string }> = {
   riverside: { name: 'Riverside', county: 'Riverside County' },
@@ -141,14 +124,24 @@ export async function getCityHub(citySlug: string, locale: Locale): Promise<City
       }),
     ])
 
-    const moneyPageServiceIds = new Set(moneyPages.docs.map((p) => (p.service as any)?.id ?? p.service))
+    const moneyPageServiceIds = new Set(
+      moneyPages.docs.map((p) => {
+        const service = p.service
+        return typeof service === 'object' && service !== null ? service.id : service
+      }),
+    )
 
     return {
-      city,
-      services: allServices.docs.map((s) => ({
-        ...s,
-        hasMoneyPage: moneyPageServiceIds.has(s.id),
-      })),
+      city: city as CityHubCity,
+      services: allServices.docs.map(
+        (s): CityHubService => ({
+          id: s.id,
+          title: s.title,
+          slug: s.slug,
+          practiceArea: s.practiceArea,
+          hasMoneyPage: moneyPageServiceIds.has(s.id),
+        }),
+      ),
     }
   } catch (e) {
     if (e instanceof PayloadUnavailableError) {
