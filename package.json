@@ -17,7 +17,8 @@
     "generate:importmap": "payload generate:importmap",
     "seed": "tsx scripts/seed.ts",
     "test-digest": "tsx scripts/testDigest.ts",
-    "summarize": "tsx scripts/summarize.ts"
+    "summarize": "tsx scripts/summarize.ts",
+    "check:duplicate-copy": "tsx scripts/check-duplicate-copy.ts"
   },
   "dependencies": {
     "@payloadcms/db-postgres": "^3.85.0",
