@@ -59,7 +59,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: L
         <HomeHeroBackdrop />
         <Container className="relative z-0 grid items-center gap-10 py-12 md:grid-cols-[1.05fr_auto] md:gap-12 md:py-16 lg:py-20">
           <div className="max-w-xl">
-            <p className="font-body text-[11px] font-semibold uppercase tracking-[0.18em] text-gold">
+            <p className="font-body text-[11px] font-semibold uppercase tracking-[0.18em] text-gold-ink">
               {copy.officesLine}
             </p>
             <h1 className="mt-4 font-display text-[2rem] leading-[1.12] text-navy md:text-[2.75rem]">{h1}</h1>

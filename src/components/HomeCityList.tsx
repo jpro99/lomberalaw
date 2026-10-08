@@ -29,13 +29,13 @@ export function HomeCityList({ locale }: { locale: Locale }) {
               <li key={slug} className="font-body text-sm">
                 <span className="font-medium text-navy">{name}</span>
                 <span className="text-ink-muted"> — </span>
-                <Link href={piHref} className="text-gold hover:text-navy">
+                <Link href={piHref} className="text-gold-ink hover:text-navy">
                   {nav.personalInjury}
                 </Link>
                 {showBk && (
                   <>
                     <span className="text-ink-muted"> · </span>
-                    <Link href={bkHref} className="text-gold hover:text-navy">
+                    <Link href={bkHref} className="text-gold-ink hover:text-navy">
                       {nav.bankruptcy}
                     </Link>
                   </>

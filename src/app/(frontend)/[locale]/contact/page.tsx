@@ -72,15 +72,16 @@ export default async function ContactPage({ params }: { params: Promise<{ locale
                 { name: homeCrumb, href: homeHref },
                 { name: copy.kicker, href: contactHref },
               ]}
+              tone="dark"
             />
-            <p className="mt-4 font-body text-xs font-semibold uppercase tracking-widest text-gold">{copy.kicker}</p>
+            <p className="mt-4 font-body text-xs font-semibold uppercase tracking-widest text-gold-light">{copy.kicker}</p>
             <h1 className="mt-2 max-w-2xl font-display text-3xl font-semibold text-white md:text-4xl">
               {pageCopy.h1}
             </h1>
             <p className="mt-4 max-w-xl font-body text-sm leading-relaxed text-white/80">{pageCopy.lead[0]}</p>
           </div>
           <div className="justify-self-center md:justify-self-end">
-            <EdgarHeadshot locale={locale} />
+            <EdgarHeadshot locale={locale} theme="dark" />
           </div>
         </Container>
       </section>

@@ -29,7 +29,7 @@ export function Footer({ locale }: { locale: Locale }) {
           </div>
 
           <div>
-            <p className="font-body text-xs font-semibold uppercase tracking-[0.16em] text-gold">
+            <p className="font-body text-xs font-semibold uppercase tracking-[0.16em] text-gold-ink">
               {copy.nav.personalInjury}
             </p>
             <ul className="mt-4 space-y-2 font-body text-sm">
@@ -67,7 +67,7 @@ export function Footer({ locale }: { locale: Locale }) {
           </div>
 
           <div>
-            <p className="font-body text-xs font-semibold uppercase tracking-[0.16em] text-gold">
+            <p className="font-body text-xs font-semibold uppercase tracking-[0.16em] text-gold-ink">
               {copy.nav.offices}
             </p>
             <ul className="mt-4 space-y-5 font-body text-sm">
@@ -79,7 +79,7 @@ export function Footer({ locale }: { locale: Locale }) {
                     <br />
                     {office.addressLocality}, {office.addressRegion} {office.postalCode}
                   </p>
-                  <a href={`tel:${office.tel}`} className="mt-1 inline-block font-data text-sm text-gold hover:text-navy">
+                  <a href={`tel:${office.tel}`} className="mt-1 inline-block font-data text-sm text-gold-ink hover:text-navy">
                     {office.phone}
                   </a>
                 </li>

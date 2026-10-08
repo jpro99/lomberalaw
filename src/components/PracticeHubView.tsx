@@ -117,7 +117,7 @@ export async function PracticeHubView({ slug, locale }: { slug: Slug; locale: Lo
                 <li key={service.id}>
                   <Link
                     href={serviceHref(locale, slug, service.slug as string)}
-                    className="block border-b border-line py-4 font-body text-sm font-medium text-ink hover:text-gold"
+                    className="block border-b border-line py-4 font-body text-sm font-medium text-ink hover:text-gold-ink"
                   >
                     {service.title as string}
                   </Link>

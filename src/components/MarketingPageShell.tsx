@@ -76,7 +76,10 @@ export function MarketingPageChrome({
   const tel = citySlug ? cityTel(citySlug) : PRIMARY_TEL
 
   return (
-    <section className="border-t border-line bg-panel py-12 md:py-14">
+    <section
+      aria-label={locale === 'es' ? 'Contáctenos' : 'Contact us'}
+      className="border-t border-line bg-panel py-12 md:py-14"
+    >
       <Container className="max-w-xl">
         {showCall && (
           <div className="mb-8">

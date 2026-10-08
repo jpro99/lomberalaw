@@ -102,7 +102,7 @@ export async function AboutUsView({ locale, canonicalPath = '/about-us' }: { loc
               </div>
             )}
             <div>
-              <p className="font-body text-xs font-semibold uppercase tracking-[0.18em] text-gold">
+              <p className="font-body text-xs font-semibold uppercase tracking-[0.18em] text-gold-ink">
                 {copy.attorney.kicker}
               </p>
               <h1 className="mt-2 font-display text-3xl text-ink md:text-4xl">{pageCopy.h1}</h1>

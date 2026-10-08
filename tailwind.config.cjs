@@ -44,6 +44,8 @@ module.exports = {
           DEFAULT: 'var(--color-gold)',
           deep: 'var(--color-gold-deep)',
           soft: 'var(--color-gold-soft)',
+          ink: 'var(--color-gold-ink)',
+          light: 'var(--color-gold-light)',
         },
         night: {
           DEFAULT: 'var(--color-night)',

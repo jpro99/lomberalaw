@@ -20,7 +20,7 @@ const variants = {
   secondary: 'border border-ink text-ink hover:bg-ink hover:text-white',
   ghost: 'text-ink underline decoration-line underline-offset-4 hover:decoration-ink',
   onDark: 'bg-panel text-ink hover:bg-gold-soft',
-  accent: 'bg-gold text-navy hover:bg-gold-deep',
+  accent: 'bg-gold text-night hover:brightness-95',
 }
 
 const sizes = {

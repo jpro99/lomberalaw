@@ -5,6 +5,10 @@ import { legacyRedirects } from './src/lib/legacyRedirects.mjs'
 const nextConfig = {
   reactStrictMode: true,
   trailingSlash: true,
+  // Put <title>/<meta description> in the initial <head> for every visitor and crawler.
+  // Next 15 otherwise streams metadata into the body on dynamic routes (the city pages),
+  // which Bing, link previews and SEO tools can miss.
+  htmlLimitedBots: /.*/,
   images: {
     remotePatterns: [
       { protocol: 'https', hostname: 'b2mmyv6bmksqmvtb.public.blob.vercel-storage.com' },

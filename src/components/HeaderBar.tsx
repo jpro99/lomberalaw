@@ -48,7 +48,7 @@ export function HeaderBar({
             <Link
               key={link.href}
               href={localized(link.href)}
-              className="whitespace-nowrap font-body text-xs font-semibold uppercase tracking-wide text-ink-soft hover:text-gold"
+              className="whitespace-nowrap font-body text-xs font-semibold uppercase tracking-wide text-ink-soft hover:text-gold-ink"
             >
               {link.label}
             </Link>
@@ -65,7 +65,7 @@ export function HeaderBar({
           </Link>
           <a
             href={`tel:${tel}`}
-            className="hidden rounded-sm bg-gold px-3 py-1.5 font-body text-xs font-semibold text-navy hover:bg-gold-deep sm:inline-flex"
+            className="hidden rounded-sm bg-gold px-3 py-1.5 font-body text-xs font-semibold text-night hover:brightness-95 sm:inline-flex"
           >
             {phone}
           </a>
@@ -99,7 +99,7 @@ export function HeaderBar({
                 {link.label}
               </Link>
             ))}
-            <a href={`tel:${tel}`} className="mt-2 py-2 font-data text-sm text-gold">
+            <a href={`tel:${tel}`} className="mt-2 py-2 font-data text-sm text-gold-ink">
               {phone}
             </a>
           </nav>
