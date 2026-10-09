@@ -1743,29 +1743,29 @@ const BK_EN: Record<CitySlug, CityPageCopy> = {
 const PI_ES: Record<CitySlug, CityPageCopy> = {
   fontana: {
     h1: 'Abogado de lesiones personales en Fontana',
-    title: 'Abogado de Lesiones Fontana | Camiones I-10, Uber, Muerte Injusta | Lombera',
+    title: 'Abogado de Lesiones en Fontana | Camiones I-10, Uber, Muerte Injusta | Lombera',
     description:
-      'Camiones, Uber, muerte injusta y lesiones catastróficas en choques de la I-10 / I-15 / SR-210 en Fontana. Oficina en Orange Tree Lane #220, Redlands — unas 15 millas y 21 minutos al este. (909) 915-0181.',
+      'Camiones, Uber, muerte injusta y lesiones catastróficas en choques de la I-10 / I-15 / SR-210 en Fontana. Reúnase con nosotros en 2068 Orange Tree Lane #220, Redlands — unas 15 millas y 21 minutos al este. (909) 915-0181.',
     lead: [
-      'No hay local de Lombera en Fontana ni suite en Sierra Avenue. Después de un choque en Fontana, reúnase con Edgar P. Lombera en 2068 Orange Tree Lane, Suite 220, Redlands, CA 92374. Desde el City Hall de Fontana, tome Sierra Avenue a la I-10 al este, luego California Street — unas 15 millas y 21 minutos al este. El trayecto es al este. La I-10, la I-15 y la SR-210 son corredores de choques en esta página, no la ruta a un local en Fontana. Llame al (909) 915-0181. Inglés o español. Solo dos prácticas: lesiones personales y bancarrota. Usted habla con él. Los casos de lesiones son a contingencia: sin honorarios a menos que ganemos.',
+      'No hay local de Lombera en Fontana ni suite en Sierra Avenue. Después de un choque en Fontana, reúnase con Edgar P. Lombera en 2068 Orange Tree Lane, Suite 220, Redlands, CA 92374. Desde el Ayuntamiento de Fontana, tome Sierra Avenue a la I-10 al este, luego California Street — unas 15 millas y 21 minutos al este. El trayecto es al este. La I-10, la I-15 y la SR-210 son corredores de choques en esta página, no la ruta a un local en Fontana. Llame al (909) 915-0181. Inglés o español. Solo dos prácticas: lesiones personales y bancarrota. Usted habla con él. Los casos de lesiones son a contingencia: sin honorarios a menos que ganemos.',
     ],
     sections: [
       {
         h2: 'Choques de camiones en la I-10, la I-15 y la SR-210',
         paragraphs: [
-          'Sierra Avenue, la red de almacenes Slover / Cherry y Foothill Boulevard (Ruta Histórica 66) están bajo el tráfico de camiones de paso en la I-10, la I-15 y la SR-210 que produce las colisiones comerciales que lideran este expediente. Después de un choque grave, preserve la descarga del ECM, las grabaciones de dashcam y el expediente de calificación del conductor antes de que las aseguradoras dispersen la evidencia. Las demandas civiles de estos corredores de carga se presentan en el Tribunal Superior del Condado de San Bernardino / Justice Center, 247 W. 3rd Street, San Bernardino — a menudo después de un trayecto al este por Foothill Boulevard hacia la I-10. Esto es carga del Inland Empire — no una página de puerto de Los Ángeles. Las demandas por muerte injusta y lesión cerebral traumática de estos choques permanecen en esta URL.',
+          'Sierra Avenue, la red de almacenes Slover / Cherry y Foothill Boulevard (Ruta Histórica 66) están bajo el tráfico de camiones de paso en la I-10, la I-15 y la SR-210 que produce las colisiones comerciales que lideran los casos más frecuentes en esta página. Después de un choque grave, preserve la descarga del ECM, las grabaciones de cámara del tablero (dashcam) y el expediente de calificación del conductor antes de que las aseguradoras dispersen la evidencia. Las demandas civiles de estos corredores de carga se presentan en el Tribunal Superior del Condado de San Bernardino / Justice Center, 247 W. 3rd Street, San Bernardino — a menudo después de un trayecto al este por Foothill Boulevard hacia la I-10. Esto es carga del Inland Empire — no una página de puerto de Los Ángeles. Las demandas por muerte injusta y lesión cerebral traumática de estos choques permanecen en esta URL.',
         ],
       },
       {
         h2: 'Uber y Lyft en Sierra Avenue',
         paragraphs: [
-          'Las recogidas de Uber y Lyft en Sierra Avenue y Foothill Boulevard (Historic Route 66) se mezclan con el tráfico de los conectores de la I-10 y la I-15 cuando terminan los turnos de almacén y suben los viajes de pasajeros; la cobertura depende de si el conductor tenía la aplicación abierta, y eso lo aclaramos en la consulta sin citar límites de póliza en el sitio. Las lesiones por rideshare en Fontana se atienden solo en /es/lesiones-personales/fontana/; Lombera no publica una página aparte de /uber/ ni /rideshare/.',
+          'Las recogidas de Uber y Lyft en Sierra Avenue y Foothill Boulevard (Ruta Histórica 66) se mezclan con el tráfico de los conectores de la I-10 y la I-15 cuando terminan los turnos de almacén y suben los viajes de pasajeros; la cobertura depende de si el conductor tenía la aplicación abierta, y eso lo aclaramos en la consulta sin citar límites de póliza en el sitio. Las lesiones en viajes de transporte por aplicación (Uber/Lyft) en Fontana se atienden solo en /es/lesiones-personales/fontana/; Lombera no publica una página aparte de /uber/ ni /rideshare/.',
         ],
       },
       {
         h2: 'Muerte injusta — legitimación bajo el CCP §377.60 en 247 W. 3rd Street',
         paragraphs: [
-          'Quién puede presentar la demanda se confirma en la consulta bajo el Código de Procedimiento Civil de California §377.60 — no inventamos veredictos ni historias de acuerdos. Los expedientes civiles ilimitados se presentan en el Tribunal Superior del Condado de San Bernardino / Justice Center, 247 W. 3rd Street, San Bernardino — no el Distrito de Fontana en Arrow, no Haven Avenue, ni Tahquitz Canyon Way u Oasis en las divisiones del desierto. El CCP §335.1 da dos años a la mayoría de las víctimas; una entidad pública puede exigir aviso escrito de seis meses bajo el Código de Gobierno §911.2.',
+          'Quién puede presentar la demanda se confirma en la consulta bajo el Código de Procedimiento Civil de California §377.60 — no inventamos veredictos ni historias de acuerdos. Los casos civiles de cuantía ilimitada se presentan en el Tribunal Superior del Condado de San Bernardino / Justice Center, 247 W. 3rd Street, San Bernardino — no el Distrito de Fontana en Arrow, no Haven Avenue, ni Tahquitz Canyon Way u Oasis en las divisiones del desierto. El CCP §335.1 da dos años a la mayoría de las víctimas; una entidad pública puede exigir aviso escrito de seis meses bajo el Código de Gobierno §911.2.',
         ],
       },
       {
@@ -1777,22 +1777,22 @@ const PI_ES: Record<CitySlug, CityPageCopy> = {
       {
         h2: 'Auto, motocicleta y mordeduras — Código Civil §3342',
         paragraphs: [
-          'Después de los cuatro tipos principales de reclamo, choques de auto, accidentes de motocicleta y mordeduras de perro bajo el Código Civil de California §3342 completan el expediente. Circular entre carriles en motocicleta es legal cuando se hace con seguridad; usar casco no invierte la culpa. No manejamos reclamos por resbalones y caídas.',
+          'Después de los cuatro tipos principales de reclamo, choques de auto, accidentes de motocicleta y mordeduras de perro bajo el Código Civil de California §3342 completan los casos que atendemos. Circular entre carriles en motocicleta es legal cuando se hace con seguridad; usar casco no invierte la culpa. No manejamos reclamos por resbalones y caídas.',
         ],
       },
       {
         h2: '(909) 915-0181 — Orange Tree Lane, al este',
         paragraphs: [
-          'Horario: lunes a viernes 9am–6pm, sábado 10am–4pm, domingo con cita. Lesiones graves pueden contactar la oficina las 24 horas para consulta de emergencia. Desde Fontana, la consulta es unas 15 millas y 21 minutos al este por Sierra Avenue, la I-10 y California Street — no un local en Sierra Avenue. Si el mismo choque hunde el hogar, la misma llamada al (909) 915-0181 presenta el Capítulo 7 o 13 en 3420 Twelfth Street, Riverside — unas 11 millas y 20 minutos al sureste. Palm Springs es la segunda oficina — 1276 N Palm Canyon Dr #107, (760) 835-9353.',
+          'Horario: lunes a viernes 9am–6pm, sábado 10am–4pm, domingo con cita. Lesiones graves pueden contactar la oficina las 24 horas para consulta de emergencia. Desde Fontana, la consulta es unas 15 millas y 21 minutos al este por Sierra Avenue, la I-10 y California Street — no un local en Sierra Avenue. Si el mismo choque deja a la familia en crisis económica, la misma llamada al (909) 915-0181 presenta el Capítulo 7 o 13 en 3420 Twelfth Street, Riverside — unas 11 millas y 20 minutos al este-sureste. Palm Springs es la segunda oficina — 1276 N Palm Canyon Dr #107, (760) 835-9353.',
         ],
       },
     ],
   },
   colton: {
     h1: 'Abogado de lesiones personales en Colton',
-    title: 'Abogado de Lesiones Colton | Camiones I-10/I-215, Uber, Muerte Injusta | Lombera',
+    title: 'Abogado de Lesiones en Colton | Camiones I-10/I-215, Uber, Muerte Injusta | Lombera',
     description:
-      'Camiones, Uber, muerte injusta y lesiones catastróficas en choques de la I-10 / I-215 / Colton Crossing. Oficina en Orange Tree Lane #220, Redlands — unas 6.5 millas y unos 10 minutos al este. (909) 915-0181.',
+      'Camiones, Uber, muerte injusta y lesiones catastróficas en choques de la I-10 / I-215 / Colton Crossing. Reúnase con nosotros en 2068 Orange Tree Lane #220, Redlands — unas 6.5 millas y unos 10 minutos al este. (909) 915-0181.',
     lead: [
       'No hay local de Lombera en Colton. Después de un choque en Colton, reúnase con Edgar P. Lombera en 2068 Orange Tree Lane, Suite 220, Redlands, CA 92374. Desde el Ayuntamiento de Colton en 650 N. La Cadena, tome la rampa de la 9th Street a la I-10 al este, luego California Street — unas 6.5 millas y unos 10 minutos al este. El trayecto es al este. La I-10, la I-215 y Colton Crossing son corredores de choques en esta página, no la ruta a la oficina. Llame al (909) 915-0181. Inglés o español. Solo dos prácticas: lesiones personales y bancarrota. Usted habla con él. Los casos de lesiones son a contingencia: sin honorarios a menos que ganemos.',
     ],
@@ -1800,19 +1800,19 @@ const PI_ES: Record<CitySlug, CityPageCopy> = {
       {
         h2: 'Choques de camiones en la I-10, la I-215, Mt Vernon y Colton Crossing',
         paragraphs: [
-          'Colton Crossing — donde la I-10 se encuentra con la I-215 — más Mt Vernon Avenue, La Cadena Drive y el tráfico de camiones de paso desde la cuadrícula de almacenes producen las colisiones de carga que lideran este expediente. La presión de incorporación en el conjunto I-10 / I-215 y el tráfico de patios en Mt Vernon empujan choques por alcance y arrastre antes de que la carga despeje los corredores del valle. Después de una colisión grave, preserve la descarga del ECM, las grabaciones de dashcam y el expediente de calificación del conductor antes de que las aseguradoras dispersen la evidencia. Las demandas civiles ilimitadas de Colton se presentan en el Tribunal Superior del Condado de San Bernardino / Justice Center, 247 W. 3rd Street, San Bernardino — unas 3.5 millas y unos 8 minutos al noreste desde el Ayuntamiento de Colton en 650 N. La Cadena. Este es el cruce I-10 / I-215 de Colton — no la página de carga de Fontana en la I-10 / I-15 / Sierra, no la I-210 / SR-210 / Base Line de Highland, no la SR-60 / I-215 de Moreno Valley, ni el conjunto 60 / 91 / 215 de Riverside. Las demandas por muerte injusta y lesión cerebral traumática de estos choques permanecen en esta URL.',
+          'Colton Crossing — donde la I-10 se encuentra con la I-215 — más Mt Vernon Avenue, La Cadena Drive y el tráfico de camiones de paso desde la cuadrícula de almacenes producen las colisiones de carga que lideran los casos más frecuentes en esta página. La presión de incorporación en el conjunto I-10 / I-215 y el tráfico de patios en Mt Vernon empujan choques por alcance y choques en que el vehículo se monta sobre otro (override) antes de que la carga despeje los corredores del valle. Después de una colisión grave, preserve la descarga del ECM, las grabaciones de cámara del tablero (dashcam) y el expediente de calificación del conductor antes de que las aseguradoras dispersen la evidencia. Las demandas civiles de cuantía ilimitada de Colton se presentan en el Tribunal Superior del Condado de San Bernardino / Justice Center, 247 W. 3rd Street, San Bernardino — unas 3.5 millas y unos 8 minutos al noreste desde el Ayuntamiento de Colton en 650 N. La Cadena. Este es el cruce I-10 / I-215 de Colton — no la página de carga de Fontana en la I-10 / I-15 / Sierra, no la I-210 / SR-210 / Base Line de Highland, no la SR-60 / I-215 de Moreno Valley, ni el conjunto 60 / 91 / 215 de Riverside. Las demandas por muerte injusta y lesión cerebral traumática de estos choques permanecen en esta URL.',
         ],
       },
       {
         h2: 'Uber y Lyft en Valley Boulevard, La Cadena, Mt Vernon y Rancho',
         paragraphs: [
-          'Valley Boulevard, La Cadena Drive, Mt Vernon Avenue y el corredor Rancho sostienen un flujo constante de Uber y Lyft junto al intercambio I-215 en Colton Crossing y los trayectos de CSUSB. Qué aseguradora responde suele depender del estado de la app al momento del choque; lo verificamos en persona, no con cifras en la web. Los casos de rideshare en Colton se quedan en /es/lesiones-personales/colton/; no hay una página /uber/ independiente.',
+          'Valley Boulevard, La Cadena Drive, Mt Vernon Avenue y el corredor Rancho sostienen un flujo constante de Uber y Lyft junto al intercambio I-215 en Colton Crossing y los trayectos de CSUSB. Qué aseguradora responde suele depender del estado de la app al momento del choque; lo verificamos en persona, no con cifras en la web. Los casos de transporte por aplicación (Uber/Lyft) en Colton se quedan en /es/lesiones-personales/colton/; no hay una página /uber/ independiente.',
         ],
       },
       {
         h2: 'Muerte injusta — legitimación bajo el CCP §377.60 en 247 W. 3rd Street',
         paragraphs: [
-          'Quién puede presentar la demanda se confirma en la consulta bajo el Código de Procedimiento Civil de California §377.60 — no inventamos veredictos ni historias de acuerdos. Los expedientes civiles ilimitados se presentan en el Tribunal Superior del Condado de San Bernardino / Justice Center, 247 W. 3rd Street, San Bernardino — no en 4050 Main Street en Riverside, no en Tahquitz Canyon Way, no en 400 N. Pepper, y no en Arrow Boulevard. El tribunal está unas 3.5 millas y unos 8 minutos al noreste del Ayuntamiento de Colton en 650 N. La Cadena. El plazo general de dos años del CCP §335.1 rige la mayoría de las demandas por lesiones; contra una entidad pública puede hacer falta aviso escrito de seis meses conforme al Código de Gobierno §911.2 antes de demandar.',
+          'Quién puede presentar la demanda se confirma en la consulta bajo el Código de Procedimiento Civil de California §377.60 — no inventamos veredictos ni historias de acuerdos. Los casos civiles de cuantía ilimitada se presentan en el Tribunal Superior del Condado de San Bernardino / Justice Center, 247 W. 3rd Street, San Bernardino — no en 4050 Main Street en Riverside, no en Tahquitz Canyon Way, no en 400 N. Pepper, y no en Arrow Boulevard. El tribunal está unas 3.5 millas y unos 8 minutos al noreste del Ayuntamiento de Colton en 650 N. La Cadena.',
         ],
       },
       {
@@ -1824,42 +1824,42 @@ const PI_ES: Record<CitySlug, CityPageCopy> = {
       {
         h2: 'Auto, motocicleta y mordeduras — Código Civil §3342',
         paragraphs: [
-          'Después de los cuatro tipos principales de reclamo, choques de auto, accidentes de motocicleta y mordeduras de perro bajo el Código Civil de California §3342 completan el expediente. Circular entre carriles en motocicleta es legal cuando se hace con seguridad; usar casco no invierte la culpa. No manejamos reclamos por resbalones y caídas.',
+          'Después de los cuatro tipos principales de reclamo, choques de auto, accidentes de motocicleta y mordeduras de perro bajo el Código Civil de California §3342 completan los casos que atendemos. Circular entre carriles en motocicleta es legal cuando se hace con seguridad; usar casco no invierte la culpa. No manejamos reclamos por resbalones y caídas. El plazo general de dos años del CCP §335.1 rige la mayoría de las demandas por lesiones; contra una entidad pública puede hacer falta aviso escrito de seis meses conforme al Código de Gobierno §911.2 antes de demandar.',
         ],
       },
       {
         h2: '(909) 915-0181 — Orange Tree Lane, al este',
         paragraphs: [
-          'Horario: lunes a viernes 9am–6pm, sábado 10am–4pm, domingo con cita. Lesiones graves pueden contactar la oficina las 24 horas para consulta de emergencia. Desde Colton, la consulta es unas 6.5 millas y unos 10 minutos al este por la rampa de la 9th Street, la I-10 y California Street — no un local en Colton. Si el mismo choque hunde el hogar, la misma llamada al (909) 915-0181 presenta el Capítulo 7 o 13 en el Tribunal de Bancarrota de EE. UU., 3420 Twelfth Street, Riverside — unas 9 millas y unos 14 minutos al sur. Palm Springs es solo la segunda oficina — 1276 N Palm Canyon Dr #107, (760) 835-9353.',
+          'Horario: lunes a viernes 9am–6pm, sábado 10am–4pm, domingo con cita. Lesiones graves pueden contactar la oficina las 24 horas para consulta de emergencia. Desde Colton, la consulta es unas 6.5 millas y unos 10 minutos al este por la rampa de la 9th Street, la I-10 y California Street — no un local en Colton. Si el mismo choque deja a la familia en crisis económica, la misma llamada al (909) 915-0181 presenta el Capítulo 7 o 13 en el Tribunal de Bancarrota de EE. UU., 3420 Twelfth Street, Riverside — unas 9 millas y unos 14 minutos al sur. Palm Springs es solo la segunda oficina — 1276 N Palm Canyon Dr #107, (760) 835-9353.',
         ],
       },
     ],
   },
   'rancho-cucamonga': {
     h1: 'Abogado de lesiones personales en Rancho Cucamonga',
-    title: 'Abogado de Lesiones Rancho Cucamonga | Camiones I-15/I-210, Uber, Muerte Injusta | Lombera',
+    title: 'Abogado de Lesiones en Rancho Cucamonga | Camiones I-15/I-210, Uber, Muerte Injusta | Lombera',
     description:
-      'Camiones, Uber, muerte injusta y lesiones catastróficas en choques de la I-15 / I-210 / I-10 en Rancho Cucamonga. Oficina en Orange Tree Lane #220, Redlands — unas 24 millas y unos 31 minutos al este. (909) 915-0181.',
+      'Camiones, Uber, muerte injusta y lesiones catastróficas en choques de la I-15 / I-210 / I-10 en Rancho Cucamonga. Reúnase con nosotros en 2068 Orange Tree Lane #220, Redlands — unas 24 millas y unos 31 minutos al este. (909) 915-0181.',
     lead: [
-      'No hay local de Lombera en Rancho Cucamonga. Después de un choque en Rancho Cucamonga, reúnase con Edgar P. Lombera en 2068 Orange Tree Lane, Suite 220, Redlands, CA 92374. Desde City Hall de Rancho Cucamonga en 10500 Civic Center Drive, tome Haven Avenue a la I-10 al este, luego California Street — unas 24 millas y unos 31 minutos al este. El trayecto es al este. La I-15 y la I-210 son corredores de choques en esta página, no la ruta a la oficina. Llame al (909) 915-0181. Inglés o español. Solo dos prácticas: lesiones personales y bancarrota. Usted habla con él. Los casos de lesiones son a contingencia: sin honorarios a menos que ganemos.',
+      'No hay local de Lombera en Rancho Cucamonga. Después de un choque en Rancho Cucamonga, reúnase con Edgar P. Lombera en 2068 Orange Tree Lane, Suite 220, Redlands, CA 92374. Desde el Ayuntamiento de Rancho Cucamonga en 10500 Civic Center Drive, tome Haven Avenue a la I-10 al este, luego California Street — unas 24 millas y unos 31 minutos al este. El trayecto es al este. La I-15 y la I-210 son corredores de choques en esta página, no la ruta a la oficina. Llame al (909) 915-0181. Inglés o español. Solo dos prácticas: lesiones personales y bancarrota. Usted habla con él. Los casos de lesiones son a contingencia: sin honorarios a menos que ganemos.',
     ],
     sections: [
       {
         h2: 'Choques de camiones en la I-15, la I-210 y la I-10',
         paragraphs: [
-          'El tráfico de camiones comerciales en la I-15, la I-210 y los accesos a la I-10 a través de Haven Avenue, Foothill Boulevard y los corredores de almacenes de Ontario / Rancho produce las colisiones de carga que lideran este expediente. La presión de incorporación en el conjunto I-15 / I-210 / I-10 y el tráfico de distribución en Haven empujan choques por alcance y arrastre antes de que la carga despeje los corredores del valle. Después de una colisión grave, preserve la descarga del ECM, las grabaciones de dashcam y el expediente de calificación del conductor antes de que las aseguradoras dispersen la evidencia. Las demandas civiles ilimitadas de Rancho Cucamonga se presentan en el Tribunal Superior del Condado de San Bernardino, 8303 Haven Avenue — unas 0.2 millas y un minuto al noreste desde City Hall de Rancho Cucamonga en 10500 Civic Center Drive, adyacente en Haven. Este es el conjunto I-15 / I-210 / I-10 de Rancho — no la página de carga de Fontana en la I-10 / I-15 / Sierra, no Colton Crossing / Mt Vernon, no la I-210 / SR-210 / Base Line de Highland, no la SR-60 / I-215 de Moreno Valley, ni el conjunto 60 / 91 / 215 de Riverside. Las demandas por muerte injusta y lesión cerebral traumática de estos choques permanecen en esta URL.',
+          'El tráfico de camiones comerciales en la I-15, la I-210 y los accesos a la I-10 a través de Haven Avenue, Foothill Boulevard y los corredores de almacenes de Ontario / Rancho produce las colisiones de carga que lideran los casos más frecuentes en esta página. La presión de incorporación en el conjunto I-15 / I-210 / I-10 y el tráfico de distribución en Haven empujan choques por alcance y choques en que el vehículo se monta sobre otro (override) antes de que la carga despeje los corredores del valle. Después de una colisión grave, preserve la descarga del ECM, las grabaciones de cámara del tablero (dashcam) y el expediente de calificación del conductor antes de que las aseguradoras dispersen la evidencia. Las demandas civiles de cuantía ilimitada de Rancho Cucamonga se presentan en el Tribunal Superior del Condado de San Bernardino, 8303 Haven Avenue — unas 0.2 millas y un minuto al noreste desde el Ayuntamiento de Rancho Cucamonga en 10500 Civic Center Drive, adyacente en Haven. Este es el conjunto I-15 / I-210 / I-10 de Rancho — no la página de carga de Fontana en la I-10 / I-15 / Sierra, no Colton Crossing / Mt Vernon, no la I-210 / SR-210 / Base Line de Highland, no la SR-60 / I-215 de Moreno Valley, ni el conjunto 60 / 91 / 215 de Riverside. Las demandas por muerte injusta y lesión cerebral traumática de estos choques permanecen en esta URL.',
         ],
       },
       {
         h2: 'Uber y Lyft en Haven, Foothill y Baseline',
         paragraphs: [
-          'Haven Avenue, Foothill Boulevard, Baseline Road y los accesos de almacén de Ontario / Rancho alimentan viajes de rideshare hacia la unión I-15 / I-210 / I-10; si hay choque, que la app estuviera encendida o apagada define qué póliza debe responder, y lo confirmamos en la consulta sin montos de cobertura en la página. Los reclamos de Uber y Lyft en Rancho Cucamonga se presentan desde /es/lesiones-personales/rancho-cucamonga/, sin un atajo /uber/ aparte.',
+          'Haven Avenue, Foothill Boulevard, Baseline Road y los accesos de almacén de Ontario / Rancho alimentan viajes de transporte por aplicación (Uber/Lyft) hacia la unión I-15 / I-210 / I-10; si hay choque, que la app estuviera encendida o apagada define qué póliza debe responder, y lo confirmamos en la consulta sin montos de cobertura en la página. Los reclamos de Uber y Lyft en Rancho Cucamonga se presentan desde /es/lesiones-personales/rancho-cucamonga/, sin un atajo /uber/ aparte.',
         ],
       },
       {
         h2: 'Muerte injusta — legitimación bajo el CCP §377.60 en 8303 Haven Avenue',
         paragraphs: [
-          'Quién puede presentar la demanda se confirma en la consulta bajo el Código de Procedimiento Civil de California §377.60 — no inventamos veredictos ni historias de acuerdos. Los expedientes civiles ilimitados de Rancho Cucamonga se presentan en el Tribunal Superior del Condado de San Bernardino, 8303 Haven Avenue — no en 247 W. 3rd St. en San Bernardino, no en 4050 Main Street en Riverside, no en Tahquitz Canyon Way, no en Oasis Street, no en Arrow Boulevard, y no en 400 N. Pepper. El tribunal está unas 0.2 millas y un minuto al noreste de City Hall de Rancho Cucamonga en 10500 Civic Center Drive — adyacente en Haven Avenue. El plazo general de dos años del CCP §335.1 rige la mayoría de las demandas por lesiones; contra una entidad pública puede hacer falta aviso escrito de seis meses conforme al Código de Gobierno §911.2 antes de demandar.',
+          'Quién puede presentar la demanda se confirma en la consulta bajo el Código de Procedimiento Civil de California §377.60 — no inventamos veredictos ni historias de acuerdos. Los casos civiles de cuantía ilimitada de Rancho Cucamonga se presentan en el Tribunal Superior del Condado de San Bernardino, 8303 Haven Avenue — no en 247 W. 3rd St. en San Bernardino, no en 4050 Main Street en Riverside, no en Tahquitz Canyon Way, no en Oasis Street, no en Arrow Boulevard, y no en 400 N. Pepper. El tribunal está unas 0.2 millas y un minuto al noreste del Ayuntamiento de Rancho Cucamonga en 10500 Civic Center Drive — adyacente en Haven Avenue.',
         ],
       },
       {
@@ -1871,30 +1871,30 @@ const PI_ES: Record<CitySlug, CityPageCopy> = {
       {
         h2: 'Auto, motocicleta y mordeduras — Código Civil §3342',
         paragraphs: [
-          'Después de los cuatro tipos principales de reclamo, choques de auto, accidentes de motocicleta y mordeduras de perro bajo el Código Civil de California §3342 completan el expediente. Circular entre carriles en motocicleta es legal cuando se hace con seguridad; usar casco no invierte la culpa. No manejamos reclamos por resbalones y caídas.',
+          'Después de los cuatro tipos principales de reclamo, choques de auto, accidentes de motocicleta y mordeduras de perro bajo el Código Civil de California §3342 completan los casos que atendemos. Circular entre carriles en motocicleta es legal cuando se hace con seguridad; usar casco no invierte la culpa. No manejamos reclamos por resbalones y caídas. El plazo general de dos años del CCP §335.1 rige la mayoría de las demandas por lesiones; contra una entidad pública puede hacer falta aviso escrito de seis meses conforme al Código de Gobierno §911.2 antes de demandar.',
         ],
       },
       {
         h2: '(909) 915-0181 — Orange Tree Lane, al este',
         paragraphs: [
-          'Horario: lunes a viernes 9am–6pm, sábado 10am–4pm, domingo con cita. Lesiones graves pueden contactar la oficina las 24 horas para consulta de emergencia. Desde Rancho Cucamonga, la consulta es unas 24 millas y unos 31 minutos al este por Haven Avenue, la I-10 al este y California Street — no un local en Rancho Cucamonga. Si el mismo choque hunde el hogar, la misma llamada al (909) 915-0181 presenta el Capítulo 7 o 13 en el Tribunal de Bancarrota de EE. UU., 3420 Twelfth Street, Riverside — unas 20 millas y unos 29 minutos al sureste. Palm Springs es solo la segunda oficina — 1276 N Palm Canyon Dr #107, (760) 835-9353.',
+          'Horario: lunes a viernes 9am–6pm, sábado 10am–4pm, domingo con cita. Lesiones graves pueden contactar la oficina las 24 horas para consulta de emergencia. Desde Rancho Cucamonga, la consulta es unas 24 millas y unos 31 minutos al este por Haven Avenue, la I-10 al este y California Street — no un local en Rancho Cucamonga. Si el mismo choque deja a la familia en crisis económica, la misma llamada al (909) 915-0181 presenta el Capítulo 7 o 13 en el Tribunal de Bancarrota de EE. UU., 3420 Twelfth Street, Riverside — unas 20 millas y unos 29 minutos al este-sureste. Palm Springs es solo la segunda oficina — 1276 N Palm Canyon Dr #107, (760) 835-9353.',
         ],
       },
     ],
   },
   beaumont: {
     h1: 'Abogado de lesiones personales en Beaumont',
-    title: 'Abogado de Lesiones Beaumont | Camiones Paso I-10, Uber, Muerte Injusta | Lombera',
+    title: 'Abogado de Lesiones en Beaumont | Camiones Paso I-10, Uber, Muerte Injusta | Lombera',
     description:
-      'Camiones, Uber, muerte injusta y lesiones catastróficas en choques del Paso I-10 / San Gorgonio en Beaumont, California. Oficina en Orange Tree Lane #220, Redlands — unas 19 millas y unos 23 minutos al noroeste. (909) 915-0181.',
+      'Camiones, Uber, muerte injusta y lesiones catastróficas en choques del Paso I-10 / San Gorgonio en Beaumont, California. Reúnase con nosotros en 2068 Orange Tree Lane #220, Redlands — unas 19 millas y unos 23 minutos al noroeste. (909) 915-0181.',
     lead: [
-      'No hay local de Lombera en Beaumont, California — no Beaumont, Texas. Después de un choque en Beaumont, reúnase con Edgar P. Lombera en 2068 Orange Tree Lane, Suite 220, Redlands, CA 92374. Desde el centro de Beaumont, tome Orange Avenue a 6th Street, Beaumont Avenue, la I-10 al oeste, luego California Street — unas 19 millas y unos 23 minutos al noroeste. El trayecto es al noroeste. La I-10, el Paso de San Gorgonio y Beaumont Avenue son corredores de choques en esta página, no la ruta a un local en Beaumont. Llame al (909) 915-0181. Inglés o español. Solo dos prácticas: lesiones personales y bancarrota. Usted habla con él. Los casos de lesiones son a contingencia: sin honorarios a menos que ganemos.',
+      'No hay local de Lombera en Beaumont, California — no en Beaumont, Texas. Después de un choque en Beaumont, reúnase con Edgar P. Lombera en 2068 Orange Tree Lane, Suite 220, Redlands, CA 92374. Desde el centro de Beaumont, tome Orange Avenue a 6th Street, Beaumont Avenue, la I-10 al oeste, luego California Street — unas 19 millas y unos 23 minutos al noroeste. El trayecto es al noroeste. La I-10, el Paso de San Gorgonio y Beaumont Avenue son corredores de choques en esta página, no la ruta a un local en Beaumont. Llame al (909) 915-0181. Inglés o español. Solo dos prácticas: lesiones personales y bancarrota. Usted habla con él. Los casos de lesiones son a contingencia: sin honorarios a menos que ganemos.',
     ],
     sections: [
       {
         h2: 'Choques de camiones en la I-10, el Paso de San Gorgonio y Beaumont Avenue',
         paragraphs: [
-          'El tráfico de camiones comerciales en la I-10 a través del Paso de San Gorgonio, a lo largo de Beaumont Avenue y en los conectores de 6th Street / Pennsylvania Avenue produce las colisiones de carga que lideran este expediente. Las ráfagas de viento, los descensos pronunciados y el calor del desierto empujan fallas de frenos y vuelcos en el paso antes de que la carga llegue a los corredores del valle. Estos choques del Paso y de Beaumont Avenue pertenecen aquí. Después de una colisión grave, preserve la descarga del ECM, las grabaciones de dashcam y el expediente de calificación del conductor antes de que las aseguradoras dispersen la evidencia. Las demandas civiles ilimitadas del código postal 92223 se presentan en el Tribunal Superior del Condado de Riverside, Historic Courthouse, 4050 Main Street, Riverside — unas 25.5 millas y unos 35 minutos al oeste desde el Ayuntamiento de Beaumont. Esta es la carga I-10 / Paso de San Gorgonio / Beaumont Avenue de Beaumont — no la página I-10 / I-15 / Sierra de Fontana, no la SR-60 / I-215 de Moreno Valley, no el clon desértico de Hwy 111 de Palm Springs, ni Colton Crossing. Las demandas por muerte injusta y lesión cerebral traumática de estos choques permanecen en esta URL.',
+          'El tráfico de camiones comerciales en la I-10 a través del Paso de San Gorgonio, a lo largo de Beaumont Avenue y en los conectores de 6th Street / Pennsylvania Avenue produce las colisiones de carga que lideran los casos más frecuentes en esta página. Las ráfagas de viento, los descensos pronunciados y el calor del desierto empujan fallas de frenos y plegamientos en tijera (jackknife) en el paso antes de que la carga llegue a los corredores del valle. Estos choques del Paso y de Beaumont Avenue pertenecen aquí. Después de una colisión grave, preserve la descarga del ECM, las grabaciones de cámara del tablero (dashcam) y el expediente de calificación del conductor antes de que las aseguradoras dispersen la evidencia. Las demandas civiles de cuantía ilimitada del código postal 92223 se presentan en el Tribunal Superior del Condado de Riverside, Historic Courthouse, 4050 Main Street, Riverside — unas 25.5 millas y unos 35 minutos al oeste desde el Ayuntamiento de Beaumont. Esta es la carga I-10 / Paso de San Gorgonio / Beaumont Avenue de Beaumont — no la página I-10 / I-15 / Sierra de Fontana, no la SR-60 / I-215 de Moreno Valley, no el clon desértico de Hwy 111 de Palm Springs, ni Colton Crossing. Las demandas por muerte injusta y lesión cerebral traumática de estos choques permanecen en esta URL.',
         ],
       },
       {
@@ -1906,7 +1906,7 @@ const PI_ES: Record<CitySlug, CityPageCopy> = {
       {
         h2: 'Muerte injusta — legitimación bajo el CCP §377.60 en 4050 Main Street',
         paragraphs: [
-          'Quién puede presentar la demanda se confirma en la consulta bajo el Código de Procedimiento Civil de California §377.60 — no inventamos veredictos ni historias de acuerdos. Los expedientes civiles ilimitados del código postal 92223 se presentan en el Tribunal Superior del Condado de Riverside, Historic Courthouse, 4050 Main Street, Riverside — no en Tahquitz Canyon Way, no en 13800 Heacock, no en 247 W. 3rd St., no en 8303 Haven Avenue, no en Oasis Street, y no en la División Indio. El plazo general de dos años del CCP §335.1 rige la mayoría de las demandas por lesiones; contra una entidad pública puede hacer falta aviso escrito de seis meses conforme al Código de Gobierno §911.2 antes de demandar.',
+          'Quién puede presentar la demanda se confirma en la consulta bajo el Código de Procedimiento Civil de California §377.60 — no inventamos veredictos ni historias de acuerdos. Los casos civiles de cuantía ilimitada del código postal 92223 se presentan en el Tribunal Superior del Condado de Riverside, Historic Courthouse, 4050 Main Street, Riverside — no en Tahquitz Canyon Way, no en 13800 Heacock, no en 247 W. 3rd St., no en 8303 Haven Avenue, no en Oasis Street, y no en la División Indio.',
         ],
       },
       {
@@ -1918,22 +1918,22 @@ const PI_ES: Record<CitySlug, CityPageCopy> = {
       {
         h2: 'Auto, motocicleta y mordeduras — Código Civil §3342',
         paragraphs: [
-          'Después de los cuatro tipos principales de reclamo, choques de auto, accidentes de motocicleta y mordeduras de perro bajo el Código Civil de California §3342 completan el expediente. Circular entre carriles en motocicleta es legal cuando se hace con seguridad; usar casco no invierte la culpa. No manejamos reclamos por resbalones y caídas.',
+          'Después de los cuatro tipos principales de reclamo, choques de auto, accidentes de motocicleta y mordeduras de perro bajo el Código Civil de California §3342 completan los casos que atendemos. Circular entre carriles en motocicleta es legal cuando se hace con seguridad; usar casco no invierte la culpa. No manejamos reclamos por resbalones y caídas. El plazo general de dos años del CCP §335.1 rige la mayoría de las demandas por lesiones; contra una entidad pública puede hacer falta aviso escrito de seis meses conforme al Código de Gobierno §911.2 antes de demandar.',
         ],
       },
       {
         h2: '(909) 915-0181 — Orange Tree Lane, al noroeste',
         paragraphs: [
-          'Horario: lunes a viernes 9am–6pm, sábado 10am–4pm, domingo con cita. Lesiones graves pueden contactar la oficina las 24 horas para consulta de emergencia. Desde Beaumont, la consulta es unas 19 millas y unos 23 minutos al noroeste por Orange Avenue, 6th Street, Beaumont Avenue, la I-10 al oeste y California Street — no un local en Beaumont. Si el mismo choque hunde el hogar, la misma llamada al (909) 915-0181 presenta el Capítulo 7 o 13 en el Tribunal de Bancarrota de EE. UU., 3420 Twelfth Street, Riverside — unas 25 millas y 34 minutos al oeste. Palm Springs es solo la segunda oficina — 1276 N Palm Canyon Dr #107, (760) 835-9353.',
+          'Horario: lunes a viernes 9am–6pm, sábado 10am–4pm, domingo con cita. Lesiones graves pueden contactar la oficina las 24 horas para consulta de emergencia. Desde Beaumont, la consulta es unas 19 millas y unos 23 minutos al noroeste por Orange Avenue, 6th Street, Beaumont Avenue, la I-10 al oeste y California Street — no un local en Beaumont. Si el mismo choque deja a la familia en crisis económica, la misma llamada al (909) 915-0181 presenta el Capítulo 7 o 13 en el Tribunal de Bancarrota de EE. UU., 3420 Twelfth Street, Riverside — unas 25 millas y 34 minutos al oeste. Palm Springs es solo la segunda oficina — 1276 N Palm Canyon Dr #107, (760) 835-9353.',
         ],
       },
     ],
   },
   'palm-springs': {
     h1: 'Abogado de lesiones personales en Palm Springs',
-    title: 'Abogado de Lesiones Palm Springs | Camiones I-10/San Gorgonio, Uber, Muerte Injusta | Lombera',
+    title: 'Abogado de Lesiones en Palm Springs | Camiones I-10/San Gorgonio, Uber, Muerte Injusta | Lombera',
     description:
-      'Camiones, Uber, muerte injusta y lesiones catastróficas en choques de la I-10 / San Gorgonio / Carretera 111 en Palm Springs. Oficina en 1276 N Palm Canyon Dr #107 — unas 3.2 millas y unos 7 minutos al noroeste del Ayuntamiento. (760) 835-9353.',
+      'Camiones, Uber, muerte injusta y lesiones catastróficas en choques de la I-10 / San Gorgonio / Carretera 111 en Palm Springs. Oficina en 1276 N Palm Canyon Dr #107 — unas 3.2 millas y unos 7 minutos al oeste-noroeste del Ayuntamiento. (760) 835-9353.',
     lead: [
       'Esta es la oficina presencial del Valle de Coachella — 1276 N Palm Canyon Dr #107, Palm Springs, CA 92262. Desde el Ayuntamiento de Palm Springs en 3200 East Tahquitz Canyon Way — referencia cívica solamente, no nuestra dirección — la sala de consulta queda unas 3.2 millas y unos 7 minutos al noroeste por Civic Center Drive, Tahquitz Canyon Way, Sunrise Way, Tachevah Road y N Palm Canyon Drive. La I-10, el Paso de San Gorgonio, la Carretera 111, Palm Canyon Drive e Indian Canyon Drive son corredores de choques en esta página, no la ruta del Ayuntamiento al local. Llame al (760) 835-9353. Edgar P. Lombera recibe expedientes de lesiones aquí en inglés o español. Solo dos prácticas: lesiones personales y bancarrota. Usted habla con él. Los casos de lesiones son a contingencia: sin honorarios a menos que ganemos.',
     ],
@@ -1941,19 +1941,19 @@ const PI_ES: Record<CitySlug, CityPageCopy> = {
       {
         h2: 'Choques de camiones en la I-10, el Paso de San Gorgonio y la Carretera 111',
         paragraphs: [
-          'El tráfico de camiones comerciales en la I-10 a través del Paso de San Gorgonio y a lo largo de la Carretera 111 produce las colisiones de carga que lideran este expediente. Las ráfagas de viento, los descensos pronunciados y el calor del desierto empujan fallas de frenos y vuelcos en el paso antes de que la carga llegue a los corredores comerciales del valle. Después de una colisión grave, preserve la descarga del ECM, las grabaciones de dashcam y el expediente de calificación del conductor antes de que las aseguradoras dispersen la evidencia. Las demandas civiles ilimitadas de estos corredores de carga se presentan en el Tribunal Superior del Condado de Riverside — Tribunal de Palm Springs, 3255 E. Tahquitz Canyon Way — unas 0.1 millas y menos de un minuto al este por el corredor de Tahquitz Canyon desde el Ayuntamiento en 3200 East Tahquitz Canyon Way. Este es el corredor de carga I-10 / San Gorgonio / Carretera 111 del desierto — no la página de Fontana en la I-10 / I-15 / Sierra, no Colton Crossing, no la I-15 / I-210 de Rancho, no la I-210 / SR-210 / Base Line de Highland, no la SR-60 / I-215 de Moreno Valley, ni la cuadrícula 60 / 91 / 215 de Riverside. Las demandas por muerte injusta y lesión cerebral traumática de estos choques permanecen en esta URL.',
+          'El tráfico de camiones comerciales en la I-10 a través del Paso de San Gorgonio y a lo largo de la Carretera 111 produce las colisiones de carga que lideran los casos más frecuentes en esta página. Las ráfagas de viento, los descensos pronunciados y el calor del desierto empujan fallas de frenos y plegamientos en tijera (jackknife) en el paso antes de que la carga llegue a los corredores comerciales del valle. Después de una colisión grave, preserve la descarga del ECM, las grabaciones de cámara del tablero (dashcam) y el expediente de calificación del conductor antes de que las aseguradoras dispersen la evidencia. Las demandas civiles de cuantía ilimitada de estos corredores de carga se presentan en el Tribunal Superior del Condado de Riverside — Tribunal de Palm Springs, 3255 E. Tahquitz Canyon Way — unas 0.1 millas y menos de un minuto al este por el corredor de Tahquitz Canyon desde el Ayuntamiento en 3200 East Tahquitz Canyon Way. Este es el corredor de carga I-10 / San Gorgonio / Carretera 111 del desierto — no la página de Fontana en la I-10 / I-15 / Sierra, no Colton Crossing, no la I-15 / I-210 de Rancho, no la I-210 / SR-210 / Base Line de Highland, no la SR-60 / I-215 de Moreno Valley, ni la cuadrícula 60 / 91 / 215 de Riverside. Las demandas por muerte injusta y lesión cerebral traumática de estos choques permanecen en esta URL.',
         ],
       },
       {
         h2: 'Uber y Lyft en Palm Canyon Drive, Indian Canyon Drive y la Carretera 111',
         paragraphs: [
-          'Palm Canyon Drive en el centro, el Distrito de Diseño Uptown, las rutas de resorts en Indian Canyon y los conectores de la Carretera 111 ven picos estacionales de Uber y Lyft con turismo, traslados al aeropuerto y eventos de fin de semana. Si el conductor tenía la app activa define qué aseguradora responde; lo establecemos en la consulta del caso, no con cifras de marketing. Los reclamos de rideshare en Palm Springs se impulsan desde /es/lesiones-personales/palm-springs/ sin crear una página /uber/ dedicada.',
+          'Palm Canyon Drive en el centro, el Distrito de Diseño Uptown, las rutas de resorts en Indian Canyon y los conectores de la Carretera 111 ven picos estacionales de Uber y Lyft con turismo, traslados al aeropuerto y eventos de fin de semana. Si el conductor tenía la app activa define qué aseguradora responde; lo establecemos en la consulta del caso, no con cifras de marketing. Los reclamos de transporte por aplicación (Uber/Lyft) en Palm Springs se impulsan desde /es/lesiones-personales/palm-springs/ sin crear una página /uber/ dedicada.',
         ],
       },
       {
         h2: 'Muerte injusta — legitimación bajo el CCP §377.60 en 3255 E. Tahquitz Canyon Way',
         paragraphs: [
-          'Quién puede presentar la demanda se confirma en la consulta bajo el Código de Procedimiento Civil de California §377.60 — no inventamos veredictos ni historias de acuerdos. Los expedientes civiles ilimitados de Palm Springs se presentan en el Tribunal Superior del Condado de Riverside — Tribunal de Palm Springs, 3255 E. Tahquitz Canyon Way — no en Oasis Street, no en 4050 Main Street, no en 247 W. 3rd Street, y no en ningún enrutamiento residual de la División Indio. El tribunal queda unas 0.1 millas y menos de un minuto al este por el corredor de Tahquitz Canyon desde el Ayuntamiento en 3200 East Tahquitz Canyon Way — presentación cívica adyacente, no el trayecto a la oficina de Palm Canyon.',
+          'Quién puede presentar la demanda se confirma en la consulta bajo el Código de Procedimiento Civil de California §377.60 — no inventamos veredictos ni historias de acuerdos. Los casos civiles de cuantía ilimitada de Palm Springs se presentan en el Tribunal Superior del Condado de Riverside — Tribunal de Palm Springs, 3255 E. Tahquitz Canyon Way — no en Oasis Street, no en 4050 Main Street, no en 247 W. 3rd Street, y no en ningún enrutamiento residual de la División Indio. El tribunal queda unas 0.1 millas y menos de un minuto al este por el corredor de Tahquitz Canyon desde el Ayuntamiento en 3200 East Tahquitz Canyon Way — presentación cívica adyacente, no el trayecto a la oficina de Palm Canyon.',
         ],
       },
       {
@@ -1965,20 +1965,20 @@ const PI_ES: Record<CitySlug, CityPageCopy> = {
       {
         h2: 'Auto, motocicleta y mordeduras — Código Civil §3342',
         paragraphs: [
-          'Después de los cuatro tipos principales de reclamo, choques de auto, accidentes de motocicleta y mordeduras de perro bajo el Código Civil de California §3342 completan el expediente. Circular entre carriles en motocicleta es legal cuando se hace con seguridad; usar casco no invierte la culpa. No manejamos reclamos por resbalones y caídas. La mayoría de las víctimas de lesiones en Palm Springs tienen dos años bajo el CCP §335.1 contados desde la fecha del daño — confirme su plazo en la consulta antes de que la evidencia se deteriore; una entidad pública puede exigir aviso escrito de seis meses conforme al Código de Gobierno §911.2.',
+          'Después de los cuatro tipos principales de reclamo, choques de auto, accidentes de motocicleta y mordeduras de perro bajo el Código Civil de California §3342 completan los casos que atendemos. Circular entre carriles en motocicleta es legal cuando se hace con seguridad; usar casco no invierte la culpa. No manejamos reclamos por resbalones y caídas. La mayoría de las víctimas de lesiones en Palm Springs tienen dos años bajo el CCP §335.1 contados desde la fecha del daño — confirme su plazo en la consulta antes de que la evidencia se deteriore; una entidad pública puede exigir aviso escrito de seis meses conforme al Código de Gobierno §911.2.',
         ],
       },
       {
         h2: '(760) 835-9353 — 1276 N Palm Canyon Dr #107, consulta local',
         paragraphs: [
-          'Horario: lunes a viernes 9am–6pm, sábado 10am–4pm, domingo con cita. Lesiones graves pueden contactar la oficina las 24 horas para consulta de emergencia. El local está en N Palm Canyon Drive — unas 3.2 millas y unos 7 minutos al noroeste del Ayuntamiento en 3200 East Tahquitz Canyon Way cuando se recorre Civic \u2192 Tahquitz \u2192 Sunrise \u2192 Tachevah \u2192 N Palm Canyon. Si el mismo choque hunde el hogar, la misma llamada al (760) 835-9353 presenta el Capítulo 7 o 13 en el Tribunal de Bancarrota de EE. UU., 3420 Twelfth Street, Riverside — unas 55 millas y unos 71 minutos al noroeste. Redlands es la segunda oficina solamente — 2068 Orange Tree Lane, Suite 220, (909) 915-0181 — unas 49 millas y unos 60 minutos al noroeste, no la línea principal de Palm Springs.',
+          'Horario: lunes a viernes 9am–6pm, sábado 10am–4pm, domingo con cita. Lesiones graves pueden contactar la oficina las 24 horas para consulta de emergencia. El local está en N Palm Canyon Drive — unas 3.2 millas y unos 7 minutos al oeste-noroeste del Ayuntamiento en 3200 East Tahquitz Canyon Way cuando se recorre Civic \u2192 Tahquitz \u2192 Sunrise \u2192 Tachevah \u2192 N Palm Canyon. Si el mismo choque deja a la familia en crisis económica, la misma llamada al (760) 835-9353 presenta el Capítulo 7 o 13 en el Tribunal de Bancarrota de EE. UU., 3420 Twelfth Street, Riverside — unas 55 millas y unos 71 minutos al noroeste. Redlands es la segunda oficina solamente — 2068 Orange Tree Lane, Suite 220, (909) 915-0181 — unas 49 millas y unos 60 minutos al noroeste, no la línea principal de Palm Springs.',
         ],
       },
     ],
   },
   'palm-desert': {
     h1: 'Abogado de lesiones personales en Palm Desert',
-    title: 'Abogado de Lesiones Palm Desert | Camiones I-10/111, Uber, Muerte Injusta | Lombera',
+    title: 'Abogado de Lesiones en Palm Desert | Camiones I-10/111, Uber, Muerte Injusta | Lombera',
     description:
       'Camiones, Uber, muerte injusta y lesiones catastróficas en choques de la I-10 / Carretera 111 en Palm Desert. Oficina en 1276 N Palm Canyon Dr #107, Palm Springs — unas 17 millas y unos 26 minutos al noroeste. (760) 835-9353.',
     lead: [
@@ -1988,19 +1988,19 @@ const PI_ES: Record<CitySlug, CityPageCopy> = {
       {
         h2: 'Choques de camiones en la I-10 y la Carretera 111',
         paragraphs: [
-          'El tráfico de camiones comerciales en la I-10 y la Carretera 111 a través de Palm Desert produce las colisiones de carga que lideran este expediente. El calor del desierto, los ciclos de entrega comercial del valle y la presión de incorporación en la I-10 en Date Palm y Monterey producen choques por alcance y arrastre antes de que la carga despeje los bucles comerciales de El Paseo. Después de una colisión grave, preserve la descarga del ECM, las grabaciones de dashcam y el expediente de calificación del conductor antes de que las aseguradoras dispersen la evidencia. Las demandas civiles ilimitadas de Palm Desert se presentan en el Tribunal Superior del Condado de Riverside — Tribunal de Palm Springs, 3255 E. Tahquitz Canyon Way — unas 12 millas y unos 22 minutos al noroeste desde el Ayuntamiento de Palm Desert en 73510 Fred Waring Drive. Este es el corredor I-10 / 111 de Palm Desert — no la página del Paso de San Gorgonio para Palm Springs, no el conjunto Date Palm / Ramon de Cathedral City, no el corredor Jackson de Indio, ni copia de carga de Fontana, Colton o Rancho. Las demandas por muerte injusta y lesión cerebral traumática de estos choques permanecen en esta URL.',
+          'El tráfico de camiones comerciales en la I-10 y la Carretera 111 a través de Palm Desert produce las colisiones de carga que lideran los casos más frecuentes en esta página. El calor del desierto, los ciclos de entrega comercial del valle y la presión de incorporación en la I-10 en Date Palm y Monterey producen choques por alcance y choques en que el vehículo se monta sobre otro (override) antes de que la carga despeje los bucles comerciales de El Paseo. Después de una colisión grave, preserve la descarga del ECM, las grabaciones de cámara del tablero (dashcam) y el expediente de calificación del conductor antes de que las aseguradoras dispersen la evidencia. Las demandas civiles de cuantía ilimitada de Palm Desert se presentan en el Tribunal Superior del Condado de Riverside — Tribunal de Palm Springs, 3255 E. Tahquitz Canyon Way — unas 12 millas y unos 22 minutos al noroeste desde el Ayuntamiento de Palm Desert en 73510 Fred Waring Drive. Este es el corredor I-10 / 111 de Palm Desert — no la página del Paso de San Gorgonio para Palm Springs, no el conjunto Date Palm / Ramon de Cathedral City, no el corredor Jackson de Indio, ni copia de carga de Fontana, Colton o Rancho. Las demandas por muerte injusta y lesión cerebral traumática de estos choques permanecen en esta URL.',
         ],
       },
       {
         h2: 'Uber y Lyft en El Paseo, Monterey Avenue y la Carretera 111',
         paragraphs: [
-          'El comercio de El Paseo, el tráfico de outlets en Monterey Avenue y los enlaces de la Carretera 111 generan entregas en resorts de golf y viajes de Uber y Lyft de fin de semana que pueden chocar con el tráfico de paso hacia la I-10. El estado de la app al impacto marca la responsabilidad de la aseguradora; confirmamos la cobertura en privado antes de enviar exigencias. Las lesiones por rideshare en Palm Desert se atienden en /es/lesiones-personales/palm-desert/, sin URL /uber/ separada.',
+          'El comercio de El Paseo, el tráfico de outlets en Monterey Avenue y los enlaces de la Carretera 111 generan dejar pasajeros en resorts de golf y viajes de Uber y Lyft de fin de semana que pueden chocar con el tráfico de paso hacia la I-10. El estado de la app al impacto marca la responsabilidad de la aseguradora; confirmamos la cobertura en privado antes de enviar cartas de reclamación. Las lesiones en viajes de transporte por aplicación (Uber/Lyft) en Palm Desert se atienden en /es/lesiones-personales/palm-desert/, sin URL /uber/ separada.',
         ],
       },
       {
         h2: 'Muerte injusta — legitimación bajo el CCP §377.60 en 3255 E. Tahquitz Canyon Way',
         paragraphs: [
-          'Quién puede presentar la demanda se confirma en la consulta bajo el Código de Procedimiento Civil de California §377.60 — no inventamos veredictos ni historias de acuerdos. Los expedientes civiles ilimitados de Palm Desert se presentan en el Tribunal Superior del Condado de Riverside — Tribunal de Palm Springs, 3255 E. Tahquitz Canyon Way — no en Oasis Street, no en 4050 Main Street, no en 247 W. 3rd St., no en 8303 Haven Avenue, y no en la División Indio. El plazo general de dos años del CCP §335.1 rige la mayoría de las demandas por lesiones; contra una entidad pública puede hacer falta aviso escrito de seis meses conforme al Código de Gobierno §911.2 antes de demandar.',
+          'Quién puede presentar la demanda se confirma en la consulta bajo el Código de Procedimiento Civil de California §377.60 — no inventamos veredictos ni historias de acuerdos. Los casos civiles de cuantía ilimitada de Palm Desert se presentan en el Tribunal Superior del Condado de Riverside — Tribunal de Palm Springs, 3255 E. Tahquitz Canyon Way — no en Oasis Street, no en 4050 Main Street, no en 247 W. 3rd St., no en 8303 Haven Avenue, y no en la División Indio.',
         ],
       },
       {
@@ -2012,20 +2012,20 @@ const PI_ES: Record<CitySlug, CityPageCopy> = {
       {
         h2: 'Auto, motocicleta y mordeduras — Código Civil §3342',
         paragraphs: [
-          'Después de los cuatro tipos principales de reclamo, choques de auto, accidentes de motocicleta y mordeduras de perro bajo el Código Civil de California §3342 completan el expediente. Circular entre carriles en motocicleta es legal cuando se hace con seguridad; usar casco no invierte la culpa. No manejamos reclamos por resbalones y caídas.',
+          'Después de los cuatro tipos principales de reclamo, choques de auto, accidentes de motocicleta y mordeduras de perro bajo el Código Civil de California §3342 completan los casos que atendemos. Circular entre carriles en motocicleta es legal cuando se hace con seguridad; usar casco no invierte la culpa. No manejamos reclamos por resbalones y caídas. El plazo general de dos años del CCP §335.1 rige la mayoría de las demandas por lesiones; contra una entidad pública puede hacer falta aviso escrito de seis meses conforme al Código de Gobierno §911.2 antes de demandar.',
         ],
       },
       {
         h2: '(760) 835-9353 — 1276 N Palm Canyon Dr #107, al noroeste',
         paragraphs: [
-          'Horario: lunes a viernes 9am–6pm, sábado 10am–4pm, domingo con cita. Lesiones graves pueden contactar la oficina las 24 horas para consulta de emergencia. Desde Palm Desert, la consulta es unas 17 millas y unos 26 minutos al noroeste por Civic Center Drive, San Pablo, Fred Waring Drive, Monterey Avenue, la I-10 al oeste, Date Palm Drive, Vista Chino / CA-111 y N Palm Canyon Drive — no un local en Palm Desert. Si el mismo choque hunde el hogar, la misma llamada al (760) 835-9353 presenta el Capítulo 7 o 13 en el Tribunal de Bancarrota de EE. UU., 3420 Twelfth Street, Riverside. Redlands es solo la segunda oficina — 2068 Orange Tree Lane, Suite 220, (909) 915-0181.',
+          'Horario: lunes a viernes 9am–6pm, sábado 10am–4pm, domingo con cita. Lesiones graves pueden contactar la oficina las 24 horas para consulta de emergencia. Desde Palm Desert, la consulta es unas 17 millas y unos 26 minutos al noroeste por Civic Center Drive, San Pablo, Fred Waring Drive, Monterey Avenue, la I-10 al oeste, Date Palm Drive, Vista Chino / CA-111 y N Palm Canyon Drive — no un local en Palm Desert. Si el mismo choque deja a la familia en crisis económica, la misma llamada al (760) 835-9353 presenta el Capítulo 7 o 13 en el Tribunal de Bancarrota de EE. UU., 3420 Twelfth Street, Riverside. Redlands es solo la segunda oficina — 2068 Orange Tree Lane, Suite 220, (909) 915-0181.',
         ],
       },
     ],
   },
   'cathedral-city': {
     h1: 'Abogado de lesiones personales en Cathedral City',
-    title: 'Abogado de Lesiones Cathedral City | Camiones I-10/111, Uber, Muerte Injusta | Lombera',
+    title: 'Abogado de Lesiones en Cathedral City | Camiones I-10/111, Uber, Muerte Injusta | Lombera',
     description:
       'Camiones, Uber, muerte injusta y lesiones catastróficas en choques de la I-10 / Carretera 111 en Cathedral City. Oficina en 1276 N Palm Canyon Dr #107, Palm Springs — unas 9 millas y 15 minutos al noroeste. (760) 835-9353.',
     lead: [
@@ -2035,19 +2035,19 @@ const PI_ES: Record<CitySlug, CityPageCopy> = {
       {
         h2: 'Choques de camiones en la I-10, Date Palm Drive y Ramon Road',
         paragraphs: [
-          'El tráfico de camiones comerciales en la I-10, las rampas de Date Palm y Cathedral City Boulevard, Date Palm Drive y Ramon Road produce las colisiones de carga que lideran este expediente. Los ciclos de entrega comercial del valle y la presión de incorporación en la I-10 en Date Palm y Ramon producen choques por alcance y arrastre antes de que la carga despeje los corredores comerciales del valle. Después de una colisión grave, preserve la descarga del ECM, las grabaciones de dashcam y el expediente de calificación del conductor antes de que las aseguradoras dispersen la evidencia. Las demandas civiles ilimitadas de los códigos postales 92234 y 92235 de Cathedral City se presentan en el Tribunal Superior del Condado de Riverside — Tribunal de Palm Springs, 3255 E. Tahquitz Canyon Way — unas 5 millas y unos 11 minutos al noroeste desde el Ayuntamiento de Cathedral City en 68700 Avenida Lalo Guerrero. Este es el conjunto I-10 / Date Palm / Ramon de Cathedral City — no la página I-10 / 111 de Palm Desert, no la del Paso de San Gorgonio para Palm Springs, no el corredor Jackson de Indio, ni copia de carga de Fontana, Colton o Rancho. Las demandas por muerte injusta y lesión cerebral traumática de estos choques permanecen en esta URL.',
+          'El tráfico de camiones comerciales en la I-10, las rampas de Date Palm y Cathedral City Boulevard, Date Palm Drive y Ramon Road produce las colisiones de carga que lideran los casos más frecuentes en esta página. Los ciclos de entrega comercial del valle y la presión de incorporación en la I-10 en Date Palm y Ramon producen choques por alcance y choques en que el vehículo se monta sobre otro (override) antes de que la carga despeje los corredores comerciales del valle. Después de una colisión grave, preserve la descarga del ECM, las grabaciones de cámara del tablero (dashcam) y el expediente de calificación del conductor antes de que las aseguradoras dispersen la evidencia. Las demandas civiles de cuantía ilimitada de los códigos postales 92234 y 92235 de Cathedral City se presentan en el Tribunal Superior del Condado de Riverside — Tribunal de Palm Springs, 3255 E. Tahquitz Canyon Way — unas 5 millas y unos 11 minutos al noroeste desde el Ayuntamiento de Cathedral City en 68700 Avenida Lalo Guerrero. Este es el conjunto I-10 / Date Palm / Ramon de Cathedral City — no la página I-10 / 111 de Palm Desert, no la del Paso de San Gorgonio para Palm Springs, no el corredor Jackson de Indio, ni copia de carga de Fontana, Colton o Rancho. Las demandas por muerte injusta y lesión cerebral traumática de estos choques permanecen en esta URL.',
         ],
       },
       {
         h2: 'Uber, Lyft y rideshare en la Carretera 111, Date Palm Drive, Ramon Road y Cathedral Canyon Drive',
         paragraphs: [
-          'La Carretera 111, Date Palm Drive, Ramon Road y Cathedral Canyon Drive mezclan turnos de casino, trayectos comerciales y recogidas de rideshare de eventos de fin de semana en el valle. Las pólizas de Uber y Lyft se superponen de forma distinta cuando la app está activa; lo ordenamos en la consulta inicial, no con límites especulativos en esta página. Los reclamos de rideshare en Cathedral City permanecen anclados en /es/lesiones-personales/cathedral-city/, sin una ruta /uber/ fabricada.',
+          'La Carretera 111, Date Palm Drive, Ramon Road y Cathedral Canyon Drive mezclan turnos de casino, trayectos comerciales y recogidas de rideshare de eventos de fin de semana en el valle. Las pólizas de Uber y Lyft se superponen de forma distinta cuando la app está activa; lo ordenamos en la consulta inicial, no con límites especulativos en esta página. Los reclamos de transporte por aplicación (Uber/Lyft) en Cathedral City permanecen anclados en /es/lesiones-personales/cathedral-city/, sin una ruta /uber/ fabricada.',
         ],
       },
       {
         h2: 'Muerte injusta — legitimación bajo el CCP §377.60 en 3255 E. Tahquitz Canyon Way',
         paragraphs: [
-          'Quién puede presentar la demanda se confirma en la consulta bajo el Código de Procedimiento Civil de California §377.60 — no inventamos veredictos ni historias de acuerdos. Los expedientes civiles ilimitados de los códigos postales 92234 y 92235 de Cathedral City se presentan en el Tribunal Superior del Condado de Riverside — Tribunal de Palm Springs, 3255 E. Tahquitz Canyon Way — no en Oasis Street, no en 4050 Main Street, no en 247 W. 3rd St., no en 8303 Haven Avenue, y no en la División Indio. El tribunal está unas 5 millas y unos 11 minutos al noroeste del Ayuntamiento de Cathedral City en 68700 Avenida Lalo Guerrero. El plazo general de dos años del CCP §335.1 rige la mayoría de las demandas por lesiones; contra una entidad pública puede hacer falta aviso escrito de seis meses conforme al Código de Gobierno §911.2 antes de demandar.',
+          'Quién puede presentar la demanda se confirma en la consulta bajo el Código de Procedimiento Civil de California §377.60 — no inventamos veredictos ni historias de acuerdos. Los casos civiles de cuantía ilimitada de los códigos postales 92234 y 92235 de Cathedral City se presentan en el Tribunal Superior del Condado de Riverside — Tribunal de Palm Springs, 3255 E. Tahquitz Canyon Way — no en Oasis Street, no en 4050 Main Street, no en 247 W. 3rd St., no en 8303 Haven Avenue, y no en la División Indio. El tribunal está unas 5 millas y unos 11 minutos al oeste-noroeste del Ayuntamiento de Cathedral City en 68700 Avenida Lalo Guerrero.',
         ],
       },
       {
@@ -2059,20 +2059,20 @@ const PI_ES: Record<CitySlug, CityPageCopy> = {
       {
         h2: 'Auto, motocicleta y mordeduras — Código Civil §3342',
         paragraphs: [
-          'Después de los cuatro tipos principales de reclamo, choques de auto, accidentes de motocicleta y mordeduras de perro bajo el Código Civil de California §3342 completan el expediente. Circular entre carriles en motocicleta es legal cuando se hace con seguridad; usar casco no invierte la culpa. No manejamos reclamos por resbalones y caídas.',
+          'Después de los cuatro tipos principales de reclamo, choques de auto, accidentes de motocicleta y mordeduras de perro bajo el Código Civil de California §3342 completan los casos que atendemos. Circular entre carriles en motocicleta es legal cuando se hace con seguridad; usar casco no invierte la culpa. No manejamos reclamos por resbalones y caídas. El plazo general de dos años del CCP §335.1 rige la mayoría de las demandas por lesiones; contra una entidad pública puede hacer falta aviso escrito de seis meses conforme al Código de Gobierno §911.2 antes de demandar.',
         ],
       },
       {
         h2: '(760) 835-9353 — 1276 N Palm Canyon Dr #107, al noroeste',
         paragraphs: [
-          'Horario: lunes a viernes 9am–6pm, sábado 10am–4pm, domingo con cita. Lesiones graves pueden contactar la oficina las 24 horas para consulta de emergencia. Desde Cathedral City, la consulta es unas 9 millas y 15 minutos al noroeste por Cathedral Canyon Drive, East Palm Canyon Drive, Gene Autry Trail, Vista Chino / CA-111 y N Palm Canyon Drive — no un local en Cathedral City. Si el mismo choque hunde el hogar, la misma llamada al (760) 835-9353 presenta el Capítulo 7 o 13 en el Tribunal de Bancarrota de EE. UU., 3420 Twelfth Street, Riverside. Redlands es solo la segunda oficina — 2068 Orange Tree Lane, Suite 220, (909) 915-0181.',
+          'Horario: lunes a viernes 9am–6pm, sábado 10am–4pm, domingo con cita. Lesiones graves pueden contactar la oficina las 24 horas para consulta de emergencia. Desde Cathedral City, la consulta es unas 9 millas y 15 minutos al noroeste por Cathedral Canyon Drive, East Palm Canyon Drive, Gene Autry Trail, Vista Chino / CA-111 y N Palm Canyon Drive — no un local en Cathedral City. Si el mismo choque deja a la familia en crisis económica, la misma llamada al (760) 835-9353 presenta el Capítulo 7 o 13 en el Tribunal de Bancarrota de EE. UU., 3420 Twelfth Street, Riverside. Redlands es solo la segunda oficina — 2068 Orange Tree Lane, Suite 220, (909) 915-0181.',
         ],
       },
     ],
   },
   indio: {
     h1: 'Abogado de lesiones personales en Indio',
-    title: 'Abogado de Lesiones Indio | Camiones I-10/111, Uber, Muerte Injusta | Lombera',
+    title: 'Abogado de Lesiones en Indio | Camiones I-10/111, Uber, Muerte Injusta | Lombera',
     description:
       'Camiones, Uber, muerte injusta y lesiones catastróficas en choques de la I-10 / Carretera 111 en Indio. Oficina en 1276 N Palm Canyon Dr #107, Palm Springs — unas 24 millas y unos 31 minutos al oeste-noroeste. (760) 835-9353.',
     lead: [
@@ -2082,19 +2082,19 @@ const PI_ES: Record<CitySlug, CityPageCopy> = {
       {
         h2: 'Choques de camiones en la I-10 y la Carretera 111',
         paragraphs: [
-          'El tráfico de camiones comerciales en la I-10 y la Carretera 111 a través de Indio produce las colisiones de carga que lideran este expediente. Las oleadas de carga en temporada de festivales, los transportistas agrícolas en Jackson Street y la presión de incorporación en la I-10 en Date Palm producen choques por alcance y arrastre antes de que la carga despeje los corredores comerciales del valle. Después de una colisión grave, preserve la descarga del ECM, las grabaciones de dashcam y el expediente de calificación del conductor antes de que las aseguradoras dispersen la evidencia. Las demandas civiles ilimitadas de Indio se presentan en el Tribunal Superior del Condado de Riverside — Tribunal de Palm Springs, 3255 E. Tahquitz Canyon Way — unas 21 millas y unos 30 minutos al oeste-noroeste desde el Ayuntamiento de Indio en 100 Civic Center Mall. Este es el corredor I-10 / 111 de Indio — no el conjunto Date Palm / Ramon de Cathedral City, no la página Cook / Monterey de Palm Desert, no la del Paso de San Gorgonio para Palm Springs, ni copia de carga de Fontana, Colton o Rancho. Las demandas por muerte injusta y lesión cerebral traumática de estos choques permanecen en esta URL.',
+          'El tráfico de camiones comerciales en la I-10 y la Carretera 111 a través de Indio produce las colisiones de carga que lideran los casos más frecuentes en esta página. Las oleadas de carga en temporada de festivales, los transportistas agrícolas en Jackson Street y la presión de incorporación en la I-10 en Date Palm producen choques por alcance y choques en que el vehículo se monta sobre otro (override) antes de que la carga despeje los corredores comerciales del valle. Después de una colisión grave, preserve la descarga del ECM, las grabaciones de cámara del tablero (dashcam) y el expediente de calificación del conductor antes de que las aseguradoras dispersen la evidencia. Las demandas civiles de cuantía ilimitada de Indio se presentan en el Tribunal Superior del Condado de Riverside — Tribunal de Palm Springs, 3255 E. Tahquitz Canyon Way — unas 21 millas y unos 30 minutos al oeste-noroeste desde el Ayuntamiento de Indio en 100 Civic Center Mall. Este es el corredor I-10 / 111 de Indio — no el conjunto Date Palm / Ramon de Cathedral City, no la página Cook / Monterey de Palm Desert, no la del Paso de San Gorgonio para Palm Springs, ni copia de carga de Fontana, Colton o Rancho. Las demandas por muerte injusta y lesión cerebral traumática de estos choques permanecen en esta URL.',
         ],
       },
       {
         h2: 'Uber y Lyft en la Carretera 111, Monroe Street, Jackson y Avenue 42–44',
         paragraphs: [
-          'La Carretera 111, Monroe Street, Jackson Street y las cuadrículas de festivales en Avenue 42–44 combinan picos del Festival de Música del Valle de Coachella con los viajes diarios de Uber y Lyft del valle. La responsabilidad y la cobertura dependen de si el conductor iba en ruta o esperando; verificamos el estado de la app antes de que las aseguradoras dirijan el reclamo. Los casos de rideshare en Indio pertenecen a /es/lesiones-personales/indio/; Lombera no abre una página /uber/ aparte.',
+          'La Carretera 111, Monroe Street, Jackson Street y las cuadrículas de festivales en Avenue 42–44 combinan picos del Festival de Música del Valle de Coachella con los viajes diarios de Uber y Lyft del valle. La responsabilidad y la cobertura dependen de si el conductor iba en ruta o esperando; verificamos el estado de la app antes de que las aseguradoras dirijan el reclamo. Los casos de transporte por aplicación (Uber/Lyft) en Indio pertenecen a /es/lesiones-personales/indio/; Lombera no abre una página /uber/ aparte.',
         ],
       },
       {
         h2: 'Muerte injusta — legitimación bajo el CCP §377.60 en 3255 E. Tahquitz Canyon Way',
         paragraphs: [
-          'Quién puede presentar la demanda se confirma en la consulta bajo el Código de Procedimiento Civil de California §377.60 — no inventamos veredictos ni historias de acuerdos. Los expedientes civiles ilimitados de Indio se presentan en el Tribunal Superior del Condado de Riverside — Tribunal de Palm Springs, 3255 E. Tahquitz Canyon Way — no en Oasis Street, no en 4050 Main Street, no en 247 W. 3rd St., no en 8303 Haven Avenue, y no en la División Indio. El tribunal está unas 21 millas y unos 30 minutos al oeste-noroeste del Ayuntamiento de Indio en 100 Civic Center Mall. El plazo general de dos años del CCP §335.1 rige la mayoría de las demandas por lesiones; contra una entidad pública puede hacer falta aviso escrito de seis meses conforme al Código de Gobierno §911.2 antes de demandar.',
+          'Quién puede presentar la demanda se confirma en la consulta bajo el Código de Procedimiento Civil de California §377.60 — no inventamos veredictos ni historias de acuerdos. Los casos civiles de cuantía ilimitada de Indio se presentan en el Tribunal Superior del Condado de Riverside — Tribunal de Palm Springs, 3255 E. Tahquitz Canyon Way — no en Oasis Street, no en 4050 Main Street, no en 247 W. 3rd St., no en 8303 Haven Avenue, y no en la División Indio. El tribunal está unas 21 millas y unos 30 minutos al oeste-noroeste del Ayuntamiento de Indio en 100 Civic Center Mall.',
         ],
       },
       {
@@ -2106,20 +2106,20 @@ const PI_ES: Record<CitySlug, CityPageCopy> = {
       {
         h2: 'Auto, motocicleta y mordeduras — Código Civil §3342',
         paragraphs: [
-          'Después de los cuatro tipos principales de reclamo, choques de auto, accidentes de motocicleta y mordeduras de perro bajo el Código Civil de California §3342 completan el expediente. Circular entre carriles en motocicleta es legal cuando se hace con seguridad; usar casco no invierte la culpa. No manejamos reclamos por resbalones y caídas.',
+          'Después de los cuatro tipos principales de reclamo, choques de auto, accidentes de motocicleta y mordeduras de perro bajo el Código Civil de California §3342 completan los casos que atendemos. Circular entre carriles en motocicleta es legal cuando se hace con seguridad; usar casco no invierte la culpa. No manejamos reclamos por resbalones y caídas. El plazo general de dos años del CCP §335.1 rige la mayoría de las demandas por lesiones; contra una entidad pública puede hacer falta aviso escrito de seis meses conforme al Código de Gobierno §911.2 antes de demandar.',
         ],
       },
       {
         h2: '(760) 835-9353 — 1276 N Palm Canyon Dr #107, al oeste-noroeste',
         paragraphs: [
-          'Horario: lunes a viernes 9am–6pm, sábado 10am–4pm, domingo con cita. Lesiones graves pueden contactar la oficina las 24 horas para consulta de emergencia. Desde Indio, la consulta es unas 24 millas y unos 31 minutos al oeste-noroeste por Civic Center Drive, Jackson Street, la I-10 al oeste, Date Palm Drive, Vista Chino / CA-111 y N Palm Canyon Drive — no un local en Indio. Si el mismo choque hunde el hogar, la misma llamada al (760) 835-9353 presenta el Capítulo 7 o 13 en el Tribunal de Bancarrota de EE. UU., 3420 Twelfth Street, Riverside. Redlands es solo la segunda oficina — 2068 Orange Tree Lane, Suite 220, (909) 915-0181.',
+          'Horario: lunes a viernes 9am–6pm, sábado 10am–4pm, domingo con cita. Lesiones graves pueden contactar la oficina las 24 horas para consulta de emergencia. Desde Indio, la consulta es unas 24 millas y unos 31 minutos al oeste-noroeste por Civic Center Drive, Jackson Street, la I-10 al oeste, Date Palm Drive, Vista Chino / CA-111 y N Palm Canyon Drive — no un local en Indio. Si el mismo choque deja a la familia en crisis económica, la misma llamada al (760) 835-9353 presenta el Capítulo 7 o 13 en el Tribunal de Bancarrota de EE. UU., 3420 Twelfth Street, Riverside. Redlands es solo la segunda oficina — 2068 Orange Tree Lane, Suite 220, (909) 915-0181.',
         ],
       },
     ],
   },
   'la-quinta': {
     h1: 'Abogado de lesiones personales en La Quinta',
-    title: 'Abogado de Lesiones Personales en La Quinta | Lombera Law',
+    title: 'Abogado de Lesiones Personales en La Quinta | Consulta Gratis | Lombera Law',
     description:
       'Camiones, Uber, muerte injusta y lesiones catastróficas en choques de la I-10 / Carretera 111 en La Quinta. Oficina en 1276 N Palm Canyon Dr #107, Palm Springs — unas 23 millas y unos 34 minutos al noroeste. (760) 835-9353.',
     lead: [
@@ -2129,19 +2129,19 @@ const PI_ES: Record<CitySlug, CityPageCopy> = {
       {
         h2: 'Choques de camiones en la I-10 y la Carretera 111',
         paragraphs: [
-          'Washington Street, Fred Waring Drive, Eisenhower Drive y el tráfico de camiones comerciales en la I-10 y la Carretera 111 a través de La Quinta producen las colisiones de carga que lideran este expediente. Las oleadas de carga en temporada de resort, los transportistas del corredor de golf en Eisenhower y la presión de incorporación en la I-10 en Date Palm producen choques por alcance y arrastre antes de que la carga despeje los corredores comerciales del valle. Después de una colisión grave, preserve la descarga del ECM, las grabaciones de dashcam y el expediente de calificación del conductor antes de que las aseguradoras dispersen la evidencia. Las demandas civiles ilimitadas de La Quinta se presentan en el Tribunal Superior del Condado de Riverside — Tribunal de Palm Springs, 3255 E. Tahquitz Canyon Way — unas 20 millas y unos 33 minutos al noroeste desde el Ayuntamiento de La Quinta en 78495 Calle Tampico. Este es el corredor I-10 / 111 de La Quinta — no el conjunto Date Palm / Ramon de Cathedral City, no la página Cook / Monterey de Palm Desert, no la cuadrícula de festivales Jackson / Monroe de Indio, ni la del Paso de San Gorgonio para Palm Springs. Las demandas por muerte injusta y lesión cerebral traumática de estos choques permanecen en esta URL.',
+          'Washington Street, Fred Waring Drive, Eisenhower Drive y el tráfico de camiones comerciales en la I-10 y la Carretera 111 a través de La Quinta producen las colisiones de carga que lideran los casos más frecuentes en esta página. Las oleadas de carga en temporada de resort, los transportistas del corredor de golf en Eisenhower y la presión de incorporación en la I-10 en Date Palm producen choques por alcance y choques en que el vehículo se monta sobre otro (override) antes de que la carga despeje los corredores comerciales del valle. Después de una colisión grave, preserve la descarga del ECM, las grabaciones de cámara del tablero (dashcam) y el expediente de calificación del conductor antes de que las aseguradoras dispersen la evidencia. Las demandas civiles de cuantía ilimitada de La Quinta se presentan en el Tribunal Superior del Condado de Riverside — Tribunal de Palm Springs, 3255 E. Tahquitz Canyon Way — unas 20 millas y unos 33 minutos al noroeste desde el Ayuntamiento de La Quinta en 78495 Calle Tampico. Este es el corredor I-10 / 111 de La Quinta — no el conjunto Date Palm / Ramon de Cathedral City, no la página Cook / Monterey de Palm Desert, no la cuadrícula de festivales Jackson / Monroe de Indio, ni la del Paso de San Gorgonio para Palm Springs. Las demandas por muerte injusta y lesión cerebral traumática de estos choques permanecen en esta URL.',
         ],
       },
       {
         h2: 'Uber y Lyft en la Carretera 111, Washington Street y Eisenhower Drive',
         paragraphs: [
-          'Washington Street, Fred Waring Drive, el corredor de resorts en Eisenhower y la Carretera 111 sostienen tráfico de PGA West, recorridos de fin de semana en Old Town y un volumen constante de Lyft y Uber de pasajeros. Qué póliza paga suele seguir los registros de la app al impacto; lo revisamos con usted directamente, sin publicar montos de cobertura en línea. El trabajo de lesiones por rideshare en La Quinta se mantiene en /es/lesiones-personales/la-quinta/, sin una landing /uber/ extra.',
+          'Washington Street, Fred Waring Drive, el corredor de resorts en Eisenhower y la Carretera 111 sostienen tráfico de PGA West, recorridos de fin de semana en Old Town y un volumen constante de Lyft y Uber de pasajeros. Qué póliza paga suele seguir los registros de la app al impacto; lo revisamos con usted directamente, sin publicar montos de cobertura en línea. El trabajo de lesiones en viajes de transporte por aplicación (Uber/Lyft) en La Quinta se mantiene en /es/lesiones-personales/la-quinta/, sin una página /uber/ aparte.',
         ],
       },
       {
         h2: 'Muerte injusta — legitimación bajo el CCP §377.60 en 3255 E. Tahquitz Canyon Way',
         paragraphs: [
-          'Quién puede presentar la demanda se confirma en la consulta bajo el Código de Procedimiento Civil de California §377.60 — no inventamos veredictos ni historias de acuerdos. Los expedientes civiles ilimitados de La Quinta se presentan en el Tribunal Superior del Condado de Riverside — Tribunal de Palm Springs, 3255 E. Tahquitz Canyon Way — no en 4050 Main Street, no en 247 W. 3rd St., no en 8303 Haven Avenue, y no en Oasis Street. El tribunal está unas 20 millas y unos 33 minutos al noroeste del Ayuntamiento de La Quinta en 78495 Calle Tampico. El plazo general de dos años del CCP §335.1 rige la mayoría de las demandas por lesiones; contra una entidad pública puede hacer falta aviso escrito de seis meses conforme al Código de Gobierno §911.2 antes de demandar.',
+          'Quién puede presentar la demanda se confirma en la consulta bajo el Código de Procedimiento Civil de California §377.60 — no inventamos veredictos ni historias de acuerdos. Los casos civiles de cuantía ilimitada de La Quinta se presentan en el Tribunal Superior del Condado de Riverside — Tribunal de Palm Springs, 3255 E. Tahquitz Canyon Way — no en 4050 Main Street, no en 247 W. 3rd St., no en 8303 Haven Avenue, y no en Oasis Street. El tribunal está unas 20 millas y unos 33 minutos al oeste-noroeste del Ayuntamiento de La Quinta en 78495 Calle Tampico.',
         ],
       },
       {
@@ -2153,42 +2153,42 @@ const PI_ES: Record<CitySlug, CityPageCopy> = {
       {
         h2: 'Auto, motocicleta y mordeduras — Código Civil §3342',
         paragraphs: [
-          'Después de los cuatro tipos principales de reclamo, choques de auto, accidentes de motocicleta y mordeduras de perro bajo el Código Civil de California §3342 completan el expediente. Circular entre carriles en motocicleta es legal cuando se hace con seguridad; usar casco no invierte la culpa. No manejamos reclamos por resbalones y caídas.',
+          'Después de los cuatro tipos principales de reclamo, choques de auto, accidentes de motocicleta y mordeduras de perro bajo el Código Civil de California §3342 completan los casos que atendemos. Circular entre carriles en motocicleta es legal cuando se hace con seguridad; usar casco no invierte la culpa. No manejamos reclamos por resbalones y caídas. El plazo general de dos años del CCP §335.1 rige la mayoría de las demandas por lesiones; contra una entidad pública puede hacer falta aviso escrito de seis meses conforme al Código de Gobierno §911.2 antes de demandar.',
         ],
       },
       {
         h2: '(760) 835-9353 — 1276 N Palm Canyon Dr #107, al noroeste',
         paragraphs: [
-          'Horario: lunes a viernes 9am–6pm, sábado 10am–4pm, domingo con cita. Lesiones graves pueden contactar la oficina las 24 horas para consulta de emergencia. Desde La Quinta, la consulta es unas 23 millas y unos 34 minutos al noroeste por Washington Street, Varner Road, la I-10 al oeste, Date Palm Drive, Vista Chino / CA-111 y N Palm Canyon Drive — no un local en La Quinta. Si el mismo choque hunde el hogar, la misma llamada al (760) 835-9353 presenta el Capítulo 7 o 13 en el Tribunal de Bancarrota de EE. UU., 3420 Twelfth Street, Riverside — unas 73.5 millas y unos 91 minutos al noroeste. Redlands es solo la segunda oficina — 2068 Orange Tree Lane, Suite 220, (909) 915-0181 — unas 67.5 millas y unos 80 minutos al oeste-noroeste.',
+          'Horario: lunes a viernes 9am–6pm, sábado 10am–4pm, domingo con cita. Lesiones graves pueden contactar la oficina las 24 horas para consulta de emergencia. Desde La Quinta, la consulta es unas 23 millas y unos 34 minutos al noroeste por Washington Street, Varner Road, la I-10 al oeste, Date Palm Drive, Vista Chino / CA-111 y N Palm Canyon Drive — no un local en La Quinta. Si el mismo choque deja a la familia en crisis económica, la misma llamada al (760) 835-9353 presenta el Capítulo 7 o 13 en el Tribunal de Bancarrota de EE. UU., 3420 Twelfth Street, Riverside — unas 73.5 millas y unos 91 minutos al noroeste. Redlands es solo la segunda oficina — 2068 Orange Tree Lane, Suite 220, (909) 915-0181 — unas 67.5 millas y unos 80 minutos al oeste-noroeste.',
         ],
       },
     ],
   },
   redlands: {
     h1: 'Abogado de lesiones personales en Redlands',
-    title: 'Abogado de Lesiones Redlands | Camiones I-10/I-210, Uber, Muerte Injusta | Lombera',
+    title: 'Abogado de Lesiones en Redlands | Camiones I-10/I-210, Uber, Muerte Injusta | Lombera',
     description:
-      'Camiones, Uber, muerte injusta y lesiones catastróficas en 2068 Orange Tree Lane #220, Redlands — oficina local con atención presencial. Unas 3.5 millas al noroeste del City Hall. (909) 915-0181.',
+      'Camiones, Uber, muerte injusta y lesiones catastróficas en 2068 Orange Tree Lane #220, Redlands — oficina local con atención presencial. Unas 3.5 millas al oeste-noroeste del Ayuntamiento. (909) 915-0181.',
     lead: [
-      'Esta es la oficina con atención presencial de Redlands — 2068 Orange Tree Lane, Suite 220, Redlands, CA 92374. Desde el City Hall de Redlands en 35 Cajon Street — solo referencia cívica, no nuestra dirección — la sala de consulta queda a unas 3.5 millas y 6 minutos al noroeste por Cajon Street, Orange Street, la I-10 y California Street hasta Orange Tree Lane. Llame al (909) 915-0181. Edgar P. Lombera abre expedientes de lesiones aquí en inglés o español. Solo dos prácticas: lesiones personales y bancarrota. Usted habla con él. Los casos de lesiones son a contingencia: sin honorarios a menos que ganemos.',
+      'Esta es la oficina con atención presencial de Redlands — 2068 Orange Tree Lane, Suite 220, Redlands, CA 92374. Desde el Ayuntamiento de Redlands en 35 Cajon Street — solo referencia cívica, no nuestra dirección — la sala de consulta queda a unas 3.5 millas y 6 minutos al oeste-noroeste por Cajon Street, Orange Street, la I-10 y California Street hasta Orange Tree Lane. Llame al (909) 915-0181. Edgar P. Lombera abre expedientes de lesiones aquí en inglés o español. Solo dos prácticas: lesiones personales y bancarrota. Usted habla con él. Los casos de lesiones son a contingencia: sin honorarios a menos que ganemos.',
     ],
     sections: [
       {
         h2: 'Choques de camiones en la I-10 y la I-210',
         paragraphs: [
-          'El tráfico de camiones de paso en la I-10 y el conector de la I-210 se cruza con conductores de Redlands en Alabama Street, Orange Street y las arterias de Redlands Boulevard — los mismos corredores de carga que alimentan la logística del condado de San Bernardino sin ser una página de puerto de Los Ángeles. Después de una colisión grave, preserve la descarga del ECM, las grabaciones de dashcam y el expediente de calificación del conductor antes de que las aseguradoras dispersen la evidencia. Las demandas civiles ilimitadas de estos corredores se presentan en el Tribunal Superior del Condado de San Bernardino / Justice Center, 247 W. 3rd Street, San Bernardino — no Haven Avenue, no Tahquitz Canyon Way ni Oasis en las divisiones del desierto. Las demandas por muerte injusta y lesión cerebral traumática de estos choques permanecen en esta URL.',
+          'El tráfico de camiones de paso en la I-10 y el conector de la I-210 se cruza con conductores de Redlands en Alabama Street, Orange Street y las arterias de Redlands Boulevard — los mismos corredores de carga que alimentan la logística del condado de San Bernardino sin ser una página de puerto de Los Ángeles. Después de una colisión grave, preserve la descarga del ECM, las grabaciones de cámara del tablero (dashcam) y el expediente de calificación del conductor antes de que las aseguradoras dispersen la evidencia. Las demandas civiles de cuantía ilimitada de estos corredores se presentan en el Tribunal Superior del Condado de San Bernardino / Justice Center, 247 W. 3rd Street, San Bernardino — no Haven Avenue, no Tahquitz Canyon Way ni Oasis en las divisiones del desierto. Las demandas por muerte injusta y lesión cerebral traumática de estos choques permanecen en esta URL.',
         ],
       },
       {
         h2: 'Uber y Lyft en Redlands Boulevard, Orange Street y el corredor de la I-10',
         paragraphs: [
-          'Redlands Boulevard, Orange Street en el centro, el tráfico de la Universidad de Redlands y los viajes por el conector de la I-10 mantienen activos a Uber y Lyft junto a las vías locales. Un choque grave de rideshare plantea dudas de estado de la app y de pólizas superpuestas; las resolvemos en la consulta, no en marketing público con topes en dólares. Las lesiones por rideshare en Redlands se manejan exclusivamente por /es/lesiones-personales/redlands/; no hay página paralela /uber/ ni /rideshare/.',
+          'Redlands Boulevard, Orange Street en el centro, el tráfico de la Universidad de Redlands y los viajes por el conector de la I-10 mantienen activos a Uber y Lyft junto a las vías locales. Un choque grave de rideshare plantea dudas de estado de la app y de pólizas superpuestas; las resolvemos en la consulta, no en marketing público con topes en dólares. Las lesiones en viajes de transporte por aplicación (Uber/Lyft) en Redlands se manejan exclusivamente por /es/lesiones-personales/redlands/; no hay página paralela /uber/ ni /rideshare/.',
         ],
       },
       {
         h2: 'Muerte injusta — legitimación bajo el CCP §377.60 en 247 W. 3rd Street',
         paragraphs: [
-          'Quién puede presentar la demanda se confirma en la consulta bajo el Código de Procedimiento Civil de California §377.60 — no inventamos veredictos ni historias de acuerdos. Los expedientes civiles ilimitados se presentan en el Tribunal Superior del Condado de San Bernardino / Justice Center, 247 W. 3rd Street, San Bernardino. El plazo general de dos años del CCP §335.1 rige la mayoría de las demandas por lesiones; contra una entidad pública puede hacer falta aviso escrito de seis meses conforme al Código de Gobierno §911.2 antes de demandar.',
+          'Quién puede presentar la demanda se confirma en la consulta bajo el Código de Procedimiento Civil de California §377.60 — no inventamos veredictos ni historias de acuerdos. Los casos civiles de cuantía ilimitada se presentan en el Tribunal Superior del Condado de San Bernardino / Justice Center, 247 W. 3rd Street, San Bernardino. El plazo general de dos años del CCP §335.1 rige la mayoría de las demandas por lesiones; contra una entidad pública puede hacer falta aviso escrito de seis meses conforme al Código de Gobierno §911.2 antes de demandar.',
         ],
       },
       {
@@ -2200,42 +2200,42 @@ const PI_ES: Record<CitySlug, CityPageCopy> = {
       {
         h2: 'Auto, motocicleta y mordeduras — Código Civil §3342',
         paragraphs: [
-          'Después de los cuatro tipos principales de reclamo, choques de auto, accidentes de motocicleta y mordeduras de perro bajo el Código Civil de California §3342 completan el expediente. Circular entre carriles en motocicleta es legal cuando se hace con seguridad; usar casco no invierte la culpa. No manejamos reclamos por resbalones y caídas.',
+          'Después de los cuatro tipos principales de reclamo, choques de auto, accidentes de motocicleta y mordeduras de perro bajo el Código Civil de California §3342 completan los casos que atendemos. Circular entre carriles en motocicleta es legal cuando se hace con seguridad; usar casco no invierte la culpa. No manejamos reclamos por resbalones y caídas.',
         ],
       },
       {
         h2: '(909) 915-0181 — Orange Tree Lane, oficina local',
         paragraphs: [
-          'Horario: lunes a viernes 9am–6pm, sábado 10am–4pm, domingo con cita. Lesiones graves pueden contactar la oficina las 24 horas para consulta de emergencia. La oficina está en Orange Tree Lane — unas 3.5 millas y 6 minutos al noroeste del City Hall en 35 Cajon Street si toma Cajon → Orange → I-10 → California Street. Si el mismo choque hunde el hogar, la misma llamada al (909) 915-0181 presenta el Capítulo 7 o 13 en 3420 Twelfth Street, Riverside — unas 15 millas y 21 minutos al suroeste. Palm Springs es solo la segunda oficina — 1276 N Palm Canyon Dr #107, (760) 835-9353.',
+          'Horario: lunes a viernes 9am–6pm, sábado 10am–4pm, domingo con cita. Lesiones graves pueden contactar la oficina las 24 horas para consulta de emergencia. La oficina está en Orange Tree Lane — unas 3.5 millas y 6 minutos al oeste-noroeste del Ayuntamiento en 35 Cajon Street si toma Cajon → Orange → I-10 → California Street. Si el mismo choque deja a la familia en crisis económica, la misma llamada al (909) 915-0181 presenta el Capítulo 7 o 13 en 3420 Twelfth Street, Riverside — unas 15 millas y 21 minutos al oeste-suroeste. Palm Springs es solo la segunda oficina — 1276 N Palm Canyon Dr #107, (760) 835-9353.',
         ],
       },
     ],
   },
   'san-bernardino': {
     h1: 'Abogado de lesiones personales en San Bernardino',
-    title: 'Abogado de Lesiones San Bernardino | Camiones I-10/I-215/I-210, Uber, Muerte Injusta | Lombera',
+    title: 'Abogado de Lesiones en San Bernardino | Camiones I-10/I-215/I-210, Uber, Muerte Injusta | Lombera',
     description:
-      'Camiones, Uber, muerte injusta y lesiones catastróficas en choques de la I-10 / I-215 / I-210 en San Bernardino. Oficina en Orange Tree Lane #220, Redlands — unas 8 millas y 14 minutos al sureste por 2nd, la I-215 y la I-10. (909) 915-0181.',
+      'Camiones, Uber, muerte injusta y lesiones catastróficas en choques de la I-10 / I-215 / I-210 en San Bernardino. Reúnase con nosotros en 2068 Orange Tree Lane #220, Redlands — unas 8 millas y 14 minutos al este-sureste por 2nd, la I-215 y la I-10. (909) 915-0181.',
     lead: [
-      'No hay local de Lombera en San Bernardino. Después de un choque en San Bernardino, reúnase con Edgar P. Lombera en 2068 Orange Tree Lane, Suite 220, Redlands, CA 92374. Desde el Ayuntamiento de San Bernardino en 290 N D Street (referencia cívica solamente), tome 2nd Street a la I-215 al sur a la I-10 al este, luego California Street — unas 8 millas y 14 minutos al sureste. El trayecto es al sureste. La I-10, la I-215 y la I-210 son corredores de choques en esta página, no un local en el centro de San Bernardino. Llame al (909) 915-0181. Inglés o español. Solo dos prácticas: lesiones personales y bancarrota. Usted habla con él. Los casos de lesiones son a contingencia: sin honorarios a menos que ganemos.',
+      'No hay local de Lombera en San Bernardino. Después de un choque en San Bernardino, reúnase con Edgar P. Lombera en 2068 Orange Tree Lane, Suite 220, Redlands, CA 92374. Desde el Ayuntamiento de San Bernardino en 290 N D Street (referencia cívica solamente), tome 2nd Street a la I-215 al sur a la I-10 al este, luego California Street — unas 8 millas y 14 minutos al este-sureste. El trayecto es al este-sureste. La I-10, la I-215 y la I-210 son corredores de choques en esta página, no un local en el centro de San Bernardino. Llame al (909) 915-0181. Inglés o español. Solo dos prácticas: lesiones personales y bancarrota. Usted habla con él. Los casos de lesiones son a contingencia: sin honorarios a menos que ganemos.',
     ],
     sections: [
       {
         h2: 'Choques de camiones en la I-10, la I-215 y la I-210',
         paragraphs: [
-          'Baseline Street, Hospitality Lane y el empalme I-215 / I-10 soportan carga de camiones de paso que produce las colisiones comerciales que lideran este expediente. Después de un choque grave, preserve la descarga del ECM, las grabaciones de dashcam y el expediente de calificación del conductor antes de que las aseguradoras dispersen la evidencia. Las demandas civiles ilimitadas de estos corredores de autopista se presentan en el Tribunal Superior del Condado de San Bernardino / Justice Center, 247 W. 3rd Street — unas 0.6 millas y 3 minutos al este desde puntos cívicos del centro. Este es el empalme I-10 / I-215 / I-210 de San Bernardino — no la página de carga de Fontana en la I-10 / I-15 / Sierra, no la red 60 / 91 / 215 de Riverside, ni el corredor I-10 / Alabama de Redlands. Las demandas por muerte injusta y lesión cerebral traumática de estos choques permanecen en esta URL.',
+          'Baseline Street, Hospitality Lane y el empalme I-215 / I-10 soportan carga de camiones de paso que produce las colisiones comerciales que lideran los casos más frecuentes en esta página. Después de un choque grave, preserve la descarga del ECM, las grabaciones de cámara del tablero (dashcam) y el expediente de calificación del conductor antes de que las aseguradoras dispersen la evidencia. Las demandas civiles de cuantía ilimitada de estos corredores de autopista se presentan en el Tribunal Superior del Condado de San Bernardino / Justice Center, 247 W. 3rd Street — unas 0.6 millas y 3 minutos al este desde puntos cívicos del centro. Este es el empalme I-10 / I-215 / I-210 de San Bernardino — no la página de carga de Fontana en la I-10 / I-15 / Sierra, no la red 60 / 91 / 215 de Riverside, ni el corredor I-10 / Alabama de Redlands. Las demandas por muerte injusta y lesión cerebral traumática de estos choques permanecen en esta URL.',
         ],
       },
       {
         h2: 'Uber, Lyft y rideshare en Hospitality Lane y el corredor I-215',
         paragraphs: [
-          'Hospitality Lane, E Street, Rialto Avenue y la unión I-215 / I-10 ven a diario viajes de Lyft tras turnos hospitalarios, estudiantes de CSUSB y empleados del condado en Uber. Las disputas de cobertura suelen empezar por si el conductor estaba conectado; confirmamos la póliza activa en la consulta, sin listar límites en el sitio. Los reclamos de rideshare en San Bernardino se presentan desde /es/lesiones-personales/san-bernardino/, sin inventar una URL /uber/ o /rideshare/ dedicada.',
+          'Hospitality Lane, E Street, Rialto Avenue y la unión I-215 / I-10 ven a diario viajes de Lyft tras turnos hospitalarios, estudiantes de CSUSB y empleados del condado en Uber. Las disputas de cobertura suelen empezar por si el conductor estaba conectado; confirmamos la póliza activa en la consulta, sin listar límites en el sitio. Los reclamos de transporte por aplicación (Uber/Lyft) en San Bernardino se presentan desde /es/lesiones-personales/san-bernardino/, sin inventar una URL /uber/ o /rideshare/ dedicada.',
         ],
       },
       {
         h2: 'Muerte injusta — legitimación bajo el CCP §377.60 en 247 W. 3rd Street',
         paragraphs: [
-          'Quién puede presentar la demanda se confirma en la consulta bajo el Código de Procedimiento Civil de California §377.60 — no inventamos veredictos ni historias de acuerdos. Los expedientes civiles ilimitados se presentan en el Tribunal Superior del Condado de San Bernardino / Justice Center, 247 W. 3rd Street, San Bernardino — no en 4050 Main Street de Riverside, no en el distrito de Fontana en Arrow, y no en una división de Palm Springs. El tribunal está unas 0.6 millas y 3 minutos al este de puntos cívicos del centro. El CCP §335.1 da dos años a la mayoría de las víctimas; una entidad pública puede exigir aviso escrito de seis meses bajo el Código de Gobierno §911.2.',
+          'Quién puede presentar la demanda se confirma en la consulta bajo el Código de Procedimiento Civil de California §377.60 — no inventamos veredictos ni historias de acuerdos. Los casos civiles de cuantía ilimitada se presentan en el Tribunal Superior del Condado de San Bernardino / Justice Center, 247 W. 3rd Street, San Bernardino — no en 4050 Main Street de Riverside, no en el distrito de Fontana en Arrow, y no en una división de Palm Springs. El tribunal está unas 0.6 millas y 3 minutos al este de puntos cívicos del centro. El CCP §335.1 da dos años a la mayoría de las víctimas; una entidad pública puede exigir aviso escrito de seis meses bajo el Código de Gobierno §911.2.',
         ],
       },
       {
@@ -2247,22 +2247,22 @@ const PI_ES: Record<CitySlug, CityPageCopy> = {
       {
         h2: 'Auto, motocicleta y mordeduras — Código Civil §3342',
         paragraphs: [
-          'Después de los cuatro tipos principales de reclamo, choques de auto, accidentes de motocicleta y mordeduras de perro bajo el Código Civil de California §3342 completan el expediente. Circular entre carriles en motocicleta es legal cuando se hace con seguridad; usar casco no invierte la culpa. No manejamos reclamos por resbalones y caídas.',
+          'Después de los cuatro tipos principales de reclamo, choques de auto, accidentes de motocicleta y mordeduras de perro bajo el Código Civil de California §3342 completan los casos que atendemos. Circular entre carriles en motocicleta es legal cuando se hace con seguridad; usar casco no invierte la culpa. No manejamos reclamos por resbalones y caídas. El plazo general de dos años del CCP §335.1 rige la mayoría de las demandas por lesiones; contra una entidad pública puede hacer falta aviso escrito de seis meses conforme al Código de Gobierno §911.2 antes de demandar.',
         ],
       },
       {
-        h2: '(909) 915-0181 — Orange Tree Lane, al sureste',
+        h2: '(909) 915-0181 — Orange Tree Lane, al este-sureste',
         paragraphs: [
-          'Horario: lunes a viernes 9am–6pm, sábado 10am–4pm, domingo con cita. Lesiones graves pueden contactar la oficina las 24 horas para consulta de emergencia. Desde San Bernardino, la consulta es unas 8 millas y 14 minutos al sureste por 2nd Street, la I-215, la I-10 y California Street — no un local en el centro de San Bernardino. Si el mismo choque hunde el hogar, la misma llamada al (909) 915-0181 presenta el Capítulo 7 o 13 en el Tribunal de Bancarrota de EE. UU., 3420 Twelfth Street, Riverside — unas 11 millas y 16 minutos al sur-suroeste. Palm Springs es la segunda oficina — 1276 N Palm Canyon Dr #107, (760) 835-9353 — unas 54 millas y 64 minutos al sureste, no la línea principal de San Bernardino.',
+          'Horario: lunes a viernes 9am–6pm, sábado 10am–4pm, domingo con cita. Lesiones graves pueden contactar la oficina las 24 horas para consulta de emergencia. Desde San Bernardino, la consulta es unas 8 millas y 14 minutos al este-sureste por 2nd Street, la I-215, la I-10 y California Street — no un local en el centro de San Bernardino. Si el mismo choque deja a la familia en crisis económica, la misma llamada al (909) 915-0181 presenta el Capítulo 7 o 13 en el Tribunal de Bancarrota de EE. UU., 3420 Twelfth Street, Riverside — unas 11 millas y 16 minutos al sur-suroeste. Palm Springs es la segunda oficina — 1276 N Palm Canyon Dr #107, (760) 835-9353 — unas 54 millas y 64 minutos al este-sureste, no la línea principal de San Bernardino.',
         ],
       },
     ],
   },
   riverside: {
     h1: 'Abogado de lesiones personales en Riverside',
-    title: 'Abogado de Lesiones Riverside | Camiones 60/91/215, Uber, Muerte Injusta | Lombera',
+    title: 'Abogado de Lesiones en Riverside | Camiones 60/91/215, Uber, Muerte Injusta | Lombera',
     description:
-      'Camiones, Uber, muerte injusta y lesiones catastróficas en choques de la SR-60 / SR-91 / I-215 en Riverside. Oficina en Orange Tree Lane #220, Redlands — unas 12 millas y 17 minutos al noreste por Mission Inn, la CA-91 y la I-10. (909) 915-0181.',
+      'Camiones, Uber, muerte injusta y lesiones catastróficas en choques de la SR-60 / SR-91 / I-215 en Riverside. Reúnase con nosotros en 2068 Orange Tree Lane #220, Redlands — unas 12 millas y 17 minutos al noreste por Mission Inn, la CA-91 y la I-10. (909) 915-0181.',
     lead: [
       'No hay local de Lombera en Riverside. Después de un choque en Riverside, reúnase con Edgar P. Lombera en 2068 Orange Tree Lane, Suite 220, Redlands, CA 92374. Desde Mission Inn Avenue en el centro, tome la CA-91 al este a la I-10 al este, luego California Street — unas 12 millas y 17 minutos al noreste. El trayecto es al noreste. La SR-60, la SR-91 y la I-215 son corredores de choques en esta página, no la ruta a un local en Riverside. Llame al (909) 915-0181. Inglés o español. Solo dos prácticas: lesiones personales y bancarrota. Usted habla con él. Los casos de lesiones son a contingencia: sin honorarios a menos que ganemos.',
     ],
@@ -2270,7 +2270,7 @@ const PI_ES: Record<CitySlug, CityPageCopy> = {
       {
         h2: 'Choques de camiones en la SR-60, la SR-91 y la I-215',
         paragraphs: [
-          'Tyler Street, Central Avenue, Magnolia Avenue y el corredor Box Springs / Arlington están bajo el tráfico de camiones de paso en la SR-60, la SR-91 y la I-215 que produce las colisiones comerciales que lideran este expediente. Después de un choque grave, preserve la descarga del ECM, las grabaciones de dashcam y el expediente de calificación del conductor antes de que las aseguradoras dispersen la evidencia. Las demandas civiles ilimitadas de estos corredores de autopista se presentan en el Tribunal Superior del Condado de Riverside, Historic Courthouse, 4050 Main Street — a menudo después de un trayecto por Mission Inn o University Avenue. Esta es la red 60/91/215 de Riverside — no la página de carga de Fontana en la I-10 / I-15 / Sierra, ni la franja de 247 W. 3rd en San Bernardino. Las demandas por muerte injusta y lesión cerebral traumática de estos choques permanecen en esta URL.',
+          'Tyler Street, Central Avenue, Magnolia Avenue y el corredor Box Springs / Arlington están bajo el tráfico de camiones de paso en la SR-60, la SR-91 y la I-215 que produce las colisiones comerciales que lideran los casos más frecuentes en esta página. Después de un choque grave, preserve la descarga del ECM, las grabaciones de cámara del tablero (dashcam) y el expediente de calificación del conductor antes de que las aseguradoras dispersen la evidencia. Las demandas civiles de cuantía ilimitada de estos corredores de autopista se presentan en el Tribunal Superior del Condado de Riverside, Historic Courthouse, 4050 Main Street — a menudo después de un trayecto por Mission Inn o University Avenue. Esta es la red 60/91/215 de Riverside — no la página de carga de Fontana en la I-10 / I-15 / Sierra, ni la franja de 247 W. 3rd en San Bernardino. Las demandas por muerte injusta y lesión cerebral traumática de estos choques permanecen en esta URL.',
         ],
       },
       {
@@ -2282,7 +2282,7 @@ const PI_ES: Record<CitySlug, CityPageCopy> = {
       {
         h2: 'Muerte injusta — legitimación bajo el CCP §377.60 en 4050 Main Street',
         paragraphs: [
-          'Quién puede presentar la demanda se confirma en la consulta bajo el Código de Procedimiento Civil de California §377.60 — no inventamos veredictos ni historias de acuerdos. Los expedientes civiles ilimitados se presentan en el Tribunal Superior del Condado de Riverside, Historic Courthouse, 4050 Main Street, Riverside — no en el Hall of Justice en 4100 Main, no en 247 W. 3rd Street en San Bernardino, y no en 13800 Heacock civil limitado. El CCP §335.1 da dos años a la mayoría de las víctimas; una entidad pública puede exigir aviso escrito de seis meses bajo el Código de Gobierno §911.2.',
+          'Quién puede presentar la demanda se confirma en la consulta bajo el Código de Procedimiento Civil de California §377.60 — no inventamos veredictos ni historias de acuerdos. Los casos civiles de cuantía ilimitada se presentan en el Tribunal Superior del Condado de Riverside, Historic Courthouse, 4050 Main Street, Riverside — no en el Hall of Justice en 4100 Main, no en 247 W. 3rd Street en San Bernardino, y no en 13800 Heacock civil limitado. El CCP §335.1 da dos años a la mayoría de las víctimas; una entidad pública puede exigir aviso escrito de seis meses bajo el Código de Gobierno §911.2.',
         ],
       },
       {
@@ -2294,42 +2294,42 @@ const PI_ES: Record<CitySlug, CityPageCopy> = {
       {
         h2: 'Auto, motocicleta y mordeduras — Código Civil §3342',
         paragraphs: [
-          'Después de los cuatro tipos principales de reclamo, choques de auto, accidentes de motocicleta y mordeduras de perro bajo el Código Civil de California §3342 completan el expediente. Circular entre carriles en motocicleta es legal cuando se hace con seguridad; usar casco no invierte la culpa. No manejamos reclamos por resbalones y caídas. La mayoría de las víctimas en Riverside tienen dos años desde la lesión bajo el CCP §335.1; una entidad pública puede exigir aviso escrito de seis meses bajo el Código de Gobierno §911.2 — revisamos su plazo en la consulta antes de que corra.',
+          'Después de los cuatro tipos principales de reclamo, choques de auto, accidentes de motocicleta y mordeduras de perro bajo el Código Civil de California §3342 completan los casos que atendemos. Circular entre carriles en motocicleta es legal cuando se hace con seguridad; usar casco no invierte la culpa. No manejamos reclamos por resbalones y caídas. La mayoría de las víctimas en Riverside tienen dos años desde la lesión bajo el CCP §335.1; una entidad pública puede exigir aviso escrito de seis meses bajo el Código de Gobierno §911.2 — confirme su plazo en la consulta antes de que la evidencia se deteriore.',
         ],
       },
       {
         h2: '(909) 915-0181 — Orange Tree Lane, al noreste',
         paragraphs: [
-          'Horario: lunes a viernes 9am–6pm, sábado 10am–4pm, domingo con cita. Lesiones graves pueden contactar la oficina las 24 horas para consulta de emergencia. Desde Riverside, la consulta es unas 12 millas y 17 minutos al noreste por Mission Inn Avenue, la CA-91, la I-10 y California Street — no un local en el centro de Riverside. Si el mismo choque hunde el hogar, la misma llamada al (909) 915-0181 presenta el Capítulo 7 o 13 en el Tribunal de Bancarrota de EE. UU., 3420 Twelfth Street, Riverside — unas 0.5 millas y 2 minutos al sureste desde el centro. Palm Springs es la segunda oficina si ese trayecto es más fácil — 1276 N Palm Canyon Dr #107, (760) 835-9353.',
+          'Horario: lunes a viernes 9am–6pm, sábado 10am–4pm, domingo con cita. Lesiones graves pueden contactar la oficina las 24 horas para consulta de emergencia. Desde Riverside, la consulta es unas 12 millas y 17 minutos al noreste por Mission Inn Avenue, la CA-91, la I-10 y California Street — no un local en el centro de Riverside. Si el mismo choque deja a la familia en crisis económica, la misma llamada al (909) 915-0181 presenta el Capítulo 7 o 13 en el Tribunal de Bancarrota de EE. UU., 3420 Twelfth Street, Riverside — unas 0.5 millas y 2 minutos al este-sureste desde el centro. Palm Springs es la segunda oficina si ese trayecto es más fácil — 1276 N Palm Canyon Dr #107, (760) 835-9353.',
         ],
       },
     ],
   },
   'moreno-valley': {
     h1: 'Abogado de lesiones personales en Moreno Valley',
-    title: 'Abogado de Lesiones Moreno Valley | Camiones 60/215, Uber, Muerte Injusta | Lombera',
+    title: 'Abogado de Lesiones en Moreno Valley | Camiones 60/215, Uber, Muerte Injusta | Lombera',
     description:
-      'Camiones, Uber, muerte injusta y lesiones catastróficas en choques de la SR-60 / I-215 en Moreno Valley. Oficina en Orange Tree Lane #220, Redlands — unos 19.5 millas y 26 minutos al norte y luego al este. (909) 915-0181.',
+      'Camiones, Uber, muerte injusta y lesiones catastróficas en choques de la SR-60 / I-215 en Moreno Valley. Reúnase con nosotros en 2068 Orange Tree Lane #220, Redlands — unas 19.5 millas y unos 26 minutos al norte y luego al este. (909) 915-0181.',
     lead: [
-      'No hay local de Lombera en Moreno Valley. Después de un choque en Moreno Valley, reúnase con Edgar P. Lombera en 2068 Orange Tree Lane, Suite 220, Redlands, CA 92374. Desde el City Hall en 14177 Frederick Street — solo referencia cívica — tome Frederick Street a Cactus Avenue, la I-215 al norte, la I-10 al este, luego California Street — unos 19.5 millas y 26 minutos al norte y luego al este. La SR-60 y la I-215 son corredores de choques en esta página, no la ruta a un local en Moreno Valley. Llame al (909) 915-0181. Inglés o español. Solo dos prácticas: lesiones personales y bancarrota. Usted habla con él. Los casos de lesiones son a contingencia: sin honorarios a menos que ganemos.',
+      'No hay local de Lombera en Moreno Valley. Después de un choque en Moreno Valley, reúnase con Edgar P. Lombera en 2068 Orange Tree Lane, Suite 220, Redlands, CA 92374. Desde el City Hall en 14177 Frederick Street — solo referencia cívica — tome Frederick Street a Cactus Avenue, la I-215 al norte, la I-10 al este, luego California Street — unas 19.5 millas y unos 26 minutos al norte y luego al este. La SR-60 y la I-215 son corredores de choques en esta página, no la ruta a un local en Moreno Valley. Llame al (909) 915-0181. Inglés o español. Solo dos prácticas: lesiones personales y bancarrota. Usted habla con él. Los casos de lesiones son a contingencia: sin honorarios a menos que ganemos.',
     ],
     sections: [
       {
         h2: 'Choques de camiones en la SR-60 y la I-215',
         paragraphs: [
-          'Frederick Street, Ironwood Avenue, Perris Boulevard, Alessandro Boulevard, Sunnymead Boulevard y los accesos a March ARB / Moreno Valley Mall están bajo el tráfico de camiones de paso en la SR-60 y la I-215 que produce las colisiones comerciales que lideran este expediente. Después de un choque grave, preserve la descarga del ECM, las grabaciones de dashcam y el expediente de calificación del conductor antes de que las aseguradoras dispersen la evidencia. Las demandas civiles ilimitadas de estos corredores de carga se presentan en el Tribunal Superior del Condado de Riverside, Historic Courthouse, 4050 Main Street, Riverside — unas 10 millas y 16 minutos al noroeste desde puntos de referencia cívicos de Moreno Valley, a menudo después de Frederick a Cactus hacia la I-215. Este es el cruce SR-60 / I-215 de Moreno Valley — no la página de carga de Fontana en la I-10 / I-15 / Sierra, ni la red 60 / 91 / 215 de Riverside, ni la franja de 247 W. 3rd en San Bernardino. Las demandas por muerte injusta y lesión cerebral traumática de estos choques permanecen en esta URL.',
+          'Frederick Street, Ironwood Avenue, Perris Boulevard, Alessandro Boulevard, Sunnymead Boulevard y los accesos a March ARB / Moreno Valley Mall están bajo el tráfico de camiones de paso en la SR-60 y la I-215 que produce las colisiones comerciales que lideran los casos más frecuentes en esta página. Después de un choque grave, preserve la descarga del ECM, las grabaciones de cámara del tablero (dashcam) y el expediente de calificación del conductor antes de que las aseguradoras dispersen la evidencia. Las demandas civiles de cuantía ilimitada de estos corredores de carga se presentan en el Tribunal Superior del Condado de Riverside, Historic Courthouse, 4050 Main Street, Riverside — unas 10 millas y 16 minutos al noroeste desde puntos de referencia cívicos de Moreno Valley, a menudo después de Frederick a Cactus hacia la I-215. Este es el cruce SR-60 / I-215 de Moreno Valley — no la página de carga de Fontana en la I-10 / I-15 / Sierra, ni la red 60 / 91 / 215 de Riverside, ni la franja de 247 W. 3rd en San Bernardino. Las demandas por muerte injusta y lesión cerebral traumática de estos choques permanecen en esta URL.',
         ],
       },
       {
         h2: 'Uber y Lyft en Frederick, Ironwood, Perris Boulevard y Alessandro',
         paragraphs: [
-          'Frederick Street, Ironwood Avenue, Perris Boulevard, Alessandro Boulevard y el intercambio SR-60 / I-215 enlazan a quienes viajan desde March ARB, turnos comerciales en Sunnymead y conductores de rideshare entre turnos de almacén. Las capas de cobertura de Uber y Lyft cambian con el estado de la app al choque; identificamos la aseguradora responsable en la consulta, sin umbrales citados aquí. Los reclamos de rideshare en Moreno Valley se impulsan desde /es/lesiones-personales/moreno-valley/, sin página /uber/ o /rideshare/ aparte.',
+          'Frederick Street, Ironwood Avenue, Perris Boulevard, Alessandro Boulevard y el intercambio SR-60 / I-215 enlazan a quienes viajan desde March ARB, turnos comerciales en Sunnymead y conductores de rideshare entre turnos de almacén. Las capas de cobertura de Uber y Lyft cambian con el estado de la app al choque; identificamos la aseguradora responsable en la consulta, sin umbrales citados aquí. Los reclamos de transporte por aplicación (Uber/Lyft) en Moreno Valley se impulsan desde /es/lesiones-personales/moreno-valley/, sin página /uber/ o /rideshare/ aparte.',
         ],
       },
       {
         h2: 'Muerte injusta — legitimación bajo el CCP §377.60 en 4050 Main Street',
         paragraphs: [
-          'Quién puede presentar la demanda se confirma en la consulta bajo el Código de Procedimiento Civil de California §377.60 — no inventamos veredictos ni historias de acuerdos. Los expedientes civiles ilimitados para códigos postales de Moreno Valley se presentan en el Tribunal Superior del Condado de Riverside, Historic Courthouse, 4050 Main Street, Riverside — no en 247 W. 3rd Street en San Bernardino, no en el Hall of Justice en 4100 Main, y no en el tribunal civil limitado de Moreno Valley. El plazo general de dos años del CCP §335.1 rige la mayoría de las demandas por lesiones; contra una entidad pública puede hacer falta aviso escrito de seis meses conforme al Código de Gobierno §911.2 antes de demandar.',
+          'Quién puede presentar la demanda se confirma en la consulta bajo el Código de Procedimiento Civil de California §377.60 — no inventamos veredictos ni historias de acuerdos. Los casos civiles de cuantía ilimitada para códigos postales de Moreno Valley se presentan en el Tribunal Superior del Condado de Riverside, Historic Courthouse, 4050 Main Street, Riverside — no en 247 W. 3rd Street en San Bernardino, no en el Hall of Justice en 4100 Main, y no en el tribunal civil limitado de Moreno Valley.',
         ],
       },
       {
@@ -2341,42 +2341,42 @@ const PI_ES: Record<CitySlug, CityPageCopy> = {
       {
         h2: 'Auto, motocicleta y mordeduras — Código Civil §3342',
         paragraphs: [
-          'Después de los cuatro tipos principales de reclamo, choques de auto, accidentes de motocicleta y mordeduras de perro bajo el Código Civil de California §3342 completan el expediente. Circular entre carriles en motocicleta es legal cuando se hace con seguridad; usar casco no invierte la culpa. No manejamos reclamos por resbalones y caídas.',
+          'Después de los cuatro tipos principales de reclamo, choques de auto, accidentes de motocicleta y mordeduras de perro bajo el Código Civil de California §3342 completan los casos que atendemos. Circular entre carriles en motocicleta es legal cuando se hace con seguridad; usar casco no invierte la culpa. No manejamos reclamos por resbalones y caídas. El plazo general de dos años del CCP §335.1 rige la mayoría de las demandas por lesiones; contra una entidad pública puede hacer falta aviso escrito de seis meses conforme al Código de Gobierno §911.2 antes de demandar.',
         ],
       },
       {
         h2: '(909) 915-0181 — Orange Tree Lane, al norte y luego al este',
         paragraphs: [
-          'Horario: lunes a viernes 9am–6pm, sábado 10am–4pm, domingo con cita. Lesiones graves pueden contactar la oficina las 24 horas para consulta de emergencia. Desde Moreno Valley, la consulta es unos 19.5 millas y 26 minutos al norte y luego al este por Frederick Street, Cactus Avenue, la I-215, la I-10 y California Street — no un local en Moreno Valley. Si el mismo choque hunde el hogar, la misma llamada al (909) 915-0181 presenta el Capítulo 7 o 13 en el Tribunal de Bancarrota de EE. UU., 3420 Twelfth Street, Riverside — unas 10 millas y 16 minutos al oeste-noroeste. Palm Springs es solo la segunda oficina — 1276 N Palm Canyon Dr #107, (760) 835-9353.',
+          'Horario: lunes a viernes 9am–6pm, sábado 10am–4pm, domingo con cita. Lesiones graves pueden contactar la oficina las 24 horas para consulta de emergencia. Desde Moreno Valley, la consulta es unas 19.5 millas y unos 26 minutos al norte y luego al este por Frederick Street, Cactus Avenue, la I-215, la I-10 y California Street — no un local en Moreno Valley. Si el mismo choque deja a la familia en crisis económica, la misma llamada al (909) 915-0181 presenta el Capítulo 7 o 13 en el Tribunal de Bancarrota de EE. UU., 3420 Twelfth Street, Riverside — unas 10 millas y 16 minutos al oeste-noroeste. Palm Springs es solo la segunda oficina — 1276 N Palm Canyon Dr #107, (760) 835-9353.',
         ],
       },
     ],
   },
   highland: {
     h1: 'Abogado de lesiones personales en Highland',
-    title: 'Abogado de Lesiones Highland | Camiones 210/Base Line, Uber, Muerte Injusta | Lombera',
+    title: 'Abogado de Lesiones en Highland | Camiones 210/Base Line, Uber, Muerte Injusta | Lombera',
     description:
-      'Camiones, Uber, muerte injusta y lesiones catastróficas en choques de la I-210 / SR-210 / Base Line en Highland. Oficina en Orange Tree Lane #220, Redlands — unos 5 millas y 10 minutos al sur. (909) 915-0181.',
+      'Camiones, Uber, muerte injusta y lesiones catastróficas en choques de la I-210 / SR-210 / Base Line en Highland. Reúnase con nosotros en 2068 Orange Tree Lane #220, Redlands — unas 5 millas y unos 10 minutos al sur. (909) 915-0181.',
     lead: [
-      'No hay local de Lombera en Highland. Después de un choque en Highland, reúnase con Edgar P. Lombera en 2068 Orange Tree Lane, Suite 220, Redlands, CA 92374. Desde el City Hall en 27215 Base Line — solo referencia cívica — tome Base Line a Palm Avenue, Alabama Street al sur, un tramo corto en la I-10, luego California Street — unos 5 millas y 10 minutos al sur. La I-210, la SR-210 y Base Line son corredores de choques en esta página, no la ruta a un local en Highland. Llame al (909) 915-0181. Inglés o español. Solo dos prácticas: lesiones personales y bancarrota. Usted habla con él. Los casos de lesiones son a contingencia: sin honorarios a menos que ganemos.',
+      'No hay local de Lombera en Highland. Después de un choque en Highland, reúnase con Edgar P. Lombera en 2068 Orange Tree Lane, Suite 220, Redlands, CA 92374. Desde el City Hall en 27215 Base Line — solo referencia cívica — tome Base Line a Palm Avenue, Alabama Street al sur, un tramo corto en la I-10, luego California Street — unas 5 millas y unos 10 minutos al sur. La I-210, la SR-210 y Base Line son corredores de choques en esta página, no la ruta a un local en Highland. Llame al (909) 915-0181. Inglés o español. Solo dos prácticas: lesiones personales y bancarrota. Usted habla con él. Los casos de lesiones son a contingencia: sin honorarios a menos que ganemos.',
     ],
     sections: [
       {
         h2: 'Choques de camiones en la I-210, la SR-210 y Base Line',
         paragraphs: [
-          'East Highland, Greenspot Road, Victoria Avenue y el intercambio I-210 / SR-210 / Base Line soportan el tráfico de camiones de paso que produce las colisiones comerciales que lideran este expediente. Después de un choque grave, preserve la descarga del ECM, las grabaciones de dashcam y el expediente de calificación del conductor antes de que las aseguradoras dispersen la evidencia. Las demandas civiles ilimitadas de estos corredores de carga se presentan en el Tribunal Superior del Condado de San Bernardino, San Bernardino Justice Center, 247 W. 3rd Street — unas 5.5 millas y 11 minutos al oeste-suroeste desde puntos de referencia cívicos de Highland, a menudo después de Base Line a Palm Avenue. Este es el cruce I-210 / SR-210 / Base Line de Highland — no la página de carga de Fontana en la I-10 / I-15 / Sierra, ni la franja I-10 / I-215 / I-210 de San Bernardino, ni la SR-60 / I-215 de Moreno Valley, ni el conjunto 60 / 91 / 215 de Riverside. Las demandas por muerte injusta y lesión cerebral traumática de estos choques permanecen en esta URL.',
+          'East Highland, Greenspot Road, Victoria Avenue y el intercambio I-210 / SR-210 / Base Line soportan el tráfico de camiones de paso que produce las colisiones comerciales que lideran los casos más frecuentes en esta página. Después de un choque grave, preserve la descarga del ECM, las grabaciones de cámara del tablero (dashcam) y el expediente de calificación del conductor antes de que las aseguradoras dispersen la evidencia. Las demandas civiles de cuantía ilimitada de estos corredores de carga se presentan en el Tribunal Superior del Condado de San Bernardino, San Bernardino Justice Center, 247 W. 3rd Street — unas 5.5 millas y 11 minutos al oeste-suroeste desde puntos de referencia cívicos de Highland, a menudo después de Base Line a Palm Avenue. Este es el cruce I-210 / SR-210 / Base Line de Highland — no la página de carga de Fontana en la I-10 / I-15 / Sierra, ni la franja I-10 / I-215 / I-210 de San Bernardino, ni la SR-60 / I-215 de Moreno Valley, ni el conjunto 60 / 91 / 215 de Riverside. Las demandas por muerte injusta y lesión cerebral traumática de estos choques permanecen en esta URL.',
         ],
       },
       {
         h2: 'Uber y Lyft en Base Line, Highland Avenue y Palm Avenue',
         paragraphs: [
-          'Base Line, Highland Avenue, Palm Avenue, Greenspot Road y el intercambio I-210 / Base Line llevan a pasajeros hacia Loma Linda, trabajadores comerciales de East Highland y viajes de Uber y Lyft entre turnos de almacén. Si la app estaba activa cambia qué póliza responde; lo confirmamos con usted antes de que las aseguradoras encuadren el reclamo. Las lesiones por rideshare en Highland se atienden solo en /es/lesiones-personales/highland/; Lombera no publica una URL /uber/ o /rideshare/ distinta.',
+          'Base Line, Highland Avenue, Palm Avenue, Greenspot Road y el intercambio I-210 / Base Line llevan a pasajeros hacia Loma Linda, trabajadores comerciales de East Highland y viajes de Uber y Lyft entre turnos de almacén. Si la app estaba activa cambia qué póliza responde; lo confirmamos con usted antes de que las aseguradoras encuadren el reclamo. Las lesiones en viajes de transporte por aplicación (Uber/Lyft) en Highland se atienden solo en /es/lesiones-personales/highland/; Lombera no publica una URL /uber/ o /rideshare/ distinta.',
         ],
       },
       {
         h2: 'Muerte injusta — legitimación bajo el CCP §377.60 en 247 W. 3rd Street',
         paragraphs: [
-          'Quién puede presentar la demanda se confirma en la consulta bajo el Código de Procedimiento Civil de California §377.60 — no inventamos veredictos ni historias de acuerdos. Los expedientes civiles ilimitados para códigos postales de Highland se presentan en el Tribunal Superior del Condado de San Bernardino, San Bernardino Justice Center, 247 W. 3rd Street, San Bernardino — no en Arrow Boulevard, no en 4050 Main Street en Riverside, y no en un tribunal de Highland porque no existe. El plazo general de dos años del CCP §335.1 rige la mayoría de las demandas por lesiones; contra una entidad pública puede hacer falta aviso escrito de seis meses conforme al Código de Gobierno §911.2 antes de demandar.',
+          'Quién puede presentar la demanda se confirma en la consulta bajo el Código de Procedimiento Civil de California §377.60 — no inventamos veredictos ni historias de acuerdos. Los casos civiles de cuantía ilimitada para códigos postales de Highland se presentan en el Tribunal Superior del Condado de San Bernardino, San Bernardino Justice Center, 247 W. 3rd Street, San Bernardino — no en Arrow Boulevard, no en 4050 Main Street en Riverside, y no en un tribunal de Highland porque no existe.',
         ],
       },
       {
@@ -2388,22 +2388,22 @@ const PI_ES: Record<CitySlug, CityPageCopy> = {
       {
         h2: 'Auto, motocicleta y mordeduras — Código Civil §3342',
         paragraphs: [
-          'Después de los cuatro tipos principales de reclamo, choques de auto, accidentes de motocicleta y mordeduras de perro bajo el Código Civil de California §3342 completan el expediente. Circular entre carriles en motocicleta es legal cuando se hace con seguridad; usar casco no invierte la culpa. No manejamos reclamos por resbalones y caídas.',
+          'Después de los cuatro tipos principales de reclamo, choques de auto, accidentes de motocicleta y mordeduras de perro bajo el Código Civil de California §3342 completan los casos que atendemos. Circular entre carriles en motocicleta es legal cuando se hace con seguridad; usar casco no invierte la culpa. No manejamos reclamos por resbalones y caídas. El plazo general de dos años del CCP §335.1 rige la mayoría de las demandas por lesiones; contra una entidad pública puede hacer falta aviso escrito de seis meses conforme al Código de Gobierno §911.2 antes de demandar.',
         ],
       },
       {
         h2: '(909) 915-0181 — Orange Tree Lane, al sur',
         paragraphs: [
-          'Horario: lunes a viernes 9am–6pm, sábado 10am–4pm, domingo con cita. Lesiones graves pueden contactar la oficina las 24 horas para consulta de emergencia. Desde Highland, la consulta es unos 5 millas y 10 minutos al sur por Base Line, Palm Avenue, Alabama Street, un tramo corto en la I-10 y California Street — no un local en Highland. Si el mismo choque hunde el hogar, la misma llamada al (909) 915-0181 presenta el Capítulo 7 o 13 en el Tribunal de Bancarrota de EE. UU., 3420 Twelfth Street, Riverside — unas 17 millas y 25 minutos al suroeste. Palm Springs es solo la segunda oficina — 1276 N Palm Canyon Dr #107, (760) 835-9353.',
+          'Horario: lunes a viernes 9am–6pm, sábado 10am–4pm, domingo con cita. Lesiones graves pueden contactar la oficina las 24 horas para consulta de emergencia. Desde Highland, la consulta es unas 5 millas y unos 10 minutos al sur por Base Line, Palm Avenue, Alabama Street, un tramo corto en la I-10 y California Street — no un local en Highland. Si el mismo choque deja a la familia en crisis económica, la misma llamada al (909) 915-0181 presenta el Capítulo 7 o 13 en el Tribunal de Bancarrota de EE. UU., 3420 Twelfth Street, Riverside — unas 17 millas y 25 minutos al oeste-suroeste. Palm Springs es solo la segunda oficina — 1276 N Palm Canyon Dr #107, (760) 835-9353.',
         ],
       },
     ],
   },
   hemet: {
     h1: 'Abogado de lesiones personales en Hemet',
-    title: 'Abogado de Lesiones Hemet | Camiones SR-74/I-215, Uber, Muerte Injusta | Lombera',
+    title: 'Abogado de Lesiones en Hemet | Camiones SR-74/I-215, Uber, Muerte Injusta | Lombera',
     description:
-      'Camiones, Uber, muerte injusta y lesiones catastróficas en choques de la SR-74 / I-215 / Lamb Canyon en Hemet. Oficina en Orange Tree Lane #220, Redlands — unas 33 millas y unos 43 minutos al noroeste. (909) 915-0181.',
+      'Camiones, Uber, muerte injusta y lesiones catastróficas en choques de la SR-74 / I-215 / Lamb Canyon en Hemet. Reúnase con nosotros en 2068 Orange Tree Lane #220, Redlands — unas 33 millas y unos 43 minutos al noroeste. (909) 915-0181.',
     lead: [
       'No hay local de Lombera en Hemet. Después de un choque en Hemet, reúnase con Edgar P. Lombera en 2068 Orange Tree Lane, Suite 220, Redlands, CA 92374. Desde el Ayuntamiento de Hemet en 445 E. Florida Avenue — referencia cívica solamente, no nuestra dirección — tome Florida Avenue, State Street, Ramona Expressway, Sanderson Avenue, Lamb Canyon Road, Beaumont Avenue, la I-10 al oeste y California Street — unas 33 millas y unos 43 minutos al noroeste. El trayecto es al noroeste. La SR-74, la SR-79, la I-215, Lamb Canyon Road, Florida Avenue y Sanderson Avenue son corredores de choques en esta página, no la ruta a la oficina. Llame al (909) 915-0181. Inglés o español. Solo dos prácticas: lesiones personales y bancarrota. Usted habla con él. Los casos de lesiones son a contingencia: sin honorarios a menos que ganemos.',
     ],
@@ -2411,19 +2411,19 @@ const PI_ES: Record<CitySlug, CityPageCopy> = {
       {
         h2: 'Choques de camiones en la SR-74, SR-79, I-215 y Lamb Canyon',
         paragraphs: [
-          'El tráfico de camiones comerciales en el corredor montañoso de la SR-74, la SR-79 hacia Winchester, el conector I-215 y Lamb Canyon Road produce las colisiones de carga que lideran este expediente. Florida Avenue por el centro de Hemet y Sanderson Avenue concentran presión de incorporación antes de que la carga llegue a los corredores del valle. Después de una colisión grave, preserve la descarga del ECM, las grabaciones de dashcam y el expediente de calificación del conductor antes de que las aseguradoras dispersen la evidencia. Las demandas civiles ilimitadas de los códigos postales 92543–92546 se presentan en el Tribunal Superior del Condado de Riverside, Historic Courthouse, 4050 Main Street, Riverside — unas 34 millas y unos 49 minutos al noroeste desde el Ayuntamiento de Hemet en 445 E. Florida Avenue. Esta es la carga SR-74 / SR-79 / I-215 / Lamb Canyon de Hemet — no la página I-10 / Paso de San Gorgonio de Beaumont, no la SR-60 / I-215 de Moreno Valley, no la cuadrícula I-10 / I-15 / Sierra de Fontana, ni copia de carga de Rancho Cucamonga o Colton Crossing. Las demandas por muerte injusta y lesión cerebral traumática de estos choques permanecen en esta URL.',
+          'El tráfico de camiones comerciales en el corredor montañoso de la SR-74, la SR-79 hacia Winchester, el conector I-215 y Lamb Canyon Road produce las colisiones de carga que lideran los casos más frecuentes en esta página. Florida Avenue por el centro de Hemet y Sanderson Avenue concentran presión de incorporación antes de que la carga llegue a los corredores del valle. Después de una colisión grave, preserve la descarga del ECM, las grabaciones de cámara del tablero (dashcam) y el expediente de calificación del conductor antes de que las aseguradoras dispersen la evidencia. Las demandas civiles de cuantía ilimitada de los códigos postales 92543–92546 se presentan en el Tribunal Superior del Condado de Riverside, Historic Courthouse, 4050 Main Street, Riverside — unas 34 millas y unos 49 minutos al noroeste desde el Ayuntamiento de Hemet en 445 E. Florida Avenue. Esta es la carga SR-74 / SR-79 / I-215 / Lamb Canyon de Hemet — no la página I-10 / Paso de San Gorgonio de Beaumont, no la SR-60 / I-215 de Moreno Valley, no la cuadrícula I-10 / I-15 / Sierra de Fontana, ni copia de carga de Rancho Cucamonga o Colton Crossing. Las demandas por muerte injusta y lesión cerebral traumática de estos choques permanecen en esta URL.',
         ],
       },
       {
         h2: 'Uber y Lyft en Florida Avenue, Sanderson Avenue, Stetson Avenue y State Street',
         paragraphs: [
-          'Florida Avenue, Sanderson Avenue, Stetson Avenue y State Street sostienen viajes de Uber y Lyft del Valle de San Jacinto ligados a trayectos del corredor SR-74 y turnos comerciales locales. Los choques graves de rideshare giran en torno al estado de la app y las pólizas disponibles; verificamos ambos en la consulta del caso, no en marketing web con límites en dólares. Los reclamos de rideshare en Hemet se quedan en /es/lesiones-personales/hemet/, sin una página /uber/ inventada.',
+          'Florida Avenue, Sanderson Avenue, Stetson Avenue y State Street sostienen viajes de Uber y Lyft del Valle de San Jacinto ligados a trayectos del corredor SR-74 y turnos comerciales locales. Los choques graves de rideshare giran en torno al estado de la app y las pólizas disponibles; verificamos ambos en la consulta del caso, no en marketing web con límites en dólares. Los reclamos de transporte por aplicación (Uber/Lyft) en Hemet se quedan en /es/lesiones-personales/hemet/, sin una página /uber/ inventada.',
         ],
       },
       {
         h2: 'Muerte injusta — legitimación bajo el CCP §377.60 en 4050 Main Street',
         paragraphs: [
-          'Quién puede presentar la demanda se confirma en la consulta bajo el Código de Procedimiento Civil de California §377.60 — no inventamos veredictos ni historias de acuerdos. Los expedientes civiles ilimitados de los códigos postales 92543–92546 se presentan en el Tribunal Superior del Condado de Riverside, Historic Courthouse, 4050 Main Street, Riverside — no en Menifee Center Drive de jurisdicción limitada, no en Tahquitz Canyon Way, no en 247 W. 3rd St., no en 8303 Haven Avenue, no en Oasis Street, y no en 400 N. Pepper. El tribunal está unas 34 millas y unos 49 minutos al noroeste del Ayuntamiento de Hemet en 445 E. Florida Avenue.',
+          'Quién puede presentar la demanda se confirma en la consulta bajo el Código de Procedimiento Civil de California §377.60 — no inventamos veredictos ni historias de acuerdos. Los casos civiles de cuantía ilimitada de los códigos postales 92543–92546 se presentan en el Tribunal Superior del Condado de Riverside, Historic Courthouse, 4050 Main Street, Riverside — no en Menifee Center Drive de jurisdicción limitada, no en Tahquitz Canyon Way, no en 247 W. 3rd St., no en 8303 Haven Avenue, no en Oasis Street, y no en 400 N. Pepper. El tribunal está unas 34 millas y unos 49 minutos al oeste-noroeste del Ayuntamiento de Hemet en 445 E. Florida Avenue. El plazo general de dos años del CCP §335.1 rige la mayoría de las demandas por lesiones de Hemet — confirme su fecha límite en la consulta antes de que la evidencia caduque; contra una entidad pública puede hacer falta aviso escrito de seis meses conforme al Código de Gobierno §911.2 antes de demandar.',
         ],
       },
       {
@@ -2435,20 +2435,20 @@ const PI_ES: Record<CitySlug, CityPageCopy> = {
       {
         h2: 'Auto, motocicleta y mordeduras — Código Civil §3342',
         paragraphs: [
-          'Después de los cuatro tipos principales de reclamo, choques de auto, accidentes de motocicleta y mordeduras de perro bajo el Código Civil de California §3342 completan el expediente. Circular entre carriles en motocicleta es legal cuando se hace con seguridad; usar casco no invierte la culpa. No manejamos reclamos por resbalones y caídas. El plazo general de dos años del CCP §335.1 rige la mayoría de las demandas por lesiones de Hemet — confirme su fecha límite en la consulta antes de que la evidencia caduque; contra una entidad pública puede hacer falta aviso escrito de seis meses conforme al Código de Gobierno §911.2 antes de demandar.',
+          'Después de los cuatro tipos principales de reclamo, choques de auto, accidentes de motocicleta y mordeduras de perro bajo el Código Civil de California §3342 completan los casos que atendemos. Circular entre carriles en motocicleta es legal cuando se hace con seguridad; usar casco no invierte la culpa. No manejamos reclamos por resbalones y caídas.',
         ],
       },
       {
         h2: '(909) 915-0181 — Orange Tree Lane, al noroeste',
         paragraphs: [
-          'Horario: lunes a viernes 9am–6pm, sábado 10am–4pm, domingo con cita. Lesiones graves pueden contactar la oficina las 24 horas para consulta de emergencia. Desde Hemet, la consulta es unas 33 millas y unos 43 minutos al noroeste por Florida Avenue, State Street, Ramona Expressway, Sanderson Avenue, Lamb Canyon Road, Beaumont Avenue, la I-10 al oeste y California Street — no un local en Hemet. Si el mismo choque hunde el hogar, la misma llamada al (909) 915-0181 presenta el Capítulo 7 o 13 en el Tribunal de Bancarrota de EE. UU., 3420 Twelfth Street, Riverside — unas 34 millas y unos 49 minutos al noroeste. Palm Springs es solo la segunda oficina — 1276 N Palm Canyon Dr #107, (760) 835-9353.',
+          'Horario: lunes a viernes 9am–6pm, sábado 10am–4pm, domingo con cita. Lesiones graves pueden contactar la oficina las 24 horas para consulta de emergencia. Desde Hemet, la consulta es unas 33 millas y unos 43 minutos al noroeste por Florida Avenue, State Street, Ramona Expressway, Sanderson Avenue, Lamb Canyon Road, Beaumont Avenue, la I-10 al oeste y California Street — no un local en Hemet. Si el mismo choque deja a la familia en crisis económica, la misma llamada al (909) 915-0181 presenta el Capítulo 7 o 13 en el Tribunal de Bancarrota de EE. UU., 3420 Twelfth Street, Riverside — unas 34 millas y unos 49 minutos al noroeste. Palm Springs es solo la segunda oficina — 1276 N Palm Canyon Dr #107, (760) 835-9353.',
         ],
       },
     ],
   },
   'desert-hot-springs': {
     h1: 'Abogado de lesiones personales en Desert Hot Springs',
-    title: 'Abogado de Lesiones Desert Hot Springs | Camiones I-10, Uber, Muerte Injusta | Lombera',
+    title: 'Abogado de Lesiones en Desert Hot Springs | Camiones I-10, Uber, Muerte Injusta | Lombera',
     description:
       'Camiones, Uber, muerte injusta y lesiones catastróficas en choques de la I-10 / Whitewater / Pierson en Desert Hot Springs. Oficina en 1276 N Palm Canyon Dr #107, Palm Springs — unas 11 millas y 18 minutos al sur. (760) 835-9353.',
     lead: [
@@ -2458,19 +2458,19 @@ const PI_ES: Record<CitySlug, CityPageCopy> = {
       {
         h2: 'Choques de camiones en la I-10, Whitewater, Cabazon y Pierson Boulevard',
         paragraphs: [
-          'El tráfico de camiones comerciales en la I-10 a través de Whitewater y Cabazon, y a lo largo de Pierson Boulevard por Desert Hot Springs, produce las colisiones de carga que lideran este expediente. Los picos de carga del valle norte en Pierson y el gradiente de Whitewater provocan fallas de frenos y choques por alcance antes de que la carga despeje los corredores del valle. Después de una colisión grave, preserve la descarga del ECM, las grabaciones de dashcam y el expediente de calificación del conductor antes de que las aseguradoras dispersen la evidencia. Las demandas civiles ilimitadas de los códigos postales 92240 y 92241 de Desert Hot Springs se presentan en el Tribunal Superior del Condado de Riverside — Tribunal de Palm Springs, 3255 E. Tahquitz Canyon Way — unas 11 millas y unos 19 minutos al sur desde el Ayuntamiento de Desert Hot Springs en 11999 Palm Drive. Esta es la carga I-10 / Whitewater / Cabazon / Pierson del valle norte — no la página del Paso de San Gorgonio de Palm Springs, no la pila Date Palm / Ramon de Cathedral City, no el clon I-10 / Highway 111 de Indio, ni la página Paso / Beaumont Avenue de Beaumont. Las demandas por muerte injusta y lesión cerebral traumática de estos choques permanecen en esta URL.',
+          'El tráfico de camiones comerciales en la I-10 a través de Whitewater y Cabazon, y a lo largo de Pierson Boulevard por Desert Hot Springs, produce las colisiones de carga que lideran los casos más frecuentes en esta página. Los picos de carga del valle norte en Pierson y el gradiente de Whitewater provocan fallas de frenos y choques en que el vehículo se monta sobre otro (override) antes de que la carga despeje los corredores del valle. Después de una colisión grave, preserve la descarga del ECM, las grabaciones de cámara del tablero (dashcam) y el expediente de calificación del conductor antes de que las aseguradoras dispersen la evidencia. Las demandas civiles de cuantía ilimitada de los códigos postales 92240 y 92241 de Desert Hot Springs se presentan en el Tribunal Superior del Condado de Riverside — Tribunal de Palm Springs, 3255 E. Tahquitz Canyon Way — unas 11 millas y unos 19 minutos al sur desde el Ayuntamiento de Desert Hot Springs en 11999 Palm Drive. Esta es la carga I-10 / Whitewater / Cabazon / Pierson del valle norte — no la página del Paso de San Gorgonio de Palm Springs, no la pila Date Palm / Ramon de Cathedral City, no el clon I-10 / Highway 111 de Indio, ni la página Paso / Beaumont Avenue de Beaumont. Las demandas por muerte injusta y lesión cerebral traumática de estos choques permanecen en esta URL.',
         ],
       },
       {
         h2: 'Uber y Lyft en Indian Canyon Drive, Pierson Boulevard y Palm Drive',
         paragraphs: [
-          'Indian Canyon Drive, Pierson Boulevard y Palm Drive conectan a pasajeros del valle norte, traslados de turismo de spa desde los corredores de resorts de Desert Hot Springs y el tráfico del conector de la I-10, donde Lyft y Uber suben los fines de semana. La responsabilidad de la aseguradora sigue si el conductor tenía la app abierta; fijamos la cobertura en la consulta, sin anunciar montos de póliza en este sitio. Los casos de rideshare en Desert Hot Springs se presentan desde /es/lesiones-personales/desert-hot-springs/; no se usa una página /uber/ separada.',
+          'Indian Canyon Drive, Pierson Boulevard y Palm Drive conectan a pasajeros del valle norte, traslados de turismo de spa y el tráfico del conector de la I-10, donde Lyft y Uber suben los fines de semana. La responsabilidad de la aseguradora sigue si el conductor tenía la app abierta; fijamos la cobertura en la consulta, sin anunciar montos de póliza en este sitio. Los casos de transporte por aplicación (Uber/Lyft) en Desert Hot Springs se presentan desde /es/lesiones-personales/desert-hot-springs/; no se usa una página /uber/ separada.',
         ],
       },
       {
         h2: 'Muerte injusta — legitimación bajo el CCP §377.60 en 3255 E. Tahquitz Canyon Way',
         paragraphs: [
-          'Quién puede presentar la demanda se confirma en la consulta bajo el Código de Procedimiento Civil de California §377.60 — no inventamos veredictos ni historias de acuerdos. Los expedientes civiles ilimitados de los códigos postales 92240 y 92241 de Desert Hot Springs se presentan en el Tribunal Superior del Condado de Riverside — Tribunal de Palm Springs, 3255 E. Tahquitz Canyon Way — no en Oasis Street, no en 4050 Main Street, no en 247 W. 3rd St., no en 8303 Haven Avenue, y no en la División Indio. El tribunal está unas 11 millas y unos 19 minutos al sur del Ayuntamiento de Desert Hot Springs en 11999 Palm Drive. El plazo general de dos años del CCP §335.1 rige la mayoría de las demandas por lesiones; contra una entidad pública puede hacer falta aviso escrito de seis meses conforme al Código de Gobierno §911.2 antes de demandar.',
+          'Quién puede presentar la demanda se confirma en la consulta bajo el Código de Procedimiento Civil de California §377.60 — no inventamos veredictos ni historias de acuerdos. Los casos civiles de cuantía ilimitada de los códigos postales 92240 y 92241 de Desert Hot Springs se presentan en el Tribunal Superior del Condado de Riverside — Tribunal de Palm Springs, 3255 E. Tahquitz Canyon Way — no en Oasis Street, no en 4050 Main Street, no en 247 W. 3rd St., no en 8303 Haven Avenue, y no en la División Indio. El tribunal está unas 11 millas y unos 19 minutos al sur del Ayuntamiento de Desert Hot Springs en 11999 Palm Drive.',
         ],
       },
       {
@@ -2482,22 +2482,22 @@ const PI_ES: Record<CitySlug, CityPageCopy> = {
       {
         h2: 'Auto, motocicleta y mordeduras — Código Civil §3342',
         paragraphs: [
-          'Después de los cuatro tipos principales de reclamo, choques de auto, accidentes de motocicleta y mordeduras de perro bajo el Código Civil de California §3342 completan el expediente. Circular entre carriles en motocicleta es legal cuando se hace con seguridad; usar casco no invierte la culpa. No manejamos reclamos por resbalones y caídas. La mayoría de las víctimas de lesiones en Desert Hot Springs tienen dos años bajo el CCP §335.1 contados desde la fecha del daño — confirme su plazo en la consulta antes de que la evidencia se deteriore; una entidad pública puede exigir aviso escrito de seis meses conforme al Código de Gobierno §911.2.',
+          'Después de los cuatro tipos principales de reclamo, choques de auto, accidentes de motocicleta y mordeduras de perro bajo el Código Civil de California §3342 completan los casos que atendemos. Circular entre carriles en motocicleta es legal cuando se hace con seguridad; usar casco no invierte la culpa. No manejamos reclamos por resbalones y caídas. La mayoría de las víctimas de lesiones en Desert Hot Springs tienen dos años bajo el CCP §335.1 contados desde la fecha del daño — confirme su plazo en la consulta antes de que la evidencia se deteriore; una entidad pública puede exigir aviso escrito de seis meses conforme al Código de Gobierno §911.2.',
         ],
       },
       {
         h2: '(760) 835-9353 — 1276 N Palm Canyon Dr #107, al sur',
         paragraphs: [
-          'Horario: lunes a viernes 9am–6pm, sábado 10am–4pm, domingo con cita. Lesiones graves pueden contactar la oficina las 24 horas para consulta de emergencia. Desde Desert Hot Springs, la consulta es unas 11 millas y 18 minutos al sur por Pierson Boulevard, Palm Drive, Gene Autry Trail, Vista Chino / CA-111 y N Palm Canyon Drive — no un local en Desert Hot Springs. Si el mismo choque hunde el hogar, la misma llamada al (760) 835-9353 presenta el Capítulo 7 o 13 en el Tribunal de Bancarrota de EE. UU., 3420 Twelfth Street, Riverside. Redlands es solo la segunda oficina — 2068 Orange Tree Lane, Suite 220, (909) 915-0181.',
+          'Horario: lunes a viernes 9am–6pm, sábado 10am–4pm, domingo con cita. Lesiones graves pueden contactar la oficina las 24 horas para consulta de emergencia. Desde Desert Hot Springs, la consulta es unas 11 millas y 18 minutos al sur por Pierson Boulevard, Palm Drive, Gene Autry Trail, Vista Chino / CA-111 y N Palm Canyon Drive — no un local en Desert Hot Springs. Si el mismo choque deja a la familia en crisis económica, la misma llamada al (760) 835-9353 presenta el Capítulo 7 o 13 en el Tribunal de Bancarrota de EE. UU., 3420 Twelfth Street, Riverside. Redlands es solo la segunda oficina — 2068 Orange Tree Lane, Suite 220, (909) 915-0181.',
         ],
       },
     ],
   },
   yucaipa: {
     h1: 'Abogado de lesiones personales en Yucaipa',
-    title: 'Abogado de Lesiones Personales en Yucaipa | Lombera Law',
+    title: 'Abogado de Lesiones Personales en Yucaipa | Consulta Gratis | Lombera Law',
     description:
-      'Camiones, Uber, muerte injusta y lesiones catastróficas en choques de la I-10 / corredor Wildwood Canyon en Yucaipa. Oficina en Orange Tree Lane #220, Redlands — unas 11.5 millas y unos 17 minutos al oeste-noroeste. (909) 915-0181.',
+      'Camiones, Uber, muerte injusta y lesiones catastróficas en choques de la I-10 / corredor Wildwood Canyon en Yucaipa. Reúnase con nosotros en 2068 Orange Tree Lane #220, Redlands — unas 11.5 millas y unos 17 minutos al oeste-noroeste. (909) 915-0181.',
     lead: [
       'No hay local de Lombera en Yucaipa. Después de un choque en Yucaipa, reúnase con Edgar P. Lombera en 2068 Orange Tree Lane, Suite 220, Redlands, CA 92374. Desde el Ayuntamiento de Yucaipa en 34272 Yucaipa Boulevard — referencia cívica solamente — tome Yucaipa Boulevard y Oak Glen Road a la I-10 al oeste, luego California Street — unas 11.5 millas y unos 17 minutos al oeste-noroeste. El trayecto es al oeste-noroeste. La I-10 y el corredor Wildwood Canyon son corredores de choques en esta página, no la ruta a una oficina en Yucaipa. Llame al (909) 915-0181. Inglés o español. Solo dos prácticas: lesiones personales y bancarrota. Usted habla con él. Los casos de lesiones son a contingencia: sin honorarios a menos que ganemos.',
     ],
@@ -2505,19 +2505,19 @@ const PI_ES: Record<CitySlug, CityPageCopy> = {
       {
         h2: 'Choques de camiones en la I-10 y el corredor Wildwood Canyon',
         paragraphs: [
-          'Yucaipa Boulevard, Oak Glen Road, el corredor Wildwood Canyon y el tráfico de camiones de paso en la I-10 producen las colisiones comerciales que lideran este expediente. La carga con destino al este subiendo el paso y el tráfico de fin de semana en Wildwood Canyon Road provocan choques por alcance y pérdida de control antes de que la carga despeje los corredores del valle. Después de un choque grave, preserve la descarga del ECM, las grabaciones de dashcam y el expediente de calificación del conductor antes de que las aseguradoras dispersen la evidencia. Las demandas civiles ilimitadas de Yucaipa se presentan en el Tribunal Superior del Condado de San Bernardino / Justice Center, 247 W. 3rd Street, San Bernardino — unas 18 millas y unos 26 minutos al oeste-noroeste desde el Ayuntamiento de Yucaipa en 34272 Yucaipa Boulevard — no en 4050 Main Street en Riverside, no en Tahquitz Canyon Way, no en 8303 Haven Avenue, no en Arrow Boulevard, y no en 400 N. Pepper. Esta es la página de carga I-10 / Wildwood Canyon de Yucaipa — no la página de carga de Fontana en la I-10 / I-15 / Sierra, no Colton Crossing / Mt Vernon, no el cruce I-210 / Base Line de Highland, ni el conjunto 60 / 91 / 215 de Riverside. Las demandas por muerte injusta y lesión cerebral traumática de estos choques permanecen en esta URL.',
+          'Yucaipa Boulevard, Oak Glen Road, el corredor Wildwood Canyon y el tráfico de camiones de paso en la I-10 producen las colisiones comerciales que lideran los casos más frecuentes en esta página. La carga con destino al este subiendo el paso y el tráfico de fin de semana en Wildwood Canyon Road provocan choques en que el vehículo se monta sobre otro (override) y pérdida de control antes de que la carga despeje los corredores del valle. Después de un choque grave, preserve la descarga del ECM, las grabaciones de cámara del tablero (dashcam) y el expediente de calificación del conductor antes de que las aseguradoras dispersen la evidencia. Las demandas civiles de cuantía ilimitada de Yucaipa se presentan en el Tribunal Superior del Condado de San Bernardino / Justice Center, 247 W. 3rd Street, San Bernardino — unas 18 millas y unos 26 minutos al oeste-noroeste desde el Ayuntamiento de Yucaipa en 34272 Yucaipa Boulevard — no en 4050 Main Street en Riverside, no en Tahquitz Canyon Way, no en 8303 Haven Avenue, no en Arrow Boulevard, y no en 400 N. Pepper. Esta es la página de carga I-10 / Wildwood Canyon de Yucaipa — no la página de carga de Fontana en la I-10 / I-15 / Sierra, no Colton Crossing / Mt Vernon, no el cruce I-210 / Base Line de Highland, ni el conjunto 60 / 91 / 215 de Riverside. Las demandas por muerte injusta y lesión cerebral traumática de estos choques permanecen en esta URL.',
         ],
       },
       {
         h2: 'Uber y Lyft en Yucaipa Boulevard y Oak Glen Road',
         paragraphs: [
-          'Yucaipa Boulevard, Oak Glen Road y el conector de la I-10 mezclan tráfico de fin de semana en el cañón, turnos comerciales a lo largo de la 10 y viajes de Uber y Lyft hacia Redlands y San Bernardino. El estado de la app al impacto suele decidir qué aseguradora debe pagar; lo confirmamos en privado antes de enviar exigencias. Las lesiones por rideshare en Yucaipa se manejan en /es/lesiones-personales/yucaipa/, sin una página /uber/ fabricada.',
+          'Yucaipa Boulevard, Oak Glen Road y el conector de la I-10 mezclan tráfico de fin de semana en el cañón, turnos comerciales a lo largo de la 10 y viajes de Uber y Lyft hacia Redlands y San Bernardino. El estado de la app al impacto suele decidir qué aseguradora debe pagar; lo confirmamos en privado antes de enviar cartas de reclamación. Las lesiones en viajes de transporte por aplicación (Uber/Lyft) en Yucaipa se manejan en /es/lesiones-personales/yucaipa/, sin una página /uber/ fabricada.',
         ],
       },
       {
         h2: 'Muerte injusta — legitimación bajo el CCP §377.60 en 247 W. 3rd Street',
         paragraphs: [
-          'Quién puede presentar la demanda se confirma en la consulta bajo el Código de Procedimiento Civil de California §377.60 — no inventamos veredictos ni historias de acuerdos. Los expedientes civiles ilimitados se presentan en el Tribunal Superior del Condado de San Bernardino / Justice Center, 247 W. 3rd Street, San Bernardino — no en 4050 Main Street en Riverside, no en Tahquitz Canyon Way, no en 8303 Haven Avenue, no en Arrow Boulevard, y no en 400 N. Pepper. El tribunal está unas 18 millas y unos 26 minutos al oeste-noroeste del Ayuntamiento de Yucaipa en 34272 Yucaipa Boulevard. El plazo general de dos años del CCP §335.1 rige la mayoría de las demandas por lesiones; contra una entidad pública puede hacer falta aviso escrito de seis meses conforme al Código de Gobierno §911.2 antes de demandar.',
+          'Quién puede presentar la demanda se confirma en la consulta bajo el Código de Procedimiento Civil de California §377.60 — no inventamos veredictos ni historias de acuerdos. Los casos civiles de cuantía ilimitada se presentan en el Tribunal Superior del Condado de San Bernardino / Justice Center, 247 W. 3rd Street, San Bernardino — no en 4050 Main Street en Riverside, no en Tahquitz Canyon Way, no en 8303 Haven Avenue, no en Arrow Boulevard, y no en 400 N. Pepper. El tribunal está unas 18 millas y unos 26 minutos al oeste-noroeste del Ayuntamiento de Yucaipa en 34272 Yucaipa Boulevard.',
         ],
       },
       {
@@ -2529,22 +2529,22 @@ const PI_ES: Record<CitySlug, CityPageCopy> = {
       {
         h2: 'Auto, motocicleta y mordeduras — Código Civil §3342',
         paragraphs: [
-          'Después de los cuatro tipos principales de reclamo, choques de auto, accidentes de motocicleta y mordeduras de perro bajo el Código Civil de California §3342 completan el expediente. Circular entre carriles en motocicleta es legal cuando se hace con seguridad; usar casco no invierte la culpa. No manejamos reclamos por resbalones y caídas.',
+          'Después de los cuatro tipos principales de reclamo, choques de auto, accidentes de motocicleta y mordeduras de perro bajo el Código Civil de California §3342 completan los casos que atendemos. Circular entre carriles en motocicleta es legal cuando se hace con seguridad; usar casco no invierte la culpa. No manejamos reclamos por resbalones y caídas. El plazo general de dos años del CCP §335.1 rige la mayoría de las demandas por lesiones; contra una entidad pública puede hacer falta aviso escrito de seis meses conforme al Código de Gobierno §911.2 antes de demandar.',
         ],
       },
       {
         h2: '(909) 915-0181 — Orange Tree Lane, al oeste-noroeste',
         paragraphs: [
-          'Horario: lunes a viernes 9am–6pm, sábado 10am–4pm, domingo con cita. Lesiones graves pueden contactar la oficina las 24 horas para consulta de emergencia. Desde Yucaipa, la consulta es unas 11.5 millas y unos 17 minutos al oeste-noroeste por Yucaipa Boulevard y Oak Glen Road, la I-10 al oeste y California Street — no un local en Yucaipa. Si el mismo choque hunde el hogar, la misma llamada al (909) 915-0181 presenta el Capítulo 7 o 13 en el Tribunal de Bancarrota de EE. UU., 3420 Twelfth Street, Riverside — unas 23 millas y unos 31 minutos al oeste-suroeste. Palm Springs es solo la segunda oficina — 1276 N Palm Canyon Dr #107, (760) 835-9353 — unas 38 millas y unos 47 minutos al este-sureste.',
+          'Horario: lunes a viernes 9am–6pm, sábado 10am–4pm, domingo con cita. Lesiones graves pueden contactar la oficina las 24 horas para consulta de emergencia. Desde Yucaipa, la consulta es unas 11.5 millas y unos 17 minutos al oeste-noroeste por Yucaipa Boulevard y Oak Glen Road, la I-10 al oeste y California Street — no un local en Yucaipa. Si el mismo choque deja a la familia en crisis económica, la misma llamada al (909) 915-0181 presenta el Capítulo 7 o 13 en el Tribunal de Bancarrota de EE. UU., 3420 Twelfth Street, Riverside — unas 23 millas y unos 31 minutos al oeste-suroeste. Palm Springs es solo la segunda oficina — 1276 N Palm Canyon Dr #107, (760) 835-9353 — unas 38 millas y unos 47 minutos al este-sureste.',
         ],
       },
     ],
   },
   ontario: {
     h1: 'Abogado de lesiones personales en Ontario, California',
-    title: 'Abogado de Lesiones Personales en Ontario CA | Lombera Law',
+    title: 'Abogado de Lesiones Personales en Ontario CA | Consulta Gratis | Lombera Law',
     description:
-      'Camiones, Uber, muerte injusta y lesiones catastróficas en choques del corredor I-10 / I-15 / ONT en Ontario, California. Oficina en Orange Tree Lane #220, Redlands — unas 25 millas y unos 33 minutos al este. (909) 915-0181.',
+      'Camiones, Uber, muerte injusta y lesiones catastróficas en choques del corredor I-10 / I-15 / ONT en Ontario, California. Reúnase con nosotros en 2068 Orange Tree Lane #220, Redlands — unas 25 millas y unos 33 minutos al este. (909) 915-0181.',
     lead: [
       'No hay local de Lombera en Ontario, California. Después de un choque en Ontario, reúnase con Edgar P. Lombera en 2068 Orange Tree Lane, Suite 220, Redlands, CA 92374. Desde el Ayuntamiento de Ontario en 303 E. B Street — referencia cívica solamente — tome E. B Street a Plum Avenue, Holt Boulevard, la I-10 al este, luego California Street — unas 25 millas y unos 33 minutos al este. El trayecto es al este. La I-10, la I-15 y el corredor ONT son corredores de choques en esta página, no la ruta a una oficina en Ontario. Llame al (909) 915-0181. Inglés o español. Solo dos prácticas: lesiones personales y bancarrota. Usted habla con él. Los casos de lesiones son a contingencia: sin honorarios a menos que ganemos.',
     ],
@@ -2552,7 +2552,7 @@ const PI_ES: Record<CitySlug, CityPageCopy> = {
       {
         h2: 'Choques de camiones en la I-10, la I-15 y el corredor ONT',
         paragraphs: [
-          'El tráfico de camiones comerciales en la I-10, la I-15 y el corredor del Aeropuerto Internacional de Ontario a través de la red de almacenes del Inland Empire produce las colisiones de carga que lideran este expediente. La presión de incorporación en el conjunto I-10 / I-15 y el tráfico de distribución alrededor de las pistas de carga aérea de ONT provocan choques por alcance y arrastre antes de que la carga despeje los corredores del valle. Después de una colisión grave, preserve la descarga del ECM, las grabaciones de dashcam y el expediente de calificación del conductor antes de que las aseguradoras dispersen la evidencia. Las demandas civiles ilimitadas de Ontario se presentan en el Tribunal Superior del Condado de San Bernardino / Justice Center, 247 W. 3rd Street, San Bernardino — unas 24 millas y unos 33 minutos al este desde el Ayuntamiento de Ontario en 303 E. B Street. Ontario figura en la lista de Áreas Atendidas del tribunal en esa dirección — no en 4050 Main Street en Riverside, no en Tahquitz Canyon Way, no en 8303 Haven Avenue, no en Arrow Boulevard, y no en 400 N. Pepper. Esta es la página del corredor I-10 / I-15 / ONT de Ontario — no la página de carga de Fontana en la I-10 / I-15 / Sierra, no el conjunto Haven de Rancho Cucamonga, no Colton Crossing / Mt Vernon, ni el conjunto 60 / 91 / 215 de Riverside. Las demandas por muerte injusta y lesión cerebral traumática de estos choques permanecen en esta URL.',
+          'El tráfico de camiones comerciales en la I-10, la I-15 y el corredor del Aeropuerto Internacional de Ontario a través de la red de almacenes del Inland Empire produce las colisiones de carga que lideran los casos más frecuentes en esta página. La presión de incorporación en el conjunto I-10 / I-15 y el tráfico de distribución alrededor de las rutas de carga aérea de ONT provocan choques por alcance y choques en que el vehículo se monta sobre otro (override) antes de que la carga despeje los corredores del valle. Después de una colisión grave, preserve la descarga del ECM, las grabaciones de cámara del tablero (dashcam) y el expediente de calificación del conductor antes de que las aseguradoras dispersen la evidencia. Las demandas civiles de cuantía ilimitada de Ontario se presentan en el Tribunal Superior del Condado de San Bernardino / Justice Center, 247 W. 3rd Street, San Bernardino — unas 24 millas y unos 33 minutos al este desde el Ayuntamiento de Ontario en 303 E. B Street. Ontario figura en la lista de Áreas Atendidas del tribunal en esa dirección — no en 4050 Main Street en Riverside, no en Tahquitz Canyon Way, no en 8303 Haven Avenue, no en Arrow Boulevard, y no en 400 N. Pepper. Esta es la página del corredor I-10 / I-15 / ONT de Ontario — no la página de carga de Fontana en la I-10 / I-15 / Sierra, no el conjunto Haven de Rancho Cucamonga, no Colton Crossing / Mt Vernon, ni el conjunto 60 / 91 / 215 de Riverside. Las demandas por muerte injusta y lesión cerebral traumática de estos choques permanecen en esta URL.',
         ],
       },
       {
@@ -2564,7 +2564,7 @@ const PI_ES: Record<CitySlug, CityPageCopy> = {
       {
         h2: 'Muerte injusta — legitimación bajo el CCP §377.60 en 247 W. 3rd Street',
         paragraphs: [
-          'Quién puede presentar la demanda se confirma en la consulta bajo el Código de Procedimiento Civil de California §377.60 — no inventamos veredictos ni historias de acuerdos. Los expedientes civiles ilimitados de Ontario se presentan en el Tribunal Superior del Condado de San Bernardino / Justice Center, 247 W. 3rd Street, San Bernardino — no en 4050 Main Street en Riverside, no en Tahquitz Canyon Way, no en 8303 Haven Avenue, no en Arrow Boulevard, y no en 400 N. Pepper. El tribunal está unas 24 millas y unos 33 minutos al este del Ayuntamiento de Ontario en 303 E. B Street. El plazo general de dos años del CCP §335.1 rige la mayoría de las demandas por lesiones; contra una entidad pública puede hacer falta aviso escrito de seis meses conforme al Código de Gobierno §911.2 antes de demandar.',
+          'Quién puede presentar la demanda se confirma en la consulta bajo el Código de Procedimiento Civil de California §377.60 — no inventamos veredictos ni historias de acuerdos. Los casos civiles de cuantía ilimitada de Ontario se presentan en el Tribunal Superior del Condado de San Bernardino / Justice Center, 247 W. 3rd Street, San Bernardino — no en 4050 Main Street en Riverside, no en Tahquitz Canyon Way, no en 8303 Haven Avenue, no en Arrow Boulevard, y no en 400 N. Pepper. El tribunal está unas 24 millas y unos 33 minutos al este del Ayuntamiento de Ontario en 303 E. B Street. El plazo general de dos años del CCP §335.1 rige la mayoría de las demandas por lesiones; contra una entidad pública puede hacer falta aviso escrito de seis meses conforme al Código de Gobierno §911.2 antes de demandar.',
         ],
       },
       {
@@ -2576,20 +2576,20 @@ const PI_ES: Record<CitySlug, CityPageCopy> = {
       {
         h2: 'Auto, motocicleta y mordeduras — Código Civil §3342',
         paragraphs: [
-          'Después de los cuatro tipos principales de reclamo, choques de auto, accidentes de motocicleta y mordeduras de perro bajo el Código Civil de California §3342 completan el expediente. Circular entre carriles en motocicleta es legal cuando se hace con seguridad; usar casco no invierte la culpa. No manejamos reclamos por resbalones y caídas.',
+          'Después de los cuatro tipos principales de reclamo, choques de auto, accidentes de motocicleta y mordeduras de perro bajo el Código Civil de California §3342 completan los casos que atendemos. Circular entre carriles en motocicleta es legal cuando se hace con seguridad; usar casco no invierte la culpa. No manejamos reclamos por resbalones y caídas.',
         ],
       },
       {
         h2: '(909) 915-0181 — Orange Tree Lane, al este',
         paragraphs: [
-          'Horario: lunes a viernes 9am–6pm, sábado 10am–4pm, domingo con cita. Lesiones graves pueden contactar la oficina las 24 horas para consulta de emergencia. Desde Ontario, la consulta es unas 25 millas y unos 33 minutos al este por E. B Street, Plum Avenue, Holt Boulevard, la I-10 al este y California Street — no un local en Ontario. Si el mismo choque hunde el hogar, la misma llamada al (909) 915-0181 presenta el Capítulo 7 o 13 en el Tribunal de Bancarrota de EE. UU., 3420 Twelfth Street, Riverside — unas 20.5 millas y unos 28 minutos al este-sureste; la presentación de bancarrota puede estar más cerca que la consulta en Orange Tree Lane, pero la consulta de lesiones personales permanece en Orange Tree. Palm Springs es solo la segunda oficina — 1276 N Palm Canyon Dr #107, (760) 835-9353 — unas 70.5 millas y unos 83 minutos al este-sureste.',
+          'Horario: lunes a viernes 9am–6pm, sábado 10am–4pm, domingo con cita. Lesiones graves pueden contactar la oficina las 24 horas para consulta de emergencia. Desde Ontario, la consulta es unas 25 millas y unos 33 minutos al este por E. B Street, Plum Avenue, Holt Boulevard, la I-10 al este y California Street — no un local en Ontario. Si el mismo choque deja a la familia en crisis económica, la misma llamada al (909) 915-0181 presenta el Capítulo 7 o 13 en el Tribunal de Bancarrota de EE. UU., 3420 Twelfth Street, Riverside — unas 20.5 millas y unos 28 minutos al este-sureste; la presentación de bancarrota puede estar más cerca que la consulta en Orange Tree Lane, pero la consulta de lesiones personales permanece en Orange Tree. Palm Springs es solo la segunda oficina — 1276 N Palm Canyon Dr #107, (760) 835-9353 — unas 70.5 millas y unos 83 minutos al este-sureste.',
         ],
       },
     ],
   },
   coachella: {
     h1: 'Abogado de lesiones personales en Coachella',
-    title: 'Abogado de Lesiones Personales en Coachella | Lombera Law',
+    title: 'Abogado de Lesiones Personales en Coachella | Consulta Gratis | Lombera Law',
     description:
       'Camiones, Uber, muerte injusta y lesiones catastróficas en choques de la I-10 / SR-86 del valle este en Coachella. Oficina en 1276 N Palm Canyon Dr #107, Palm Springs — unas 28.5 millas y unos 35 minutos al oeste-noroeste. (760) 835-9353.',
     lead: [
@@ -2599,19 +2599,19 @@ const PI_ES: Record<CitySlug, CityPageCopy> = {
       {
         h2: 'Choques de camiones en la I-10 y el corredor de carga del valle este',
         paragraphs: [
-          'Avenue 52, el conector SR-86, Harrison Street y el tráfico de camiones comerciales en la I-10 a través del valle este producen las colisiones de carga que lideran este expediente. Los transportistas agrícolas, los ciclos de entrega de almacén y la presión de incorporación en la I-10 en el intercambio SR-86 provocan choques por alcance y arrastre antes de que la carga despeje los corredores comerciales del valle. Después de una colisión grave, preserve la descarga del ECM, las grabaciones de dashcam y el expediente de calificación del conductor antes de que las aseguradoras dispersen la evidencia. Las demandas civiles ilimitadas de Coachella se presentan en el Tribunal Superior del Condado de Riverside — Tribunal de Palm Springs, 3255 E. Tahquitz Canyon Way — unas 25.5 millas y unos 34 minutos al oeste-noroeste desde el Centro Cívico de Coachella en 53990 Enterprise Way. Este es el corredor I-10 / SR-86 del valle este de Coachella — no la cuadrícula de festivales Jackson / Monroe de Indio, no el conjunto de resort Eisenhower de La Quinta, no la página Date Palm / Ramon de Cathedral City, ni la copia de carga de Fontana o Colton. Las demandas por muerte injusta y lesión cerebral traumática de estos choques permanecen en esta URL.',
+          'Avenue 52, el conector SR-86, Harrison Street y el tráfico de camiones comerciales en la I-10 a través del valle este producen las colisiones de carga que lideran los casos más frecuentes en esta página. Los transportistas agrícolas, los ciclos de entrega de almacén y la presión de incorporación en la I-10 en el intercambio SR-86 provocan choques por alcance y choques en que el vehículo se monta sobre otro (override) antes de que la carga despeje los corredores comerciales del valle. Después de una colisión grave, preserve la descarga del ECM, las grabaciones de cámara del tablero (dashcam) y el expediente de calificación del conductor antes de que las aseguradoras dispersen la evidencia. Las demandas civiles de cuantía ilimitada de Coachella se presentan en el Tribunal Superior del Condado de Riverside — Tribunal de Palm Springs, 3255 E. Tahquitz Canyon Way — unas 25.5 millas y unos 34 minutos al oeste-noroeste desde el Centro Cívico de Coachella en 53990 Enterprise Way. Este es el corredor I-10 / SR-86 del valle este de Coachella — no la cuadrícula de festivales Jackson / Monroe de Indio, no el conjunto de resort Eisenhower de La Quinta, no la página Date Palm / Ramon de Cathedral City, ni la copia de carga de Fontana o Colton. Las demandas por muerte injusta y lesión cerebral traumática de estos choques permanecen en esta URL.',
         ],
       },
       {
         h2: 'Uber y Lyft en Harrison Street, Avenue 52 y Grapefruit Boulevard',
         paragraphs: [
-          'Harrison Street, Avenue 52, Grapefruit Boulevard y el conector SR-86 / I-10 transportan trayectos del valle este, tráfico de turnos agrícolas y picos de Uber y Lyft de eventos de fin de semana en Coachella. Las preguntas de cobertura empiezan por el estado de la app al choque; las respondemos en la intake, no publicando límites de póliza. Los reclamos de rideshare en Coachella se impulsan desde /es/lesiones-personales/coachella/, sin inventar una página /uber/ independiente.',
+          'Harrison Street, Avenue 52, Grapefruit Boulevard y el conector SR-86 / I-10 transportan trayectos del valle este, tráfico de turnos agrícolas y picos de Uber y Lyft de eventos de fin de semana en Coachella. Las preguntas de cobertura empiezan por el estado de la app al choque; las respondemos en la consulta inicial, no publicando límites de póliza. Los reclamos de transporte por aplicación (Uber/Lyft) en Coachella se impulsan desde /es/lesiones-personales/coachella/, sin inventar una página /uber/ independiente.',
         ],
       },
       {
         h2: 'Muerte injusta — legitimación bajo el CCP §377.60 en 3255 E. Tahquitz Canyon Way',
         paragraphs: [
-          'Quién puede presentar la demanda se confirma en la consulta bajo el Código de Procedimiento Civil de California §377.60 — no inventamos veredictos ni historias de acuerdos. Los expedientes civiles ilimitados de Coachella se presentan en el Tribunal Superior del Condado de Riverside — Tribunal de Palm Springs, 3255 E. Tahquitz Canyon Way — no en 4050 Main Street, no en 247 W. 3rd St., no en 8303 Haven Avenue, no en Oasis Street, y no en la División de Indio. El tribunal está unas 25.5 millas y unos 34 minutos al oeste-noroeste del Centro Cívico de Coachella en 53990 Enterprise Way. El plazo general de dos años del CCP §335.1 rige la mayoría de las demandas por lesiones; contra una entidad pública puede hacer falta aviso escrito de seis meses conforme al Código de Gobierno §911.2 antes de demandar.',
+          'Quién puede presentar la demanda se confirma en la consulta bajo el Código de Procedimiento Civil de California §377.60 — no inventamos veredictos ni historias de acuerdos. Los casos civiles de cuantía ilimitada de Coachella se presentan en el Tribunal Superior del Condado de Riverside — Tribunal de Palm Springs, 3255 E. Tahquitz Canyon Way — no en 4050 Main Street, no en 247 W. 3rd St., no en 8303 Haven Avenue, no en Oasis Street, y no en la División Indio. El tribunal está unas 25.5 millas y unos 34 minutos al oeste-noroeste del Centro Cívico de Coachella en 53990 Enterprise Way.',
         ],
       },
       {
@@ -2623,13 +2623,13 @@ const PI_ES: Record<CitySlug, CityPageCopy> = {
       {
         h2: 'Auto, motocicleta y mordeduras — Código Civil §3342',
         paragraphs: [
-          'Después de los cuatro tipos principales de reclamo, choques de auto, accidentes de motocicleta y mordeduras de perro bajo el Código Civil de California §3342 completan el expediente. Circular entre carriles en motocicleta es legal cuando se hace con seguridad; usar casco no invierte la culpa. No manejamos reclamos por resbalones y caídas.',
+          'Después de los cuatro tipos principales de reclamo, choques de auto, accidentes de motocicleta y mordeduras de perro bajo el Código Civil de California §3342 completan los casos que atendemos. Circular entre carriles en motocicleta es legal cuando se hace con seguridad; usar casco no invierte la culpa. No manejamos reclamos por resbalones y caídas. El plazo general de dos años del CCP §335.1 rige la mayoría de las demandas por lesiones; contra una entidad pública puede hacer falta aviso escrito de seis meses conforme al Código de Gobierno §911.2 antes de demandar.',
         ],
       },
       {
         h2: '(760) 835-9353 — 1276 N Palm Canyon Dr #107, al oeste-noroeste',
         paragraphs: [
-          'Horario: lunes a viernes 9am–6pm, sábado 10am–4pm, domingo con cita. Lesiones graves pueden contactar la oficina las 24 horas para consulta de emergencia. Desde Coachella, la consulta es unas 28.5 millas y unos 35 minutos al oeste-noroeste por Enterprise Way, Avenue 52, SR-86, la I-10 al oeste, Date Palm Drive, Vista Chino / CA-111 y N Palm Canyon Drive — no un local en Coachella. Si el mismo choque hunde el hogar, la misma llamada al (760) 835-9353 presenta el Capítulo 7 o 13 en el Tribunal de Bancarrota de EE. UU., 3420 Twelfth Street, Riverside — unas 79 millas y unos 92 minutos al oeste-noroeste. Redlands es solo la segunda oficina — 2068 Orange Tree Lane, Suite 220, (909) 915-0181 — unas 73 millas y unos 81 minutos al oeste-noroeste.',
+          'Horario: lunes a viernes 9am–6pm, sábado 10am–4pm, domingo con cita. Lesiones graves pueden contactar la oficina las 24 horas para consulta de emergencia. Desde Coachella, la consulta es unas 28.5 millas y unos 35 minutos al oeste-noroeste por Enterprise Way, Avenue 52, SR-86, la I-10 al oeste, Date Palm Drive, Vista Chino / CA-111 y N Palm Canyon Drive — no un local en Coachella. Si el mismo choque deja a la familia en crisis económica, la misma llamada al (760) 835-9353 presenta el Capítulo 7 o 13 en el Tribunal de Bancarrota de EE. UU., 3420 Twelfth Street, Riverside — unas 79 millas y unos 92 minutos al oeste-noroeste. Redlands es solo la segunda oficina — 2068 Orange Tree Lane, Suite 220, (909) 915-0181 — unas 73 millas y unos 81 minutos al oeste-noroeste.',
         ],
       },
     ],
@@ -2639,7 +2639,7 @@ const PI_ES: Record<CitySlug, CityPageCopy> = {
 const BK_ES: Record<CitySlug, CityPageCopy> = {
   fontana: {
     h1: 'Abogado de Bancarrota en Fontana',
-    title: 'Abogado de Bancarrota Fontana | Capítulo 7 y 13 | Inland Empire | Lombera',
+    title: 'Abogado de Bancarrota en Fontana | Capítulo 7 y 13 | Inland Empire | Lombera',
     description:
       'Capítulo 7 y Capítulo 13 para hogares de Fontana. Preparado en 2068 Orange Tree Lane, Redlands; presentado en 3420 Twelfth Street, Riverside. Alivio de embargo y ejecución hipotecaria. (909) 915-0181.',
     lead: [
@@ -2649,7 +2649,7 @@ const BK_ES: Record<CitySlug, CityPageCopy> = {
       {
         h2: 'Capítulo 7 — prueba de medios y eliminación sin activos',
         paragraphs: [
-          'El Capítulo 7 elimina la mayor parte de la deuda no garantizada cuando el hogar pasa la prueba de medios — tarjetas de crédito, facturas médicas de Kaiser y otros proveedores de Fontana, y saldos de deficiencia tras la recuperación de un vehículo de trayecto diario. Esta es una revisión de hogar del corredor de la I-10 en Orange Tree Lane, no un molino de volumen ni una reescritura del Paso de San Gorgonio. Un caso típico sin activos se elimina en unos 90 a 120 días cuando el síndico acepta la petición.',
+          'El Capítulo 7 elimina la mayor parte de la deuda no garantizada cuando el hogar pasa la prueba de medios — tarjetas de crédito, facturas médicas de Kaiser y otros proveedores de Fontana, y saldos de deficiencia tras la recuperación de un vehículo de trayecto diario. Esta es una revisión de hogar del corredor de la I-10 en Orange Tree Lane, no un despacho de casos en masa ni una reescritura del Paso de San Gorgonio. Un caso típico sin activos se elimina en unos 90 a 120 días cuando el síndico acepta la petición.',
         ],
       },
       {
@@ -2661,11 +2661,11 @@ const BK_ES: Record<CitySlug, CityPageCopy> = {
       {
         h2: 'Suspensión automática — embargo, ejecución hipotecaria, recuperación de vehículo',
         paragraphs: [
-          'La suspensión automática comienza el día que se presenta la petición — los embargos de salario de empleadores de Fontana, las ventas de ejecución hipotecaria programadas y los plazos de recuperación de vehículos se pausan para la mayoría de los acreedores. Presentar antes del próximo cheque o fecha de venta protege el tiempo que esperar consumiría.',
+          'La suspensión automática comienza el día que se presenta la petición — los embargos de salario de empleadores de Fontana, las ventas de ejecución hipotecaria programadas y los plazos de recuperación de vehículos se pausan para la mayoría de los acreedores. Presentar antes del próximo cheque o de la fecha de venta le da un tiempo que, si espera, se pierde.',
         ],
       },
       {
-        h2: 'Dónde presenta Fontana — 3420 Twelfth Street, Riverside',
+        h2: 'Dónde se presentan los casos de Fontana — 3420 Twelfth Street, Riverside',
         paragraphs: [
           'Toda bancarrota de consumidor de Fontana se presenta en el Tribunal de Bancarrota de EE. UU., Distrito Central de California, 3420 Twelfth Street, Riverside — unas 12 millas y 17 minutos al oeste-suroeste desde el escritorio en Orange Tree Lane por California Street, la I-10, la I-215 y Mission Inn Avenue. Eso no es el tribunal civil de 247 W. 3rd St., no es Sierra Avenue, no es Cherry Avenue, no es Hospitality Lane, no es 4050 Main Street, no es Tahquitz Canyon Way ni la División Indio. Las tarifas oficiales de presentación judicial son $338 para el Capítulo 7 y $313 para el Capítulo 13. La reunión de acreedores de la Sección 341 suele ser remota.',
         ],
@@ -2685,9 +2685,9 @@ const BK_ES: Record<CitySlug, CityPageCopy> = {
     ],
   },
   colton: {
-    h1: "Abogado de bancarrota en Colton — se presenta en Riverside",
-    title: "Abogado de Bancarrota Colton | Detener Embargo | Lombera",
-    description: "Bancarrota Capítulo 7 y 13 en Colton. Embargo de salario y defensa de ejecución hipotecaria. Tribunal Riverside. (909) 915-0181.",
+    h1: "Abogado de bancarrota en Colton — detenga el embargo de salario, se presenta en Riverside",
+    title: "Abogado de Bancarrota en Colton | Detener Embargo | Lombera",
+    description: "Bancarrota Capítulo 7 y 13 en Colton. Embargo de salario y defensa de ejecución hipotecaria. tribunal de Riverside. (909) 915-0181.",
     lead: [
       "Un embargo de salario o aviso de ejecución hipotecaria en Colton significa que el proceso del tribunal estatal ya está en marcha. La bancarrota detiene la mayor parte de la cobranza el día que se presenta un caso en el tribunal federal de Riverside. Edgar P. Lombera explica el Capítulo 7 y el Capítulo 13 en una consulta gratuita desde Redlands.",
     ],
@@ -2724,25 +2724,25 @@ const BK_ES: Record<CitySlug, CityPageCopy> = {
       {
         h2: 'Capítulo 7 — prueba de medios y eliminación sin activos',
         paragraphs: [
-          'El Capítulo 7 elimina la mayor parte de la deuda no garantizada cuando el hogar supera la prueba de medios — tarjetas de crédito, facturas médicas del corredor de Foothill y saldos por deficiencia después de un retiro de vehículo de traslado. Esta es una revisión del hogar de Rancho Cucamonga en el escritorio de Orange Tree Lane, no un molino de volumen. Un caso típico sin activos se libera en unos 90 a 120 días cuando el síndico acepta la petición.',
+          'El Capítulo 7 elimina la mayor parte de la deuda no garantizada cuando el hogar supera la prueba de medios — tarjetas de crédito, facturas médicas del corredor de Foothill y saldos por deficiencia después de un retiro de vehículo de traslado. Esta es una revisión del hogar de Rancho Cucamonga en el escritorio de Orange Tree Lane, no un despacho de casos en masa. Un caso típico sin activos se libera en unos 90 a 120 días cuando el síndico acepta la petición.',
         ],
       },
       {
         h2: 'Capítulo 13 — plan, atrasos y reducción forzada del saldo garantizado',
         paragraphs: [
-          'El Capítulo 13 integra los atrasos hipotecarios en un plan judicial de tres a cinco años y puede aplicar reducción forzada del saldo garantizado en ciertos saldos garantizados cuando el Código de Bancarrota lo permite — frecuente cuando un hogar de Rancho Cucamonga aún recibe salarios de parques logísticos en Milliken o del conjunto I-15 / I-210 pero se quedó atrás durante un despido o un evento médico. El plan es el alivio, no un complemento de defensa de ejecución hipotecaria vendido por separado.',
+          'El Capítulo 13 integra los atrasos hipotecarios en un plan judicial de tres a cinco años y puede reducir ciertos saldos garantizados (cramdown) cuando el Código de Bancarrota lo permite — frecuente cuando un hogar de Rancho Cucamonga aún recibe salarios de parques logísticos en Milliken o del conjunto I-15 / I-210 pero se quedó atrás durante un despido o un evento médico. El plan es el alivio, no un complemento de defensa de ejecución hipotecaria vendido por separado.',
         ],
       },
       {
         h2: 'Suspensión automática — embargo, ejecución hipotecaria, recuperación de vehículo',
         paragraphs: [
-          'La suspensión automática comienza el día que se presenta la petición — los embargos de salario ligados a empleadores de Rancho Cucamonga, las ventas de ejecución hipotecaria programadas y los plazos de recuperación de vehículos se detienen para la mayoría de los acreedores. Presentar antes del próximo cheque de pago o fecha de venta protege el tiempo que esperar quema.',
+          'La suspensión automática comienza el día que se presenta la petición — los embargos de salario ligados a empleadores de Rancho Cucamonga, las ventas de ejecución hipotecaria programadas y los plazos de recuperación de vehículos se detienen para la mayoría de los acreedores. Presentar antes del próximo cheque de pago o de la fecha de venta le da un tiempo que, si espera, se pierde.',
         ],
       },
       {
-        h2: 'Dónde presenta Rancho Cucamonga — 3420 Twelfth Street, Riverside',
+        h2: 'Dónde se presentan los casos de Rancho Cucamonga — 3420 Twelfth Street, Riverside',
         paragraphs: [
-          'Toda bancarrota de consumidor de Rancho Cucamonga se presenta en el Tribunal de Bancarrota de EE. UU., Distrito Central de California, 3420 Twelfth Street, Riverside — unas 12 millas y 17 minutos al suroeste desde el escritorio en 2068 Orange Tree Lane por California Street, la I-10 y la I-215. Ese edificio es el tribunal federal, no una suite de Lombera. No hay tribunal de bancarrota en Rancho Cucamonga. Las tarifas judiciales oficiales son $338 para el Capítulo 7 y $313 para el Capítulo 13. La reunión de acreedores de la Sección 341 a menudo se celebra de forma remota.',
+          'Toda bancarrota de consumidor de Rancho Cucamonga se presenta en el Tribunal de Bancarrota de EE. UU., Distrito Central de California, 3420 Twelfth Street, Riverside — unas 12 millas y 17 minutos al oeste-suroeste desde el escritorio en 2068 Orange Tree Lane por California Street, la I-10 y la I-215. Ese edificio es el tribunal federal, no una suite de Lombera. No hay tribunal de bancarrota en Rancho Cucamonga. Las tarifas judiciales oficiales son $338 para el Capítulo 7 y $313 para el Capítulo 13. La reunión de acreedores de la Sección 341 a menudo se celebra de forma remota.',
         ],
       },
       {
@@ -2755,11 +2755,11 @@ const BK_ES: Record<CitySlug, CityPageCopy> = {
   },
   beaumont: {
     h1: 'Abogado de Bancarrota en Beaumont',
-    title: 'Abogado de Bancarrota Beaumont | Capítulo 7 y Capítulo 13 | Inland Empire | Lombera',
+    title: 'Abogado de Bancarrota en Beaumont | Capítulo 7 y Capítulo 13 | Inland Empire | Lombera',
     description:
       'Capítulo 7 y Capítulo 13 para hogares de Beaumont. Preparado en 2068 Orange Tree Lane, Suite 220, Redlands; presentado en 3420 Twelfth Street, Riverside. Alivio de embargo y ejecución hipotecaria. (909) 915-0181.',
     lead: [
-      'Los embargos de salario y avisos de ejecución hipotecaria en Beaumont son cobranza del tribunal estatal hasta que se presenta una petición federal. Reúnase con Edgar P. Lombera en 2068 Orange Tree Lane, Suite 220, Redlands, CA 92374 — unas 19 millas y 23 minutos al noroeste desde el centro de Beaumont por Beaumont Avenue, la I-10 al oeste y California Street. Él prepara el Capítulo 7 y el Capítulo 13 en ese escritorio de Orange Tree. Usted habla con él. Inglés o español. Solo dos prácticas: lesiones personales y bancarrota. No hay local de Lombera en Beaumont. Todo caso de consumidor se presenta en el Tribunal de Bancarrota de EE. UU., 3420 Twelfth Street, Riverside — unas 12 millas y 17 minutos al suroeste desde la oficina de Redlands por California Street, la I-10 y la I-215. Llame al (909) 915-0181.',
+      'Los embargos de salario y avisos de ejecución hipotecaria en Beaumont son cobranza del tribunal estatal hasta que se presenta una petición federal. Reúnase con Edgar P. Lombera en 2068 Orange Tree Lane, Suite 220, Redlands, CA 92374 — unas 19 millas y 23 minutos al noroeste desde el centro de Beaumont por Beaumont Avenue, la I-10 al oeste y California Street. Él prepara el Capítulo 7 y el Capítulo 13 en ese escritorio de Orange Tree. Usted habla con él. Inglés o español. Solo dos prácticas: lesiones personales y bancarrota. No hay local de Lombera en Beaumont. Todo caso de consumidor se presenta en el Tribunal de Bancarrota de EE. UU., 3420 Twelfth Street, Riverside — unas 12 millas y 17 minutos al oeste-suroeste desde la oficina de Redlands por California Street, la I-10 y la I-215. Llame al (909) 915-0181.',
     ],
     sections: [
       {
@@ -2777,13 +2777,13 @@ const BK_ES: Record<CitySlug, CityPageCopy> = {
       {
         h2: 'Suspensión automática — embargo, ejecución hipotecaria, recuperación de vehículo',
         paragraphs: [
-          'La suspensión automática comienza el día que se presenta la petición — los embargos de salario vinculados a empleadores de Beaumont, las ventas de ejecución hipotecaria programadas y los plazos de recuperación de vehículos se pausan para la mayoría de los acreedores. Presentar antes del próximo cheque o fecha de venta protege el tiempo que esperar consumiría.',
+          'La suspensión automática comienza el día que se presenta la petición — los embargos de salario vinculados a empleadores de Beaumont, las ventas de ejecución hipotecaria programadas y los plazos de recuperación de vehículos se pausan para la mayoría de los acreedores. Presentar antes del próximo cheque o de la fecha de venta le da un tiempo que, si espera, se pierde.',
         ],
       },
       {
-        h2: 'Dónde presenta Beaumont — 3420 Twelfth Street, Riverside',
+        h2: 'Dónde se presentan los casos de Beaumont — 3420 Twelfth Street, Riverside',
         paragraphs: [
-          'Toda bancarrota de consumidor de Beaumont se presenta en el Tribunal de Bancarrota de EE. UU., Distrito Central de California, 3420 Twelfth Street, Riverside — unas 12 millas y 17 minutos al suroeste por California Street, la I-10 y la I-215 desde el escritorio en 2068 Orange Tree Lane en Redlands. Ese edificio es el tribunal, no una suite de Lombera. No hay tribunal de bancarrota en Beaumont. Las tarifas oficiales de presentación judicial son $338 para el Capítulo 7 y $313 para el Capítulo 13. La reunión de acreedores de la Sección 341 suele ser remota.',
+          'Toda bancarrota de consumidor de Beaumont se presenta en el Tribunal de Bancarrota de EE. UU., Distrito Central de California, 3420 Twelfth Street, Riverside — unas 12 millas y 17 minutos al oeste-suroeste por California Street, la I-10 y la I-215 desde el escritorio en 2068 Orange Tree Lane en Redlands. Ese edificio es el tribunal, no una suite de Lombera. No hay tribunal de bancarrota en Beaumont. Las tarifas oficiales de presentación judicial son $338 para el Capítulo 7 y $313 para el Capítulo 13. La reunión de acreedores de la Sección 341 suele ser remota.',
         ],
       },
       {
@@ -2796,7 +2796,7 @@ const BK_ES: Record<CitySlug, CityPageCopy> = {
   },
   'palm-springs': {
     h1: 'Abogado de Bancarrota en Palm Springs',
-    title: 'Abogado de Bancarrota Palm Springs | Capítulo 7 y Capítulo 13 | Inland Empire | Lombera',
+    title: 'Abogado de Bancarrota en Palm Springs | Capítulo 7 y Capítulo 13 | Inland Empire | Lombera',
     description:
       'Capítulo 7 y Capítulo 13 para hogares de Palm Springs. Preparado en 1276 N Palm Canyon Dr #107; presentado en 3420 Twelfth Street, Riverside. Alivio de embargo y ejecución hipotecaria. (760) 835-9353.',
     lead: [
@@ -2806,7 +2806,7 @@ const BK_ES: Record<CitySlug, CityPageCopy> = {
       {
         h2: 'Capítulo 7 — prueba de medios y eliminación sin activos',
         paragraphs: [
-          'El Capítulo 7 elimina la mayor parte de la deuda no garantizada cuando el hogar pasa la prueba de medios — tarjetas de crédito, facturas médicas del valle y saldos de deficiencia tras la recuperación de un vehículo. Esta es una revisión de hogar del Valle de Coachella en Palm Canyon Drive, no un molino de volumen enviado desde el Inland Empire. Un caso típico sin activos se elimina en unos 90 a 120 días cuando el síndico acepta la petición.',
+          'El Capítulo 7 elimina la mayor parte de la deuda no garantizada cuando el hogar pasa la prueba de medios — tarjetas de crédito, facturas médicas del valle y saldos de deficiencia tras la recuperación de un vehículo. Esta es una revisión de hogar del Valle de Coachella en Palm Canyon Drive, no un despacho de casos en masa enviado desde el Inland Empire. Un caso típico sin activos se elimina en unos 90 a 120 días cuando el síndico acepta la petición.',
         ],
       },
       {
@@ -2818,11 +2818,11 @@ const BK_ES: Record<CitySlug, CityPageCopy> = {
       {
         h2: 'Suspensión automática — embargo, ejecución hipotecaria, recuperación de vehículo',
         paragraphs: [
-          'La suspensión automática comienza el día que se presenta la petición — los embargos de salario vinculados a empleadores del valle, las ventas de ejecución hipotecaria programadas y los plazos de recuperación de vehículos se pausan para la mayoría de los acreedores. Presentar antes del próximo cheque o fecha de venta protege el tiempo que esperar consumiría.',
+          'La suspensión automática comienza el día que se presenta la petición — los embargos de salario vinculados a empleadores del valle, las ventas de ejecución hipotecaria programadas y los plazos de recuperación de vehículos se pausan para la mayoría de los acreedores. Presentar antes del próximo cheque o de la fecha de venta le da un tiempo que, si espera, se pierde.',
         ],
       },
       {
-        h2: 'Dónde presenta Palm Springs — 3420 Twelfth Street, Riverside',
+        h2: 'Dónde se presentan los casos de Palm Springs — 3420 Twelfth Street, Riverside',
         paragraphs: [
           'Toda bancarrota de consumidor de Palm Springs se presenta en el Tribunal de Bancarrota de EE. UU., Distrito Central de California, 3420 Twelfth Street, Riverside — unas 52 millas y 64 minutos al oeste por la Carretera 111 y la I-10 desde el escritorio en Palm Canyon Drive. Ese edificio es el tribunal, no una suite de Lombera. Eso no es el tribunal civil del condado en Palm Springs, no es 4050 Main Street, no es 247 W. 3rd St. ni la División Indio. No hay tribunal de bancarrota en Palm Springs. Las tarifas oficiales de presentación judicial son $338 para el Capítulo 7 y $313 para el Capítulo 13. La reunión de acreedores de la Sección 341 suele ser remota.',
         ],
@@ -2843,7 +2843,7 @@ const BK_ES: Record<CitySlug, CityPageCopy> = {
   },
   'palm-desert': {
     h1: 'Abogado de Bancarrota en Palm Desert',
-    title: 'Abogado de Bancarrota Palm Desert | Capítulo 7 y Capítulo 13 | Inland Empire | Lombera',
+    title: 'Abogado de Bancarrota en Palm Desert | Capítulo 7 y Capítulo 13 | Inland Empire | Lombera',
     description:
       'Capítulo 7 y Capítulo 13 para hogares de Palm Desert. Preparado en 1276 N Palm Canyon Dr #107, Palm Springs; presentado en 3420 Twelfth Street, Riverside. Alivio de embargo y ejecución hipotecaria. (760) 835-9353.',
     lead: [
@@ -2853,7 +2853,7 @@ const BK_ES: Record<CitySlug, CityPageCopy> = {
       {
         h2: 'Capítulo 7 — prueba de medios y eliminación sin activos',
         paragraphs: [
-          'El Capítulo 7 elimina la mayor parte de la deuda no garantizada cuando el hogar pasa la prueba de medios — tarjetas de crédito, facturas médicas del desierto y saldos de deficiencia tras la recuperación de un vehículo. Esta es una revisión de hogar del valle de Palm Desert en el escritorio de Palm Canyon, no un molino de volumen ni una página de Palm Springs con el nombre de la ciudad cambiado. Un caso típico sin activos se elimina en unos 90 a 120 días cuando el síndico acepta la petición.',
+          'El Capítulo 7 elimina la mayor parte de la deuda no garantizada cuando el hogar pasa la prueba de medios — tarjetas de crédito, facturas médicas del desierto y saldos de deficiencia tras la recuperación de un vehículo. Esta es una revisión de hogar del valle de Palm Desert en el escritorio de Palm Canyon, no un despacho de casos en masa ni una página de Palm Springs con el nombre de la ciudad cambiado. Un caso típico sin activos se elimina en unos 90 a 120 días cuando el síndico acepta la petición.',
         ],
       },
       {
@@ -2865,11 +2865,11 @@ const BK_ES: Record<CitySlug, CityPageCopy> = {
       {
         h2: 'Suspensión automática — embargo, ejecución hipotecaria, recuperación de vehículo',
         paragraphs: [
-          'La suspensión automática comienza el día que se presenta la petición — los embargos de salario vinculados a empleadores de Palm Desert, las ventas de ejecución hipotecaria programadas y los plazos de recuperación de vehículos se pausan para la mayoría de los acreedores. Presentar antes del próximo cheque o fecha de venta protege el tiempo que esperar consumiría.',
+          'La suspensión automática comienza el día que se presenta la petición — los embargos de salario vinculados a empleadores de Palm Desert, las ventas de ejecución hipotecaria programadas y los plazos de recuperación de vehículos se pausan para la mayoría de los acreedores. Presentar antes del próximo cheque o de la fecha de venta le da un tiempo que, si espera, se pierde.',
         ],
       },
       {
-        h2: 'Dónde presenta Palm Desert — 3420 Twelfth Street, Riverside',
+        h2: 'Dónde se presentan los casos de Palm Desert — 3420 Twelfth Street, Riverside',
         paragraphs: [
           'Toda bancarrota de consumidor de Palm Desert se presenta en el Tribunal de Bancarrota de EE. UU., Distrito Central de California, 3420 Twelfth Street, Riverside — unas 52 millas y 64 minutos al oeste por la Carretera 111 y la I-10 desde el escritorio en 1276 N Palm Canyon Dr en Palm Springs. Ese edificio es el tribunal, no una suite de Lombera. Eso no es el tribunal civil del condado en el valle, no es 4050 Main Street, no es 247 W. 3rd St. ni la División Indio. No hay tribunal de bancarrota en Palm Desert. Las tarifas oficiales de presentación judicial son $338 para el Capítulo 7 y $313 para el Capítulo 13. La reunión de acreedores de la Sección 341 suele ser remota.',
         ],
@@ -2890,7 +2890,7 @@ const BK_ES: Record<CitySlug, CityPageCopy> = {
   },
   'cathedral-city': {
     h1: 'Abogado de Bancarrota en Cathedral City',
-    title: 'Abogado de Bancarrota Cathedral City | Capítulo 7 y Capítulo 13 | Inland Empire | Lombera',
+    title: 'Abogado de Bancarrota en Cathedral City | Capítulo 7 y Capítulo 13 | Inland Empire | Lombera',
     description:
       'Capítulo 7 y Capítulo 13 para hogares de Cathedral City. Preparado en 1276 N Palm Canyon Dr #107, Palm Springs; presentado en 3420 Twelfth Street, Riverside. Alivio de embargo y ejecución hipotecaria. (760) 835-9353.',
     lead: [
@@ -2912,11 +2912,11 @@ const BK_ES: Record<CitySlug, CityPageCopy> = {
       {
         h2: 'Suspensión automática — embargo, ejecución hipotecaria, recuperación de vehículo',
         paragraphs: [
-          'La suspensión automática comienza el día que se presenta la petición — los embargos de salario vinculados a empleadores de Cathedral City, las ventas de ejecución hipotecaria programadas y los plazos de recuperación de vehículos se pausan para la mayoría de los acreedores. Presentar antes del próximo cheque o fecha de venta protege el tiempo que esperar consumiría.',
+          'La suspensión automática comienza el día que se presenta la petición — los embargos de salario vinculados a empleadores de Cathedral City, las ventas de ejecución hipotecaria programadas y los plazos de recuperación de vehículos se pausan para la mayoría de los acreedores. Presentar antes del próximo cheque o de la fecha de venta le da un tiempo que, si espera, se pierde.',
         ],
       },
       {
-        h2: 'Dónde presenta Cathedral City — 3420 Twelfth Street, Riverside',
+        h2: 'Dónde se presentan los casos de Cathedral City — 3420 Twelfth Street, Riverside',
         paragraphs: [
           'Toda bancarrota de consumidor de Cathedral City se presenta en el Tribunal de Bancarrota de EE. UU., Distrito Central de California, 3420 Twelfth Street, Riverside — unas 52 millas y 64 minutos al oeste por la Carretera 111 y la I-10 desde el escritorio en 1276 N Palm Canyon Dr en Palm Springs. Ese edificio es el tribunal, no una suite de Lombera. No hay tribunal de bancarrota en Cathedral City. Las tarifas oficiales de presentación judicial son $338 para el Capítulo 7 y $313 para el Capítulo 13. La reunión de acreedores de la Sección 341 suele ser remota.',
         ],
@@ -2931,7 +2931,7 @@ const BK_ES: Record<CitySlug, CityPageCopy> = {
   },
   indio: {
     h1: 'Abogado de Bancarrota en Indio',
-    title: 'Abogado de Bancarrota Indio | Capítulo 7 y Capítulo 13 | Inland Empire | Lombera',
+    title: 'Abogado de Bancarrota en Indio | Capítulo 7 y Capítulo 13 | Inland Empire | Lombera',
     description:
       'Capítulo 7 y Capítulo 13 para hogares de Indio. Preparado en 1276 N Palm Canyon Dr #107, Palm Springs; presentado en 3420 Twelfth Street, Riverside. Alivio de embargo y ejecución hipotecaria. (760) 835-9353.',
     lead: [
@@ -2953,11 +2953,11 @@ const BK_ES: Record<CitySlug, CityPageCopy> = {
       {
         h2: 'Suspensión automática — embargo, ejecución hipotecaria, recuperación de vehículo',
         paragraphs: [
-          'La suspensión automática comienza el día que se presenta la petición — los embargos de salario vinculados a empleadores de Indio, las ventas de ejecución hipotecaria programadas y los plazos de recuperación de vehículos se pausan para la mayoría de los acreedores. Presentar antes del próximo cheque o fecha de venta protege el tiempo que esperar consumiría.',
+          'La suspensión automática comienza el día que se presenta la petición — los embargos de salario vinculados a empleadores de Indio, las ventas de ejecución hipotecaria programadas y los plazos de recuperación de vehículos se pausan para la mayoría de los acreedores. Presentar antes del próximo cheque o de la fecha de venta le da un tiempo que, si espera, se pierde.',
         ],
       },
       {
-        h2: 'Dónde presenta Indio — 3420 Twelfth Street, Riverside',
+        h2: 'Dónde se presentan los casos de Indio — 3420 Twelfth Street, Riverside',
         paragraphs: [
           'Toda bancarrota de consumidor de Indio se presenta en el Tribunal de Bancarrota de EE. UU., Distrito Central de California, 3420 Twelfth Street, Riverside — unas 52 millas y 64 minutos al oeste por la Carretera 111 y la I-10 desde el escritorio en 1276 N Palm Canyon Dr en Palm Springs. Ese edificio es el tribunal, no una suite de Lombera. No hay tribunal de bancarrota en Indio. Las tarifas oficiales de presentación judicial son $338 para el Capítulo 7 y $313 para el Capítulo 13. La reunión de acreedores de la Sección 341 suele ser remota.',
         ],
@@ -2972,7 +2972,7 @@ const BK_ES: Record<CitySlug, CityPageCopy> = {
   },
   'la-quinta': {
     h1: 'Abogado de Bancarrota en La Quinta',
-    title: 'Abogado de Bancarrota La Quinta | Capítulo 7 y Capítulo 13 | Valle de Coachella | Lombera',
+    title: 'Abogado de Bancarrota en La Quinta | Capítulo 7 y Capítulo 13 | Valle de Coachella | Lombera',
     description:
       'Capítulo 7 y Capítulo 13 para hogares de La Quinta. Preparado en 1276 N Palm Canyon Dr #107, Palm Springs; presentado en 3420 Twelfth Street, Riverside. Alivio de embargo y ejecución hipotecaria. (760) 835-9353.',
     lead: [
@@ -2994,11 +2994,11 @@ const BK_ES: Record<CitySlug, CityPageCopy> = {
       {
         h2: 'Suspensión automática — embargo, ejecución hipotecaria, recuperación de vehículo',
         paragraphs: [
-          'La suspensión automática comienza el día que se presenta la petición — los embargos de salario vinculados a empleadores de La Quinta, las ventas de ejecución hipotecaria programadas y los plazos de recuperación de vehículos se pausan para la mayoría de los acreedores. Presentar antes del próximo cheque o fecha de venta protege el tiempo que esperar consumiría.',
+          'La suspensión automática comienza el día que se presenta la petición — los embargos de salario vinculados a empleadores de La Quinta, las ventas de ejecución hipotecaria programadas y los plazos de recuperación de vehículos se pausan para la mayoría de los acreedores. Presentar antes del próximo cheque o de la fecha de venta le da un tiempo que, si espera, se pierde.',
         ],
       },
       {
-        h2: 'Dónde presenta La Quinta — 3420 Twelfth Street, Riverside',
+        h2: 'Dónde se presentan los casos de La Quinta — 3420 Twelfth Street, Riverside',
         paragraphs: [
           'Toda bancarrota de consumidor de La Quinta se presenta en el Tribunal de Bancarrota de EE. UU., Distrito Central de California, 3420 Twelfth Street, Riverside — unas 52 millas y 64 minutos al oeste por la Carretera 111 y la I-10 desde el escritorio en 1276 N Palm Canyon Dr en Palm Springs. Ese edificio es el tribunal, no una suite de Lombera. No hay tribunal de bancarrota en La Quinta. Las tarifas oficiales de presentación judicial son $338 para el Capítulo 7 y $313 para el Capítulo 13. La reunión de acreedores de la Sección 341 suele ser remota.',
         ],
@@ -3013,7 +3013,7 @@ const BK_ES: Record<CitySlug, CityPageCopy> = {
   },
   redlands: {
     h1: 'Abogado de Bancarrota en Redlands',
-    title: 'Abogado de Bancarrota Redlands | Capítulo 7 y 13 | Inland Empire | Lombera',
+    title: 'Abogado de Bancarrota en Redlands | Capítulo 7 y 13 | Inland Empire | Lombera',
     description:
       'Capítulo 7 y Capítulo 13 en 2068 Orange Tree Lane, Suite 220, Redlands. Presentado en 3420 Twelfth Street, Riverside. Alivio de embargo y ejecución hipotecaria. (909) 915-0181.',
     lead: [
@@ -3027,9 +3027,9 @@ const BK_ES: Record<CitySlug, CityPageCopy> = {
         ],
       },
       {
-        h2: 'Capítulo 13 — plan, atrasos y cramdown',
+        h2: 'Capítulo 13 — plan, atrasos y reducción forzada del saldo garantizado',
         paragraphs: [
-          'El Capítulo 13 pone al día los atrasos de la hipoteca en tres a cinco años y puede hacer cramdown de ciertas deudas garantizadas cuando el código lo permite. Los propietarios de Redlands atrasados en la hipoteca o con fecha de venta usan el plan para forzar una pausa y una recuperación estructurada — no un producto separado de defensa de ejecución hipotecaria.',
+          'El Capítulo 13 pone al día los atrasos de la hipoteca en tres a cinco años y puede reducir ciertas deudas garantizadas (cramdown) cuando el código lo permite. Los propietarios de Redlands atrasados en la hipoteca o con fecha de venta usan el plan para forzar una pausa y una recuperación estructurada — no un producto separado de defensa de ejecución hipotecaria.',
         ],
       },
       {
@@ -3039,7 +3039,7 @@ const BK_ES: Record<CitySlug, CityPageCopy> = {
         ],
       },
       {
-        h2: 'Dónde presenta Redlands — 3420 Twelfth Street, Riverside',
+        h2: 'Dónde se presentan los casos de Redlands — 3420 Twelfth Street, Riverside',
         paragraphs: [
           'Toda bancarrota de consumidor de Redlands se presenta en el Tribunal de Bancarrota de EE. UU., Distrito Central de California, 3420 Twelfth Street, Riverside — unas 12 millas y 17 minutos al oeste-suroeste por California Street, la I-10, la I-215 y Mission Inn Avenue. Eso no es el tribunal civil de 4050 Main Street, no es 247 W. 3rd St., no es Tahquitz Canyon Way, ni la División Indio. Las tarifas oficiales de presentación judicial son $338 para el Capítulo 7 y $313 para el Capítulo 13. La reunión de acreedores de la Sección 341 suele ser remota.',
         ],
@@ -3060,17 +3060,17 @@ const BK_ES: Record<CitySlug, CityPageCopy> = {
   },
   'san-bernardino': {
     h1: 'Abogado de Bancarrota en San Bernardino',
-    title: 'Abogado de Bancarrota San Bernardino | Capítulo 7 y 13 | Inland Empire | Lombera',
+    title: 'Abogado de Bancarrota en San Bernardino | Capítulo 7 y 13 | Inland Empire | Lombera',
     description:
       'Capítulo 7 y Capítulo 13 para hogares de San Bernardino. Preparado en 2068 Orange Tree Lane, Redlands; presentado en 3420 Twelfth Street, Riverside. Alivio de embargo y ejecución hipotecaria. (909) 915-0181.',
     lead: [
-      'No hay suite de Lombera en Hospitality Lane, 255 N D Street ni 247 W. 3rd Street. Los embargos de salario y avisos de ejecución hipotecaria en San Bernardino son cobranza del tribunal estatal hasta que se presenta una petición federal. Reúnase con Edgar P. Lombera en 2068 Orange Tree Lane, Suite 220, Redlands, CA 92374 — unas 8 millas y 14 minutos al sureste por la I-10 desde el centro de San Bernardino. Él prepara el Capítulo 7 y el Capítulo 13 aquí. Usted habla con él. Inglés o español. Solo dos prácticas: lesiones personales y bancarrota. Todo caso de consumidor se presenta en el Tribunal de Bancarrota de EE. UU., 3420 Twelfth Street, Riverside — no hay tribunal de bancarrota en San Bernardino. Llame al (909) 915-0181.',
+      'No hay suite de Lombera en Hospitality Lane, 255 N D Street ni 247 W. 3rd Street. Los embargos de salario y avisos de ejecución hipotecaria en San Bernardino son cobranza del tribunal estatal hasta que se presenta una petición federal. Reúnase con Edgar P. Lombera en 2068 Orange Tree Lane, Suite 220, Redlands, CA 92374 — unas 8 millas y 14 minutos al este-sureste por la I-10 desde el centro de San Bernardino. Él prepara el Capítulo 7 y el Capítulo 13 aquí. Usted habla con él. Inglés o español. Solo dos prácticas: lesiones personales y bancarrota. Todo caso de consumidor se presenta en el Tribunal de Bancarrota de EE. UU., 3420 Twelfth Street, Riverside — no hay tribunal de bancarrota en San Bernardino. Llame al (909) 915-0181.',
     ],
     sections: [
       {
         h2: 'Capítulo 7 — prueba de medios y eliminación sin activos',
         paragraphs: [
-          'El Capítulo 7 elimina la mayor parte de la deuda no garantizada cuando el hogar pasa la prueba de medios — tarjetas de crédito, facturas médicas de proveedores de San Bernardino y saldos de deficiencia tras la recuperación de un vehículo. Esta es una revisión de hogar del Inland Empire en Orange Tree Lane, no un molino de volumen. Un caso típico sin activos se elimina en unos 90 a 120 días cuando el síndico acepta la petición.',
+          'El Capítulo 7 elimina la mayor parte de la deuda no garantizada cuando el hogar pasa la prueba de medios — tarjetas de crédito, facturas médicas de proveedores de San Bernardino y saldos de deficiencia tras la recuperación de un vehículo. Esta es una revisión de hogar del Inland Empire en Orange Tree Lane, no un despacho de casos en masa. Un caso típico sin activos se elimina en unos 90 a 120 días cuando el síndico acepta la petición.',
         ],
       },
       {
@@ -3082,11 +3082,11 @@ const BK_ES: Record<CitySlug, CityPageCopy> = {
       {
         h2: 'Suspensión automática — embargo, ejecución hipotecaria, recuperación de vehículo',
         paragraphs: [
-          'La suspensión automática comienza el día que se presenta la petición — los embargos de salario vinculados a empleadores de San Bernardino, las ventas de ejecución hipotecaria programadas y los plazos de recuperación de vehículos se pausan para la mayoría de los acreedores. Presentar antes del próximo cheque o fecha de venta protege el tiempo que esperar consumiría.',
+          'La suspensión automática comienza el día que se presenta la petición — los embargos de salario vinculados a empleadores de San Bernardino, las ventas de ejecución hipotecaria programadas y los plazos de recuperación de vehículos se pausan para la mayoría de los acreedores. Presentar antes del próximo cheque o de la fecha de venta le da un tiempo que, si espera, se pierde.',
         ],
       },
       {
-        h2: 'Dónde presenta San Bernardino — 3420 Twelfth Street, Riverside',
+        h2: 'Dónde se presentan los casos de San Bernardino — 3420 Twelfth Street, Riverside',
         paragraphs: [
           'Toda bancarrota de consumidor del condado de San Bernardino se presenta en el Tribunal de Bancarrota de EE. UU., Distrito Central de California, 3420 Twelfth Street, Riverside — unas 12 millas y 17 minutos al oeste-suroeste desde el escritorio en Orange Tree Lane por California Street, la I-10, la I-215 y Mission Inn Avenue. Eso no es el tribunal civil de 247 W. 3rd St., no es Hospitality Lane, no es 255 N D Street, no es 4050 Main Street, no es Tahquitz Canyon Way ni la División Indio. Las tarifas oficiales de presentación judicial son $338 para el Capítulo 7 y $313 para el Capítulo 13. La reunión de acreedores de la Sección 341 suele ser remota.',
         ],
@@ -3100,14 +3100,14 @@ const BK_ES: Record<CitySlug, CityPageCopy> = {
       {
         h2: '(909) 915-0181 — Orange Tree Lane',
         paragraphs: [
-          'Horario: lunes a viernes 9am–6pm, sábado 10am–4pm, domingo con cita. Desde San Bernardino, la consulta es unas 8 millas y 14 minutos al sureste por la I-10 — no un local en el centro. Palm Springs es la otra oficina — 1276 N Palm Canyon Dr #107, (760) 835-9353. Somos una agencia de alivio de deudas. Ayudamos a las personas a solicitar alivio de bancarrota bajo el Código de Bancarrota (11 U.S.C. §528).',
+          'Horario: lunes a viernes 9am–6pm, sábado 10am–4pm, domingo con cita. Desde San Bernardino, la consulta es unas 8 millas y 14 minutos al este-sureste por la I-10 — no un local en el centro. Palm Springs es la otra oficina — 1276 N Palm Canyon Dr #107, (760) 835-9353. Somos una agencia de alivio de deudas. Ayudamos a las personas a solicitar alivio de bancarrota bajo el Código de Bancarrota (11 U.S.C. §528).',
         ],
       },
     ],
   },
   riverside: {
     h1: 'Abogado de Bancarrota en Riverside',
-    title: 'Abogado de Bancarrota Riverside | Capítulo 7 y Capítulo 13 | Inland Empire | Lombera',
+    title: 'Abogado de Bancarrota en Riverside | Capítulo 7 y Capítulo 13 | Inland Empire | Lombera',
     description:
       'Capítulo 7 y Capítulo 13 para hogares de Riverside. Preparado en 2068 Orange Tree Lane, Redlands; presentado en 3420 Twelfth Street, Riverside. Alivio de embargo y ejecución hipotecaria. (909) 915-0181.',
     lead: [
@@ -3117,7 +3117,7 @@ const BK_ES: Record<CitySlug, CityPageCopy> = {
       {
         h2: 'Capítulo 7 — prueba de medios y eliminación sin activos',
         paragraphs: [
-          'El Capítulo 7 elimina la mayor parte de la deuda no garantizada cuando el hogar pasa la prueba de medios — tarjetas de crédito, facturas de hospitales y clínicas de Riverside, y saldos de deficiencia tras la recuperación de un vehículo. Esta es una revisión de hogar de la sede del condado en Orange Tree Lane, no un molino de volumen. Un caso típico sin activos se elimina en unos 90 a 120 días cuando el síndico acepta la petición.',
+          'El Capítulo 7 elimina la mayor parte de la deuda no garantizada cuando el hogar pasa la prueba de medios — tarjetas de crédito, facturas de hospitales y clínicas de Riverside, y saldos de deficiencia tras la recuperación de un vehículo. Esta es una revisión de hogar de la sede del condado en Orange Tree Lane, no un despacho de casos en masa. Un caso típico sin activos se elimina en unos 90 a 120 días cuando el síndico acepta la petición.',
         ],
       },
       {
@@ -3129,11 +3129,11 @@ const BK_ES: Record<CitySlug, CityPageCopy> = {
       {
         h2: 'Suspensión automática — embargo, ejecución hipotecaria, recuperación de vehículo',
         paragraphs: [
-          'La suspensión automática comienza el día que se presenta la petición — los embargos de salario vinculados a empleadores de Riverside, las ventas de ejecución hipotecaria programadas y los plazos de recuperación de vehículos se pausan para la mayoría de los acreedores. Presentar antes del próximo cheque o fecha de venta protege el tiempo que esperar consumiría.',
+          'La suspensión automática comienza el día que se presenta la petición — los embargos de salario vinculados a empleadores de Riverside, las ventas de ejecución hipotecaria programadas y los plazos de recuperación de vehículos se pausan para la mayoría de los acreedores. Presentar antes del próximo cheque o de la fecha de venta le da un tiempo que, si espera, se pierde.',
         ],
       },
       {
-        h2: 'Dónde presenta Riverside — 3420 Twelfth Street, en esta ciudad',
+        h2: 'Dónde se presentan los casos de Riverside — 3420 Twelfth Street, en esta ciudad',
         paragraphs: [
           'Las bancarrotas de consumidor de Riverside se presentan en esta ciudad en el Tribunal de Bancarrota de EE. UU., Distrito Central de California, 3420 Twelfth Street — unas 0.5 millas y 2 minutos al sur del ayuntamiento en 3900 Main Street. Ese edificio es el tribunal, no una suite de Lombera. Las peticiones se preparan en 2068 Orange Tree Lane en Redlands — unas 12 millas y 17 minutos al este por Mission Inn Avenue, la CA-91 y la I-10 al este. Eso no es el tribunal civil de 4050 Main Street, no es 247 W. 3rd St., no es Tahquitz Canyon Way ni la División Indio. Las tarifas oficiales de presentación judicial son $338 para el Capítulo 7 y $313 para el Capítulo 13. La reunión de acreedores de la Sección 341 suele ser remota.',
         ],
@@ -3154,7 +3154,7 @@ const BK_ES: Record<CitySlug, CityPageCopy> = {
   },
   'moreno-valley': {
     h1: 'Abogado de Bancarrota en Moreno Valley',
-    title: 'Abogado de Bancarrota Moreno Valley | Capítulo 7 y Capítulo 13 | Inland Empire | Lombera',
+    title: 'Abogado de Bancarrota en Moreno Valley | Capítulo 7 y Capítulo 13 | Inland Empire | Lombera',
     description:
       'Capítulo 7 y Capítulo 13 para hogares de Moreno Valley. Preparado en 2068 Orange Tree Lane, Redlands; presentado en 3420 Twelfth Street, Riverside. Alivio de embargo y ejecución hipotecaria. (909) 915-0181.',
     lead: [
@@ -3164,7 +3164,7 @@ const BK_ES: Record<CitySlug, CityPageCopy> = {
       {
         h2: 'Capítulo 7 — prueba de medios y eliminación sin activos',
         paragraphs: [
-          'El Capítulo 7 elimina la mayor parte de la deuda no garantizada cuando el hogar pasa la prueba de medios — tarjetas de crédito, facturas médicas de Moreno Valley y saldos de deficiencia tras la recuperación de un vehículo de trayecto diario. Esta es una revisión de hogar del corredor de March ARB y almacenes en Orange Tree Lane, no un molino de volumen. Un caso típico sin activos se elimina en unos 90 a 120 días cuando el síndico acepta la petición.',
+          'El Capítulo 7 elimina la mayor parte de la deuda no garantizada cuando el hogar pasa la prueba de medios — tarjetas de crédito, facturas médicas de Moreno Valley y saldos de deficiencia tras la recuperación de un vehículo de trayecto diario. Esta es una revisión de hogar del corredor de March ARB y almacenes en Orange Tree Lane, no un despacho de casos en masa. Un caso típico sin activos se elimina en unos 90 a 120 días cuando el síndico acepta la petición.',
         ],
       },
       {
@@ -3176,13 +3176,13 @@ const BK_ES: Record<CitySlug, CityPageCopy> = {
       {
         h2: 'Suspensión automática — embargo, ejecución hipotecaria, recuperación de vehículo',
         paragraphs: [
-          'La suspensión automática comienza el día que se presenta la petición — los embargos de salario vinculados a empleadores de Moreno Valley, las ventas de ejecución hipotecaria programadas y los plazos de recuperación de vehículos se pausan para la mayoría de los acreedores. Presentar antes del próximo cheque o fecha de venta protege el tiempo que esperar consumiría.',
+          'La suspensión automática comienza el día que se presenta la petición — los embargos de salario vinculados a empleadores de Moreno Valley, las ventas de ejecución hipotecaria programadas y los plazos de recuperación de vehículos se pausan para la mayoría de los acreedores. Presentar antes del próximo cheque o de la fecha de venta le da un tiempo que, si espera, se pierde.',
         ],
       },
       {
-        h2: 'Dónde presenta Moreno Valley — 3420 Twelfth Street, Riverside',
+        h2: 'Dónde se presentan los casos de Moreno Valley — 3420 Twelfth Street, Riverside',
         paragraphs: [
-          'Toda bancarrota de consumidor de Moreno Valley se presenta en el Tribunal de Bancarrota de EE. UU., Distrito Central de California, 3420 Twelfth Street, Riverside — unas 10 millas y 16 minutos al noroeste desde el ayuntamiento en 14177 Frederick Street, o unas 12 millas y 17 minutos al suroeste desde el escritorio en Orange Tree Lane. Ese edificio es el tribunal, no una suite de Lombera. Eso no es el tribunal civil limitado de 13800 Heacock, no es 4050 Main Street, no es Sunnymead Boulevard, no es 247 W. 3rd St., no es Tahquitz Canyon Way ni la División Indio. Las tarifas oficiales de presentación judicial son $338 para el Capítulo 7 y $313 para el Capítulo 13. La reunión de acreedores de la Sección 341 suele ser remota.',
+          'Toda bancarrota de consumidor de Moreno Valley se presenta en el Tribunal de Bancarrota de EE. UU., Distrito Central de California, 3420 Twelfth Street, Riverside — unas 10 millas y 16 minutos al noroeste desde el ayuntamiento en 14177 Frederick Street, o unas 12 millas y 17 minutos al oeste-suroeste desde el escritorio en Orange Tree Lane. Ese edificio es el tribunal, no una suite de Lombera. Eso no es el tribunal civil limitado de 13800 Heacock, no es 4050 Main Street, no es Sunnymead Boulevard, no es 247 W. 3rd St., no es Tahquitz Canyon Way ni la División Indio. Las tarifas oficiales de presentación judicial son $338 para el Capítulo 7 y $313 para el Capítulo 13. La reunión de acreedores de la Sección 341 suele ser remota.',
         ],
       },
       {
@@ -3201,7 +3201,7 @@ const BK_ES: Record<CitySlug, CityPageCopy> = {
   },
   highland: {
     h1: "Abogado de bancarrota en Highland — se presenta en Riverside",
-    title: "Abogado de Bancarrota Highland | Lombera",
+    title: "Abogado de Bancarrota en Highland | Capítulo 7 y 13 | Lombera",
     description: "Bancarrota en Highland. Defensa de ejecución hipotecaria, embargo de salario, Capítulo 7 y 13. Riverside. (909) 915-0181.",
     lead: [
       "Propietarios e inquilinos de Highland con deuda de tarjetas de crédito, facturas médicas o una carta de ejecución hipotecaria pueden presentar bancarrota desde la oficina de Redlands. Las peticiones de consumidor van al Tribunal de Bancarrota de EE. UU., 3420 Twelfth Street, Riverside.",
@@ -3239,25 +3239,25 @@ const BK_ES: Record<CitySlug, CityPageCopy> = {
       {
         h2: 'Capítulo 7 — prueba de medios y eliminación sin activos',
         paragraphs: [
-          'El Capítulo 7 elimina la mayor parte de la deuda no garantizada cuando el hogar supera la prueba de medios — tarjetas de crédito, facturas médicas del Valle de San Jacinto y saldos por deficiencia después de un retiro de vehículo. Esta es una revisión del hogar de Hemet en Orange Tree Lane, no un molino de volumen. Un caso típico sin activos se libera en unos 90 a 120 días cuando el síndico acepta la petición.',
+          'El Capítulo 7 elimina la mayor parte de la deuda no garantizada cuando el hogar supera la prueba de medios — tarjetas de crédito, facturas médicas del Valle de San Jacinto y saldos por deficiencia después de un retiro de vehículo. Esta es una revisión del hogar de Hemet en Orange Tree Lane, no un despacho de casos en masa. Un caso típico sin activos se libera en unos 90 a 120 días cuando el síndico acepta la petición.',
         ],
       },
       {
         h2: 'Capítulo 13 — plan, atrasos y reducción forzada del saldo garantizado',
         paragraphs: [
-          'El Capítulo 13 integra los atrasos hipotecarios en un plan judicial de tres a cinco años y puede aplicar reducción forzada del saldo garantizado en ciertos saldos garantizados cuando el Código de Bancarrota lo permite — frecuente cuando un hogar de Hemet aún tiene salarios de empleadores del valle o ingresos de jubilación pero se quedó atrás durante un evento médico o presión de ingresos fijos. El plan es el alivio, no un complemento de defensa de ejecución hipotecaria vendido por separado.',
+          'El Capítulo 13 integra los atrasos hipotecarios en un plan judicial de tres a cinco años y puede reducir ciertos saldos garantizados (cramdown) cuando el Código de Bancarrota lo permite — frecuente cuando un hogar de Hemet aún tiene salarios de empleadores del valle o ingresos de jubilación pero se quedó atrás durante un evento médico o presión de ingresos fijos. El plan es el alivio, no un complemento de defensa de ejecución hipotecaria vendido por separado.',
         ],
       },
       {
         h2: 'Suspensión automática — embargo, ejecución hipotecaria, recuperación de vehículo',
         paragraphs: [
-          'La suspensión automática comienza el día que se presenta la petición — los embargos de salario ligados a empleadores de Hemet, las ventas de ejecución hipotecaria programadas y los plazos de recuperación de vehículos se detienen para la mayoría de los acreedores. Presentar antes del próximo cheque de pago o fecha de venta protege el tiempo que esperar quema.',
+          'La suspensión automática comienza el día que se presenta la petición — los embargos de salario ligados a empleadores de Hemet, las ventas de ejecución hipotecaria programadas y los plazos de recuperación de vehículos se detienen para la mayoría de los acreedores. Presentar antes del próximo cheque de pago o de la fecha de venta le da un tiempo que, si espera, se pierde.',
         ],
       },
       {
-        h2: 'Dónde presenta Hemet — 3420 Twelfth Street, Riverside',
+        h2: 'Dónde se presentan los casos de Hemet — 3420 Twelfth Street, Riverside',
         paragraphs: [
-          'Toda bancarrota de consumidor de Hemet se presenta en el Tribunal de Bancarrota de EE. UU., Distrito Central de California, 3420 Twelfth Street, Riverside — unas 12 millas y 17 minutos al suroeste desde el escritorio en Orange Tree Lane por California Street, la I-10 y la I-215. Ese edificio es el tribunal federal, no una suite de Lombera. No hay tribunal de bancarrota en Hemet. Las tarifas judiciales oficiales son $338 para el Capítulo 7 y $313 para el Capítulo 13. La reunión de acreedores de la Sección 341 a menudo se celebra de forma remota.',
+          'Toda bancarrota de consumidor de Hemet se presenta en el Tribunal de Bancarrota de EE. UU., Distrito Central de California, 3420 Twelfth Street, Riverside — unas 12 millas y 17 minutos al oeste-suroeste desde el escritorio en Orange Tree Lane por California Street, la I-10 y la I-215. Ese edificio es el tribunal federal, no una suite de Lombera. No hay tribunal de bancarrota en Hemet. Las tarifas judiciales oficiales son $338 para el Capítulo 7 y $313 para el Capítulo 13. La reunión de acreedores de la Sección 341 a menudo se celebra de forma remota.',
         ],
       },
       {
@@ -3269,8 +3269,8 @@ const BK_ES: Record<CitySlug, CityPageCopy> = {
     ],
   },
   'desert-hot-springs': {
-    h1: "Abogado de bancarrota en Desert Hot Springs — se presenta en Riverside",
-    title: "Abogado de Bancarrota Desert Hot Springs | Lombera",
+    h1: "Abogado de bancarrota en Desert Hot Springs — se presenta en Riverside, no en Indio",
+    title: "Abogado de Bancarrota en Desert Hot Springs | Capítulo 7 y 13 | Lombera",
     description: "Bancarrota en Desert Hot Springs. Capítulo 7 y 13 presentados en Riverside. Oficina Palm Springs (760) 835-9353.",
     lead: [
       "Las familias de Desert Hot Springs pueden consultar en la oficina de Palm Springs y presentar bancarrota en el Tribunal de Bancarrota de EE. UU. en Riverside — 3420 Twelfth Street. Capítulo 7 y Capítulo 13, defensa de ejecución hipotecaria y alivio del embargo de salario.",
@@ -3298,7 +3298,7 @@ const BK_ES: Record<CitySlug, CityPageCopy> = {
   },
   yucaipa: {
     h1: "Abogado de bancarrota en Yucaipa — se presenta en Riverside",
-    title: "Abogado de Bancarrota Yucaipa | Lombera",
+    title: "Abogado de Bancarrota en Yucaipa | Detener Embargo | Lombera",
     description: "Bancarrota en Yucaipa. Defensa de ejecución hipotecaria, embargo de salario, Capítulo 7 y 13. Riverside. (909) 915-0181.",
     lead: [
       "Un embargo de salario o aviso de ejecución hipotecaria en Yucaipa significa que el proceso en tribunal estatal ya avanza. La bancarrota detiene la mayoría de las cobranzas el día que se presenta la petición en el tribunal federal de Riverside. Edgar P. Lombera explica el Capítulo 7 y el Capítulo 13 en una consulta gratuita desde Redlands.",
@@ -3326,7 +3326,7 @@ const BK_ES: Record<CitySlug, CityPageCopy> = {
   },
   ontario: {
     h1: "Abogado de bancarrota en Ontario — se presenta en Riverside",
-    title: "Abogado de Bancarrota Ontario | Lombera",
+    title: "Abogado de Bancarrota en Ontario | Detener Embargo | Lombera",
     description: "Bancarrota en Ontario, California. Defensa de ejecución hipotecaria, embargo de salario, Capítulo 7 y 13. Riverside. (909) 915-0181.",
     lead: [
       "Un embargo de salario o aviso de ejecución hipotecaria en Ontario significa que el proceso en tribunal estatal ya avanza. La bancarrota detiene la mayoría de las cobranzas el día que se presenta la petición en el tribunal federal de Riverside. Edgar P. Lombera explica el Capítulo 7 y el Capítulo 13 en una consulta gratuita desde Redlands.",
@@ -3354,7 +3354,7 @@ const BK_ES: Record<CitySlug, CityPageCopy> = {
   },
   coachella: {
     h1: 'Abogado de Bancarrota en Coachella',
-    title: 'Abogado de Bancarrota Coachella | Capítulo 7 y Capítulo 13 | Valle de Coachella | Lombera',
+    title: 'Abogado de Bancarrota en Coachella | Capítulo 7 y Capítulo 13 | Valle de Coachella | Lombera',
     description:
       'Capítulo 7 y Capítulo 13 para hogares de Coachella. Preparado en 1276 N Palm Canyon Dr #107, Palm Springs; presentado en 3420 Twelfth Street, Riverside. Alivio de embargo y ejecución hipotecaria. (760) 835-9353.',
     lead: [
@@ -3376,11 +3376,11 @@ const BK_ES: Record<CitySlug, CityPageCopy> = {
       {
         h2: 'Suspensión automática — embargo, ejecución hipotecaria, recuperación de vehículo',
         paragraphs: [
-          'La suspensión automática comienza el día que se presenta la petición — los embargos de salario vinculados a empleadores de Coachella, las ventas de ejecución hipotecaria programadas y los plazos de recuperación de vehículos se pausan para la mayoría de los acreedores. Presentar antes del próximo cheque o fecha de venta protege el tiempo que esperar consumiría.',
+          'La suspensión automática comienza el día que se presenta la petición — los embargos de salario vinculados a empleadores de Coachella, las ventas de ejecución hipotecaria programadas y los plazos de recuperación de vehículos se pausan para la mayoría de los acreedores. Presentar antes del próximo cheque o de la fecha de venta le da un tiempo que, si espera, se pierde.',
         ],
       },
       {
-        h2: 'Dónde presenta Coachella — 3420 Twelfth Street, Riverside',
+        h2: 'Dónde se presentan los casos de Coachella — 3420 Twelfth Street, Riverside',
         paragraphs: [
           'Toda bancarrota de consumidor de Coachella se presenta en el Tribunal de Bancarrota de EE. UU., Distrito Central de California, 3420 Twelfth Street, Riverside — unas 52 millas y 64 minutos al oeste por la Carretera 111 y la I-10 desde el escritorio en 1276 N Palm Canyon Dr en Palm Springs. Ese edificio es el tribunal, no una suite de Lombera. No hay tribunal de bancarrota en Coachella. Las tarifas oficiales de presentación judicial son $338 para el Capítulo 7 y $313 para el Capítulo 13. La reunión de acreedores de la Sección 341 suele ser remota.',
         ],
