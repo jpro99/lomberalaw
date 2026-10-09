@@ -84,7 +84,7 @@ export function OfficeLocationView({ slug, locale }: { slug: OfficeSlug; locale:
               <li>
                 <Link
                   href={locale === 'es' ? '/es/lesiones-personales/' : '/personal-injury/'}
-                  className="font-medium text-ink hover:text-gold"
+                  className="font-medium text-ink hover:text-gold-ink"
                 >
                   {copy.nav.personalInjury}
                 </Link>
@@ -92,7 +92,7 @@ export function OfficeLocationView({ slug, locale }: { slug: OfficeSlug; locale:
               <li>
                 <Link
                   href={locale === 'es' ? '/es/bancarrota/' : '/bankruptcy/'}
-                  className="font-medium text-ink hover:text-gold"
+                  className="font-medium text-ink hover:text-gold-ink"
                 >
                   {copy.nav.bankruptcy}
                 </Link>

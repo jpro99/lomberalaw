@@ -177,7 +177,7 @@ export async function PracticeCityView({
                 {practiceSlug === 'personal-injury' ? (
                   <>
                     La bancarrota por deuda médica o embargos es un expediente separado — vea{' '}
-                    <Link href={siblingHref} className="font-semibold text-gold hover:text-ink">
+                    <Link href={siblingHref} className="font-semibold text-gold-ink hover:text-ink">
                       {siblingLabel}
                     </Link>
                     . Se presenta en 3420 Twelfth Street, Riverside.
@@ -185,7 +185,7 @@ export async function PracticeCityView({
                 ) : (
                   <>
                     Un choque o lesión en {name} es un reclamo de contingencia separado — vea{' '}
-                    <Link href={siblingHref} className="font-semibold text-gold hover:text-ink">
+                    <Link href={siblingHref} className="font-semibold text-gold-ink hover:text-ink">
                       {siblingLabel}
                     </Link>
                     . Sin honorarios a menos que ganemos.
@@ -197,7 +197,7 @@ export async function PracticeCityView({
                 {practiceSlug === 'personal-injury' ? (
                   <>
                     Medical-debt bankruptcy or wage garnishment is a separate federal file — see{' '}
-                    <Link href={siblingHref} className="font-semibold text-gold hover:text-ink">
+                    <Link href={siblingHref} className="font-semibold text-gold-ink hover:text-ink">
                       {siblingLabel}
                     </Link>
                     . Consumer cases file at 3420 Twelfth Street, Riverside.
@@ -205,7 +205,7 @@ export async function PracticeCityView({
                 ) : (
                   <>
                     A crash or injury in {name} is a separate contingency claim — see{' '}
-                    <Link href={siblingHref} className="font-semibold text-gold hover:text-ink">
+                    <Link href={siblingHref} className="font-semibold text-gold-ink hover:text-ink">
                       {siblingLabel}
                     </Link>
                     . No fee unless we win.
@@ -237,7 +237,7 @@ export async function PracticeCityView({
                   <li key={service}>
                     <Link
                       href={serviceHref(locale, practiceSlug, service)}
-                      className="block border-b border-line py-4 font-body text-sm font-medium text-ink hover:text-gold"
+                      className="block border-b border-line py-4 font-body text-sm font-medium text-ink hover:text-gold-ink"
                     >
                       {label}
                     </Link>

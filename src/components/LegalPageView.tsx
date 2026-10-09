@@ -45,7 +45,7 @@ export function LegalPageView({ doc, path }: { doc: LegalDoc; path: string }) {
                     {paragraph.includes('www.lomberalaw.com/privacy-policy') ? (
                       <>
                         {paragraph.split('www.lomberalaw.com/privacy-policy')[0]}
-                        <Link href="/privacy-policy/" className="text-gold hover:text-ink">
+                        <Link href="/privacy-policy/" className="text-gold-ink hover:text-ink">
                           www.lomberalaw.com/privacy-policy
                         </Link>
                         {paragraph.split('www.lomberalaw.com/privacy-policy')[1]}
