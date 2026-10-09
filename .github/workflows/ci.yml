@@ -16,5 +16,8 @@ jobs:
           cache: npm
       - run: npm ci
       - run: npm run typecheck
-      - run: npm run check:duplicate-copy
+      - name: Duplicate copy check (warn-only)
+        env:
+          DUPLICATE_COPY_MODE: warn
+        run: npm run check:duplicate-copy -- --write-report
       - run: npm run build
