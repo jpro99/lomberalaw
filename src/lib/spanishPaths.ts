@@ -12,7 +12,6 @@ export const EN_TO_ES_PI_SERVICE: Record<string, string> = {
   'dog-bites': 'mordedura-de-perro',
   'traumatic-brain-injury': 'lesion-cerebral',
   'spinal-cord-injury': 'lesiones-de-medula-espinal',
-  'pedestrian-accidents': 'accidentes-de-peatones',
 }
 
 /** English service slug → live Spanish URL segment under /es/bancarrota/ */

@@ -9,7 +9,6 @@ export const EN_TO_ES_PI_SERVICE = {
   'dog-bites': 'mordedura-de-perro',
   'traumatic-brain-injury': 'lesion-cerebral',
   'spinal-cord-injury': 'lesiones-de-medula-espinal',
-  'pedestrian-accidents': 'accidentes-de-peatones',
 }
 
 export const EN_TO_ES_BK_SERVICE = {
@@ -100,6 +99,7 @@ export function buildSpanishEnglishPracticeRedirects() {
 
   // Unmapped English PI/BK services under /es → hub
   const unmappedPi = [
+    'pedestrian-accidents',
     'bus-accidents',
     'bicycle-accidents',
     'catastrophic-injury',

@@ -105,7 +105,12 @@ export async function PracticeCityView({
   const homeHref = locale === 'en' ? '/' : '/es/inicio/'
   const serviceSlugs = practiceSlug === 'personal-injury' ? PI_CITY_SERVICES : BK_CITY_SERVICES
   const services = serviceSlugs.filter(
-    (service) => locale === 'en' || hasSpanishServiceSlug(practiceSlug, service),
+    (service) =>
+      locale === 'en' ||
+      hasSpanishServiceSlug(practiceSlug, service) ||
+      (locale === 'es' &&
+        practiceSlug === 'personal-injury' &&
+        service === 'pedestrian-accidents'),
   )
   const siblingPractice = practiceSlug === 'personal-injury' ? 'bankruptcy' : 'personal-injury'
   const siblingHref = practiceCityHref(locale, siblingPractice, resolvedCitySlug)
