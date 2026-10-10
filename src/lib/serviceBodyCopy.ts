@@ -709,7 +709,7 @@ export const ABOUT_COPY: Record<Locale, ServicePageCopy> = {
       {
         h2: 'Two offices',
         paragraphs: [
-          `Redlands: ${REDLANDS_NAP}. Palm Springs: ${PS_NAP}. Hours Monday–Friday 9am–6pm, Saturday 10am–4pm, Sunday by appointment.`,
+          `Redlands: ${REDLANDS_NAP}. Palm Springs: ${PS_NAP}. Hours Monday–Friday 8am–5pm, Saturday by appointment, Sunday closed. Phones are answered 24/7 in English and Spanish, and evening and weekend appointments are available.`,
         ],
       },
     ],
@@ -745,7 +745,7 @@ export const ABOUT_COPY: Record<Locale, ServicePageCopy> = {
       {
         h2: 'Dos oficinas',
         paragraphs: [
-          `Redlands: ${REDLANDS_NAP}. Palm Springs: ${PS_NAP}. Horario lunes a viernes 9am–6pm, sábado 10am–4pm, domingo con cita.`,
+          `Redlands: ${REDLANDS_NAP}. Palm Springs: ${PS_NAP}. Horario lunes a viernes 8am–5pm, sábado con cita, domingo cerrado. Contestamos el teléfono las 24 horas en inglés y español, y hay citas en la tarde y fines de semana.`,
         ],
       },
     ],
@@ -773,7 +773,7 @@ export const CONTACT_COPY: Record<Locale, ServicePageCopy> = {
       {
         h2: 'Hours and email',
         paragraphs: [
-          `Monday–Friday 9am–6pm, Saturday 10am–4pm, Sunday by appointment. Email: ${EMAIL}. Serious injuries can reach the office after hours for an emergency consult.`,
+          `Monday–Friday 8am–5pm, Saturday by appointment, Sunday closed. Phones are answered 24/7 in English and Spanish, and evening and weekend appointments are available. Email: ${EMAIL}.`,
         ],
       },
       {
@@ -805,7 +805,7 @@ export const CONTACT_COPY: Record<Locale, ServicePageCopy> = {
       {
         h2: 'Horario y correo',
         paragraphs: [
-          `Lunes a viernes 9am–6pm, sábado 10am–4pm, domingo con cita. Correo: ${EMAIL}. Lesiones graves pueden contactar la oficina fuera de horario para consulta de emergencia.`,
+          `Lunes a viernes 8am–5pm, sábado con cita, domingo cerrado. Contestamos el teléfono las 24 horas en inglés y español, y hay citas en la tarde y fines de semana. Correo: ${EMAIL}.`,
         ],
       },
       {

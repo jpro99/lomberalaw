@@ -36,7 +36,7 @@ const REDLANDS_NAP =
 const PS_NAP = '1276 N Palm Canyon Dr #107, Palm Springs, CA 92262 — (760) 835-9353'
 const BK_COURT =
   'U.S. Bankruptcy Court, Central District of California, 3420 Twelfth Street, Riverside'
-const HOURS = 'Monday–Friday 9am–6pm, Saturday 10am–4pm, Sunday by appointment'
+const HOURS = 'Monday–Friday 8am–5pm, Saturday by appointment, Sunday closed'
 const DEBT_RELIEF =
   'We are a debt relief agency. We help people file for bankruptcy relief under the Bankruptcy Code (11 U.S.C. §528).'
 
@@ -105,7 +105,7 @@ const PI_EN: Record<CitySlug, CityPageCopy> = {
       {
         h2: '(909) 915-0181 — Orange Tree Lane, east',
         paragraphs: [
-          'Hours: Monday–Friday 9am–6pm, Saturday 10am–4pm, Sunday by appointment. Serious injuries can reach the office 24/7 for an emergency consult. From Fontana, the consultation is about 15 miles and 21 minutes east via Sierra Avenue, the I-10, and California Street — not a Sierra Avenue storefront. If the same wreck sinks the household, the same (909) 915-0181 call files Chapter 7 or Chapter 13 at 3420 Twelfth Street, Riverside — about 11 miles and 20 minutes south-southeast. Palm Springs is the second office — 1276 N Palm Canyon Dr #107, (760) 835-9353.',
+          'Hours: Monday–Friday 8am–5pm, Saturday by appointment, Sunday closed. Phones are answered 24/7 in English and Spanish, and evening and weekend appointments are available. From Fontana, the consultation is about 15 miles and 21 minutes east via Sierra Avenue, the I-10, and California Street — not a Sierra Avenue storefront. If the same wreck sinks the household, the same (909) 915-0181 call files Chapter 7 or Chapter 13 at 3420 Twelfth Street, Riverside — about 11 miles and 20 minutes south-southeast. Palm Springs is the second office — 1276 N Palm Canyon Dr #107, (760) 835-9353.',
         ],
       },
     ],
@@ -152,7 +152,7 @@ const PI_EN: Record<CitySlug, CityPageCopy> = {
       {
         h2: '(909) 915-0181 — Orange Tree Lane, east',
         paragraphs: [
-          'Hours: Monday–Friday 9am–6pm, Saturday 10am–4pm, Sunday by appointment. Serious injuries can reach the office 24/7 for an emergency consult. From Colton, the consultation is about 6.5 miles and 10 minutes east via the 9th Street on-ramp, the I-10, and California Street — not a Colton storefront. If the same wreck sinks the household, the same (909) 915-0181 call files Chapter 7 or Chapter 13 at the U.S. Bankruptcy Court, 3420 Twelfth Street, Riverside — about 9 miles and 14 minutes south. Palm Springs is the second office only — 1276 N Palm Canyon Dr #107, (760) 835-9353.',
+          'Hours: Monday–Friday 8am–5pm, Saturday by appointment, Sunday closed. Phones are answered 24/7 in English and Spanish, and evening and weekend appointments are available. From Colton, the consultation is about 6.5 miles and 10 minutes east via the 9th Street on-ramp, the I-10, and California Street — not a Colton storefront. If the same wreck sinks the household, the same (909) 915-0181 call files Chapter 7 or Chapter 13 at the U.S. Bankruptcy Court, 3420 Twelfth Street, Riverside — about 9 miles and 14 minutes south. Palm Springs is the second office only — 1276 N Palm Canyon Dr #107, (760) 835-9353.',
         ],
       },
     ],
@@ -199,7 +199,7 @@ const PI_EN: Record<CitySlug, CityPageCopy> = {
       {
         h2: '(909) 915-0181 — Orange Tree Lane, east',
         paragraphs: [
-          'Hours: Monday–Friday 9am–6pm, Saturday 10am–4pm, Sunday by appointment. Serious injuries can reach the office 24/7 for an emergency consult. From Rancho Cucamonga, the consultation is about 24 miles and 31 minutes east via Haven Avenue to the I-10 east and California Street — not a Rancho Cucamonga storefront. If the same wreck sinks the household, the same (909) 915-0181 call files Chapter 7 or Chapter 13 at the U.S. Bankruptcy Court, 3420 Twelfth Street, Riverside — about 20 miles and 29 minutes southeast. Palm Springs is the second office only — 1276 N Palm Canyon Dr #107, (760) 835-9353.',
+          'Hours: Monday–Friday 8am–5pm, Saturday by appointment, Sunday closed. Phones are answered 24/7 in English and Spanish, and evening and weekend appointments are available. From Rancho Cucamonga, the consultation is about 24 miles and 31 minutes east via Haven Avenue to the I-10 east and California Street — not a Rancho Cucamonga storefront. If the same wreck sinks the household, the same (909) 915-0181 call files Chapter 7 or Chapter 13 at the U.S. Bankruptcy Court, 3420 Twelfth Street, Riverside — about 20 miles and 29 minutes southeast. Palm Springs is the second office only — 1276 N Palm Canyon Dr #107, (760) 835-9353.',
         ],
       },
     ],
@@ -246,7 +246,7 @@ const PI_EN: Record<CitySlug, CityPageCopy> = {
       {
         h2: '(909) 915-0181 — Orange Tree Lane, northwest',
         paragraphs: [
-          'Hours: Monday–Friday 9am–6pm, Saturday 10am–4pm, Sunday by appointment. Serious injuries can reach the office 24/7 for an emergency consult. From Beaumont, the consultation is about 19 miles and 23 minutes northwest via Orange Avenue, 6th Street, Beaumont Avenue, the I-10 west, and California Street — not a Beaumont storefront. If the same wreck sinks the household, the same (909) 915-0181 call files Chapter 7 or Chapter 13 at the U.S. Bankruptcy Court, 3420 Twelfth Street, Riverside — about 12 miles and 17 minutes southwest. Palm Springs is the second office only — 1276 N Palm Canyon Dr #107, (760) 835-9353.',
+          'Hours: Monday–Friday 8am–5pm, Saturday by appointment, Sunday closed. Phones are answered 24/7 in English and Spanish, and evening and weekend appointments are available. From Beaumont, the consultation is about 19 miles and 23 minutes northwest via Orange Avenue, 6th Street, Beaumont Avenue, the I-10 west, and California Street — not a Beaumont storefront. If the same wreck sinks the household, the same (909) 915-0181 call files Chapter 7 or Chapter 13 at the U.S. Bankruptcy Court, 3420 Twelfth Street, Riverside — about 12 miles and 17 minutes southwest. Palm Springs is the second office only — 1276 N Palm Canyon Dr #107, (760) 835-9353.',
         ],
       },
     ],
@@ -293,7 +293,7 @@ const PI_EN: Record<CitySlug, CityPageCopy> = {
       {
         h2: '(760) 835-9353 — 1276 N Palm Canyon Dr #107, local sit-down',
         paragraphs: [
-          'Hours: Monday–Friday 9am–6pm, Saturday 10am–4pm, Sunday by appointment. Serious injuries can reach the office 24/7 for an emergency consult. The storefront sits on N Palm Canyon Drive — about 3.2 miles and 7 minutes west-northwest from City Hall at 3200 East Tahquitz Canyon Way when you route Civic \u2192 Tahquitz \u2192 Sunrise \u2192 Tachevah \u2192 N Palm Canyon. If the same wreck sinks the household, the same (760) 835-9353 call files Chapter 7 or Chapter 13 at the U.S. Bankruptcy Court, 3420 Twelfth Street, Riverside — about 55 miles and 71 minutes west-northwest. Redlands is the second office only — 2068 Orange Tree Lane, Suite 220, (909) 915-0181 — about 49 miles and 60 minutes west-northwest, not the Palm Springs lead line.',
+          'Hours: Monday–Friday 8am–5pm, Saturday by appointment, Sunday closed. Phones are answered 24/7 in English and Spanish, and evening and weekend appointments are available. The storefront sits on N Palm Canyon Drive — about 3.2 miles and 7 minutes west-northwest from City Hall at 3200 East Tahquitz Canyon Way when you route Civic \u2192 Tahquitz \u2192 Sunrise \u2192 Tachevah \u2192 N Palm Canyon. If the same wreck sinks the household, the same (760) 835-9353 call files Chapter 7 or Chapter 13 at the U.S. Bankruptcy Court, 3420 Twelfth Street, Riverside — about 55 miles and 71 minutes west-northwest. Redlands is the second office only — 2068 Orange Tree Lane, Suite 220, (909) 915-0181 — about 49 miles and 60 minutes west-northwest, not the Palm Springs lead line.',
         ],
       },
     ],
@@ -340,7 +340,7 @@ const PI_EN: Record<CitySlug, CityPageCopy> = {
       {
         h2: '(760) 835-9353 — 1276 N Palm Canyon Dr #107, northwest',
         paragraphs: [
-          'Hours: Monday–Friday 9am–6pm, Saturday 10am–4pm, Sunday by appointment. Serious injuries can reach the office 24/7 for an emergency consult. From Palm Desert, the consultation is about 17 miles and 26 minutes northwest via Civic Center Drive, San Pablo, Fred Waring Drive, Monterey Avenue, the I-10 west, Date Palm Drive, Vista Chino / CA-111, and N Palm Canyon Drive — not a Palm Desert storefront. If the same wreck sinks the household, the same (760) 835-9353 call files Chapter 7 or Chapter 13 at the U.S. Bankruptcy Court, 3420 Twelfth Street, Riverside. Redlands is the second office only — 2068 Orange Tree Lane, Suite 220, (909) 915-0181.',
+          'Hours: Monday–Friday 8am–5pm, Saturday by appointment, Sunday closed. Phones are answered 24/7 in English and Spanish, and evening and weekend appointments are available. From Palm Desert, the consultation is about 17 miles and 26 minutes northwest via Civic Center Drive, San Pablo, Fred Waring Drive, Monterey Avenue, the I-10 west, Date Palm Drive, Vista Chino / CA-111, and N Palm Canyon Drive — not a Palm Desert storefront. If the same wreck sinks the household, the same (760) 835-9353 call files Chapter 7 or Chapter 13 at the U.S. Bankruptcy Court, 3420 Twelfth Street, Riverside. Redlands is the second office only — 2068 Orange Tree Lane, Suite 220, (909) 915-0181.',
         ],
       },
     ],
@@ -387,7 +387,7 @@ const PI_EN: Record<CitySlug, CityPageCopy> = {
       {
         h2: '(760) 835-9353 — 1276 N Palm Canyon Dr #107, northwest',
         paragraphs: [
-          'Hours: Monday–Friday 9am–6pm, Saturday 10am–4pm, Sunday by appointment. Serious injuries can reach the office 24/7 for an emergency consult. From Cathedral City, the consultation is about 9 miles and 15 minutes northwest via Cathedral Canyon Drive, East Palm Canyon Drive, Gene Autry Trail, Vista Chino / CA-111, and N Palm Canyon Drive — not a Cathedral City storefront. If the same wreck sinks the household, the same (760) 835-9353 call files Chapter 7 or Chapter 13 at the U.S. Bankruptcy Court, 3420 Twelfth Street, Riverside. Redlands is the second office only — 2068 Orange Tree Lane, Suite 220, (909) 915-0181.',
+          'Hours: Monday–Friday 8am–5pm, Saturday by appointment, Sunday closed. Phones are answered 24/7 in English and Spanish, and evening and weekend appointments are available. From Cathedral City, the consultation is about 9 miles and 15 minutes northwest via Cathedral Canyon Drive, East Palm Canyon Drive, Gene Autry Trail, Vista Chino / CA-111, and N Palm Canyon Drive — not a Cathedral City storefront. If the same wreck sinks the household, the same (760) 835-9353 call files Chapter 7 or Chapter 13 at the U.S. Bankruptcy Court, 3420 Twelfth Street, Riverside. Redlands is the second office only — 2068 Orange Tree Lane, Suite 220, (909) 915-0181.',
         ],
       },
     ],
@@ -434,7 +434,7 @@ const PI_EN: Record<CitySlug, CityPageCopy> = {
       {
         h2: '(760) 835-9353 — 1276 N Palm Canyon Dr #107, west-northwest',
         paragraphs: [
-          'Hours: Monday–Friday 9am–6pm, Saturday 10am–4pm, Sunday by appointment. Serious injuries can reach the office 24/7 for an emergency consult. From Indio, the consultation is about 24 miles and 31 minutes west-northwest via Civic Center Drive, Jackson Street, the I-10 west, Date Palm Drive, Vista Chino / CA-111, and N Palm Canyon Drive — not an Indio storefront. If the same wreck sinks the household, the same (760) 835-9353 call files Chapter 7 or Chapter 13 at the U.S. Bankruptcy Court, 3420 Twelfth Street, Riverside. Redlands is the second office only — 2068 Orange Tree Lane, Suite 220, (909) 915-0181.',
+          'Hours: Monday–Friday 8am–5pm, Saturday by appointment, Sunday closed. Phones are answered 24/7 in English and Spanish, and evening and weekend appointments are available. From Indio, the consultation is about 24 miles and 31 minutes west-northwest via Civic Center Drive, Jackson Street, the I-10 west, Date Palm Drive, Vista Chino / CA-111, and N Palm Canyon Drive — not an Indio storefront. If the same wreck sinks the household, the same (760) 835-9353 call files Chapter 7 or Chapter 13 at the U.S. Bankruptcy Court, 3420 Twelfth Street, Riverside. Redlands is the second office only — 2068 Orange Tree Lane, Suite 220, (909) 915-0181.',
         ],
       },
     ],
@@ -481,7 +481,7 @@ const PI_EN: Record<CitySlug, CityPageCopy> = {
       {
         h2: '(760) 835-9353 — 1276 N Palm Canyon Dr #107, northwest',
         paragraphs: [
-          'Hours: Monday–Friday 9am–6pm, Saturday 10am–4pm, Sunday by appointment. Serious injuries can reach the office 24/7 for an emergency consult. From La Quinta, the consultation is about 23 miles and 34 minutes northwest via Washington Street, Varner Road, the I-10 west, Date Palm Drive, Vista Chino / CA-111, and N Palm Canyon Drive — not a La Quinta storefront. If the same wreck sinks the household, the same (760) 835-9353 call files Chapter 7 or Chapter 13 at the U.S. Bankruptcy Court, 3420 Twelfth Street, Riverside — about 73.5 miles and 91 minutes northwest. Redlands is the second office only — 2068 Orange Tree Lane, Suite 220, (909) 915-0181 — about 67.5 miles and 80 minutes west-northwest.',
+          'Hours: Monday–Friday 8am–5pm, Saturday by appointment, Sunday closed. Phones are answered 24/7 in English and Spanish, and evening and weekend appointments are available. From La Quinta, the consultation is about 23 miles and 34 minutes northwest via Washington Street, Varner Road, the I-10 west, Date Palm Drive, Vista Chino / CA-111, and N Palm Canyon Drive — not a La Quinta storefront. If the same wreck sinks the household, the same (760) 835-9353 call files Chapter 7 or Chapter 13 at the U.S. Bankruptcy Court, 3420 Twelfth Street, Riverside — about 73.5 miles and 91 minutes northwest. Redlands is the second office only — 2068 Orange Tree Lane, Suite 220, (909) 915-0181 — about 67.5 miles and 80 minutes west-northwest.',
         ],
       },
     ],
@@ -528,7 +528,7 @@ const PI_EN: Record<CitySlug, CityPageCopy> = {
       {
         h2: '(909) 915-0181 — Orange Tree Lane, local sit-down',
         paragraphs: [
-          'Hours: Monday–Friday 9am–6pm, Saturday 10am–4pm, Sunday by appointment. Serious injuries can reach the office 24/7 for an emergency consult. The office sits on Orange Tree Lane — about 3.5 miles and 6 minutes west-northwest from City Hall at 35 Cajon Street when you route Cajon → Orange → I-10 → California Street. If the same wreck sinks the household, the same (909) 915-0181 call files Chapter 7 or Chapter 13 at 3420 Twelfth Street, Riverside — about 15 miles and 21 minutes west-southwest. Palm Springs is the second office only — 1276 N Palm Canyon Dr #107, (760) 835-9353.',
+          'Hours: Monday–Friday 8am–5pm, Saturday by appointment, Sunday closed. Phones are answered 24/7 in English and Spanish, and evening and weekend appointments are available. The office sits on Orange Tree Lane — about 3.5 miles and 6 minutes west-northwest from City Hall at 35 Cajon Street when you route Cajon → Orange → I-10 → California Street. If the same wreck sinks the household, the same (909) 915-0181 call files Chapter 7 or Chapter 13 at 3420 Twelfth Street, Riverside — about 15 miles and 21 minutes west-southwest. Palm Springs is the second office only — 1276 N Palm Canyon Dr #107, (760) 835-9353.',
         ],
       },
     ],
@@ -575,7 +575,7 @@ const PI_EN: Record<CitySlug, CityPageCopy> = {
       {
         h2: '(909) 915-0181 — Orange Tree Lane, east-southeast',
         paragraphs: [
-          'Hours: Monday–Friday 9am–6pm, Saturday 10am–4pm, Sunday by appointment. Serious injuries can reach the office 24/7 for an emergency consult. From San Bernardino, the consultation is about 8 miles and 14 minutes east-southeast via 2nd Street, the I-215, the I-10, and California Street — not a downtown San Bernardino storefront. If the same wreck sinks the household, the same (909) 915-0181 call files Chapter 7 or Chapter 13 at the U.S. Bankruptcy Court, 3420 Twelfth Street, Riverside — about 11 miles and 16 minutes south-southwest. Palm Springs is the second office — 1276 N Palm Canyon Dr #107, (760) 835-9353 — about 54 miles and 64 minutes east-southeast, not the San Bernardino lead line.',
+          'Hours: Monday–Friday 8am–5pm, Saturday by appointment, Sunday closed. Phones are answered 24/7 in English and Spanish, and evening and weekend appointments are available. From San Bernardino, the consultation is about 8 miles and 14 minutes east-southeast via 2nd Street, the I-215, the I-10, and California Street — not a downtown San Bernardino storefront. If the same wreck sinks the household, the same (909) 915-0181 call files Chapter 7 or Chapter 13 at the U.S. Bankruptcy Court, 3420 Twelfth Street, Riverside — about 11 miles and 16 minutes south-southwest. Palm Springs is the second office — 1276 N Palm Canyon Dr #107, (760) 835-9353 — about 54 miles and 64 minutes east-southeast, not the San Bernardino lead line.',
         ],
       },
     ],
@@ -622,7 +622,7 @@ const PI_EN: Record<CitySlug, CityPageCopy> = {
       {
         h2: '(909) 915-0181 — Orange Tree Lane, northeast',
         paragraphs: [
-          'Hours: Monday–Friday 9am–6pm, Saturday 10am–4pm, Sunday by appointment. Serious injuries can reach the office 24/7 for an emergency consult. From Riverside, the consultation is about 12 miles and 17 minutes northeast via Mission Inn Avenue, the CA-91, the I-10, and California Street — not a downtown Riverside storefront. If the same wreck sinks the household, the same (909) 915-0181 call files Chapter 7 or Chapter 13 at the U.S. Bankruptcy Court, 3420 Twelfth Street, Riverside — about 0.5 miles and 2 minutes south-southeast from downtown. Palm Springs is the second office if that drive is easier — 1276 N Palm Canyon Dr #107, (760) 835-9353.',
+          'Hours: Monday–Friday 8am–5pm, Saturday by appointment, Sunday closed. Phones are answered 24/7 in English and Spanish, and evening and weekend appointments are available. From Riverside, the consultation is about 12 miles and 17 minutes northeast via Mission Inn Avenue, the CA-91, the I-10, and California Street — not a downtown Riverside storefront. If the same wreck sinks the household, the same (909) 915-0181 call files Chapter 7 or Chapter 13 at the U.S. Bankruptcy Court, 3420 Twelfth Street, Riverside — about 0.5 miles and 2 minutes south-southeast from downtown. Palm Springs is the second office if that drive is easier — 1276 N Palm Canyon Dr #107, (760) 835-9353.',
         ],
       },
     ],
@@ -669,7 +669,7 @@ const PI_EN: Record<CitySlug, CityPageCopy> = {
       {
         h2: '(909) 915-0181 — Orange Tree Lane, north then east',
         paragraphs: [
-          'Hours: Monday–Friday 9am–6pm, Saturday 10am–4pm, Sunday by appointment. Serious injuries can reach the office 24/7 for an emergency consult. From Moreno Valley, the consultation is about 19.5 miles and 26 minutes north then east via Frederick Street, Cactus Avenue, the I-215, the I-10, and California Street — not a Moreno Valley storefront. If the same wreck sinks the household, the same (909) 915-0181 call files Chapter 7 or Chapter 13 at the U.S. Bankruptcy Court, 3420 Twelfth Street, Riverside — about 10 miles and 16 minutes west-northwest. Palm Springs is the second office only — 1276 N Palm Canyon Dr #107, (760) 835-9353.',
+          'Hours: Monday–Friday 8am–5pm, Saturday by appointment, Sunday closed. Phones are answered 24/7 in English and Spanish, and evening and weekend appointments are available. From Moreno Valley, the consultation is about 19.5 miles and 26 minutes north then east via Frederick Street, Cactus Avenue, the I-215, the I-10, and California Street — not a Moreno Valley storefront. If the same wreck sinks the household, the same (909) 915-0181 call files Chapter 7 or Chapter 13 at the U.S. Bankruptcy Court, 3420 Twelfth Street, Riverside — about 10 miles and 16 minutes west-northwest. Palm Springs is the second office only — 1276 N Palm Canyon Dr #107, (760) 835-9353.',
         ],
       },
     ],
@@ -716,7 +716,7 @@ const PI_EN: Record<CitySlug, CityPageCopy> = {
       {
         h2: '(909) 915-0181 — Orange Tree Lane, south',
         paragraphs: [
-          'Hours: Monday–Friday 9am–6pm, Saturday 10am–4pm, Sunday by appointment. Serious injuries can reach the office 24/7 for an emergency consult. From Highland, the consultation is about 5 miles and 10 minutes south via Base Line, Palm Avenue, Alabama Street, a short hop on the I-10, and California Street — not a Highland storefront. If the same wreck sinks the household, the same (909) 915-0181 call files Chapter 7 or Chapter 13 at the U.S. Bankruptcy Court, 3420 Twelfth Street, Riverside — about 17 miles and 25 minutes southwest. Palm Springs is the second office only — 1276 N Palm Canyon Dr #107, (760) 835-9353.',
+          'Hours: Monday–Friday 8am–5pm, Saturday by appointment, Sunday closed. Phones are answered 24/7 in English and Spanish, and evening and weekend appointments are available. From Highland, the consultation is about 5 miles and 10 minutes south via Base Line, Palm Avenue, Alabama Street, a short hop on the I-10, and California Street — not a Highland storefront. If the same wreck sinks the household, the same (909) 915-0181 call files Chapter 7 or Chapter 13 at the U.S. Bankruptcy Court, 3420 Twelfth Street, Riverside — about 17 miles and 25 minutes southwest. Palm Springs is the second office only — 1276 N Palm Canyon Dr #107, (760) 835-9353.',
         ],
       },
     ],
@@ -763,7 +763,7 @@ const PI_EN: Record<CitySlug, CityPageCopy> = {
       {
         h2: '(909) 915-0181 — Orange Tree Lane, northwest',
         paragraphs: [
-          'Hours: Monday–Friday 9am–6pm, Saturday 10am–4pm, Sunday by appointment. Serious injuries can reach the office 24/7 for an emergency consult. From Hemet, the consultation is about 33 miles and 43 minutes northwest via Florida Avenue, State Street, Ramona Expressway, Sanderson Avenue, Lamb Canyon Road, Beaumont Avenue, the I-10 west, and California Street — not a Hemet storefront. If the same wreck sinks the household, the same (909) 915-0181 call files Chapter 7 or Chapter 13 at the U.S. Bankruptcy Court, 3420 Twelfth Street, Riverside — about 34 miles and 49 minutes northwest. Palm Springs is the second office only — 1276 N Palm Canyon Dr #107, (760) 835-9353.',
+          'Hours: Monday–Friday 8am–5pm, Saturday by appointment, Sunday closed. Phones are answered 24/7 in English and Spanish, and evening and weekend appointments are available. From Hemet, the consultation is about 33 miles and 43 minutes northwest via Florida Avenue, State Street, Ramona Expressway, Sanderson Avenue, Lamb Canyon Road, Beaumont Avenue, the I-10 west, and California Street — not a Hemet storefront. If the same wreck sinks the household, the same (909) 915-0181 call files Chapter 7 or Chapter 13 at the U.S. Bankruptcy Court, 3420 Twelfth Street, Riverside — about 34 miles and 49 minutes northwest. Palm Springs is the second office only — 1276 N Palm Canyon Dr #107, (760) 835-9353.',
         ],
       },
     ],
@@ -810,7 +810,7 @@ const PI_EN: Record<CitySlug, CityPageCopy> = {
       {
         h2: '(760) 835-9353 — 1276 N Palm Canyon Dr #107, south',
         paragraphs: [
-          'Hours: Monday–Friday 9am–6pm, Saturday 10am–4pm, Sunday by appointment. Serious injuries can reach the office 24/7 for an emergency consult. From Desert Hot Springs, the consultation is about 11 miles and 18 minutes south via Pierson Boulevard, Palm Drive, Gene Autry Trail, Vista Chino / CA-111, and N Palm Canyon Drive — not a Desert Hot Springs storefront. If the same wreck sinks the household, the same (760) 835-9353 call files Chapter 7 or Chapter 13 at the U.S. Bankruptcy Court, 3420 Twelfth Street, Riverside. Redlands is the second office only — 2068 Orange Tree Lane, Suite 220, (909) 915-0181.',
+          'Hours: Monday–Friday 8am–5pm, Saturday by appointment, Sunday closed. Phones are answered 24/7 in English and Spanish, and evening and weekend appointments are available. From Desert Hot Springs, the consultation is about 11 miles and 18 minutes south via Pierson Boulevard, Palm Drive, Gene Autry Trail, Vista Chino / CA-111, and N Palm Canyon Drive — not a Desert Hot Springs storefront. If the same wreck sinks the household, the same (760) 835-9353 call files Chapter 7 or Chapter 13 at the U.S. Bankruptcy Court, 3420 Twelfth Street, Riverside. Redlands is the second office only — 2068 Orange Tree Lane, Suite 220, (909) 915-0181.',
         ],
       },
     ],
@@ -857,7 +857,7 @@ const PI_EN: Record<CitySlug, CityPageCopy> = {
       {
         h2: '(909) 915-0181 — Orange Tree Lane, west-northwest',
         paragraphs: [
-          'Hours: Monday–Friday 9am–6pm, Saturday 10am–4pm, Sunday by appointment. Serious injuries can reach the office 24/7 for an emergency consult. From Yucaipa, the consultation is about 11.5 miles and 17 minutes west-northwest via Yucaipa Boulevard through Oak Glen, the I-10 west, and California Street — not a Yucaipa storefront. If the same wreck sinks the household, the same (909) 915-0181 call files Chapter 7 or Chapter 13 at the U.S. Bankruptcy Court, 3420 Twelfth Street, Riverside — about 23 miles and 31 minutes west-southwest. Palm Springs is the second office only — 1276 N Palm Canyon Dr #107, (760) 835-9353 — about 38 miles and 47 minutes east-southeast.',
+          'Hours: Monday–Friday 8am–5pm, Saturday by appointment, Sunday closed. Phones are answered 24/7 in English and Spanish, and evening and weekend appointments are available. From Yucaipa, the consultation is about 11.5 miles and 17 minutes west-northwest via Yucaipa Boulevard through Oak Glen, the I-10 west, and California Street — not a Yucaipa storefront. If the same wreck sinks the household, the same (909) 915-0181 call files Chapter 7 or Chapter 13 at the U.S. Bankruptcy Court, 3420 Twelfth Street, Riverside — about 23 miles and 31 minutes west-southwest. Palm Springs is the second office only — 1276 N Palm Canyon Dr #107, (760) 835-9353 — about 38 miles and 47 minutes east-southeast.',
         ],
       },
     ],
@@ -904,7 +904,7 @@ const PI_EN: Record<CitySlug, CityPageCopy> = {
       {
         h2: '(909) 915-0181 — Orange Tree Lane, east',
         paragraphs: [
-          'Hours: Monday–Friday 9am–6pm, Saturday 10am–4pm, Sunday by appointment. Serious injuries can reach the office 24/7 for an emergency consult. From Ontario, the consultation is about 25 miles and 33 minutes east via E. B Street, Plum Avenue, Holt Boulevard, the I-10 east, and California Street — not an Ontario storefront. If the same wreck sinks the household, the same (909) 915-0181 call files Chapter 7 or Chapter 13 at the U.S. Bankruptcy Court, 3420 Twelfth Street, Riverside — about 20.5 miles and 28 minutes east-southeast; bankruptcy filing can be closer than the Orange Tree Lane sit-down, but the personal injury consult stays at Orange Tree. Palm Springs is the second office only — 1276 N Palm Canyon Dr #107, (760) 835-9353 — about 70.5 miles and 83 minutes east-southeast.',
+          'Hours: Monday–Friday 8am–5pm, Saturday by appointment, Sunday closed. Phones are answered 24/7 in English and Spanish, and evening and weekend appointments are available. From Ontario, the consultation is about 25 miles and 33 minutes east via E. B Street, Plum Avenue, Holt Boulevard, the I-10 east, and California Street — not an Ontario storefront. If the same wreck sinks the household, the same (909) 915-0181 call files Chapter 7 or Chapter 13 at the U.S. Bankruptcy Court, 3420 Twelfth Street, Riverside — about 20.5 miles and 28 minutes east-southeast; bankruptcy filing can be closer than the Orange Tree Lane sit-down, but the personal injury consult stays at Orange Tree. Palm Springs is the second office only — 1276 N Palm Canyon Dr #107, (760) 835-9353 — about 70.5 miles and 83 minutes east-southeast.',
         ],
       },
     ],
@@ -951,7 +951,7 @@ const PI_EN: Record<CitySlug, CityPageCopy> = {
       {
         h2: '(760) 835-9353 — 1276 N Palm Canyon Dr #107, west-northwest',
         paragraphs: [
-          'Hours: Monday–Friday 9am–6pm, Saturday 10am–4pm, Sunday by appointment. Serious injuries can reach the office 24/7 for an emergency consult. From Coachella, the consultation is about 28.5 miles and 35 minutes west-northwest via Enterprise Way, Avenue 52, SR-86, the I-10 west, Date Palm Drive, Vista Chino / CA-111, and N Palm Canyon Drive — not a Coachella storefront. If the same wreck sinks the household, the same (760) 835-9353 call files Chapter 7 or Chapter 13 at the U.S. Bankruptcy Court, 3420 Twelfth Street, Riverside — about 79 miles and 92 minutes west-northwest. Redlands is the second office only — 2068 Orange Tree Lane, Suite 220, (909) 915-0181 — about 73 miles and 81 minutes west-northwest.',
+          'Hours: Monday–Friday 8am–5pm, Saturday by appointment, Sunday closed. Phones are answered 24/7 in English and Spanish, and evening and weekend appointments are available. From Coachella, the consultation is about 28.5 miles and 35 minutes west-northwest via Enterprise Way, Avenue 52, SR-86, the I-10 west, Date Palm Drive, Vista Chino / CA-111, and N Palm Canyon Drive — not a Coachella storefront. If the same wreck sinks the household, the same (760) 835-9353 call files Chapter 7 or Chapter 13 at the U.S. Bankruptcy Court, 3420 Twelfth Street, Riverside — about 79 miles and 92 minutes west-northwest. Redlands is the second office only — 2068 Orange Tree Lane, Suite 220, (909) 915-0181 — about 73 miles and 81 minutes west-northwest.',
         ],
       },
     ],
@@ -1001,7 +1001,7 @@ const BK_EN: Record<CitySlug, CityPageCopy> = {
       {
         h2: '(909) 915-0181 — Orange Tree Lane',
         paragraphs: [
-          'Hours: Monday–Friday 9am–6pm, Saturday 10am–4pm, Sunday by appointment. From Fontana, the consultation is about 15 miles and 21 minutes east on the I-10 — not a Cherry Avenue or Winery Drive storefront. Palm Springs is the other office — 1276 N Palm Canyon Dr #107, (760) 835-9353. ' +
+          'Hours: Monday–Friday 8am–5pm, Saturday by appointment, Sunday closed. Phones are answered 24/7 in English and Spanish, and evening and weekend appointments are available. From Fontana, the consultation is about 15 miles and 21 minutes east on the I-10 — not a Cherry Avenue or Winery Drive storefront. Palm Springs is the other office — 1276 N Palm Canyon Dr #107, (760) 835-9353. ' +
             DEBT_RELIEF,
         ],
       },
@@ -1072,7 +1072,7 @@ const BK_EN: Record<CitySlug, CityPageCopy> = {
       {
         h2: '(909) 915-0181 — Orange Tree Lane',
         paragraphs: [
-          'Hours: Monday–Friday 9am–6pm, Saturday 10am–4pm, Sunday by appointment. From Rancho Cucamonga, the consultation is about 24 miles and 32 minutes east on Haven Avenue, the I-10 east, and California Street — sit-down at Orange Tree Lane, not a federal courthouse address. Palm Springs is the other office — 1276 N Palm Canyon Dr #107, (760) 835-9353. ' +
+          'Hours: Monday–Friday 8am–5pm, Saturday by appointment, Sunday closed. Phones are answered 24/7 in English and Spanish, and evening and weekend appointments are available. From Rancho Cucamonga, the consultation is about 24 miles and 32 minutes east on Haven Avenue, the I-10 east, and California Street — sit-down at Orange Tree Lane, not a federal courthouse address. Palm Springs is the other office — 1276 N Palm Canyon Dr #107, (760) 835-9353. ' +
             DEBT_RELIEF,
         ],
       },
@@ -1114,7 +1114,7 @@ const BK_EN: Record<CitySlug, CityPageCopy> = {
       {
         h2: '(909) 915-0181 — 2068 Orange Tree Lane, Suite 220',
         paragraphs: [
-          'Hours: Monday–Friday 9am–6pm, Saturday 10am–4pm, Sunday by appointment. From Beaumont, the consultation is about 19 miles and 23 minutes northwest on Beaumont Avenue, the I-10 west, and California Street — sit-down at the Orange Tree Lane office, not a federal courthouse address. Palm Springs is the other office — 1276 N Palm Canyon Dr #107, (760) 835-9353. ' +
+          'Hours: Monday–Friday 8am–5pm, Saturday by appointment, Sunday closed. Phones are answered 24/7 in English and Spanish, and evening and weekend appointments are available. From Beaumont, the consultation is about 19 miles and 23 minutes northwest on Beaumont Avenue, the I-10 west, and California Street — sit-down at the Orange Tree Lane office, not a federal courthouse address. Palm Springs is the other office — 1276 N Palm Canyon Dr #107, (760) 835-9353. ' +
             DEBT_RELIEF,
         ],
       },
@@ -1162,7 +1162,7 @@ const BK_EN: Record<CitySlug, CityPageCopy> = {
       {
         h2: '(760) 835-9353 — 1276 N Palm Canyon Dr #107',
         paragraphs: [
-          'Hours: Monday–Friday 9am–6pm, Saturday 10am–4pm, Sunday by appointment. The consultation is a sit-down in Palm Springs — not a federal courthouse address. Redlands is the other office — 2068 Orange Tree Lane, Suite 220, (909) 915-0181. ' +
+          'Hours: Monday–Friday 8am–5pm, Saturday by appointment, Sunday closed. Phones are answered 24/7 in English and Spanish, and evening and weekend appointments are available. The consultation is a sit-down in Palm Springs — not a federal courthouse address. Redlands is the other office — 2068 Orange Tree Lane, Suite 220, (909) 915-0181. ' +
             DEBT_RELIEF,
         ],
       },
@@ -1210,7 +1210,7 @@ const BK_EN: Record<CitySlug, CityPageCopy> = {
       {
         h2: '(760) 835-9353 — 1276 N Palm Canyon Dr #107',
         paragraphs: [
-          'Hours: Monday–Friday 9am–6pm, Saturday 10am–4pm, Sunday by appointment. From Palm Desert, the consultation is about 17 miles and 26 minutes northwest on Fred Waring, Monterey, the I-10 west, and Date Palm — sit-down at the Palm Canyon office, not a federal courthouse address. Redlands is the other office — 2068 Orange Tree Lane, Suite 220, (909) 915-0181. ' +
+          'Hours: Monday–Friday 8am–5pm, Saturday by appointment, Sunday closed. Phones are answered 24/7 in English and Spanish, and evening and weekend appointments are available. From Palm Desert, the consultation is about 17 miles and 26 minutes northwest on Fred Waring, Monterey, the I-10 west, and Date Palm — sit-down at the Palm Canyon office, not a federal courthouse address. Redlands is the other office — 2068 Orange Tree Lane, Suite 220, (909) 915-0181. ' +
             DEBT_RELIEF,
         ],
       },
@@ -1252,7 +1252,7 @@ const BK_EN: Record<CitySlug, CityPageCopy> = {
       {
         h2: '(760) 835-9353 — 1276 N Palm Canyon Dr #107',
         paragraphs: [
-          'Hours: Monday–Friday 9am–6pm, Saturday 10am–4pm, Sunday by appointment. From Cathedral City, the consultation is about 9 miles and 15 minutes northwest on Cathedral Canyon, East Palm Canyon, Gene Autry, and Vista Chino — sit-down at the Palm Canyon office, not a federal courthouse address. Redlands is the other office — 2068 Orange Tree Lane, Suite 220, (909) 915-0181. ' +
+          'Hours: Monday–Friday 8am–5pm, Saturday by appointment, Sunday closed. Phones are answered 24/7 in English and Spanish, and evening and weekend appointments are available. From Cathedral City, the consultation is about 9 miles and 15 minutes northwest on Cathedral Canyon, East Palm Canyon, Gene Autry, and Vista Chino — sit-down at the Palm Canyon office, not a federal courthouse address. Redlands is the other office — 2068 Orange Tree Lane, Suite 220, (909) 915-0181. ' +
             DEBT_RELIEF,
         ],
       },
@@ -1294,7 +1294,7 @@ const BK_EN: Record<CitySlug, CityPageCopy> = {
       {
         h2: '(760) 835-9353 — 1276 N Palm Canyon Dr #107',
         paragraphs: [
-          'Hours: Monday–Friday 9am–6pm, Saturday 10am–4pm, Sunday by appointment. From Indio, the consultation is about 24 miles and 31 minutes west-northwest on Jackson Street, the I-10 west, Vista Chino, and Palm Canyon — sit-down at the Palm Canyon office, not a federal courthouse address. Redlands is the other office — 2068 Orange Tree Lane, Suite 220, (909) 915-0181. ' +
+          'Hours: Monday–Friday 8am–5pm, Saturday by appointment, Sunday closed. Phones are answered 24/7 in English and Spanish, and evening and weekend appointments are available. From Indio, the consultation is about 24 miles and 31 minutes west-northwest on Jackson Street, the I-10 west, Vista Chino, and Palm Canyon — sit-down at the Palm Canyon office, not a federal courthouse address. Redlands is the other office — 2068 Orange Tree Lane, Suite 220, (909) 915-0181. ' +
             DEBT_RELIEF,
         ],
       },
@@ -1336,7 +1336,7 @@ const BK_EN: Record<CitySlug, CityPageCopy> = {
       {
         h2: '(760) 835-9353 — 1276 N Palm Canyon Dr #107',
         paragraphs: [
-          'Hours: Monday–Friday 9am–6pm, Saturday 10am–4pm, Sunday by appointment. From La Quinta, the consultation is about 23 miles and 34 minutes northwest on Washington Street, Varner Road, the I-10 west, Vista Chino, and Palm Canyon — sit-down at the Palm Canyon office, not a federal courthouse address. Redlands is the other office — 2068 Orange Tree Lane, Suite 220, (909) 915-0181. ' +
+          'Hours: Monday–Friday 8am–5pm, Saturday by appointment, Sunday closed. Phones are answered 24/7 in English and Spanish, and evening and weekend appointments are available. From La Quinta, the consultation is about 23 miles and 34 minutes northwest on Washington Street, Varner Road, the I-10 west, Vista Chino, and Palm Canyon — sit-down at the Palm Canyon office, not a federal courthouse address. Redlands is the other office — 2068 Orange Tree Lane, Suite 220, (909) 915-0181. ' +
             DEBT_RELIEF,
         ],
       },
@@ -1384,7 +1384,7 @@ const BK_EN: Record<CitySlug, CityPageCopy> = {
       {
         h2: '(909) 915-0181 — Orange Tree Lane',
         paragraphs: [
-          'Hours: Monday–Friday 9am–6pm, Saturday 10am–4pm, Sunday by appointment. Palm Springs is the other office — 1276 N Palm Canyon Dr #107, (760) 835-9353. ' + DEBT_RELIEF,
+          'Hours: Monday–Friday 8am–5pm, Saturday by appointment, Sunday closed. Phones are answered 24/7 in English and Spanish, and evening and weekend appointments are available. Palm Springs is the other office — 1276 N Palm Canyon Dr #107, (760) 835-9353. ' + DEBT_RELIEF,
         ],
       },
     ],
@@ -1431,7 +1431,7 @@ const BK_EN: Record<CitySlug, CityPageCopy> = {
       {
         h2: '(909) 915-0181 — Orange Tree Lane',
         paragraphs: [
-          'Hours: Monday–Friday 9am–6pm, Saturday 10am–4pm, Sunday by appointment. From San Bernardino, the consultation is about 8 miles and 14 minutes southeast on the I-10 — not a downtown storefront. Palm Springs is the other office — 1276 N Palm Canyon Dr #107, (760) 835-9353. ' +
+          'Hours: Monday–Friday 8am–5pm, Saturday by appointment, Sunday closed. Phones are answered 24/7 in English and Spanish, and evening and weekend appointments are available. From San Bernardino, the consultation is about 8 miles and 14 minutes southeast on the I-10 — not a downtown storefront. Palm Springs is the other office — 1276 N Palm Canyon Dr #107, (760) 835-9353. ' +
             DEBT_RELIEF,
         ],
       },
@@ -1479,7 +1479,7 @@ const BK_EN: Record<CitySlug, CityPageCopy> = {
       {
         h2: '(909) 915-0181 — Orange Tree Lane',
         paragraphs: [
-          'Hours: Monday–Friday 9am–6pm, Saturday 10am–4pm, Sunday by appointment. From Riverside, the consultation is about 12 miles and 17 minutes east on Mission Inn, the CA-91, and the I-10 — not a Magnolia or Indiana Avenue storefront. Palm Springs is the other office — 1276 N Palm Canyon Dr #107, (760) 835-9353. ' +
+          'Hours: Monday–Friday 8am–5pm, Saturday by appointment, Sunday closed. Phones are answered 24/7 in English and Spanish, and evening and weekend appointments are available. From Riverside, the consultation is about 12 miles and 17 minutes east on Mission Inn, the CA-91, and the I-10 — not a Magnolia or Indiana Avenue storefront. Palm Springs is the other office — 1276 N Palm Canyon Dr #107, (760) 835-9353. ' +
             DEBT_RELIEF,
         ],
       },
@@ -1527,7 +1527,7 @@ const BK_EN: Record<CitySlug, CityPageCopy> = {
       {
         h2: '(909) 915-0181 — Orange Tree Lane',
         paragraphs: [
-          'Hours: Monday–Friday 9am–6pm, Saturday 10am–4pm, Sunday by appointment. From Moreno Valley, the consultation is about 20 miles and 26 minutes north on Frederick, Cactus, the I-215 north, and the I-10 east — not a Sunnymead or Perris Boulevard storefront. Palm Springs is the other office — 1276 N Palm Canyon Dr #107, (760) 835-9353. ' +
+          'Hours: Monday–Friday 8am–5pm, Saturday by appointment, Sunday closed. Phones are answered 24/7 in English and Spanish, and evening and weekend appointments are available. From Moreno Valley, the consultation is about 20 miles and 26 minutes north on Frederick, Cactus, the I-215 north, and the I-10 east — not a Sunnymead or Perris Boulevard storefront. Palm Springs is the other office — 1276 N Palm Canyon Dr #107, (760) 835-9353. ' +
             DEBT_RELIEF,
         ],
       },
@@ -1598,7 +1598,7 @@ const BK_EN: Record<CitySlug, CityPageCopy> = {
       {
         h2: '(909) 915-0181 — Orange Tree Lane',
         paragraphs: [
-          'Hours: Monday–Friday 9am–6pm, Saturday 10am–4pm, Sunday by appointment. From Hemet, the consultation is about 33 miles and 43 minutes north-northwest on Florida Avenue, State Street, Ramona Expressway, CA 79 (Sanderson / Lamb Canyon / Beaumont Avenue), the I-10 west, and California Street — sit-down at Orange Tree Lane, not a federal courthouse address. Palm Springs is the other office — 1276 N Palm Canyon Dr #107, (760) 835-9353. ' +
+          'Hours: Monday–Friday 8am–5pm, Saturday by appointment, Sunday closed. Phones are answered 24/7 in English and Spanish, and evening and weekend appointments are available. From Hemet, the consultation is about 33 miles and 43 minutes north-northwest on Florida Avenue, State Street, Ramona Expressway, CA 79 (Sanderson / Lamb Canyon / Beaumont Avenue), the I-10 west, and California Street — sit-down at Orange Tree Lane, not a federal courthouse address. Palm Springs is the other office — 1276 N Palm Canyon Dr #107, (760) 835-9353. ' +
             DEBT_RELIEF,
         ],
       },
@@ -1727,7 +1727,7 @@ const BK_EN: Record<CitySlug, CityPageCopy> = {
       {
         h2: '(760) 835-9353 — 1276 N Palm Canyon Dr #107',
         paragraphs: [
-          'Hours: Monday–Friday 9am–6pm, Saturday 10am–4pm, Sunday by appointment. From Coachella, the consultation is about 28.5 miles and 35 minutes west-northwest on Enterprise Way, Avenue 52, SR-86, the I-10 west, Vista Chino, and Palm Canyon — sit-down at the Palm Canyon office, not a federal courthouse address. Redlands is the other office — 2068 Orange Tree Lane, Suite 220, (909) 915-0181. ' +
+          'Hours: Monday–Friday 8am–5pm, Saturday by appointment, Sunday closed. Phones are answered 24/7 in English and Spanish, and evening and weekend appointments are available. From Coachella, the consultation is about 28.5 miles and 35 minutes west-northwest on Enterprise Way, Avenue 52, SR-86, the I-10 west, Vista Chino, and Palm Canyon — sit-down at the Palm Canyon office, not a federal courthouse address. Redlands is the other office — 2068 Orange Tree Lane, Suite 220, (909) 915-0181. ' +
             DEBT_RELIEF,
         ],
       },
@@ -1778,7 +1778,7 @@ const PI_ES: Record<CitySlug, CityPageCopy> = {
       {
         h2: '(909) 915-0181 — Orange Tree Lane, al este',
         paragraphs: [
-          'Horario: lunes a viernes 9am–6pm, sábado 10am–4pm, domingo con cita. Lesiones graves pueden contactar la oficina las 24 horas para consulta de emergencia. Desde Fontana, la consulta es unas 15 millas y 21 minutos al este por Sierra Avenue, la I-10 y California Street — no un local en Sierra Avenue. Si el mismo choque hunde el hogar, la misma llamada al (909) 915-0181 presenta el Capítulo 7 o 13 en 3420 Twelfth Street, Riverside — unas 11 millas y 20 minutos al sureste. Palm Springs es la segunda oficina — 1276 N Palm Canyon Dr #107, (760) 835-9353.',
+          'Horario: lunes a viernes 8am–5pm, sábado con cita, domingo cerrado. Contestamos el teléfono las 24 horas en inglés y español, y hay citas en la tarde y fines de semana. Desde Fontana, la consulta es unas 15 millas y 21 minutos al este por Sierra Avenue, la I-10 y California Street — no un local en Sierra Avenue. Si el mismo choque hunde el hogar, la misma llamada al (909) 915-0181 presenta el Capítulo 7 o 13 en 3420 Twelfth Street, Riverside — unas 11 millas y 20 minutos al sureste. Palm Springs es la segunda oficina — 1276 N Palm Canyon Dr #107, (760) 835-9353.',
         ],
       },
     ],
@@ -1825,7 +1825,7 @@ const PI_ES: Record<CitySlug, CityPageCopy> = {
       {
         h2: '(909) 915-0181 — Orange Tree Lane, al este',
         paragraphs: [
-          'Horario: lunes a viernes 9am–6pm, sábado 10am–4pm, domingo con cita. Lesiones graves pueden contactar la oficina las 24 horas para consulta de emergencia. Desde Colton, la consulta es unas 6.5 millas y unos 10 minutos al este por la rampa de la 9th Street, la I-10 y California Street — no un local en Colton. Si el mismo choque hunde el hogar, la misma llamada al (909) 915-0181 presenta el Capítulo 7 o 13 en el Tribunal de Bancarrota de EE. UU., 3420 Twelfth Street, Riverside — unas 9 millas y unos 14 minutos al sur. Palm Springs es solo la segunda oficina — 1276 N Palm Canyon Dr #107, (760) 835-9353.',
+          'Horario: lunes a viernes 8am–5pm, sábado con cita, domingo cerrado. Contestamos el teléfono las 24 horas en inglés y español, y hay citas en la tarde y fines de semana. Desde Colton, la consulta es unas 6.5 millas y unos 10 minutos al este por la rampa de la 9th Street, la I-10 y California Street — no un local en Colton. Si el mismo choque hunde el hogar, la misma llamada al (909) 915-0181 presenta el Capítulo 7 o 13 en el Tribunal de Bancarrota de EE. UU., 3420 Twelfth Street, Riverside — unas 9 millas y unos 14 minutos al sur. Palm Springs es solo la segunda oficina — 1276 N Palm Canyon Dr #107, (760) 835-9353.',
         ],
       },
     ],
@@ -1872,7 +1872,7 @@ const PI_ES: Record<CitySlug, CityPageCopy> = {
       {
         h2: '(909) 915-0181 — Orange Tree Lane, al este',
         paragraphs: [
-          'Horario: lunes a viernes 9am–6pm, sábado 10am–4pm, domingo con cita. Lesiones graves pueden contactar la oficina las 24 horas para consulta de emergencia. Desde Rancho Cucamonga, la consulta es unas 24 millas y unos 31 minutos al este por Haven Avenue, la I-10 al este y California Street — no un local en Rancho Cucamonga. Si el mismo choque hunde el hogar, la misma llamada al (909) 915-0181 presenta el Capítulo 7 o 13 en el Tribunal de Bancarrota de EE. UU., 3420 Twelfth Street, Riverside — unas 20 millas y unos 29 minutos al sureste. Palm Springs es solo la segunda oficina — 1276 N Palm Canyon Dr #107, (760) 835-9353.',
+          'Horario: lunes a viernes 8am–5pm, sábado con cita, domingo cerrado. Contestamos el teléfono las 24 horas en inglés y español, y hay citas en la tarde y fines de semana. Desde Rancho Cucamonga, la consulta es unas 24 millas y unos 31 minutos al este por Haven Avenue, la I-10 al este y California Street — no un local en Rancho Cucamonga. Si el mismo choque hunde el hogar, la misma llamada al (909) 915-0181 presenta el Capítulo 7 o 13 en el Tribunal de Bancarrota de EE. UU., 3420 Twelfth Street, Riverside — unas 20 millas y unos 29 minutos al sureste. Palm Springs es solo la segunda oficina — 1276 N Palm Canyon Dr #107, (760) 835-9353.',
         ],
       },
     ],
@@ -1919,7 +1919,7 @@ const PI_ES: Record<CitySlug, CityPageCopy> = {
       {
         h2: '(909) 915-0181 — Orange Tree Lane, al noroeste',
         paragraphs: [
-          'Horario: lunes a viernes 9am–6pm, sábado 10am–4pm, domingo con cita. Lesiones graves pueden contactar la oficina las 24 horas para consulta de emergencia. Desde Beaumont, la consulta es unas 19 millas y unos 23 minutos al noroeste por Orange Avenue, 6th Street, Beaumont Avenue, la I-10 al oeste y California Street — no un local en Beaumont. Si el mismo choque hunde el hogar, la misma llamada al (909) 915-0181 presenta el Capítulo 7 o 13 en el Tribunal de Bancarrota de EE. UU., 3420 Twelfth Street, Riverside — unas 12 millas y 17 minutos al suroeste. Palm Springs es solo la segunda oficina — 1276 N Palm Canyon Dr #107, (760) 835-9353.',
+          'Horario: lunes a viernes 8am–5pm, sábado con cita, domingo cerrado. Contestamos el teléfono las 24 horas en inglés y español, y hay citas en la tarde y fines de semana. Desde Beaumont, la consulta es unas 19 millas y unos 23 minutos al noroeste por Orange Avenue, 6th Street, Beaumont Avenue, la I-10 al oeste y California Street — no un local en Beaumont. Si el mismo choque hunde el hogar, la misma llamada al (909) 915-0181 presenta el Capítulo 7 o 13 en el Tribunal de Bancarrota de EE. UU., 3420 Twelfth Street, Riverside — unas 12 millas y 17 minutos al suroeste. Palm Springs es solo la segunda oficina — 1276 N Palm Canyon Dr #107, (760) 835-9353.',
         ],
       },
     ],
@@ -1966,7 +1966,7 @@ const PI_ES: Record<CitySlug, CityPageCopy> = {
       {
         h2: '(760) 835-9353 — 1276 N Palm Canyon Dr #107, consulta local',
         paragraphs: [
-          'Horario: lunes a viernes 9am–6pm, sábado 10am–4pm, domingo con cita. Lesiones graves pueden contactar la oficina las 24 horas para consulta de emergencia. El local está en N Palm Canyon Drive — unas 3.2 millas y unos 7 minutos al noroeste del Ayuntamiento en 3200 East Tahquitz Canyon Way cuando se recorre Civic \u2192 Tahquitz \u2192 Sunrise \u2192 Tachevah \u2192 N Palm Canyon. Si el mismo choque hunde el hogar, la misma llamada al (760) 835-9353 presenta el Capítulo 7 o 13 en el Tribunal de Bancarrota de EE. UU., 3420 Twelfth Street, Riverside — unas 55 millas y unos 71 minutos al noroeste. Redlands es la segunda oficina solamente — 2068 Orange Tree Lane, Suite 220, (909) 915-0181 — unas 49 millas y unos 60 minutos al noroeste, no la línea principal de Palm Springs.',
+          'Horario: lunes a viernes 8am–5pm, sábado con cita, domingo cerrado. Contestamos el teléfono las 24 horas en inglés y español, y hay citas en la tarde y fines de semana. El local está en N Palm Canyon Drive — unas 3.2 millas y unos 7 minutos al noroeste del Ayuntamiento en 3200 East Tahquitz Canyon Way cuando se recorre Civic \u2192 Tahquitz \u2192 Sunrise \u2192 Tachevah \u2192 N Palm Canyon. Si el mismo choque hunde el hogar, la misma llamada al (760) 835-9353 presenta el Capítulo 7 o 13 en el Tribunal de Bancarrota de EE. UU., 3420 Twelfth Street, Riverside — unas 55 millas y unos 71 minutos al noroeste. Redlands es la segunda oficina solamente — 2068 Orange Tree Lane, Suite 220, (909) 915-0181 — unas 49 millas y unos 60 minutos al noroeste, no la línea principal de Palm Springs.',
         ],
       },
     ],
@@ -2013,7 +2013,7 @@ const PI_ES: Record<CitySlug, CityPageCopy> = {
       {
         h2: '(760) 835-9353 — 1276 N Palm Canyon Dr #107, al noroeste',
         paragraphs: [
-          'Horario: lunes a viernes 9am–6pm, sábado 10am–4pm, domingo con cita. Lesiones graves pueden contactar la oficina las 24 horas para consulta de emergencia. Desde Palm Desert, la consulta es unas 17 millas y unos 26 minutos al noroeste por Civic Center Drive, San Pablo, Fred Waring Drive, Monterey Avenue, la I-10 al oeste, Date Palm Drive, Vista Chino / CA-111 y N Palm Canyon Drive — no un local en Palm Desert. Si el mismo choque hunde el hogar, la misma llamada al (760) 835-9353 presenta el Capítulo 7 o 13 en el Tribunal de Bancarrota de EE. UU., 3420 Twelfth Street, Riverside. Redlands es solo la segunda oficina — 2068 Orange Tree Lane, Suite 220, (909) 915-0181.',
+          'Horario: lunes a viernes 8am–5pm, sábado con cita, domingo cerrado. Contestamos el teléfono las 24 horas en inglés y español, y hay citas en la tarde y fines de semana. Desde Palm Desert, la consulta es unas 17 millas y unos 26 minutos al noroeste por Civic Center Drive, San Pablo, Fred Waring Drive, Monterey Avenue, la I-10 al oeste, Date Palm Drive, Vista Chino / CA-111 y N Palm Canyon Drive — no un local en Palm Desert. Si el mismo choque hunde el hogar, la misma llamada al (760) 835-9353 presenta el Capítulo 7 o 13 en el Tribunal de Bancarrota de EE. UU., 3420 Twelfth Street, Riverside. Redlands es solo la segunda oficina — 2068 Orange Tree Lane, Suite 220, (909) 915-0181.',
         ],
       },
     ],
@@ -2060,7 +2060,7 @@ const PI_ES: Record<CitySlug, CityPageCopy> = {
       {
         h2: '(760) 835-9353 — 1276 N Palm Canyon Dr #107, al noroeste',
         paragraphs: [
-          'Horario: lunes a viernes 9am–6pm, sábado 10am–4pm, domingo con cita. Lesiones graves pueden contactar la oficina las 24 horas para consulta de emergencia. Desde Cathedral City, la consulta es unas 9 millas y 15 minutos al noroeste por Cathedral Canyon Drive, East Palm Canyon Drive, Gene Autry Trail, Vista Chino / CA-111 y N Palm Canyon Drive — no un local en Cathedral City. Si el mismo choque hunde el hogar, la misma llamada al (760) 835-9353 presenta el Capítulo 7 o 13 en el Tribunal de Bancarrota de EE. UU., 3420 Twelfth Street, Riverside. Redlands es solo la segunda oficina — 2068 Orange Tree Lane, Suite 220, (909) 915-0181.',
+          'Horario: lunes a viernes 8am–5pm, sábado con cita, domingo cerrado. Contestamos el teléfono las 24 horas en inglés y español, y hay citas en la tarde y fines de semana. Desde Cathedral City, la consulta es unas 9 millas y 15 minutos al noroeste por Cathedral Canyon Drive, East Palm Canyon Drive, Gene Autry Trail, Vista Chino / CA-111 y N Palm Canyon Drive — no un local en Cathedral City. Si el mismo choque hunde el hogar, la misma llamada al (760) 835-9353 presenta el Capítulo 7 o 13 en el Tribunal de Bancarrota de EE. UU., 3420 Twelfth Street, Riverside. Redlands es solo la segunda oficina — 2068 Orange Tree Lane, Suite 220, (909) 915-0181.',
         ],
       },
     ],
@@ -2107,7 +2107,7 @@ const PI_ES: Record<CitySlug, CityPageCopy> = {
       {
         h2: '(760) 835-9353 — 1276 N Palm Canyon Dr #107, al oeste-noroeste',
         paragraphs: [
-          'Horario: lunes a viernes 9am–6pm, sábado 10am–4pm, domingo con cita. Lesiones graves pueden contactar la oficina las 24 horas para consulta de emergencia. Desde Indio, la consulta es unas 24 millas y unos 31 minutos al oeste-noroeste por Civic Center Drive, Jackson Street, la I-10 al oeste, Date Palm Drive, Vista Chino / CA-111 y N Palm Canyon Drive — no un local en Indio. Si el mismo choque hunde el hogar, la misma llamada al (760) 835-9353 presenta el Capítulo 7 o 13 en el Tribunal de Bancarrota de EE. UU., 3420 Twelfth Street, Riverside. Redlands es solo la segunda oficina — 2068 Orange Tree Lane, Suite 220, (909) 915-0181.',
+          'Horario: lunes a viernes 8am–5pm, sábado con cita, domingo cerrado. Contestamos el teléfono las 24 horas en inglés y español, y hay citas en la tarde y fines de semana. Desde Indio, la consulta es unas 24 millas y unos 31 minutos al oeste-noroeste por Civic Center Drive, Jackson Street, la I-10 al oeste, Date Palm Drive, Vista Chino / CA-111 y N Palm Canyon Drive — no un local en Indio. Si el mismo choque hunde el hogar, la misma llamada al (760) 835-9353 presenta el Capítulo 7 o 13 en el Tribunal de Bancarrota de EE. UU., 3420 Twelfth Street, Riverside. Redlands es solo la segunda oficina — 2068 Orange Tree Lane, Suite 220, (909) 915-0181.',
         ],
       },
     ],
@@ -2154,7 +2154,7 @@ const PI_ES: Record<CitySlug, CityPageCopy> = {
       {
         h2: '(760) 835-9353 — 1276 N Palm Canyon Dr #107, al noroeste',
         paragraphs: [
-          'Horario: lunes a viernes 9am–6pm, sábado 10am–4pm, domingo con cita. Lesiones graves pueden contactar la oficina las 24 horas para consulta de emergencia. Desde La Quinta, la consulta es unas 23 millas y unos 34 minutos al noroeste por Washington Street, Varner Road, la I-10 al oeste, Date Palm Drive, Vista Chino / CA-111 y N Palm Canyon Drive — no un local en La Quinta. Si el mismo choque hunde el hogar, la misma llamada al (760) 835-9353 presenta el Capítulo 7 o 13 en el Tribunal de Bancarrota de EE. UU., 3420 Twelfth Street, Riverside — unas 73.5 millas y unos 91 minutos al noroeste. Redlands es solo la segunda oficina — 2068 Orange Tree Lane, Suite 220, (909) 915-0181 — unas 67.5 millas y unos 80 minutos al oeste-noroeste.',
+          'Horario: lunes a viernes 8am–5pm, sábado con cita, domingo cerrado. Contestamos el teléfono las 24 horas en inglés y español, y hay citas en la tarde y fines de semana. Desde La Quinta, la consulta es unas 23 millas y unos 34 minutos al noroeste por Washington Street, Varner Road, la I-10 al oeste, Date Palm Drive, Vista Chino / CA-111 y N Palm Canyon Drive — no un local en La Quinta. Si el mismo choque hunde el hogar, la misma llamada al (760) 835-9353 presenta el Capítulo 7 o 13 en el Tribunal de Bancarrota de EE. UU., 3420 Twelfth Street, Riverside — unas 73.5 millas y unos 91 minutos al noroeste. Redlands es solo la segunda oficina — 2068 Orange Tree Lane, Suite 220, (909) 915-0181 — unas 67.5 millas y unos 80 minutos al oeste-noroeste.',
         ],
       },
     ],
@@ -2201,7 +2201,7 @@ const PI_ES: Record<CitySlug, CityPageCopy> = {
       {
         h2: '(909) 915-0181 — Orange Tree Lane, oficina local',
         paragraphs: [
-          'Horario: lunes a viernes 9am–6pm, sábado 10am–4pm, domingo con cita. Lesiones graves pueden contactar la oficina las 24 horas para consulta de emergencia. La oficina está en Orange Tree Lane — unas 3.5 millas y 6 minutos al noroeste del City Hall en 35 Cajon Street si toma Cajon → Orange → I-10 → California Street. Si el mismo choque hunde el hogar, la misma llamada al (909) 915-0181 presenta el Capítulo 7 o 13 en 3420 Twelfth Street, Riverside — unas 15 millas y 21 minutos al suroeste. Palm Springs es solo la segunda oficina — 1276 N Palm Canyon Dr #107, (760) 835-9353.',
+          'Horario: lunes a viernes 8am–5pm, sábado con cita, domingo cerrado. Contestamos el teléfono las 24 horas en inglés y español, y hay citas en la tarde y fines de semana. La oficina está en Orange Tree Lane — unas 3.5 millas y 6 minutos al noroeste del City Hall en 35 Cajon Street si toma Cajon → Orange → I-10 → California Street. Si el mismo choque hunde el hogar, la misma llamada al (909) 915-0181 presenta el Capítulo 7 o 13 en 3420 Twelfth Street, Riverside — unas 15 millas y 21 minutos al suroeste. Palm Springs es solo la segunda oficina — 1276 N Palm Canyon Dr #107, (760) 835-9353.',
         ],
       },
     ],
@@ -2248,7 +2248,7 @@ const PI_ES: Record<CitySlug, CityPageCopy> = {
       {
         h2: '(909) 915-0181 — Orange Tree Lane, al sureste',
         paragraphs: [
-          'Horario: lunes a viernes 9am–6pm, sábado 10am–4pm, domingo con cita. Lesiones graves pueden contactar la oficina las 24 horas para consulta de emergencia. Desde San Bernardino, la consulta es unas 8 millas y 14 minutos al sureste por 2nd Street, la I-215, la I-10 y California Street — no un local en el centro de San Bernardino. Si el mismo choque hunde el hogar, la misma llamada al (909) 915-0181 presenta el Capítulo 7 o 13 en el Tribunal de Bancarrota de EE. UU., 3420 Twelfth Street, Riverside — unas 11 millas y 16 minutos al sur-suroeste. Palm Springs es la segunda oficina — 1276 N Palm Canyon Dr #107, (760) 835-9353 — unas 54 millas y 64 minutos al sureste, no la línea principal de San Bernardino.',
+          'Horario: lunes a viernes 8am–5pm, sábado con cita, domingo cerrado. Contestamos el teléfono las 24 horas en inglés y español, y hay citas en la tarde y fines de semana. Desde San Bernardino, la consulta es unas 8 millas y 14 minutos al sureste por 2nd Street, la I-215, la I-10 y California Street — no un local en el centro de San Bernardino. Si el mismo choque hunde el hogar, la misma llamada al (909) 915-0181 presenta el Capítulo 7 o 13 en el Tribunal de Bancarrota de EE. UU., 3420 Twelfth Street, Riverside — unas 11 millas y 16 minutos al sur-suroeste. Palm Springs es la segunda oficina — 1276 N Palm Canyon Dr #107, (760) 835-9353 — unas 54 millas y 64 minutos al sureste, no la línea principal de San Bernardino.',
         ],
       },
     ],
@@ -2295,7 +2295,7 @@ const PI_ES: Record<CitySlug, CityPageCopy> = {
       {
         h2: '(909) 915-0181 — Orange Tree Lane, al noreste',
         paragraphs: [
-          'Horario: lunes a viernes 9am–6pm, sábado 10am–4pm, domingo con cita. Lesiones graves pueden contactar la oficina las 24 horas para consulta de emergencia. Desde Riverside, la consulta es unas 12 millas y 17 minutos al noreste por Mission Inn Avenue, la CA-91, la I-10 y California Street — no un local en el centro de Riverside. Si el mismo choque hunde el hogar, la misma llamada al (909) 915-0181 presenta el Capítulo 7 o 13 en el Tribunal de Bancarrota de EE. UU., 3420 Twelfth Street, Riverside — unas 0.5 millas y 2 minutos al sureste desde el centro. Palm Springs es la segunda oficina si ese trayecto es más fácil — 1276 N Palm Canyon Dr #107, (760) 835-9353.',
+          'Horario: lunes a viernes 8am–5pm, sábado con cita, domingo cerrado. Contestamos el teléfono las 24 horas en inglés y español, y hay citas en la tarde y fines de semana. Desde Riverside, la consulta es unas 12 millas y 17 minutos al noreste por Mission Inn Avenue, la CA-91, la I-10 y California Street — no un local en el centro de Riverside. Si el mismo choque hunde el hogar, la misma llamada al (909) 915-0181 presenta el Capítulo 7 o 13 en el Tribunal de Bancarrota de EE. UU., 3420 Twelfth Street, Riverside — unas 0.5 millas y 2 minutos al sureste desde el centro. Palm Springs es la segunda oficina si ese trayecto es más fácil — 1276 N Palm Canyon Dr #107, (760) 835-9353.',
         ],
       },
     ],
@@ -2342,7 +2342,7 @@ const PI_ES: Record<CitySlug, CityPageCopy> = {
       {
         h2: '(909) 915-0181 — Orange Tree Lane, al norte y luego al este',
         paragraphs: [
-          'Horario: lunes a viernes 9am–6pm, sábado 10am–4pm, domingo con cita. Lesiones graves pueden contactar la oficina las 24 horas para consulta de emergencia. Desde Moreno Valley, la consulta es unos 19.5 millas y 26 minutos al norte y luego al este por Frederick Street, Cactus Avenue, la I-215, la I-10 y California Street — no un local en Moreno Valley. Si el mismo choque hunde el hogar, la misma llamada al (909) 915-0181 presenta el Capítulo 7 o 13 en el Tribunal de Bancarrota de EE. UU., 3420 Twelfth Street, Riverside — unas 10 millas y 16 minutos al oeste-noroeste. Palm Springs es solo la segunda oficina — 1276 N Palm Canyon Dr #107, (760) 835-9353.',
+          'Horario: lunes a viernes 8am–5pm, sábado con cita, domingo cerrado. Contestamos el teléfono las 24 horas en inglés y español, y hay citas en la tarde y fines de semana. Desde Moreno Valley, la consulta es unos 19.5 millas y 26 minutos al norte y luego al este por Frederick Street, Cactus Avenue, la I-215, la I-10 y California Street — no un local en Moreno Valley. Si el mismo choque hunde el hogar, la misma llamada al (909) 915-0181 presenta el Capítulo 7 o 13 en el Tribunal de Bancarrota de EE. UU., 3420 Twelfth Street, Riverside — unas 10 millas y 16 minutos al oeste-noroeste. Palm Springs es solo la segunda oficina — 1276 N Palm Canyon Dr #107, (760) 835-9353.',
         ],
       },
     ],
@@ -2389,7 +2389,7 @@ const PI_ES: Record<CitySlug, CityPageCopy> = {
       {
         h2: '(909) 915-0181 — Orange Tree Lane, al sur',
         paragraphs: [
-          'Horario: lunes a viernes 9am–6pm, sábado 10am–4pm, domingo con cita. Lesiones graves pueden contactar la oficina las 24 horas para consulta de emergencia. Desde Highland, la consulta es unos 5 millas y 10 minutos al sur por Base Line, Palm Avenue, Alabama Street, un tramo corto en la I-10 y California Street — no un local en Highland. Si el mismo choque hunde el hogar, la misma llamada al (909) 915-0181 presenta el Capítulo 7 o 13 en el Tribunal de Bancarrota de EE. UU., 3420 Twelfth Street, Riverside — unas 17 millas y 25 minutos al suroeste. Palm Springs es solo la segunda oficina — 1276 N Palm Canyon Dr #107, (760) 835-9353.',
+          'Horario: lunes a viernes 8am–5pm, sábado con cita, domingo cerrado. Contestamos el teléfono las 24 horas en inglés y español, y hay citas en la tarde y fines de semana. Desde Highland, la consulta es unos 5 millas y 10 minutos al sur por Base Line, Palm Avenue, Alabama Street, un tramo corto en la I-10 y California Street — no un local en Highland. Si el mismo choque hunde el hogar, la misma llamada al (909) 915-0181 presenta el Capítulo 7 o 13 en el Tribunal de Bancarrota de EE. UU., 3420 Twelfth Street, Riverside — unas 17 millas y 25 minutos al suroeste. Palm Springs es solo la segunda oficina — 1276 N Palm Canyon Dr #107, (760) 835-9353.',
         ],
       },
     ],
@@ -2436,7 +2436,7 @@ const PI_ES: Record<CitySlug, CityPageCopy> = {
       {
         h2: '(909) 915-0181 — Orange Tree Lane, al noroeste',
         paragraphs: [
-          'Horario: lunes a viernes 9am–6pm, sábado 10am–4pm, domingo con cita. Lesiones graves pueden contactar la oficina las 24 horas para consulta de emergencia. Desde Hemet, la consulta es unas 33 millas y unos 43 minutos al noroeste por Florida Avenue, State Street, Ramona Expressway, Sanderson Avenue, Lamb Canyon Road, Beaumont Avenue, la I-10 al oeste y California Street — no un local en Hemet. Si el mismo choque hunde el hogar, la misma llamada al (909) 915-0181 presenta el Capítulo 7 o 13 en el Tribunal de Bancarrota de EE. UU., 3420 Twelfth Street, Riverside — unas 34 millas y unos 49 minutos al noroeste. Palm Springs es solo la segunda oficina — 1276 N Palm Canyon Dr #107, (760) 835-9353.',
+          'Horario: lunes a viernes 8am–5pm, sábado con cita, domingo cerrado. Contestamos el teléfono las 24 horas en inglés y español, y hay citas en la tarde y fines de semana. Desde Hemet, la consulta es unas 33 millas y unos 43 minutos al noroeste por Florida Avenue, State Street, Ramona Expressway, Sanderson Avenue, Lamb Canyon Road, Beaumont Avenue, la I-10 al oeste y California Street — no un local en Hemet. Si el mismo choque hunde el hogar, la misma llamada al (909) 915-0181 presenta el Capítulo 7 o 13 en el Tribunal de Bancarrota de EE. UU., 3420 Twelfth Street, Riverside — unas 34 millas y unos 49 minutos al noroeste. Palm Springs es solo la segunda oficina — 1276 N Palm Canyon Dr #107, (760) 835-9353.',
         ],
       },
     ],
@@ -2483,7 +2483,7 @@ const PI_ES: Record<CitySlug, CityPageCopy> = {
       {
         h2: '(760) 835-9353 — 1276 N Palm Canyon Dr #107, al sur',
         paragraphs: [
-          'Horario: lunes a viernes 9am–6pm, sábado 10am–4pm, domingo con cita. Lesiones graves pueden contactar la oficina las 24 horas para consulta de emergencia. Desde Desert Hot Springs, la consulta es unas 11 millas y 18 minutos al sur por Pierson Boulevard, Palm Drive, Gene Autry Trail, Vista Chino / CA-111 y N Palm Canyon Drive — no un local en Desert Hot Springs. Si el mismo choque hunde el hogar, la misma llamada al (760) 835-9353 presenta el Capítulo 7 o 13 en el Tribunal de Bancarrota de EE. UU., 3420 Twelfth Street, Riverside. Redlands es solo la segunda oficina — 2068 Orange Tree Lane, Suite 220, (909) 915-0181.',
+          'Horario: lunes a viernes 8am–5pm, sábado con cita, domingo cerrado. Contestamos el teléfono las 24 horas en inglés y español, y hay citas en la tarde y fines de semana. Desde Desert Hot Springs, la consulta es unas 11 millas y 18 minutos al sur por Pierson Boulevard, Palm Drive, Gene Autry Trail, Vista Chino / CA-111 y N Palm Canyon Drive — no un local en Desert Hot Springs. Si el mismo choque hunde el hogar, la misma llamada al (760) 835-9353 presenta el Capítulo 7 o 13 en el Tribunal de Bancarrota de EE. UU., 3420 Twelfth Street, Riverside. Redlands es solo la segunda oficina — 2068 Orange Tree Lane, Suite 220, (909) 915-0181.',
         ],
       },
     ],
@@ -2530,7 +2530,7 @@ const PI_ES: Record<CitySlug, CityPageCopy> = {
       {
         h2: '(909) 915-0181 — Orange Tree Lane, al oeste-noroeste',
         paragraphs: [
-          'Horario: lunes a viernes 9am–6pm, sábado 10am–4pm, domingo con cita. Lesiones graves pueden contactar la oficina las 24 horas para consulta de emergencia. Desde Yucaipa, la consulta es unas 11.5 millas y unos 17 minutos al oeste-noroeste por Yucaipa Boulevard por Oak Glen, la I-10 al oeste y California Street — no un local en Yucaipa. Si el mismo choque hunde el hogar, la misma llamada al (909) 915-0181 presenta el Capítulo 7 o 13 en el Tribunal de Bancarrota de EE. UU., 3420 Twelfth Street, Riverside — unas 23 millas y unos 31 minutos al oeste-suroeste. Palm Springs es solo la segunda oficina — 1276 N Palm Canyon Dr #107, (760) 835-9353 — unas 38 millas y unos 47 minutos al este-sureste.',
+          'Horario: lunes a viernes 8am–5pm, sábado con cita, domingo cerrado. Contestamos el teléfono las 24 horas en inglés y español, y hay citas en la tarde y fines de semana. Desde Yucaipa, la consulta es unas 11.5 millas y unos 17 minutos al oeste-noroeste por Yucaipa Boulevard por Oak Glen, la I-10 al oeste y California Street — no un local en Yucaipa. Si el mismo choque hunde el hogar, la misma llamada al (909) 915-0181 presenta el Capítulo 7 o 13 en el Tribunal de Bancarrota de EE. UU., 3420 Twelfth Street, Riverside — unas 23 millas y unos 31 minutos al oeste-suroeste. Palm Springs es solo la segunda oficina — 1276 N Palm Canyon Dr #107, (760) 835-9353 — unas 38 millas y unos 47 minutos al este-sureste.',
         ],
       },
     ],
@@ -2577,7 +2577,7 @@ const PI_ES: Record<CitySlug, CityPageCopy> = {
       {
         h2: '(909) 915-0181 — Orange Tree Lane, al este',
         paragraphs: [
-          'Horario: lunes a viernes 9am–6pm, sábado 10am–4pm, domingo con cita. Lesiones graves pueden contactar la oficina las 24 horas para consulta de emergencia. Desde Ontario, la consulta es unas 25 millas y unos 33 minutos al este por E. B Street, Plum Avenue, Holt Boulevard, la I-10 al este y California Street — no un local en Ontario. Si el mismo choque hunde el hogar, la misma llamada al (909) 915-0181 presenta el Capítulo 7 o 13 en el Tribunal de Bancarrota de EE. UU., 3420 Twelfth Street, Riverside — unas 20.5 millas y unos 28 minutos al este-sureste; la presentación de bancarrota puede estar más cerca que la consulta en Orange Tree Lane, pero la consulta de lesiones personales permanece en Orange Tree. Palm Springs es solo la segunda oficina — 1276 N Palm Canyon Dr #107, (760) 835-9353 — unas 70.5 millas y unos 83 minutos al este-sureste.',
+          'Horario: lunes a viernes 8am–5pm, sábado con cita, domingo cerrado. Contestamos el teléfono las 24 horas en inglés y español, y hay citas en la tarde y fines de semana. Desde Ontario, la consulta es unas 25 millas y unos 33 minutos al este por E. B Street, Plum Avenue, Holt Boulevard, la I-10 al este y California Street — no un local en Ontario. Si el mismo choque hunde el hogar, la misma llamada al (909) 915-0181 presenta el Capítulo 7 o 13 en el Tribunal de Bancarrota de EE. UU., 3420 Twelfth Street, Riverside — unas 20.5 millas y unos 28 minutos al este-sureste; la presentación de bancarrota puede estar más cerca que la consulta en Orange Tree Lane, pero la consulta de lesiones personales permanece en Orange Tree. Palm Springs es solo la segunda oficina — 1276 N Palm Canyon Dr #107, (760) 835-9353 — unas 70.5 millas y unos 83 minutos al este-sureste.',
         ],
       },
     ],
@@ -2624,7 +2624,7 @@ const PI_ES: Record<CitySlug, CityPageCopy> = {
       {
         h2: '(760) 835-9353 — 1276 N Palm Canyon Dr #107, al oeste-noroeste',
         paragraphs: [
-          'Horario: lunes a viernes 9am–6pm, sábado 10am–4pm, domingo con cita. Lesiones graves pueden contactar la oficina las 24 horas para consulta de emergencia. Desde Coachella, la consulta es unas 28.5 millas y unos 35 minutos al oeste-noroeste por Enterprise Way, Avenue 52, SR-86, la I-10 al oeste, Date Palm Drive, Vista Chino / CA-111 y N Palm Canyon Drive — no un local en Coachella. Si el mismo choque hunde el hogar, la misma llamada al (760) 835-9353 presenta el Capítulo 7 o 13 en el Tribunal de Bancarrota de EE. UU., 3420 Twelfth Street, Riverside — unas 79 millas y unos 92 minutos al oeste-noroeste. Redlands es solo la segunda oficina — 2068 Orange Tree Lane, Suite 220, (909) 915-0181 — unas 73 millas y unos 81 minutos al oeste-noroeste.',
+          'Horario: lunes a viernes 8am–5pm, sábado con cita, domingo cerrado. Contestamos el teléfono las 24 horas en inglés y español, y hay citas en la tarde y fines de semana. Desde Coachella, la consulta es unas 28.5 millas y unos 35 minutos al oeste-noroeste por Enterprise Way, Avenue 52, SR-86, la I-10 al oeste, Date Palm Drive, Vista Chino / CA-111 y N Palm Canyon Drive — no un local en Coachella. Si el mismo choque hunde el hogar, la misma llamada al (760) 835-9353 presenta el Capítulo 7 o 13 en el Tribunal de Bancarrota de EE. UU., 3420 Twelfth Street, Riverside — unas 79 millas y unos 92 minutos al oeste-noroeste. Redlands es solo la segunda oficina — 2068 Orange Tree Lane, Suite 220, (909) 915-0181 — unas 73 millas y unos 81 minutos al oeste-noroeste.',
         ],
       },
     ],
@@ -2674,7 +2674,7 @@ const BK_ES: Record<CitySlug, CityPageCopy> = {
       {
         h2: '(909) 915-0181 — Orange Tree Lane',
         paragraphs: [
-          'Horario: lunes a viernes 9am–6pm, sábado 10am–4pm, domingo con cita. Desde Fontana, la consulta es unas 15 millas y 21 minutos al este por la I-10 — no un local en Cherry Avenue ni Winery Drive. Palm Springs es la otra oficina — 1276 N Palm Canyon Dr #107, (760) 835-9353. Somos una agencia de alivio de deudas. Ayudamos a las personas a solicitar alivio de bancarrota bajo el Código de Bancarrota (11 U.S.C. §528).',
+          'Horario: lunes a viernes 8am–5pm, sábado con cita, domingo cerrado. Contestamos el teléfono las 24 horas en inglés y español, y hay citas en la tarde y fines de semana. Desde Fontana, la consulta es unas 15 millas y 21 minutos al este por la I-10 — no un local en Cherry Avenue ni Winery Drive. Palm Springs es la otra oficina — 1276 N Palm Canyon Dr #107, (760) 835-9353. Somos una agencia de alivio de deudas. Ayudamos a las personas a solicitar alivio de bancarrota bajo el Código de Bancarrota (11 U.S.C. §528).',
         ],
       },
     ],
@@ -2743,7 +2743,7 @@ const BK_ES: Record<CitySlug, CityPageCopy> = {
       {
         h2: '(909) 915-0181 — Orange Tree Lane',
         paragraphs: [
-          'Horario: lunes a viernes 9am–6pm, sábado 10am–4pm, domingo con cita. Desde Rancho Cucamonga, la consulta es unas 24 millas y 32 minutos al este por Haven Avenue, la I-10 al este y California Street — cita presencial en Orange Tree Lane, no en un tribunal federal. Palm Springs es la otra oficina — 1276 N Palm Canyon Dr #107, (760) 835-9353. Somos una agencia de alivio de deudas. Ayudamos a las personas a solicitar alivio de bancarrota bajo el Código de Bancarrota (11 U.S.C. §528).',
+          'Horario: lunes a viernes 8am–5pm, sábado con cita, domingo cerrado. Contestamos el teléfono las 24 horas en inglés y español, y hay citas en la tarde y fines de semana. Desde Rancho Cucamonga, la consulta es unas 24 millas y 32 minutos al este por Haven Avenue, la I-10 al este y California Street — cita presencial en Orange Tree Lane, no en un tribunal federal. Palm Springs es la otra oficina — 1276 N Palm Canyon Dr #107, (760) 835-9353. Somos una agencia de alivio de deudas. Ayudamos a las personas a solicitar alivio de bancarrota bajo el Código de Bancarrota (11 U.S.C. §528).',
         ],
       },
     ],
@@ -2784,7 +2784,7 @@ const BK_ES: Record<CitySlug, CityPageCopy> = {
       {
         h2: '(909) 915-0181 — 2068 Orange Tree Lane, Suite 220',
         paragraphs: [
-          'Horario: lunes a viernes 9am–6pm, sábado 10am–4pm, domingo con cita. Desde Beaumont, la consulta es unas 19 millas y 23 minutos al noroeste por Beaumont Avenue, la I-10 al oeste y California Street — en el escritorio de Orange Tree Lane, no una dirección de tribunal federal. Palm Springs es la otra oficina — 1276 N Palm Canyon Dr #107, (760) 835-9353. Somos una agencia de alivio de deudas. Ayudamos a las personas a solicitar alivio de bancarrota bajo el Código de Bancarrota (11 U.S.C. §528).',
+          'Horario: lunes a viernes 8am–5pm, sábado con cita, domingo cerrado. Contestamos el teléfono las 24 horas en inglés y español, y hay citas en la tarde y fines de semana. Desde Beaumont, la consulta es unas 19 millas y 23 minutos al noroeste por Beaumont Avenue, la I-10 al oeste y California Street — en el escritorio de Orange Tree Lane, no una dirección de tribunal federal. Palm Springs es la otra oficina — 1276 N Palm Canyon Dr #107, (760) 835-9353. Somos una agencia de alivio de deudas. Ayudamos a las personas a solicitar alivio de bancarrota bajo el Código de Bancarrota (11 U.S.C. §528).',
         ],
       },
     ],
@@ -2831,7 +2831,7 @@ const BK_ES: Record<CitySlug, CityPageCopy> = {
       {
         h2: '(760) 835-9353 — 1276 N Palm Canyon Dr #107',
         paragraphs: [
-          'Horario: lunes a viernes 9am–6pm, sábado 10am–4pm, domingo con cita. La consulta es en persona en Palm Springs — no una dirección de tribunal federal. Redlands es la otra oficina — 2068 Orange Tree Lane, Suite 220, (909) 915-0181. Somos una agencia de alivio de deudas. Ayudamos a las personas a solicitar alivio de bancarrota bajo el Código de Bancarrota (11 U.S.C. §528).',
+          'Horario: lunes a viernes 8am–5pm, sábado con cita, domingo cerrado. Contestamos el teléfono las 24 horas en inglés y español, y hay citas en la tarde y fines de semana. La consulta es en persona en Palm Springs — no una dirección de tribunal federal. Redlands es la otra oficina — 2068 Orange Tree Lane, Suite 220, (909) 915-0181. Somos una agencia de alivio de deudas. Ayudamos a las personas a solicitar alivio de bancarrota bajo el Código de Bancarrota (11 U.S.C. §528).',
         ],
       },
     ],
@@ -2878,7 +2878,7 @@ const BK_ES: Record<CitySlug, CityPageCopy> = {
       {
         h2: '(760) 835-9353 — 1276 N Palm Canyon Dr #107',
         paragraphs: [
-          'Horario: lunes a viernes 9am–6pm, sábado 10am–4pm, domingo con cita. Desde Palm Desert, la consulta es unas 17 millas y 26 minutos al noroeste por Fred Waring, Monterey, la I-10 al oeste y Date Palm — en el escritorio de Palm Canyon, no una dirección de tribunal federal. Redlands es la otra oficina — 2068 Orange Tree Lane, Suite 220, (909) 915-0181. Somos una agencia de alivio de deudas. Ayudamos a las personas a solicitar alivio de bancarrota bajo el Código de Bancarrota (11 U.S.C. §528).',
+          'Horario: lunes a viernes 8am–5pm, sábado con cita, domingo cerrado. Contestamos el teléfono las 24 horas en inglés y español, y hay citas en la tarde y fines de semana. Desde Palm Desert, la consulta es unas 17 millas y 26 minutos al noroeste por Fred Waring, Monterey, la I-10 al oeste y Date Palm — en el escritorio de Palm Canyon, no una dirección de tribunal federal. Redlands es la otra oficina — 2068 Orange Tree Lane, Suite 220, (909) 915-0181. Somos una agencia de alivio de deudas. Ayudamos a las personas a solicitar alivio de bancarrota bajo el Código de Bancarrota (11 U.S.C. §528).',
         ],
       },
     ],
@@ -2919,7 +2919,7 @@ const BK_ES: Record<CitySlug, CityPageCopy> = {
       {
         h2: '(760) 835-9353 — 1276 N Palm Canyon Dr #107',
         paragraphs: [
-          'Horario: lunes a viernes 9am–6pm, sábado 10am–4pm, domingo con cita. Desde Cathedral City, la consulta es unas 9 millas y 15 minutos al noroeste por Cathedral Canyon, East Palm Canyon, Gene Autry y Vista Chino — en el escritorio de Palm Canyon, no una dirección de tribunal federal. Redlands es la otra oficina — 2068 Orange Tree Lane, Suite 220, (909) 915-0181. Somos una agencia de alivio de deudas. Ayudamos a las personas a solicitar alivio de bancarrota bajo el Código de Bancarrota (11 U.S.C. §528).',
+          'Horario: lunes a viernes 8am–5pm, sábado con cita, domingo cerrado. Contestamos el teléfono las 24 horas en inglés y español, y hay citas en la tarde y fines de semana. Desde Cathedral City, la consulta es unas 9 millas y 15 minutos al noroeste por Cathedral Canyon, East Palm Canyon, Gene Autry y Vista Chino — en el escritorio de Palm Canyon, no una dirección de tribunal federal. Redlands es la otra oficina — 2068 Orange Tree Lane, Suite 220, (909) 915-0181. Somos una agencia de alivio de deudas. Ayudamos a las personas a solicitar alivio de bancarrota bajo el Código de Bancarrota (11 U.S.C. §528).',
         ],
       },
     ],
@@ -2960,7 +2960,7 @@ const BK_ES: Record<CitySlug, CityPageCopy> = {
       {
         h2: '(760) 835-9353 — 1276 N Palm Canyon Dr #107',
         paragraphs: [
-          'Horario: lunes a viernes 9am–6pm, sábado 10am–4pm, domingo con cita. Desde Indio, la consulta es unas 24 millas y 31 minutos al oeste-noroeste por Jackson Street, la I-10 al oeste, Vista Chino y Palm Canyon — en el escritorio de Palm Canyon, no una dirección de tribunal federal. Redlands es la otra oficina — 2068 Orange Tree Lane, Suite 220, (909) 915-0181. Somos una agencia de alivio de deudas. Ayudamos a las personas a solicitar alivio de bancarrota bajo el Código de Bancarrota (11 U.S.C. §528).',
+          'Horario: lunes a viernes 8am–5pm, sábado con cita, domingo cerrado. Contestamos el teléfono las 24 horas en inglés y español, y hay citas en la tarde y fines de semana. Desde Indio, la consulta es unas 24 millas y 31 minutos al oeste-noroeste por Jackson Street, la I-10 al oeste, Vista Chino y Palm Canyon — en el escritorio de Palm Canyon, no una dirección de tribunal federal. Redlands es la otra oficina — 2068 Orange Tree Lane, Suite 220, (909) 915-0181. Somos una agencia de alivio de deudas. Ayudamos a las personas a solicitar alivio de bancarrota bajo el Código de Bancarrota (11 U.S.C. §528).',
         ],
       },
     ],
@@ -3001,7 +3001,7 @@ const BK_ES: Record<CitySlug, CityPageCopy> = {
       {
         h2: '(760) 835-9353 — 1276 N Palm Canyon Dr #107',
         paragraphs: [
-          'Horario: lunes a viernes 9am–6pm, sábado 10am–4pm, domingo con cita. Desde La Quinta, la consulta es unas 23 millas y unos 34 minutos al noroeste por Washington Street, Varner Road, la I-10 al oeste, Vista Chino y Palm Canyon — en el escritorio de Palm Canyon, no una dirección de tribunal federal. Redlands es la otra oficina — 2068 Orange Tree Lane, Suite 220, (909) 915-0181. Somos una agencia de alivio de deudas. Ayudamos a las personas a solicitar alivio de bancarrota bajo el Código de Bancarrota (11 U.S.C. §528).',
+          'Horario: lunes a viernes 8am–5pm, sábado con cita, domingo cerrado. Contestamos el teléfono las 24 horas en inglés y español, y hay citas en la tarde y fines de semana. Desde La Quinta, la consulta es unas 23 millas y unos 34 minutos al noroeste por Washington Street, Varner Road, la I-10 al oeste, Vista Chino y Palm Canyon — en el escritorio de Palm Canyon, no una dirección de tribunal federal. Redlands es la otra oficina — 2068 Orange Tree Lane, Suite 220, (909) 915-0181. Somos una agencia de alivio de deudas. Ayudamos a las personas a solicitar alivio de bancarrota bajo el Código de Bancarrota (11 U.S.C. §528).',
         ],
       },
     ],
@@ -3048,7 +3048,7 @@ const BK_ES: Record<CitySlug, CityPageCopy> = {
       {
         h2: '(909) 915-0181 — Orange Tree Lane',
         paragraphs: [
-          'Horario: lunes a viernes 9am–6pm, sábado 10am–4pm, domingo con cita. Palm Springs es la otra oficina — 1276 N Palm Canyon Dr #107, (760) 835-9353. Somos una agencia de alivio de deudas. Ayudamos a las personas a solicitar alivio de bancarrota bajo el Código de Bancarrota (11 U.S.C. §528).',
+          'Horario: lunes a viernes 8am–5pm, sábado con cita, domingo cerrado. Contestamos el teléfono las 24 horas en inglés y español, y hay citas en la tarde y fines de semana. Palm Springs es la otra oficina — 1276 N Palm Canyon Dr #107, (760) 835-9353. Somos una agencia de alivio de deudas. Ayudamos a las personas a solicitar alivio de bancarrota bajo el Código de Bancarrota (11 U.S.C. §528).',
         ],
       },
     ],
@@ -3095,7 +3095,7 @@ const BK_ES: Record<CitySlug, CityPageCopy> = {
       {
         h2: '(909) 915-0181 — Orange Tree Lane',
         paragraphs: [
-          'Horario: lunes a viernes 9am–6pm, sábado 10am–4pm, domingo con cita. Desde San Bernardino, la consulta es unas 8 millas y 14 minutos al sureste por la I-10 — no un local en el centro. Palm Springs es la otra oficina — 1276 N Palm Canyon Dr #107, (760) 835-9353. Somos una agencia de alivio de deudas. Ayudamos a las personas a solicitar alivio de bancarrota bajo el Código de Bancarrota (11 U.S.C. §528).',
+          'Horario: lunes a viernes 8am–5pm, sábado con cita, domingo cerrado. Contestamos el teléfono las 24 horas en inglés y español, y hay citas en la tarde y fines de semana. Desde San Bernardino, la consulta es unas 8 millas y 14 minutos al sureste por la I-10 — no un local en el centro. Palm Springs es la otra oficina — 1276 N Palm Canyon Dr #107, (760) 835-9353. Somos una agencia de alivio de deudas. Ayudamos a las personas a solicitar alivio de bancarrota bajo el Código de Bancarrota (11 U.S.C. §528).',
         ],
       },
     ],
@@ -3142,7 +3142,7 @@ const BK_ES: Record<CitySlug, CityPageCopy> = {
       {
         h2: '(909) 915-0181 — Orange Tree Lane',
         paragraphs: [
-          'Horario: lunes a viernes 9am–6pm, sábado 10am–4pm, domingo con cita. Desde Riverside, la consulta es unas 12 millas y 17 minutos al este por Mission Inn, la CA-91 y la I-10 — no un local en Magnolia o Indiana Avenue. Palm Springs es la otra oficina — 1276 N Palm Canyon Dr #107, (760) 835-9353. Somos una agencia de alivio de deudas. Ayudamos a las personas a solicitar alivio de bancarrota bajo el Código de Bancarrota (11 U.S.C. §528).',
+          'Horario: lunes a viernes 8am–5pm, sábado con cita, domingo cerrado. Contestamos el teléfono las 24 horas en inglés y español, y hay citas en la tarde y fines de semana. Desde Riverside, la consulta es unas 12 millas y 17 minutos al este por Mission Inn, la CA-91 y la I-10 — no un local en Magnolia o Indiana Avenue. Palm Springs es la otra oficina — 1276 N Palm Canyon Dr #107, (760) 835-9353. Somos una agencia de alivio de deudas. Ayudamos a las personas a solicitar alivio de bancarrota bajo el Código de Bancarrota (11 U.S.C. §528).',
         ],
       },
     ],
@@ -3189,7 +3189,7 @@ const BK_ES: Record<CitySlug, CityPageCopy> = {
       {
         h2: '(909) 915-0181 — Orange Tree Lane',
         paragraphs: [
-          'Horario: lunes a viernes 9am–6pm, sábado 10am–4pm, domingo con cita. Desde Moreno Valley, la consulta es unas 20 millas y 26 minutos al norte por Frederick, Cactus, la I-215 al norte y la I-10 al este — no un local en Sunnymead ni Perris Boulevard. Palm Springs es la otra oficina — 1276 N Palm Canyon Dr #107, (760) 835-9353. Somos una agencia de alivio de deudas. Ayudamos a las personas a solicitar alivio de bancarrota bajo el Código de Bancarrota (11 U.S.C. §528).',
+          'Horario: lunes a viernes 8am–5pm, sábado con cita, domingo cerrado. Contestamos el teléfono las 24 horas en inglés y español, y hay citas en la tarde y fines de semana. Desde Moreno Valley, la consulta es unas 20 millas y 26 minutos al norte por Frederick, Cactus, la I-215 al norte y la I-10 al este — no un local en Sunnymead ni Perris Boulevard. Palm Springs es la otra oficina — 1276 N Palm Canyon Dr #107, (760) 835-9353. Somos una agencia de alivio de deudas. Ayudamos a las personas a solicitar alivio de bancarrota bajo el Código de Bancarrota (11 U.S.C. §528).',
         ],
       },
     ],
@@ -3258,7 +3258,7 @@ const BK_ES: Record<CitySlug, CityPageCopy> = {
       {
         h2: '(909) 915-0181 — Orange Tree Lane',
         paragraphs: [
-          'Horario: lunes a viernes 9am–6pm, sábado 10am–4pm, domingo con cita. Desde Hemet, la consulta es unas 33 millas y 43 minutos al norte-noroeste por Florida Avenue, State Street, Ramona Expressway, CA 79 (Sanderson / Lamb Canyon / Beaumont Avenue), la I-10 al oeste y California Street — cita presencial en Orange Tree Lane, no en un tribunal federal. Palm Springs es la otra oficina — 1276 N Palm Canyon Dr #107, (760) 835-9353. Somos una agencia de alivio de deudas. Ayudamos a las personas a solicitar alivio de bancarrota bajo el Código de Bancarrota (11 U.S.C. §528).',
+          'Horario: lunes a viernes 8am–5pm, sábado con cita, domingo cerrado. Contestamos el teléfono las 24 horas en inglés y español, y hay citas en la tarde y fines de semana. Desde Hemet, la consulta es unas 33 millas y 43 minutos al norte-noroeste por Florida Avenue, State Street, Ramona Expressway, CA 79 (Sanderson / Lamb Canyon / Beaumont Avenue), la I-10 al oeste y California Street — cita presencial en Orange Tree Lane, no en un tribunal federal. Palm Springs es la otra oficina — 1276 N Palm Canyon Dr #107, (760) 835-9353. Somos una agencia de alivio de deudas. Ayudamos a las personas a solicitar alivio de bancarrota bajo el Código de Bancarrota (11 U.S.C. §528).',
         ],
       },
     ],
@@ -3383,7 +3383,7 @@ const BK_ES: Record<CitySlug, CityPageCopy> = {
       {
         h2: '(760) 835-9353 — 1276 N Palm Canyon Dr #107',
         paragraphs: [
-          'Horario: lunes a viernes 9am–6pm, sábado 10am–4pm, domingo con cita. Desde Coachella, la consulta es unas 28.5 millas y unos 35 minutos al oeste-noroeste por Enterprise Way, Avenue 52, SR-86, la I-10 al oeste, Vista Chino y Palm Canyon — en el escritorio de Palm Canyon, no una dirección de tribunal federal. Redlands es la otra oficina — 2068 Orange Tree Lane, Suite 220, (909) 915-0181. Somos una agencia de alivio de deudas. Ayudamos a las personas a solicitar alivio de bancarrota bajo el Código de Bancarrota (11 U.S.C. §528).',
+          'Horario: lunes a viernes 8am–5pm, sábado con cita, domingo cerrado. Contestamos el teléfono las 24 horas en inglés y español, y hay citas en la tarde y fines de semana. Desde Coachella, la consulta es unas 28.5 millas y unos 35 minutos al oeste-noroeste por Enterprise Way, Avenue 52, SR-86, la I-10 al oeste, Vista Chino y Palm Canyon — en el escritorio de Palm Canyon, no una dirección de tribunal federal. Redlands es la otra oficina — 2068 Orange Tree Lane, Suite 220, (909) 915-0181. Somos una agencia de alivio de deudas. Ayudamos a las personas a solicitar alivio de bancarrota bajo el Código de Bancarrota (11 U.S.C. §528).',
         ],
       },
     ],

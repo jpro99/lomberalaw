@@ -52,7 +52,7 @@ export const HOME_COPY: Record<Locale, PageCopy> = {
       {
         h2: 'Hours and How to Reach Us',
         paragraphs: [
-          'Hours are Monday–Friday 9am–6pm, Saturday 10am–4pm, and Sunday by appointment. Serious injuries get a 24/7 emergency consult.',
+          'Hours are Monday–Friday 8am–5pm, Saturday by appointment, Sunday closed. Phones are answered 24/7 in English and Spanish, and evening and weekend appointments are available.',
         ],
       },
     ],
@@ -97,7 +97,7 @@ export const HOME_COPY: Record<Locale, PageCopy> = {
       {
         h2: 'Horario y cómo contactarnos',
         paragraphs: [
-          'Horario: lunes a viernes 9am–6pm, sábado 10am–4pm y domingo con cita. Lesiones graves tienen consulta de emergencia las 24 horas.',
+          'Horario: lunes a viernes 8am–5pm, sábado con cita, domingo cerrado. Contestamos el teléfono las 24 horas en inglés y español, y hay citas en la tarde y fines de semana.',
         ],
       },
     ],
@@ -139,7 +139,7 @@ export const PI_HUB_COPY: Record<Locale, PageCopy> = {
       {
         h2: 'Inland Empire and Coachella Valley Offices',
         paragraphs: [
-          'Two offices keep the file local. Redlands at (909) 915-0181 covers the I-10 east of the 15 and San Bernardino County streets. Palm Springs at (760) 835-9353 covers Highway 111 and valley cities. Hours are Monday–Friday 9am–6pm and Saturday 10am–4pm; Sunday is by appointment. Serious injuries can reach the office after hours for an emergency consult.',
+          'Two offices keep the file local. Redlands at (909) 915-0181 covers the I-10 east of the 15 and San Bernardino County streets. Palm Springs at (760) 835-9353 covers Highway 111 and valley cities. Hours: Monday–Friday 8am–5pm, Saturday by appointment, Sunday closed. Phones are answered 24/7 in English and Spanish, and evening and weekend appointments are available.',
         ],
       },
     ],
@@ -177,7 +177,7 @@ export const PI_HUB_COPY: Record<Locale, PageCopy> = {
       {
         h2: 'Oficinas del Inland Empire y Valle de Coachella',
         paragraphs: [
-          'Dos oficinas mantienen el expediente local. Redlands al (909) 915-0181 cubre la I-10 al este del 15 y las calles del condado de San Bernardino. Palm Springs al (760) 835-9353 cubre la Carretera 111 y las ciudades del valle. Horario: lunes a viernes 9am–6pm y sábado 10am–4pm; domingo con cita. Lesiones graves pueden contactar la oficina fuera de horario para consulta de emergencia.',
+          'Dos oficinas mantienen el expediente local. Redlands al (909) 915-0181 cubre la I-10 al este del 15 y las calles del condado de San Bernardino. Palm Springs al (760) 835-9353 cubre la Carretera 111 y las ciudades del valle. Horario: lunes a viernes 8am–5pm, sábado con cita, domingo cerrado. Contestamos el teléfono las 24 horas en inglés y español, y hay citas en la tarde y fines de semana.',
         ],
       },
     ],

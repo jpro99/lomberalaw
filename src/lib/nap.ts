@@ -61,7 +61,7 @@ export const AREA_SERVED = [
 ] as const
 
 export const OFFICE_HOURS_EN =
-  'Mon–Fri: 9am–6pm\nSat: 10am–4pm\nSun: by appointment\nFree consultations by appointment'
+  'Mon–Fri: 8am–5pm\nSat: by appointment\nSun: closed\nPhones answered 24/7 in English and Spanish\nEvening and weekend appointments available'
 
 export const OFFICE_HOURS_ES =
-  'Lun–Vie: 9am–6pm\nSáb: 10am–4pm\nDom: con cita\nConsultas gratuitas con cita previa'
+  'Lun–Vie: 8am–5pm\nSáb: con cita\nDom: cerrado\nContestamos el teléfono 24/7 en inglés y español\nCitas en la tarde y fines de semana disponibles'
