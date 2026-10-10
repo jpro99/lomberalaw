@@ -44,12 +44,23 @@ export function firmLegalServiceSchema() {
   }
 }
 
+/** Approved door hours: Mon-Fri 8am-5pm. Saturday is by appointment and Sunday is closed, so neither is listed. */
+export const OPENING_HOURS_SPEC = [
+  {
+    '@type': 'OpeningHoursSpecification',
+    dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
+    opens: '08:00',
+    closes: '17:00',
+  },
+]
+
 function officeLocalBusinessNode(o: (typeof OFFICES)[number]) {
   return {
     '@type': 'LocalBusiness',
     '@id': `${FIRM.url}locations/${o.locationSlug}/#office`,
     name: `${FIRM.legalName} — ${o.name}`,
     telephone: o.tel,
+    openingHoursSpecification: OPENING_HOURS_SPEC,
     url: `${FIRM.url}locations/${o.locationSlug}/`,
     address: {
       '@type': 'PostalAddress',
@@ -75,6 +86,7 @@ export function localBusinessSchema(office: OfficeDoc, url: string) {
     name: `${FIRM.legalName} — ${office.name}`,
     telephone: office.phone,
     address: { '@type': 'PostalAddress', streetAddress: office.address },
+    openingHoursSpecification: OPENING_HOURS_SPEC,
     url,
     ...(match && {
       geo: {
